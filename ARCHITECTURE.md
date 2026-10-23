@@ -171,3 +171,10 @@ Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, p
 - FAA NAS items carry real `start`/`issued`/`end`.
 - Aircraft (Transport chip), LIVE TV (News chip), Nostr reports (Crowd chip, OFF by default, unmoderated notice). Reading is opt-in; posting/flagging go to a sessionStorage mock relay only (`MOCK_WRITES` in crowd.js).
 - Card titles use `safeHead()`: headline without name-like patterns, else "type · place". Sheet shows publisher text unmodified.
+
+### QA round fixes
+- Placement: `data/gaz.txt` (from `.github/build_gaz.py`, Census Gazetteer) is used client-side (crowd.js) and by `placer.py`. "City, State" maps to the city point. A bare name that is unique in the Gazetteer is placed only in a place context ("in Kokomo", "Kokomo police") and only if it is not a common word or first name. Ambiguous bare names stay unplaced.
+- FAA: plain-word program names; times carry the viewer's zone label (Intl `shortGeneric`, e.g. ET); the sheet shows the delay start.
+- NEAR: full tz→state map including IANA aliases; multi-state zones show "Guessed: NY, change".
+- stateOf: point-in-polygon, then a Canada/Mexico mask (Natural Earth 1:50m, clipped), then nearest-state fallback (~35 km). Covers PR, USVI, Guam, CNMI, and American Samoa.
+- Feeds that fail show an error plus a retry countdown and a RETRY NOW button. news.json loads after first paint. Future-dated news is dropped in the snapshot.

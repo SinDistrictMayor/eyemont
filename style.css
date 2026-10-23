@@ -88,3 +88,13 @@ body.crowd{--hd:202px}#crowdbar{display:flex;gap:6px;padding:0 10px 8px;align-it
 body.picking #map{cursor:crosshair;outline:2px dashed #ff2bd6;outline-offset:-2px}
 .live{list-style:none;margin:0 10px;display:flex;gap:6px;overflow-x:auto}.live a{flex:0 0 auto;min-height:44px;display:flex;align-items:center;padding:0 12px;border:1px solid #fff;color:#fff;text-decoration:none;font-size:12px}
 .rep{margin:0 12px}.rep .post button{min-height:44px;background:#000;color:var(--g);border:1px solid var(--d);margin:4px 4px 0 0;padding:0 10px}
+/* follow-ups: tap targets, guessed region, feed errors */
+#map .leaflet-control-attribution{max-height:44px;line-height:40px;min-height:44px;box-sizing:border-box}
+#map .leaflet-control-attribution:not(.open) a{pointer-events:none}
+.leaflet-control-attribution.open a,#rmap .leaflet-control-attribution a,#sheet .leaflet-control-attribution a{display:inline-block;min-height:44px;min-width:44px;line-height:44px;padding:0 6px;box-sizing:border-box;text-align:center}
+#map .leaflet-control-attribution.open{line-height:44px}
+.linkbtn{background:none;border:0;color:var(--g2,#39ff14);text-decoration:underline;font:inherit;min-height:44px;min-width:44px;padding:0 6px;cursor:pointer}
+#nearhint .coarse{opacity:.7}
+.empty .err{color:#ff6d6d}.empty .btn{margin-top:8px;min-height:44px}
+#sync.bad{color:#ff6d6d}
+[hidden]{display:none!important}

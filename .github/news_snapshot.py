@@ -48,6 +48,7 @@ def one(f):
         t=when(txt(it,'pubDate',D+'date',A+'updated',A+'published'))
         if not title or not link.startswith('http'): continue
         if not t or (now-t).total_seconds()>6*3600: continue
+        if (t-now).total_seconds()>300: continue  # future-dated (bad feed clock): drop
         p=place(title) or place(summ[:300]); home=p is None
         lat,lon=(p[1],p[2]) if p else S['homes'][f['home']]
         items.append({'title':scrub(title if f.get('credit') else title[:200]),'url':link,'sum':trim(scrub(re.sub(r'\s+',' ',summ).strip()),300 if f.get('credit') else 160),'src':f['id'],'time':t.isoformat() if t else None,

@@ -31,6 +31,11 @@ const DOMCLS={'bbc.co.uk':'official','bbc.com':'official','voanews.com':'officia
  'reuters.com':'major','apnews.com':'major','nytimes.com':'major','washingtonpost.com':'major','cnn.com':'major','foxnews.com':'major','nbcnews.com':'major','cbsnews.com':'major','abcnews.go.com':'major','usatoday.com':'major','wsj.com':'major','bloomberg.com':'major','theguardian.com':'major','telegraph.co.uk':'major','dailymail.co.uk':'major','independent.co.uk':'major','thetimes.co.uk':'major','ft.com':'major','economist.com':'major','yahoo.com':'major','msn.com':'major','cnbc.com':'major','nypost.com':'major','latimes.com':'major','politico.com':'major','axios.com':'major','newsweek.com':'major','time.com':'major','afp.com':'major','sky.com':'major','lemonde.fr':'major','spiegel.de':'major','timesofindia.indiatimes.com':'major','hindustantimes.com':'major','ndtv.com':'major','npr.org':'major'};
 const domCls=u=>{let h='';try{h=new URL(u).hostname.replace(/^www\./,'')}catch(e){return 'independent'}const p=h.split('.');for(let i=0;i<p.length;i++){const d=p.slice(i).join('.');if(DOMCLS[d])return DOMCLS[d]}return 'independent'};
 let _H=null,_HT=0;const H=()=>{if(!_H||Date.now()-_HT>600e3){_HT=Date.now();_H=getJSON('data/hazards.json?t='+Math.floor(Date.now()/300e3))}return _H};
+/* FAA NAS raw program codes -> plain words; times carry the viewer's own zone label (e.g. ET), computed by Intl */
+const FAAW={groundStop:'Ground stop',groundDelay:'Ground delay',arrivalDelay:'Arrival delays',departureDelay:'Departure delays',airportClosure:'Airport closed',freeForm:'FAA advisory',deicing:'De-icing'};
+const faaWord=k=>FAAW[k]||k.replace(/([A-Z])/g,' $1').replace(/^./,c=>c.toUpperCase());
+const TZL=(()=>{try{return new Intl.DateTimeFormat('en-US',{timeZoneName:'shortGeneric'}).formatToParts(new Date()).find(p=>p.type==='timeZoneName').value}catch(e){try{return new Intl.DateTimeFormat('en-US',{timeZoneName:'short'}).formatToParts(new Date()).find(p=>p.type==='timeZoneName').value}catch(e){return ''}}})();
+const tzt=(t,short)=>{const d=new Date(t),today=d.toDateString()===new Date().toDateString();return d.toLocaleString([],short||today?{hour:'numeric',minute:'2-digit'}:{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+(TZL?' '+TZL:'')};
 const LAYERS=[
 {id:'quakes',cls:'official',label:'⌁ QUAKE',color:'#ff4d4d',refresh:120e3,attribution:'Quakes: <a href="https://earthquake.usgs.gov">USGS</a>',
  async load(){const d=await getJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson');
@@ -65,7 +70,7 @@ const LAYERS=[
   return d.events.map(e=>{const g=e.geometry[e.geometry.length-1];if(!g||g.type!=='Point')return null;const cat=e.categories[0]?.title||'';
    return {lat:g.coordinates[1],lon:g.coordinates[0],r:5,time:Date.parse(g.date),src:'NASA EONET',text:cat+' '+e.title,title:e.title,sub:`${cat} · ${new Date(g.date).toLocaleDateString()}`,popup:`<b>${esc(e.title)}</b><br>${esc(cat)} · ${new Date(g.date).toLocaleString()}<br>${(e.sources||[]).map(s=>`<a target=_blank rel=noopener href="${esc(s.url)}">${esc(s.id)} ↗</a>`).join(' ')}`}}).filter(Boolean)}},
 {id:'news',cls:'major',label:'🗞 NEWS',color:'#e0e0e0',refresh:900e3,attribution:'News: publisher RSS feeds (headlines link to the original)',
- async load(){await srcReady;const d=await getJSON('data/news.json?t='+Math.floor(Date.now()/300e3));const ok=Object.values(d.status||{}).filter(v=>v.startsWith('ok')).length;
+ async load(){await srcReady;await PAINTED;const d=await getJSON('data/news.json?t='+Math.floor(Date.now()/300e3));const ok=Object.values(d.status||{}).filter(v=>v.startsWith('ok')).length;
   this.note=`${d.items.length} headlines, ${ok}/${Object.keys(d.status||{}).length} feeds ok · snapshot ${new Date(d.updated).toLocaleTimeString()} · ⌂ = placed at outlet's home city`;
   return d.items.map(i=>{i.title=Crowd.scrub(i.title);i.sum=Crowd.scrub(i.sum);const f=SRCBY[i.src]||{name:i.src,cls:'independent'};return {url:i.url,place:i.place,home:i.home,lat:i.lat,lon:i.lon,r:i.home?3:5,cls:f.cls,fund:f.fund,src:f.name,time:i.time?Date.parse(i.time):null,text:i.title,
    title:(i.home?'⌂ ':'📍 ')+i.title,sub:`${f.name} · ${i.place}${i.home?' (outlet home city, not event location)':''} · ${i.time?new Date(i.time).toLocaleTimeString():''}`,
@@ -85,7 +90,10 @@ const LAYERS=[
 {id:'faa',cls:'official',label:'✈ FAA',color:'#80d8ff',refresh:900e3,attribution:'Airspace: <a href="https://tfr.faa.gov">FAA TFR</a>, <a href="https://nasstatus.faa.gov">FAA NAS Status</a>',
  async load(){const d=await H();this.note='TFRs placed at state centroid (approximate) · airport delays at the airport';
   return [...(d.tfr||[]).map(t=>({approx:true,lat:t.lat,lon:t.lon,r:4,src:'FAA TFR',text:t.desc,title:`TFR ${t.type} · ${t.state}`,sub:t.desc,popup:`<b>TFR ${esc(t.id)} · ${esc(t.type)}</b><br>${esc(t.desc)}<br><small>Shown at ${esc(t.state)} centroid, not the TFR area.</small><br><a target=_blank rel=noopener href="https://tfr.faa.gov/tfr3/?page=detail_${esc(t.id.replace('/','_'))}">FAA ↗</a>`})),
-   ...(d.nas||[]).map(a=>{const st=a.start?Date.parse(a.start):null,iss=a.issued?Date.parse(a.issued):null,fut=st&&st>Date.now();return {lat:a.lat,lon:a.lon,r:7,time:fut?iss:(st||iss),src:'FAA NAS',text:a.apt+' delay',title:`${a.apt} ${a.kinds.join(', ')}${fut?' (starts '+new Date(st).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})+')':''}`,sub:(a.avg?`avg ${a.avg} min delay · `:'')+(st?(fut?'starts ':'since ')+new Date(st).toLocaleString():'')+(a.end?' · until '+new Date(a.end).toLocaleString():''),popup:`<b>${esc(a.apt)}: ${esc(a.kinds.join(', '))}</b><br>${a.avg?'avg '+a.avg+' min, max '+a.max+' min<br>':''}<a target=_blank rel=noopener href="https://nasstatus.faa.gov">FAA NAS Status ↗</a>`}})]}},
+   ...(d.nas||[]).map(a=>{const st=a.start?Date.parse(a.start):null,iss=a.issued?Date.parse(a.issued):null,fut=st&&st>Date.now(),k=a.kinds.map(faaWord).join(', ');
+    const sub=(a.avg?`avg ${a.avg} min delay · `:'')+(st?(fut?'starts ':'since ')+tzt(st):'')+(a.end?' · until '+tzt(a.end):'');
+    return {lat:a.lat,lon:a.lon,r:7,time:fut?iss:(st||iss),start:st,src:'FAA NAS',text:a.apt+' delay',title:`${a.apt} ${k}${fut?' (starts '+tzt(st,1)+')':''}`,sub,
+     popup:`<b>${esc(a.apt)}: ${esc(k)}</b><br>${esc(sub)}${a.why?'<br>Cause: '+esc(a.why):''}${a.max?'<br>max '+a.max+' min':''}<br><a target=_blank rel=noopener href="https://nasstatus.faa.gov">FAA NAS Status ↗</a>`}})]}},
 {id:'flood',cls:'official',label:'🌊 FLOOD',color:'#2979ff',refresh:300e3,attribution:'Flood: <a href="https://www.weather.gov">NWS</a> / <a href="https://water.noaa.gov">NWPS</a>',
  async load(){const d=await getJSON('https://api.weather.gov/alerts/active?status=actual',{headers:{Accept:'application/geo+json'}});
   return d.features.filter(f=>f.geometry&&/Flood/.test(f.properties.event)).map(f=>{const g=L.geoJSON(f.geometry).getBounds().getCenter();const p=f.properties;
@@ -158,9 +166,13 @@ const W=Object.fromEntries(Object.entries({reports:.5,quakes:1,alerts:.9,flood:1
 let PLACES=[],PLACE_OK=getJSON('data/places.json').then(p=>PLACES=p).catch(()=>{});
 const nearPlace=(lat,lon)=>{let b=null,bd=1e9;for(const p of PLACES){const d=km(lat,lon,p[1],p[2]);if(d<bd){bd=d;b=p}}return b&&bd<150?(bd<15?b[0]:`${Math.round(bd)} km from ${b[0]}`)+(b[3]&&b[3]!=='United States of America'?', '+b[3]:''):null};
 /* state = point-in-polygon against data/us_states.geojson (Census cb_2023 20m, public domain, simplified) */
-let STP=[];const STATES_OK=getJSON('data/us_states.geojson').then(g=>{STP=g.features.map(f=>{const polys=f.geometry.coordinates;let b=[90,180,-90,-180];polys.forEach(p=>p[0].forEach(([x,y])=>{b=[Math.min(b[0],y),Math.min(b[1],x),Math.max(b[2],y),Math.max(b[3],x)]}));return {n:f.properties.name,polys,b}})}).catch(()=>{});
+let STP=[];const STATES_OK=getJSON('data/us_states.geojson').then(g=>{STP=g.features.map(f=>{const polys=f.geometry.coordinates;let b=[90,180,-90,-180];polys.forEach(p=>p[0].forEach(([x,y])=>{b=[Math.min(b[0],y),Math.min(b[1],x),Math.max(b[2],y),Math.max(b[3],x)]}));return {n:f.properties.name,a:f.properties.abbr,x:!!f.properties.foreign,polys,b}})}).catch(()=>{});
 const inRing=(x,y,r)=>{let c=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const [xi,yi]=r[i],[xj,yj]=r[j];if((yi>y)!==(yj>y)&&x<(xj-xi)*(y-yi)/(yj-yi)+xi)c=!c}return c};
-const stateOf=(lat,lon)=>{for(const s of STP){if(lat<s.b[0]||lat>s.b[2]||lon<s.b[1]||lon>s.b[3])continue;if(s.polys.some(p=>inRing(lon,lat,p[0])&&!p.slice(1).some(h=>inRing(lon,lat,h))))return s.n}return null};
+const inSt=(s,lat,lon)=>!(lat<s.b[0]||lat>s.b[2]||lon<s.b[1]||lon>s.b[3])&&s.polys.some(p=>inRing(lon,lat,p[0])&&!p.slice(1).some(h=>inRing(lon,lat,h)));
+const stateOf=(lat,lon)=>{for(const s of STP)if(!s.x&&inSt(s,lat,lon))return s.n;
+ if(STP.some(s=>s.x&&inSt(s,lat,lon)))return null; /* Canada/Mexico/Cuba/Bahamas mask: never snap a foreign point to a US state */
+ /* border / coast / small-island fallback (simplified outlines drop Keys, piers, inlets): nearest outline vertex within ~0.35 deg (~35 km) */
+ let best=null,bd=.35*.35;const k=Math.cos(lat*Math.PI/180);for(const s of STP){if(s.x||lat<s.b[0]-.4||lat>s.b[2]+.4||lon<s.b[1]-.4||lon>s.b[3]+.4)continue;for(const p of s.polys)for(const [x,y] of p[0]){const d=(y-lat)**2+((x-lon)*k)**2;if(d<bd){bd=d;best=s.n}}}return best};
 const links=h=>{const o=[];String(h||'').replace(/href="([^"]+)"[^>]*>([^<]*)</g,(m,u,t)=>{if(!/^https?:/.test(u))return;o.push([u.replace(/&amp;/g,'&'),t.replace(/[↗\s]+$/,'')])});return o};
 const html=i=>typeof i.popup==='function'?i.popup():i.popup;
 /* build ranked feed: linked incidents (≥2 sources) + strong single-source signals */
@@ -194,16 +206,33 @@ const card=(e,k)=>{const T=TOPICS[e.topic];return `<li><button class="card" data
 <span class="cf">${clsChips(e.cls)}<small>${e.src} src${e.m.length>1?' · '+e.m.length+' items':''}${e.grow?' · ↑'+e.grow:''}</small>${svgSpark(e.spark)}</span></button></li>`};
 function list(ul,arr,empty){const v=arr.filter(visible);ul.innerHTML=v.length?v.slice(0,120).map(e=>card(e,FEED.indexOf(e))).join(''):`<li class="empty">${empty}</li>`}
 let tab=localStorage.getItem('eyemont.tab')||'now';
+/* empty-state wording: never claim "syncing" once every feed has failed; show error + retry state */
+const feedMsg=(ld,er)=>{const pend=ld.filter(l=>!state[l.id].data&&!state[l.id].err).length;if(!er.length||pend)return 'syncing feeds…';
+ const nx=Math.min(...er.map(l=>state[l.id].next||Infinity)),sec=isFinite(nx)?Math.max(0,Math.round((nx-Date.now())/1000)):null;
+ return `<span class="err">⚠ Could not reach ${er.length} feed${er.length>1?'s':''} (offline or blocked).</span><br>Retrying automatically${sec!=null?' in '+sec+' s':''}. <button type="button" class="btn" data-retry>RETRY NOW</button>`};
+document.addEventListener('click',e=>{if(!e.target.closest('[data-retry]'))return;LAYERS.forEach(Ly=>{const s=state[Ly.id];if(s.on&&s.err){s.fails=0;s.err=null;refresh(Ly)}});render()});
+
 function render(){const ld=LAYERS.filter(l=>state[l.id].on&&W[l.id]),ok=ld.filter(l=>state[l.id].data).length,er=ld.filter(l=>state[l.id].err);
- $('#sync').textContent=`${ok}/${ld.length} feeds${er.length?' · '+er.length+' retrying':''}`;$('#sync').title=er.map(l=>l.label+': '+state[l.id].err).join('\n');
+ $('#sync').textContent=ld.length&&er.length===ld.length?`offline · ${er.length} feeds retrying`:`${ok}/${ld.length} feeds${er.length?' · '+er.length+' retrying':''}`;$('#sync').classList.toggle('bad',!!er.length&&er.length===ld.length);$('#sync').title=er.map(l=>l.label+': '+state[l.id].err).join('\n');
  const nInc=FEED.filter(e=>e.kind==='inc'&&visible(e)).length;
- if(tab==='now'){$('#nowsum').innerHTML=`<b>${FEED.filter(visible).length}</b> signals · <b>${nInc}</b> linked incidents · ranked by confidence, severity, recency`;list($('#nowlist'),FEED,ok?'Nothing matches these filters.':'syncing feeds…');const lv=$('#livestrip');if(topOn.has('news')){ensure('live').then(()=>{lv.innerHTML=(state.live.data||[]).map(l=>`<li><a target=_blank rel=noopener href="${esc(links(l.popup)[0]?.[0]||'#')}">▶ ${esc(l.title)} ↗</a></li>`).join('');lv.hidden=false})}else lv.hidden=true}
+ if(tab==='now'){$('#nowsum').innerHTML=`<b>${FEED.filter(visible).length}</b> signals · <b>${nInc}</b> linked incidents · ranked by confidence, severity, recency`;list($('#nowlist'),FEED,ok?'Nothing matches these filters.':feedMsg(ld,er));const lv=$('#livestrip'),LV=LAYERS.find(l=>l.id==='live');if(topOn.has('news')&&clsOn[LV.cls]){ensure('live').then(()=>{if(!(topOn.has('news')&&clsOn[LV.cls]))return;lv.innerHTML=(state.live.data||[]).map(l=>`<li><a target=_blank rel=noopener href="${esc(links(l.popup)[0]?.[0]||'#')}">▶ ${esc(l.title)} ↗</a></li>`).join('');lv.hidden=false})}else lv.hidden=true}
  if(tab==='near')renderNear();if(tab==='map')drawMap()}
 /* NEAR: coarse region only (chosen state, or a timezone guess). No geolocation API is used. */
-const TZ={'America/New_York':'New York','America/Detroit':'Michigan','America/Chicago':'Illinois','America/Denver':'Colorado','America/Phoenix':'Arizona','America/Los_Angeles':'California','America/Anchorage':'Alaska','Pacific/Honolulu':'Hawaii','America/Boise':'Idaho','America/Indiana/Indianapolis':'Indiana','America/Kentucky/Louisville':'Kentucky','America/Puerto_Rico':'Puerto Rico'};
+/* tz -> [state, coarse?]. Coarse = the zone spans many states, so we show "Guessed: NY, change". Includes IANA links/aliases Chrome may report. */
+const TZ=(()=>{const m={},put=(st,c,...z)=>z.forEach(x=>m[x]=[st,c]);
+ put('New York',1,'America/New_York','US/Eastern','EST5EDT','EST');put('Illinois',1,'America/Chicago','US/Central','CST6CDT');put('Colorado',1,'America/Denver','US/Mountain','MST7MDT','Navajo','America/Shiprock');
+ put('California',1,'America/Los_Angeles','US/Pacific','PST8PDT');put('Arizona',0,'America/Phoenix','US/Arizona','MST');put('Michigan',0,'America/Detroit','US/Michigan','America/Menominee');
+ put('Indiana',0,'America/Indiana/Indianapolis','America/Indianapolis','America/Fort_Wayne','US/East-Indiana','America/Indiana/Knox','America/Knox_IN','US/Indiana-Starke','America/Indiana/Marengo','America/Indiana/Petersburg','America/Indiana/Tell_City','America/Indiana/Vevay','America/Indiana/Vincennes','America/Indiana/Winamac');
+ put('Kentucky',0,'America/Kentucky/Louisville','America/Louisville','America/Kentucky/Monticello');put('North Dakota',0,'America/North_Dakota/Center','America/North_Dakota/New_Salem','America/North_Dakota/Beulah');
+ put('Alaska',0,'America/Anchorage','America/Juneau','America/Sitka','America/Nome','America/Yakutat','America/Metlakatla','America/Adak','America/Atka','US/Alaska','US/Aleutian');
+ put('Hawaii',0,'Pacific/Honolulu','Pacific/Johnston','US/Hawaii','HST');put('Idaho',0,'America/Boise');put('Puerto Rico',0,'America/Puerto_Rico');put('U.S. Virgin Islands',0,'America/St_Thomas','America/Virgin');
+ put('Guam',0,'Pacific/Guam');put('Northern Mariana Islands',0,'Pacific/Saipan');put('American Samoa',0,'Pacific/Pago_Pago','Pacific/Samoa','US/Samoa','Pacific/Midway');return m})();
+let nearGuess=null;
 let near=localStorage.getItem('eyemont.near')||'';
 function renderNear(){const s=$('#nearsel');if(near&&s.value!==near)s.value=near;const b=BBOX[near];
- $('#nearhint').textContent=near?(localStorage.getItem('eyemont.near')?'saved on this device only':'guessed from your timezone, change it anytime'):'pick a state';
+ const h=$('#nearhint'),ab=STP.find(x=>x.n===near)?.a||near;
+ if(!near)h.textContent='pick a state';else if(localStorage.getItem('eyemont.near'))h.textContent='saved on this device only';
+ else{h.innerHTML=`Guessed: <b>${esc(ab)}</b>, <button type="button" id="nearchg" class="linkbtn">change</button>${nearGuess&&nearGuess[1]?' <span class="coarse">(your timezone covers many states)</span>':''}`;$('#nearchg').onclick=()=>{const s=$('#nearsel');s.focus();try{s.showPicker()}catch(e){s.click()}}}
  list($('#nearlist'),b?FEED.filter(e=>e.st===near):[],near?`No signals in ${esc(near)} right now.`:'Pick a state above.');
  const sc=$('#nearscan');if(near&&sc.dataset.st!==near){sc.dataset.st=near;Scanners.showState(sc,near,null)}}
 /* MAP: one map, markers colored by event topic; no layer toggles */
@@ -226,7 +255,7 @@ function openDetail(k){const e=FEED[k];if(!e)return;const T=TOPICS[e.topic];cons
  const lk=[];e.m.forEach(x=>links(html(x.i)).forEach(l=>{if(!lk.some(y=>y[0]===l[0]))lk.push([l[0],l[1],x.src])}));if(e.m.some(x=>x.i.url)){e.m.forEach(x=>{if(x.i.url&&!lk.some(y=>y[0]===x.i.url))lk.push([x.i.url,'read at '+x.src,x.src])})}
  const us=!!e.st;
  sb.innerHTML=`<p class="kick" style="color:${T[2]}">${T[1]} ${esc((e.type||'event').toUpperCase())} · ${esc(T[0])}</p><h2 id="stitle">${esc(e.head)}</h2>
-<p class="meta">◎ ${esc(where(e))}${e.near&&e.place&&!e.near.startsWith(e.place)?` <small>(${esc(e.near)})</small>`:''}<br>⏱ ${new Date(e.first).toLocaleString()}${e.last!==e.first?' → '+new Date(e.last).toLocaleTimeString():''} · ${ago(e.last/1000)}</p>
+${e.m.some(x=>x.i.start)?`<p class="meta">✈ Delay ${(()=>{const st=Math.min(...e.m.filter(x=>x.i.start).map(x=>x.i.start));return (st>Date.now()?'starts ':'started ')+tzt(st)})()}</p>`:''}<p class="meta">◎ ${esc(where(e))}${e.near&&e.place&&!e.near.startsWith(e.place)?` <small>(${esc(e.near)})</small>`:''}<br>⏱ ${tzt(e.first)}${e.last!==e.first?' → '+tzt(e.last,1):''} · ${ago(e.last/1000)}</p>
 <div class="cbig"><span class="conf"><i style="width:${Math.round(e.conf*100)}%"></i><em>confidence ${Math.round(e.conf*100)}%</em></span>${svgSpark(e.spark)}</div>
 <p class="note">${e.kind==='inc'?`${e.src} distinct sources · ${e.cls.length} class(es) · ${e.m.length} items linked by place (≤25 km), time (≤2 h) and event type. Automatic match, not verification.`:'Single source so far. Confidence rises when independent sources report the same event nearby.'}</p>
 <h3>COVERAGE BY SOURCE CLASS</h3><div class="grid3">${Object.keys(CLASSES).map(c=>`<div class="col${by[c]?'':' none'}"><span class="cls cls-${c}">${CLASSES[c]}</span>${(by[c]||[]).slice(0,6).map(x=>`<p><small>${esc(x.src)}</small>${esc(x.i.title.replace(/^[^\w]+/,'').slice(0,90))}</p>`).join('')||'<p><small>no coverage</small></p>'}</div>`).join('')}</div>
@@ -278,21 +307,24 @@ $('#repPost').onclick=()=>{Reports.lib().catch(()=>{});sb.innerHTML=`<p class="k
  sheet.hidden=false;document.body.classList.add('sheet');const ta=$('#rtxt');ta.value=sessionStorage.getItem('eyemont.draft')||'';ta.oninput=()=>{$('#rcnt').textContent=ta.value.length+'/280';sessionStorage.setItem('eyemont.draft',ta.value)};
  $('#rpick').onclick=()=>{picking=true;document.body.classList.add('picking');closeSheet();setTab('map');toast('Tap the map where it is happening')};
  $('#rsend').onclick=async()=>{const out=$('#rout');if(!pickLL){out.textContent='Pick an area first.';return}out.innerHTML='computing proof-of-work… <progress max=1 value=0></progress>';const pg=out.querySelector('progress');
-  try{await Reports.publish($('#rcat').value,ta.value,pickLL.lat,pickLL.lng,p=>{pg.value=p;if(p>=1)out.textContent='posting to test relay…'});out.textContent='Saved to the local test relay (not public).';ta.value='';sessionStorage.removeItem('eyemont.draft');pickLL=null;if(pickMk)pickMk.remove();if(state.reports.on)refresh(LAYERS.find(l=>l.id==='reports'))}catch(x){out.textContent=x.message}}};
+  try{await Reports.publish($('#rcat').value,ta.value,pickLL.lat,pickLL.lng,p=>{pg.value=p;if(p>=1)out.textContent='posting to test relay…'});out.textContent='Saved to the local test relay (not public).';ta.value='';ta.dispatchEvent(new Event('input'));$('#rcat').selectedIndex=0;$('#rloc').textContent='no area picked';sessionStorage.removeItem('eyemont.draft');pickLL=null;if(pickMk){pickMk.remove();pickMk=null}if(state.reports.on)refresh(LAYERS.find(l=>l.id==='reports'))}catch(x){out.textContent=x.message}}};
 map.on('click',e=>{if(!picking)return;picking=false;document.body.classList.remove('picking');pickLL=e.latlng;if(pickMk)pickMk.remove();pickMk=L.circle(pickLL,{radius:2500,color:'#ff2bd6'}).addTo(map);$('#repPost').click()});
 function toast(t){const d=$('#toast');d.textContent=t;d.hidden=false;clearTimeout(d._t);d._t=setTimeout(()=>d.hidden=true,3000)}
 /* loading with backoff, same contract as before */
+/* heavy news.json waits for first paint of the other feeds */
+let painted;const PAINTED=new Promise(r=>painted=r);const markPaint=()=>requestAnimationFrame(()=>setTimeout(painted,0));if(document.readyState==='complete')setTimeout(markPaint,600);else addEventListener('load',()=>setTimeout(markPaint,300));
 let bT;const rebuild=()=>{clearTimeout(bT);bT=setTimeout(build,250)};
 async function refresh(Ly){const s=state[Ly.id];clearTimeout(s.timer);if(!s.on)return;
  try{const d=await Ly.load();if(!s.on)return;s.data=d;s.err=null;s.fails=0;if(Ly.refresh)s.timer=setTimeout(()=>refresh(Ly),Ly.refresh)}
- catch(e){s.fails++;const wait=Math.min(5e3*2**(s.fails-1),300e3);s.err=`unavailable (${e.message}), retry in ${Math.round(wait/1000)}s`;s.timer=setTimeout(()=>refresh(Ly),wait)}rebuild()}
+ catch(e){s.fails++;const wait=Math.min(5e3*2**(s.fails-1),300e3);s.err=`unavailable (${e.message}), retry in ${Math.round(wait/1000)}s`;s.next=Date.now()+wait;s.timer=setTimeout(()=>refresh(Ly),wait)}rebuild()}
 LAYERS.forEach(Ly=>{if(state[Ly.id].on){map.attributionControl.addAttribution(Ly.attribution);refresh(Ly)}});
 map.attributionControl.addAttribution('Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>');
 window.addEventListener('eyemont:hidden',()=>refresh(LAYERS.find(l=>l.id==='crowd')));
 const ns=$('#nearsel');getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>ns.add(new Option(k,k)));
- if(!near){const g=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone];if(g&&BBOX[g])near=g}Promise.all([PLACE_OK,STATES_OK]).then(build)}).catch(()=>{});
+ if(!near){const g=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone];if(g&&BBOX[g[0]]){near=g[0];nearGuess=g}}Promise.all([PLACE_OK,STATES_OK]).then(build)}).catch(()=>{});
 ns.onchange=()=>{near=ns.value;localStorage.setItem('eyemont.near',near);render()};
 setInterval(()=>tab!=='map'&&render(),60e3);
 setTab(tab);
 window.__feed=()=>FEED.slice(0,10).map(e=>({k:e.kind,t:e.type,h:e.head,c:e.conf,s:e.src,p:where(e)}));
+window.__t={tz:()=>TZL,stateOf:(a,b)=>stateOf(a,b),ready:()=>STATES_OK};
 })();
