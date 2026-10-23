@@ -1,5 +1,7 @@
 # Eyemont — Architecture
 
+> **RULE #1 — Zero cost, now and ongoing.** No paid hosting, APIs, domains, subscriptions, trials that convert, or services that require a card on file. Only free tiers needing no payment details and free public sources. Anything not free is dropped. (Current stack: public GitHub repo + GitHub Pages + GitHub Actions on a public repo, all free; free public data feeds; CARTO basemap free-use tier with attribution.)
+
 Mobile-only, **fully static** single-page app on GitHub Pages. No runtime backend, no bot at runtime.
 Leaflet + CARTO dark tiles; Matrix digital-rain canvas behind a black/green monospace touch UI.
 
