@@ -13,6 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Aircraft snapshot (adsb.lol, ODbL; browser can't fetch it, no CORS)
         run: python3 .github/aircraft_snapshot.py
+      - name: GDELT events snapshot (open 15-min export; GEO API is gone)
+        run: python3 .github/gdelt_snapshot.py || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: {path: .}
