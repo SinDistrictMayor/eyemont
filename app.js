@@ -1,78 +1,96 @@
-// EYEMONT M1 — layer plugin registry. See ARCHITECTURE.md
+// EYEMONT M1 — layer plugin registry. See ARCHITECTURE.md. Static only: every feed is a direct public fetch or a build-time snapshot.
 (()=>{
-const API=''; // reserved: optional proxy base URL (future, needs Evan's approval). Empty = direct fetch.
-const c=document.getElementById('rain'),x=c.getContext('2d');let drops=[];
-function rs(){c.width=innerWidth;c.height=innerHeight;drops=Array(Math.floor(c.width/14)).fill(1)}rs();addEventListener('resize',rs);
-setInterval(()=>{x.fillStyle='rgba(0,0,0,.08)';x.fillRect(0,0,c.width,c.height);x.fillStyle='#00ff41';x.font='14px monospace';
-drops.forEach((y,i)=>{x.fillText(String.fromCharCode(0x30A0+Math.random()*96),i*14,y*14);if(y*14>c.height&&Math.random()>.975)drops[i]=0;drops[i]++})},60);
+/* digital rain: ~20 fps, paused when hidden, faint */
+const c=document.getElementById('rain'),x=c.getContext('2d');let drops=[],rainT=null;
+function rs(){c.width=innerWidth;c.height=innerHeight;drops=Array(Math.floor(c.width/16)).fill(1)}rs();addEventListener('resize',rs);
+function frame(){x.fillStyle='rgba(0,0,0,.1)';x.fillRect(0,0,c.width,c.height);x.fillStyle='#00ff41';x.font='14px monospace';
+ drops.forEach((y,i)=>{x.fillText(String.fromCharCode(0x30A0+Math.random()*96),i*16,y*16);if(y*16>c.height&&Math.random()>.975)drops[i]=0;drops[i]++})}
+const rainOn=()=>{if(!rainT&&!document.hidden)rainT=setInterval(frame,50)},rainOff=()=>{clearInterval(rainT);rainT=null};
+document.addEventListener('visibilitychange',()=>document.hidden?rainOff():rainOn());rainOn();
 
-const map=L.map('map',{zoomControl:false,worldCopyJump:true}).setView([39,-98],3);
-L.control.zoom({position:'bottomleft'}).addTo(map);
+const map=L.map('map',{zoomControl:false,worldCopyJump:true}).setView([39,-98],3);window.EYEMONT_MAP=map;
+L.control.zoom({position:'topleft'}).addTo(map);
+map.attributionControl.setPosition('bottomright');
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,
  attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-const dot=(ll,col,r=5)=>L.circleMarker(ll,{radius:r,color:col,weight:1,fillColor:col,fillOpacity:.7});
+const dot=(ll,col,r=5)=>L.circleMarker(ll,{radius:r,color:col,weight:1,fillColor:col,fillOpacity:.75});
 let BBOX={},region='World';
 const inRegion=(lat,lon)=>{if(region==='World')return true;const b=BBOX[region];return b&&lat>=b[0]&&lat<=b[2]&&lon>=b[1]&&lon<=b[3]};
-const center=()=>region==='World'||!BBOX[region]?map.getCenter():L.latLngBounds([BBOX[region][0],BBOX[region][1]],[BBOX[region][2],BBOX[region][3]]).getCenter();
 async function getJSON(u,o){const r=await fetch(u,o);if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
-// Feed access: proxy (apiBase/feeds/<name>) first when configured, then direct sources in order.
-async function feed(name,direct,o){if(API){try{return await getJSON(`${API}/feeds/${name}`)}catch(e){}}
- let err;for(const u of [].concat(direct)){try{return await getJSON(u,o)}catch(e){err=e}}throw err}
+const ago=t=>{const m=Math.round((Date.now()/1000-t)/60);return m<1?'just now':m<120?m+' min ago':Math.round(m/60)+' h ago'};
 
-/* Layer plugins: {id,label,color,attribution,refresh(ms),load()->[{lat,lon,title,sub,popup,r?,geo?}]} */
-document.addEventListener('click',e=>{const b=e.target.closest('button.live');if(b)Player.play(b.dataset.h,b.dataset.n,'Caltrans live cam',b.dataset.i)});
+/* Layer plugins: {id,label,color,attribution,refresh(ms, 0=once),viewport?,cluster?,load()->[{lat,lon,title,sub,popup,r?,geo?,state?,county?}]} */
+document.addEventListener('click',e=>{const b=e.target.closest('button.live');if(b)Player.play({src:b.dataset.h,title:b.dataset.n,artist:'Caltrans live cam',art:b.dataset.i,audio:false})});
 const LAYERS=[
-{id:'quakes',label:'⌁ QUAKES',color:'#ff3b3b',refresh:120e3,attribution:'Quakes: <a href="https://earthquake.usgs.gov">USGS</a>',
- async load(){const d=await feed('quakes','https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson');
+{id:'quakes',label:'⌁ QUAKES',color:'#ff4d4d',refresh:120e3,attribution:'Quakes: <a href="https://earthquake.usgs.gov">USGS</a>',
+ async load(){const d=await getJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson');
   return d.features.map(f=>({lat:f.geometry.coordinates[1],lon:f.geometry.coordinates[0],r:3+Math.max(0,f.properties.mag||0)*2,
    title:`M${(f.properties.mag??0).toFixed(1)} ${f.properties.place||''}`,sub:new Date(f.properties.time).toLocaleString(),
    popup:`<b>${esc(f.properties.title)}</b><br>${new Date(f.properties.time).toLocaleString()}<br><a target=_blank rel=noopener href="${esc(f.properties.url)}">USGS ↗</a>`}))}},
-{id:'alerts',label:'⚠ NWS ALERTS',color:'#ffd400',refresh:180e3,attribution:'Alerts: <a href="https://www.weather.gov">NWS</a>',
- async load(){const d=await feed('alerts','https://api.weather.gov/alerts/active?status=actual',{headers:{Accept:'application/geo+json'}});
+{id:'alerts',label:'⚠ ALERTS',color:'#ffd400',refresh:180e3,attribution:'Alerts: <a href="https://www.weather.gov">NWS</a>',
+ async load(){const d=await getJSON('https://api.weather.gov/alerts/active?status=actual',{headers:{Accept:'application/geo+json'}});
   return d.features.filter(f=>f.geometry).map(f=>{const g=L.geoJSON(f.geometry).getBounds().getCenter();
    return {lat:g.lat,lon:g.lng,geo:f.geometry,title:f.properties.event,sub:f.properties.areaDesc,
    popup:`<b>${esc(f.properties.headline)}</b><br>${esc(f.properties.areaDesc)}<br>Until ${esc(f.properties.expires)}`}})}},
-{id:'air',label:'✈ AIRCRAFT',color:'#00e5ff',refresh:60e3,attribution:'Aircraft: <a href="https://adsb.lol">adsb.lol</a> (ODbL)',
- async load(){const m=a=>a.filter(a=>a.lat!=null).slice(0,1500).map(a=>({lat:a.lat,lon:a.lon,r:3,title:(a.flight||a.hex||'').trim()||'?',
-   sub:`${a.t||''} alt ${a.alt_baro??'?'} ft · ${a.gs??'?'} kt`,popup:`<b>${esc(a.flight||a.hex)}</b><br>${esc(a.t||'')} ${esc(a.r||'')}<br>alt ${esc(a.alt_baro)} ft · ${esc(a.gs)} kt<br><a target=_blank rel=noopener href="https://globe.adsb.lol/?icao=${esc(a.hex)}">track ↗</a>`}));
-  const p=center();
-  try{const d=await feed('aircraft',`https://api.adsb.lol/v2/lat/${p.lat.toFixed(2)}/lon/${p.lng.toFixed(2)}/dist/250`);this.note='live';return m(d.ac||[])}catch(e){}
-  const d=await getJSON('data/aircraft.json');this.note=`browser CORS blocked → US snapshot ${d.now?new Date(d.now*1000).toLocaleTimeString():'n/a'} (server-side, 15 min)`;return m(d.ac||[])}},
-{id:'cams',label:'◉ CA CAMS',color:'#b388ff',refresh:0,cluster:true,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
- async load(){const d=await getJSON('data/cams.json');return d.map(([n,lat,lon,county,typ,hls,img])=>({lat,lon,r:4,title:n,sub:`${county} County, CA${hls?' · live video':''}`,
-  popup:()=>`<b>${esc(n)}</b><br><small>${esc(county)} County</small><img src="${esc(img)}?t=${Date.now()}" alt="snapshot">`+(hls?`<button class="live" data-h="${esc(hls)}" data-n="${esc(n)}" data-i="${esc(img)}">▶ LIVE (keeps playing)</button>`:'')+`<small>Caltrans public CCTV</small>`}))}},
-{id:'scanner',label:'📻 SCANNERS',color:'#ff8a00',refresh:0,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
- async load(){await Scanners.init();return [{dynamic:true}]}}
+{id:'air',label:'✈ AIRCRAFT',color:'#00e5ff',refresh:300e3,attribution:'Aircraft: <a href="https://adsb.lol">adsb.lol</a> (ODbL)',
+ // Snapshot only: adsb.lol sends no CORS header, so the Pages build bakes data/aircraft.json every ~15 min.
+ async load(){const d=await getJSON('data/aircraft.json?t='+Math.floor(Date.now()/60e3));
+  if(!d.now||!(d.ac||[]).length)throw new Error('snapshot not available yet');
+  this.note=`continental-US snapshot, ${ago(d.now)} (not live)`;
+  return d.ac.filter(a=>a.lat!=null).map(a=>({lat:a.lat,lon:a.lon,r:3,title:(a.flight||a.hex||'').trim()||'?',
+   sub:`${a.t||''} alt ${a.alt_baro??'?'} ft · ${a.gs??'?'} kt`,popup:`<b>${esc(a.flight||a.hex)}</b><br>${esc(a.t||'')} ${esc(a.r||'')}<br>alt ${esc(a.alt_baro)} ft · ${esc(a.gs)} kt<br><small>snapshot ${ago(d.now)}</small><br><a target=_blank rel=noopener href="https://globe.adsb.lol/?icao=${esc(a.hex)}">live track ↗</a>`}))}},
+{id:'cams',label:'◉ CA CAMS',color:'#b388ff',refresh:0,cluster:true,viewport:true,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
+ async load(){const d=await getJSON('data/cams.json');return d.map(([n,lat,lon,county,typ,hls,img])=>({lat,lon,r:5,title:n,sub:`${county} County, CA${hls?' · live video':''}`,
+  popup:()=>`<b>${esc(n)}</b><br><small>${esc(county)} County</small><img src="${esc(img)}?t=${Date.now()}" alt="snapshot">`+(hls?`<button class="live" data-h="${esc(hls)}" data-n="${esc(n)}" data-i="${esc(img)}">▶ LIVE VIDEO</button>`:'')+`<small>Caltrans public CCTV</small>`}))}},
+{id:'scanner',label:'📻 SCANNERS',color:'#ff8a00',refresh:0,dynamic:true,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
+ async load(){await Scanners.init();return true}}
 ];
 
-const state={};const nav=document.getElementById('layers'),list=document.getElementById('feed'),status=document.getElementById('status'),panel=document.getElementById('panel');
-function render(){list.innerHTML='';let n=0;const msgs=[];let batch;
- LAYERS.forEach(Ly=>{const s=state[Ly.id];s.group.clearLayers();if(!s.on)return;
+const state={};const nav=document.getElementById('layers'),list=document.getElementById('feed'),scanUl=document.getElementById('scan'),
+ status=document.getElementById('status'),panel=document.getElementById('panel'),ptitle=document.getElementById('ptitle');
+const itemsOf=Ly=>{const s=state[Ly.id];if(!s.data)return[];return (Ly.dynamic?Scanners.items(region):s.data).filter(i=>inRegion(i.lat,i.lon))};
+function drawLayer(Ly){const s=state[Ly.id];s.group.clearLayers();s.shown=[];if(!s.on||!s.data){badge(Ly);return}
+ let its=itemsOf(Ly);s.total=its.length;
+ if(Ly.viewport){const b=map.getBounds().pad(.25);its=its.filter(i=>b.contains([i.lat,i.lon]))}
+ const mks=its.map(i=>{const mk=i.geo?L.geoJSON(i.geo,{style:{color:Ly.color,weight:1,fillOpacity:.15}}):dot([i.lat,i.lon],Ly.color,i.r);
+  if(i.state)mk.on('click',()=>openScan(i));else mk.bindPopup(i.popup);i._mk=mk;return mk});
+ Ly.cluster?s.group.addLayers(mks):mks.forEach(m=>m.addTo(s.group));s.shown=its;badge(Ly)}
+function badge(Ly){const s=state[Ly.id];s.btn.innerHTML=esc(Ly.label)+(s.loading?' <span class="badge">…</span>':s.on&&s.data?` <span class="badge">${Ly.viewport?s.shown.length+'/'+s.total:s.total}</span>`:'')}
+function renderList(){list.innerHTML='';let n=0;const msgs=[];
+ LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on)return;
   if(s.err)msgs.push(`${Ly.label}: ${s.err}`);else if(Ly.note)msgs.push(`${Ly.label}: ${Ly.note}`);
-  (batch=[],Ly.id==='scanner'&&s.items?Scanners.items(region):(s.items||[])).filter(i=>inRegion(i.lat,i.lon)).forEach(i=>{
-   const mk=i.geo?L.geoJSON(i.geo,{style:{color:Ly.color,weight:1,fillOpacity:.15}}):dot([i.lat,i.lon],Ly.color,i.r);
-   if(i.state){mk.on('click',()=>openScan(i))}else mk.bindPopup(i.popup);if(!Ly.cluster)mk.addTo(s.group);
-   if(Ly.cluster)batch.push(mk);if(n++<400){const li=document.createElement('li');li.innerHTML=`<span style="color:${Ly.color}">■</span> <b>${esc(i.title)}</b><small>${esc(i.sub)}</small>`;
-    li.onclick=i.state?()=>openScan(i):Ly.cluster?()=>{panel.classList.remove('open');s.group.zoomToShowLayer(mk,()=>mk.openPopup())}:()=>{panel.classList.remove('open');map.flyTo([i.lat,i.lon],Math.max(map.getZoom(),i.geo?6:9));setTimeout(()=>mk.openPopup(),900)};list.appendChild(li)}});if(batch.length)s.group.addLayers(batch)});
- document.getElementById('count').textContent=`[${n}]`;status.innerHTML=msgs.map(esc).join('<br>')+(API?`<br>API: ${esc(API)}`:'')}
-async function refresh(Ly){const s=state[Ly.id];if(!s.on)return;s.btn.textContent=Ly.label+' …';
- try{s.items=await Ly.load();s.err=null;s.btn.classList.remove('err')}catch(e){s.err='feed unavailable ('+e.message+') — retrying';s.btn.classList.add('err')}
- s.btn.textContent=Ly.label+(s.items?` ${s.items.length}`:'');render()}
-LAYERS.forEach(Ly=>{const b=document.createElement('button');b.textContent=Ly.label;nav.appendChild(b);
- const s=state[Ly.id]={on:['quakes','alerts','air'].includes(Ly.id),btn:b,group:(Ly.cluster?L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50}):L.layerGroup()).addTo(map)};b.classList.toggle('on',s.on);
- map.attributionControl.addAttribution(Ly.attribution);
- b.onclick=()=>{s.on=!s.on;b.classList.toggle('on',s.on);s.on&&!s.items?refresh(Ly):render()};
- if(s.on)refresh(Ly);if(Ly.refresh)setInterval(()=>refresh(Ly),Ly.refresh)});
-window.EYEMONT_MAP=map;const scanUl=document.getElementById('scan');
+  if(Ly.viewport&&s.data)msgs.push(`${Ly.label}: listing ${s.shown.length} in view of ${s.total}`);
+  (s.shown||[]).slice(0,300).forEach(i=>{n++;const li=document.createElement('li');li.innerHTML=`<span style="color:${Ly.color}">■</span> <b>${esc(i.title)}</b><small>${esc(i.sub)}</small>`;
+   li.onclick=()=>{if(i.state)return openScan(i);closePanel();const mk=i._mk;
+    if(Ly.cluster)s.group.zoomToShowLayer(mk,()=>mk.openPopup());else{map.flyTo([i.lat,i.lon],Math.max(map.getZoom(),i.geo?6:9));setTimeout(()=>mk.openPopup?mk.openPopup():mk.eachLayer(l=>l.openPopup()),900)}};
+   list.appendChild(li)})});
+ document.getElementById('count').textContent=n?`[${n}]`:'';status.innerHTML=msgs.map(esc).join('<br>')}
+function redraw(){LAYERS.forEach(drawLayer);renderList()}
+let mvT;map.on('moveend',()=>{clearTimeout(mvT);mvT=setTimeout(()=>{LAYERS.filter(l=>l.viewport).forEach(drawLayer);renderList()},150)});
+// Load with retry + exponential backoff (5s, 10s, 20s … max 5 min). Successful loads follow Ly.refresh.
+async function refresh(Ly){const s=state[Ly.id];clearTimeout(s.timer);if(!s.on)return;s.loading=true;badge(Ly);
+ try{s.data=await Ly.load();s.err=null;s.fails=0;s.btn.classList.remove('err');if(Ly.refresh)s.timer=setTimeout(()=>refresh(Ly),Ly.refresh)}
+ catch(e){s.fails=(s.fails||0)+1;const wait=Math.min(5e3*2**(s.fails-1),300e3);s.err=`unavailable (${e.message}). Retry #${s.fails} in ${Math.round(wait/1000)}s`;s.btn.classList.add('err');
+  s.timer=setTimeout(()=>refresh(Ly),wait)}
+ s.loading=false;drawLayer(Ly);renderList()}
+LAYERS.forEach(Ly=>{const b=document.createElement('button');nav.appendChild(b);
+ const s=state[Ly.id]={on:['quakes','alerts','air'].includes(Ly.id),btn:b,shown:[],total:0,
+  group:(Ly.cluster?L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50}):L.layerGroup()).addTo(map)};
+ b.classList.toggle('on',s.on);map.attributionControl.addAttribution(Ly.attribution);badge(Ly);
+ b.onclick=()=>{s.on=!s.on;b.classList.toggle('on',s.on);if(!s.on){clearTimeout(s.timer);s.err=null;b.classList.remove('err')}
+  s.on&&!s.data?refresh(Ly):(drawLayer(Ly),renderList())};
+ if(s.on)refresh(Ly)});
+/* panel: feed list or scanner browser */
 const flyState=n=>{if(BBOX[n])map.fitBounds([[BBOX[n][0],BBOX[n][1]],[BBOX[n][2],BBOX[n][3]]])};
-function scanMode(on){scanUl.hidden=!on;list.hidden=on;panel.classList.add('open')}
-async function openScan(i){await Scanners.init();scanMode(true);i.county!=null?Scanners.showCounty(scanUl,i.state,i.county):Scanners.showState(scanUl,i.state,flyState)}
-document.getElementById('scanbtn').onclick=async()=>{await Scanners.init();scanMode(true);region==='World'?Scanners.showStates(scanUl,flyState):Scanners.showState(scanUl,region,flyState)};
-document.getElementById('grip').onclick=()=>{if(!scanUl.hidden&&panel.classList.contains('open')){scanMode(false);panel.classList.add('open');return}panel.classList.toggle('open')};
+function openPanel(mode){panel.hidden=false;const sc=mode==='scan';scanUl.hidden=!sc;list.hidden=sc;status.hidden=sc;ptitle.textContent=sc?'📻 SCANNERS':'FEED';panel.dataset.mode=mode}
+function closePanel(){panel.hidden=true}
+function openScan(i){openPanel('scan');i.county!=null?Scanners.showCounty(scanUl,i.state,i.county):Scanners.showState(scanUl,i.state,flyState)}
+document.getElementById('scanbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='scan')return closePanel();openPanel('scan');region==='World'?Scanners.showStates(scanUl,flyState):Scanners.showState(scanUl,region,flyState)};
+document.getElementById('feedbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='feed')return closePanel();openPanel('feed');renderList()};
+document.getElementById('pclose').onclick=closePanel;
 const sel=document.getElementById('region');
-getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>sel.add(new Option(k.toUpperCase(),k)))});
-sel.onchange=()=>{region=sel.value;if(region==='World')map.setView([20,0],2);else map.fitBounds([[BBOX[region][0],BBOX[region][1]],[BBOX[region][2],BBOX[region][3]]]);
- render();refresh(LAYERS.find(l=>l.id==='air'))};
+getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>sel.add(new Option(k.toUpperCase(),k)))}).catch(()=>{});
+sel.onchange=()=>{region=sel.value;if(region==='World')map.setView([20,0],2);else flyState(region);redraw()};
 })();

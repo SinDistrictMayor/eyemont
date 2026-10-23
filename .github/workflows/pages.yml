@@ -4,17 +4,28 @@ on:
   schedule: [{cron: "*/15 * * * *"}]
   workflow_dispatch:
 permissions: {contents: read, pages: write, id-token: write}
-concurrency: {group: pages, cancel-in-progress: true}
+concurrency: {group: pages, cancel-in-progress: false}
 jobs:
   deploy:
     runs-on: ubuntu-latest
     environment: {name: github-pages, url: "${{ steps.d.outputs.page_url }}"}
     steps:
       - uses: actions/checkout@v4
-      - name: Aircraft snapshot (adsb.lol, ODbL) – fallback when browser CORS blocks
+      - name: Aircraft snapshot (adsb.lol, ODbL; browser can't fetch it, no CORS)
         run: |
-          curl -sf -A "eyemont (github pages)" "https://api.adsb.lol/v2/lat/39/lon/-98/dist/250" -o /tmp/a.json || echo '{"ac":[]}' > /tmp/a.json
-          python3 -c "import json,time;d=json.load(open('/tmp/a.json'));json.dump({'now':int(time.time()),'ac':[{k:a.get(k) for k in ('hex','flight','t','r','lat','lon','alt_baro','gs')} for a in d.get('ac',[])]},open('data/aircraft.json','w'))"
+          ok=0
+          for i in 1 2 3; do
+            if curl -sf --max-time 30 -A "eyemont (github pages; github.com/SinDistrictMayor/eyemont)" "https://api.adsb.lol/v2/lat/39/lon/-98/dist/250" -o /tmp/a.json \
+               && python3 -c "import json,sys;d=json.load(open('/tmp/a.json'));sys.exit(0 if d.get('ac') else 1)"; then ok=1; break; fi
+            sleep 10
+          done
+          if [ $ok = 1 ]; then
+            python3 -c "import json,time;d=json.load(open('/tmp/a.json'));json.dump({'now':int(time.time()),'ac':[{k:a.get(k) for k in ('hex','flight','t','r','lat','lon','alt_baro','gs')} for a in d['ac'] if a.get('lat') is not None]},open('data/aircraft.json','w'))"
+          elif curl -sf --max-time 30 https://sindistrictmayor.github.io/eyemont/data/aircraft.json -o /tmp/prev.json && python3 -c "import json,sys;d=json.load(open('/tmp/prev.json'));sys.exit(0 if d.get('now') and d.get('ac') else 1)"; then
+            echo "adsb.lol failed; keeping previous published snapshot"; cp /tmp/prev.json data/aircraft.json
+          else
+            echo "no snapshot available; app shows a 'not available yet' state and retries"
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: {path: .}

@@ -37,7 +37,7 @@ Core provides toggle buttons, polling, error state (red button + status line + a
 - **Broadcastify: outbound links only.** I checked the current Terms on 2026-10-23 (last updated July 22, 2026). §9(d) says any "redistribution, relay, rebroadcast, re-streaming, or embedding of Broadcastify live audio" needs a commercial license from bcfy.io, and §9(a)/(b) forbid automated access or scraping of feed metadata. So Eyemont embeds nothing and scrapes nothing. It links to `broadcastify.com/listen/stid/<state FIPS>`, Broadcastify's own state directory. County IDs are internal, so county rows deep-link to the state directory.
 - **Official agency streams** (`data/official_streams.json`, ★): these are agency-published pages (Loudoun Co. VA, Deschutes Co. OR, Delta Twp MI). They open as outbound links because none of these agencies publishes terms that clearly allow third-party in-app playback.
 - **OpenMHz**: skipped. It publishes no terms, and its API sits behind a Cloudflare bot challenge.
-- **Sticky player**: a mini-player that keeps playing while you browse, with Media Session metadata and play/pause for the lock screen. It plays only streams we're clearly allowed to play directly, which right now means Caltrans public HLS cams (via hls.js, or native HLS on iOS). Any scanner stream that later turns out to be clearly permitted plugs into `Player.play(src,title,artist)`.
+- **Docked mini player**: sits between the panel and the bottom bar, and the map and panel shrink to make room for it. It plays only streams we're clearly allowed to play directly. Today that means Caltrans public HLS cams, which are **video-only**, so the lock-screen controls are **not** registered for them. Media Session handlers (play, pause, stop) and metadata are registered only for streams flagged `audio:true` (`Player.play({src,title,artist,audio:true})`) and are cleared when the player closes. There is currently no permitted audio stream, so Eyemont does not claim lock-screen playback anywhere.
 - **Limits that would need a proxy or license (not built)**: in-app Broadcastify audio needs a paid license, which breaks the zero-cost rule. OpenMHz in-app would need clear terms plus a way past the bot challenge.
 
 ## Cameras
@@ -52,7 +52,7 @@ Core provides toggle buttons, polling, error state (red button + status line + a
 | Aircraft | adsb.lol `/v2/lat/lon/dist` | **no CORS header** | ODbL |
 | Scanners | Broadcastify / agency pages | n/a (links) | links only |
 
-Aircraft workaround without a runtime backend: the Pages build (GitHub Actions cron, every 15 min) bakes a continental-US snapshot into `data/aircraft.json`. The app tries live first and falls back to the snapshot with a timestamp. Truly live worldwide aircraft would need a runtime proxy, which is out of scope.
+Aircraft is **snapshot-only**. The Pages build (GitHub Actions cron, every ~15 min) fetches a continental-US snapshot from adsb.lol with 3 retries. If that fails, it keeps the previously published snapshot, and if nothing exists yet the app shows "not available yet" and retries with backoff. The app never calls adsb.lol directly. `keepalive.yml` makes a tiny commit each month so GitHub doesn't auto-disable the schedule after 60 days of inactivity. Truly live worldwide aircraft would need a runtime proxy, which is out of scope.
 
 ## Future candidates (static-compatible unless noted)
 - More DOT cams: only state 511 feeds that send CORS headers and allow public display (WSDOT, ODOT TripCheck, NY 511, etc. are mostly key-gated or CORS-blocked, so each needs review).
@@ -78,3 +78,10 @@ Quakes, NWS alerts, aircraft (live or snapshot), 3,426 clustered Caltrans cams w
 
 **M5 — PWA**: installable, offline shell, saved regions.
 *Accept*: Lighthouse PWA pass; home-screen launch on iOS and Android.
+
+## UI / reliability notes (M1.1, from QA)
+- Layout: fixed header, map, a docked mini player, and a bottom bar holding FEED plus horizontally scrolling layer chips. The panel is opaque and z-indexed above the map, markers and attribution. Zoom buttons are 44px at top-left; attribution sits at bottom-right above the bar.
+- Retry: every layer retries with exponential backoff (5 s → 5 min max), including the static layers (cams, scanners). The scanner directory never caches a rejected promise and shows an error box with a RETRY button.
+- Performance: cams.json loads only when the CA CAMS layer is first turned on. Only cams inside the current view (+25% padding) are drawn, clustered with chunked loading. The rain runs at about 20 fps at low opacity and pauses when the tab is hidden.
+- Badges show real counts: items in the region, or in-view/total for cams. Pinch-zoom is allowed (no user-scalable=no).
+- Tiles: OpenStreetMap standard tiles, used per the OSM Tile Usage Policy (attribution, browser Referer, no bulk prefetch, low volume). If traffic grows, a backup is needed: a free, no-key tile host with clear terms, or a self-hosted PMTiles file on Pages (more work).
