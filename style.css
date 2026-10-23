@@ -79,3 +79,12 @@ select{flex:1;min-height:44px;background:#000;color:var(--g);border:1px solid va
 #map .leaflet-control-attribution{max-width:calc(100vw - 20px);max-height:20px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;cursor:pointer;padding:2px 6px}#map .leaflet-control-attribution::before{content:'ⓘ sources · '}#map .leaflet-control-attribution.open{max-height:50vh;white-space:normal;overflow:auto}
 #topics button:not(.on)[style]{border-color:color-mix(in srgb,var(--tc) 55%,#000)}
 .cc:not(.on){background:#000!important;color:#2c5a38!important}
+body.crowd{--hd:202px}#crowdbar{display:flex;gap:6px;padding:0 10px 8px;align-items:center}#crowdbar[hidden]{display:none}
+#crowdbar button{min-height:44px;padding:0 12px;background:#000;border:1px solid #ff2bd6;color:#ff8be8;font-weight:700;font-size:12px;border-radius:2px}#crowdbar button[aria-pressed=true]{background:#ff2bd6;color:#000}
+.relaychip{font-size:10px;color:#6fa07b;margin-left:auto;white-space:nowrap}
+#notice{position:fixed;z-index:6000;inset:auto 10px calc(var(--tab) + 20px) 10px;background:#000;border:1px solid #ff2bd6;padding:6px 16px 14px;box-shadow:0 0 0 100vmax rgba(0,0,0,.7);color:#ffe6f9;font-size:14px}#notice[hidden]{display:none}
+#notice h2{font-size:15px;color:#ff2bd6;letter-spacing:.04em}.nb{display:flex;gap:8px}.nb button{flex:1;min-height:48px;background:#000;border:1px solid #ff2bd6;color:#ff8be8;font-weight:800}#nyes{background:#ff2bd6!important;color:#000!important}
+.form label{display:block;margin:10px 12px 4px;font-size:12px;color:#6fa07b}.form select,.form textarea{width:calc(100% - 24px);margin:0 12px;background:#000;color:var(--g);border:1px solid var(--g);font:inherit;padding:8px}.form .row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 12px}
+body.picking #map{cursor:crosshair;outline:2px dashed #ff2bd6;outline-offset:-2px}
+.live{list-style:none;margin:0 10px;display:flex;gap:6px;overflow-x:auto}.live a{flex:0 0 auto;min-height:44px;display:flex;align-items:center;padding:0 12px;border:1px solid #fff;color:#fff;text-decoration:none;font-size:12px}
+.rep{margin:0 12px}.rep .post button{min-height:44px;background:#000;color:var(--g);border:1px solid var(--d);margin:4px 4px 0 0;padding:0 10px}

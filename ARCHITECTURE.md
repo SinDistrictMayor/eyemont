@@ -164,3 +164,10 @@ Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, p
 - **Detail sheet**: coverage side by side by class, timeline, IEM NEXRAD radar mini map (US) or a radar link, nearby Caltrans cams (≤40 km, snapshot + ▶ LIVE into the docked player), scanner links (Broadcastify state + official streams ≤150 km), source links pulled from item popups.
 - **Not loaded in this UI**: Nostr REPORTS (no posting, no relay connections), aircraft (1 MB snapshot) and LIVE TV. The aircraft and reports code stays in `crowd.js`/`app.js` for later.
 - Rain: half-resolution canvas, ~12 fps, 7% opacity, paused when hidden, off under `prefers-reduced-motion` (which also disables the logo glitch and the sheet animation).
+
+### Redesign follow-ups
+- `.github/placer.py` + `us_places.json`: Census gazetteer city+state resolver (dateline first; ambiguous cities w/o state stay unplaced).
+- `data/us_states.geojson` (~199KB, Census cb_2023 20m, public domain): point-in-polygon state lookup.
+- FAA NAS items carry real `start`/`issued`/`end`.
+- Aircraft (Transport chip), LIVE TV (News chip), Nostr reports (Crowd chip, OFF by default, unmoderated notice). Reading is opt-in; posting/flagging go to a sessionStorage mock relay only (`MOCK_WRITES` in crowd.js).
+- Card titles use `safeHead()`: headline without name-like patterns, else "type · place". Sheet shows publisher text unmodified.

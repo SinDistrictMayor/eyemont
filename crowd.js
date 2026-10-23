@@ -32,11 +32,11 @@ async function places(){if(PL)return;const r=await fetch('data/places.json');if(
 const YR=new Date().getFullYear();
 const OLDW=/\b(?:years? ago|on this day|anniversary|#otd|throwback|#tbt)\b/i;
 const OLD={test:t=>OLDW.test(t)||(t.match(/\b(?:18|19|20)\d\d\b/g)||[]).some(y=>+y<YR&&+y>=1800)};
-const unquote=t=>t.replace(/"[^"\n]{1,120}"|“[^”\n]{1,120}”|‘[^’\n]{1,120}’|«[^»\n]{1,120}»/g,' ');
+const unquote=t=>t.replace(/"[^"\n]{1,120}"|“[^”\n]{1,120}”|‘[^’\n]{1,120}’|«[^»\n]{1,120}»/g,' ').replace(/\b[A-Z][a-z]+(?: [A-Z][a-z]+)?\s+(?:Avenue|Ave|Street|St|Road|Rd|Boulevard|Blvd|Drive|Dr|Lane|Ln|Way|Highway|Hwy|Parkway|Pkwy|Turnpike)\b\.?/g,' '); // street names ('West Virginia Avenue') are not places
 // Ambiguous names (many towns share them) need a US state or 2-letter code elsewhere in the post. Longest names are tried first, so "New Mexico" wins over "Mexico".
 const AMB=new Set(['Glendale','Aurora','Springfield','Portland','Columbus','Jackson','Richmond','Arlington','Kansas City','Salem','Franklin','Madison','Lincoln','Austin','Phoenix','Mesa','Riverside','Durham','Birmingham','Charleston','Wilmington','Columbia','Cambridge','Manchester','Peoria','Pasadena','Independence','Concord','Athens','Florence','Vancouver','Bristol','Dayton','Augusta','Lafayette','Rochester','Kingston','Valencia','Cordoba','Mobile','Reading','Orange','Buffalo','Hamilton','Victoria','Georgia','Washington','Jordan','Santiago','Plano','Garland','Irving','Henderson','Fresno','Omaha','Tulsa','Toledo','Albany','Louisville','Memphis','Nashville','Cleveland','Moscow','Delhi','Dublin','Lima','Troy','Paris','London']);
 let STRX=null;const states=()=>STRX||(STRX=new RegExp('(?:\\b(?:'+PL.filter(p=>p[3]==='United States'&&!AMB.has(p[0])).map(p=>p[0]).join('|')+')\\b|\\b(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)\\b)'));
-const placeOf=t=>{const u=unquote(t);RX.lastIndex=0;for(const m of u.matchAll(RX)){const p=PL.find(p=>p[0]===m[1]);if(!p)continue;if(AMB.has(p[0])&&!states().test(u.slice(0,m.index)+' '+u.slice(m.index+m[0].length)))continue;return p}return null};
+const placeOf=t=>{const u=unquote(t);RX.lastIndex=0;for(const m of u.matchAll(RX)){const p=PL.find(p=>p[0]===m[1]);if(!p)continue;if(AMB.has(p[0])){const rest=u.slice(0,m.index)+' '+u.slice(m.index+m[0].length),sm=rest.match(states());if(!sm)continue;/* ambiguous city + a named state: we have no small-town gazetteer client-side, so pin the named state (coarse but never the wrong city) */const st=PL.find(q=>q[0]===sm[0]&&q[3]==='United States');return st||null}return p}return null};
 
 const BSKY_Q=['earthquake','wildfire','flooding','tornado','protest','power outage','evacuation','breaking news'];
 const MASTO_TAGS=['breakingnews','earthquake','wildfire','flood','protest','news','storm'];
@@ -95,7 +95,7 @@ function newIdentity(){localStorage.removeItem('eyemont.nsec')}
 const RS={};RELAYS.forEach(u=>RS[u]='idle');
 const setRS=(u,v)=>{RS[u]=v;window.dispatchEvent(new CustomEvent('eyemont:relays',{detail:{...RS}}))};
 function status(){return {...RS}}
-function query(filters,ms=6000){return new Promise(res=>{const ev=new Map();let done=0;const fin=()=>res([...ev.values()]);const to=setTimeout(fin,ms);
+function query(filters,ms=6000){return new Promise(res=>{const ev=new Map();mockQuery(filters).forEach(e=>ev.set(e.id,e));let done=0;const fin=()=>res([...ev.values()]);const to=setTimeout(fin,ms);
  const end=()=>{if(++done===RELAYS.length){clearTimeout(to);fin()}};
  RELAYS.forEach(u=>{let ws;setRS(u,'connecting');try{ws=new WebSocket(u)}catch(e){setRS(u,'down');return end()}let fin1=false;const f1=()=>{if(!fin1){fin1=true;end()}};
   ws.onopen=()=>{setRS(u,'up');ws.send(JSON.stringify(['REQ','eye',...filters]))};
@@ -122,9 +122,15 @@ function items(evs){return evs.filter(e=>{if(Crowd.isHidden('nostr:'+e.id)||Crow
  const g=tag(e,'g')[0];const [lat,lon]=ungh(g);const cat=tag(e,'category')[0];
  const txt=Crowd.scrub(e.content);if(e._flagged)return {lat,lon,r:5,flagged:true,title:`[${cat}] ⚑ flagged, tap to view`,sub:new Date(e.created_at*1000).toLocaleString()+' · hidden by 3+ community flags',
   popup:`<b>[${esc(cat)}]</b> <small>⚑ flagged by 3+ community members</small><details class="post"><summary>flagged, tap to view</summary><p>${esc(txt)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · unmoderated</small></details>`};
- return {lat,lon,r:7,title:`[${cat}] ${txt.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area · unmoderated',
+ return {lat,lon,r:7,time:e.created_at*1000,src:'Nostr report',text:cat+' '+txt,mock:mockAll().some(x=>x.id===e.id),title:`[${cat}] ${txt.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area · unmoderated',
   popup:`<b>[${esc(cat)}]</b> <small>unmoderated community report · ~5 km precision · expires after 24 h</small><div class="post"><p>${esc(txt)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · Nostr ${esc(e.pubkey.slice(0,8))}…</small><br><button class="hide" data-id="nostr:${esc(e.id)}">hide</button> <button class="hide" data-src="nostr:${esc(e.pubkey)}">hide all from this key</button> <button class="flag" data-id="${esc(e.id)}" data-pk="${esc(e.pubkey)}">⚑ flag</button></div>`}})}
-function publishEvent(ev){let ok=0;return Promise.all(RELAYS.map(u=>new Promise(r=>{try{setRS(u,'connecting');const ws=new WebSocket(u);const t=setTimeout(()=>{try{ws.close()}catch(x){}r()},6000);
+// WRITES GO TO A MOCK RELAY ONLY (redesign branch rule: never publish to real relays without Evan's explicit approval).
+// The mock keeps events in this tab's sessionStorage and answers ['OK',id,true] like a relay. Reads from real relays stay opt-in (REPORTS off by default).
+const MOCK_WRITES=true;const MOCK='mock://eyemont-local';
+const mockAll=()=>{try{return JSON.parse(sessionStorage.getItem('eyemont.mockRelay')||'[]')}catch(e){return[]}};
+function mockPublish(ev){const a=mockAll().filter(x=>x.id!==ev.id);a.push(ev);sessionStorage.setItem('eyemont.mockRelay',JSON.stringify(a.slice(-200)));setRS(MOCK,'up');return Promise.resolve(1)}
+const mockQuery=f=>mockAll().filter(e=>f.some(q=>(!q.kinds||q.kinds.includes(e.kind))&&(!q['#t']||e.tags.some(t=>t[0]==='t'&&q['#t'].includes(t[1])))&&(!q['#e']||e.tags.some(t=>t[0]==='e'&&q['#e'].includes(t[1])))&&(!q.since||e.created_at>=q.since)));
+function publishEvent(ev){if(MOCK_WRITES)return mockPublish(ev);let ok=0;return Promise.all(RELAYS.map(u=>new Promise(r=>{try{setRS(u,'connecting');const ws=new WebSocket(u);const t=setTimeout(()=>{try{ws.close()}catch(x){}r()},6000);
   ws.onopen=()=>{setRS(u,'up');ws.send(JSON.stringify(['EVENT',ev]))};ws.onmessage=m=>{let d;try{d=JSON.parse(m.data)}catch(x){return}if(d[0]==='OK'&&d[1]===ev.id){if(d[2])ok++;clearTimeout(t);ws.close();r()}};ws.onerror=()=>{setRS(u,'down');clearTimeout(t);r()}}catch(e){setRS(u,'down');r()}}))).then(()=>ok)}
 async function publish(cat,text,lat,lon,onp){text=text.trim();
  if(Crowd.unsafeReport(text))throw Error('Looks like personal info (name, phone, email, address or plate). Not posted.');
@@ -138,4 +144,4 @@ async function flag(id,pk,onp){if(!/^[0-9a-f]{64}$/.test(id)||!/^[0-9a-f]{64}$/.
 document.addEventListener('click',async e=>{const b=e.target.closest('button.flag');if(!b)return;
  if(!confirm('Publish a public NIP-56 flag for this report? Reports with 3+ flags are collapsed for everyone using Eyemont. Your device must first compute a proof-of-work (can take 10–60 s).'))return;
  b.disabled=true;b.textContent='flagging…';try{const n=await flag(b.dataset.id,b.dataset.pk,p=>b.textContent=`computing proof-of-work ${Math.round(p*100)}%…`);Crowd.hide('nostr:'+b.dataset.id);b.textContent=`flagged (${n} relay)`;b.closest('.post')?.remove();window.dispatchEvent(new Event('eyemont:hidden'))}catch(x){b.textContent='flag failed';b.disabled=false}});
-return {load,items,publish,flag,valid,powOK,POW,CATS,gh,lib,pubkey,newIdentity,status,stats:()=>last,RELAYS}})();
+return {load,items,publish,flag,valid,powOK,POW,CATS,gh,lib,pubkey,newIdentity,status,stats:()=>last,RELAYS,MOCK_WRITES}})();
