@@ -6,7 +6,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;gap:8px;ali
 select{background:#000;color:var(--g);border:1px solid var(--g);font:inherit;padding:8px;min-height:40px;max-width:55vw}
 #map{position:fixed;top:56px;left:0;right:0;bottom:0;z-index:1}
 .leaflet-container{background:rgba(0,0,0,.6)!important;font-family:inherit}
-.leaflet-tile-pane{filter:hue-rotate(60deg) saturate(1.6) brightness(.9);opacity:.85}
+.leaflet-tile-pane{filter:invert(1) grayscale(1) brightness(.55) contrast(1.4) sepia(1) hue-rotate(70deg) saturate(3);opacity:.8}
 .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#000;color:var(--g);border:1px solid var(--g);border-radius:0}
 .leaflet-popup-content a{color:#7fff9f}.leaflet-popup-content img{max-width:240px;display:block;margin-top:4px}
 .leaflet-control-attribution{background:rgba(0,0,0,.7)!important;color:var(--d)!important;font-size:9px}.leaflet-control-attribution a{color:var(--g)!important}
@@ -31,3 +31,4 @@ select{background:#000;color:var(--g);border:1px solid var(--g);font:inherit;pad
 body.playing #panel.open{padding-bottom:56px}
 #pvid{width:96px;height:60px;background:#000;border:1px solid var(--d)}#scan li.off a{color:#ffd400}
 .marker-cluster div{background:rgba(179,136,255,.8)!important;color:#000;font-family:inherit}.marker-cluster{background:rgba(179,136,255,.3)!important}
+.leaflet-bottom{bottom:calc(44px + env(safe-area-inset-bottom))}

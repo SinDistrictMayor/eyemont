@@ -8,8 +8,8 @@ drops.forEach((y,i)=>{x.fillText(String.fromCharCode(0x30A0+Math.random()*96),i*
 
 const map=L.map('map',{zoomControl:false,worldCopyJump:true}).setView([39,-98],3);
 L.control.zoom({position:'bottomleft'}).addTo(map);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:19,
- attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(map);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,
+ attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const dot=(ll,col,r=5)=>L.circleMarker(ll,{radius:r,color:col,weight:1,fillColor:col,fillOpacity:.7});
@@ -43,7 +43,7 @@ const LAYERS=[
 {id:'cams',label:'◉ CA CAMS',color:'#b388ff',refresh:0,cluster:true,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
  async load(){const d=await getJSON('data/cams.json');return d.map(([n,lat,lon,county,typ,hls,img])=>({lat,lon,r:4,title:n,sub:`${county} County, CA${hls?' · live video':''}`,
   popup:()=>`<b>${esc(n)}</b><br><small>${esc(county)} County</small><img src="${esc(img)}?t=${Date.now()}" alt="snapshot">`+(hls?`<button class="live" data-h="${esc(hls)}" data-n="${esc(n)}" data-i="${esc(img)}">▶ LIVE (keeps playing)</button>`:'')+`<small>Caltrans public CCTV</small>`}))}},
-{id:'scanner',label:'📻 SCANNERS',color:'#ff8a00',refresh:0,attribution:'Scanner audio: <a href="https://openmhz.com">OpenMHz</a>, links to <a href="https://www.broadcastify.com">Broadcastify</a>',
+{id:'scanner',label:'📻 SCANNERS',color:'#ff8a00',refresh:0,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
  async load(){await Scanners.init();return [{dynamic:true}]}}
 ];
 
