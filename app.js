@@ -206,25 +206,48 @@ cb.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='clsinf
 
 /* LIVE incidents: items from all visible layers within ~25 km and 2 h are linked; confidence grows with independent sources and classes */
 const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
-function incidents(){const now=Date.now(),its=[];
+/* topic-aware: items link only if they share an event type (lexicon) or ≥2 rare headline tokens (low document frequency) */
+const LEX={fire:/\b(fire|fires|wildfire|blaze|burn(ing|ed)?|smoke|arson|hotspot)/i,shooting:/\b(shoot|shooting|shot|gunfire|gunman|gunshots?|firearm)/i,crash:/\b(crash|collision|wreck|derail|rollover|pileup|hit[- ]and[- ]run)/i,
+ flood:/\b(flood|flooding|flash flood|inundat)/i,storm:/\b(storm|tornado|hurricane|typhoon|cyclone|hail|blizzard|thunderstorm|winds?\b|tropical)/i,quake:/\b(quake|earthquake|tremor|seismic|aftershock)/i,
+ outage:/\b(outage|blackout|power cut|without power|internet (shutdown|disruption))/i,protest:/\b(protest|protesters?|rally|march(ers)?|demonstrat|riot|unrest|strike)\b/i,explosion:/\b(explosion|explode|blast|detonat|bomb)/i,
+ evacuation:/\b(evacuat|shelter[- ]in[- ]place|lockdown)/i,hazmat:/\b(hazmat|chemical|gas leak|spill|toxic)/i,tsunami:/\btsunami/i,volcano:/\b(volcan|eruption|lava|ash plume)/i,
+ rescue:/\b(rescue|missing hiker|drown|search and rescue)/i,police:/\b(standoff|stabbing|homicide|manhunt|police chase|pursuit|barricade)/i,airspace:/\b(tfr|ground delay|ground stop|airport delay)/i,medical:/\b(outbreak|cases of|measles|e\. coli|salmonella)/i};
+const LYTYPE={quakes:'quake',fire:'fire',flood:'flood',tsunami:'tsunami',ioda:'outage',faa:'airspace',eonet:null,gdacs:null};
+const NOINC=/\b(nfl|nba|mlb|nhl|mls|ncaa|wnba|ufc|football|basketball|baseball|hockey|soccer|playoffs?|touchdown|quarterback|coach|season opener|game\b|games\b|match\b|tournament|championship|super bowl|world series|vs\.?|stadium|halftime|roster|draft pick|movie|film|box office|concert|album|song|singer|rapper|actor|actress|celebrity|netflix|tv show|series finale|premiere|festival|halloween|recipe|restaurant|horoscope|oscars?|grammys?|emmys?|broadway|theater|theatre|fashion)\b/i;
+const STOP=new Set('about after again against amid among another around back been before being between both came could during each from have here into just like made make many more most much near news over people said says some still such than that their them then there these they this those through under until very want week were what when where which while will with would year years your today tonight local new county city state police officials report reports update updates live video watch photos'.split(' '));
+const toks=t=>[...new Set((t.toLowerCase().match(/[a-z][a-z'-]{3,}/g)||[]).filter(w=>!STOP.has(w)))];
+const SPARK='▁▂▃▄▅▆▇█';const spark=(m,now)=>{const b=Array(8).fill(0);m.forEach(x=>{const k=7-Math.floor((now-x.t)/9e5);if(k>=0&&k<8)b[k]++});const mx=Math.max(...b)||1;return b.map(v=>SPARK[Math.round(v/mx*7)]).join('')};
+let INCX={kept:0,sport:0,notopic:0};
+function incidents(){const now=Date.now(),its=[];INCX={kept:0,sport:0,notopic:0,sx:[]};
  LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on||!s.data||Ly.tile||Ly.dynamic)return;
   itemsOf(Ly).forEach(i=>{if(i.home)return;const t=i.time||(Ly.id==='gdelt'?now:null);if(!t||now-t>6*36e5||t>now+6e5)return;
-   its.push({i,Ly,t,c:clsOf(i,Ly),src:Ly.id==='d911'?'911 dispatch':(i.src||Ly.label)})})});
+   const txt=(i.text||i.title||'')+(Ly.id==='gdelt'?' '+(i.sub||''):'');if(NOINC.test(txt)){INCX.sport++;if(INCX.sx.length<5)INCX.sx.push(txt.slice(0,70));return}
+   const ty=new Set(Object.keys(LEX).filter(k=>LEX[k].test(txt)));if(LYTYPE[Ly.id])ty.add(LYTYPE[Ly.id]);
+   const pl=new Set(toks((i.sub||'')+' '+(Ly.id==='gdelt'?i.title:'')));its.push({i,Ly,t,ty,tk:Ly.id==='gdelt'?[]:toks(i.text||i.title||'').filter(w=>!pl.has(w)),c:clsOf(i,Ly),src:Ly.id==='d911'?'911 dispatch':(i.src||Ly.label)})})});
+ const df={};its.forEach(x=>x.tk.forEach(w=>df[w]=(df[w]||0)+1));const rare=Math.max(3,its.length*.004);
+ its.forEach(x=>x.rk=new Set(x.tk.filter(w=>df[w]>=2&&df[w]<=rare)));
  its.sort((a,b)=>a.t-b.t);const C=[];
- for(const x of its){let best=null,bd=25;for(const c of C){if(x.t-c.first>72e5)continue;const d=km(c.lat,c.lon,x.i.lat,x.i.lon);if(d<bd){bd=d;best=c}}
-  if(!best){best={lat:x.i.lat,lon:x.i.lon,m:[],first:x.t,last:x.t};C.push(best)}
-  best.m.push(x);best.last=Math.max(best.last,x.t);const n=best.m.length;best.lat+=(x.i.lat-best.lat)/n;best.lon+=(x.i.lon-best.lon)/n}
- return C.map(c=>{const S=new Set(c.m.map(x=>x.src)),K=new Set(c.m.map(x=>x.c)),L2=new Set(c.m.map(x=>x.Ly.id));
-  c.src=S.size;c.cls=[...K];c.layers=L2.size;c.conf=Math.min(1,.15+.2*(S.size-1)+.15*(K.size-1)+.1*(L2.size-1));c.grow=c.m.filter(x=>now-x.t<18e5).length;
-  c.head=(c.m.find(x=>x.Ly.id==='news')||c.m.find(x=>x.Ly.id!=='gdelt')||c.m[0]).i.title;return c}).filter(c=>c.src>=2)
-  .sort((a,b)=>(Math.round(b.last/6e5)-Math.round(a.last/6e5))||(b.grow-a.grow)||(b.conf-a.conf))}
+ for(const x of its){let best=null,bs=0;
+  for(const c of C){if(x.t-c.first>72e5)continue;const d=km(c.lat,c.lon,x.i.lat,x.i.lon);if(d>25)continue;
+   const shT=[...x.ty].filter(k=>c.ty[k]).length,shR=[...x.rk].filter(w=>c.rk[w]).length;const sc=shT*2+(shR>=2?shR:0);if(sc>bs){bs=sc;best=c}}
+  if(!best){best={lat:x.i.lat,lon:x.i.lon,m:[],first:x.t,last:x.t,ty:{},rk:{}};C.push(best)}
+  best.m.push(x);x.ty.forEach(k=>best.ty[k]=(best.ty[k]||0)+1);x.rk.forEach(w=>best.rk[w]=(best.rk[w]||0)+1);
+  best.last=Math.max(best.last,x.t);const n=best.m.length;best.lat+=(x.i.lat-best.lat)/n;best.lon+=(x.i.lon-best.lon)/n}
+ const out=C.map(c=>{const S=new Set(c.m.map(x=>x.src)),K=new Set(c.m.map(x=>x.c)),L2=new Set(c.m.map(x=>x.Ly.id));
+  const T=Object.entries(c.ty).filter(([k,v])=>v>=2).sort((a,b)=>b[1]-a[1]).map(e=>e[0]),R=Object.entries(c.rk).filter(([k,v])=>v>=2).sort((a,b)=>b[1]-a[1]).map(e=>e[0]);
+  c.type=T[0]||null;c.keys=R.slice(0,3);c.src=S.size;c.cls=[...K];c.layers=L2.size;c.conf=Math.min(1,.15+.2*(S.size-1)+.15*(K.size-1)+.1*(L2.size-1));c.grow=c.m.filter(x=>now-x.t<18e5).length;c.spark=spark(c.m,now);
+  const ex=(c.m.find(x=>x.Ly.id==='news'&&(!c.type||x.ty.has(c.type)))||c.m.find(x=>x.Ly.id!=='gdelt')||c.m[0]).i.title;
+  c.head=(c.type?c.type.toUpperCase():'TOPIC: '+c.keys.join(' · '))+' — '+ex.replace(/^[^\w]+/,'');return c});
+ const ok=out.filter(c=>c.src>=2&&c.type);INCX.notopic=out.filter(c=>c.src>=2).length-ok.length;INCX.kept=ok.length;
+ return ok.sort((a,b)=>(Math.round(b.last/6e5)-Math.round(a.last/6e5))||(b.grow-a.grow)||(b.conf-a.conf))}
 const ib=document.getElementById('incbar');let INC=[],incMk=null;
-function renderInc(){INC=incidents();ib.innerHTML=`<b class="inclive">● LIVE</b>`+(INC.length?INC.slice(0,25).map((c,k)=>`<button data-k="${k}"><span class="conf" style="opacity:${.4+c.conf*.6}">${Math.round(c.conf*100)}%</span> ${c.cls.map(x=>`<span class="cls cls-${x}">${CLASSES[x][0]}</span>`).join('')} ${esc(c.head.slice(0,60))} <small>${c.src} src${c.grow?' ↑'+c.grow:''} · ${ago(c.last/1000)}</small></button>`).join(''):'<small>no linked incidents in visible layers (needs ≥2 sources within 25 km / 2 h)</small>')}
+function renderInc(){INC=incidents();ib.innerHTML=`<b class="inclive">● LIVE</b>`+(INC.length?INC.slice(0,25).map((c,k)=>`<button data-k="${k}"><span class="conf" style="opacity:${.4+c.conf*.6}">${Math.round(c.conf*100)}%</span> ${c.cls.map(x=>`<span class="cls cls-${x}">${CLASSES[x][0]}</span>`).join('')} ${esc(c.head.slice(0,70))} <span class="spark">${c.spark}</span> <small>${c.src} src${c.grow?' ↑'+c.grow:''} · ${ago(c.last/1000)}</small></button>`).join(''):'<small>no linked incidents in visible layers (needs ≥2 sources within 25 km / 2 h)</small>')}
 ib.onclick=e=>{const b=e.target.closest('button');if(!b)return;const c=INC[+b.dataset.k];if(incMk)incMk.remove();
  const by={};c.m.forEach(x=>(by[x.c]=by[x.c]||[]).push(x));
- incMk=L.circle([c.lat,c.lon],{radius:25e3,color:'#ff4081',weight:1,fillOpacity:.05}).addTo(map).bindPopup(`<b>◎ Linked incident · confidence ${Math.round(c.conf*100)}%</b><br><small>${c.src} distinct sources · ${c.cls.length} class(es) · ${c.m.length} items · ${new Date(c.first).toLocaleTimeString()}–${new Date(c.last).toLocaleTimeString()}. Automatic proximity link (25 km / 2 h), may join unrelated events.</small><div class="incgrid">`+
+ incMk=L.circle([c.lat,c.lon],{radius:25e3,color:'#ff4081',weight:1,fillOpacity:.05}).addTo(map).bindPopup(`<b>◎ ${esc(c.type?c.type.toUpperCase():'Shared topic: '+c.keys.join(', '))}</b> <span class="spark">${c.spark}</span><br><small>shared keywords: ${esc(c.keys.join(', ')||'–')} · 15-min buckets, last 2 h</small><br><b>confidence ${Math.round(c.conf*100)}%</b><br><small>${c.src} distinct sources · ${c.cls.length} class(es) · ${c.m.length} items · ${new Date(c.first).toLocaleTimeString()}–${new Date(c.last).toLocaleTimeString()}. Automatic link: same place (25 km), time (2 h) and event type or rare shared keywords. Sports and entertainment headlines are excluded. Not verification.</small><div class="incgrid">`+
   Object.keys(CLASSES).filter(k=>by[k]).map(k=>`<div><span class="cls cls-${k}">${CLASSES[k]}</span>`+by[k].slice(0,8).map(x=>`<p><small>${esc(x.Ly.label)} · ${esc(x.src)}</small><br>${esc(x.i.title.slice(0,120))}</p>`).join('')+`</div>`).join('')+'</div>',{maxWidth:340}).openPopup();
  map.flyTo([c.lat,c.lon],Math.max(map.getZoom(),8))};
+window.__inc=()=>({x:INCX,top:INC.slice(0,6).map(c=>({h:c.head,src:c.src,cls:c.cls,spark:c.spark,keys:c.keys,n:c.m.length,ex:c.m.slice(0,4).map(x=>x.src+': '+x.i.title.slice(0,70))}))});
 const _rl=renderList;renderList=function(){_rl();renderInc()};
 
 })();

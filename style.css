@@ -59,3 +59,4 @@ body.picking #map{outline:2px solid #ff2bd6;outline-offset:-2px}
 #incbar .inclive{color:#ff4081;align-self:center}#incbar .conf{color:#ff4081;font-weight:bold}
 .incgrid{display:flex;gap:6px}.incgrid>div{flex:1;min-width:0}.incgrid p{margin:3px 0;font-size:11px}
 a.credit{display:inline-block;margin-top:4px;padding:4px 8px;border:1px solid #39ff14;font-weight:bold}
+.spark{color:#ff4081;letter-spacing:-1px}
