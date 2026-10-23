@@ -5,21 +5,37 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&
 let PL=null,RX=null;
 const HID=new Set(JSON.parse(localStorage.getItem('eyemont.hidden')||'[]'));
 const hide=id=>{HID.add(id);localStorage.setItem('eyemont.hidden',JSON.stringify([...HID].slice(-2000)))};
-// Client-side moderation: drop posts that look like doxxing / personal info.
-const DOX=[/\b\d{3}[-.\s)]\s?\d{3}[-.\s]\d{4}\b/, /[\w.+-]+@[\w-]+\.[\w.]+/, /\b\d{3}-\d{2}-\d{4}\b/,
- /\b\d{1,5}\s+(?:[A-Z][a-z]+\s){1,3}(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Dr|Drive|Ln|Lane|Ct|Court|Way|Pl)\b/,
- /\b(home address|lives at|her address|his address|their address|dox|doxx|license plate|plate number|ssn|social security)\b/i];
 const HS=new Set(JSON.parse(localStorage.getItem('eyemont.hiddenSrc')||'[]'));
 const hideSrc=k=>{HS.add(k);localStorage.setItem('eyemont.hiddenSrc',JSON.stringify([...HS].slice(-2000)))};
+// Client-side moderation: drop posts that look like doxxing / personal info. Runs on DISPLAY (crowd + reports) and on submit.
+const DOX=[
+ /(?:\+?1[\s.-]?)?\(?\b\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\b/,
+ /\b\d{10,11}\b/,
+ /[\w.+-]+@[\w-]+\.[\w.]+/,
+ /\b[\w.+-]{2,}\s*[\[(<{]?\s*(?:at|@)\s*[\])>}]?\s*[\w-]{2,}\s*[\[(<{]?\s*(?:dot|\.)\s*[\])>}]?\s*(?:com|net|org|edu|gov|io|co|us|me|info)\b/i,
+ /\b\d{3}-\d{2}-\d{4}\b/,
+ /\b\d{1,6}\s+(?:[nsew]\.?\s+)?(?:[a-z0-9]+\s){1,3}(?:st|street|ave|avenue|rd|road|blvd|boulevard|dr|drive|ln|lane|ct|court|way|pl|place|ter|terrace|cir|circle|pkwy|hwy|trl|trail)\b\.?/i,
+ /\b(?:plate|plates|tag|lic(?:ense|ence)?)\s*(?:#|no\.?|number)?\s*:?\s*[A-Z0-9]{2,4}[\s-]?[A-Z0-9]{2,4}\b/i,
+ /\b(?=[A-Z0-9-]*\d)(?=[A-Z0-9-]*[A-Z])(?:[A-Z]{3}[\s-]?\d{3,4}|\d[A-Z]{3}\d{3}|[A-Z]{2}\d{2}[\s-]?[A-Z]{3}|\d{3}[\s-]?[A-Z]{3})\b/,
+ /\b(home address|lives at|living at|her address|his address|their address|dox|doxx|doxxing|license plate|plate number|ssn|social security|my name is|his name is|her name is|their name is)\b/i];
 const unsafe=t=>DOX.some(r=>r.test(t));
+// Reports are stricter: a capitalized "First Last" pair counts as a person's name unless it is a known place or a common noun phrase.
+const OKW=new Set('Street St Road Rd Avenue Ave Boulevard Highway Hwy Interstate Route County City Town Park River Creek Lake Bay Beach Bridge Valley Mountain Mount Hill Hills Fire Police Department Station Airport School University College Hospital Center Centre Mall Downtown North South East West New Saint San Santa Los Las Fort Port Power Outage Traffic Heavy Smoke Flood Flooding Storm Tornado Warning Watch Alert Emergency Red Cross National Guard Weather Service Main Market Square Plaza Harbor Island Coast State Federal The This There Huge Big Large Massive Major Many Several Closed Closure Accident Crash Protest March Rally Near Just Now Breaking Update Live Water Gas Wind Rain Snow Ice Hail'.split(' '));
+const NAME=/\b([A-Z][a-z]{1,15})\s+([A-Z][a-z]{1,20})\b/g;
+const unsafeReport=t=>{if(unsafe(t))return true;for(const m of t.matchAll(NAME)){if(OKW.has(m[1])||OKW.has(m[2]))continue;if(PL&&PL.some(p=>p[0]===m[0]))continue;return true}return false};
+
 async function places(){if(PL)return;const r=await fetch('data/places.json');if(!r.ok)throw Error('places HTTP '+r.status);PL=await r.json();
  const names=PL.map(p=>p[0]).sort((a,b)=>b.length-a.length).map(n=>n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
- RX=new RegExp('(?:^|[^\\p{L}])('+names.join('|')+')(?![\\p{L}])','u')}
+ RX=new RegExp('(?:^|[^\\p{L}])('+names.join('|')+')(?![\\p{L}])','gu')}
 const YR=new Date().getFullYear();
 const OLDW=/\b(?:years? ago|on this day|anniversary|#otd|throwback|#tbt)\b/i;
 const OLD={test:t=>OLDW.test(t)||(t.match(/\b(?:18|19|20)\d\d\b/g)||[]).some(y=>+y<YR&&+y>=1800)};
 const unquote=t=>t.replace(/"[^"\n]{1,120}"|“[^”\n]{1,120}”|‘[^’\n]{1,120}’|«[^»\n]{1,120}»/g,' ');
-const placeOf=t=>{const m=RX.exec(unquote(t));if(!m)return null;return PL.find(p=>p[0]===m[1])};
+// Ambiguous names (many towns share them) need a US state or 2-letter code elsewhere in the post. Longest names are tried first, so "New Mexico" wins over "Mexico".
+const AMB=new Set(['Glendale','Aurora','Springfield','Portland','Columbus','Jackson','Richmond','Arlington','Kansas City','Salem','Franklin','Madison','Lincoln','Austin','Phoenix','Mesa','Riverside','Durham','Birmingham','Charleston','Wilmington','Columbia','Cambridge','Manchester','Peoria','Pasadena','Independence','Concord','Athens','Florence','Vancouver','Bristol','Dayton','Augusta','Lafayette','Rochester','Kingston','Valencia','Cordoba','Mobile','Reading','Orange','Buffalo','Hamilton','Victoria','Georgia','Washington','Jordan','Santiago','Plano','Garland','Irving','Henderson','Fresno','Omaha','Tulsa','Toledo','Albany','Louisville','Memphis','Nashville','Cleveland','Moscow','Delhi','Dublin','Lima','Troy','Paris','London']);
+let STRX=null;const states=()=>STRX||(STRX=new RegExp('(?:\\b(?:'+PL.filter(p=>p[3]==='United States'&&!AMB.has(p[0])).map(p=>p[0]).join('|')+')\\b|\\b(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)\\b)'));
+const placeOf=t=>{const u=unquote(t);RX.lastIndex=0;for(const m of u.matchAll(RX)){const p=PL.find(p=>p[0]===m[1]);if(!p)continue;if(AMB.has(p[0])&&!states().test(u.slice(0,m.index)+' '+u.slice(m.index+m[0].length)))continue;return p}return null};
+
 const BSKY_Q=['earthquake','wildfire','flooding','tornado','protest','power outage','evacuation','breaking news'];
 const MASTO_TAGS=['breakingnews','earthquake','wildfire','flood','protest','news','storm'];
 async function bsky(){const out=[];await Promise.all(BSKY_Q.map(async q=>{try{const r=await fetch(`https://api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=${encodeURIComponent(q)}&sort=latest&limit=40`);if(!r.ok)return;
@@ -39,34 +55,74 @@ function card(g){return `<b>📍 ${esc(g.place[0])}</b> <small>${esc(g.place[3])
 document.addEventListener('click',e=>{const b=e.target.closest('button.hide');if(!b)return;
  if(b.dataset.src){if(!confirm('Hide everything from '+b.dataset.src+' on this device?'))return;hideSrc(b.dataset.src);document.querySelectorAll('button.hide[data-src]').forEach(x=>{if(x.dataset.src===b.dataset.src)x.closest('.post')?.remove()});window.dispatchEvent(new Event('eyemont:hidden'));return}
  hide(b.dataset.id);const d=b.closest('.post');if(d)d.remove()});
-return {load,card,unsafe,hide,hideSrc,isHidden:id=>HID.has(id),srcHidden:k=>HS.has(k)};
+return {place:async t=>{await places();return placeOf(t)},load,card,unsafe,unsafeReport,hide,hideSrc,isHidden:id=>HID.has(id),srcHidden:k=>HS.has(k)};
 })();
 
-// REPORTS over Nostr public relays: NIP-01 kind:1 events tagged t=eyemont + g=<geohash 5 chars ≈ 5 km>. Ephemeral key per browser.
+// REPORTS over Nostr public relays. Unmoderated + public, so the client enforces (see ARCHITECTURE.md "Reports moderation"):
+// exact tags t=eyemont & client=eyemont, kind 1, category from CATS, 5..280 chars, geohash 3..5 chars, last 24 h,
+// strict personal-info filter on display, NIP-56 kind-1984 flags: >=2 distinct flagging keys hides a report.
 window.Reports=(()=>{
 const RELAYS=['wss://relay.damus.io','wss://nos.lol','wss://relay.primal.net'];
+const TAG='eyemont',DAY=86400,FLAG_LIMIT=2;
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const CATS=['fire','flood','storm','traffic','outage','protest','police/fire activity','other'];
 const B32='0123456789bcdefghjkmnpqrstuvwxyz';
 function gh(lat,lon,p=5){let la=[-90,90],lo=[-180,180],h='',bit=0,ch=0,even=true;while(h.length<p){const r=even?lo:la,v=even?lon:lat,m=(r[0]+r[1])/2;if(v>m){ch|=16>>bit;r[0]=m}else r[1]=m;even=!even;if(bit<4)bit++;else{h+=B32[ch];bit=0;ch=0}}return h}
 function ungh(h){let la=[-90,90],lo=[-180,180],even=true;for(const c of h){const d=B32.indexOf(c);for(let b=4;b>=0;b--){const r=even?lo:la,m=(r[0]+r[1])/2;if(d>>b&1)r[0]=m;else r[1]=m;even=!even}}return [(la[0]+la[1])/2,(lo[0]+lo[1])/2]}
-function key(){let k=localStorage.getItem('eyemont.nsec');if(!k){k=NostrTools.utils?NostrTools.utils.bytesToHex(NostrTools.generateSecretKey()):[...NostrTools.generateSecretKey()].map(b=>b.toString(16).padStart(2,'0')).join('');localStorage.setItem('eyemont.nsec',k)}
- return Uint8Array.from(k.match(/../g).map(h=>parseInt(h,16)))}
-function load(){return new Promise((res,rej)=>{if(!window.NostrTools)return rej(Error('nostr lib not loaded'));const ev=new Map();let open=0,done=0;
- const fin=()=>res([...ev.values()]);const to=setTimeout(fin,6000);
- RELAYS.forEach(u=>{let ws;try{ws=new WebSocket(u)}catch(e){return}
-  ws.onopen=()=>{open++;ws.send(JSON.stringify(['REQ','eye',{kinds:[1],'#t':['eyemont'],limit:300}]))};
-  ws.onmessage=m=>{const d=JSON.parse(m.data);if(d[0]==='EVENT'){const e=d[2];try{if(NostrTools.verifyEvent(e))ev.set(e.id,e)}catch(x){}}
-   if(d[0]==='EOSE'){ws.close();if(++done===RELAYS.length){clearTimeout(to);fin()}}};
-  ws.onerror=()=>{if(++done===RELAYS.length){clearTimeout(to);open?fin():rej(Error('no relay reachable'))}}})})}
-function items(evs){return evs.filter(e=>!Crowd.isHidden('nostr:'+e.id)&&!Crowd.srcHidden('nostr:'+e.pubkey)&&!Crowd.unsafe(e.content)).map(e=>{const g=(e.tags.find(t=>t[0]==='g')||[])[1];if(!g||g.length<4)return null;
- const [lat,lon]=ungh(g.slice(0,5));const cat=(e.tags.find(t=>t[0]==='category')||[])[1]||'other';
- return {lat,lon,r:7,title:`[${cat}] ${e.content.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area',
-  popup:`<b>[${esc(cat)}]</b> <small>community report · ~5 km precision</small><div class="post"><p>${esc(e.content)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · Nostr ${esc(e.pubkey.slice(0,8))}…</small><br><button class="hide" data-id="nostr:${esc(e.id)}">hide</button> <button class="hide" data-src="nostr:${esc(e.pubkey)}">hide all from this key</button></div>`}}).filter(Boolean)}
-async function publish(cat,text,lat,lon){if(Crowd.unsafe(text))throw Error('Looks like personal info (phone/email/address). Not posted.');
- text=text.trim().slice(0,280);if(text.length<5)throw Error('Too short');
- const ev=NostrTools.finalizeEvent({kind:1,created_at:Math.floor(Date.now()/1000),tags:[['t','eyemont'],['g',gh(lat,lon,5)],['category',cat],['client','eyemont']],content:text},key());
- let ok=0;await Promise.all(RELAYS.map(u=>new Promise(r=>{try{const ws=new WebSocket(u);const t=setTimeout(()=>{ws.close();r()},6000);
-  ws.onopen=()=>ws.send(JSON.stringify(['EVENT',ev]));ws.onmessage=m=>{const d=JSON.parse(m.data);if(d[0]==='OK'){if(d[2])ok++;clearTimeout(t);ws.close();r()}};ws.onerror=()=>{clearTimeout(t);r()}}catch(e){r()}})));
- if(!ok)throw Error('No relay accepted the report');return ok}
-return {load,items,publish,CATS,gh}})();
+// nostr-tools is lazy-loaded the first time reports are used.
+let libP=null;
+function lib(){return libP||(libP=new Promise((res,rej)=>{if(window.NostrTools)return res(window.NostrTools);const sc=document.createElement('script');
+ sc.src='https://cdn.jsdelivr.net/npm/nostr-tools@2.7.2/lib/nostr.bundle.js';sc.onload=()=>window.NostrTools?res(window.NostrTools):rej(Error('nostr lib missing'));
+ sc.onerror=()=>{libP=null;rej(Error('could not load nostr lib'))};document.head.appendChild(sc)}))}
+const hex=b=>[...b].map(x=>x.toString(16).padStart(2,'0')).join('');
+const unhex=h=>Uint8Array.from(h.match(/../g).map(x=>parseInt(x,16)));
+// Identity: random key kept in localStorage 'eyemont.nsec' (this device only, never uploaded). "New identity" replaces it.
+async function key(){const N=await lib();let k=localStorage.getItem('eyemont.nsec');if(!k||!/^[0-9a-f]{64}$/.test(k)){k=hex(N.generateSecretKey());localStorage.setItem('eyemont.nsec',k)}return unhex(k)}
+async function pubkey(){const N=await lib();return N.getPublicKey(await key())}
+function newIdentity(){localStorage.removeItem('eyemont.nsec')}
+// relay status chip
+const RS={};RELAYS.forEach(u=>RS[u]='idle');
+const setRS=(u,v)=>{RS[u]=v;window.dispatchEvent(new CustomEvent('eyemont:relays',{detail:{...RS}}))};
+function status(){return {...RS}}
+function query(filters,ms=6000){return new Promise(res=>{const ev=new Map();let done=0;const fin=()=>res([...ev.values()]);const to=setTimeout(fin,ms);
+ const end=()=>{if(++done===RELAYS.length){clearTimeout(to);fin()}};
+ RELAYS.forEach(u=>{let ws;setRS(u,'connecting');try{ws=new WebSocket(u)}catch(e){setRS(u,'down');return end()}let fin1=false;const f1=()=>{if(!fin1){fin1=true;end()}};
+  ws.onopen=()=>{setRS(u,'up');ws.send(JSON.stringify(['REQ','eye',...filters]))};
+  ws.onmessage=m=>{let d;try{d=JSON.parse(m.data)}catch(x){return}if(d[0]==='EVENT'&&d[2]&&!ev.has(d[2].id)){try{if(window.NostrTools.verifyEvent(d[2]))ev.set(d[2].id,d[2])}catch(x){}}
+   if(d[0]==='EOSE'){try{ws.close()}catch(x){}f1()}};
+  ws.onerror=()=>{setRS(u,'down');f1()};ws.onclose=()=>f1()})})}
+const tag=(e,n)=>e.tags.filter(t=>t[0]===n).map(t=>t[1]);
+function valid(e,now=Date.now()/1000){if(e.kind!==1||typeof e.content!=='string')return false;
+ const t=tag(e,'t'),c=tag(e,'client'),cat=tag(e,'category'),g=tag(e,'g');
+ if(!t.includes(TAG)||c.length!==1||c[0]!==TAG||cat.length!==1||!CATS.includes(cat[0])||g.length!==1)return false;
+ if(!/^[0-9b-hjkmnp-z]{3,5}$/.test(g[0]))return false;
+ const L=[...e.content].length;if(L<5||L>280)return false;
+ if(e.created_at<now-DAY||e.created_at>now+600)return false;return true}
+let last={raw:0,valid:0,flagged:0,unsafe:0};
+async function load(){await lib();const since=Math.floor(Date.now()/1000)-DAY;
+ const evs=await query([{kinds:[1],'#t':[TAG],since,limit:500}]);
+ if(Object.values(RS).every(v=>v==='down'))throw Error('no relay reachable');
+ const ok=evs.filter(e=>valid(e));
+ const flags={};if(ok.length){const fl=await query([{kinds:[1984],'#e':ok.map(e=>e.id).slice(0,400),limit:2000}]);
+  fl.forEach(f=>tag(f,'e').forEach(id=>(flags[id]||(flags[id]=new Set())).add(f.pubkey)))}
+ const out=ok.filter(e=>!(flags[e.id]&&flags[e.id].size>=FLAG_LIMIT));
+ last={raw:evs.length,valid:ok.length,flagged:ok.length-out.length,unsafe:0};return out}
+function items(evs){return evs.filter(e=>{if(Crowd.isHidden('nostr:'+e.id)||Crowd.srcHidden('nostr:'+e.pubkey))return false;if(Crowd.unsafeReport(e.content)){last.unsafe++;return false}return true}).map(e=>{
+ const g=tag(e,'g')[0];const [lat,lon]=ungh(g);const cat=tag(e,'category')[0];
+ return {lat,lon,r:7,title:`[${cat}] ${e.content.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area · unmoderated',
+  popup:`<b>[${esc(cat)}]</b> <small>unmoderated community report · ~5 km precision · expires after 24 h</small><div class="post"><p>${esc(e.content)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · Nostr ${esc(e.pubkey.slice(0,8))}…</small><br><button class="hide" data-id="nostr:${esc(e.id)}">hide</button> <button class="hide" data-src="nostr:${esc(e.pubkey)}">hide all from this key</button> <button class="flag" data-id="${esc(e.id)}" data-pk="${esc(e.pubkey)}">⚑ flag</button></div>`}})}
+function publishEvent(ev){let ok=0;return Promise.all(RELAYS.map(u=>new Promise(r=>{try{setRS(u,'connecting');const ws=new WebSocket(u);const t=setTimeout(()=>{try{ws.close()}catch(x){}r()},6000);
+  ws.onopen=()=>{setRS(u,'up');ws.send(JSON.stringify(['EVENT',ev]))};ws.onmessage=m=>{let d;try{d=JSON.parse(m.data)}catch(x){return}if(d[0]==='OK'&&d[1]===ev.id){if(d[2])ok++;clearTimeout(t);ws.close();r()}};ws.onerror=()=>{setRS(u,'down');clearTimeout(t);r()}}catch(e){setRS(u,'down');r()}}))).then(()=>ok)}
+async function publish(cat,text,lat,lon){text=text.trim();
+ if(Crowd.unsafeReport(text))throw Error('Looks like personal info (name, phone, email, address or plate). Not posted.');
+ if([...text].length>280)throw Error('Max 280 characters');if(text.length<5)throw Error('Too short');if(!CATS.includes(cat))throw Error('Pick a category');
+ const N=await lib();const ev=N.finalizeEvent({kind:1,created_at:Math.floor(Date.now()/1000),tags:[['t',TAG],['g',gh(lat,lon,5)],['category',cat],['client',TAG]],content:text},await key());
+ if(!valid(ev))throw Error('Internal schema check failed');const ok=await publishEvent(ev);if(!ok)throw Error('No relay accepted the report');return ok}
+// NIP-56 report (kind 1984) against a report event.
+async function flag(id,pk){const N=await lib();if(!/^[0-9a-f]{64}$/.test(id)||!/^[0-9a-f]{64}$/.test(pk))throw Error('bad id');
+ const ev=N.finalizeEvent({kind:1984,created_at:Math.floor(Date.now()/1000),tags:[['e',id,'other'],['p',pk],['t',TAG]],content:'eyemont community flag'},await key());
+ return publishEvent(ev)}
+document.addEventListener('click',async e=>{const b=e.target.closest('button.flag');if(!b)return;
+ if(!confirm('Publish a public NIP-56 flag for this report? Reports with 2+ flags are hidden for everyone using Eyemont.'))return;
+ b.disabled=true;b.textContent='flagging…';try{const n=await flag(b.dataset.id,b.dataset.pk);Crowd.hide('nostr:'+b.dataset.id);b.textContent=`flagged (${n} relay)`;b.closest('.post')?.remove();window.dispatchEvent(new Event('eyemont:hidden'))}catch(x){b.textContent='flag failed';b.disabled=false}});
+return {load,items,publish,flag,valid,CATS,gh,lib,pubkey,newIdentity,status,stats:()=>last,RELAYS}})();

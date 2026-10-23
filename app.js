@@ -48,10 +48,10 @@ const LAYERS=[
  async load(){const {groups,stats}=await Crowd.load();this.note=`${stats.placed} of ${stats.fetched} public posts name a known place · ${stats.filtered} filtered (personal info) · ${stats.old} older than 24h/dated skipped`;
   return groups.map(g=>({lat:g.place[1],lon:g.place[2],r:5+Math.min(10,g.posts.length*1.5),title:`📍 ${g.place[0]} · ${g.posts.length} post(s)`,sub:g.posts[0].text.slice(0,80),popup:()=>Crowd.card(g)}))}},
 {id:'reports',label:'✚ REPORTS',color:'#ff2bd6',refresh:120e3,attribution:'Reports: Nostr public relays',
- async load(){return Reports.items(await Reports.load())}},
-{id:'radar',label:'☂ RADAR',color:'#4fc3f7',refresh:600e3,tile:true,attribution:'Radar: <a href="https://www.rainviewer.com">RainViewer</a>',
- async load(){const d=await getJSON('https://api.rainviewer.com/public/weather-maps.json');const f=d.radar.past[d.radar.past.length-1];
-  this.note='radar '+new Date(f.time*1000).toLocaleTimeString();this.tileLayer=L.tileLayer(`${d.host}${f.path}/256/{z}/{x}/{y}/2/1_1.png`,{opacity:.6,maxNativeZoom:7,maxZoom:19});return []}},
+ async load(){const it=Reports.items(await Reports.load());const st=Reports.stats();this.note=`${it.length} shown · last 24 h · ${st.raw-st.valid} bad schema, ${st.flagged} flagged (2+ keys), ${st.unsafe} personal-info dropped · UNMODERATED`;return it}},
+{id:'radar',label:'☂ RADAR',color:'#4fc3f7',refresh:300e3,tile:true,attribution:'Radar: NEXRAD via <a href="https://mesonet.agron.iastate.edu/">Iowa Environmental Mesonet</a> (US only)',
+ async load(){this.note='US NEXRAD base reflectivity (IEM, ~5 min)';if(this.tileLayer)this.tileLayer.setUrl('https://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913/{z}/{x}/{y}.png?_='+Date.now());
+  else this.tileLayer=L.tileLayer('https://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913/{z}/{x}/{y}.png?_='+Date.now(),{opacity:.6,maxZoom:19,maxNativeZoom:12});return []}},
 {id:'eonet',label:'🛰 EONET',color:'#ff9e40',refresh:900e3,attribution:'Events: <a href="https://eonet.gsfc.nasa.gov">NASA EONET</a>',
  async load(){const d=await getJSON('https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=30');
   return d.events.map(e=>{const g=e.geometry[e.geometry.length-1];if(!g||g.type!=='Point')return null;const cat=e.categories[0]?.title||'';
@@ -99,10 +99,11 @@ async function refresh(Ly){const s=state[Ly.id];clearTimeout(s.timer);if(!s.on)r
   s.timer=setTimeout(()=>refresh(Ly),wait)}
  s.loading=false;drawLayer(Ly);renderList()}
 LAYERS.forEach(Ly=>{const b=document.createElement('button');nav.appendChild(b);
- const s=state[Ly.id]={on:['crowd','reports','quakes','alerts','gdacs'].includes(Ly.id),btn:b,shown:[],total:0,
+ const s=state[Ly.id]={on:['crowd','quakes','alerts','gdacs'].includes(Ly.id),btn:b,shown:[],total:0,
   group:(Ly.cluster?L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50}):L.layerGroup()).addTo(map)};
  b.classList.toggle('on',s.on);if(s.on)map.attributionControl.addAttribution(Ly.attribution);badge(Ly);
- b.onclick=()=>{s.on=!s.on;b.classList.toggle('on',s.on);map.attributionControl[s.on?'addAttribution':'removeAttribution'](Ly.attribution);if(!s.on){clearTimeout(s.timer);s.err=null;b.classList.remove('err')}
+ b.onclick=()=>{if(Ly.id==='reports'&&!s.on&&!localStorage.getItem('eyemont.reportsAck')){if(!confirm('REPORTS are UNMODERATED and PUBLIC.\n\nAnyone can post them to open Nostr relays. Eyemont only applies automatic filters (schema, personal-info filter, 24 h expiry, community flags). Content may be false or offensive. Show them?'))return;localStorage.setItem('eyemont.reportsAck','1')}
+  s.on=!s.on;b.classList.toggle('on',s.on);map.attributionControl[s.on?'addAttribution':'removeAttribution'](Ly.attribution);if(!s.on){clearTimeout(s.timer);s.err=null;b.classList.remove('err')}
   s.on&&!s.data?refresh(Ly):(drawLayer(Ly),renderList())};
  if(s.on)refresh(Ly)});
 /* panel: feed list or scanner browser */
@@ -136,3 +137,10 @@ getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>sel
 sel.onchange=()=>{region=sel.value;if(region==='World')map.setView([20,0],2);else flyState(region);redraw()};
 })();
 window.addEventListener('eyemont:hidden',()=>LAYERS.filter(l=>l.id==='crowd'||l.id==='reports').forEach(l=>state[l.id]?.on&&refresh(l)));
+
+/* relay status chip + identity controls */
+function relayChip(st){const v=Object.values(st),up=v.filter(x=>x==='up').length,dn=v.filter(x=>x==='down').length;
+ document.querySelectorAll('.relaychip').forEach(c=>{c.textContent=`relays ${up}/${v.length} up`+(dn?` · ${dn} down`:'');c.dataset.s=up?'ok':dn===v.length?'down':'idle';c.title=Object.entries(st).map(([u,x])=>u.replace('wss://','')+': '+x).join('\n')})}
+window.addEventListener('eyemont:relays',e=>relayChip(e.detail));relayChip(Reports.status());
+document.getElementById('rnewid').onclick=()=>{if(!confirm('Start a new identity? Your old key on this device is deleted; past reports stay public but are no longer linked to this device.'))return;Reports.newIdentity();document.getElementById('rid').textContent='new key on next post';toast('New identity')};
+document.getElementById('reportbtn').addEventListener('click',()=>{Reports.lib().catch(()=>{});if(localStorage.getItem('eyemont.nsec'))Reports.pubkey().then(p=>document.getElementById('rid').textContent='key '+p.slice(0,8)+'…').catch(()=>{})});

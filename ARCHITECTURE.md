@@ -95,6 +95,30 @@ Quakes, NWS alerts, aircraft (live or snapshot), 3,426 clustered Caltrans cams w
 - **Reports**: Nostr NIP-01 kind:1 events tagged `t=eyemont`, `g=<5-char geohash ≈ 5 km>` and `category`. They are signed with an ephemeral key generated in the browser (nostr-tools) and sent to damus, nos.lol and primal relays. Location is picked by tapping the map, never by GPS. Text is capped at 280 characters and passes through the doxx filter, and the form warns that reports are public and permanent.
 - **Dropped**: Reddit (`/r/*.json` returns 403 and the Data API needs registration/OAuth), YouTube search (needs a key; replaced by curated official channel `/live` links in `data/live.json`).
 
-**OPEN DATA**: USGS, NWS, adsb.lol snapshot, Caltrans, plus RainViewer radar tiles (free public API, attribution), NASA EONET (open, CORS `*`) and GDACS (`geteventlist/SEARCH`, CORS `*`). GDELT: GEO 2.0 API returns 404 and DOC API has no coordinates (and 429s shared IPs), so `.github/gdelt_snapshot.py` reads the open GDELT 2.0 Events 15-min export (last 4 files, sequential, 2 s apart, 1 retry; falls back to the previous snapshot) in the Pages workflow, keeps conflict/protest/tension root codes (10-20), drops country-centroid geo, rounds to 0.01°, groups by place, max 600 → `data/gdelt.json`. Machine-coded; popups say so.
+**OPEN DATA**: USGS, NWS, adsb.lol snapshot, Caltrans, plus IEM NEXRAD radar tiles (replaced RainViewer), NASA EONET (open, CORS `*`) and GDACS (`geteventlist/SEARCH`, CORS `*`). GDELT: GEO 2.0 API returns 404 and DOC API has no coordinates (and 429s shared IPs), so `.github/gdelt_snapshot.py` reads the open GDELT 2.0 Events 15-min export (last 4 files, sequential, 2 s apart, 1 retry; falls back to the previous snapshot) in the Pages workflow, keeps conflict/protest/tension root codes (10-20), drops country-centroid geo, rounds to 0.01°, groups by place, max 600 → `data/gdelt.json`. Machine-coded; popups say so.
 
 **M2.1 placement + moderation**: crowd ignores place names inside quotes, skips posts older than 24 h or mentioning a past year / "years ago" / "on this day"; each card has "hide all from this source" (handle or Nostr pubkey, localStorage `eyemont.hiddenSrc`, device-only).
+
+## M2.2 Reports moderation (no backend)
+Nostr REPORTS are **unmoderated and public**. With no server, all moderation is client-side and deterministic:
+- **Off by default.** Turning the layer on the first time shows a one-time notice (unmoderated, public, may be false). The acknowledgement is stored in localStorage `eyemont.reportsAck`.
+- **Strict schema.** An event is dropped unless it has kind 1, `t=eyemont`, exactly one `client=eyemont`, exactly one `category` from the app list (fire, flood, storm, traffic, outage, protest, police/fire activity, other), 5–280 characters, and exactly one `g` geohash of 3–5 characters (about 5 km or coarser). It must also have a valid signature (`verifyEvent`).
+- **24 h expiry.** The relay query uses `since = now - 24h`, and the client drops anything older than 24 h or more than 10 min in the future.
+- **Display-time personal-info filter** (`Crowd.unsafe` for crowd posts, the stricter `Crowd.unsafeReport` for reports). It catches:
+  - phone numbers, with or without separators, including bare 10–11 digit numbers;
+  - emails, including obfuscated ones ("at"/"dot");
+  - SSNs;
+  - street addresses in any case;
+  - license plates ("plate ABC 123" and plate-shaped tokens);
+  - phrases like "my/his/her name is" and doxx keywords.
+
+  For reports only, it also catches any capitalized "First Last" pair unless it is a known place or a common noun phrase. The same filter runs on submit.
+- **Community flags (NIP-56).** Each report has a ⚑ flag button that publishes a kind-1984 event (`e=<id> other`, `p=<pubkey>`, `t=eyemont`). A report flagged by **2 or more distinct keys** is hidden for everyone. Flagging also hides the report locally right away. Per-item and per-source hides are device-only.
+- **Identity.** A random Nostr key is stored only in this browser (localStorage `eyemont.nsec`) and never uploaded. "new identity" deletes it, and a fresh key is made on the next post. Old posts stay public.
+- **Relay status chip** in the report form shows how many relays are up (hover for each relay). **nostr-tools is lazy-loaded** the first time reports are opened or used.
+- CROWD stays at city level: posts are pinned only to place centroids from `places.json`, never to authors.
+- **Placement.** Ambiguous town names (Glendale, Aurora, Springfield, Portland, …) are matched only when a US state name or 2-letter code also appears. Longest names are matched first, so "New Mexico" wins over "Mexico".
+- **Testing.** The publish and flag paths are tested only against a Playwright `routeWebSocket` mock relay. No test publishes to real relays.
+
+## Radar
+RainViewer is replaced by Iowa Environmental Mesonet NEXRAD n0q tiles (`mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913/{z}/{x}/{y}.png`). They are free public tiles, attributed to IEM, and cover the US only. They refresh every 5 minutes.

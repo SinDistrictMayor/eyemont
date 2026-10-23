@@ -44,3 +44,5 @@ li b{color:#fff}li small{color:#7fd99a;display:block}#scan a{color:#9fffb5}#scan
 .leaflet-popup-content{max-height:50vh;overflow-y:auto}
 #toast{position:fixed;z-index:4000;left:10%;right:10%;top:80px;background:#000;border:1px solid var(--g);padding:12px;text-align:center}#toast[hidden]{display:none}
 body.picking #map{outline:2px solid #ff2bd6;outline-offset:-2px}
+
+.relaychip{border:1px solid #0f0;padding:2px 6px;border-radius:8px}.relaychip[data-s=down]{border-color:#f33;color:#f33}.relaychip[data-s=idle]{opacity:.6}#rnewid{font-size:12px;padding:4px 8px}button.flag{color:#ff5252}
