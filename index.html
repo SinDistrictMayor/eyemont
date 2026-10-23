@@ -2,13 +2,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#000"><title>EYEMONT // god's eye</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="style.css"></head><body>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"><link rel="stylesheet" href="style.css"></head><body>
 <canvas id="rain"></canvas>
 <header><span class="logo">EYEMONT<span class="blink">_</span></span>
 <button id="scanbtn">📻</button><select id="region"><option value="World">WORLD</option></select></header>
 <div id="map"></div>
 <nav id="layers"></nav>
 <section id="panel"><div id="grip">▲ FEED <span id="count"></span></div><div id="status"></div><ul id="feed"></ul><ul id="scan" hidden></ul></section>
-<div id="player"><button id="ptoggle">▶</button><span id="ptxt">—</span><button id="pnext">⏭</button><button id="pstop">✕</button><audio id="audio" preload="none" playsinline></audio></div>
+<div id="player"><video id="pvid" playsinline muted></video><button id="ptoggle">▶</button><span id="ptxt">—</span><button id="pstop">✕</button></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="scanners.js"></script><script src="app.js"></script></body></html>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script><script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script><script src="scanners.js"></script><script src="app.js"></script></body></html>

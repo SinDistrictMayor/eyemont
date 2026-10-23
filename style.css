@@ -29,3 +29,5 @@ select{background:#000;color:var(--g);border:1px solid var(--g);font:inherit;pad
 #player.on{display:flex}#player span{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 #player button{background:#000;color:var(--g);border:1px solid var(--g);min-width:40px;min-height:40px;font:inherit}
 body.playing #panel.open{padding-bottom:56px}
+#pvid{width:96px;height:60px;background:#000;border:1px solid var(--d)}#scan li.off a{color:#ffd400}
+.marker-cluster div{background:rgba(179,136,255,.8)!important;color:#000;font-family:inherit}.marker-cluster{background:rgba(179,136,255,.3)!important}

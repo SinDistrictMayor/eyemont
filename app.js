@@ -22,6 +22,7 @@ async function feed(name,direct,o){if(API){try{return await getJSON(`${API}/feed
  let err;for(const u of [].concat(direct)){try{return await getJSON(u,o)}catch(e){err=e}}throw err}
 
 /* Layer plugins: {id,label,color,attribution,refresh(ms),load()->[{lat,lon,title,sub,popup,r?,geo?}]} */
+document.addEventListener('click',e=>{const b=e.target.closest('button.live');if(b)Player.play(b.dataset.h,b.dataset.n,'Caltrans live cam',b.dataset.i)});
 const LAYERS=[
 {id:'quakes',label:'⌁ QUAKES',color:'#ff3b3b',refresh:120e3,attribution:'Quakes: <a href="https://earthquake.usgs.gov">USGS</a>',
  async load(){const d=await feed('quakes','https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson');
@@ -39,31 +40,28 @@ const LAYERS=[
   const p=center();
   try{const d=await feed('aircraft',`https://api.adsb.lol/v2/lat/${p.lat.toFixed(2)}/lon/${p.lng.toFixed(2)}/dist/250`);this.note='live';return m(d.ac||[])}catch(e){}
   const d=await getJSON('data/aircraft.json');this.note=`browser CORS blocked → US snapshot ${d.now?new Date(d.now*1000).toLocaleTimeString():'n/a'} (server-side, 15 min)`;return m(d.ac||[])}},
-{id:'cams',label:'◉ DOT CAMS',color:'#b388ff',refresh:300e3,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
- async load(){const out=[];await Promise.all(['04','07','11','12'].map(async n=>{try{const d=await feed('cams-ca-d'+n,`https://cwwp2.dot.ca.gov/data/d${+n}/cctv/cctvStatusD${n}.json`);
-  d.data.forEach(({cctv:c})=>{if(c.inService!=='true')return;const img=c.imageData?.static?.currentImageURL;if(!img)return;
-   out.push({lat:+c.location.latitude,lon:+c.location.longitude,r:4,title:c.location.locationName,sub:`Caltrans D${+n} · ${c.location.nearbyPlace}`,
-   popup:`<b>${esc(c.location.locationName)}</b><img loading=lazy src="${esc(img)}" alt="camera"><small>Caltrans public CCTV snapshot</small>`})})}catch(e){}}));
-  if(!out.length)throw new Error('no cams');return out}},
+{id:'cams',label:'◉ CA CAMS',color:'#b388ff',refresh:0,cluster:true,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
+ async load(){const d=await getJSON('data/cams.json');return d.map(([n,lat,lon,county,typ,hls,img])=>({lat,lon,r:4,title:n,sub:`${county} County, CA${hls?' · live video':''}`,
+  popup:()=>`<b>${esc(n)}</b><br><small>${esc(county)} County</small><img src="${esc(img)}?t=${Date.now()}" alt="snapshot">`+(hls?`<button class="live" data-h="${esc(hls)}" data-n="${esc(n)}" data-i="${esc(img)}">▶ LIVE (keeps playing)</button>`:'')+`<small>Caltrans public CCTV</small>`}))}},
 {id:'scanner',label:'📻 SCANNERS',color:'#ff8a00',refresh:0,attribution:'Scanner audio: <a href="https://openmhz.com">OpenMHz</a>, links to <a href="https://www.broadcastify.com">Broadcastify</a>',
  async load(){await Scanners.init();return [{dynamic:true}]}}
 ];
 
 const state={};const nav=document.getElementById('layers'),list=document.getElementById('feed'),status=document.getElementById('status'),panel=document.getElementById('panel');
-function render(){list.innerHTML='';let n=0;const msgs=[];
+function render(){list.innerHTML='';let n=0;const msgs=[];let batch;
  LAYERS.forEach(Ly=>{const s=state[Ly.id];s.group.clearLayers();if(!s.on)return;
   if(s.err)msgs.push(`${Ly.label}: ${s.err}`);else if(Ly.note)msgs.push(`${Ly.label}: ${Ly.note}`);
-  (Ly.id==='scanner'&&s.items?Scanners.items(region):(s.items||[])).filter(i=>inRegion(i.lat,i.lon)).forEach(i=>{
+  (batch=[],Ly.id==='scanner'&&s.items?Scanners.items(region):(s.items||[])).filter(i=>inRegion(i.lat,i.lon)).forEach(i=>{
    const mk=i.geo?L.geoJSON(i.geo,{style:{color:Ly.color,weight:1,fillOpacity:.15}}):dot([i.lat,i.lon],Ly.color,i.r);
-   if(i.state){mk.on('click',()=>openScan(i))}else mk.bindPopup(i.popup);mk.addTo(s.group);
-   if(n++<400){const li=document.createElement('li');li.innerHTML=`<span style="color:${Ly.color}">■</span> <b>${esc(i.title)}</b><small>${esc(i.sub)}</small>`;
-    li.onclick=i.state?()=>openScan(i):()=>{panel.classList.remove('open');map.flyTo([i.lat,i.lon],Math.max(map.getZoom(),i.geo?6:9));setTimeout(()=>mk.openPopup(),900)};list.appendChild(li)}})});
+   if(i.state){mk.on('click',()=>openScan(i))}else mk.bindPopup(i.popup);if(!Ly.cluster)mk.addTo(s.group);
+   if(Ly.cluster)batch.push(mk);if(n++<400){const li=document.createElement('li');li.innerHTML=`<span style="color:${Ly.color}">■</span> <b>${esc(i.title)}</b><small>${esc(i.sub)}</small>`;
+    li.onclick=i.state?()=>openScan(i):Ly.cluster?()=>{panel.classList.remove('open');s.group.zoomToShowLayer(mk,()=>mk.openPopup())}:()=>{panel.classList.remove('open');map.flyTo([i.lat,i.lon],Math.max(map.getZoom(),i.geo?6:9));setTimeout(()=>mk.openPopup(),900)};list.appendChild(li)}});if(batch.length)s.group.addLayers(batch)});
  document.getElementById('count').textContent=`[${n}]`;status.innerHTML=msgs.map(esc).join('<br>')+(API?`<br>API: ${esc(API)}`:'')}
 async function refresh(Ly){const s=state[Ly.id];if(!s.on)return;s.btn.textContent=Ly.label+' …';
  try{s.items=await Ly.load();s.err=null;s.btn.classList.remove('err')}catch(e){s.err='feed unavailable ('+e.message+') — retrying';s.btn.classList.add('err')}
  s.btn.textContent=Ly.label+(s.items?` ${s.items.length}`:'');render()}
 LAYERS.forEach(Ly=>{const b=document.createElement('button');b.textContent=Ly.label;nav.appendChild(b);
- const s=state[Ly.id]={on:['quakes','alerts','air'].includes(Ly.id),btn:b,group:L.layerGroup().addTo(map)};b.classList.toggle('on',s.on);
+ const s=state[Ly.id]={on:['quakes','alerts','air'].includes(Ly.id),btn:b,group:(Ly.cluster?L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50}):L.layerGroup()).addTo(map)};b.classList.toggle('on',s.on);
  map.attributionControl.addAttribution(Ly.attribution);
  b.onclick=()=>{s.on=!s.on;b.classList.toggle('on',s.on);s.on&&!s.items?refresh(Ly):render()};
  if(s.on)refresh(Ly);if(Ly.refresh)setInterval(()=>refresh(Ly),Ly.refresh)});

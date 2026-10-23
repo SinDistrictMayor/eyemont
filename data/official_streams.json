@@ -1,0 +1,5 @@
+[
+{"title":"Loudoun County ECC — Radio Dispatch Webcast","state":"Virginia","county":"Loudoun County","lat":39.08,"lon":-77.64,"url":"https://www.loudoun.gov/724/Radio-Dispatch-Webcast","note":"Official county webcast (opens agency page)"},
+{"title":"Deschutes County 911 — delayed dispatch feeds","state":"Oregon","county":"Deschutes County","lat":44.06,"lon":-121.31,"url":"https://www.deschutescounty.gov/279/9-1-1-Service-District","note":"Official, 30-min delayed, unencrypted (opens agency page)"},
+{"title":"Delta Township Fire — Live Dispatch","state":"Michigan","county":"Eaton County","lat":42.73,"lon":-84.66,"url":"https://www.deltami.gov/departments/fire/live_dispatch.php","note":"Official township page (opens agency page)"}
+]
