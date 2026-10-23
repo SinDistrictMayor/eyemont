@@ -178,3 +178,4 @@ Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, p
 - NEAR: full tz→state map including IANA aliases; multi-state zones show "Guessed: NY, change".
 - stateOf: point-in-polygon, then a Canada/Mexico mask (Natural Earth 1:50m, clipped), then nearest-state fallback (~35 km). Covers PR, USVI, Guam, CNMI, and American Samoa.
 - Feeds that fail show an error plus a retry countdown and a RETRY NOW button. news.json loads after first paint. Future-dated news is dropped in the snapshot.
+- Name masking: every piece of publisher text shown in the app (sheet coverage, timeline, source labels, popups, cam captions) goes through `maskNames()`, which applies the safeHead pair detection and swaps name-like pairs for "[name]". Places, orgs, and named events ("Aspen Acres Fire") are kept. Link hrefs are unchanged.
