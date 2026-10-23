@@ -3,6 +3,9 @@
 NASA FIRMS (VIIRS NOAA-20 US 24h CSV, aggregated to 0.1 deg cells), FAA TFR list (placed at state centroid),
 FAA NAS airport events (major airport table), NOAA tsunami PTWC/NTWC Atom."""
 import csv, io, json, time, urllib.request, re, xml.etree.ElementTree as ET, datetime
+import socket as _s
+_ga=_s.getaddrinfo
+_s.getaddrinfo=lambda h,*a,**k:[x for x in _ga(h,*a,**k) if x[0]==_s.AF_INET] or _ga(h,*a,**k)  # IPv4 first: FIRMS IPv6 unreachable from Actions
 UA={'User-Agent':'Eyemont (https://github.com/SinDistrictMayor/eyemont)'}
 def get(u):
     time.sleep(1)
