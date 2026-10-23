@@ -1,0 +1,6 @@
+[
+{"title":"Cook County, IL (Chicago) scanner feeds","desc":"Public Broadcastify directory","source":"Broadcastify","lat":41.88,"lon":-87.63,"url":"https://www.broadcastify.com/listen/ctid/606"},
+{"title":"New York City scanner feeds","desc":"Public Broadcastify directory","source":"Broadcastify","lat":40.71,"lon":-74.0,"url":"https://www.broadcastify.com/listen/ctid/1855"},
+{"title":"Los Angeles County scanner feeds","desc":"Public Broadcastify directory","source":"Broadcastify","lat":34.05,"lon":-118.24,"url":"https://www.broadcastify.com/listen/ctid/201"},
+{"title":"KJFK ATC audio","desc":"Public ATC audio (LiveATC.net)","source":"LiveATC","lat":40.64,"lon":-73.78,"url":"https://www.liveatc.net/search/?icao=KJFK"}
+]

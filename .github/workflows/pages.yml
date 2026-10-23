@@ -1,0 +1,22 @@
+name: deploy
+on:
+  push: {branches: [main]}
+  schedule: [{cron: "*/15 * * * *"}]
+  workflow_dispatch:
+permissions: {contents: read, pages: write, id-token: write}
+concurrency: {group: pages, cancel-in-progress: true}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: {name: github-pages, url: "${{ steps.d.outputs.page_url }}"}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aircraft snapshot (adsb.lol, ODbL) – fallback when browser CORS blocks
+        run: |
+          curl -sf -A "eyemont (github pages)" "https://api.adsb.lol/v2/lat/39/lon/-98/dist/250" -o /tmp/a.json || echo '{"ac":[]}' > /tmp/a.json
+          python3 -c "import json,time;d=json.load(open('/tmp/a.json'));json.dump({'now':int(time.time()),'ac':[{k:a.get(k) for k in ('hex','flight','t','r','lat','lon','alt_baro','gs')} for a in d.get('ac',[])]},open('data/aircraft.json','w'))"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: .}
+      - id: d
+        uses: actions/deploy-pages@v4
