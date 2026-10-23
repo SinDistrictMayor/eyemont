@@ -26,17 +26,38 @@ const FIRST=new Set('james john robert michael william david richard joseph thom
 const nameCI=t=>{const w=t.toLowerCase().match(/[a-z']+/g)||[];for(let i=0;i<w.length-1;i++)if(FIRST.has(w[i])&&w[i+1].length>1&&!OKW.has(w[i+1][0].toUpperCase()+w[i+1].slice(1)))return true;return false};
 const unsafeReport=t=>{if(unsafe(t)||nameCI(t))return true;for(const m of t.matchAll(NAME)){if(OKW.has(m[1])||OKW.has(m[2]))continue;if(PL&&PL.some(p=>p[0]===m[0]))continue;return true}return false};
 
-async function places(){if(PL)return;const r=await fetch('data/places.json');if(!r.ok)throw Error('places HTTP '+r.status);PL=await r.json();
+/* Census 2023 Gazetteer (data/gaz.txt, built by .github/build_gaz.py): name -> {ST:[lat,lon]}, flag u = unique & not a common word */
+let GZ=null,GU=null,GC=null;
+const STN={Alabama:'AL',Alaska:'AK',Arizona:'AZ',Arkansas:'AR',California:'CA',Colorado:'CO',Connecticut:'CT',Delaware:'DE','District of Columbia':'DC',Florida:'FL',Georgia:'GA',Hawaii:'HI',Idaho:'ID',Illinois:'IL',Indiana:'IN',Iowa:'IA',Kansas:'KS',Kentucky:'KY',Louisiana:'LA',Maine:'ME',Maryland:'MD',Massachusetts:'MA',Michigan:'MI',Minnesota:'MN',Mississippi:'MS',Missouri:'MO',Montana:'MT',Nebraska:'NE',Nevada:'NV','New Hampshire':'NH','New Jersey':'NJ','New Mexico':'NM','New York':'NY','North Carolina':'NC','North Dakota':'ND',Ohio:'OH',Oklahoma:'OK',Oregon:'OR',Pennsylvania:'PA','Rhode Island':'RI','South Carolina':'SC','South Dakota':'SD',Tennessee:'TN',Texas:'TX',Utah:'UT',Vermont:'VT',Virginia:'VA',Washington:'WA','West Virginia':'WV',Wisconsin:'WI',Wyoming:'WY','Puerto Rico':'PR'};
+const APN={'Ala.':'AL','Ariz.':'AZ','Ark.':'AR','Calif.':'CA','Colo.':'CO','Conn.':'CT','Del.':'DE','D.C.':'DC','Fla.':'FL','Ga.':'GA','Ill.':'IL','Ind.':'IN','Kan.':'KS','Ky.':'KY','La.':'LA','Md.':'MD','Mass.':'MA','Mich.':'MI','Minn.':'MN','Miss.':'MS','Mo.':'MO','Mont.':'MT','Neb.':'NE','Nev.':'NV','N.H.':'NH','N.J.':'NJ','N.M.':'NM','N.Y.':'NY','N.C.':'NC','N.D.':'ND','Okla.':'OK','Ore.':'OR','Pa.':'PA','R.I.':'RI','S.C.':'SC','S.D.':'SD','Tenn.':'TN','Vt.':'VT','Va.':'VA','Wash.':'WA','W.Va.':'WV','Wis.':'WI','Wyo.':'WY'};
+const rxe=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const STALT=[...Object.keys(STN),...Object.keys(APN)].sort((a,b)=>b.length-a.length).map(rxe).join('|')+'|'+Object.values(STN).join('|');
+const DLINE=new RegExp("((?:[A-Z][A-Za-z.'-]+\\s){0,3}[A-Z][A-Za-z.'-]+),\\s+("+STALT+")(?![\\w])",'g');
+const SNAMED=new RegExp("(?<![\\w.])("+Object.keys(STN).sort((a,b)=>b.length-a.length).map(rxe).join('|')+'|'+Object.keys(APN).map(rxe).join('|')+")(?![\\w])",'g');
+const stc=x=>STN[x]||APN[x]||(Object.values(STN).includes(x)?x:null);
+const gpt=(c,st)=>{const g=GZ&&GZ.get(c);return g&&g[st]?[c,g[st][0],g[st][1],'United States']:null};
+const BARECTX=/(?:\b(?:in|near|at|outside|from|of|across|around)\s+(?:(?:downtown|rural|north|south|east|west)\s+)?@(?![ ]?[A-Z]|['’]s))|(?:@\s+(?:police|fire|officials|residents|man|woman|teen|home|area|county|city|schools?|mayor|council|crash|shooting)\b)/i;
+function gazPlace(u){if(!GZ)return null;
+ for(const m of u.matchAll(DLINE)){const st=stc(m[2]);if(!st)continue;const w=m[1].split(/\s+/);for(let i=0;i<w.length;i++){let c=w.slice(i).join(' ');if(c===c.toUpperCase())c=c.toLowerCase().replace(/\b\w/g,x=>x.toUpperCase());const p=gpt(c,st);if(p)return p}}
+ return null}
+function gazScan(u){if(!GZ)return null;const named=new Set([...u.matchAll(SNAMED)].map(m=>stc(m[1])).filter(Boolean));let uni=null;
+ for(const m of u.matchAll(/(?<![\w])([A-Z][a-z'-]+(?:\s[A-Z][a-z'-]+){0,2})(?![\w])/g)){const w=m[1].split(' ');
+  for(let i=0;i<w.length;i++)for(let j=w.length;j>i;j--){const c=w.slice(i,j).join(' ');if(STN[c]||!GC.has(c))continue;for(const s of named){const p=gpt(c,s);if(p)return p}}
+  const c=m[1];if(!uni&&GU.has(c)&&!FIRST.has(c.split(' ')[0].toLowerCase())&&BARECTX.test(u.slice(Math.max(0,m.index-12),m.index)+'@'+u.slice(m.index+c.length,m.index+c.length+14)))uni=c}
+ if(uni){const[s]=Object.keys(GZ.get(uni));return gpt(uni,s)}return null}
+async function gaz(){if(GZ)return;try{const r=await fetch('data/gaz.txt');if(!r.ok)return;const M=new Map(),U=new Set(),C=new Set();
+ for(const l of (await r.text()).split('\n')){const f=l.split('\t'),o={};for(const x of f.slice(2)){const[s,ll]=x.split(':'),[a,b]=ll.split(',');o[s]=[+a,+b]}M.set(f[0],o);if(f[1]==='u')U.add(f[0]);if(f[1])C.add(f[0])}GZ=M;GU=U;GC=C}catch(e){}}
+async function places(){if(PL)return;const r=await fetch('data/places.json');if(!r.ok)throw Error('places HTTP '+r.status);PL=await r.json();await gaz();
  const names=PL.map(p=>p[0]).sort((a,b)=>b.length-a.length).map(n=>n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
  RX=new RegExp('(?:^|[^\\p{L}])('+names.join('|')+')(?![\\p{L}])','gu')}
 const YR=new Date().getFullYear();
 const OLDW=/\b(?:years? ago|on this day|anniversary|#otd|throwback|#tbt)\b/i;
 const OLD={test:t=>OLDW.test(t)||(t.match(/\b(?:18|19|20)\d\d\b/g)||[]).some(y=>+y<YR&&+y>=1800)};
-const unquote=t=>t.replace(/"[^"\n]{1,120}"|“[^”\n]{1,120}”|‘[^’\n]{1,120}’|«[^»\n]{1,120}»/g,' ');
+const unquote=t=>t.replace(/"[^"\n]{1,120}"|“[^”\n]{1,120}”|‘[^’\n]{1,120}’|«[^»\n]{1,120}»/g,' ').replace(/\b[A-Z][a-z]+(?: [A-Z][a-z]+)?\s+(?:Avenue|Ave|Street|St|Road|Rd|Boulevard|Blvd|Drive|Dr|Lane|Ln|Way|Highway|Hwy|Parkway|Pkwy|Turnpike)\b\.?/g,' '); // street names ('West Virginia Avenue') are not places
 // Ambiguous names (many towns share them) need a US state or 2-letter code elsewhere in the post. Longest names are tried first, so "New Mexico" wins over "Mexico".
 const AMB=new Set(['Glendale','Aurora','Springfield','Portland','Columbus','Jackson','Richmond','Arlington','Kansas City','Salem','Franklin','Madison','Lincoln','Austin','Phoenix','Mesa','Riverside','Durham','Birmingham','Charleston','Wilmington','Columbia','Cambridge','Manchester','Peoria','Pasadena','Independence','Concord','Athens','Florence','Vancouver','Bristol','Dayton','Augusta','Lafayette','Rochester','Kingston','Valencia','Cordoba','Mobile','Reading','Orange','Buffalo','Hamilton','Victoria','Georgia','Washington','Jordan','Santiago','Plano','Garland','Irving','Henderson','Fresno','Omaha','Tulsa','Toledo','Albany','Louisville','Memphis','Nashville','Cleveland','Moscow','Delhi','Dublin','Lima','Troy','Paris','London']);
 let STRX=null;const states=()=>STRX||(STRX=new RegExp('(?:\\b(?:'+PL.filter(p=>p[3]==='United States'&&!AMB.has(p[0])).map(p=>p[0]).join('|')+')\\b|\\b(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)\\b)'));
-const placeOf=t=>{const u=unquote(t);RX.lastIndex=0;for(const m of u.matchAll(RX)){const p=PL.find(p=>p[0]===m[1]);if(!p)continue;if(AMB.has(p[0])&&!states().test(u.slice(0,m.index)+' '+u.slice(m.index+m[0].length)))continue;return p}return null};
+const placeOf=t=>{const u=unquote(t);const d=gazPlace(u);if(d)return d;RX.lastIndex=0;for(const m of u.matchAll(RX)){const p=PL.find(p=>p[0]===m[1]);if(!p)continue;if(AMB.has(p[0])){const rest=u.slice(0,m.index)+' '+u.slice(m.index+m[0].length);/* ambiguous city: only with a named state, and then the city's own Gazetteer point in that state */let hit=null;for(const sm of rest.matchAll(SNAMED)){const s=stc(sm[1]);hit=s&&gpt(p[0],s);if(hit)break}if(!hit){const sm=rest.match(states());if(sm){const q=PL.find(q=>q[0]===sm[0]&&q[3]==='United States');const s=q&&STN[q[0]];hit=s&&gpt(p[0],s)}}if(hit)return hit;continue}if(STN[p[0]]){const g=gazScan(u);if(g)return g}return p}return gazScan(u)};
 
 const BSKY_Q=['earthquake','wildfire','flooding','tornado','protest','power outage','evacuation','breaking news'];
 const MASTO_TAGS=['breakingnews','earthquake','wildfire','flood','protest','news','storm'];
@@ -95,7 +116,7 @@ function newIdentity(){localStorage.removeItem('eyemont.nsec')}
 const RS={};RELAYS.forEach(u=>RS[u]='idle');
 const setRS=(u,v)=>{RS[u]=v;window.dispatchEvent(new CustomEvent('eyemont:relays',{detail:{...RS}}))};
 function status(){return {...RS}}
-function query(filters,ms=6000){return new Promise(res=>{const ev=new Map();let done=0;const fin=()=>res([...ev.values()]);const to=setTimeout(fin,ms);
+function query(filters,ms=6000){return new Promise(res=>{const ev=new Map();mockQuery(filters).forEach(e=>ev.set(e.id,e));let done=0;const fin=()=>res([...ev.values()]);const to=setTimeout(fin,ms);
  const end=()=>{if(++done===RELAYS.length){clearTimeout(to);fin()}};
  RELAYS.forEach(u=>{let ws;setRS(u,'connecting');try{ws=new WebSocket(u)}catch(e){setRS(u,'down');return end()}let fin1=false;const f1=()=>{if(!fin1){fin1=true;end()}};
   ws.onopen=()=>{setRS(u,'up');ws.send(JSON.stringify(['REQ','eye',...filters]))};
@@ -122,9 +143,15 @@ function items(evs){return evs.filter(e=>{if(Crowd.isHidden('nostr:'+e.id)||Crow
  const g=tag(e,'g')[0];const [lat,lon]=ungh(g);const cat=tag(e,'category')[0];
  const txt=Crowd.scrub(e.content);if(e._flagged)return {lat,lon,r:5,flagged:true,title:`[${cat}] ⚑ flagged, tap to view`,sub:new Date(e.created_at*1000).toLocaleString()+' · hidden by 3+ community flags',
   popup:`<b>[${esc(cat)}]</b> <small>⚑ flagged by 3+ community members</small><details class="post"><summary>flagged, tap to view</summary><p>${esc(txt)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · unmoderated</small></details>`};
- return {lat,lon,r:7,title:`[${cat}] ${txt.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area · unmoderated',
+ return {lat,lon,r:7,time:e.created_at*1000,src:'Nostr report',text:cat+' '+txt,mock:mockAll().some(x=>x.id===e.id),title:`[${cat}] ${txt.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area · unmoderated',
   popup:`<b>[${esc(cat)}]</b> <small>unmoderated community report · ~5 km precision · expires after 24 h</small><div class="post"><p>${esc(txt)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · Nostr ${esc(e.pubkey.slice(0,8))}…</small><br><button class="hide" data-id="nostr:${esc(e.id)}">hide</button> <button class="hide" data-src="nostr:${esc(e.pubkey)}">hide all from this key</button> <button class="flag" data-id="${esc(e.id)}" data-pk="${esc(e.pubkey)}">⚑ flag</button></div>`}})}
-function publishEvent(ev){let ok=0;return Promise.all(RELAYS.map(u=>new Promise(r=>{try{setRS(u,'connecting');const ws=new WebSocket(u);const t=setTimeout(()=>{try{ws.close()}catch(x){}r()},6000);
+// WRITES GO TO A MOCK RELAY ONLY (redesign branch rule: never publish to real relays without Evan's explicit approval).
+// The mock keeps events in this tab's sessionStorage and answers ['OK',id,true] like a relay. Reads from real relays stay opt-in (REPORTS off by default).
+const MOCK_WRITES=true;const MOCK='mock://eyemont-local';
+const mockAll=()=>{try{return JSON.parse(sessionStorage.getItem('eyemont.mockRelay')||'[]')}catch(e){return[]}};
+function mockPublish(ev){const a=mockAll().filter(x=>x.id!==ev.id);a.push(ev);sessionStorage.setItem('eyemont.mockRelay',JSON.stringify(a.slice(-200)));setRS(MOCK,'up');return Promise.resolve(1)}
+const mockQuery=f=>mockAll().filter(e=>f.some(q=>(!q.kinds||q.kinds.includes(e.kind))&&(!q['#t']||e.tags.some(t=>t[0]==='t'&&q['#t'].includes(t[1])))&&(!q['#e']||e.tags.some(t=>t[0]==='e'&&q['#e'].includes(t[1])))&&(!q.since||e.created_at>=q.since)));
+function publishEvent(ev){if(MOCK_WRITES)return mockPublish(ev);let ok=0;return Promise.all(RELAYS.map(u=>new Promise(r=>{try{setRS(u,'connecting');const ws=new WebSocket(u);const t=setTimeout(()=>{try{ws.close()}catch(x){}r()},6000);
   ws.onopen=()=>{setRS(u,'up');ws.send(JSON.stringify(['EVENT',ev]))};ws.onmessage=m=>{let d;try{d=JSON.parse(m.data)}catch(x){return}if(d[0]==='OK'&&d[1]===ev.id){if(d[2])ok++;clearTimeout(t);ws.close();r()}};ws.onerror=()=>{setRS(u,'down');clearTimeout(t);r()}}catch(e){setRS(u,'down');r()}}))).then(()=>ok)}
 async function publish(cat,text,lat,lon,onp){text=text.trim();
  if(Crowd.unsafeReport(text))throw Error('Looks like personal info (name, phone, email, address or plate). Not posted.');
@@ -138,4 +165,4 @@ async function flag(id,pk,onp){if(!/^[0-9a-f]{64}$/.test(id)||!/^[0-9a-f]{64}$/.
 document.addEventListener('click',async e=>{const b=e.target.closest('button.flag');if(!b)return;
  if(!confirm('Publish a public NIP-56 flag for this report? Reports with 3+ flags are collapsed for everyone using Eyemont. Your device must first compute a proof-of-work (can take 10–60 s).'))return;
  b.disabled=true;b.textContent='flagging…';try{const n=await flag(b.dataset.id,b.dataset.pk,p=>b.textContent=`computing proof-of-work ${Math.round(p*100)}%…`);Crowd.hide('nostr:'+b.dataset.id);b.textContent=`flagged (${n} relay)`;b.closest('.post')?.remove();window.dispatchEvent(new Event('eyemont:hidden'))}catch(x){b.textContent='flag failed';b.disabled=false}});
-return {load,items,publish,flag,valid,powOK,POW,CATS,gh,lib,pubkey,newIdentity,status,stats:()=>last,RELAYS}})();
+return {load,items,publish,flag,valid,powOK,POW,CATS,gh,lib,pubkey,newIdentity,status,stats:()=>last,RELAYS,MOCK_WRITES}})();

@@ -46,7 +46,9 @@ if r:
         kinds=[k for k in ('groundStop','groundDelay','arrivalDelay','departureDelay','airportClosure','freeForm','deicing') if x.get(k)]
         if not kinds: continue
         g=x.get('groundDelay') or x.get('groundStop') or x.get('arrivalDelay') or x.get('departureDelay') or {}
-        nas.append({'apt':a,'lat':AP[a][0],'lon':AP[a][1],'kinds':kinds,'avg':g.get('avgDelay'),'max':g.get('maxDelay'),'why':g.get('impactingCondition') or g.get('reason'),'url':g.get('advisoryUrl')})
+        ev=[x[k] for k in kinds if isinstance(x.get(k),dict)]
+        st=[e.get('startTime') for e in ev if e.get('startTime')];cr=[e.get('createdAt') or e.get('updatedAt') for e in ev if e.get('createdAt') or e.get('updatedAt')]
+        nas.append({'start':g.get('startTime') or (min(st) if st else None),'issued':g.get('createdAt') or (min(cr) if cr else None),'end':g.get('endTime') or max([e.get('endTime') for e in ev if e.get('endTime')] or [None]),'apt':a,'lat':AP[a][0],'lon':AP[a][1],'kinds':kinds,'avg':g.get('avgDelay'),'max':g.get('maxDelay'),'why':g.get('impactingCondition') or g.get('reason'),'url':g.get('advisoryUrl')})
     out['status']['faa_nas']=f'ok {len(nas)}'
 out['nas']=nas
 # Tsunami

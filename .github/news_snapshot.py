@@ -10,12 +10,7 @@ BY={p[0]:p for p in PL}
 STATES=[p[0] for p in PL if p[3]=='United States' and p[0] not in AMB]
 ST=re.compile(r'\b(?:'+'|'.join(map(re.escape,STATES))+r'|AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)\b')
 Q=re.compile(r'"[^"\n]{1,120}"|“[^”\n]{1,120}”|‘[^’\n]{1,120}’')
-def place(t):
-    u=Q.sub(' ',t)
-    for m in RX.finditer(u):
-        n=m.group(1)
-        if n in AMB and not ST.search(u[:m.start()]+' '+u[m.end():]): continue
-        return BY[n]
+from placer import place  # city+state resolver (see placer.py)
 def txt(e,*tags):
     for t in tags:
         x=e.find(t)
@@ -53,6 +48,7 @@ def one(f):
         t=when(txt(it,'pubDate',D+'date',A+'updated',A+'published'))
         if not title or not link.startswith('http'): continue
         if not t or (now-t).total_seconds()>6*3600: continue
+        if (t-now).total_seconds()>300: continue  # future-dated (bad feed clock): drop
         p=place(title) or place(summ[:300]); home=p is None
         lat,lon=(p[1],p[2]) if p else S['homes'][f['home']]
         items.append({'title':scrub(title if f.get('credit') else title[:200]),'url':link,'sum':trim(scrub(re.sub(r'\s+',' ',summ).strip()),300 if f.get('credit') else 160),'src':f['id'],'time':t.isoformat() if t else None,

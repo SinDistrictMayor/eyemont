@@ -153,3 +153,28 @@ Three toggle buttons (OFFICIAL / MAJOR / INDEPENDENT, saved in localStorage `eye
 - Incidents exclude centroid-placed items (TFR, FEMA, IODA, space weather, 911 at city centroid, news at outlet home city) and collapsed reports. 911 counts as at most 1 source.
 - news.json keeps only the last 6 h, with summaries trimmed to 160 chars (credited outlets 300, cut at a sentence or word).
 - Touch targets are ≥44 px. The LIVE bar has a fade and a "swipe ›" cue.
+
+## Redesign (branch `redesign`): NOW / NEAR / MAP
+Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, plus `time`/`src`/`text` added to quakes, NWS alerts, EONET and GDACS) and the M3.3 `incidents()` linker feed one ranked list.
+- **Feed entries** = linked incidents (≥2 sources, shared type; deduped by headline) + strong single-source signals (quakes M2.5+, NWS Warnings/Emergencies, FIRMS cells ≥ medium, 911 allowlist calls, FAA, IODA, FEMA, GDACS, EONET, placed news/crowd posts that match the event lexicon). Score = 2·confidence + recency + growth (incidents), or layer weight × severity + recency (singles, confidence 15%).
+- **Topics** (chips, multi-select, saved in `eyemont.topics`): Fire, Weather, Quakes, Crime/911, Transport, Outages, News, Crowd. Mapped from incident type (`TYTOPIC`) or the source layer (`LYTOPIC`).
+- **Source-class filter** OFFICIAL/MAJOR/INDEPENDENT stays in the header on every tab (`eyemont.cls`).
+- **NEAR**: coarse only. A state picker, pre-filled from a timezone → state guess (`Intl`), saved as `eyemont.near`. The Geolocation API is never called. An entry's state = smallest US state bbox containing its point. Lists that state's scanner directory (State → County, Broadcastify outbound links).
+- **MAP**: one Leaflet map, markers colored by topic (rings = linked incidents, dots = single signals). Caltrans cams are drawn only when the Transport chip is on. The attribution is collapsed to one line and expands on tap.
+- **Detail sheet**: coverage side by side by class, timeline, IEM NEXRAD radar mini map (US) or a radar link, nearby Caltrans cams (≤40 km, snapshot + ▶ LIVE into the docked player), scanner links (Broadcastify state + official streams ≤150 km), source links pulled from item popups.
+- **Not loaded in this UI**: Nostr REPORTS (no posting, no relay connections), aircraft (1 MB snapshot) and LIVE TV. The aircraft and reports code stays in `crowd.js`/`app.js` for later.
+- Rain: half-resolution canvas, ~12 fps, 7% opacity, paused when hidden, off under `prefers-reduced-motion` (which also disables the logo glitch and the sheet animation).
+
+### Redesign follow-ups
+- `.github/placer.py` + `us_places.json`: Census gazetteer city+state resolver (dateline first; ambiguous cities w/o state stay unplaced).
+- `data/us_states.geojson` (~199KB, Census cb_2023 20m, public domain): point-in-polygon state lookup.
+- FAA NAS items carry real `start`/`issued`/`end`.
+- Aircraft (Transport chip), LIVE TV (News chip), Nostr reports (Crowd chip, OFF by default, unmoderated notice). Reading is opt-in; posting/flagging go to a sessionStorage mock relay only (`MOCK_WRITES` in crowd.js).
+- Card titles use `safeHead()`: headline without name-like patterns, else "type · place". Sheet shows publisher text unmodified.
+
+### QA round fixes
+- Placement: `data/gaz.txt` (from `.github/build_gaz.py`, Census Gazetteer) is used client-side (crowd.js) and by `placer.py`. "City, State" maps to the city point. A bare name that is unique in the Gazetteer is placed only in a place context ("in Kokomo", "Kokomo police") and only if it is not a common word or first name. Ambiguous bare names stay unplaced.
+- FAA: plain-word program names; times carry the viewer's zone label (Intl `shortGeneric`, e.g. ET); the sheet shows the delay start.
+- NEAR: full tz→state map including IANA aliases; multi-state zones show "Guessed: NY, change".
+- stateOf: point-in-polygon, then a Canada/Mexico mask (Natural Earth 1:50m, clipped), then nearest-state fallback (~35 km). Covers PR, USVI, Guam, CNMI, and American Samoa.
+- Feeds that fail show an error plus a retry countdown and a RETRY NOW button. news.json loads after first paint. Future-dated news is dropped in the snapshot.
