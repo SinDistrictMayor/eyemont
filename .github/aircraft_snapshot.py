@@ -1,7 +1,7 @@
 # adsb.lol re-api snapshot (ODbL 1.0, attribution + share-alike): 3 bounding boxes (CONUS, AK, HI), 3 s apart, deduped by hex.
 import json,time,urllib.request,sys
 PTS=[("CONUS","24,50,-125,-66"),("Alaska","51,72,-170,-129"),("Hawaii","18,23,-161,-154")]
-UA="Eyemont (https://github.com/SinDistrictMayor/eyemont)"
+UA='Eyemont/1.0 (https://github.com/SinDistrictMayor/eyemont'+(('; '+__import__('os').environ['CONTACT_EMAIL']) if __import__('os').environ.get('CONTACT_EMAIL') else '')+')'
 ac={};okn=[];bad=[]
 for name,box in PTS:
   d=None

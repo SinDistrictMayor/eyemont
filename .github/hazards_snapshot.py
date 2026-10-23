@@ -6,7 +6,7 @@ import csv, io, json, time, urllib.request, re, xml.etree.ElementTree as ET, dat
 import socket as _s
 _ga=_s.getaddrinfo
 _s.getaddrinfo=lambda h,*a,**k:[x for x in _ga(h,*a,**k) if x[0]==_s.AF_INET] or _ga(h,*a,**k)  # IPv4 first: FIRMS IPv6 unreachable from Actions
-UA={'User-Agent':'Eyemont (https://github.com/SinDistrictMayor/eyemont)'}
+UA={'User-Agent':'Eyemont/1.0 (https://github.com/SinDistrictMayor/eyemont'+(('; '+__import__('os').environ['CONTACT_EMAIL']) if __import__('os').environ.get('CONTACT_EMAIL') else '')+')'}
 def get(u):
     time.sleep(1)
     try: return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=45).read()

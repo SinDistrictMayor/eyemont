@@ -6,7 +6,7 @@ files (1 h), sequential, 2 s apart, one retry. Events are at place level
 (ActionGeo = city/ADM1/country centroid) - never people."""
 import csv, io, json, time, urllib.request, zipfile, datetime, collections, sys
 csv.field_size_limit(10**7)
-UA={'User-Agent':'eyemont-snapshot (github.com/SinDistrictMayor/eyemont)'}
+UA={'User-Agent':'Eyemont/1.0 (https://github.com/SinDistrictMayor/eyemont'+(('; '+__import__('os').environ['CONTACT_EMAIL']) if __import__('os').environ.get('CONTACT_EMAIL') else '')+')'}
 def get(u):
     for i in range(2):
         try: return urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=60).read()

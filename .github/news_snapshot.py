@@ -35,7 +35,7 @@ import threading, concurrent.futures, urllib.parse
 LOCK=threading.Lock()
 def one(f):
     try:
-        raw=urllib.request.urlopen(urllib.request.Request(f['url'],headers={'User-Agent':'Mozilla/5.0 (eyemont news snapshot; github.com/SinDistrictMayor/eyemont)'}),timeout=15).read()
+        raw=urllib.request.urlopen(urllib.request.Request(f['url'],headers={'User-Agent':'Eyemont/1.0 (https://github.com/SinDistrictMayor/eyemont'+(('; '+__import__('os').environ['CONTACT_EMAIL']) if __import__('os').environ.get('CONTACT_EMAIL') else '')+')'}),timeout=15).read()
         root=ET.fromstring(raw)
     except Exception as e:
         status[f['id']]='error: '+str(e)[:80]; print('FEED FAIL',f['id'],f['url'],str(e)[:120]); return
