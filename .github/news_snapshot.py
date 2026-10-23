@@ -31,24 +31,31 @@ def when(s):
     except Exception: return None
 A='{http://www.w3.org/2005/Atom}';D='{http://purl.org/dc/elements/1.1/}';R='{http://purl.org/rss/1.0/}'
 now=datetime.datetime.now(datetime.timezone.utc); out=[]; status={}
-for f in S['feeds']:
-    time.sleep(0.5)
+import threading, concurrent.futures, urllib.parse
+LOCK=threading.Lock()
+def one(f):
     try:
         raw=urllib.request.urlopen(urllib.request.Request(f['url'],headers={'User-Agent':'Mozilla/5.0 (eyemont news snapshot; github.com/SinDistrictMayor/eyemont)'}),timeout=15).read()
         root=ET.fromstring(raw)
     except Exception as e:
-        status[f['id']]='error: '+str(e)[:80]; print('FEED FAIL',f['id'],f['url'],str(e)[:120]); continue
+        status[f['id']]='error: '+str(e)[:80]; print('FEED FAIL',f['id'],f['url'],str(e)[:120]); return
+    items=[]
     its=root.findall('.//item')+root.findall('.//'+R+'item')+root.findall('.//'+A+'entry'); n=0
-    for it in its[:30]:
+    for it in its[:(10 if f.get('cat')=='news-us-local' else 30)]:
         title=html.unescape(re.sub('<[^>]+>','',txt(it,'title',R+'title',A+'title')))
-        link=txt(it,'link',R+'link',A+'link'); summ=html.unescape(re.sub('<[^>]+>',' ',txt(it,'description',R+'description',A+'summary',A+'content')))[:300]
+        link=txt(it,'link',R+'link',A+'link'); summ=html.unescape(re.sub('<[^>]+>',' ',txt(it,'description',R+'description',A+'summary',A+'content')))
         t=when(txt(it,'pubDate',D+'date',A+'updated',A+'published'))
         if not title or not link.startswith('http'): continue
         if t and (now-t).total_seconds()>86400: continue
-        p=place(title) or place(summ); home=p is None
+        p=place(title) or place(summ[:300]); home=p is None
         lat,lon=(p[1],p[2]) if p else S['homes'][f['home']]
-        out.append({'title':title[:200],'url':link,'sum':re.sub(r'\s+',' ',summ).strip()[:240],'src':f['id'],'time':t.isoformat() if t else None,
+        items.append({'title':title if f.get('credit') else title[:200],'url':link,'sum':re.sub(r'\s+',' ',summ).strip()[:(1000 if f.get('credit') else 240)],'src':f['id'],'time':t.isoformat() if t else None,
                     'lat':lat,'lon':lon,'place':p[0] if p else f['home'],'home':home}); n+=1
-    status[f['id']]=f'ok {n}'
+    with LOCK: out.extend(items); status[f['id']]=f'ok {n}'
+HOSTS={}
+for f in S['feeds']: HOSTS.setdefault(urllib.parse.urlparse(f['url']).hostname,[]).append(f)
+def host(fs):
+    for f in fs: one(f); time.sleep(0.5)
+with concurrent.futures.ThreadPoolExecutor(8) as ex: list(ex.map(host,HOSTS.values()))
 json.dump({'updated':now.strftime('%Y-%m-%dT%H:%M:%SZ'),'status':status,'items':out},open('data/news.json','w'),separators=(',',':'))
 print('news',len(out),'items;',sum(v.startswith('ok') for v in status.values()),'/',len(status),'feeds ok')

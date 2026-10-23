@@ -4,6 +4,7 @@
 {
 "id": "nyt",
 "name": "NYT World",
+"credit": false,
 "cls": "major",
 "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
 "home": "New York",
@@ -13,6 +14,7 @@
 {
 "id": "nyt_us",
 "name": "NYT US",
+"credit": false,
 "cls": "major",
 "url": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
 "home": "New York",
@@ -22,6 +24,7 @@
 {
 "id": "guardian",
 "name": "The Guardian World",
+"credit": false,
 "cls": "major",
 "url": "https://www.theguardian.com/world/rss",
 "home": "London",
@@ -31,6 +34,7 @@
 {
 "id": "abc",
 "name": "ABC News",
+"credit": false,
 "cls": "major",
 "url": "https://abcnews.go.com/abcnews/topstories",
 "home": "New York",
@@ -40,6 +44,7 @@
 {
 "id": "cbs",
 "name": "CBS News",
+"credit": false,
 "cls": "major",
 "url": "https://www.cbsnews.com/latest/rss/main",
 "home": "New York",
@@ -49,6 +54,7 @@
 {
 "id": "nbc",
 "name": "NBC News",
+"credit": false,
 "cls": "major",
 "url": "https://feeds.nbcnews.com/nbcnews/public/news",
 "home": "New York",
@@ -58,6 +64,7 @@
 {
 "id": "fox",
 "name": "Fox News",
+"credit": false,
 "cls": "major",
 "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
 "home": "New York",
@@ -67,6 +74,7 @@
 {
 "id": "npr",
 "name": "NPR News",
+"credit": false,
 "cls": "official",
 "url": "https://feeds.npr.org/1001/rss.xml",
 "home": "Washington",
@@ -76,6 +84,7 @@
 {
 "id": "pbs",
 "name": "PBS NewsHour",
+"credit": false,
 "cls": "official",
 "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
 "home": "Washington",
@@ -85,6 +94,7 @@
 {
 "id": "wsj",
 "name": "WSJ World",
+"credit": false,
 "cls": "major",
 "url": "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
 "home": "New York",
@@ -94,6 +104,7 @@
 {
 "id": "bloomberg",
 "name": "Bloomberg Politics",
+"credit": false,
 "cls": "major",
 "url": "https://feeds.bloomberg.com/politics/news.rss",
 "home": "New York",
@@ -103,6 +114,7 @@
 {
 "id": "axios",
 "name": "Axios",
+"credit": false,
 "cls": "major",
 "url": "https://api.axios.com/feed/",
 "home": "Washington",
@@ -112,6 +124,7 @@
 {
 "id": "politico",
 "name": "Politico",
+"credit": false,
 "cls": "major",
 "url": "https://rss.politico.com/politics-news.xml",
 "home": "Washington",
@@ -121,6 +134,7 @@
 {
 "id": "thehill",
 "name": "The Hill",
+"credit": false,
 "cls": "major",
 "url": "https://thehill.com/feed/",
 "home": "Washington",
@@ -130,6 +144,7 @@
 {
 "id": "upi",
 "name": "UPI",
+"credit": false,
 "cls": "major",
 "url": "https://rss.upi.com/news/top_news.rss",
 "home": "Washington",
@@ -139,6 +154,7 @@
 {
 "id": "afp_fr24",
 "name": "AFP via France24",
+"credit": false,
 "cls": "major",
 "url": "https://www.france24.com/en/rss",
 "home": "Paris",
@@ -148,6 +164,7 @@
 {
 "id": "skynews",
 "name": "Sky News World",
+"credit": false,
 "cls": "major",
 "url": "https://feeds.skynews.com/feeds/rss/world.xml",
 "home": "London",
@@ -157,6 +174,7 @@
 {
 "id": "cnbc",
 "name": "CNBC World",
+"credit": false,
 "cls": "major",
 "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
 "home": "New York",
@@ -166,6 +184,7 @@
 {
 "id": "latimes",
 "name": "LA Times",
+"credit": false,
 "cls": "major",
 "url": "https://www.latimes.com/world-nation/rss2.0.xml",
 "home": "Los Angeles",
@@ -175,6 +194,7 @@
 {
 "id": "abc_au",
 "name": "ABC Australia",
+"credit": false,
 "cls": "official",
 "url": "https://www.abc.net.au/news/feed/51120/rss.xml",
 "home": "Sydney",
@@ -184,6 +204,7 @@
 {
 "id": "cbc",
 "name": "CBC World",
+"credit": false,
 "cls": "official",
 "url": "https://www.cbc.ca/webfeed/rss/rss-world",
 "home": "Toronto",
@@ -193,6 +214,7 @@
 {
 "id": "kyiv",
 "name": "Kyiv Independent",
+"credit": false,
 "cls": "major",
 "url": "https://kyivindependent.com/news-archive/rss/",
 "home": "Kyiv",
@@ -202,6 +224,7 @@
 {
 "id": "toi",
 "name": "Times of Israel",
+"credit": false,
 "cls": "major",
 "url": "https://www.timesofisrael.com/feed/",
 "home": "Jerusalem",
@@ -211,6 +234,7 @@
 {
 "id": "voa",
 "name": "VOA News",
+"credit": false,
 "cls": "official",
 "url": "https://www.voanews.com/api/zq$omekvi_",
 "home": "Washington",
@@ -220,6 +244,7 @@
 {
 "id": "rferl",
 "name": "RFE/RL",
+"credit": false,
 "cls": "official",
 "url": "https://www.rferl.org/api/",
 "home": "Prague",
@@ -228,7 +253,8 @@
 },
 {
 "id": "bbc",
-"name": "BBC World",
+"name": "BBC",
+"credit": true,
 "cls": "official",
 "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
 "home": "London",
@@ -238,6 +264,7 @@
 {
 "id": "dw",
 "name": "Deutsche Welle",
+"credit": false,
 "cls": "official",
 "url": "https://rss.dw.com/rdf/rss-en-all",
 "home": "Bonn",
@@ -247,6 +274,7 @@
 {
 "id": "france24",
 "name": "France 24",
+"credit": false,
 "cls": "official",
 "url": "https://www.france24.com/en/rss",
 "home": "Paris",
@@ -255,7 +283,8 @@
 },
 {
 "id": "aljazeera",
-"name": "Al Jazeera English",
+"name": "Al Jazeera",
+"credit": true,
 "cls": "official",
 "url": "https://www.aljazeera.com/xml/rss/all.xml",
 "home": "Doha",
@@ -265,6 +294,7 @@
 {
 "id": "cgtn",
 "name": "CGTN",
+"credit": false,
 "cls": "official",
 "url": "https://www.cgtn.com/subscribe/rss/section/world.xml",
 "home": "Beijing",
@@ -274,6 +304,7 @@
 {
 "id": "anadolu",
 "name": "Anadolu Agency",
+"credit": false,
 "cls": "official",
 "url": "https://www.aa.com.tr/en/rss/default?cat=guncel",
 "home": "Ankara",
@@ -283,6 +314,7 @@
 {
 "id": "rfa",
 "name": "Radio Free Asia",
+"credit": false,
 "cls": "official",
 "url": "https://www.rfa.org/english/RSS",
 "home": "Washington",
@@ -292,6 +324,7 @@
 {
 "id": "euronews",
 "name": "Euronews",
+"credit": false,
 "cls": "major",
 "url": "https://www.euronews.com/rss",
 "home": "Lyon",
@@ -301,6 +334,7 @@
 {
 "id": "bellingcat",
 "name": "Bellingcat",
+"credit": false,
 "cls": "independent",
 "url": "https://www.bellingcat.com/feed/",
 "home": "Amsterdam",
@@ -310,6 +344,7 @@
 {
 "id": "propublica",
 "name": "ProPublica",
+"credit": false,
 "cls": "independent",
 "url": "https://feeds.propublica.org/propublica/main",
 "home": "New York",
@@ -319,6 +354,7 @@
 {
 "id": "intercept",
 "name": "The Intercept",
+"credit": false,
 "cls": "independent",
 "url": "https://theintercept.com/feed/?rss",
 "home": "New York",
@@ -328,6 +364,7 @@
 {
 "id": "grayzone_skip",
 "name": "Military Times",
+"credit": false,
 "cls": "independent",
 "url": "https://www.militarytimes.com/arc/outboundfeeds/rss/?outputType=xml",
 "home": "Washington",
@@ -337,6 +374,7 @@
 {
 "id": "warzone",
 "name": "The War Zone",
+"credit": false,
 "cls": "independent",
 "url": "https://www.twz.com/feed",
 "home": "New York",
@@ -346,6 +384,7 @@
 {
 "id": "occrp",
 "name": "OCCRP",
+"credit": false,
 "cls": "independent",
 "url": "https://www.occrp.org/en/feed",
 "home": "Amsterdam",
@@ -355,6 +394,7 @@
 {
 "id": "meduza",
 "name": "Meduza English",
+"credit": false,
 "cls": "independent",
 "url": "https://meduza.io/rss/en/all",
 "home": "Riga",
@@ -364,6 +404,7 @@
 {
 "id": "thecity",
 "name": "THE CITY (NYC)",
+"credit": false,
 "cls": "independent",
 "url": "https://www.thecity.nyc/feed/",
 "home": "New York",
@@ -373,6 +414,7 @@
 {
 "id": "calmatters",
 "name": "CalMatters",
+"credit": false,
 "cls": "independent",
 "url": "https://calmatters.org/feed/",
 "home": "Sacramento",
@@ -382,6 +424,7 @@
 {
 "id": "texastribune",
 "name": "Texas Tribune",
+"credit": false,
 "cls": "independent",
 "url": "https://feeds.texastribune.org/feeds/main/",
 "home": "Austin",
@@ -391,6 +434,7 @@
 {
 "id": "bleeping",
 "name": "BleepingComputer",
+"credit": false,
 "cls": "independent",
 "url": "https://www.bleepingcomputer.com/feed/",
 "home": "New York",
@@ -400,6 +444,7 @@
 {
 "id": "krebs",
 "name": "Krebs on Security",
+"credit": false,
 "cls": "independent",
 "url": "https://krebsonsecurity.com/feed/",
 "home": "Washington",
@@ -409,6 +454,7 @@
 {
 "id": "reliefweb",
 "name": "ReliefWeb Updates",
+"credit": false,
 "cls": "official",
 "url": "https://reliefweb.int/updates/rss.xml",
 "home": "Geneva",
@@ -418,6 +464,7 @@
 {
 "id": "gdacs",
 "name": "GDACS disasters",
+"credit": false,
 "cls": "official",
 "url": "https://www.gdacs.org/xml/rss.xml",
 "home": "Geneva",
@@ -427,6 +474,7 @@
 {
 "id": "cisa_adv",
 "name": "CISA advisories",
+"credit": false,
 "cls": "official",
 "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
 "home": "Washington",
@@ -436,6 +484,7 @@
 {
 "id": "nhc",
 "name": "NHC Atlantic tropical RSS",
+"credit": false,
 "cls": "official",
 "url": "https://www.nhc.noaa.gov/index-at.xml",
 "home": "Miami",
@@ -445,6 +494,7 @@
 {
 "id": "state_dept",
 "name": "State Dept travel advisories",
+"credit": false,
 "cls": "official",
 "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
 "home": "Washington",
@@ -454,6 +504,7 @@
 {
 "id": "calOES",
 "name": "Cal OES news",
+"credit": false,
 "cls": "official",
 "url": "https://news.caloes.ca.gov/feed/",
 "home": "Sacramento",
@@ -463,6 +514,7 @@
 {
 "id": "inciweb",
 "name": "InciWeb wildfire RSS",
+"credit": false,
 "cls": "official",
 "url": "https://inciweb.wildfire.gov/incidents/rss.xml",
 "home": "Boise",
@@ -472,6 +524,7 @@
 {
 "id": "fbi_news",
 "name": "FBI news",
+"credit": false,
 "cls": "official",
 "url": "https://www.fbi.gov/feeds/fbi-in-the-news/rss.xml",
 "home": "Washington",
@@ -481,6 +534,7 @@
 {
 "id": "sfpd",
 "name": "SFPD news",
+"credit": false,
 "cls": "official",
 "url": "https://www.sanfranciscopolice.org/rss.xml",
 "home": "San Francisco",
@@ -490,6 +544,7 @@
 {
 "id": "ptwc",
 "name": "NOAA tsunami PTWC Atom",
+"credit": false,
 "cls": "official",
 "url": "https://www.tsunami.gov/events/xml/PHEBAtom.xml",
 "home": "Ewa Beach",
@@ -499,6 +554,7 @@
 {
 "id": "ntwc",
 "name": "NOAA tsunami NTWC Atom",
+"credit": false,
 "cls": "official",
 "url": "https://www.tsunami.gov/events/xml/PAAQAtom.xml",
 "home": "Palmer",
@@ -508,6 +564,7 @@
 {
 "id": "lemmy_rss",
 "name": "Lemmy community RSS",
+"credit": false,
 "cls": "independent",
 "url": "https://lemmy.world/feeds/c/worldnews.xml?sort=New",
 "home": "Amsterdam",
@@ -517,6 +574,7 @@
 {
 "id": "local_nypost_com",
 "name": "nypost.com",
+"credit": false,
 "cls": "major",
 "url": "https://nypost.com/feed/",
 "home": "New York",
@@ -526,8 +584,9 @@
 {
 "id": "local_gothamist_com",
 "name": "gothamist.com",
+"credit": false,
 "cls": "major",
-"url": "https://www.gothamist.com/feed/",
+"url": "https://gothamist.com/feed/",
 "home": "New York",
 "fund": "Commercial local outlet",
 "cat": "news-us-local"
@@ -535,6 +594,7 @@
 {
 "id": "local_amny_com",
 "name": "amny.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.amny.com/feed/",
 "home": "New York",
@@ -544,6 +604,7 @@
 {
 "id": "local_silive_com",
 "name": "silive.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.silive.com/arc/outboundfeeds/rss/?outputType=xml",
 "home": "Staten Island",
@@ -553,6 +614,7 @@
 {
 "id": "local_newsday_com",
 "name": "newsday.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.newsday.com/api/rss/recent",
 "home": "Melville",
@@ -560,35 +622,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_syracuse_com",
-"name": "syracuse.com",
-"cls": "major",
-"url": "https://www.syracuse.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Syracuse",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
-"id": "local_nj_com",
-"name": "nj.com",
-"cls": "major",
-"url": "https://www.nj.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Newark",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
-"id": "local_inquirer_com",
-"name": "inquirer.com",
-"cls": "major",
-"url": "https://www.inquirer.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Philadelphia",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_post_gazette_com",
 "name": "post-gazette.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.post-gazette.com/rss",
 "home": "Pittsburgh",
@@ -596,35 +632,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_pennlive_com",
-"name": "pennlive.com",
-"cls": "major",
-"url": "https://www.pennlive.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Harrisburg",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
-"id": "local_lehighvalleylive_com",
-"name": "lehighvalleylive.com",
-"cls": "major",
-"url": "https://www.lehighvalleylive.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Easton",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
-"id": "local_bostonglobe_com",
-"name": "bostonglobe.com",
-"cls": "major",
-"url": "https://www.bostonglobe.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Boston",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_wbur_org",
 "name": "wbur.org",
+"credit": false,
 "cls": "independent",
 "url": "https://rss.wbur.org/wbur/rss",
 "home": "Boston",
@@ -634,6 +644,7 @@
 {
 "id": "local_masslive_com",
 "name": "masslive.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.masslive.com/arc/outboundfeeds/rss/?outputType=xml",
 "home": "Springfield",
@@ -643,6 +654,7 @@
 {
 "id": "local_ctmirror_org",
 "name": "ctmirror.org",
+"credit": false,
 "cls": "independent",
 "url": "https://ctmirror.org/feed/",
 "home": "Hartford",
@@ -652,6 +664,7 @@
 {
 "id": "local_pressherald_com",
 "name": "pressherald.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.pressherald.com/feed/",
 "home": "Portland|ME",
@@ -661,6 +674,7 @@
 {
 "id": "local_vtdigger_org",
 "name": "vtdigger.org",
+"credit": false,
 "cls": "independent",
 "url": "https://vtdigger.org/feed/",
 "home": "Montpelier",
@@ -668,17 +682,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_thebaltimorebanner_com",
-"name": "thebaltimorebanner.com",
-"cls": "major",
-"url": "https://www.thebaltimorebanner.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Baltimore",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_wtop_com",
 "name": "wtop.com",
+"credit": false,
 "cls": "major",
 "url": "https://wtop.com/feed/",
 "home": "Washington",
@@ -688,6 +694,7 @@
 {
 "id": "local_washingtoncitypaper_com",
 "name": "washingtoncitypaper.com",
+"credit": false,
 "cls": "major",
 "url": "https://washingtoncitypaper.com/feed/",
 "home": "Washington",
@@ -697,6 +704,7 @@
 {
 "id": "local_11alive_com",
 "name": "11alive.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.11alive.com/feeds/syndication/rss/news",
 "home": "Atlanta",
@@ -704,35 +712,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_local10_com",
-"name": "local10.com",
-"cls": "major",
-"url": "https://www.local10.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Miami",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
-"id": "local_tampabay_com",
-"name": "tampabay.com",
-"cls": "major",
-"url": "https://www.tampabay.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "St. Petersburg",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
-"id": "local_al_com",
-"name": "al.com",
-"cls": "major",
-"url": "https://www.al.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Birmingham",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_wwltv_com",
 "name": "wwltv.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.wwltv.com/feeds/syndication/rss/news",
 "home": "New Orleans",
@@ -740,17 +722,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_cleveland_com",
-"name": "cleveland.com",
-"cls": "major",
-"url": "https://www.cleveland.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Cleveland",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_toledoblade_com",
 "name": "toledoblade.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.toledoblade.com/rss/",
 "home": "Toledo",
@@ -758,17 +732,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_mlive_com",
-"name": "mlive.com",
-"cls": "major",
-"url": "https://www.mlive.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Grand Rapids",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_bridgemi_com",
 "name": "bridgemi.com",
+"credit": false,
 "cls": "major",
 "url": "https://bridgemi.com/feed/",
 "home": "Lansing",
@@ -778,6 +744,7 @@
 {
 "id": "local_blockclubchicago_org",
 "name": "blockclubchicago.org",
+"credit": false,
 "cls": "independent",
 "url": "https://blockclubchicago.org/feed/",
 "home": "Chicago",
@@ -787,6 +754,7 @@
 {
 "id": "local_wbez_org",
 "name": "wbez.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.wbez.org/rss/index.xml",
 "home": "Chicago",
@@ -796,6 +764,7 @@
 {
 "id": "local_startribune_com",
 "name": "startribune.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.startribune.com/rss",
 "home": "Minneapolis",
@@ -805,6 +774,7 @@
 {
 "id": "local_mprnews_org",
 "name": "mprnews.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.mprnews.org/feed/homepage",
 "home": "St. Paul",
@@ -814,6 +784,7 @@
 {
 "id": "local_inforum_com",
 "name": "inforum.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.inforum.com/index.rss",
 "home": "Fargo",
@@ -823,6 +794,7 @@
 {
 "id": "local_houstonpublicmedia_org",
 "name": "houstonpublicmedia.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.houstonpublicmedia.org/rsslatest.xml",
 "home": "Houston",
@@ -832,6 +804,7 @@
 {
 "id": "local_coloradosun_com",
 "name": "coloradosun.com",
+"credit": false,
 "cls": "major",
 "url": "https://coloradosun.com/feed/",
 "home": "Denver",
@@ -841,6 +814,7 @@
 {
 "id": "local_denverite_com",
 "name": "denverite.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.denverite.com/feed/",
 "home": "Denver",
@@ -850,8 +824,9 @@
 {
 "id": "local_gazette_com",
 "name": "gazette.com",
+"credit": false,
 "cls": "major",
-"url": "https://www.gazette.com/feed/",
+"url": "https://gazette.com/feed/",
 "home": "Colorado Springs",
 "fund": "Commercial local outlet",
 "cat": "news-us-local"
@@ -859,6 +834,7 @@
 {
 "id": "local_sltrib_com",
 "name": "sltrib.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.sltrib.com/arc/outboundfeeds/rss/?outputType=xml",
 "home": "Salt Lake City",
@@ -866,17 +842,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_tucson_com",
-"name": "tucson.com",
-"cls": "major",
-"url": "https://tucson.com/search/?f=rss&t=article&l=50&s=start_time&sd=desc&k%5B%5D=%23topstory",
-"home": "Tucson",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_reviewjournal_com",
 "name": "reviewjournal.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.reviewjournal.com/feed/",
 "home": "Las Vegas",
@@ -886,6 +854,7 @@
 {
 "id": "local_wyofile_com",
 "name": "wyofile.com",
+"credit": false,
 "cls": "major",
 "url": "https://wyofile.com/feed/",
 "home": "Casper",
@@ -893,26 +862,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_oregonlive_com",
-"name": "oregonlive.com",
-"cls": "major",
-"url": "https://www.oregonlive.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Portland|OR",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
-"id": "local_opb_org",
-"name": "opb.org",
-"cls": "independent",
-"url": "https://www.opb.org/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Portland|OR",
-"fund": "Nonprofit/public media",
-"cat": "news-us-local"
-},
-{
 "id": "local_missionlocal_org",
 "name": "missionlocal.org",
+"credit": false,
 "cls": "independent",
 "url": "https://missionlocal.org/feed/",
 "home": "San Francisco",
@@ -922,6 +874,7 @@
 {
 "id": "local_kqed_org",
 "name": "kqed.org",
+"credit": false,
 "cls": "independent",
 "url": "https://ww2.kqed.org/news/feed/",
 "home": "San Francisco",
@@ -931,6 +884,7 @@
 {
 "id": "local_laist_com",
 "name": "laist.com",
+"credit": false,
 "cls": "major",
 "url": "https://laist.com/index.atom",
 "home": "Los Angeles",
@@ -940,6 +894,7 @@
 {
 "id": "local_voiceofsandiego_org",
 "name": "voiceofsandiego.org",
+"credit": false,
 "cls": "independent",
 "url": "https://voiceofsandiego.org/feed/",
 "home": "San Diego",
@@ -947,17 +902,9 @@
 "cat": "news-us-local"
 },
 {
-"id": "local_adn_com",
-"name": "adn.com",
-"cls": "major",
-"url": "https://www.adn.com/arc/outboundfeeds/rss/?outputType=xml",
-"home": "Anchorage",
-"fund": "Commercial local outlet",
-"cat": "news-us-local"
-},
-{
 "id": "local_civilbeat_org",
 "name": "civilbeat.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.civilbeat.org/feed/",
 "home": "Honolulu",
@@ -967,6 +914,7 @@
 {
 "id": "local_staradvertiser_com",
 "name": "staradvertiser.com",
+"credit": false,
 "cls": "major",
 "url": "https://www.staradvertiser.com/feed/",
 "home": "Honolulu",
@@ -976,6 +924,7 @@
 {
 "id": "local_berkeleyside_org",
 "name": "berkeleyside.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.berkeleyside.org/feed",
 "home": "Berkeley",
@@ -985,6 +934,7 @@
 {
 "id": "local_nashvillebanner_com",
 "name": "nashvillebanner.com",
+"credit": false,
 "cls": "major",
 "url": "https://nashvillebanner.com/feed/",
 "home": "Nashville",
@@ -994,6 +944,7 @@
 {
 "id": "local_mississippitoday_org",
 "name": "mississippitoday.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.mississippitoday.org/feed/",
 "home": "Jackson",
@@ -1003,6 +954,7 @@
 {
 "id": "local_lookout_co",
 "name": "lookout.co",
+"credit": false,
 "cls": "major",
 "url": "https://lookout.co/feed",
 "home": "Santa Cruz",
@@ -1012,8 +964,9 @@
 {
 "id": "local_whyy_org",
 "name": "whyy.org",
+"credit": false,
 "cls": "independent",
-"url": "https://www.whyy.org/feed/",
+"url": "https://whyy.org/feed/",
 "home": "Philadelphia",
 "fund": "Nonprofit/public media",
 "cat": "news-us-local"
@@ -1021,6 +974,7 @@
 {
 "id": "local_wamu_org",
 "name": "wamu.org",
+"credit": false,
 "cls": "independent",
 "url": "https://wamu.org/feed/podcast",
 "home": "Washington",
@@ -1030,6 +984,7 @@
 {
 "id": "local_kpbs_org",
 "name": "kpbs.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.kpbs.org/index.rss",
 "home": "San Diego",
@@ -1039,6 +994,7 @@
 {
 "id": "local_texastribune_org",
 "name": "texastribune.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.texastribune.org/feed/",
 "home": "Austin",
@@ -1048,6 +1004,7 @@
 {
 "id": "local_ktoo_org",
 "name": "ktoo.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.ktoo.org/feed/",
 "home": "Juneau",
@@ -1057,6 +1014,7 @@
 {
 "id": "local_wpr_org",
 "name": "wpr.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.wpr.org/feed",
 "home": "Madison",
@@ -1066,6 +1024,7 @@
 {
 "id": "local_wjct_org",
 "name": "wjct.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.wjct.org/feed/",
 "home": "Jacksonville",
@@ -1075,6 +1034,7 @@
 {
 "id": "local_lpm_org",
 "name": "lpm.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.lpm.org/index.rss",
 "home": "Louisville",
@@ -1084,6 +1044,7 @@
 {
 "id": "local_wpln_org",
 "name": "wpln.org",
+"credit": false,
 "cls": "independent",
 "url": "https://wpln.org/feed/",
 "home": "Nashville",
@@ -1093,6 +1054,7 @@
 {
 "id": "local_kunr_org",
 "name": "kunr.org",
+"credit": false,
 "cls": "independent",
 "url": "https://www.kunr.org/index.rss",
 "home": "Reno",
@@ -1102,6 +1064,7 @@
 {
 "id": "local_sourcenm_com",
 "name": "sourcenm.com",
+"credit": false,
 "cls": "major",
 "url": "https://sourcenm.com/feed/localFeed/",
 "home": "Santa Fe",
@@ -1111,6 +1074,7 @@
 {
 "id": "local_floridaphoenix_com",
 "name": "floridaphoenix.com",
+"credit": false,
 "cls": "major",
 "url": "https://floridaphoenix.com/feed/localFeed/",
 "home": "Tallahassee",
@@ -1120,6 +1084,7 @@
 {
 "id": "local_ohiocapitaljournal_com",
 "name": "ohiocapitaljournal.com",
+"credit": false,
 "cls": "major",
 "url": "https://ohiocapitaljournal.com/feed/localFeed/",
 "home": "Columbus",
@@ -1129,6 +1094,7 @@
 {
 "id": "local_wisconsinexaminer_com",
 "name": "wisconsinexaminer.com",
+"credit": false,
 "cls": "major",
 "url": "https://wisconsinexaminer.com/feed/localFeed/",
 "home": "Madison",
@@ -1138,6 +1104,7 @@
 {
 "id": "local_michiganadvance_com",
 "name": "michiganadvance.com",
+"credit": false,
 "cls": "major",
 "url": "https://michiganadvance.com/feed/localFeed/",
 "home": "Lansing",
@@ -1147,10 +1114,2171 @@
 {
 "id": "local_minnesotareformer_com",
 "name": "minnesotareformer.com",
+"credit": false,
 "cls": "major",
 "url": "https://minnesotareformer.com/feed/localFeed/",
 "home": "St. Paul",
 "fund": "Commercial local outlet",
+"cat": "news-us-local"
+},
+{
+"id": "local_wfaa_com",
+"name": "wfaa.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wfaa.com/feeds/syndication/rss/news",
+"home": "Dallas",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_khou_com",
+"name": "khou.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.khou.com/feeds/syndication/rss/news",
+"home": "Houston",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_kens5_com",
+"name": "kens5.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kens5.com/feeds/syndication/rss/news",
+"home": "San Antonio",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_kvue_com",
+"name": "kvue.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kvue.com/feeds/syndication/rss/news",
+"home": "Austin",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_9news_com",
+"name": "9news.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.9news.com/feeds/syndication/rss/news",
+"home": "Denver",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_kare11_com",
+"name": "kare11.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kare11.com/feeds/syndication/rss/news",
+"home": "Minneapolis",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_king5_com",
+"name": "king5.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.king5.com/feeds/syndication/rss/news",
+"home": "Seattle",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_kgw_com",
+"name": "kgw.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kgw.com/feeds/syndication/rss/news",
+"home": "Portland|OR",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_12news_com",
+"name": "12news.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.12news.com/feeds/syndication/rss/news",
+"home": "Phoenix",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_kxtv_com",
+"name": "kxtv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.abc10.com/feeds/syndication/rss/news",
+"home": "Sacramento",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_cbs8_com",
+"name": "cbs8.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.cbs8.com/feeds/syndication/rss/news",
+"home": "San Diego",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wusa9_com",
+"name": "wusa9.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wusa9.com/feeds/syndication/rss/news",
+"home": "Washington",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wcnc_com",
+"name": "wcnc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wcnc.com/feeds/syndication/rss/news",
+"home": "Charlotte",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wltx_com",
+"name": "wltx.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wltx.com/feeds/syndication/rss/news",
+"home": "Columbia|SC",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_firstcoastnews_com",
+"name": "firstcoastnews.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.firstcoastnews.com/feeds/syndication/rss/news",
+"home": "Jacksonville",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wtsp_com",
+"name": "wtsp.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wtsp.com/feeds/syndication/rss/news",
+"home": "Tampa",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wbir_com",
+"name": "wbir.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wbir.com/feeds/syndication/rss/news",
+"home": "Knoxville",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wzzm13_com",
+"name": "wzzm13.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wzzm13.com/feeds/syndication/rss/news",
+"home": "Grand Rapids",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wkyc_com",
+"name": "wkyc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wkyc.com/feeds/syndication/rss/news",
+"home": "Cleveland",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_10tv_com",
+"name": "10tv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.10tv.com/feeds/syndication/rss/news",
+"home": "Columbus",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wthr_com",
+"name": "wthr.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wthr.com/feeds/syndication/rss/news",
+"home": "Indianapolis",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_ksdk_com",
+"name": "ksdk.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ksdk.com/feeds/syndication/rss/news",
+"home": "St. Louis",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_whas11_com",
+"name": "whas11.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.whas11.com/feeds/syndication/rss/news",
+"home": "Louisville",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_13newsnow_com",
+"name": "13newsnow.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.13newsnow.com/feeds/syndication/rss/news",
+"home": "Norfolk|VA",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wgrz_com",
+"name": "wgrz.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wgrz.com/feeds/syndication/rss/news",
+"home": "Buffalo|NY",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_newscentermaine_com",
+"name": "newscentermaine.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.newscentermaine.com/feeds/syndication/rss/news",
+"home": "Portland|ME",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wnep_com",
+"name": "wnep.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wnep.com/feeds/syndication/rss/news",
+"home": "Scranton",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_fox43_com",
+"name": "fox43.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.fox43.com/feeds/syndication/rss/news",
+"home": "York|PA",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_kiiitv_com",
+"name": "kiiitv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kiiitv.com/feeds/syndication/rss/news",
+"home": "Corpus Christi",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_krem_com",
+"name": "krem.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.krem.com/feeds/syndication/rss/news",
+"home": "Spokane",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_ktvb_com",
+"name": "ktvb.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ktvb.com/feeds/syndication/rss/news",
+"home": "Boise",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wmaz_com",
+"name": "wmaz.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.13wmaz.com/feeds/syndication/rss/news",
+"home": "Macon",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_wjxx_com",
+"name": "wjxx.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.firstcoastnews.com/feeds/syndication/rss/news",
+"home": "Jacksonville",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_kthv_com",
+"name": "kthv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.thv11.com/feeds/syndication/rss/news",
+"home": "Little Rock",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_ksla_com",
+"name": "ksla.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ksla.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Shreveport",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wafb_com",
+"name": "wafb.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wafb.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Baton Rouge",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wbrc_com",
+"name": "wbrc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wbrc.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Birmingham",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wsfa_com",
+"name": "wsfa.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wsfa.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Montgomery|AL",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wmcactionnews5_com",
+"name": "wmcactionnews5.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.actionnews5.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Memphis",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wsmv_com",
+"name": "wsmv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wsmv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Nashville",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wbtv_com",
+"name": "wbtv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wbtv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Charlotte",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wistv_com",
+"name": "wistv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wistv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Columbia|SC",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_live5news_com",
+"name": "live5news.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.live5news.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Charleston|SC",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wtoc_com",
+"name": "wtoc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wtoc.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Savannah",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_atlantanewsfirst_com",
+"name": "atlantanewsfirst.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.atlantanewsfirst.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Atlanta",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wctv_tv",
+"name": "wctv.tv",
+"credit": false,
+"cls": "major",
+"url": "https://www.wctv.tv/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Tallahassee",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kktv_com",
+"name": "kktv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kktv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Colorado Springs",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kold_com",
+"name": "kold.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kold.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Tucson",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_azfamily_com",
+"name": "azfamily.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.azfamily.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Phoenix",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kptv_com",
+"name": "kptv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kptv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Portland|OR",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kctv5_com",
+"name": "kctv5.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kctv5.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Kansas City|MO",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kmov_com",
+"name": "kmov.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.firstalert4.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "St. Louis",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wowt_com",
+"name": "wowt.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wowt.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Omaha",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kwch_com",
+"name": "kwch.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kwch.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Wichita",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_ky3_com",
+"name": "ky3.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ky3.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Springfield",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wsaz_com",
+"name": "wsaz.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wsaz.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Huntington|WV",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wdbj7_com",
+"name": "wdbj7.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wdbj7.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Roanoke",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_nbc12_com",
+"name": "nbc12.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.12onyourside.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Richmond|VA",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wymt_com",
+"name": "wymt.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wymt.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Hazard",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wkyt_com",
+"name": "wkyt.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wkyt.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Lexington|KY",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wave3_com",
+"name": "wave3.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wdrbwave.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Louisville",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wilx_com",
+"name": "wilx.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wilx.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Lansing",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wnem_com",
+"name": "wnem.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wnem.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Saginaw",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_13abc_com",
+"name": "13abc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.13abc.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Toledo",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wbay_com",
+"name": "wbay.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wbay.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Green Bay",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kwqc_com",
+"name": "kwqc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kwqc.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Davenport",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kcrg_com",
+"name": "kcrg.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kcrg.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Cedar Rapids",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kotatv_com",
+"name": "kotatv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kotatv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Rapid City",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_valleynewslive_com",
+"name": "valleynewslive.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.valleynewslive.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Fargo",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_news9_com",
+"name": "news9.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.news9.com/index.rss",
+"home": "Oklahoma City",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kwtx_com",
+"name": "kwtx.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kwtx.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Waco",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kcbd_com",
+"name": "kcbd.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kcbd.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Lubbock",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kfyrtv_com",
+"name": "kfyrtv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kfyrtv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Bismarck",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_hawaiinewsnow_com",
+"name": "hawaiinewsnow.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.hawaiinewsnow.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Honolulu",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_alaskasnewssource_com",
+"name": "alaskasnewssource.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.alaskasnewssource.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Anchorage",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_ktuu_com",
+"name": "ktuu.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.alaskasnewssource.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Anchorage",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kolotv_com",
+"name": "kolotv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kolotv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Reno",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_fox5vegas_com",
+"name": "fox5vegas.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.fox5vegas.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Las Vegas",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wcax_com",
+"name": "wcax.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wcax.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Burlington|VT",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wagmtv_com",
+"name": "wagmtv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wagmtv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Presque Isle",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wjhg_com",
+"name": "wjhg.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wjhg.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Panama City",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wrdw_com",
+"name": "wrdw.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wrdw.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Augusta|GA",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wtvy_com",
+"name": "wtvy.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wtvy.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Dothan",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wlbt_com",
+"name": "wlbt.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wlbt.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Jackson",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_wlox_com",
+"name": "wlox.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wlox.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Biloxi",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kait8_com",
+"name": "kait8.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kait8.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Jonesboro",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kplctv_com",
+"name": "kplctv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kplctv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Lake Charles",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_kalb_com",
+"name": "kalb.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kalb.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Alexandria|LA",
+"fund": "Commercial; owner group: gray",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc7_com",
+"name": "abc7.com",
+"credit": false,
+"cls": "major",
+"url": "https://abc7.com/feed/",
+"home": "Los Angeles",
+"fund": "Commercial; owner group: abc-owned",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc7news_com",
+"name": "abc7news.com",
+"credit": false,
+"cls": "major",
+"url": "https://abc7news.com/feed/",
+"home": "San Francisco",
+"fund": "Commercial; owner group: abc-owned",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc7chicago_com",
+"name": "abc7chicago.com",
+"credit": false,
+"cls": "major",
+"url": "https://abc7chicago.com/feed/",
+"home": "Chicago",
+"fund": "Commercial; owner group: abc-owned",
+"cat": "news-us-local"
+},
+{
+"id": "local_6abc_com",
+"name": "6abc.com",
+"credit": false,
+"cls": "major",
+"url": "https://6abc.com/feed/",
+"home": "Philadelphia",
+"fund": "Commercial; owner group: abc-owned",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc13_com",
+"name": "abc13.com",
+"credit": false,
+"cls": "major",
+"url": "https://abc13.com/feed/",
+"home": "Houston",
+"fund": "Commercial; owner group: abc-owned",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc11_com",
+"name": "abc11.com",
+"credit": false,
+"cls": "major",
+"url": "https://abc11.com/feed/",
+"home": "Raleigh",
+"fund": "Commercial; owner group: abc-owned",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc30_com",
+"name": "abc30.com",
+"credit": false,
+"cls": "major",
+"url": "https://abc30.com/feed/",
+"home": "Fresno",
+"fund": "Commercial; owner group: abc-owned",
+"cat": "news-us-local"
+},
+{
+"id": "local_kcra_com",
+"name": "kcra.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kcra.com/topstories-rss",
+"home": "Sacramento",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_ksbw_com",
+"name": "ksbw.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ksbw.com/topstories-rss",
+"home": "Salinas",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_koat_com",
+"name": "koat.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.koat.com/topstories-rss",
+"home": "Albuquerque",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_kmbc_com",
+"name": "kmbc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kmbc.com/topstories-rss",
+"home": "Kansas City|MO",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_ketv_com",
+"name": "ketv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ketv.com/topstories-rss",
+"home": "Omaha",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_kcci_com",
+"name": "kcci.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kcci.com/topstories-rss",
+"home": "Des Moines",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wisn_com",
+"name": "wisn.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wisn.com/topstories-rss",
+"home": "Milwaukee",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wlwt_com",
+"name": "wlwt.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wlwt.com/topstories-rss",
+"home": "Cincinnati",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wlky_com",
+"name": "wlky.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wlky.com/topstories-rss",
+"home": "Louisville",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wdsu_com",
+"name": "wdsu.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wdsu.com/topstories-rss",
+"home": "New Orleans",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wbaltv_com",
+"name": "wbaltv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wbaltv.com/topstories-rss",
+"home": "Baltimore",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wcvb_com",
+"name": "wcvb.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wcvb.com/topstories-rss",
+"home": "Boston",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wmur_com",
+"name": "wmur.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wmur.com/topstories-rss",
+"home": "Manchester|NH",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wgal_com",
+"name": "wgal.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wgal.com/topstories-rss",
+"home": "Lancaster|PA",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wtae_com",
+"name": "wtae.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wtae.com/topstories-rss",
+"home": "Pittsburgh",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wxii12_com",
+"name": "wxii12.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wxii12.com/topstories-rss",
+"home": "Winston-Salem",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wyff4_com",
+"name": "wyff4.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wyff4.com/topstories-rss",
+"home": "Greenville|SC",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wesh_com",
+"name": "wesh.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wesh.com/topstories-rss",
+"home": "Orlando",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wpbf_com",
+"name": "wpbf.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wpbf.com/topstories-rss",
+"home": "West Palm Beach",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wvtm13_com",
+"name": "wvtm13.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wvtm13.com/topstories-rss",
+"home": "Birmingham",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wapt_com",
+"name": "wapt.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wapt.com/topstories-rss",
+"home": "Jackson",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_koco_com",
+"name": "koco.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.koco.com/topstories-rss",
+"home": "Oklahoma City",
+"fund": "Commercial; owner group: hearst",
+"cat": "news-us-local"
+},
+{
+"id": "local_wxyz_com",
+"name": "wxyz.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wxyz.com/index.rss",
+"home": "Detroit",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wews_com",
+"name": "wews.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.news5cleveland.com/index.rss",
+"home": "Cleveland",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wcpo_com",
+"name": "wcpo.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wcpo.com/index.rss",
+"home": "Cincinnati",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wrtv_com",
+"name": "wrtv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wrtv.com/feed/",
+"home": "Indianapolis",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wtmj_com",
+"name": "wtmj.com",
+"credit": false,
+"cls": "major",
+"url": "https://wtmj.com/feed/",
+"home": "Milwaukee",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_kshb_com",
+"name": "kshb.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kshb.com/index.rss",
+"home": "Kansas City|MO",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_koaa_com",
+"name": "koaa.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.koaa.com/index.rss",
+"home": "Pueblo",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_denver7_com",
+"name": "denver7.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.denver7.com/index.rss",
+"home": "Denver",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc15_com",
+"name": "abc15.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.abc15.com/index.rss",
+"home": "Phoenix",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_kgun9_com",
+"name": "kgun9.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kgun9.com/index.rss",
+"home": "Tucson",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_10news_com",
+"name": "10news.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.10news.com/index.rss",
+"home": "San Diego",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_turnto23_com",
+"name": "turnto23.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.turnto23.com/index.rss",
+"home": "Bakersfield",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_ktnv_com",
+"name": "ktnv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ktnv.com/index.rss",
+"home": "Las Vegas",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_kivitv_com",
+"name": "kivitv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kivitv.com/index.rss",
+"home": "Boise",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_krtv_com",
+"name": "krtv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.krtv.com/index.rss",
+"home": "Great Falls",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_kpax_com",
+"name": "kpax.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kpax.com/index.rss",
+"home": "Missoula",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wptv_com",
+"name": "wptv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wptv.com/index.rss",
+"home": "West Palm Beach",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_abcactionnews_com",
+"name": "abcactionnews.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.tampabay28.com/index.rss",
+"home": "Tampa",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wfts_com",
+"name": "wfts.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.tampabay28.com/index.rss",
+"home": "Tampa",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_news5cleveland_com",
+"name": "news5cleveland.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.news5cleveland.com/index.rss",
+"home": "Cleveland",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wkbw_com",
+"name": "wkbw.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wkbw.com/index.rss",
+"home": "Buffalo|NY",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wtvf_com",
+"name": "wtvf.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.newschannel5.com/index.rss",
+"home": "Nashville",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_newschannel5_com",
+"name": "newschannel5.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.newschannel5.com/index.rss",
+"home": "Nashville",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_wcyb_com",
+"name": "wcyb.com",
+"credit": false,
+"cls": "major",
+"url": "https://wcyb.com/news/local.rss",
+"home": "Bristol|VA",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_komonews_com",
+"name": "komonews.com",
+"credit": false,
+"cls": "major",
+"url": "https://komonews.com/news/local.rss",
+"home": "Seattle",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_katu_com",
+"name": "katu.com",
+"credit": false,
+"cls": "major",
+"url": "https://katu.com/news/local.rss",
+"home": "Portland|OR",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_kutv_com",
+"name": "kutv.com",
+"credit": false,
+"cls": "major",
+"url": "https://kutv.com/news/local.rss",
+"home": "Salt Lake City",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_news4sanantonio_com",
+"name": "news4sanantonio.com",
+"credit": false,
+"cls": "major",
+"url": "https://news4sanantonio.com/news/local.rss",
+"home": "San Antonio",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_cbsaustin_com",
+"name": "cbsaustin.com",
+"credit": false,
+"cls": "major",
+"url": "https://cbsaustin.com/news/local.rss",
+"home": "Austin",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_wjla_com",
+"name": "wjla.com",
+"credit": false,
+"cls": "major",
+"url": "https://wjla.com/news/local.rss",
+"home": "Washington",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_foxbaltimore_com",
+"name": "foxbaltimore.com",
+"credit": false,
+"cls": "major",
+"url": "https://foxbaltimore.com/news/local.rss",
+"home": "Baltimore",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_wpde_com",
+"name": "wpde.com",
+"credit": false,
+"cls": "major",
+"url": "https://wpde.com/news/local.rss",
+"home": "Florence|SC",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_wlos_com",
+"name": "wlos.com",
+"credit": false,
+"cls": "major",
+"url": "https://wlos.com/news/local.rss",
+"home": "Asheville",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_wach_com",
+"name": "wach.com",
+"credit": false,
+"cls": "major",
+"url": "https://wach.com/news/local.rss",
+"home": "Columbia|SC",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_local12_com",
+"name": "local12.com",
+"credit": false,
+"cls": "major",
+"url": "https://local12.com/news/local.rss",
+"home": "Cincinnati",
+"fund": "Commercial; owner group: sinclair",
+"cat": "news-us-local"
+},
+{
+"id": "local_nbc4i_com",
+"name": "nbc4i.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.nbc4i.com/feed/",
+"home": "Columbus",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wkrn_com",
+"name": "wkrn.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wkrn.com/feed/",
+"home": "Nashville",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wreg_com",
+"name": "wreg.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wreg.com/feed/",
+"home": "Memphis",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wjhl_com",
+"name": "wjhl.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wjhl.com/feed/",
+"home": "Johnson City",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wate_com",
+"name": "wate.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wate.com/feed/",
+"home": "Knoxville",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wkrg_com",
+"name": "wkrg.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wkrg.com/feed/",
+"home": "Mobile|AL",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wfla_com",
+"name": "wfla.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wfla.com/feed/",
+"home": "Tampa",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wsav_com",
+"name": "wsav.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wsav.com/feed/",
+"home": "Savannah",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wjbf_com",
+"name": "wjbf.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wjbf.com/feed/",
+"home": "Augusta|GA",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_fox8_com",
+"name": "fox8.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.fox8.com/feed/",
+"home": "Cleveland",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wdtn_com",
+"name": "wdtn.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wdtn.com/feed/",
+"home": "Dayton",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wane_com",
+"name": "wane.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wane.com/feed/",
+"home": "Fort Wayne",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wgntv_com",
+"name": "wgntv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wgntv.com/feed/",
+"home": "Chicago",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wcia_com",
+"name": "wcia.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wcia.com/feed/",
+"home": "Champaign",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wqad_com",
+"name": "wqad.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wqad.com/feeds/syndication/rss/news",
+"home": "Moline",
+"fund": "Commercial; owner group: tegna",
+"cat": "news-us-local"
+},
+{
+"id": "local_ktla_com",
+"name": "ktla.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ktla.com/feed/",
+"home": "Los Angeles",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_kron4_com",
+"name": "kron4.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kron4.com/feed/",
+"home": "San Francisco",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_fox40_com",
+"name": "fox40.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.fox40.com/feed/",
+"home": "Sacramento",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_yourcentralvalley_com",
+"name": "yourcentralvalley.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.yourcentralvalley.com/feed/",
+"home": "Fresno",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_fox59_com",
+"name": "fox59.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.fox59.com/feed/",
+"home": "Indianapolis",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_fox2now_com",
+"name": "fox2now.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.fox2now.com/feed/",
+"home": "St. Louis",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_fox4kc_com",
+"name": "fox4kc.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.fox4kc.com/feed/",
+"home": "Kansas City|MO",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_kfor_com",
+"name": "kfor.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kfor.com/feed/",
+"home": "Oklahoma City",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_kxan_com",
+"name": "kxan.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kxan.com/feed/",
+"home": "Austin",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_kdvr_com",
+"name": "kdvr.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kdvr.com/feed/",
+"home": "Denver",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_koin_com",
+"name": "koin.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.koin.com/feed/",
+"home": "Portland|OR",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_kxlh_com",
+"name": "kxlh.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kxlh.com/index.rss",
+"home": "Helena",
+"fund": "Commercial; owner group: scripps",
+"cat": "news-us-local"
+},
+{
+"id": "local_pix11_com",
+"name": "pix11.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.pix11.com/feed/",
+"home": "New York",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_news10_com",
+"name": "news10.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.news10.com/feed/",
+"home": "Albany|NY",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_rochesterfirst_com",
+"name": "rochesterfirst.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.rochesterfirst.com/feed/",
+"home": "Rochester|NY",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_localsyr_com",
+"name": "localsyr.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.localsyr.com/feed/",
+"home": "Syracuse",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wivb_com",
+"name": "wivb.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wivb.com/feed/",
+"home": "Buffalo|NY",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wpri_com",
+"name": "wpri.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wpri.com/feed/",
+"home": "Providence",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wtnh_com",
+"name": "wtnh.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wtnh.com/feed/",
+"home": "New Haven",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wkbn_com",
+"name": "wkbn.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wkbn.com/feed/",
+"home": "Youngstown",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wowktv_com",
+"name": "wowktv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wowktv.com/feed/",
+"home": "Charleston|WV",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wboy_com",
+"name": "wboy.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wboy.com/feed/",
+"home": "Clarksburg",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wavy_com",
+"name": "wavy.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wavy.com/feed/",
+"home": "Norfolk|VA",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wric_com",
+"name": "wric.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wric.com/feed/",
+"home": "Richmond|VA",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_dcnewsnow_com",
+"name": "dcnewsnow.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.dcnewsnow.com/feed/",
+"home": "Washington",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wgno_com",
+"name": "wgno.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wgno.com/feed/",
+"home": "New Orleans",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_brproud_com",
+"name": "brproud.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.brproud.com/feed/",
+"home": "Baton Rouge",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_ksn_com",
+"name": "ksn.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ksn.com/feed/",
+"home": "Wichita",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_ktsm_com",
+"name": "ktsm.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.ktsm.com/feed/",
+"home": "El Paso",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_everythinglubbock_com",
+"name": "everythinglubbock.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.everythinglubbock.com/feed/",
+"home": "Lubbock",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_kxnet_com",
+"name": "kxnet.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kxnet.com/feed/",
+"home": "Bismarck",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_keloland_com",
+"name": "keloland.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.keloland.com/feed/",
+"home": "Sioux Falls",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_krqe_com",
+"name": "krqe.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.krqe.com/feed/",
+"home": "Albuquerque",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_abc4_com",
+"name": "abc4.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.abc4.com/feed/",
+"home": "Salt Lake City",
+"fund": "Commercial; owner group: nexstar",
+"cat": "news-us-local"
+},
+{
+"id": "local_wsoctv_com",
+"name": "wsoctv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wsoctv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Charlotte",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_wftv_com",
+"name": "wftv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wftv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Orlando",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_actionnewsjax_com",
+"name": "actionnewsjax.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.actionnewsjax.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Jacksonville",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_wpxi_com",
+"name": "wpxi.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wpxi.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Pittsburgh",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_kiro7_com",
+"name": "kiro7.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.kiro7.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Seattle",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_boston25news_com",
+"name": "boston25news.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.boston25news.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Boston",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_wsbtv_com",
+"name": "wsbtv.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.wsbtv.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Atlanta",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_whio_com",
+"name": "whio.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.whio.com/arc/outboundfeeds/rss/?outputType=xml",
+"home": "Dayton",
+"fund": "Commercial; owner group: cox",
+"cat": "news-us-local"
+},
+{
+"id": "local_qctimes_com",
+"name": "qctimes.com",
+"credit": false,
+"cls": "major",
+"url": "https://www.qctimes.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+"home": "Davenport",
+"fund": "Commercial; owner group: lee",
+"cat": "news-us-local"
+},
+{
+"id": "local_siouxcityjournal_com",
+"name": "siouxcityjournal.com",
+"credit": false,
+"cls": "major",
+"url": "https://siouxcityjournal.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+"home": "Sioux City",
+"fund": "Commercial; owner group: lee",
+"cat": "news-us-local"
+},
+{
+"id": "local_roanoke_com",
+"name": "roanoke.com",
+"credit": false,
+"cls": "major",
+"url": "https://roanoke.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+"home": "Roanoke",
+"fund": "Commercial; owner group: lee",
+"cat": "news-us-local"
+},
+{
+"id": "local_journalnow_com",
+"name": "journalnow.com",
+"credit": false,
+"cls": "major",
+"url": "https://journalnow.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+"home": "Winston-Salem",
+"fund": "Commercial; owner group: lee",
+"cat": "news-us-local"
+},
+{
+"id": "local_greensboro_com",
+"name": "greensboro.com",
+"credit": false,
+"cls": "major",
+"url": "https://greensboro.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+"home": "Greensboro",
+"fund": "Commercial; owner group: lee",
+"cat": "news-us-local"
+},
+{
+"id": "local_missoulian_com",
+"name": "missoulian.com",
+"credit": false,
+"cls": "major",
+"url": "https://missoulian.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+"home": "Missoula",
+"fund": "Commercial; owner group: lee",
+"cat": "news-us-local"
+},
+{
+"id": "local_napavalleyregister_com",
+"name": "napavalleyregister.com",
+"credit": false,
+"cls": "major",
+"url": "https://napavalleyregister.com/search/?f=rss&t=article&l=25&s=start_time&sd=desc",
+"home": "Napa",
+"fund": "Commercial; owner group: lee",
 "cat": "news-us-local"
 }
 ],
@@ -1263,29 +3391,9 @@
 40.79,
 -73.42
 ],
-"Syracuse": [
-43.05,
--76.15
-],
-"Newark": [
-40.74,
--74.17
-],
-"Philadelphia": [
-39.95,
--75.17
-],
 "Pittsburgh": [
 40.44,
 -80.0
-],
-"Harrisburg": [
-40.27,
--76.88
-],
-"Easton": [
-40.69,
--75.22
 ],
 "Boston": [
 42.36,
@@ -1307,37 +3415,17 @@
 44.26,
 -72.58
 ],
-"Baltimore": [
-39.29,
--76.61
-],
 "Atlanta": [
 33.75,
 -84.39
-],
-"St. Petersburg": [
-27.77,
--82.64
-],
-"Birmingham": [
-33.52,
--86.81
 ],
 "New Orleans": [
 29.95,
 -90.07
 ],
-"Cleveland": [
-41.5,
--81.69
-],
 "Toledo": [
 41.65,
 -83.54
-],
-"Grand Rapids": [
-42.96,
--85.67
 ],
 "Lansing": [
 42.73,
@@ -1375,10 +3463,6 @@
 40.76,
 -111.89
 ],
-"Tucson": [
-32.22,
--110.97
-],
 "Las Vegas": [
 36.17,
 -115.14
@@ -1387,17 +3471,9 @@
 42.87,
 -106.31
 ],
-"Portland|OR": [
-45.52,
--122.68
-],
 "San Diego": [
 32.72,
 -117.16
-],
-"Anchorage": [
-61.22,
--149.9
 ],
 "Honolulu": [
 21.31,
@@ -1418,6 +3494,10 @@
 "Santa Cruz": [
 36.97,
 -122.03
+],
+"Philadelphia": [
+39.95,
+-75.17
 ],
 "Juneau": [
 58.3,
@@ -1450,6 +3530,398 @@
 "Columbus": [
 39.96,
 -83.0
+],
+"Dallas": [
+32.78,
+-96.8
+],
+"San Antonio": [
+29.42,
+-98.49
+],
+"Seattle": [
+47.61,
+-122.33
+],
+"Portland|OR": [
+45.52,
+-122.68
+],
+"Phoenix": [
+33.45,
+-112.07
+],
+"Charlotte": [
+35.23,
+-80.84
+],
+"Columbia|SC": [
+34.0,
+-81.03
+],
+"Tampa": [
+27.95,
+-82.46
+],
+"Knoxville": [
+35.96,
+-83.92
+],
+"Grand Rapids": [
+42.96,
+-85.67
+],
+"Cleveland": [
+41.5,
+-81.69
+],
+"Indianapolis": [
+39.77,
+-86.16
+],
+"St. Louis": [
+38.63,
+-90.2
+],
+"Norfolk|VA": [
+36.85,
+-76.29
+],
+"Buffalo|NY": [
+42.89,
+-78.88
+],
+"Scranton": [
+41.41,
+-75.66
+],
+"York|PA": [
+39.96,
+-76.73
+],
+"Corpus Christi": [
+27.8,
+-97.4
+],
+"Spokane": [
+47.66,
+-117.43
+],
+"Macon": [
+32.84,
+-83.63
+],
+"Little Rock": [
+34.75,
+-92.29
+],
+"Shreveport": [
+32.53,
+-93.75
+],
+"Baton Rouge": [
+30.45,
+-91.15
+],
+"Birmingham": [
+33.52,
+-86.81
+],
+"Montgomery|AL": [
+32.38,
+-86.3
+],
+"Memphis": [
+35.15,
+-90.05
+],
+"Charleston|SC": [
+32.78,
+-79.93
+],
+"Savannah": [
+32.08,
+-81.09
+],
+"Tucson": [
+32.22,
+-110.97
+],
+"Kansas City|MO": [
+39.1,
+-94.58
+],
+"Omaha": [
+41.26,
+-95.94
+],
+"Wichita": [
+37.69,
+-97.34
+],
+"Huntington|WV": [
+38.42,
+-82.45
+],
+"Roanoke": [
+37.27,
+-79.94
+],
+"Richmond|VA": [
+37.54,
+-77.44
+],
+"Hazard": [
+37.25,
+-83.19
+],
+"Lexington|KY": [
+38.04,
+-84.5
+],
+"Saginaw": [
+43.42,
+-83.95
+],
+"Green Bay": [
+44.51,
+-88.01
+],
+"Davenport": [
+41.52,
+-90.58
+],
+"Cedar Rapids": [
+41.98,
+-91.67
+],
+"Rapid City": [
+44.08,
+-103.23
+],
+"Oklahoma City": [
+35.47,
+-97.52
+],
+"Waco": [
+31.55,
+-97.15
+],
+"Lubbock": [
+33.58,
+-101.86
+],
+"Bismarck": [
+46.81,
+-100.78
+],
+"Anchorage": [
+61.22,
+-149.9
+],
+"Burlington|VT": [
+44.48,
+-73.21
+],
+"Presque Isle": [
+46.68,
+-68.02
+],
+"Panama City": [
+30.16,
+-85.66
+],
+"Augusta|GA": [
+33.47,
+-81.97
+],
+"Dothan": [
+31.22,
+-85.39
+],
+"Biloxi": [
+30.4,
+-88.89
+],
+"Jonesboro": [
+35.84,
+-90.7
+],
+"Lake Charles": [
+30.23,
+-93.22
+],
+"Alexandria|LA": [
+31.31,
+-92.45
+],
+"Raleigh": [
+35.78,
+-78.64
+],
+"Fresno": [
+36.74,
+-119.79
+],
+"Salinas": [
+36.68,
+-121.66
+],
+"Albuquerque": [
+35.08,
+-106.65
+],
+"Des Moines": [
+41.59,
+-93.62
+],
+"Milwaukee": [
+43.04,
+-87.91
+],
+"Cincinnati": [
+39.1,
+-84.51
+],
+"Baltimore": [
+39.29,
+-76.61
+],
+"Manchester|NH": [
+42.99,
+-71.46
+],
+"Lancaster|PA": [
+40.04,
+-76.31
+],
+"Winston-Salem": [
+36.1,
+-80.24
+],
+"Greenville|SC": [
+34.85,
+-82.4
+],
+"Orlando": [
+28.54,
+-81.38
+],
+"West Palm Beach": [
+26.72,
+-80.05
+],
+"Detroit": [
+42.33,
+-83.05
+],
+"Pueblo": [
+38.25,
+-104.61
+],
+"Bakersfield": [
+35.37,
+-119.02
+],
+"Great Falls": [
+47.5,
+-111.3
+],
+"Missoula": [
+46.87,
+-113.99
+],
+"Bristol|VA": [
+36.6,
+-82.19
+],
+"Florence|SC": [
+34.2,
+-79.76
+],
+"Asheville": [
+35.6,
+-82.55
+],
+"Johnson City": [
+36.31,
+-82.35
+],
+"Mobile|AL": [
+30.69,
+-88.04
+],
+"Dayton": [
+39.76,
+-84.19
+],
+"Fort Wayne": [
+41.08,
+-85.14
+],
+"Champaign": [
+40.12,
+-88.24
+],
+"Moline": [
+41.51,
+-90.52
+],
+"Helena": [
+46.59,
+-112.04
+],
+"Albany|NY": [
+42.65,
+-73.75
+],
+"Rochester|NY": [
+43.16,
+-77.61
+],
+"Syracuse": [
+43.05,
+-76.15
+],
+"Providence": [
+41.82,
+-71.41
+],
+"New Haven": [
+41.31,
+-72.92
+],
+"Youngstown": [
+41.1,
+-80.65
+],
+"Charleston|WV": [
+38.35,
+-81.63
+],
+"Clarksburg": [
+39.28,
+-80.34
+],
+"El Paso": [
+31.76,
+-106.49
+],
+"Sioux Falls": [
+43.55,
+-96.73
+],
+"Sioux City": [
+42.5,
+-96.4
+],
+"Greensboro": [
+36.07,
+-79.79
+],
+"Napa": [
+38.3,
+-122.29
 ]
 },
 "dropped": [
