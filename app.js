@@ -44,6 +44,24 @@ const LAYERS=[
 {id:'cams',label:'◉ CAMS',color:'#b388ff',refresh:0,cluster:true,viewport:true,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
  async load(){const d=await getJSON('data/cams.json');return d.map(([n,lat,lon,county,typ,hls,img])=>({lat,lon,r:5,title:n,sub:`${county} County, CA${hls?' · live video':''}`,
   popup:()=>`<b>${esc(n)}</b><br><small>${esc(county)} County</small><img src="${esc(img)}?t=${Date.now()}" alt="snapshot">`+(hls?`<button class="live" data-h="${esc(hls)}" data-n="${esc(n)}" data-i="${esc(img)}">▶ LIVE VIDEO</button>`:'')+`<small>Caltrans public CCTV</small>`}))}},
+{id:'crowd',label:'👁 CROWD',color:'#39ff14',refresh:180e3,attribution:'Crowd: <a href="https://bsky.app">Bluesky</a>, <a href="https://mastodon.social">Mastodon</a>',
+ async load(){const {groups,stats}=await Crowd.load();this.note=`${stats.placed} of ${stats.fetched} public posts name a known place · ${stats.filtered} filtered (personal info)`;
+  return groups.map(g=>({lat:g.place[1],lon:g.place[2],r:5+Math.min(10,g.posts.length*1.5),title:`📍 ${g.place[0]} · ${g.posts.length} post(s)`,sub:g.posts[0].text.slice(0,80),popup:()=>Crowd.card(g)}))}},
+{id:'reports',label:'✚ REPORTS',color:'#ff2bd6',refresh:120e3,attribution:'Reports: Nostr public relays',
+ async load(){return Reports.items(await Reports.load())}},
+{id:'radar',label:'☂ RADAR',color:'#4fc3f7',refresh:600e3,tile:true,attribution:'Radar: <a href="https://www.rainviewer.com">RainViewer</a>',
+ async load(){const d=await getJSON('https://api.rainviewer.com/public/weather-maps.json');const f=d.radar.past[d.radar.past.length-1];
+  this.note='radar '+new Date(f.time*1000).toLocaleTimeString();this.tileLayer=L.tileLayer(`${d.host}${f.path}/256/{z}/{x}/{y}/2/1_1.png`,{opacity:.6,maxNativeZoom:7,maxZoom:19});return []}},
+{id:'eonet',label:'🛰 EONET',color:'#ff9e40',refresh:900e3,attribution:'Events: <a href="https://eonet.gsfc.nasa.gov">NASA EONET</a>',
+ async load(){const d=await getJSON('https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=30');
+  return d.events.map(e=>{const g=e.geometry[e.geometry.length-1];if(!g||g.type!=='Point')return null;const cat=e.categories[0]?.title||'';
+   return {lat:g.coordinates[1],lon:g.coordinates[0],r:5,title:e.title,sub:`${cat} · ${new Date(g.date).toLocaleDateString()}`,popup:`<b>${esc(e.title)}</b><br>${esc(cat)} · ${new Date(g.date).toLocaleString()}<br>${(e.sources||[]).map(s=>`<a target=_blank rel=noopener href="${esc(s.url)}">${esc(s.id)} ↗</a>`).join(' ')}`}}).filter(Boolean)}},
+{id:'gdacs',label:'⚑ GDACS',color:'#ff1744',refresh:900e3,attribution:'Disasters: <a href="https://www.gdacs.org">GDACS</a>',
+ async load(){const d=await getJSON('https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=EQ;TC;FL;VO;WF;DR&alertlevel=Green;Orange;Red');
+  return d.features.map(f=>{const p=f.properties;return {lat:f.geometry.coordinates[1],lon:f.geometry.coordinates[0],r:p.alertlevel==='Red'?9:p.alertlevel==='Orange'?7:5,
+   title:`${p.alertlevel} · ${p.name}`,sub:new Date(p.fromdate).toLocaleDateString(),popup:`<b>${esc(p.name)}</b><br>${esc(p.alertlevel)} alert · ${esc(p.fromdate)}<br><a target=_blank rel=noopener href="${esc(p.url?.report||'https://www.gdacs.org')}">GDACS report ↗</a>`}})}},
+{id:'live',label:'▶ LIVE TV',color:'#ffffff',refresh:0,attribution:'Live: official channel pages',
+ async load(){return (await getJSON('data/live.json')).map(l=>({lat:l.lat,lon:l.lon,r:7,title:l.title,sub:l.note,popup:`<b>${esc(l.title)}</b><br>${esc(l.note)}<br><a target=_blank rel=noopener href="${esc(l.url)}">Watch live ↗</a>`}))}},
 {id:'scanner',label:'📻 SCAN',color:'#ff8a00',refresh:0,dynamic:true,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
  async load(){await Scanners.init();return true}}
 ];
@@ -52,12 +70,13 @@ const state={};const nav=document.getElementById('layers'),list=document.getElem
  status=document.getElementById('status'),panel=document.getElementById('panel'),ptitle=document.getElementById('ptitle');
 const itemsOf=Ly=>{const s=state[Ly.id];if(!s.data)return[];return (Ly.dynamic?Scanners.items(region):s.data).filter(i=>inRegion(i.lat,i.lon))};
 function drawLayer(Ly){const s=state[Ly.id];s.group.clearLayers();s.shown=[];if(!s.on||!s.data){badge(Ly);return}
+ if(Ly.tile){if(Ly.tileLayer)s.group.addLayer(Ly.tileLayer);s.total=0;badge(Ly);return}
  let its=itemsOf(Ly);s.total=its.length;
  if(Ly.viewport){const b=map.getBounds().pad(.25);its=its.filter(i=>b.contains([i.lat,i.lon]))}
  const mks=its.map(i=>{const mk=i.geo?L.geoJSON(i.geo,{style:{color:Ly.color,weight:1,fillOpacity:.15}}):dot([i.lat,i.lon],Ly.color,i.r);
   if(i.state)mk.on('click',()=>openScan(i));else mk.bindPopup(i.popup);i._mk=mk;return mk});
  Ly.cluster?s.group.addLayers(mks):mks.forEach(m=>m.addTo(s.group));s.shown=its;badge(Ly)}
-function badge(Ly){const s=state[Ly.id];s.btn.innerHTML=esc(Ly.label)+(s.loading?' <span class="badge">…</span>':s.on&&s.data?` <span class="badge">${Ly.viewport?s.shown.length+'/'+s.total:s.total}</span>`:'')}
+function badge(Ly){const s=state[Ly.id];const lb=document.getElementById('layersbtn');if(lb)lb.textContent=`☰ LAYERS ${Object.values(state).filter(x=>x.on).length}/${LAYERS.length}`;s.btn.innerHTML=esc(Ly.label)+(s.loading?' <span class="badge">…</span>':s.on&&s.data&&!Ly.tile?` <span class="badge">${Ly.viewport?s.shown.length+'/'+s.total:s.total}</span>`:'')}
 function renderList(){list.innerHTML='';let n=0;const msgs=[];
  LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on)return;
   if(s.err)msgs.push(`${Ly.label}: ${s.err}`);else if(Ly.note)msgs.push(`${Ly.label}: ${Ly.note}`);
@@ -76,7 +95,7 @@ async function refresh(Ly){const s=state[Ly.id];clearTimeout(s.timer);if(!s.on)r
   s.timer=setTimeout(()=>refresh(Ly),wait)}
  s.loading=false;drawLayer(Ly);renderList()}
 LAYERS.forEach(Ly=>{const b=document.createElement('button');nav.appendChild(b);
- const s=state[Ly.id]={on:['quakes','alerts','air'].includes(Ly.id),btn:b,shown:[],total:0,
+ const s=state[Ly.id]={on:['crowd','reports','quakes','alerts','gdacs'].includes(Ly.id),btn:b,shown:[],total:0,
   group:(Ly.cluster?L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50}):L.layerGroup()).addTo(map)};
  b.classList.toggle('on',s.on);map.attributionControl.addAttribution(Ly.attribution);badge(Ly);
  b.onclick=()=>{s.on=!s.on;b.classList.toggle('on',s.on);if(!s.on){clearTimeout(s.timer);s.err=null;b.classList.remove('err')}
@@ -89,6 +108,7 @@ function closePanel(){panel.hidden=true}
 function openScan(i){openPanel('scan');i.county!=null?Scanners.showCounty(scanUl,i.state,i.county):Scanners.showState(scanUl,i.state,flyState)}
 document.getElementById('scanbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='scan')return closePanel();openPanel('scan');region==='World'?Scanners.showStates(scanUl,flyState):Scanners.showState(scanUl,region,flyState)};
 document.getElementById('feedbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='feed')return closePanel();openPanel('feed');renderList()};
+openPanel('feed');closePanel();
 document.getElementById('pclose').onclick=closePanel;
 const sel=document.getElementById('region');
 getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>sel.add(new Option(k.toUpperCase(),k)))}).catch(()=>{});

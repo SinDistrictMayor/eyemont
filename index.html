@@ -1,14 +1,14 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#000"><title>EYEMONT // god's eye</title>
+<meta name="theme-color" content="#000"><title>EYEMONT // the people's eye</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"><link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"><link rel="stylesheet" href="style.css"></head><body>
 <canvas id="rain"></canvas>
 <header><span class="logo">EYEMONT<span class="blink">_</span></span>
 <button id="scanbtn" aria-label="Scanners">📻</button><select id="region" aria-label="Region"><option value="World">WORLD</option></select></header>
 <div id="map"></div>
-<section id="panel" hidden><div id="phead"><span id="ptitle">FEED</span><button id="pclose" aria-label="Close panel">✕</button></div><div id="status"></div><ul id="feed"></ul><ul id="scan" hidden></ul></section>
+<section id="panel" hidden><div id="phead"><span id="ptitle">FEED</span><button id="pclose" aria-label="Close panel">✕</button></div><div id="status"></div><ul id="feed"></ul><ul id="scan" hidden></ul><div id="layers" hidden></div><form id="report" hidden onsubmit="return false"><p class="warn">Reports are <b>public and permanent</b> on Nostr relays. Describe events, not people. No names, addresses, plates or phone numbers. Location is rounded to about 5 km.</p><label>Category <select></select></label><textarea maxlength="280" rows="3" placeholder="What is happening? (max 280)"></textarea><small id="rcnt">0/280</small><button type="button" id="rpick">📍 PICK AREA ON MAP</button> <small id="rloc">no area picked</small><button type="button" id="rsend">POST REPORT</button><small id="rout"></small></form></section><div id="toast" hidden></div>
 <div id="player" hidden><video id="pvid" playsinline muted></video><span id="ptxt">—</span><button id="ptoggle" aria-label="Play/pause">▶</button><button id="pstop" aria-label="Close player">✕</button></div>
-<footer id="bar"><button id="feedbtn">☰ FEED<span id="count"></span></button><div id="layers"></div></footer>
+<footer id="bar"><button id="feedbtn">≡ FEED<span id="count"></span></button><button id="crowdbtn" class="on">👁 CROWD</button><button id="reportbtn">✚ REPORT</button><button id="layersbtn">☰ LAYERS</button></footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script><script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script><script src="scanners.js"></script><script src="app.js"></script></body></html>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script><script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.17/dist/hls.min.js"></script><script src="https://cdn.jsdelivr.net/npm/nostr-tools@2.7.2/lib/nostr.bundle.js"></script><script src="crowd.js"></script><script src="scanners.js"></script><script src="app.js"></script></body></html>
