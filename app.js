@@ -1,19 +1,17 @@
-// EYEMONT M1 — layer plugin registry. See ARCHITECTURE.md. Static only: every feed is a direct public fetch or a build-time snapshot.
+// EYEMONT redesign — NOW / NEAR / MAP. Incident-first UI over the same layer plugins and incident linker (see ARCHITECTURE.md "Redesign").
 (()=>{
-/* digital rain: ~20 fps, paused when hidden, faint */
+const RM=matchMedia('(prefers-reduced-motion: reduce)');
+/* digital rain: ~12 fps, very faint, paused when hidden / reduced motion / battery saver */
 const c=document.getElementById('rain'),x=c.getContext('2d');let drops=[],rainT=null;
-function rs(){c.width=innerWidth;c.height=innerHeight;drops=Array(Math.floor(c.width/16)).fill(1)}rs();addEventListener('resize',rs);
-function frame(){x.fillStyle='rgba(0,0,0,.1)';x.fillRect(0,0,c.width,c.height);x.fillStyle='#00ff41';x.font='14px monospace';
- drops.forEach((y,i)=>{x.fillText(String.fromCharCode(0x30A0+Math.random()*96),i*16,y*16);if(y*16>c.height&&Math.random()>.975)drops[i]=0;drops[i]++})}
-const rainOn=()=>{if(!rainT&&!document.hidden)rainT=setInterval(frame,50)},rainOff=()=>{clearInterval(rainT);rainT=null};
-document.addEventListener('visibilitychange',()=>document.hidden?rainOff():rainOn());rainOn();
-
-const map=L.map('map',{zoomControl:false,worldCopyJump:true,preferCanvas:true}).setView([39,-98],3);window.EYEMONT_MAP=map;
-L.control.zoom({position:'topleft'}).addTo(map);
-map.attributionControl.setPosition('bottomright');L.Popup.prototype.options.autoPanPaddingTopLeft=L.point(10,130);L.Popup.prototype.options.autoPanPaddingBottomRight=L.point(10,70);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,
- attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
-
+function rs(){c.width=innerWidth/2;c.height=innerHeight/2;drops=Array(Math.floor(c.width/12)).fill(0).map(()=>Math.random()*-50)}rs();addEventListener('resize',rs);
+function frame(){x.fillStyle='rgba(0,0,0,.12)';x.fillRect(0,0,c.width,c.height);x.fillStyle='#00ff41';x.font='10px monospace';
+ drops.forEach((y,i)=>{x.fillText(String.fromCharCode(0x30A0+Math.random()*96),i*12,y*12);if(y*12>c.height&&Math.random()>.97)drops[i]=0;drops[i]++})}
+const rainOn=()=>{if(!rainT&&!document.hidden&&!RM.matches)rainT=setInterval(frame,85)},rainOff=()=>{clearInterval(rainT);rainT=null};
+document.addEventListener('visibilitychange',()=>document.hidden?rainOff():rainOn());RM.addEventListener?.('change',()=>RM.matches?rainOff():rainOn());rainOn();
+const map=L.map('map',{zoomControl:false,worldCopyJump:true,preferCanvas:true}).setView([38,-97],3);window.EYEMONT_MAP=map;
+L.control.zoom({position:'topright'}).addTo(map);
+map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');map.attributionControl.getContainer().addEventListener('click',e=>{if(e.target.tagName!=='A')e.currentTarget.classList.toggle('open')});
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const dot=(ll,col,r=5)=>L.circleMarker(ll,{radius:r,color:col,weight:1,fillColor:col,fillOpacity:.75});
 let BBOX={},region='World';
@@ -37,12 +35,12 @@ const LAYERS=[
 {id:'quakes',cls:'official',label:'⌁ QUAKE',color:'#ff4d4d',refresh:120e3,attribution:'Quakes: <a href="https://earthquake.usgs.gov">USGS</a>',
  async load(){const d=await getJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson');
   return d.features.map(f=>({lat:f.geometry.coordinates[1],lon:f.geometry.coordinates[0],r:3+Math.max(0,f.properties.mag||0)*2,
-   title:`M${(f.properties.mag??0).toFixed(1)} ${f.properties.place||''}`,sub:new Date(f.properties.time).toLocaleString(),
+   time:f.properties.time,src:'USGS',text:'earthquake '+(f.properties.place||''),sev:f.properties.mag,place:f.properties.place,title:`M${(f.properties.mag??0).toFixed(1)} ${f.properties.place||''}`,sub:new Date(f.properties.time).toLocaleString(),
    popup:`<b>${esc(f.properties.title)}</b><br>${new Date(f.properties.time).toLocaleString()}<br><a target=_blank rel=noopener href="${esc(f.properties.url)}">USGS ↗</a>`}))}},
 {id:'alerts',cls:'official',label:'⚠ ALERT',color:'#ffd400',refresh:180e3,attribution:'Alerts: <a href="https://www.weather.gov">NWS</a>',
  async load(){const d=await getJSON('https://api.weather.gov/alerts/active?status=actual',{headers:{Accept:'application/geo+json'}});
   return d.features.filter(f=>f.geometry).map(f=>{const g=L.geoJSON(f.geometry).getBounds().getCenter();
-   return {lat:g.lat,lon:g.lng,geo:f.geometry,title:f.properties.event,sub:f.properties.areaDesc,
+   return {lat:g.lat,lon:g.lng,geo:f.geometry,time:Date.parse(f.properties.sent),src:'NWS',text:f.properties.event,sevw:f.properties.severity,place:f.properties.areaDesc,title:f.properties.event,sub:f.properties.areaDesc,
    popup:`<b>${esc(f.properties.headline)}</b><br>${esc(f.properties.areaDesc)}<br>Until ${esc(f.properties.expires)}`}})}},
 {id:'air',cls:'independent',label:'✈ AIR',color:'#00e5ff',refresh:300e3,attribution:'Aircraft: <a href="https://api.adsb.lol">adsb.lol re-api</a>, <a href="https://opendatacommons.org/licenses/odbl/1-0/">ODbL 1.0</a>',
  // Snapshot only: adsb.lol sends no CORS header, so the Pages build bakes data/aircraft.json every ~15 min.
@@ -65,11 +63,11 @@ const LAYERS=[
 {id:'eonet',cls:'official',label:'🛰 EONET',color:'#ff9e40',refresh:900e3,attribution:'Events: <a href="https://eonet.gsfc.nasa.gov">NASA EONET</a>',
  async load(){const d=await getJSON('https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=30');
   return d.events.map(e=>{const g=e.geometry[e.geometry.length-1];if(!g||g.type!=='Point')return null;const cat=e.categories[0]?.title||'';
-   return {lat:g.coordinates[1],lon:g.coordinates[0],r:5,title:e.title,sub:`${cat} · ${new Date(g.date).toLocaleDateString()}`,popup:`<b>${esc(e.title)}</b><br>${esc(cat)} · ${new Date(g.date).toLocaleString()}<br>${(e.sources||[]).map(s=>`<a target=_blank rel=noopener href="${esc(s.url)}">${esc(s.id)} ↗</a>`).join(' ')}`}}).filter(Boolean)}},
+   return {lat:g.coordinates[1],lon:g.coordinates[0],r:5,time:Date.parse(g.date),src:'NASA EONET',text:cat+' '+e.title,title:e.title,sub:`${cat} · ${new Date(g.date).toLocaleDateString()}`,popup:`<b>${esc(e.title)}</b><br>${esc(cat)} · ${new Date(g.date).toLocaleString()}<br>${(e.sources||[]).map(s=>`<a target=_blank rel=noopener href="${esc(s.url)}">${esc(s.id)} ↗</a>`).join(' ')}`}}).filter(Boolean)}},
 {id:'news',cls:'major',label:'🗞 NEWS',color:'#e0e0e0',refresh:900e3,attribution:'News: publisher RSS feeds (headlines link to the original)',
  async load(){await srcReady;const d=await getJSON('data/news.json?t='+Math.floor(Date.now()/300e3));const ok=Object.values(d.status||{}).filter(v=>v.startsWith('ok')).length;
   this.note=`${d.items.length} headlines, ${ok}/${Object.keys(d.status||{}).length} feeds ok · snapshot ${new Date(d.updated).toLocaleTimeString()} · ⌂ = placed at outlet's home city`;
-  return d.items.map(i=>{i.title=Crowd.scrub(i.title);i.sum=Crowd.scrub(i.sum);const f=SRCBY[i.src]||{name:i.src,cls:'independent'};return {home:i.home,lat:i.lat,lon:i.lon,r:i.home?3:5,cls:f.cls,fund:f.fund,src:f.name,time:i.time?Date.parse(i.time):null,text:i.title,
+  return d.items.map(i=>{i.title=Crowd.scrub(i.title);i.sum=Crowd.scrub(i.sum);const f=SRCBY[i.src]||{name:i.src,cls:'independent'};return {url:i.url,place:i.place,home:i.home,lat:i.lat,lon:i.lon,r:i.home?3:5,cls:f.cls,fund:f.fund,src:f.name,time:i.time?Date.parse(i.time):null,text:i.title,
    title:(i.home?'⌂ ':'📍 ')+i.title,sub:`${f.name} · ${i.place}${i.home?' (outlet home city, not event location)':''} · ${i.time?new Date(i.time).toLocaleTimeString():''}`,
    popup:`<b>${esc(i.title)}</b><br><small>${esc(f.name)} · ${i.home?'⌂ placed at the outlet\'s home city ('+esc(i.place)+'), not the event':'📍 '+esc(i.place)+' (named in headline/summary)'}</small><p>${esc(i.sum)}</p>${f.credit?`<a class="credit" target=_blank rel=noopener href="${esc(i.url)}">Read the full story at ${esc(f.name)} ↗</a><br><small>Headline and summary © ${esc(f.name)}, shown unmodified.</small>`:`<a target=_blank rel=noopener href="${esc(i.url)}">read at ${esc(f.name)} ↗</a>`}`}})}},
 {id:'gdelt',cls:'major',label:'📰 GDELT',color:'#ffd600',refresh:900e3,attribution:'News events: <a href="https://www.gdeltproject.org">The GDELT Project</a>',
@@ -78,7 +76,7 @@ const LAYERS=[
    popup:`<b>📰 ${esc(g.place)}</b><br><small>${g.n} news article(s), last hour · ${esc(g.kinds.join(', '))} · place-level (GDELT machine-coded, may be wrong)</small><br>`+g.urls.map(u=>{let h=u;try{h=new URL(u).hostname}catch(e){}return `<a target=_blank rel=noopener href="${esc(u)}">${esc(h)} ↗</a>`}).join('<br>')}))}},
 {id:'gdacs',cls:'official',label:'⚑ GDACS',color:'#ff1744',refresh:900e3,attribution:'Disasters: <a href="https://www.gdacs.org">GDACS</a>',
  async load(){const d=await getJSON('https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=EQ;TC;FL;VO;WF;DR&alertlevel=Green;Orange;Red');
-  return d.features.map(f=>{const p=f.properties;return {lat:f.geometry.coordinates[1],lon:f.geometry.coordinates[0],r:p.alertlevel==='Red'?9:p.alertlevel==='Orange'?7:5,
+  return d.features.map(f=>{const p=f.properties;return {lat:f.geometry.coordinates[1],lon:f.geometry.coordinates[0],r:p.alertlevel==='Red'?9:p.alertlevel==='Orange'?7:5,time:Date.parse(p.fromdate),src:'GDACS',text:p.eventtype+' '+p.name,gtype:p.eventtype,alert:p.alertlevel,
    title:`${p.alertlevel} · ${p.name}`,sub:new Date(p.fromdate).toLocaleDateString(),popup:`<b>${esc(p.name)}</b><br>${esc(p.alertlevel)} alert · ${esc(p.fromdate)}<br><a target=_blank rel=noopener href="${esc(p.url?.report||'https://www.gdacs.org')}">GDACS report ↗</a>`}})}},
 {id:'fire',cls:'official',label:'🔥 FIRE',color:'#ff6d00',refresh:900e3,cluster:true,attribution:'Fires: <a href="https://firms.modaps.eosdis.nasa.gov">NASA FIRMS</a> (VIIRS NOAA-20)',
  async load(){const d=await H();this.note='NASA FIRMS satellite hotspots, 24 h, 0.1° cells · snapshot '+ago(Date.parse(d.updated)/1000);
@@ -111,90 +109,6 @@ const LAYERS=[
 {id:'scanner',cls:'official',label:'📻 SCAN',color:'#ff8a00',refresh:0,dynamic:true,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
  async load(){await Scanners.init();return true}}
 ];
-
-const state={};const nav=document.getElementById('layers'),list=document.getElementById('feed'),scanUl=document.getElementById('scan'),
- status=document.getElementById('status'),panel=document.getElementById('panel'),ptitle=document.getElementById('ptitle');
-const itemsOf=Ly=>{const s=state[Ly.id];if(!s.data)return[];return (Ly.dynamic?Scanners.items(region):s.data).filter(i=>clsOn[clsOf(i,Ly)]&&inRegion(i.lat,i.lon))};
-function drawLayer(Ly){const s=state[Ly.id];s.group.clearLayers();s.shown=[];if(!s.on||!s.data){badge(Ly);return}
- if(Ly.tile){if(Ly.tileLayer)s.group.addLayer(Ly.tileLayer);s.total=0;badge(Ly);return}
- let its=itemsOf(Ly);s.total=its.length;
- if(Ly.viewport){const b=map.getBounds().pad(.25);its=its.filter(i=>b.contains([i.lat,i.lon]))}
- const mks=its.map(i=>{const mk=i.geo?L.geoJSON(i.geo,{style:{color:Ly.color,weight:1,fillOpacity:.15}}):dot([i.lat,i.lon],Ly.color,i.r);
-  if(i.state)mk.on('click',()=>openScan(i));else{const c=clsOf(i,Ly),pp=i.popup;mk.bindPopup(()=>clsTag(c,i.fund)+(typeof pp==='function'?pp():pp))}i._mk=mk;return mk});
- Ly.cluster?s.group.addLayers(mks):mks.forEach(m=>m.addTo(s.group));s.shown=its;badge(Ly)}
-function badge(Ly){const s=state[Ly.id];const lb=document.getElementById('layersbtn');if(lb)lb.textContent=`☰ ${Object.values(state).filter(x=>x.on).length}/${LAYERS.length}`;s.btn.innerHTML=esc(Ly.label)+(s.loading?' <span class="badge">…</span>':s.on&&s.data&&!Ly.tile?` <span class="badge">${Ly.viewport?s.shown.length+'/'+s.total:s.total}</span>`:'')}
-var renderList=function(){list.innerHTML='';let n=0;const msgs=[];
- LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on)return;
-  if(s.err)msgs.push(`${Ly.label}: ${s.err}`);else if(Ly.note)msgs.push(`${Ly.label}: ${Ly.note}`);
-  if(Ly.viewport&&s.data)msgs.push(`${Ly.label}: listing ${s.shown.length} in view of ${s.total}`);
-  (s.shown||[]).slice(0,300).forEach(i=>{n++;const li=document.createElement('li');li.innerHTML=`<span style="color:${Ly.color}">■</span> <span class="cls cls-${clsOf(i,Ly)}">${CLASSES[clsOf(i,Ly)][0]}</span> <b>${esc(i.title)}</b><small>${esc(i.sub)}</small>`;
-   li.onclick=()=>{if(i.state)return openScan(i);closePanel();const mk=i._mk;
-    if(Ly.cluster)s.group.zoomToShowLayer(mk,()=>mk.openPopup());else{map.flyTo([i.lat,i.lon],Math.max(map.getZoom(),i.geo?6:9));setTimeout(()=>mk.openPopup?mk.openPopup():mk.eachLayer(l=>l.openPopup()),900)}};
-   list.appendChild(li)})});
- document.getElementById('count').textContent=n?` ${n}`:'';status.innerHTML=msgs.map(esc).join('<br>')}
-function redraw(){LAYERS.forEach(drawLayer);renderList()}
-let mvT;map.on('moveend',()=>{clearTimeout(mvT);mvT=setTimeout(()=>{LAYERS.filter(l=>l.viewport).forEach(drawLayer);renderList()},150)});
-// Load with retry + exponential backoff (5s, 10s, 20s … max 5 min). Successful loads follow Ly.refresh.
-async function refresh(Ly){const s=state[Ly.id];clearTimeout(s.timer);if(!s.on)return;s.loading=true;badge(Ly);
- try{s.data=await Ly.load();s.err=null;s.fails=0;s.btn.classList.remove('err');if(Ly.refresh)s.timer=setTimeout(()=>refresh(Ly),Ly.refresh)}
- catch(e){s.fails=(s.fails||0)+1;const wait=Math.min(5e3*2**(s.fails-1),300e3);s.err=`unavailable (${e.message}). Retry #${s.fails} in ${Math.round(wait/1000)}s`;s.btn.classList.add('err');
-  s.timer=setTimeout(()=>refresh(Ly),wait)}
- s.loading=false;drawLayer(Ly);renderList()}
-LAYERS.forEach(Ly=>{const b=document.createElement('button');nav.appendChild(b);
- const s=state[Ly.id]={on:['crowd','news','quakes','alerts','gdacs'].includes(Ly.id),btn:b,shown:[],total:0,
-  group:(Ly.cluster?L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50}):L.layerGroup()).addTo(map)};
- b.classList.toggle('on',s.on);if(s.on)map.attributionControl.addAttribution(Ly.attribution);badge(Ly);
- b.onclick=()=>{if(Ly.id==='reports'&&!s.on&&!localStorage.getItem('eyemont.reportsAck')){if(!confirm('REPORTS are UNMODERATED and PUBLIC.\n\nAnyone can post them to open Nostr relays. Eyemont only applies automatic filters (schema, personal-info filter, 24 h expiry, community flags). Content may be false or offensive. Show them?'))return;localStorage.setItem('eyemont.reportsAck','1')}
-  s.on=!s.on;b.classList.toggle('on',s.on);map.attributionControl[s.on?'addAttribution':'removeAttribution'](Ly.attribution);if(!s.on){clearTimeout(s.timer);s.err=null;b.classList.remove('err')}
-  s.on&&!s.data?refresh(Ly):(drawLayer(Ly),renderList())};
- if(s.on)refresh(Ly)});
-/* panel: feed list or scanner browser */
-const flyState=n=>{if(BBOX[n])map.fitBounds([[BBOX[n][0],BBOX[n][1]],[BBOX[n][2],BBOX[n][3]]])};
-function openPanel(mode){panel.hidden=false;const sc=mode==='scan';scanUl.hidden=!sc;list.hidden=mode!=='feed';status.hidden=mode!=='feed';
- nav.hidden=mode!=='layers';rep.hidden=mode!=='report';document.getElementById('info').hidden=mode!=='info';ptitle.textContent={scan:'📻 SCANNERS',feed:'FEED',layers:'☰ LAYERS',report:'✚ REPORT',info:'ⓘ SOURCE CLASSES'}[mode];panel.dataset.mode=mode;if(mode!=='report')pick(false)}
-const tog=m=>()=>{if(!panel.hidden&&panel.dataset.mode===m)return closePanel();openPanel(m)};
-document.getElementById('layersbtn').onclick=tog('layers');
-document.getElementById('crowdbtn').onclick=()=>{state.crowd.btn.click();document.getElementById('crowdbtn').classList.toggle('on',state.crowd.on)};
-/* report form: user taps the map to pick an area (rounded to a ~5 km geohash). No GPS, no identity. */
-const rep=document.getElementById('report');let pickMk=null,picking=false,pickLL=null;
-rep.querySelector('select').innerHTML=Reports.CATS.map(c=>`<option>${c}</option>`).join('');
-function pick(on){picking=on;document.body.classList.toggle('picking',on)}
-rep.querySelector('#rpick').onclick=()=>{pick(true);panel.hidden=true;toast('Tap the map where it is happening')};
-map.on('click',e=>{if(!picking)return;pick(false);pickLL=e.latlng;const g=Reports.gh(pickLL.lat,pickLL.lng,5);
- if(pickMk)pickMk.remove();pickMk=L.circle(pickLL,{radius:2500,color:'#ff2bd6'}).addTo(map);rep.querySelector('#rloc').textContent=`area ${g} (~5 km)`;openPanel('report')});
-const ta=rep.querySelector('textarea');ta.oninput=()=>rep.querySelector('#rcnt').textContent=`${ta.value.length}/280`;
-rep.querySelector('#rsend').onclick=async()=>{const out=rep.querySelector('#rout');if(!pickLL){out.textContent='Pick a location first.';return}
- out.innerHTML='computing proof-of-work… <progress max=1 value=0></progress>';const pg=out.querySelector('progress');try{const n=await Reports.publish(rep.querySelector('select').value,ta.value,pickLL.lat,pickLL.lng,p=>{pg.value=p;if(p>=1)out.textContent='posting…'});out.textContent=`Posted to ${n} relay(s).`;ta.value='';if(pickMk)pickMk.remove();pickLL=null;
- setTimeout(()=>refresh(LAYERS.find(l=>l.id==='reports')),1500)}catch(e){out.textContent=e.message}};
-document.getElementById('reportbtn').onclick=tog('report');
-function toast(t){const d=document.getElementById('toast');d.textContent=t;d.hidden=false;clearTimeout(d._t);d._t=setTimeout(()=>d.hidden=true,3000)}
-function closePanel(){panel.hidden=true}
-function openScan(i){openPanel('scan');i.county!=null?Scanners.showCounty(scanUl,i.state,i.county):Scanners.showState(scanUl,i.state,flyState)}
-document.getElementById('scanbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='scan')return closePanel();openPanel('scan');region==='World'?Scanners.showStates(scanUl,flyState):Scanners.showState(scanUl,region,flyState)};
-document.getElementById('feedbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='feed')return closePanel();openPanel('feed');renderList()};
-openPanel('feed');closePanel();
-document.getElementById('pclose').onclick=closePanel;
-const sel=document.getElementById('region');
-getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>sel.add(new Option(k.toUpperCase(),k)))}).catch(()=>{});
-sel.onchange=()=>{region=sel.value;if(region==='World')map.setView([20,0],2);else flyState(region);redraw()};
-window.addEventListener('eyemont:hidden',()=>LAYERS.filter(l=>l.id==='crowd'||l.id==='reports').forEach(l=>state[l.id]?.on&&refresh(l)));
-
-/* relay status chip + identity controls */
-function relayChip(st){const v=Object.values(st),up=v.filter(x=>x==='up').length,dn=v.filter(x=>x==='down').length;
- document.querySelectorAll('.relaychip').forEach(c=>{c.textContent=`relays ${up}/${v.length} up`+(dn?` · ${dn} down`:'');c.dataset.s=up?'ok':dn===v.length?'down':'idle';c.title=Object.entries(st).map(([u,x])=>u.replace('wss://','')+': '+x).join('\n')})}
-window.addEventListener('eyemont:relays',e=>relayChip(e.detail));relayChip(Reports.status());
-document.getElementById('rnewid').onclick=()=>{if(!confirm('Start a new identity? Your old key on this device is deleted; past reports stay public but are no longer linked to this device.'))return;Reports.newIdentity();document.getElementById('rid').textContent='new key on next post';toast('New identity')};
-document.getElementById('reportbtn').addEventListener('click',()=>{Reports.lib().catch(()=>{});if(localStorage.getItem('eyemont.nsec'))Reports.pubkey().then(p=>document.getElementById('rid').textContent='key '+p.slice(0,8)+'…').catch(()=>{})});
-
-/* class filter bar + info sheet */
-const cb=document.getElementById('clsbar');
-cb.innerHTML=Object.entries(CLASSES).map(([k,v])=>`<button data-c="${k}" class="cls-${k}${clsOn[k]?' on':''}" aria-pressed="${clsOn[k]}">${v}</button>`).join('')+'<button id="clsinfo" aria-label="About source classes">ⓘ</button>';
-cb.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='clsinfo')return openPanel('info');const k=b.dataset.c;clsOn[k]=!clsOn[k];
- if(!Object.values(clsOn).some(Boolean)){clsOn[k]=true;return toast('At least one class must stay on')}
- b.classList.toggle('on',clsOn[k]);b.setAttribute('aria-pressed',clsOn[k]);localStorage.setItem('eyemont.cls',JSON.stringify(clsOn));
- LAYERS.forEach(drawLayer);renderList();window.dispatchEvent(new Event('eyemont:cls'))};
-
-/* LIVE incidents: items from all visible layers within ~25 km and 2 h are linked; confidence grows with independent sources and classes */
 const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
 /* topic-aware: items link only if they share an event type (lexicon) or ≥2 rare headline tokens (low document frequency) */
 const LEX={fire:/\b(fire|fires|wildfire|blaze|burn(ing|ed)?|smoke|arson|hotspot)/i,shooting:/\b(shoot|shooting|shot|gunfire|gunman|gunshots?|firearm)/i,crash:/\b(crash|collision|wreck|derail|rollover|pileup|hit[- ]and[- ]run)/i,
@@ -230,14 +144,122 @@ function incidents(){const now=Date.now(),its=[];INCX={kept:0,sport:0,notopic:0,
   c.head=(c.type?c.type.toUpperCase():'TOPIC: '+c.keys.join(' · '))+' — '+ex.replace(/^[^\w]+/,'');return c});
  const ok=out.filter(c=>c.src>=2&&c.type);INCX.notopic=out.filter(c=>c.src>=2).length-ok.length;INCX.kept=ok.length;
  return ok.sort((a,b)=>(Math.round(b.last/6e5)-Math.round(a.last/6e5))||(b.grow-a.grow)||(b.conf-a.conf))}
-const ib=document.getElementById('incbar');let INC=[],incMk=null;
-function renderInc(){INC=incidents();ib.innerHTML=`<b class="inclive">● LIVE</b>`+(INC.length?INC.slice(0,25).map((c,k)=>`<button data-k="${k}"><span class="conf" style="opacity:${.4+c.conf*.6}">${Math.round(c.conf*100)}%</span> ${c.cls.map(x=>`<span class="cls cls-${x}">${CLASSES[x][0]}</span>`).join('')} ${esc(c.head.slice(0,70))} <span class="spark">${c.spark}</span> <small>${c.src} src${c.grow?' ↑'+c.grow:''} · ${ago(c.last/1000)}</small></button>`).join(''):'<small>no linked incidents in visible layers (needs ≥2 sources within 25 km / 2 h)</small>')}
-ib.onclick=e=>{const b=e.target.closest('button');if(!b)return;const c=INC[+b.dataset.k];if(incMk)incMk.remove();
- const by={};c.m.forEach(x=>(by[x.c]=by[x.c]||[]).push(x));
- incMk=L.circle([c.lat,c.lon],{radius:25e3,color:'#ff4081',weight:1,fillOpacity:.05}).addTo(map).bindPopup(`<b>◎ ${esc(c.type?c.type.toUpperCase():'Shared topic: '+c.keys.join(', '))}</b> <span class="spark">${c.spark}</span><br><small>shared keywords: ${esc(c.keys.join(', ')||'–')} · 15-min buckets, last 2 h</small><br><b>confidence ${Math.round(c.conf*100)}%</b><br><small>${c.src} distinct sources · ${c.cls.length} class(es) · ${c.m.length} items · ${new Date(c.first).toLocaleTimeString()}–${new Date(c.last).toLocaleTimeString()}. Automatic link: same place (25 km), time (2 h) and event type or rare shared keywords. Sports and entertainment headlines are excluded. Not verification.</small><div class="incgrid">`+
-  Object.keys(CLASSES).filter(k=>by[k]).map(k=>`<div><span class="cls cls-${k}">${CLASSES[k]}</span>`+by[k].slice(0,8).map(x=>`<p><small>${esc(x.Ly.label)} · ${esc(x.src)}</small><br>${esc(x.i.title.slice(0,120))}</p>`).join('')+`</div>`).join('')+'</div>',{maxWidth:Math.min(340,innerWidth-50),maxHeight:Math.round(innerHeight*.4)});
- map.flyTo([c.lat,c.lon],Math.max(map.getZoom(),8));map.once('moveend',()=>incMk.openPopup())};
-window.__inc=()=>({x:INCX,top:INC.slice(0,6).map(c=>({h:c.head,src:c.src,cls:c.cls,spark:c.spark,keys:c.keys,n:c.m.length,ex:c.m.slice(0,4).map(x=>x.src+': '+x.i.title.slice(0,70))}))});
-const _rl=renderList;renderList=function(){_rl();renderInc()};
-
+/* ---------- redesign UI ---------- */
+const $=s=>document.querySelector(s);
+const SKIP=new Set(['reports','radar','scanner','live','air','cams']); // reports (Nostr) not loaded in this UI; air/cams are context, loaded on demand
+const state={};LAYERS.forEach(Ly=>state[Ly.id]={on:!SKIP.has(Ly.id),data:null,fails:0});
+const itemsOf=Ly=>{const s=state[Ly.id];if(!s.data||!Array.isArray(s.data))return[];return s.data.filter(i=>clsOn[clsOf(i,Ly)]&&inRegion(i.lat,i.lon))};
+const TOPICS={fire:['FIRE','🔥','#ff6d00'],weather:['WEATHER','☂','#ffd400'],quakes:['QUAKES','⌁','#ff4d4d'],crime:['CRIME/911','🚨','#ff2b5e'],transport:['TRANSPORT','✈','#00e5ff'],outages:['OUTAGES','⚡','#ea80fc'],news:['NEWS','🗞','#e0e0e0'],crowd:['CROWD','👁','#39ff14']};
+const LYTOPIC={quakes:'quakes',alerts:'weather',flood:'weather',tsunami:'weather',fire:'fire',d911:'crime',faa:'transport',air:'transport',cams:'transport',ioda:'outages',news:'news',gdelt:'news',crowd:'crowd',fema:'weather',eonet:'weather',gdacs:'weather'};
+const TYTOPIC={fire:'fire',storm:'weather',flood:'weather',tsunami:'weather',volcano:'quakes',quake:'quakes',outage:'outages',airspace:'transport',crash:'transport',shooting:'crime',police:'crime',explosion:'crime',hazmat:'crime',rescue:'crime',evacuation:'weather',protest:'crowd',medical:'news'};
+const topicOf=(ty,ly)=>TYTOPIC[ty]||LYTOPIC[ly]||'news';
+const topOn=new Set(JSON.parse(localStorage.getItem('eyemont.topics')||'[]')); // empty = all
+const W=Object.fromEntries(Object.entries({quakes:1,alerts:.9,flood:1,tsunami:1.4,fire:.6,d911:.7,faa:.6,ioda:.9,news:.8,gdelt:.4,crowd:.5,fema:.7,eonet:.6,gdacs:1}));
+let PLACES=[],PLACE_OK=getJSON('data/places.json').then(p=>PLACES=p).catch(()=>{});
+const nearPlace=(lat,lon)=>{let b=null,bd=1e9;for(const p of PLACES){const d=km(lat,lon,p[1],p[2]);if(d<bd){bd=d;b=p}}return b&&bd<150?(bd<15?b[0]:`${Math.round(bd)} km from ${b[0]}`)+(b[3]&&b[3]!=='United States of America'?', '+b[3]:''):null};
+const stateOf=(lat,lon)=>{let best=null,ba=1e9;for(const [n,b] of Object.entries(BBOX))if(lat>=b[0]&&lat<=b[2]&&lon>=b[1]&&lon<=b[3]){const a=(b[2]-b[0])*(b[3]-b[1]);if(a<ba){ba=a;best=n}}return best}; // smallest containing bbox = coarse state guess
+const links=h=>{const o=[];String(h||'').replace(/href="([^"]+)"[^>]*>([^<]*)</g,(m,u,t)=>{if(!/^https?:/.test(u))return;o.push([u.replace(/&amp;/g,'&'),t.replace(/[↗\s]+$/,'')])});return o};
+const html=i=>typeof i.popup==='function'?i.popup():i.popup;
+/* build ranked feed: linked incidents (≥2 sources) + strong single-source signals */
+let FEED=[];
+function build(){const now=Date.now(),inc=incidents(),used=new Set();
+ const seen=new Set();const out=inc.filter(c=>{const h=c.head.toLowerCase();if(seen.has(h))return false;seen.add(h);return true}).map(c=>{c.m.forEach(x=>used.add(x.i));const tops=new Set([topicOf(c.type),...c.m.map(x=>topicOf(c.type,x.Ly.id))]);
+  return {kind:'inc',type:c.type,lat:c.lat,lon:c.lon,first:c.first,last:c.last,conf:c.conf,cls:c.cls,src:c.src,m:c.m,topic:topicOf(c.type),tops,head:c.head.replace(/^[A-Z]+ — /,''),grow:c.grow,
+   score:c.conf*2+Math.max(0,1-(now-c.last)/216e5)+c.grow*.1}});
+ LAYERS.forEach(Ly=>{if(!W[Ly.id]||!state[Ly.id].on)return;let its=itemsOf(Ly).filter(i=>!used.has(i)&&!i.flagged);
+  its=its.filter(i=>{const t=i.time||(Ly.id==='gdelt'?now:0);i._t=t;if(!t||now-t>(Ly.id==='quakes'||Ly.id==='alerts'?864e5:12*36e5)||t>now+6e5)return false;
+   if(Ly.id==='quakes')return (i.sev||0)>=2.5;if(Ly.id==='fire')return (i.r||0)>=5;if(Ly.id==='alerts')return /Warning|Emergency/.test(i.title);
+   if(Ly.id==='news'||Ly.id==='crowd')return !i.home&&!NOINC.test(i.text||i.title)&&Object.keys(LEX).some(k=>LEX[k].test(i.text||i.title));if(Ly.id==='gdelt')return false;return true});
+  its.sort((a,b)=>b._t-a._t).slice(0,40).forEach(i=>{const txt=i.text||i.title||'';const ty=LYTYPE[Ly.id]||Object.keys(LEX).find(k=>LEX[k].test(txt))||(Ly.id==='alerts'?'storm':Ly.id==='d911'?'dispatch':Ly.id==='gdacs'?({EQ:'quake',TC:'storm',FL:'flood',VO:'volcano',WF:'fire',DR:'drought'}[i.gtype]||'disaster'):Ly.id);
+   const m=[{i,Ly,t:i._t,c:clsOf(i,Ly),src:i.src||Ly.label}];const tp=topicOf(ty,Ly.id);
+   out.push({kind:'one',type:ty,lat:i.lat,lon:i.lon,first:i._t,last:i._t,conf:.15,cls:[m[0].c],src:1,m,topic:tp,tops:new Set([tp,LYTOPIC[Ly.id]]),head:i.title.replace(/^[^\w]+/,''),grow:0,
+    score:.3+W[Ly.id]*(Ly.id==='quakes'?(i.sev||0)/5:Ly.id==='gdacs'?(i.alert==='Red'?1.5:i.alert==='Orange'?1:.4):.6)+Math.max(0,1-(now-i._t)/216e5)})})});
+ out.forEach(e=>{e.place=e.m.find(x=>x.i.place&&!x.i.home)?.i.place||null;e.near=nearPlace(e.lat,e.lon);e.st=stateOf(e.lat,e.lon);e.spark=sparkPts(e.m,now)});
+ FEED=out.sort((a,b)=>b.score-a.score);render()}
+const sparkPts=(m,now)=>{const b=Array(8).fill(0);m.forEach(x=>{const k=7-Math.floor((now-x.t)/9e5);if(k>=0&&k<8)b[k]++});return b};
+const svgSpark=b=>{const mx=Math.max(...b,1);const pts=b.map((v,k)=>`${k*8+1},${17-v/mx*15}`).join(' ');return `<svg class="spk" viewBox="0 0 58 18" aria-hidden="true"><polyline points="${pts}"/></svg>`};
+const visible=e=>!topOn.size||[...e.tops].some(t=>topOn.has(t));
+const clsChips=cl=>Object.keys(CLASSES).map(k=>`<span class="cc cls-${k}${cl.includes(k)?' on':''}" title="${CLASSES[k]}">${CLASSES[k][0]}</span>`).join('');
+const where=e=>e.place||e.near||(e.st?e.st:`${e.lat.toFixed(1)}, ${e.lon.toFixed(1)}`);
+const card=(e,k)=>{const T=TOPICS[e.topic];return `<li><button class="card" data-k="${k}" style="--tc:${T[2]}"><span class="ct"><b class="ty">${T[1]} ${esc((e.type||'event').toUpperCase())}</b><span class="conf" aria-label="confidence ${Math.round(e.conf*100)} percent"><i style="width:${Math.round(e.conf*100)}%"></i><em>${Math.round(e.conf*100)}%</em></span></span>
+<span class="hl">${esc(e.head.slice(0,110))}</span><span class="meta"><span class="pl">◎ ${esc(where(e).slice(0,48))}</span><span>${ago(e.last/1000)}</span></span>
+<span class="cf">${clsChips(e.cls)}<small>${e.src} src${e.m.length>1?' · '+e.m.length+' items':''}${e.grow?' · ↑'+e.grow:''}</small>${svgSpark(e.spark)}</span></button></li>`};
+function list(ul,arr,empty){const v=arr.filter(visible);ul.innerHTML=v.length?v.slice(0,120).map(e=>card(e,FEED.indexOf(e))).join(''):`<li class="empty">${empty}</li>`}
+let tab=localStorage.getItem('eyemont.tab')||'now';
+function render(){const ld=LAYERS.filter(l=>state[l.id].on&&W[l.id]),ok=ld.filter(l=>state[l.id].data).length,er=ld.filter(l=>state[l.id].err);
+ $('#sync').textContent=`${ok}/${ld.length} feeds${er.length?' · '+er.length+' retrying':''}`;$('#sync').title=er.map(l=>l.label+': '+state[l.id].err).join('\n');
+ const nInc=FEED.filter(e=>e.kind==='inc'&&visible(e)).length;
+ if(tab==='now'){$('#nowsum').innerHTML=`<b>${FEED.filter(visible).length}</b> signals · <b>${nInc}</b> linked incidents · ranked by confidence, severity, recency`;list($('#nowlist'),FEED,ok?'Nothing matches these filters.':'syncing feeds…')}
+ if(tab==='near')renderNear();if(tab==='map')drawMap()}
+/* NEAR: coarse region only (chosen state, or a timezone guess). No geolocation API is used. */
+const TZ={'America/New_York':'New York','America/Detroit':'Michigan','America/Chicago':'Illinois','America/Denver':'Colorado','America/Phoenix':'Arizona','America/Los_Angeles':'California','America/Anchorage':'Alaska','Pacific/Honolulu':'Hawaii','America/Boise':'Idaho','America/Indiana/Indianapolis':'Indiana','America/Kentucky/Louisville':'Kentucky','America/Puerto_Rico':'Puerto Rico'};
+let near=localStorage.getItem('eyemont.near')||'';
+function renderNear(){const s=$('#nearsel');if(near&&s.value!==near)s.value=near;const b=BBOX[near];
+ $('#nearhint').textContent=near?(localStorage.getItem('eyemont.near')?'saved on this device only':'guessed from your timezone, change it anytime'):'pick a state';
+ list($('#nearlist'),b?FEED.filter(e=>e.st===near):[],near?`No signals in ${esc(near)} right now.`:'Pick a state above.');
+ const sc=$('#nearscan');if(near&&sc.dataset.st!==near){sc.dataset.st=near;Scanners.showState(sc,near,null)}}
+/* MAP: one map, markers colored by event topic; no layer toggles */
+const mg=L.layerGroup().addTo(map),camG=L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50});
+function drawMap(){mg.clearLayers();FEED.filter(visible).forEach(e=>{const col=TOPICS[e.topic][2];const ll=[e.lat,e.lon];
+  const mk=e.kind==='inc'?L.circleMarker(ll,{radius:9+e.src*1.5,color:col,weight:2,fillColor:col,fillOpacity:.25}):L.circleMarker(ll,{radius:6,color:'#000',weight:1,fillColor:col,fillOpacity:.9});
+  mk.on('click',()=>openDetail(FEED.indexOf(e)));mk.addTo(mg)});
+ const tr=topOn.has('transport');if(tr&&!map.hasLayer(camG))loadCams().then(cs=>{camG.clearLayers();camG.addLayers(cs.filter(i=>clsOn.official).map(i=>L.circleMarker([i.lat,i.lon],{radius:5,color:'#00e5ff',weight:1,fillOpacity:.5}).bindPopup(()=>html(i))));camG.addTo(map)});
+ if(!tr&&map.hasLayer(camG))camG.remove();setTimeout(()=>map.invalidateSize(),30)}
+let CAMS=null;const loadCams=()=>CAMS||(CAMS=LAYERS.find(l=>l.id==='cams').load().catch(e=>{CAMS=null;return[]}));
+/* detail sheet */
+const sheet=$('#sheet'),sb=$('#sbody');let rmap=null;
+function openDetail(k){const e=FEED[k];if(!e)return;const T=TOPICS[e.topic];const by={};e.m.forEach(x=>(by[x.c]=by[x.c]||[]).push(x));
+ const lk=[];e.m.forEach(x=>links(html(x.i)).forEach(l=>{if(!lk.some(y=>y[0]===l[0]))lk.push([l[0],l[1],x.src])}));if(e.m.some(x=>x.i.url)){e.m.forEach(x=>{if(x.i.url&&!lk.some(y=>y[0]===x.i.url))lk.push([x.i.url,'read at '+x.src,x.src])})}
+ const us=!!e.st;
+ sb.innerHTML=`<p class="kick" style="color:${T[2]}">${T[1]} ${esc((e.type||'event').toUpperCase())} · ${esc(T[0])}</p><h2 id="stitle">${esc(e.head)}</h2>
+<p class="meta">◎ ${esc(where(e))}${e.near&&e.place&&!e.near.startsWith(e.place)?` <small>(${esc(e.near)})</small>`:''}<br>⏱ ${new Date(e.first).toLocaleString()}${e.last!==e.first?' → '+new Date(e.last).toLocaleTimeString():''} · ${ago(e.last/1000)}</p>
+<div class="cbig"><span class="conf"><i style="width:${Math.round(e.conf*100)}%"></i><em>confidence ${Math.round(e.conf*100)}%</em></span>${svgSpark(e.spark)}</div>
+<p class="note">${e.kind==='inc'?`${e.src} distinct sources · ${e.cls.length} class(es) · ${e.m.length} items linked by place (≤25 km), time (≤2 h) and event type. Automatic match, not verification.`:'Single source so far. Confidence rises when independent sources report the same event nearby.'}</p>
+<h3>COVERAGE BY SOURCE CLASS</h3><div class="grid3">${Object.keys(CLASSES).map(c=>`<div class="col${by[c]?'':' none'}"><span class="cls cls-${c}">${CLASSES[c]}</span>${(by[c]||[]).slice(0,6).map(x=>`<p><small>${esc(x.src)}</small>${esc(x.i.title.replace(/^[^\w]+/,'').slice(0,90))}</p>`).join('')||'<p><small>no coverage</small></p>'}</div>`).join('')}</div>
+<h3>TIMELINE</h3><ol class="tl">${e.m.slice().sort((a,b)=>b.t-a.t).slice(0,15).map(x=>`<li><time>${new Date(x.t).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</time><span class="cls cls-${x.c}">${CLASSES[x.c][0]}</span> ${esc(x.i.title.replace(/^[^\w]+/,'').slice(0,100))} <small>${esc(x.src)}</small></li>`).join('')}</ol>
+<h3>RADAR</h3>${us?'<div id="rmap" role="img" aria-label="Radar map"></div><small>NEXRAD via Iowa Environmental Mesonet (US only, ~5 min)</small>':`<p><a class="btn" target=_blank rel=noopener href="https://zoom.earth/maps/radar/#view=${e.lat.toFixed(2)},${e.lon.toFixed(2)},8z">Open radar near here ↗</a></p>`}
+<h3>NEARBY CAMS</h3><div id="ncams"><small>${e.st==='California'||(e.lat>32&&e.lat<42.1&&e.lon<-114&&e.lon>-124.5)?'searching Caltrans cams…':'No public cams indexed near here yet (Caltrans only for now).'}</small></div>
+<h3>SCANNERS</h3><ul class="sl">${us?`<li><a target=_blank rel=noopener href="https://www.broadcastify.com/listen/stid/${SFIPS[e.st]||''}">📻 ${esc(e.st)} feeds on Broadcastify ↗</a><small>opens Broadcastify's site (no embedding)</small></li>`:''}${OFFS.filter(o=>km(o.lat,o.lon,e.lat,e.lon)<150).map(o=>`<li><a target=_blank rel=noopener href="${esc(o.url)}">★ ${esc(o.title)} ↗</a><small>${esc(o.note)}</small></li>`).join('')}${us?'':'<li><small>Scanner directory covers US states only.</small></li>'}</ul>
+<h3>SOURCES</h3><ul class="sl">${lk.slice(0,20).map(l=>`<li><a target=_blank rel=noopener href="${esc(l[0])}">${esc(l[1]||l[2])} ↗</a><small>${esc(l[2])}</small></li>`).join('')||'<li><small>no direct links</small></li>'}</ul>
+<p><button class="btn" id="showmap">◎ SHOW ON MAP</button></p>`;
+ sheet.hidden=false;document.body.classList.add('sheet');sheet.scrollTop=0;sb.scrollTop=0;$('#sclose').focus({preventScroll:true});
+ $('#showmap').onclick=()=>{closeSheet();setTab('map');setTimeout(()=>map.flyTo([e.lat,e.lon],Math.max(map.getZoom(),8)),80)};
+ if(us){if(rmap){rmap.remove();rmap=null}rmap=L.map('rmap',{zoomControl:false,attributionControl:true,dragging:true}).setView([e.lat,e.lon],7);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap'}).addTo(rmap);
+  L.tileLayer('https://mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913/{z}/{x}/{y}.png?_='+Math.floor(Date.now()/3e5),{opacity:.7,maxNativeZoom:12,attribution:'Radar: IEM NEXRAD'}).addTo(rmap);
+  L.circleMarker([e.lat,e.lon],{radius:7,color:T[2]}).addTo(rmap)}
+ if(/searching/.test($('#ncams').textContent))loadCams().then(cs=>{const n=cs.map(i=>[km(i.lat,i.lon,e.lat,e.lon),i]).filter(a=>a[0]<40).sort((a,b)=>a[0]-b[0]).slice(0,4);
+  $('#ncams').innerHTML=n.length?'<div class="cams">'+n.map(([d,i])=>{const h=html(i);const img=(h.match(/<img src="([^"]+)"/)||[])[1];const live=(h.match(/<button class="live"[^>]*>/)||[''])[0];
+   return `<figure>${img?`<img loading="lazy" src="${img}" alt="cam snapshot">`:''}<figcaption>${esc(i.title.slice(0,60))} · ${d.toFixed(0)} km</figcaption>${live?live+'▶ LIVE</button>':''}</figure>`}).join('')+'</div><small>Caltrans public CCTV</small>':'<small>No Caltrans cams within 40 km.</small>'})}
+function closeSheet(){sheet.hidden=true;document.body.classList.remove('sheet');if(rmap){rmap.remove();rmap=null}}
+$('#sclose').onclick=closeSheet;addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
+document.addEventListener('click',ev=>{const b=ev.target.closest('button.card');if(b)openDetail(+b.dataset.k)});
+let SFIPS={},OFFS=[];getJSON('data/counties.json').then(d=>Object.entries(d).forEach(([n,s])=>SFIPS[n]=s.fips)).catch(()=>{});getJSON('data/official_streams.json').then(d=>OFFS=d).catch(()=>{});
+/* tabs */
+function setTab(t){tab=t;localStorage.setItem('eyemont.tab',t);document.querySelectorAll('#tabs button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.t===t)});
+ document.querySelectorAll('.view').forEach(v=>v.hidden=v.id!=='v-'+t);document.body.dataset.tab=t;render()}
+$('#tabs').onclick=e=>{const b=e.target.closest('button');if(b)setTab(b.dataset.t)};
+/* persistent filters: source class + topics */
+const cb=$('#clsbar');cb.innerHTML=Object.entries(CLASSES).map(([k,v])=>`<button data-c="${k}" class="cls-${k}${clsOn[k]?' on':''}" aria-pressed="${clsOn[k]}">${v}</button>`).join('')+'<button id="clsinfo" aria-label="About source classes">ⓘ</button>';
+cb.onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='clsinfo'){$('#info').hidden=!$('#info').hidden;return}const k=b.dataset.c;clsOn[k]=!clsOn[k];
+ if(!Object.values(clsOn).some(Boolean)){clsOn[k]=true;return toast('At least one class must stay on')}b.classList.toggle('on',clsOn[k]);b.setAttribute('aria-pressed',clsOn[k]);localStorage.setItem('eyemont.cls',JSON.stringify(clsOn));build()};
+$('#info').onclick=()=>$('#info').hidden=true;
+const tb=$('#topics');tb.innerHTML=`<button data-p="" class="${topOn.size?'':'on'}">ALL</button>`+Object.entries(TOPICS).map(([k,t])=>`<button data-p="${k}" style="--tc:${t[2]}" class="${topOn.has(k)?'on':''}" aria-pressed="${topOn.has(k)}">${t[1]} ${t[0]}</button>`).join('');
+tb.onclick=e=>{const b=e.target.closest('button');if(!b)return;const k=b.dataset.p;if(!k)topOn.clear();else topOn.has(k)?topOn.delete(k):topOn.add(k);
+ tb.querySelectorAll('button').forEach(x=>{const on=x.dataset.p?topOn.has(x.dataset.p):!topOn.size;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on)});localStorage.setItem('eyemont.topics',JSON.stringify([...topOn]));render()};
+function toast(t){const d=$('#toast');d.textContent=t;d.hidden=false;clearTimeout(d._t);d._t=setTimeout(()=>d.hidden=true,3000)}
+/* loading with backoff, same contract as before */
+let bT;const rebuild=()=>{clearTimeout(bT);bT=setTimeout(build,250)};
+async function refresh(Ly){const s=state[Ly.id];clearTimeout(s.timer);
+ try{s.data=await Ly.load();s.err=null;s.fails=0;if(Ly.refresh)s.timer=setTimeout(()=>refresh(Ly),Ly.refresh)}
+ catch(e){s.fails++;const wait=Math.min(5e3*2**(s.fails-1),300e3);s.err=`unavailable (${e.message}), retry in ${Math.round(wait/1000)}s`;s.timer=setTimeout(()=>refresh(Ly),wait)}rebuild()}
+LAYERS.forEach(Ly=>{if(state[Ly.id].on){map.attributionControl.addAttribution(Ly.attribution);refresh(Ly)}});
+map.attributionControl.addAttribution('Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>');
+window.addEventListener('eyemont:hidden',()=>refresh(LAYERS.find(l=>l.id==='crowd')));
+const ns=$('#nearsel');getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>ns.add(new Option(k,k)));
+ if(!near){const g=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone];if(g&&BBOX[g])near=g}PLACE_OK.then(build)}).catch(()=>{});
+ns.onchange=()=>{near=ns.value;localStorage.setItem('eyemont.near',near);render()};
+setInterval(()=>tab!=='map'&&render(),60e3);
+setTab(tab);
+window.__feed=()=>FEED.slice(0,10).map(e=>({k:e.kind,t:e.type,h:e.head,c:e.conf,s:e.src,p:where(e)}));
 })();
