@@ -24,27 +24,27 @@ const ago=t=>{const m=Math.round((Date.now()/1000-t)/60);return m<1?'just now':m
 /* Layer plugins: {id,label,color,attribution,refresh(ms, 0=once),viewport?,cluster?,load()->[{lat,lon,title,sub,popup,r?,geo?,state?,county?}]} */
 document.addEventListener('click',e=>{const b=e.target.closest('button.live');if(b)Player.play({src:b.dataset.h,title:b.dataset.n,artist:'Caltrans live cam',art:b.dataset.i,audio:false})});
 const LAYERS=[
-{id:'quakes',label:'⌁ QUAKES',color:'#ff4d4d',refresh:120e3,attribution:'Quakes: <a href="https://earthquake.usgs.gov">USGS</a>',
+{id:'quakes',label:'⌁ QUAKE',color:'#ff4d4d',refresh:120e3,attribution:'Quakes: <a href="https://earthquake.usgs.gov">USGS</a>',
  async load(){const d=await getJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson');
   return d.features.map(f=>({lat:f.geometry.coordinates[1],lon:f.geometry.coordinates[0],r:3+Math.max(0,f.properties.mag||0)*2,
    title:`M${(f.properties.mag??0).toFixed(1)} ${f.properties.place||''}`,sub:new Date(f.properties.time).toLocaleString(),
    popup:`<b>${esc(f.properties.title)}</b><br>${new Date(f.properties.time).toLocaleString()}<br><a target=_blank rel=noopener href="${esc(f.properties.url)}">USGS ↗</a>`}))}},
-{id:'alerts',label:'⚠ ALERTS',color:'#ffd400',refresh:180e3,attribution:'Alerts: <a href="https://www.weather.gov">NWS</a>',
+{id:'alerts',label:'⚠ ALERT',color:'#ffd400',refresh:180e3,attribution:'Alerts: <a href="https://www.weather.gov">NWS</a>',
  async load(){const d=await getJSON('https://api.weather.gov/alerts/active?status=actual',{headers:{Accept:'application/geo+json'}});
   return d.features.filter(f=>f.geometry).map(f=>{const g=L.geoJSON(f.geometry).getBounds().getCenter();
    return {lat:g.lat,lon:g.lng,geo:f.geometry,title:f.properties.event,sub:f.properties.areaDesc,
    popup:`<b>${esc(f.properties.headline)}</b><br>${esc(f.properties.areaDesc)}<br>Until ${esc(f.properties.expires)}`}})}},
-{id:'air',label:'✈ AIRCRAFT',color:'#00e5ff',refresh:300e3,attribution:'Aircraft: <a href="https://adsb.lol">adsb.lol</a> (ODbL)',
+{id:'air',label:'✈ AIR',color:'#00e5ff',refresh:300e3,attribution:'Aircraft: <a href="https://adsb.lol">adsb.lol</a> (ODbL)',
  // Snapshot only: adsb.lol sends no CORS header, so the Pages build bakes data/aircraft.json every ~15 min.
  async load(){const d=await getJSON('data/aircraft.json?t='+Math.floor(Date.now()/60e3));
   if(!d.now||!(d.ac||[]).length)throw new Error('snapshot not available yet');
-  this.note=`continental-US snapshot, ${ago(d.now)} (not live)`;
+  this.note=`US snapshot, ${ago(d.now)} (not live) · ${d.coverage||'partial coverage'}`;
   return d.ac.filter(a=>a.lat!=null).map(a=>({lat:a.lat,lon:a.lon,r:3,title:(a.flight||a.hex||'').trim()||'?',
    sub:`${a.t||''} alt ${a.alt_baro??'?'} ft · ${a.gs??'?'} kt`,popup:`<b>${esc(a.flight||a.hex)}</b><br>${esc(a.t||'')} ${esc(a.r||'')}<br>alt ${esc(a.alt_baro)} ft · ${esc(a.gs)} kt<br><small>snapshot ${ago(d.now)}</small><br><a target=_blank rel=noopener href="https://globe.adsb.lol/?icao=${esc(a.hex)}">live track ↗</a>`}))}},
-{id:'cams',label:'◉ CA CAMS',color:'#b388ff',refresh:0,cluster:true,viewport:true,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
+{id:'cams',label:'◉ CAMS',color:'#b388ff',refresh:0,cluster:true,viewport:true,attribution:'Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>',
  async load(){const d=await getJSON('data/cams.json');return d.map(([n,lat,lon,county,typ,hls,img])=>({lat,lon,r:5,title:n,sub:`${county} County, CA${hls?' · live video':''}`,
   popup:()=>`<b>${esc(n)}</b><br><small>${esc(county)} County</small><img src="${esc(img)}?t=${Date.now()}" alt="snapshot">`+(hls?`<button class="live" data-h="${esc(hls)}" data-n="${esc(n)}" data-i="${esc(img)}">▶ LIVE VIDEO</button>`:'')+`<small>Caltrans public CCTV</small>`}))}},
-{id:'scanner',label:'📻 SCANNERS',color:'#ff8a00',refresh:0,dynamic:true,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
+{id:'scanner',label:'📻 SCAN',color:'#ff8a00',refresh:0,dynamic:true,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
  async load(){await Scanners.init();return true}}
 ];
 
@@ -66,7 +66,7 @@ function renderList(){list.innerHTML='';let n=0;const msgs=[];
    li.onclick=()=>{if(i.state)return openScan(i);closePanel();const mk=i._mk;
     if(Ly.cluster)s.group.zoomToShowLayer(mk,()=>mk.openPopup());else{map.flyTo([i.lat,i.lon],Math.max(map.getZoom(),i.geo?6:9));setTimeout(()=>mk.openPopup?mk.openPopup():mk.eachLayer(l=>l.openPopup()),900)}};
    list.appendChild(li)})});
- document.getElementById('count').textContent=n?`[${n}]`:'';status.innerHTML=msgs.map(esc).join('<br>')}
+ document.getElementById('count').textContent=n?` ${n}`:'';status.innerHTML=msgs.map(esc).join('<br>')}
 function redraw(){LAYERS.forEach(drawLayer);renderList()}
 let mvT;map.on('moveend',()=>{clearTimeout(mvT);mvT=setTimeout(()=>{LAYERS.filter(l=>l.viewport).forEach(drawLayer);renderList()},150)});
 // Load with retry + exponential backoff (5s, 10s, 20s … max 5 min). Successful loads follow Ly.refresh.
@@ -84,7 +84,7 @@ LAYERS.forEach(Ly=>{const b=document.createElement('button');nav.appendChild(b);
  if(s.on)refresh(Ly)});
 /* panel: feed list or scanner browser */
 const flyState=n=>{if(BBOX[n])map.fitBounds([[BBOX[n][0],BBOX[n][1]],[BBOX[n][2],BBOX[n][3]]])};
-function openPanel(mode){panel.hidden=false;const sc=mode==='scan';scanUl.hidden=!sc;list.hidden=sc;status.hidden=sc;ptitle.textContent=sc?'📻 SCANNERS':'FEED';panel.dataset.mode=mode}
+function openPanel(mode){panel.hidden=false;const sc=mode==='scan';scanUl.hidden=!sc;list.hidden=sc;status.hidden=sc;ptitle.textContent=sc?'📻 SCAN':'FEED';panel.dataset.mode=mode}
 function closePanel(){panel.hidden=true}
 function openScan(i){openPanel('scan');i.county!=null?Scanners.showCounty(scanUl,i.state,i.county):Scanners.showState(scanUl,i.state,flyState)}
 document.getElementById('scanbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='scan')return closePanel();openPanel('scan');region==='World'?Scanners.showStates(scanUl,flyState):Scanners.showState(scanUl,region,flyState)};
