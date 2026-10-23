@@ -8,7 +8,7 @@ function frame(){x.fillStyle='rgba(0,0,0,.1)';x.fillRect(0,0,c.width,c.height);x
 const rainOn=()=>{if(!rainT&&!document.hidden)rainT=setInterval(frame,50)},rainOff=()=>{clearInterval(rainT);rainT=null};
 document.addEventListener('visibilitychange',()=>document.hidden?rainOff():rainOn());rainOn();
 
-const map=L.map('map',{zoomControl:false,worldCopyJump:true}).setView([39,-98],3);window.EYEMONT_MAP=map;
+const map=L.map('map',{zoomControl:false,worldCopyJump:true,preferCanvas:true}).setView([39,-98],3);window.EYEMONT_MAP=map;
 L.control.zoom({position:'topleft'}).addTo(map);
 map.attributionControl.setPosition('bottomright');
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,
