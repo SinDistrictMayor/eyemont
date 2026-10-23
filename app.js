@@ -196,7 +196,7 @@ const safeHead=(e)=>{const c=e.m.map(x=>x.i.title.replace(/^[^\w]+/,'')).filter(
  if(c.length)return {head:c[0],generic:false};return {head:`${(e.type||'event').replace(/^./,x=>x.toUpperCase())} ${e.place||e.near?'near '+(e.place||e.near):e.st?'in '+e.st:''}`.trim(),generic:true}};
 let FEED=[];
 function build(){const now=Date.now(),inc=incidents(),used=new Set();
- {const L=new Set();LAYERS.forEach(Ly=>itemsOf(Ly).forEach(i=>((i.title||'')+' '+(i.text||'')).replace(/(^|[.!?:]\s+)\S+/g,' ').match(/\b[a-z][a-z'’]{2,}\b/g)?.forEach(w=>L.add(w[0].toUpperCase()+w.slice(1)))));LOWW=L}
+ {const L=new Set();LAYERS.forEach(Ly=>itemsOf(Ly).forEach(i=>((i.title||'')+' '+(i.text||'')).replace(/(^|[.!?:]\s+)\S+/g,' ').match(/\b[a-z][a-z'’]{1,}\b/g)?.forEach(w=>L.add(w[0].toUpperCase()+w.slice(1)))));LOWW=L}
  const seen=new Set();const out=inc.filter(c=>{const h=c.head.toLowerCase();if(seen.has(h))return false;seen.add(h);return true}).map(c=>{c.m.forEach(x=>used.add(x.i));const tops=new Set([topicOf(c.type),...c.m.map(x=>topicOf(c.type,x.Ly.id))]);
   return {kind:'inc',type:c.type,lat:c.lat,lon:c.lon,first:c.first,last:c.last,conf:c.conf,cls:c.cls,src:c.src,m:c.m,topic:topicOf(c.type),tops,head:c.head.replace(/^[A-Z]+ — /,''),grow:c.grow,
    score:c.conf*2+Math.max(0,1-(now-c.last)/216e5)+c.grow*.1}});
