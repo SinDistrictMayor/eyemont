@@ -122,3 +122,16 @@ Nostr REPORTS are **unmoderated and public**. With no server, all moderation is 
 
 ## Radar
 RainViewer is replaced by Iowa Environmental Mesonet NEXRAD n0q tiles (`mesonet.agron.iastate.edu/cache/tile.py/1.0.0/nexrad-n0q-900913/{z}/{x}/{y}.png`). They are free public tiles, attributed to IEM, and cover the US only. They refresh every 5 minutes.
+
+## M3 News & incident network
+**Source classes** (`sourceClass` on every source/layer/item). They describe **ownership and funding only, never truthfulness**:
+- `official`: government agencies, intergovernmental bodies, and state-funded or public media, each with a funding note.
+- `major`: large commercial outlets and wires.
+- `independent`: independent, local and nonprofit outlets, OSINT, citizen posts and Nostr reports.
+
+Three toggle buttons (OFFICIAL / MAJOR / INDEPENDENT, saved in localStorage `eyemont.cls`) filter every layer, the feed and incidents. The ⓘ sheet explains the classes. GDELT items are classed by the majority of their linked domains (`DOMCLS`); unknown domains count as independent.
+
+**News v1**:
+- `.github/build_sources.py` builds `data/sources.json` from the Feed Integration agent's `sources_v2.json` (copied to `.github/sources_v2.json`). It keeps only accepted entries (verified and not rejected), excludes RT, and drops NCMEC AMBER because it carries names and photos of people. If a funding note says government, state, public broadcaster or intergovernmental, the class is forced to `official`.
+- `.github/news_snapshot.py` runs every 15 minutes in the Pages workflow. It fetches feeds sequentially, 0.5 s apart with a 15 s timeout, keeps up to 30 items per feed from the last 24 h, and stores headline, link and a short summary only. Failures are logged as `FEED FAIL` and the feed is dropped from that snapshot, with its status in `news.json`.
+- Placement: a place name in the headline or summary (same quote and ambiguity rules as crowd), otherwise the outlet's home city, flagged ⌂.
