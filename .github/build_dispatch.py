@@ -38,5 +38,5 @@ for k,x in V.items():
     base=x['url'].split('?')[0]
     order=(t.split('+')[0]+' DESC'+(','+t.split('+')[1]+' DESC' if '+' in t else '')) if t else (':id DESC' if k!='911_somerville' else 'incnum DESC')
     out.append({'id':k,'city':c[0],'lat':c[1],'lon':c[2],'time':t,'type':c[4],'latf':c[5],'lonf':c[6],'url':base,'order':order,'portal':'https://'+host,'license':(lic.group(1).strip() if lic else 'see portal'),'name':x['name']})
-json.dump({'datasets':out,'skipped':skip},open('data/dispatch.json','w'),indent=0)
+json.dump({'datasets':out,'skipped':skip},open('.github/dispatch.json','w'),indent=0)
 print(len(out),'datasets;',[s['id'] for s in skip])

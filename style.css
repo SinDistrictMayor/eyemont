@@ -60,3 +60,10 @@ body.picking #map{outline:2px solid #ff2bd6;outline-offset:-2px}
 .incgrid{display:flex;gap:6px}.incgrid>div{flex:1;min-width:0}.incgrid p{margin:3px 0;font-size:11px}
 a.credit{display:inline-block;margin-top:4px;padding:4px 8px;border:1px solid #39ff14;font-weight:bold}
 .spark{color:#ff4081;letter-spacing:-1px}
+/* P2-7: 44px touch targets */
+#clsbar button{min-height:44px;min-width:44px;padding:0 8px}
+#incbar{height:52px;align-items:center;padding:4px 30px 4px 6px;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}
+#incbar button{min-height:44px;max-width:80vw;overflow:hidden;text-overflow:ellipsis}
+#incbar::after{content:'swipe ›';position:sticky;right:0;flex:0 0 auto;color:#ff4081;font-size:10px;align-self:center}
+#clsbar{top:calc(var(--hd) + env(safe-area-inset-top) + 58px)!important}
+details.post summary{cursor:pointer;color:#ff4081;min-height:44px;line-height:44px}

@@ -22,7 +22,9 @@ const unsafe=t=>DOX.some(r=>r.test(t));
 // Reports are stricter: a capitalized "First Last" pair counts as a person's name unless it is a known place or a common noun phrase.
 const OKW=new Set('Street St Road Rd Avenue Ave Boulevard Highway Hwy Interstate Route County City Town Park River Creek Lake Bay Beach Bridge Valley Mountain Mount Hill Hills Fire Police Department Station Airport School University College Hospital Center Centre Mall Downtown North South East West New Saint San Santa Los Las Fort Port Power Outage Traffic Heavy Smoke Flood Flooding Storm Tornado Warning Watch Alert Emergency Red Cross National Guard Weather Service Main Market Square Plaza Harbor Island Coast State Federal The This There Huge Big Large Massive Major Many Several Closed Closure Accident Crash Protest March Rally Near Just Now Breaking Update Live Water Gas Wind Rain Snow Ice Hail'.split(' '));
 const NAME=/\b([A-Z][a-z]{1,15})\s+([A-Z][a-z]{1,20})\b/g;
-const unsafeReport=t=>{if(unsafe(t))return true;for(const m of t.matchAll(NAME)){if(OKW.has(m[1])||OKW.has(m[2]))continue;if(PL&&PL.some(p=>p[0]===m[0]))continue;return true}return false};
+const FIRST=new Set('james john robert michael william david richard joseph thomas charles christopher daniel matthew anthony mark donald steven paul andrew joshua kenneth kevin brian george timothy ronald edward jason jeffrey ryan jacob gary nicholas eric jonathan stephen larry justin scott brandon benjamin samuel gregory alexander frank patrick raymond jack dennis jerry tyler aaron jose adam nathan henry douglas zachary peter kyle noah ethan jeremy walter christian keith roger terry austin sean gerald carl harold dylan arthur lawrence jordan jesse bryan billy bruce gabriel joe logan albert willie alan eugene russell vincent philip bobby johnny bradley roy ralph randy wayne louis mike chris dave steve tom tony bob jim bill dan matt nick josh mary patricia jennifer linda elizabeth barbara susan jessica sarah karen lisa nancy betty sandra margaret ashley kimberly emily donna michelle carol amanda melissa deborah stephanie dorothy rebecca sharon laura cynthia amy kathleen angela shirley brenda emma anna pamela nicole samantha katherine christine helen debra rachel carolyn janet maria catherine heather diane olivia julie joyce victoria ruth virginia lauren kelly christina joan evelyn judith andrea hannah megan cheryl jacqueline martha madison teresa gloria sara janice ann kathryn abigail sophia frances jean alice judy isabella julia grace amber denise danielle marilyn beverly charlotte natalie theresa diana brittany doris kayla alexis lori marie jen liz kate sue kim jess becky ana luis carlos juan miguel jorge pedro sofia lucia mohammed muhammad ahmed ali omar fatima wei li'.split(' '));
+const nameCI=t=>{const w=t.toLowerCase().match(/[a-z']+/g)||[];for(let i=0;i<w.length-1;i++)if(FIRST.has(w[i])&&w[i+1].length>1&&!OKW.has(w[i+1][0].toUpperCase()+w[i+1].slice(1)))return true;return false};
+const unsafeReport=t=>{if(unsafe(t)||nameCI(t))return true;for(const m of t.matchAll(NAME)){if(OKW.has(m[1])||OKW.has(m[2]))continue;if(PL&&PL.some(p=>p[0]===m[0]))continue;return true}return false};
 
 async function places(){if(PL)return;const r=await fetch('data/places.json');if(!r.ok)throw Error('places HTTP '+r.status);PL=await r.json();
  const names=PL.map(p=>p[0]).sort((a,b)=>b.length-a.length).map(n=>n.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
@@ -51,11 +53,12 @@ async function load(){await places();const all=[...await bsky(),...await masto()
  if(!all.length)throw Error('Bluesky and Mastodon both unreachable');
  return {groups:Object.values(by),stats:{fetched:all.length,placed:n,filtered:drop,old}}}
 function card(g){return `<b>📍 ${esc(g.place[0])}</b> <small>${esc(g.place[3])} · ${g.posts.length} post(s) mentioning this place</small>`+
- g.posts.sort((a,b)=>new Date(b.time)-new Date(a.time)).slice(0,15).map(p=>`<div class="post" data-id="${esc(p.id)}"><p>${esc(p.text.slice(0,300))}</p><small>${esc(p.src)} · ${esc(p.who)} · ${new Date(p.time).toLocaleString()}</small><br><a target=_blank rel=noopener href="${esc(p.url)}">open original ↗</a> · <a target=_blank rel=noopener href="${esc(p.url)}" title="Report on the original platform">report ↗</a> · <button class="hide" data-id="${esc(p.id)}">hide</button> <button class="hide" data-src="${esc(p.who)}">hide all from ${esc(p.src)} ${esc(p.who)}</button></div>`).join('')}
+ g.posts.sort((a,b)=>new Date(b.time)-new Date(a.time)).slice(0,15).map(p=>`<div class="post" data-id="${esc(p.id)}"><p>${esc(scrub(p.text).slice(0,300))}</p><small>${esc(p.src)} · ${esc(p.who)} · ${new Date(p.time).toLocaleString()}</small><br><a target=_blank rel=noopener href="${esc(p.url)}">open original ↗</a> · <a target=_blank rel=noopener href="${esc(p.url)}" title="Report on the original platform">report ↗</a> · <button class="hide" data-id="${esc(p.id)}">hide</button> <button class="hide" data-src="${esc(p.who)}">hide all from ${esc(p.src)} ${esc(p.who)}</button></div>`).join('')}
 document.addEventListener('click',e=>{const b=e.target.closest('button.hide');if(!b)return;
  if(b.dataset.src){if(!confirm('Hide everything from '+b.dataset.src+' on this device?'))return;hideSrc(b.dataset.src);document.querySelectorAll('button.hide[data-src]').forEach(x=>{if(x.dataset.src===b.dataset.src)x.closest('.post')?.remove()});window.dispatchEvent(new Event('eyemont:hidden'));return}
  hide(b.dataset.id);const d=b.closest('.post');if(d)d.remove()});
-return {place:async t=>{await places();return placeOf(t)},load,card,unsafe,unsafeReport,hide,hideSrc,isHidden:id=>HID.has(id),srcHidden:k=>HS.has(k)};
+const scrub=t=>String(t??'').replace(/[\w.+-]+@[\w-]+\.[\w.]+/g,'[email removed]').replace(/(?:\+?1[\s.-]?)?\(?\b\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\b/g,'[phone removed]');
+return {scrub,place:async t=>{await places();return placeOf(t)},load,card,unsafe,unsafeReport,nameCI,hide,hideSrc,isHidden:id=>HID.has(id),srcHidden:k=>HS.has(k)};
 })();
 
 // REPORTS over Nostr public relays. Unmoderated + public, so the client enforces (see ARCHITECTURE.md "Reports moderation"):
@@ -63,7 +66,15 @@ return {place:async t=>{await places();return placeOf(t)},load,card,unsafe,unsaf
 // strict personal-info filter on display, NIP-56 kind-1984 flags: >=2 distinct flagging keys hides a report.
 window.Reports=(()=>{
 const RELAYS=['wss://relay.damus.io','wss://nos.lol','wss://relay.primal.net'];
-const TAG='eyemont',DAY=86400,FLAG_LIMIT=2;
+const TAG='eyemont',DAY=86400,FLAG_LIMIT=3,POW=20;
+// NIP-13: leading zero bits of the event id, and the committed target in the nonce tag must both be >= POW.
+const lzb=id=>{let n=0;for(const c of id){const v=parseInt(c,16);if(v===0){n+=4;continue}return n+Math.clz32(v)-28}return n};
+const powOK=e=>{const nt=e.tags.find(t=>t[0]==='nonce');return !!nt&&+nt[2]>=POW&&lzb(e.id)>=POW};
+// mine in a web worker; onp(fraction) reports progress
+async function mine(tpl,onp){const N=await lib();const sk=await key();const pk=N.getPublicKey(sk);tpl.tags=[...tpl.tags,['nonce','\u0000',String(POW)]];
+ const s=JSON.stringify([0,pk,tpl.created_at,tpl.kind,tpl.tags,tpl.content]);const [pre,post]=s.split('\\u0000');
+ const nonce=await new Promise((res,rej)=>{const w=new Worker('pow-worker.js');w.onmessage=m=>{if(m.data.done){w.terminate();res(m.data.nonce)}else onp&&onp(Math.min(.99,1-Math.exp(-m.data.n/m.data.expect)))};w.onerror=e=>{w.terminate();rej(Error('proof-of-work worker failed'))};w.postMessage({pre,post,bits:POW})});
+ tpl.tags[tpl.tags.length-1][1]=nonce;const ev=N.finalizeEvent(tpl,sk);if(!powOK(ev))throw Error('proof-of-work check failed');onp&&onp(1);return ev}
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const CATS=['fire','flood','storm','traffic','outage','protest','police/fire activity','other'];
 const B32='0123456789bcdefghjkmnpqrstuvwxyz';
@@ -97,32 +108,34 @@ function valid(e,now=Date.now()/1000){if(e.kind!==1||typeof e.content!=='string'
  if(!t.includes(TAG)||c.length!==1||c[0]!==TAG||cat.length!==1||!CATS.includes(cat[0])||g.length!==1)return false;
  if(!/^[0-9b-hjkmnp-z]{3,5}$/.test(g[0]))return false;
  const L=[...e.content].length;if(L<5||L>280)return false;
- if(e.created_at<now-DAY||e.created_at>now+600)return false;return true}
+ if(e.created_at<now-DAY||e.created_at>now+600)return false;return powOK(e)}
 let last={raw:0,valid:0,flagged:0,unsafe:0};
 async function load(){await lib();const since=Math.floor(Date.now()/1000)-DAY;
  const evs=await query([{kinds:[1],'#t':[TAG],since,limit:500}]);
  if(Object.values(RS).every(v=>v==='down'))throw Error('no relay reachable');
  const ok=evs.filter(e=>valid(e));
  const flags={};if(ok.length){const fl=await query([{kinds:[1984],'#e':ok.map(e=>e.id).slice(0,400),limit:2000}]);
-  fl.forEach(f=>tag(f,'e').forEach(id=>(flags[id]||(flags[id]=new Set())).add(f.pubkey)))}
- const out=ok.filter(e=>!(flags[e.id]&&flags[e.id].size>=FLAG_LIMIT));
- last={raw:evs.length,valid:ok.length,flagged:ok.length-out.length,unsafe:0};return out}
+  fl.filter(f=>f.kind===1984&&powOK(f)).forEach(f=>tag(f,'e').forEach(id=>(flags[id]||(flags[id]=new Set())).add(f.pubkey)))}
+ ok.forEach(e=>e._flagged=!!(flags[e.id]&&flags[e.id].size>=FLAG_LIMIT));
+ last={raw:evs.length,valid:ok.length,flagged:ok.filter(e=>e._flagged).length,unsafe:0};return ok}
 function items(evs){return evs.filter(e=>{if(Crowd.isHidden('nostr:'+e.id)||Crowd.srcHidden('nostr:'+e.pubkey))return false;if(Crowd.unsafeReport(e.content)){last.unsafe++;return false}return true}).map(e=>{
  const g=tag(e,'g')[0];const [lat,lon]=ungh(g);const cat=tag(e,'category')[0];
- return {lat,lon,r:7,title:`[${cat}] ${e.content.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area · unmoderated',
-  popup:`<b>[${esc(cat)}]</b> <small>unmoderated community report · ~5 km precision · expires after 24 h</small><div class="post"><p>${esc(e.content)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · Nostr ${esc(e.pubkey.slice(0,8))}…</small><br><button class="hide" data-id="nostr:${esc(e.id)}">hide</button> <button class="hide" data-src="nostr:${esc(e.pubkey)}">hide all from this key</button> <button class="flag" data-id="${esc(e.id)}" data-pk="${esc(e.pubkey)}">⚑ flag</button></div>`}})}
+ const txt=Crowd.scrub(e.content);if(e._flagged)return {lat,lon,r:5,flagged:true,title:`[${cat}] ⚑ flagged, tap to view`,sub:new Date(e.created_at*1000).toLocaleString()+' · hidden by 3+ community flags',
+  popup:`<b>[${esc(cat)}]</b> <small>⚑ flagged by 3+ community members</small><details class="post"><summary>flagged, tap to view</summary><p>${esc(txt)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · unmoderated</small></details>`};
+ return {lat,lon,r:7,title:`[${cat}] ${txt.slice(0,60)}`,sub:new Date(e.created_at*1000).toLocaleString()+' · ~5 km area · unmoderated',
+  popup:`<b>[${esc(cat)}]</b> <small>unmoderated community report · ~5 km precision · expires after 24 h</small><div class="post"><p>${esc(txt)}</p><small>${new Date(e.created_at*1000).toLocaleString()} · Nostr ${esc(e.pubkey.slice(0,8))}…</small><br><button class="hide" data-id="nostr:${esc(e.id)}">hide</button> <button class="hide" data-src="nostr:${esc(e.pubkey)}">hide all from this key</button> <button class="flag" data-id="${esc(e.id)}" data-pk="${esc(e.pubkey)}">⚑ flag</button></div>`}})}
 function publishEvent(ev){let ok=0;return Promise.all(RELAYS.map(u=>new Promise(r=>{try{setRS(u,'connecting');const ws=new WebSocket(u);const t=setTimeout(()=>{try{ws.close()}catch(x){}r()},6000);
   ws.onopen=()=>{setRS(u,'up');ws.send(JSON.stringify(['EVENT',ev]))};ws.onmessage=m=>{let d;try{d=JSON.parse(m.data)}catch(x){return}if(d[0]==='OK'&&d[1]===ev.id){if(d[2])ok++;clearTimeout(t);ws.close();r()}};ws.onerror=()=>{setRS(u,'down');clearTimeout(t);r()}}catch(e){setRS(u,'down');r()}}))).then(()=>ok)}
-async function publish(cat,text,lat,lon){text=text.trim();
+async function publish(cat,text,lat,lon,onp){text=text.trim();
  if(Crowd.unsafeReport(text))throw Error('Looks like personal info (name, phone, email, address or plate). Not posted.');
  if([...text].length>280)throw Error('Max 280 characters');if(text.length<5)throw Error('Too short');if(!CATS.includes(cat))throw Error('Pick a category');
- const N=await lib();const ev=N.finalizeEvent({kind:1,created_at:Math.floor(Date.now()/1000),tags:[['t',TAG],['g',gh(lat,lon,5)],['category',cat],['client',TAG]],content:text},await key());
+ const ev=await mine({kind:1,created_at:Math.floor(Date.now()/1000),tags:[['t',TAG],['g',gh(lat,lon,5)],['category',cat],['client',TAG]],content:text},onp);
  if(!valid(ev))throw Error('Internal schema check failed');const ok=await publishEvent(ev);if(!ok)throw Error('No relay accepted the report');return ok}
 // NIP-56 report (kind 1984) against a report event.
-async function flag(id,pk){const N=await lib();if(!/^[0-9a-f]{64}$/.test(id)||!/^[0-9a-f]{64}$/.test(pk))throw Error('bad id');
- const ev=N.finalizeEvent({kind:1984,created_at:Math.floor(Date.now()/1000),tags:[['e',id,'other'],['p',pk],['t',TAG]],content:'eyemont community flag'},await key());
+async function flag(id,pk,onp){if(!/^[0-9a-f]{64}$/.test(id)||!/^[0-9a-f]{64}$/.test(pk))throw Error('bad id');
+ const ev=await mine({kind:1984,created_at:Math.floor(Date.now()/1000),tags:[['e',id,'other'],['p',pk],['t',TAG]],content:'eyemont community flag'},onp);
  return publishEvent(ev)}
 document.addEventListener('click',async e=>{const b=e.target.closest('button.flag');if(!b)return;
- if(!confirm('Publish a public NIP-56 flag for this report? Reports with 2+ flags are hidden for everyone using Eyemont.'))return;
- b.disabled=true;b.textContent='flagging…';try{const n=await flag(b.dataset.id,b.dataset.pk);Crowd.hide('nostr:'+b.dataset.id);b.textContent=`flagged (${n} relay)`;b.closest('.post')?.remove();window.dispatchEvent(new Event('eyemont:hidden'))}catch(x){b.textContent='flag failed';b.disabled=false}});
-return {load,items,publish,flag,valid,CATS,gh,lib,pubkey,newIdentity,status,stats:()=>last,RELAYS}})();
+ if(!confirm('Publish a public NIP-56 flag for this report? Reports with 3+ flags are collapsed for everyone using Eyemont. Your device must first compute a proof-of-work (can take 10–60 s).'))return;
+ b.disabled=true;b.textContent='flagging…';try{const n=await flag(b.dataset.id,b.dataset.pk,p=>b.textContent=`computing proof-of-work ${Math.round(p*100)}%…`);Crowd.hide('nostr:'+b.dataset.id);b.textContent=`flagged (${n} relay)`;b.closest('.post')?.remove();window.dispatchEvent(new Event('eyemont:hidden'))}catch(x){b.textContent='flag failed';b.disabled=false}});
+return {load,items,publish,flag,valid,powOK,POW,CATS,gh,lib,pubkey,newIdentity,status,stats:()=>last,RELAYS}})();

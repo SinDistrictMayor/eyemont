@@ -10,7 +10,7 @@ document.addEventListener('visibilitychange',()=>document.hidden?rainOff():rainO
 
 const map=L.map('map',{zoomControl:false,worldCopyJump:true,preferCanvas:true}).setView([39,-98],3);window.EYEMONT_MAP=map;
 L.control.zoom({position:'topleft'}).addTo(map);
-map.attributionControl.setPosition('bottomright');
+map.attributionControl.setPosition('bottomright');L.Popup.prototype.options.autoPanPaddingTopLeft=L.point(10,130);L.Popup.prototype.options.autoPanPaddingBottomRight=L.point(10,70);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,
  attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 
@@ -69,7 +69,7 @@ const LAYERS=[
 {id:'news',cls:'major',label:'🗞 NEWS',color:'#e0e0e0',refresh:900e3,attribution:'News: publisher RSS feeds (headlines link to the original)',
  async load(){await srcReady;const d=await getJSON('data/news.json?t='+Math.floor(Date.now()/300e3));const ok=Object.values(d.status||{}).filter(v=>v.startsWith('ok')).length;
   this.note=`${d.items.length} headlines, ${ok}/${Object.keys(d.status||{}).length} feeds ok · snapshot ${new Date(d.updated).toLocaleTimeString()} · ⌂ = placed at outlet's home city`;
-  return d.items.map(i=>{const f=SRCBY[i.src]||{name:i.src,cls:'independent'};return {home:i.home,lat:i.lat,lon:i.lon,r:i.home?3:5,cls:f.cls,fund:f.fund,src:f.name,time:i.time?Date.parse(i.time):null,text:i.title,
+  return d.items.map(i=>{i.title=Crowd.scrub(i.title);i.sum=Crowd.scrub(i.sum);const f=SRCBY[i.src]||{name:i.src,cls:'independent'};return {home:i.home,lat:i.lat,lon:i.lon,r:i.home?3:5,cls:f.cls,fund:f.fund,src:f.name,time:i.time?Date.parse(i.time):null,text:i.title,
    title:(i.home?'⌂ ':'📍 ')+i.title,sub:`${f.name} · ${i.place}${i.home?' (outlet home city, not event location)':''} · ${i.time?new Date(i.time).toLocaleTimeString():''}`,
    popup:`<b>${esc(i.title)}</b><br><small>${esc(f.name)} · ${i.home?'⌂ placed at the outlet\'s home city ('+esc(i.place)+'), not the event':'📍 '+esc(i.place)+' (named in headline/summary)'}</small><p>${esc(i.sum)}</p>${f.credit?`<a class="credit" target=_blank rel=noopener href="${esc(i.url)}">Read the full story at ${esc(f.name)} ↗</a><br><small>Headline and summary © ${esc(f.name)}, shown unmodified.</small>`:`<a target=_blank rel=noopener href="${esc(i.url)}">read at ${esc(f.name)} ↗</a>`}`}})}},
 {id:'gdelt',cls:'major',label:'📰 GDELT',color:'#ffd600',refresh:900e3,attribution:'News events: <a href="https://www.gdeltproject.org">The GDELT Project</a>',
@@ -86,7 +86,7 @@ const LAYERS=[
    popup:`<b>Satellite fire hotspot(s): ${f.n}</b><br>~10 km cell · FRP ${f.frp} MW · ${new Date(f.t).toLocaleString()}<br><small>Data: NASA FIRMS. Hotspots can be industrial heat or flares.</small><br><a target=_blank rel=noopener href="https://firms.modaps.eosdis.nasa.gov/map/#d:24hrs;@${f.lon},${f.lat},9z">NASA FIRMS ↗</a>`}))}},
 {id:'faa',cls:'official',label:'✈ FAA',color:'#80d8ff',refresh:900e3,attribution:'Airspace: <a href="https://tfr.faa.gov">FAA TFR</a>, <a href="https://nasstatus.faa.gov">FAA NAS Status</a>',
  async load(){const d=await H();this.note='TFRs placed at state centroid (approximate) · airport delays at the airport';
-  return [...(d.tfr||[]).map(t=>({lat:t.lat,lon:t.lon,r:4,src:'FAA TFR',text:t.desc,title:`TFR ${t.type} · ${t.state}`,sub:t.desc,popup:`<b>TFR ${esc(t.id)} · ${esc(t.type)}</b><br>${esc(t.desc)}<br><small>Shown at ${esc(t.state)} centroid, not the TFR area.</small><br><a target=_blank rel=noopener href="https://tfr.faa.gov/tfr3/?page=detail_${esc(t.id.replace('/','_'))}">FAA ↗</a>`})),
+  return [...(d.tfr||[]).map(t=>({approx:true,lat:t.lat,lon:t.lon,r:4,src:'FAA TFR',text:t.desc,title:`TFR ${t.type} · ${t.state}`,sub:t.desc,popup:`<b>TFR ${esc(t.id)} · ${esc(t.type)}</b><br>${esc(t.desc)}<br><small>Shown at ${esc(t.state)} centroid, not the TFR area.</small><br><a target=_blank rel=noopener href="https://tfr.faa.gov/tfr3/?page=detail_${esc(t.id.replace('/','_'))}">FAA ↗</a>`})),
    ...(d.nas||[]).map(a=>({lat:a.lat,lon:a.lon,r:7,time:Date.now(),src:'FAA NAS',text:a.apt+' delay',title:`${a.apt} ${a.kinds.join(', ')}`,sub:a.avg?`avg ${a.avg} min delay`:'',popup:`<b>${esc(a.apt)}: ${esc(a.kinds.join(', '))}</b><br>${a.avg?'avg '+a.avg+' min, max '+a.max+' min<br>':''}<a target=_blank rel=noopener href="https://nasstatus.faa.gov">FAA NAS Status ↗</a>`}))]}},
 {id:'flood',cls:'official',label:'🌊 FLOOD',color:'#2979ff',refresh:300e3,attribution:'Flood: <a href="https://www.weather.gov">NWS</a> / <a href="https://water.noaa.gov">NWPS</a>',
  async load(){const d=await getJSON('https://api.weather.gov/alerts/active?status=actual',{headers:{Accept:'application/geo+json'}});
@@ -95,27 +95,17 @@ const LAYERS=[
 {id:'tsunami',cls:'official',label:'🌀 TSU/SPACE',color:'#18ffff',refresh:900e3,attribution:'<a href="https://www.tsunami.gov">NOAA Tsunami</a>, <a href="https://www.swpc.noaa.gov">NOAA SWPC</a>',
  async load(){const d=await H();this.note='Space-weather alerts are not geographic: shown at SWPC, Boulder CO (flagged)';
   return [...(d.tsunami||[]).map(t=>({lat:t.lat,lon:t.lon,r:8,time:Date.parse(t.updated),src:'NOAA '+t.center,text:'tsunami '+t.title,title:`Tsunami ${t.cat}: ${t.title}`,sub:t.center+' · '+new Date(t.updated).toLocaleString(),popup:`<b>Tsunami ${esc(t.cat)}: ${esc(t.title)}</b><br>${esc(t.center)} · ${new Date(t.updated).toLocaleString()}<br><a target=_blank rel=noopener href="https://www.tsunami.gov">tsunami.gov ↗</a>`})),
-   ...(d.space||[]).map(a=>({lat:40.0,lon:-105.27,r:6,title:'☀ '+a.title,sub:'⌂ placed at SWPC Boulder (space weather is global) · '+new Date(a.t).toLocaleString(),popup:`<b>☀ ${esc(a.title)}</b><br><small>⌂ Not a location: space weather is global; pin is NOAA SWPC, Boulder.</small><br><a target=_blank rel=noopener href="https://www.swpc.noaa.gov/products/alerts-watches-and-warnings">SWPC ↗</a>`}))]}},
+   ...(d.space||[]).map(a=>({approx:true,lat:40.0,lon:-105.27,r:6,title:'☀ '+a.title,sub:'⌂ placed at SWPC Boulder (space weather is global) · '+new Date(a.t).toLocaleString(),popup:`<b>☀ ${esc(a.title)}</b><br><small>⌂ Not a location: space weather is global; pin is NOAA SWPC, Boulder.</small><br><a target=_blank rel=noopener href="https://www.swpc.noaa.gov/products/alerts-watches-and-warnings">SWPC ↗</a>`}))]}},
 {id:'fema',cls:'official',label:'🏛 FEMA',color:'#ffab40',refresh:3600e3,attribution:'Declarations: <a href="https://www.fema.gov/about/openfema">OpenFEMA</a>',
  async load(){const d=await H();this.note='Declarations, last 30 days, shown at state centroid';
-  return (d.fema||[]).map(f=>({lat:f.lat,lon:f.lon,r:7,title:`${f.id} ${f.title}`,sub:`${f.inc} · ${f.state} · ${f.date.slice(0,10)}`,popup:`<b>${esc(f.title)}</b><br>${esc(f.id)} · ${esc(f.inc)} · ${f.areas} area(s)<br><small>Shown at ${esc(f.state)} centroid.</small><br><a target=_blank rel=noopener href="https://www.fema.gov/disaster/${f.num}">FEMA ↗</a>`}))}},
+  return (d.fema||[]).map(f=>({approx:true,lat:f.lat,lon:f.lon,r:7,title:`${f.id} ${f.title}`,sub:`${f.inc} · ${f.state} · ${f.date.slice(0,10)}`,popup:`<b>${esc(f.title)}</b><br>${esc(f.id)} · ${esc(f.inc)} · ${f.areas} area(s)<br><small>Shown at ${esc(f.state)} centroid.</small><br><a target=_blank rel=noopener href="https://www.fema.gov/disaster/${f.num}">FEMA ↗</a>`}))}},
 {id:'ioda',cls:'official',label:'📡 IODA',color:'#ea80fc',refresh:900e3,attribution:'Outages: <a href="https://ioda.inetintel.cc.gatech.edu">IODA (Georgia Tech)</a>',
  async load(){const d=await H();this.note='Country-level internet outage signals (24 h, non-normal only), approximate country position';
-  return (d.ioda||[]).map(i=>({lat:i.lat,lon:i.lon,r:8,time:i.t*1e3,src:'IODA',text:'internet outage',title:`Internet ${i.level}: ${i.name}`,sub:`${i.n} signal(s) · ${i.src.join(', ')}`,popup:`<b>Internet outage signal: ${esc(i.name)}</b><br>${esc(i.level)} · ${i.n} alert(s) · ${esc(i.src.join(', '))}<br><small>Country-level; pin is approximate.</small><br><a target=_blank rel=noopener href="https://ioda.inetintel.cc.gatech.edu/country/${esc(i.code)}">IODA ↗</a>`}))}},
+  return (d.ioda||[]).map(i=>({approx:true,lat:i.lat,lon:i.lon,r:8,time:i.t*1e3,src:'IODA',text:'internet outage',title:`Internet ${i.level}: ${i.name}`,sub:`${i.n} signal(s) · ${i.src.join(', ')}`,popup:`<b>Internet outage signal: ${esc(i.name)}</b><br>${esc(i.level)} · ${i.n} alert(s) · ${esc(i.src.join(', '))}<br><small>Country-level; pin is approximate.</small><br><a target=_blank rel=noopener href="https://ioda.inetintel.cc.gatech.edu/country/${esc(i.code)}">IODA ↗</a>`}))}},
 {id:'d911',cls:'official',label:'🚨 911',color:'#ff5252',refresh:300e3,cluster:true,attribution:'911: city open-data portals (Socrata), per-dataset licenses incl. Dallas (ODC-By), Somerville (ODbL)',
- async load(){const D=(await getJSON('data/dispatch.json')).datasets,cut=Date.now()-864e5,out=[],ok=[];
-  const BAD=/suicid|mental|overdose|sexual|rape|juvenile|child|death|dead|body|doa|welfare|psych|domestic/i;
-  const pick=(o,p)=>p.split('.').reduce((a,k)=>a?.[k],o);
-  const tm=(r,f)=>{const v=f.split('+').map(k=>pick(r,k)||'').join(' ').trim();const t=Date.parse(/[zZ]|[+-]\d\d:?\d\d$/.test(v)?v:v.replace(' ','T'));return isNaN(t)?null:t};
-  await Promise.all(D.map(async ds=>{try{const r=await getJSON(`${ds.url}?$order=${encodeURIComponent(ds.order)}&$limit=150`);let n=0;
-   for(const x of r){const t=ds.time?tm(x,ds.time):null;if(ds.time&&(!t||t<cut))continue;const ty=String(pick(x,ds.type)||'call');if(BAD.test(ty))continue;
-    let la,lo;if(ds.latf&&ds.latf[0]==='@'){const g=pick(x,ds.latf.slice(1));if(g?.coordinates){lo=+g.coordinates[0];la=+g.coordinates[1]}}else if(ds.latf){la=+pick(x,ds.latf);lo=+pick(x,ds.lonf)}
-    const approx=!(la&&lo&&Math.abs(la-ds.lat)<1&&Math.abs(lo-ds.lon)<1);if(approx){la=ds.lat;lo=ds.lon}
-    la=Math.round(la*100)/100;lo=Math.round(lo*100)/100;n++;
-    out.push({lat:la,lon:lo,r:4,time:t,src:ds.city,text:ty,title:`🚨 ${ty}`,sub:`${ds.city}${t?' · '+new Date(t).toLocaleTimeString():''}${approx?' · ⌂ city centroid':''}`,
-     popup:`<b>${esc(ty)}</b><br>${esc(ds.city)}${t?' · '+new Date(t).toLocaleString():''}<br><small>${approx?'⌂ placed at city centroid':'~1 km rounded'}; no addresses shown. Data: <a target=_blank rel=noopener href="${esc(ds.portal)}">${esc(ds.portal.replace(/^https?:\/\//,''))}</a>, ${esc(ds.license)}.</small>`})}
-   ok.push(ds.city+':'+n)}catch(e){console.warn('911 fail',ds.id,e)}}));
-  this.note=`${ok.length}/${D.length} city datasets ok, last 24 h, ≈1 km, sensitive call types removed`;return out}},
+ async load(){const d=await getJSON('data/911.json?t='+Math.floor(Date.now()/300e3));this.note=`${d.ok}/${d.total} city datasets · snapshot ${ago(Date.parse(d.updated)/1000)} · last 24 h · ≈1 km · non-person call types only (fire, alarm, hazmat, road, flooding…)`;
+  return d.calls.map(c=>({lat:c.lat,lon:c.lon,r:4,approx:!!c.approx,time:c.time?Date.parse(c.time):null,src:c.city,text:c.type,title:`🚨 ${c.type}`,sub:`${c.city}${c.time?' · '+new Date(c.time).toLocaleTimeString():''}${c.approx?' · ⌂ city centroid':''}`,
+   popup:`<b>${esc(c.type)}</b><br>${esc(c.city)}${c.time?' · '+new Date(c.time).toLocaleString():''}<br><small>${c.approx?'⌂ placed at city centroid':'~1 km rounded'}; no addresses. Data: <a target=_blank rel=noopener href="${esc(c.source)}">${esc(c.source.replace(/^https?:\/\//,''))}</a>, ${esc(c.license)}.</small>`}))}},
 {id:'live',cls:'major',label:'▶ LIVE TV',color:'#ffffff',refresh:0,attribution:'Live: official channel pages',
  async load(){return (await getJSON('data/live.json')).map(l=>({lat:l.lat,lon:l.lon,r:7,title:l.title,sub:l.note,popup:`<b>${esc(l.title)}</b><br>${esc(l.note)}<br><a target=_blank rel=noopener href="${esc(l.url)}">Watch live ↗</a>`}))}},
 {id:'scanner',cls:'official',label:'📻 SCAN',color:'#ff8a00',refresh:0,dynamic:true,attribution:'Scanner links: <a href="https://www.broadcastify.com">Broadcastify</a>, agency sites',
@@ -174,7 +164,7 @@ map.on('click',e=>{if(!picking)return;pick(false);pickLL=e.latlng;const g=Report
  if(pickMk)pickMk.remove();pickMk=L.circle(pickLL,{radius:2500,color:'#ff2bd6'}).addTo(map);rep.querySelector('#rloc').textContent=`area ${g} (~5 km)`;openPanel('report')});
 const ta=rep.querySelector('textarea');ta.oninput=()=>rep.querySelector('#rcnt').textContent=`${ta.value.length}/280`;
 rep.querySelector('#rsend').onclick=async()=>{const out=rep.querySelector('#rout');if(!pickLL){out.textContent='Pick a location first.';return}
- out.textContent='posting…';try{const n=await Reports.publish(rep.querySelector('select').value,ta.value,pickLL.lat,pickLL.lng);out.textContent=`Posted to ${n} relay(s).`;ta.value='';if(pickMk)pickMk.remove();pickLL=null;
+ out.innerHTML='computing proof-of-work… <progress max=1 value=0></progress>';const pg=out.querySelector('progress');try{const n=await Reports.publish(rep.querySelector('select').value,ta.value,pickLL.lat,pickLL.lng,p=>{pg.value=p;if(p>=1)out.textContent='posting…'});out.textContent=`Posted to ${n} relay(s).`;ta.value='';if(pickMk)pickMk.remove();pickLL=null;
  setTimeout(()=>refresh(LAYERS.find(l=>l.id==='reports')),1500)}catch(e){out.textContent=e.message}};
 document.getElementById('reportbtn').onclick=tog('report');
 function toast(t){const d=document.getElementById('toast');d.textContent=t;d.hidden=false;clearTimeout(d._t);d._t=setTimeout(()=>d.hidden=true,3000)}
@@ -220,7 +210,7 @@ const SPARK='▁▂▃▄▅▆▇█';const spark=(m,now)=>{const b=Array(8).fi
 let INCX={kept:0,sport:0,notopic:0};
 function incidents(){const now=Date.now(),its=[];INCX={kept:0,sport:0,notopic:0,sx:[]};
  LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on||!s.data||Ly.tile||Ly.dynamic)return;
-  itemsOf(Ly).forEach(i=>{if(i.home)return;const t=i.time||(Ly.id==='gdelt'?now:null);if(!t||now-t>6*36e5||t>now+6e5)return;
+  itemsOf(Ly).forEach(i=>{if(i.home||i.approx||i.flagged)return;const t=i.time||(Ly.id==='gdelt'?now:null);if(!t||now-t>6*36e5||t>now+6e5)return;
    const txt=(i.text||i.title||'')+(Ly.id==='gdelt'?' '+(i.sub||''):'');if(NOINC.test(txt)){INCX.sport++;if(INCX.sx.length<5)INCX.sx.push(txt.slice(0,70));return}
    const ty=new Set(Object.keys(LEX).filter(k=>LEX[k].test(txt)));if(LYTYPE[Ly.id])ty.add(LYTYPE[Ly.id]);
    const pl=new Set(toks((i.sub||'')+' '+(Ly.id==='gdelt'?i.title:'')));its.push({i,Ly,t,ty,tk:Ly.id==='gdelt'?[]:toks(i.text||i.title||'').filter(w=>!pl.has(w)),c:clsOf(i,Ly),src:Ly.id==='d911'?'911 dispatch':(i.src||Ly.label)})})});
@@ -245,8 +235,8 @@ function renderInc(){INC=incidents();ib.innerHTML=`<b class="inclive">● LIVE</
 ib.onclick=e=>{const b=e.target.closest('button');if(!b)return;const c=INC[+b.dataset.k];if(incMk)incMk.remove();
  const by={};c.m.forEach(x=>(by[x.c]=by[x.c]||[]).push(x));
  incMk=L.circle([c.lat,c.lon],{radius:25e3,color:'#ff4081',weight:1,fillOpacity:.05}).addTo(map).bindPopup(`<b>◎ ${esc(c.type?c.type.toUpperCase():'Shared topic: '+c.keys.join(', '))}</b> <span class="spark">${c.spark}</span><br><small>shared keywords: ${esc(c.keys.join(', ')||'–')} · 15-min buckets, last 2 h</small><br><b>confidence ${Math.round(c.conf*100)}%</b><br><small>${c.src} distinct sources · ${c.cls.length} class(es) · ${c.m.length} items · ${new Date(c.first).toLocaleTimeString()}–${new Date(c.last).toLocaleTimeString()}. Automatic link: same place (25 km), time (2 h) and event type or rare shared keywords. Sports and entertainment headlines are excluded. Not verification.</small><div class="incgrid">`+
-  Object.keys(CLASSES).filter(k=>by[k]).map(k=>`<div><span class="cls cls-${k}">${CLASSES[k]}</span>`+by[k].slice(0,8).map(x=>`<p><small>${esc(x.Ly.label)} · ${esc(x.src)}</small><br>${esc(x.i.title.slice(0,120))}</p>`).join('')+`</div>`).join('')+'</div>',{maxWidth:340}).openPopup();
- map.flyTo([c.lat,c.lon],Math.max(map.getZoom(),8))};
+  Object.keys(CLASSES).filter(k=>by[k]).map(k=>`<div><span class="cls cls-${k}">${CLASSES[k]}</span>`+by[k].slice(0,8).map(x=>`<p><small>${esc(x.Ly.label)} · ${esc(x.src)}</small><br>${esc(x.i.title.slice(0,120))}</p>`).join('')+`</div>`).join('')+'</div>',{maxWidth:Math.min(340,innerWidth-50),maxHeight:Math.round(innerHeight*.4)});
+ map.flyTo([c.lat,c.lon],Math.max(map.getZoom(),8));map.once('moveend',()=>incMk.openPopup())};
 window.__inc=()=>({x:INCX,top:INC.slice(0,6).map(c=>({h:c.head,src:c.src,cls:c.cls,spark:c.spark,keys:c.keys,n:c.m.length,ex:c.m.slice(0,4).map(x=>x.src+': '+x.i.title.slice(0,70))}))});
 const _rl=renderList;renderList=function(){_rl();renderInc()};
 
