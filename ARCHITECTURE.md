@@ -85,3 +85,14 @@ Quakes, NWS alerts, aircraft (live or snapshot), 3,426 clustered Caltrans cams w
 - Performance: cams.json loads only when the CA CAMS layer is first turned on. Only cams inside the current view (+25% padding) are drawn, clustered with chunked loading. The rain runs at about 20 fps at low opacity and pauses when the tab is hidden.
 - Badges show real counts: items in the region, or in-view/total for cams. Pinch-zoom is allowed (no user-scalable=no).
 - Tiles: OpenStreetMap standard tiles, used per the OSM Tile Usage Policy (attribution, browser Referer, no bulk prefetch, low volume). If traffic grows, a backup is needed: a free, no-key tile host with clear terms, or a self-hosted PMTiles file on Pages (more work).
+
+## M2 — "The people's eye" (people first, government data second)
+**CROWD** (`crowd.js`)
+- Bluesky `api.bsky.app/xrpc/app.bsky.feed.searchPosts` works with no auth and CORS `*` (`public.api.bsky.app` returns 403 for search). It runs event keyword queries such as earthquake, wildfire, flooding and protest.
+- Mastodon `mastodon.social/api/v1/timelines/tag/<tag>`: no auth, CORS `*`; only public, non-sensitive statuses are used.
+- **Placement**: a post is pinned only if its text names a known place (Natural Earth cities over 400k people, plus US states). The pin sits at the place centroid, never at a user's location. Pins carry no names or handles. Authors appear only inside the card, with a link to the original.
+- **Moderation**: a client-side filter drops posts containing phone numbers, emails, SSN patterns, street addresses or doxxing keywords. A "hide" button stores the post ID in localStorage, and "report ↗" opens the original post so it can be reported on its own platform.
+- **Reports**: Nostr NIP-01 kind:1 events tagged `t=eyemont`, `g=<5-char geohash ≈ 5 km>` and `category`. They are signed with an ephemeral key generated in the browser (nostr-tools) and sent to damus, nos.lol and primal relays. Location is picked by tapping the map, never by GPS. Text is capped at 280 characters and passes through the doxx filter, and the form warns that reports are public and permanent.
+- **Dropped**: Reddit (`/r/*.json` returns 403 and the Data API needs registration/OAuth), YouTube search (needs a key; replaced by curated official channel `/live` links in `data/live.json`).
+
+**OPEN DATA**: USGS, NWS, adsb.lol snapshot, Caltrans, plus RainViewer radar tiles (free public API, attribution), NASA EONET (open, CORS `*`) and GDACS (`geteventlist/SEARCH`, CORS `*`). GDELT is deferred: the GEO 2.0 endpoint returned 404, so it would need a DOC API snapshot via Actions.

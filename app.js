@@ -76,7 +76,7 @@ function drawLayer(Ly){const s=state[Ly.id];s.group.clearLayers();s.shown=[];if(
  const mks=its.map(i=>{const mk=i.geo?L.geoJSON(i.geo,{style:{color:Ly.color,weight:1,fillOpacity:.15}}):dot([i.lat,i.lon],Ly.color,i.r);
   if(i.state)mk.on('click',()=>openScan(i));else mk.bindPopup(i.popup);i._mk=mk;return mk});
  Ly.cluster?s.group.addLayers(mks):mks.forEach(m=>m.addTo(s.group));s.shown=its;badge(Ly)}
-function badge(Ly){const s=state[Ly.id];const lb=document.getElementById('layersbtn');if(lb)lb.textContent=`☰ LAYERS ${Object.values(state).filter(x=>x.on).length}/${LAYERS.length}`;s.btn.innerHTML=esc(Ly.label)+(s.loading?' <span class="badge">…</span>':s.on&&s.data&&!Ly.tile?` <span class="badge">${Ly.viewport?s.shown.length+'/'+s.total:s.total}</span>`:'')}
+function badge(Ly){const s=state[Ly.id];const lb=document.getElementById('layersbtn');if(lb)lb.textContent=`☰ ${Object.values(state).filter(x=>x.on).length}/${LAYERS.length}`;s.btn.innerHTML=esc(Ly.label)+(s.loading?' <span class="badge">…</span>':s.on&&s.data&&!Ly.tile?` <span class="badge">${Ly.viewport?s.shown.length+'/'+s.total:s.total}</span>`:'')}
 function renderList(){list.innerHTML='';let n=0;const msgs=[];
  LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on)return;
   if(s.err)msgs.push(`${Ly.label}: ${s.err}`);else if(Ly.note)msgs.push(`${Ly.label}: ${Ly.note}`);
@@ -97,13 +97,30 @@ async function refresh(Ly){const s=state[Ly.id];clearTimeout(s.timer);if(!s.on)r
 LAYERS.forEach(Ly=>{const b=document.createElement('button');nav.appendChild(b);
  const s=state[Ly.id]={on:['crowd','reports','quakes','alerts','gdacs'].includes(Ly.id),btn:b,shown:[],total:0,
   group:(Ly.cluster?L.markerClusterGroup({chunkedLoading:true,showCoverageOnHover:false,maxClusterRadius:50}):L.layerGroup()).addTo(map)};
- b.classList.toggle('on',s.on);map.attributionControl.addAttribution(Ly.attribution);badge(Ly);
- b.onclick=()=>{s.on=!s.on;b.classList.toggle('on',s.on);if(!s.on){clearTimeout(s.timer);s.err=null;b.classList.remove('err')}
+ b.classList.toggle('on',s.on);if(s.on)map.attributionControl.addAttribution(Ly.attribution);badge(Ly);
+ b.onclick=()=>{s.on=!s.on;b.classList.toggle('on',s.on);map.attributionControl[s.on?'addAttribution':'removeAttribution'](Ly.attribution);if(!s.on){clearTimeout(s.timer);s.err=null;b.classList.remove('err')}
   s.on&&!s.data?refresh(Ly):(drawLayer(Ly),renderList())};
  if(s.on)refresh(Ly)});
 /* panel: feed list or scanner browser */
 const flyState=n=>{if(BBOX[n])map.fitBounds([[BBOX[n][0],BBOX[n][1]],[BBOX[n][2],BBOX[n][3]]])};
-function openPanel(mode){panel.hidden=false;const sc=mode==='scan';scanUl.hidden=!sc;list.hidden=sc;status.hidden=sc;ptitle.textContent=sc?'📻 SCAN':'FEED';panel.dataset.mode=mode}
+function openPanel(mode){panel.hidden=false;const sc=mode==='scan';scanUl.hidden=!sc;list.hidden=mode!=='feed';status.hidden=mode!=='feed';
+ nav.hidden=mode!=='layers';rep.hidden=mode!=='report';ptitle.textContent={scan:'📻 SCANNERS',feed:'FEED',layers:'☰ LAYERS',report:'✚ REPORT'}[mode];panel.dataset.mode=mode;if(mode!=='report')pick(false)}
+const tog=m=>()=>{if(!panel.hidden&&panel.dataset.mode===m)return closePanel();openPanel(m)};
+document.getElementById('layersbtn').onclick=tog('layers');
+document.getElementById('crowdbtn').onclick=()=>{state.crowd.btn.click();document.getElementById('crowdbtn').classList.toggle('on',state.crowd.on)};
+/* report form: user taps the map to pick an area (rounded to a ~5 km geohash). No GPS, no identity. */
+const rep=document.getElementById('report');let pickMk=null,picking=false,pickLL=null;
+rep.querySelector('select').innerHTML=Reports.CATS.map(c=>`<option>${c}</option>`).join('');
+function pick(on){picking=on;document.body.classList.toggle('picking',on)}
+rep.querySelector('#rpick').onclick=()=>{pick(true);panel.hidden=true;toast('Tap the map where it is happening')};
+map.on('click',e=>{if(!picking)return;pick(false);pickLL=e.latlng;const g=Reports.gh(pickLL.lat,pickLL.lng,5);
+ if(pickMk)pickMk.remove();pickMk=L.circle(pickLL,{radius:2500,color:'#ff2bd6'}).addTo(map);rep.querySelector('#rloc').textContent=`area ${g} (~5 km)`;openPanel('report')});
+const ta=rep.querySelector('textarea');ta.oninput=()=>rep.querySelector('#rcnt').textContent=`${ta.value.length}/280`;
+rep.querySelector('#rsend').onclick=async()=>{const out=rep.querySelector('#rout');if(!pickLL){out.textContent='Pick a location first.';return}
+ out.textContent='posting…';try{const n=await Reports.publish(rep.querySelector('select').value,ta.value,pickLL.lat,pickLL.lng);out.textContent=`Posted to ${n} relay(s).`;ta.value='';if(pickMk)pickMk.remove();pickLL=null;
+ setTimeout(()=>refresh(LAYERS.find(l=>l.id==='reports')),1500)}catch(e){out.textContent=e.message}};
+document.getElementById('reportbtn').onclick=tog('report');
+function toast(t){const d=document.getElementById('toast');d.textContent=t;d.hidden=false;clearTimeout(d._t);d._t=setTimeout(()=>d.hidden=true,3000)}
 function closePanel(){panel.hidden=true}
 function openScan(i){openPanel('scan');i.county!=null?Scanners.showCounty(scanUl,i.state,i.county):Scanners.showState(scanUl,i.state,flyState)}
 document.getElementById('scanbtn').onclick=()=>{if(!panel.hidden&&panel.dataset.mode==='scan')return closePanel();openPanel('scan');region==='World'?Scanners.showStates(scanUl,flyState):Scanners.showState(scanUl,region,flyState)};
