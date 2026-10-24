@@ -196,3 +196,9 @@ Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, p
 - Share: `#i=<eid>&ty&ll&t&p` in the URL hash. `eid` is a hash of the earliest member item. An expired link shows a fallback sheet with nearby live incidents and map/replay buttons. The brief is plain text, uses navigator.share or the clipboard, and masks names.
 - PWA: `manifest.webmanifest`, `icons/`, `sw.js`. The app shell is served stale-while-revalidate. Data and feed APIs are network-first with the last good copy as a fallback (one cache entry per URL, query string ignored). Bump `V` in sw.js when shell files change.
 - Command bar: `>_` button, or press `>`. `runCmd()` handles the commands and `cmdHints()` gives autocomplete.
+
+## QA round (Oct 24)
+- Watchlists accept only places (states, Census places in `data/gaz.txt`, Canadian `City BC/ON`, allowlist countries) or topic/event words; people (incl. single surnames, handles, CamelCase, acronyms, `Last, First`, initials/honorifics) are refused with a hint.
+- `maskNames` handles ALL-CAPS, lowercase known first names, hyphen/apostrophe names, multi-part names, and skips place phrases after of/near/in and before `, ST`. Cases: `tests/mask_cases.json`.
+- Service worker cache is versioned by the commit SHA (stamped by `pages.yml`), shell is network-first (3 s) with cache fallback, skipWaiting/clients.claim, and the app shows "UPDATED · RELOAD".
+- 911 call types are genericized (extrication/entrapment → "Traffic accident").

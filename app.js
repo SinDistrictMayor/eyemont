@@ -12,6 +12,7 @@ const map=L.map('map',{zoomControl:false,worldCopyJump:true,preferCanvas:true}).
 L.control.zoom({position:'topright'}).addTo(map);
 map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');map.attributionControl.getContainer().addEventListener('click',e=>{if(e.target.tagName!=='A')e.currentTarget.classList.toggle('open')});
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+const gen911=t=>/extricat|entrap|pinned|trapped|injur|ejected|fatal/i.test(t||'')?(/accident|crash|collision|vehicle|mva|rollover/i.test(t)?'Traffic accident':'Rescue call'):t;
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const dot=(ll,col,r=5)=>L.circleMarker(ll,{radius:r,color:col,weight:1,fillColor:col,fillOpacity:.75});
 let BBOX={},region='World';
@@ -110,7 +111,7 @@ const LAYERS=[
   return (d.ioda||[]).map(i=>({approx:true,lat:i.lat,lon:i.lon,r:8,time:i.t*1e3,src:'IODA',text:'internet outage',title:`Internet ${i.level}: ${i.name}`,sub:`${i.n} signal(s) · ${i.src.join(', ')}`,popup:`<b>Internet outage signal: ${esc(i.name)}</b><br>${esc(i.level)} · ${i.n} alert(s) · ${esc(i.src.join(', '))}<br><small>Country-level; pin is approximate.</small><br><a target=_blank rel=noopener href="https://ioda.inetintel.cc.gatech.edu/country/${esc(i.code)}">IODA ↗</a>`}))}},
 {id:'d911',cls:'official',label:'🚨 911',color:'#ff5252',refresh:300e3,cluster:true,attribution:'911: city open-data portals (Socrata), per-dataset licenses incl. Dallas (ODC-By), Somerville (ODbL)',
  async load(){const d=await getJSON('data/911.json?t='+Math.floor(Date.now()/300e3));this.note=`${d.ok}/${d.total} city datasets · snapshot ${ago(Date.parse(d.updated)/1000)} · last 24 h · ≈1 km · non-person call types only (fire, alarm, hazmat, road, flooding…)`;
-  return d.calls.map(c=>({lat:c.lat,lon:c.lon,r:4,approx:!!c.approx,time:c.time?Date.parse(c.time):null,src:c.city,text:c.type,title:`🚨 ${c.type}`,sub:`${c.city}${c.time?' · '+new Date(c.time).toLocaleTimeString():''}${c.approx?' · ⌂ city centroid':''}`,
+  return d.calls.map(c=>(c.type=gen911(c.type),{lat:c.lat,lon:c.lon,r:4,approx:!!c.approx,time:c.time?Date.parse(c.time):null,src:c.city,text:c.type,title:`🚨 ${c.type}`,sub:`${c.city}${c.time?' · '+new Date(c.time).toLocaleTimeString():''}${c.approx?' · ⌂ city centroid':''}`,
    popup:`<b>${esc(c.type)}</b><br>${esc(c.city)}${c.time?' · '+new Date(c.time).toLocaleString():''}<br><small>${c.approx?'⌂ placed at city centroid':'~1 km rounded'}; no addresses. Data: <a target=_blank rel=noopener href="${esc(c.source)}">${esc(c.source.replace(/^https?:\/\//,''))}</a>, ${esc(c.license)}.</small>`}))}},
 {id:'live',cls:'major',label:'▶ LIVE TV',color:'#ffffff',refresh:0,attribution:'Live: official channel pages',
  async load(){return (await getJSON('data/live.json')).map(l=>({lat:l.lat,lon:l.lon,r:7,title:l.title,sub:l.note,popup:`<b>${esc(l.title)}</b><br>${esc(l.note)}<br><a target=_blank rel=noopener href="${esc(l.url)}">Watch live ↗</a>`}))}},
@@ -183,12 +184,34 @@ const EVN=/^(?:Fire|Fires|Complex|Storm|Hurricane|Tropical|Typhoon|Cyclone|Flood
 /* allowlist: countries, territories, US states, major places — never masked */
 let ALLOW=null,ALLOWS=new Set();const ALLOW_OK=fetch('data/allow.txt').then(r=>r.text()).then(t=>{const a=t.split('\n').map(s=>s.trim()).filter(Boolean);a.forEach(x=>ALLOWS.add(x));ALLOW=new RegExp('(?<![\\w])(?:'+a.sort((x,y)=>y.length-x.length).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?![\\w])','gi')}).catch(()=>{});
 const allowSpans=t=>{const r=[];if(ALLOW){ALLOW.lastIndex=0;for(const m of t.matchAll(ALLOW))r.push([m.index,m.index+m[0].length])}return r};
-const maskNames=t=>{if(!t)return t;const AS=allowSpans(t),inA=(s,e)=>AS.some(([x,y])=>s>=x&&e<=y),GEOS=/^(Islands?|Region|Coast|Sea|Gulf|Peninsula|Province|Border|Area|Basin|Strait|Archipelago|Highlands|Lowlands|Delta|Plateau|Ridge|Trench)$/,nextA=(A,B)=>AS.some(([x,y])=>(x===A.index&&y===A.index+A[0].length&&GEOS.test(B[0]))||(x===B.index&&y===B.index+B[0].length&&GEOS.test(A[0])));const tk=[...t.matchAll(/(?<![\w'’-])[A-Z][a-z'’-]{1,20}(?![\w])/g)],cut=[];
- for(let n=0;n+1<tk.length;n++){const A=tk[n],B=tk[n+1],gap=t.slice(A.index+A[0].length,B.index);if(!/^\s+(?:[A-Z]\.\s+)?$/.test(gap))continue;
-  const a=A[0],b=B[0],w=t.slice(A.index,B.index+b.length),C=tk[n+2],nx=C&&/^\s+$/.test(t.slice(B.index+b.length,C.index))?C[0]:'';
-  if(inA(A.index,B.index+b.length)||nextA(A,B)||EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w||p[0]===a||p[0]===b)||STP.some(s=>s.n===w||s.n===a||s.n===b))continue;
-  if(Crowd.nameCI(a+' '+b)||(!LOWW.has(a)&&!LOWW.has(b))){cut.push([A.index,B.index+b.length]);n++}}
- for(let k=cut.length-1;k>=0;k--)t=t.slice(0,cut[k][0])+'[name]'+t.slice(cut[k][1]);return t};
+const ACR=new Set('USGS FEMA NWS NOAA NASA FAA FBI CIA DHS ICE ATF DEA EPA CDC WHO UN NATO EU UK US USA UAE NYPD LAPD NYFD FDNY CHP DOT TFR NWPS SWPC IODA GDACS EONET FIRMS BBC CNN NBC ABC CBS NPR PBS AP AFP RT TV PM AM ET PT CT MT UTC GMT EST PST CST MST EDT PDT CDT MDT KM MPH GOP DNC RNC NFL NBA MLB NHL MLS NCAA UFC LIVE BREAKING UPDATE NEWS WATCH VIDEO ALERT WARNING NEW UPDATED EXCLUSIVE OPINION ANALYSIS'.split(' '));
+const COMMONFN=new Set('will may june april august mark grant frank bill rose joy hope faith art ray sue pat guy max chase dawn iris rich bob sky summer autumn crystal amber ruby pearl violet jade lily heather holly ivy daisy olive penny sunny cliff dale glen wade lance drew rob gene don jack sterling carol buck hunter major sergeant judge justice king prince earl duke page bishop pope'.split(' '));
+const LOCP=/(?:^|[\s(])(?:of|near|in|at|from|outside|across|toward|towards|off|into|around|to|through|north|south|east|west|nw|ne|sw|se|nnw|nne|ssw|sse|wnw|wsw|ene|ese|n|s|e|w)\s+$/i;
+const HON=/\b(?:Mr|Mrs|Ms|Mx|Dr|Sen|Rep|Gov|Lt|Sgt|Capt|Det|Officer|Judge|Pres|Prof)\.?\s+$/;
+const STAB=/^,?\s+(?:[A-Z]{2}\b|(?:Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New \w+|North \w+|South \w+|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\b)/;
+const TOKR=/(?<![\w'’-])[A-Z][a-z]*(?:['’-][A-Z]?[a-z]+)*(?![\w'’-])/g;
+const maskNames=t=>{if(!t)return t;
+ /* shadow copy: ALL-CAPS words (not known acronyms) become Title-case for detection; indices stay identical */
+ const caps=(t.match(/\b[A-Z]{2,}\b/g)||[]).filter(w=>!ACR.has(w)).length>=2;
+ const sh=caps?t.replace(/\b[A-Z]{2,}(?:['’-][A-Z]+)*\b/g,w=>ACR.has(w)?w:w.replace(/[A-Z]+/g,(x,i)=>i===0||/['’-]/.test(w[i-1])?x[0]+x.slice(1).toLowerCase():x.toLowerCase())):t;
+ const AS=allowSpans(t),inA=(s,e)=>AS.some(([x,y])=>s>=x&&e<=y),GEOS=/^(Islands?|Region|Coast|Sea|Gulf|Peninsula|Province|Border|Area|Basin|Strait|Archipelago|Highlands|Lowlands|Delta|Plateau|Ridge|Trench)$/,
+  nextA=(A,B)=>AS.some(([x,y])=>(x===A.index&&y===A.index+A[0].length&&GEOS.test(B[0]))||(x===B.index&&y===B.index+B[0].length&&GEOS.test(A[0])));
+ const tk=[...sh.matchAll(TOKR)].filter(m=>m[0].length>=2||/^[A-Z]$/.test(m[0])&&sh[m.index+1]==='.'),cut=[];
+ const ok=w=>LOWW.has(w)||ORGW.test(w)||EVN.test(w),adj=(A,B)=>/^\s+(?:[A-Z]\.\s+)?$/.test(sh.slice(A.index+A[0].length,B.index));
+ for(let n=0;n+1<tk.length;n++){const A=tk[n],B=tk[n+1];if(A[0].length<2||!adj(A,B))continue;
+  const a=A[0],b=B[0],w=sh.slice(A.index,B.index+b.length),C=tk[n+2],nx=C&&/^\s+$/.test(sh.slice(B.index+b.length,C.index))?C[0]:'';
+  if(LOCP.test(sh.slice(Math.max(0,A.index-12),A.index))&&!Crowd.nameCI(a+' '+b))continue; /* place phrase after of/near/in… */
+  if(STAB.test(sh.slice(B.index+b.length,B.index+b.length+20))&&!Crowd.nameCI(a+' '+b))continue; /* 'Warner Springs, CA' */
+  if(inA(A.index,B.index+b.length)||nextA(A,B)||EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w)||STP.some(s=>s.n===w))continue;
+  if(Crowd.nameCI(a+' '+b)||(!LOWW.has(a)&&!LOWW.has(b))){let end=B.index+b.length,k=n+1;
+   while(k+1<tk.length&&adj(tk[k],tk[k+1])&&tk[k+1][0].length>=2&&!(tk[k+1][0].length<=3?ORGW.test(tk[k+1][0])||EVN.test(tk[k+1][0]):ok(tk[k+1][0]))&&!inA(tk[k+1].index,tk[k+1].index+tk[k+1][0].length)){k++;end=tk[k].index+tk[k][0].length}
+   cut.push([A.index,end]);n=k}}
+ /* honorific / initial + surname: 'Ms. Jones', 'J. Smith' */
+ for(const m of sh.matchAll(/(?<![\w])(?:(?:Mr|Mrs|Ms|Mx|Dr|Sen|Rep|Gov|Lt|Sgt|Capt|Det|Prof)\.?|[A-Z]\.)\s+([A-Z][a-z]+(?:['’-][A-Z]?[a-z]+)*)/g)){const s0=m.index,e0=m.index+m[0].length;if(cut.some(([x,y])=>s0<y&&e0>x))continue;if(ORGW.test(m[1])||EVN.test(m[1])||inA(m.index+m[0].length-m[1].length,e0))continue;cut.push([s0,e0])}
+ /* lowercase 'john smith' (known first name + non-common word) */
+ for(const m of t.matchAll(/(?<![\w'’-])([a-z]{3,})\s+([a-z][a-z'’-]{2,})(?![\w'’-])/g)){const f=m[1],l=m[2];if(COMMONFN.has(f)||STOP.has(l)||WSTOP.has(l)||Object.values(LEX).some(r=>r.test(l)))continue;
+  if(!Crowd.nameCI(f+' '+l))continue;const s0=m.index,e0=s0+m[0].length;if(cut.some(([x,y])=>s0<y&&e0>x))continue;cut.push([s0,e0])}
+ cut.sort((x,y)=>x[0]-y[0]);for(let k=cut.length-1;k>=0;k--)t=t.slice(0,cut[k][0])+'[name]'+t.slice(cut[k][1]);return t};
 const maskHtml=h=>typeof h==='string'?h.replace(/>([^<]+)</g,(m,t)=>'>'+maskNames(t)+'<').replace(/^([^<]+)/,(m,t)=>maskNames(t)):h;
 const html=i=>maskHtml(rawHtml(i));
 /* build ranked feed: linked incidents (≥2 sources) + strong single-source signals */
@@ -231,7 +254,7 @@ function list(ul,arr,empty,sg){const v=arr.filter(visible).filter(e=>!sg||sg==='
 let tab=localStorage.getItem('eyemont.tab')||'now';
 /* COMMAND CONSOLE: status HUD, clocks, intercepted-traffic ticker, coverage segments */
 const RMQ=matchMedia('(prefers-reduced-motion: reduce)');
-function hud(ld,ok){$('#hf').textContent=`${ok}/${ld.length}`;const now=Date.now();let n=0;FEED.forEach(e=>e.m.forEach(x=>{if(x.t>now-36e5&&x.t<=now+6e4)n++}));
+function hud(ld,ok){$('#hf').textContent=navigator.onLine?`${ok}/${ld.length}`:'OFFLINE';$('#hf').classList.toggle('bad',!navigator.onLine);const now=Date.now();let n=0;FEED.forEach(e=>e.m.forEach(x=>{if(x.t>now-36e5&&x.t<=now+6e4)n++}));
  $('#hs').textContent=(n/60).toFixed(1);$('#hi').textContent=FEED.filter(e=>e.kind==='inc').length;ticker()}
 let tkSig='';function ticker(){const v=FEED.filter(visible).slice(0,24),sig=v.map(e=>e.head).join('|');if(sig===tkSig)return;tkSig=sig;
  const row=v.map(e=>{const T=TOPICS[e.topic];return `<button class="ti" data-k="${FEED.indexOf(e)}" style="--tc:${T[2]}" tabindex="-1"><b>${new Date(e.last).toISOString().slice(11,16)}Z</b> ${T[1]} ${esc((e.type||'event').toUpperCase())} · ${esc(where(e).slice(0,24))} · <span>${esc(e.head.slice(0,70))}</span></button>`}).join('<span class="sep" aria-hidden="true">///</span>');
@@ -253,7 +276,7 @@ const feedMsg=(ld,er)=>{const pend=ld.filter(l=>!state[l.id].data&&!state[l.id].
 document.addEventListener('click',e=>{if(!e.target.closest('[data-retry]'))return;LAYERS.forEach(Ly=>{const s=state[Ly.id];if(s.on&&s.err){s.fails=0;s.err=null;refresh(Ly)}});render()});
 
 function render(){const ld=LAYERS.filter(l=>state[l.id].on&&W[l.id]),ok=ld.filter(l=>state[l.id].data).length,er=ld.filter(l=>state[l.id].err);hud(ld,ok);
- $('#sync').textContent=ld.length&&er.length===ld.length?`offline · ${er.length} feeds retrying`:`${ok}/${ld.length} feeds${er.length?' · '+er.length+' retrying':''}`;$('#sync').classList.toggle('bad',!!er.length&&er.length===ld.length);$('#sync').title=er.map(l=>l.label+': '+state[l.id].err).join('\n');
+ $('#sync').textContent=!navigator.onLine?'cached snapshot':ld.length&&er.length===ld.length?`offline · ${er.length} feeds retrying`:`${ok}/${ld.length} feeds${er.length?' · '+er.length+' retrying':''}`;$('#sync').classList.toggle('bad',!!er.length&&er.length===ld.length);$('#sync').title=er.map(l=>l.label+': '+state[l.id].err).join('\n');
  const nInc=FEED.filter(e=>e.kind==='inc'&&visible(e)).length;
  if(tab==='now'){$('#nowsum').innerHTML=`<b>${FEED.filter(visible).length}</b> signals · <b>${nInc}</b> linked incidents · ranked by confidence, severity, recency`;list($('#nowlist'),FEED,ok?(seg==='all'?'Nothing matches these filters.':'No incidents in this coverage view right now.'):feedMsg(ld,er),seg);segUI();const lv=$('#livestrip'),LV=LAYERS.find(l=>l.id==='live');if(topOn.has('news')&&clsOn[LV.cls]){ensure('live').then(()=>{if(!(topOn.has('news')&&clsOn[LV.cls]))return;lv.innerHTML=(state.live.data||[]).map(l=>`<li><a target=_blank rel=noopener href="${esc(links(l.popup)[0]?.[0]||'#')}">▶ ${esc(l.title)} ↗</a></li>`).join('');lv.hidden=false})}else lv.hidden=true}
  if(tab==='near')renderNear();if(tab==='int')renderInt();if(tab==='map'&&!TM.on)drawMap()}
@@ -329,7 +352,7 @@ $('#sclose').onclick=closeSheet;addEventListener('keydown',e=>{if(e.key==='Escap
 document.addEventListener('click',ev=>{const b=ev.target.closest('button.card');if(b)openDetail(+b.dataset.k)});
 let SFIPS={},OFFS=[];getJSON('data/counties.json').then(d=>Object.entries(d).forEach(([n,s])=>SFIPS[n]=s.fips)).catch(()=>{});getJSON('data/official_streams.json').then(d=>OFFS=d).catch(()=>{});
 /* tabs */
-function setTab(t){if(t!=='map'&&typeof TM!=='undefined'&&TM.play)tmPlay(false);if(tab!==t){document.body.classList.add('glitch');setTimeout(()=>document.body.classList.remove('glitch'),260)}tab=t;localStorage.setItem('eyemont.tab',t);document.querySelectorAll('#tabs button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.t===t)});
+function setTab(t){if(t!=='map'&&typeof TM!=='undefined'&&TM.on)tmSet(false);if(tab!==t){document.body.classList.add('glitch');setTimeout(()=>document.body.classList.remove('glitch'),260)}tab=t;localStorage.setItem('eyemont.tab',t);document.querySelectorAll('#tabs button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.t===t)});
  document.querySelectorAll('.view').forEach(v=>v.hidden=v.id!=='v-'+t);document.body.dataset.tab=t;render()}
 $('#tabs').onclick=e=>{const b=e.target.closest('button');if(b)setTab(b.dataset.t)};
 /* persistent filters: source class + topics */
@@ -408,7 +431,7 @@ function tmTick(){TM.cur+= (+$('#tms').value)*0.25/120;if(TM.cur>=1){TM.cur=1;tm
 function tmPlay(p){TM.play=p;clearInterval(TM.timer);TM.timer=p?setInterval(tmTick,250):null;const b=$('#tmplay');b.textContent=p?'❚❚':'▶';b.setAttribute('aria-label',p?'Pause replay':'Play replay')}
 function tmSet(on){TM.on=on;$('#tmon').setAttribute('aria-pressed',on);$('#tmon').textContent=on?'✕ EXIT REPLAY':'⏱ REPLAY';$('#tmc').hidden=!on;document.body.classList.toggle('tmon',on);
  if(on){map.removeLayer(mg);TM.g.addTo(map);TM.cur=0;tmBuild().then(()=>tmPlay(true))}else{tmPlay(false);map.removeLayer(TM.g);mg.addTo(map);$('#tmt').textContent='LIVE';drawMap()}}
-$('#tmon').onclick=()=>tmSet(!TM.on);$('#tmplay').onclick=()=>{if(TM.cur>=1)TM.cur=0;tmPlay(!TM.play)};
+$('#tmon').onclick=()=>tmSet(!TM.on);['#clsbar','#topics'].forEach(q=>$(q).addEventListener('click',e=>{if(TM.on&&e.target.closest('button')&&e.target.id!=='clsinfo'){tmPlay(false);setTimeout(tmBuild,0);toast('Replay stopped · filters changed')}}));$('#tmplay').onclick=()=>{if(TM.cur>=1)TM.cur=0;tmPlay(!TM.play)};
 $('#tmr').oninput=e=>{tmPlay(false);TM.cur=e.target.value/1000;tmDraw()};$('#tmw').onchange=()=>tmDraw();
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&TM.play)tmPlay(false)});
 /* ---------- shared helpers: stable incident ids ---------- */
@@ -420,6 +443,42 @@ const panes=['wp','about','cmd'];const openPane=id=>{panes.forEach(p=>$('#'+p).h
 document.querySelectorAll('.pane [data-close]').forEach(b=>b.onclick=()=>b.closest('.pane').hidden=true);
 addEventListener('keydown',e=>{if(e.key==='Escape')panes.forEach(p=>$('#'+p).hidden=true)});
 $('#ab').onclick=()=>openPane('about');$('#cmdb').onclick=()=>openPane('cmd');$('#wb').onclick=()=>openPane('wp');
+/* ---------- watch/near vocabulary: places + topics only ---------- */
+const CA={'BC':['British Columbia',{Victoria:[48.43,-123.37],Vancouver:[49.28,-123.12],Surrey:[49.19,-122.85],Burnaby:[49.25,-122.98],Kelowna:[49.89,-119.5],Kamloops:[50.67,-120.33],'Prince George':[53.92,-122.75],Nanaimo:[49.17,-123.94],Abbotsford:[49.05,-122.31]}],
+ 'AB':['Alberta',{Calgary:[51.05,-114.07],Edmonton:[53.55,-113.49],'Red Deer':[52.27,-113.81],'Fort McMurray':[56.73,-111.38],Lethbridge:[49.69,-112.84],Jasper:[52.87,-118.08],Banff:[51.18,-115.57]}],
+ 'SK':['Saskatchewan',{Saskatoon:[52.13,-106.67],Regina:[50.45,-104.61]}],'MB':['Manitoba',{Winnipeg:[49.9,-97.14],Brandon:[49.85,-99.95]}],
+ 'ON':['Ontario',{Toronto:[43.65,-79.38],Ottawa:[45.42,-75.7],Hamilton:[43.26,-79.87],London:[42.98,-81.25],Windsor:[42.31,-83.04],Kingston:[44.23,-76.49],Sudbury:[46.49,-80.99],'Thunder Bay':[48.38,-89.25],Mississauga:[43.59,-79.64],Brampton:[43.73,-79.76],Barrie:[44.39,-79.69]}],
+ 'QC':['Quebec',{Montreal:[45.5,-73.57],'Quebec City':[46.81,-71.21],Gatineau:[45.48,-75.7],Sherbrooke:[45.4,-71.89],Laval:[45.61,-73.71]}],
+ 'NS':['Nova Scotia',{Halifax:[44.65,-63.57],Sydney:[46.14,-60.19]}],'NB':['New Brunswick',{Moncton:[46.09,-64.78],Fredericton:[45.96,-66.64],'Saint John':[45.27,-66.06]}],
+ 'PE':['Prince Edward Island',{Charlottetown:[46.24,-63.13]}],'NL':["Newfoundland and Labrador",{"St. John's":[47.56,-52.71]}],'YT':['Yukon',{Whitehorse:[60.72,-135.06]}],'NT':['Northwest Territories',{Yellowknife:[62.45,-114.37]}],'NU':['Nunavut',{Iqaluit:[63.75,-68.52]}]};
+const USAB={AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'District of Columbia',PR:'Puerto Rico',GU:'Guam',VI:'U.S. Virgin Islands',AS:'American Samoa',MP:'Northern Mariana Islands'};
+const EVW=new Set(('fire fires wildfire wildfires brush forest grass structure house apartment building smoke flood floods flooding flash storm storms tornado tornadoes hurricane typhoon cyclone tropical hail blizzard snow ice icy winter wind winds heat heatwave cold freeze frost fog quake quakes earthquake earthquakes tremor aftershock tsunami volcano eruption lava ash shooting shootings shots gunfire stabbing explosion explosions blast crash crashes collision derailment wreck accident accidents traffic hazmat chemical gas leak spill toxic evacuation evacuations evacuate shelter lockdown protest protests rally march strike riot unrest outage outages blackout power internet cell network road roads closure closures closed bridge highway interstate airport flight flights delay delays ground stop rescue missing drowning landslide mudslide avalanche drought air quality advisory warning warnings watch emergency alert alerts police standoff manhunt pursuit sinkhole collapse water main break boil notice dispatch medical ambulance train rail transit subway bus ferry port shipping ship cyber outbreak disease weather radar severe thunderstorm lightning rain rainfall surge tide coastal erosion heat dust sand smog pollution radiation nuclear plant dam levee').split(' '));
+const EVSTOP=new Set('of in on at the a an and or near to for with from'.split(' '));
+let GAZ=null;const gazLoad=()=>GAZ||(GAZ=fetch('data/gaz.txt').then(r=>r.text()).then(t=>{const m=new Map();t.split('\n').forEach(l=>{const p=l.split('\t');if(p.length<3)return;m.set(p[0].toLowerCase(),[p[0],p.slice(2).map(x=>{const [st,ll]=x.split(':');const [la,lo]=ll.split(',').map(Number);return [st,la,lo]})])});return m}).catch(()=>new Map()));
+const title=s=>s.replace(/\b\w/g,c=>c.toUpperCase());
+/* resolve a place: state, allowlisted place, gazetteer place (unique bare name or 'Name ST' / 'Name, State'), Canadian 'City BC' */
+async function findPlace(q){q=q.trim().replace(/\s+/g,' ');if(!q)return null;const lc=q.toLowerCase();
+ const st=Object.keys(BBOX).find(s=>s.toLowerCase()===lc)||USAB[q.toUpperCase()];if(st&&BBOX[st]){const b=BBOX[st];return {st,name:st,lat:(b[0]+b[2])/2,lon:(b[1]+b[3])/2}}
+ const m=q.match(/^(.+?),?\s+([A-Za-z]{2}|[A-Za-z .]{4,})$/);
+ if(m){const ab=m[2].toUpperCase(),nm=m[1].toLowerCase();const caK=CA[ab]?ab:Object.keys(CA).find(k=>CA[k][0].toLowerCase()===m[2].toLowerCase());
+  if(caK){const c=Object.entries(CA[caK][1]).find(([k])=>k.toLowerCase()===nm);if(c)return {name:`${c[0]}, ${caK}`,lat:c[1][0],lon:c[1][1]}}
+  const usK=USAB[ab]?ab:Object.keys(USAB).find(k=>USAB[k].toLowerCase()===m[2].toLowerCase());
+  if(usK){const g=(await gazLoad()).get(nm);const e=g&&g[1].find(x=>x[0]===usK);if(e)return {name:`${g[0]}, ${usK}`,lat:e[1],lon:e[2]}}}
+ const p=PLACES.find(p=>p[0].toLowerCase()===lc);if(p)return {name:p[0],lat:p[1],lon:p[2]};
+ for(const k of Object.keys(CA)){const c=Object.entries(CA[k][1]).find(([n])=>n.toLowerCase()===lc);if(c&&!(await gazLoad()).has(lc))return {name:`${c[0]}, ${k}`,lat:c[1][0],lon:c[1][1]}}
+ const g=(await gazLoad()).get(lc);if(g){if(g[1].length===1){const e=g[1][0];return {name:`${g[0]}, ${e[0]}`,lat:e[1],lon:e[2]}}return {ambig:g[0],opts:g[1].map(x=>`${g[0]} ${x[0]}`)}}
+ return null}
+/* watch terms: only topics/event words or places. People (incl. public figures, handles, initials, 'Last, First') are refused. */
+const PEOPLEY=/@|#|^\s*[\w'’-]+\s*,\s*[\w'’-]+\s*$|\b[A-Z]\.\s*[A-Z]|\b(?:mr|mrs|ms|mx|dr|sen|rep|gov|pres|president|senator|mayor|minister)\.?\s/i;
+async function watchTerm(v){const raw=v.trim();if(raw.length<3)return {err:'Use 3+ letters'};
+ const hint='Watch a place (state, city, country) or a topic like fire, flood, power outage, road closure.';
+ if(PEOPLEY.test(raw)||/[a-z][A-Z]/.test(raw))return {err:'Watch events and places, not people. '+hint};
+ const lc=raw.toLowerCase(),words=lc.split(/\s+/).filter(w=>!EVSTOP.has(w));
+ if(words.length&&words.every(w=>EVW.has(w)))return {kind:'kw',v:lc};
+ const pl=await findPlace(raw);if(pl&&pl.st)return {kind:'state',v:pl.st};if(pl&&!pl.ambig)return {kind:'place',v:pl.name,lat:crs(pl.lat),lon:crs(pl.lon),r:50};
+ if(pl&&pl.ambig)return {err:`“${pl.ambig}” is in several states: try ${pl.opts.slice(0,3).join(', ')}`};
+ if(ALLOWS.has(title(lc))||[...ALLOWS].some(a=>a.toLowerCase()===lc))return {kind:'kw',v:lc};
+ return {err:'Not a known place or topic. '+hint}}
 /* ---------- 5) WATCHLISTS (localStorage, in-app alerts only) ---------- */
 let WL=JSON.parse(localStorage.getItem('eyemont.watch')||'[]'),WM=JSON.parse(sessionStorage.getItem('eyemont.wmatch')||'[]'),WSEEN=new Set(JSON.parse(sessionStorage.getItem('eyemont.wseen')||'[]')),wUnread=0,wPick=false;
 const wSave=()=>{localStorage.setItem('eyemont.watch',JSON.stringify(WL));sessionStorage.setItem('eyemont.wmatch',JSON.stringify(WM.slice(0,30)));sessionStorage.setItem('eyemont.wseen',JSON.stringify([...WSEEN].slice(-2000)))};
@@ -441,11 +500,10 @@ const wHint=()=>{const k=$('#wk').value,v=$('#wv');v.placeholder=k==='kw'?'keywo
  $('#wdl').innerHTML=k==='state'?Object.keys(BBOX).sort().map(s=>`<option value="${esc(s)}">`).join(''):k==='place'?PLACES.slice(0,400).map(p=>`<option value="${esc(p[0])}">`).join(''):'';$('#wadd').textContent=k==='pt'?'◎ PICK':'+ ADD'};
 $('#wk').onchange=wHint;
 function wAdd(w){w.id=hh(JSON.stringify(w)+Date.now());WL.push(w);wSave();FEED.forEach(e=>{if(wHit(w,e))WSEEN.add(w.id+':'+eid(e))});const n=FEED.filter(e=>wHit(w,e)).length;toast(`⚑ watching ${wLabel(w)} · ${n} current match${n===1?'':'es'} (new ones will alert)`);wRender()}
-const findPlace=q=>{q=q.trim().toLowerCase();const st=Object.keys(BBOX).find(s=>s.toLowerCase()===q);if(st){const b=BBOX[st];return {st,lat:(b[0]+b[2])/2,lon:(b[1]+b[3])/2}}const p=PLACES.find(p=>p[0].toLowerCase()===q)||PLACES.find(p=>p[0].toLowerCase().startsWith(q));return p?{name:p[0],lat:p[1],lon:p[2]}:null};
-$('#wf').onsubmit=ev=>{ev.preventDefault();const k=$('#wk').value,v=$('#wv').value.trim(),r=+$('#wr').value;
- if(k==='kw'){if(v.length<3)return toast('Keyword needs 3+ letters');if(nameLike(v.replace(/\b\w/g,c=>c.toUpperCase())))return toast('Watch events and places, not people');return wAdd({kind:'kw',v:v.toLowerCase()})}
- if(k==='state'){const st=Object.keys(BBOX).find(s=>s.toLowerCase()===v.toLowerCase());return st?wAdd({kind:'state',v:st}):toast('Pick a US state from the list')}
- if(k==='place'){const p=findPlace(v);return p?wAdd({kind:'place',v:p.name||p.st,lat:crs(p.lat),lon:crs(p.lon),r}):toast('Place not found in the gazetteer')}
+$('#wf').onsubmit=async ev=>{ev.preventDefault();const k=$('#wk').value,v=$('#wv').value.trim(),r=+$('#wr').value;
+ if(k==='kw'){const w=await watchTerm(v);return w.err?toast(w.err):wAdd(w)}
+ if(k==='state'){const st=Object.keys(BBOX).find(s=>s.toLowerCase()===v.toLowerCase())||USAB[v.toUpperCase()];return st?wAdd({kind:'state',v:st}):toast('Pick a US state from the list')}
+ if(k==='place'){const p=await findPlace(v);return p&&!p.ambig&&!p.st?wAdd({kind:'place',v:p.name,lat:crs(p.lat),lon:crs(p.lon),r}):p&&p.st?wAdd({kind:'state',v:p.st}):toast(p&&p.ambig?`“${p.ambig}” is in several states: try ${p.opts.slice(0,3).join(', ')}`:'Place not found. Try “Kokomo”, “Victoria BC” or “Springfield IL”.')}
  wPick=true;$('#wp').hidden=true;setTab('map');document.body.classList.add('picking');toast('Tap the map to set the watch centre (rounded to ~10 km)')};
 map.on('click',e=>{if(!wPick)return;wPick=false;document.body.classList.remove('picking');const la=crs(e.latlng.lat),lo=crs(e.latlng.lng);wAdd({kind:'pt',v:`◎ ${la.toFixed(1)}, ${lo.toFixed(1)}`,lat:la,lon:lo,r:+$('#wr').value});openPane('wp')});
 $('#wl').onclick=e=>{const b=e.target.closest('[data-del]');if(!b)return;WL.splice(+b.dataset.del,1);wSave();wRender()};
@@ -467,7 +525,7 @@ const _od=openDetail;openDetail=function(k){_od(k);const e=FEED[k];if(!e)return;
  sb.querySelector('h2').after(d);$('#shl').onclick=()=>doShare(e,'link');$('#shb').onclick=()=>doShare(e,'brief')};
 $('#sclose').onclick=()=>closeSheet();const _cs=closeSheet;closeSheet=function(){_cs();if(location.hash.startsWith('#i='))history.replaceState(null,'',location.pathname+location.search)};
 let hashDone=false;const T0=Date.now();function openHash(force){const h=new URLSearchParams(location.hash.slice(1));const id=h.get('i');if(!id){hashDone=true;return}const e=findE(id);if(e){hashDone=true;if(sheet.hidden||$('#exhd'))openDetail(FEED.indexOf(e));return}if(!force&&Date.now()-T0<8000)return;hashDone=true;
- const ll=(h.get('ll')||'').split(',').map(Number),t=+h.get('t')*6e4,ty=h.get('ty')||'event',pl=h.get('p')||'';const near=ll.length===2&&!isNaN(ll[0])?FEED.filter(x=>km(x.lat,x.lon,ll[0],ll[1])<50&&Math.abs(x.first-t)<6*36e5).slice(0,5):[];
+ const ll=(h.get('ll')||'').split(',').map(Number),t=+h.get('t')*6e4,ty=/^[a-z]{2,16}$/.test(h.get('ty')||'')?h.get('ty'):'event',pl=maskNames((h.get('p')||'').slice(0,60));const near=ll.length===2&&!isNaN(ll[0])?FEED.filter(x=>km(x.lat,x.lon,ll[0],ll[1])<50&&Math.abs(x.first-t)<6*36e5).slice(0,5):[];
  sb.innerHTML=`<p class="kick" id="exhd">⌛ EXPIRED LINK</p><h2 id="stitle">This incident is no longer in the live feed</h2><p class="meta">${esc(ty.toUpperCase())} · ◎ ${esc(pl||ll.join(', '))}${t?` · ⏱ ${tzt(t)}`:''}</p><p class="note">Eyemont keeps a rolling window (6–24 h). The original sources may still be online.</p>
  ${near.length?`<h3>STILL LIVE NEARBY</h3><ul class="sl">${near.map(x=>`<li><button class="btn wmh" data-k="${FEED.indexOf(x)}">${esc(maskNames(x.head).slice(0,80))}</button></li>`).join('')}</ul>`:''}
  <p>${ll.length===2&&!isNaN(ll[0])?`<button class="btn" id="exmap">◎ SHOW AREA ON MAP</button> `:''}${t&&Date.now()-t<864e5?'<button class="btn" id="exrep">⏱ REPLAY THAT TIME</button>':''}</p>`;
@@ -476,10 +534,15 @@ let hashDone=false;const T0=Date.now();function openHash(force){const h=new URLS
  $('#exrep')&&($('#exrep').onclick=()=>{closeSheet();setTab('map');$('#tmw').value='24';tmSet(true);setTimeout(()=>{tmPlay(false);TM.cur=Math.max(0,1-(Date.now()-t)/864e5);tmDraw();map.flyTo(ll,6)},400)})}
 addEventListener('hashchange',()=>openHash(true));setTimeout(()=>{if(!hashDone)openHash(true)},9000);
 /* ---------- 7) OFFLINE banner + service worker ---------- */
-function offUI(){const b=$('#offb'),off=!navigator.onLine;if(!off&&FEED.length)localStorage.setItem('eyemont.snap',Date.now());const s=+localStorage.getItem('eyemont.snap')||0;
+function offUI(){setTimeout(()=>offLay(),0);const b=$('#offb'),off=!navigator.onLine;if(!off&&FEED.length)localStorage.setItem('eyemont.snap',Date.now());const s=+localStorage.getItem('eyemont.snap')||0;
  b.hidden=!off;if(off)b.textContent=`OFFLINE · snapshot from ${s?tzt(s):'unknown time'}${s&&Date.now()-s>36e5?' · '+ago(s/1000):''}`;document.body.classList.toggle('offline',off)}
-addEventListener('online',offUI);addEventListener('offline',offUI);
-if('serviceWorker' in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('sw.js').catch(()=>{});
+function offLay(){const b=$('#offb'),hd=document.querySelector('header'),M=[document.querySelector('main'),$('#map')];if(b.hidden){M.forEach(x=>x&&(x.style.top=''));return}
+ const z=hd.getBoundingClientRect().bottom;M.forEach(x=>x&&(x.style.top=z+'px'))}
+addEventListener('resize',()=>{if(!navigator.onLine)offLay()});
+addEventListener('online',()=>{offUI();render()});addEventListener('offline',()=>{offUI();render()});
+if('serviceWorker' in navigator&&location.protocol!=='file:'){const had=!!navigator.serviceWorker.controller;navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).then(r=>{setInterval(()=>r.update().catch(()=>{}),30*6e4)}).catch(()=>{});
+ navigator.serviceWorker.addEventListener('controllerchange',()=>{if(!had)return;const u=$('#upd');u.hidden=false})}
+$('#upd').onclick=()=>location.reload();
 /* ---------- 8) COMMAND BAR ---------- */
 const TOPW={fire:'fire',fires:'fire',quake:'quakes',quakes:'quakes',weather:'weather',crime:'crime','911':'crime',transport:'transport',air:'transport',outages:'outages',outage:'outages',news:'news',crowd:'crowd'};
 const CMDS=[['help','list commands'],['near ','<place|state>'],['fire','topic'],['quake','topic'],['weather','topic'],['crime','topic'],['transport','topic'],['outages','topic'],['news','topic'],['all','clear filters'],['uncovered','coverage gap view'],['official','official-only view'],['replay ','6h|12h|24h'],['watch ','<keyword>'],['watches','open watchlists'],['intercept',' [search]'],['map','map tab'],['now','now tab'],['about','mirrors & limits']];
@@ -489,15 +552,15 @@ function cmdHints(v){const q=v.toLowerCase();let h=[];const [c,...r]=q.split(' '
  else h=CMDS.filter(([k])=>k.startsWith(q)||!q).slice(0,q?6:20);
  $('#cmdh').innerHTML=h.map(([k,d])=>`<button type="button" data-c="${esc(k)}">${esc(k)}${d?` <small>${esc(d)}</small>`:''}</button>`).join('')}
 const say=t=>$('#cmdo').textContent=t;
-function runCmd(raw){const v=raw.trim().replace(/^>\s*/,''),[c0,...r]=v.split(/\s+/),c=(c0||'').toLowerCase(),arg=r.join(' ');const done=t=>{toast('> '+v+' · '+t);$('#cmd').hidden=true};
+async function runCmd(raw){const v=raw.trim().replace(/^>\s*/,''),[c0,...r]=v.split(/\s+/),c=(c0||'').toLowerCase(),arg=r.join(' ');const done=t=>{toast('> '+v+' · '+t);say('');$('#cmd').hidden=true};
  if(!c||c==='help'){say(CMDS.map(([k,d])=>(k+' '+d).padEnd(28)).join('\n'));return}
  if(TOPW[c]){topOn.clear();topOn.add(TOPW[c]);$('#topics [data-p=""]').click();$(`#topics [data-p="${TOPW[c]}"]`).click();if(tab==='near'||tab==='int'){}else setTab(tab==='map'?'map':'now');return done('topic '+TOPW[c])}
  if(c==='all'){$('#topics [data-p=""]').click();seg='all';sessionStorage.setItem('eyemont.seg',seg);render();return done('filters cleared')}
  if(c==='uncovered'||c==='gap'||c==='official'){setTab('now');$(`#seg [data-v="${c==='official'?'off':'gap'}"]`).click();return done(c==='official'?'OFFICIAL ONLY':'COVERAGE GAP')}
- if(c==='near'){if(!arg)return say('usage: near <place|state>');const st=Object.keys(BBOX).find(s=>s.toLowerCase()===arg.toLowerCase());if(st){near=st;localStorage.setItem('eyemont.near',st);setTab('near');return done('NEAR '+st)}
-  const p=findPlace(arg);if(!p)return say(`no place “${arg}” in the gazetteer`);setTab('map');setTimeout(()=>map.flyTo([p.lat,p.lon],8),80);return done('map → '+(p.name||p.st))}
+ if(c==='near'){if(!arg)return say('usage: near <place|state>');const p=await findPlace(arg);if(p&&p.st){near=p.st;localStorage.setItem('eyemont.near',p.st);setTab('near');return done('NEAR '+p.st)}
+  if(!p)return say(`no place “${arg}” found · try a state, “Kokomo”, “Victoria BC”`);if(p.ambig)return say(`“${p.ambig}” is in several states: ${p.opts.slice(0,6).join(', ')}`);setTab('map');setTimeout(()=>map.flyTo([p.lat,p.lon],9),80);return done('map → '+p.name)}
  if(c==='replay'){const w=parseInt(arg)||24;if(![6,12,24].includes(w))return say('usage: replay 6h|12h|24h');setTab('map');$('#tmw').value=String(w);if(TM.on){TM.cur=0;tmPlay(true)}else tmSet(true);return done(`replay ${w}h`)}
- if(c==='watch'){if(arg.length<3)return say('usage: watch <keyword> (3+ letters)');if(nameLike(arg.replace(/\b\w/g,x=>x.toUpperCase())))return say('watch events and places, not people');wAdd({kind:'kw',v:arg.toLowerCase()});$('#cmd').hidden=true;return}
+ if(c==='watch'){const w=await watchTerm(arg);if(w.err)return say(w.err);wAdd(w);say('');$('#cmd').hidden=true;return}
  if(c==='watches'){openPane('wp');return}if(c==='about'){openPane('about');return}
  if(c==='intercept'){setTab('int');$('#iq').value=arg;$('#iq').dispatchEvent(new Event('input'));return done('intercept'+(arg?' “'+arg+'”':''))}
  if(['map','now','near'].includes(c)){setTab(c);return done(c)}
@@ -509,5 +572,5 @@ $('#cmdf').onsubmit=e=>{e.preventDefault();runCmd($('#cmdi').value)};
 addEventListener('keydown',e=>{if(e.key==='>'&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();openPane('cmd')}});
 setTab(tab);
 window.__feed=()=>FEED.slice(0,10).map(e=>({k:e.kind,t:e.type,h:e.head,c:e.conf,s:e.src,p:where(e)}));
-window.__t={tz:()=>TZL,stateOf:(a,b)=>stateOf(a,b),ready:()=>STATES_OK};
+window.__t={mask:t=>maskNames(t),watch:v=>watchTerm(v),place:q=>findPlace(q),tz:()=>TZL,stateOf:(a,b)=>stateOf(a,b),ready:()=>STATES_OK};
 })();
