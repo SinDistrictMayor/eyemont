@@ -182,6 +182,9 @@ let LOWW=new Set();
 const isTitleCase=t=>{const w=t.match(/\b[A-Za-z][a-z'’]+\b/g)||[];return w.length>3&&w.filter(x=>/^[A-Z]/.test(x)).length/w.length>.6};
 const EVN=/^(?:Fire|Fires|Complex|Storm|Hurricane|Tropical|Typhoon|Cyclone|Flood|Floods|Quake|Earthquake|Tornado|Blaze|Wildfire|Bridge|Dam|River|Creek|Lake|Park|County|Road|Street|Avenue|Highway|Airport|School|High|University|College|Hospital|Center|Department|Police|Sheriff)$/;
 /* allowlist: countries, territories, US states, major places — never masked */
+/* public figures (data/public_figures.txt, Wikidata CC0): not masked; watchable as news/post keywords only, never located */
+const PF=new Set();const PF_OK=fetch('data/public_figures.txt').then(r=>r.text()).then(t=>t.split('\n').forEach(x=>{x=x.trim();if(x&&x[0]!=='#')PF.add(x.toLowerCase())})).catch(()=>{});
+const isPF=w=>PF.has(w.trim().replace(/\s+/g,' ').toLowerCase());
 let ALLOW=null,ALLOWS=new Set();const ALLOW_OK=fetch('data/allow.txt').then(r=>r.text()).then(t=>{const a=t.split('\n').map(s=>s.trim()).filter(Boolean);a.forEach(x=>ALLOWS.add(x));ALLOW=new RegExp('(?<![\\w])(?:'+a.sort((x,y)=>y.length-x.length).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?![\\w])','gi')}).catch(()=>{});
 const allowSpans=t=>{const r=[];if(ALLOW){ALLOW.lastIndex=0;for(const m of t.matchAll(ALLOW))r.push([m.index,m.index+m[0].length])}return r};
 const ACR=new Set('USGS FEMA NWS NOAA NASA FAA FBI CIA DHS ICE ATF DEA EPA CDC WHO UN NATO EU UK US USA UAE NYPD LAPD NYFD FDNY CHP DOT TFR NWPS SWPC IODA GDACS EONET FIRMS BBC CNN NBC ABC CBS NPR PBS AP AFP RT TV PM AM ET PT CT MT UTC GMT EST PST CST MST EDT PDT CDT MDT KM MPH GOP DNC RNC NFL NBA MLB NHL MLS NCAA UFC LIVE BREAKING UPDATE NEWS WATCH VIDEO ALERT WARNING NEW UPDATED EXCLUSIVE OPINION ANALYSIS'.split(' '));
@@ -211,6 +214,9 @@ const maskNames=t=>{if(!t)return t;
  /* lowercase 'john smith' (known first name + non-common word) */
  for(const m of t.matchAll(/(?<![\w'’-])([a-z]{3,})\s+([a-z][a-z'’-]{2,})(?![\w'’-])/g)){const f=m[1],l=m[2];if(COMMONFN.has(f)||STOP.has(l)||WSTOP.has(l)||Object.values(LEX).some(r=>r.test(l)))continue;
   if(!Crowd.nameCI(f+' '+l))continue;const s0=m.index,e0=s0+m[0].length;if(cut.some(([x,y])=>s0<y&&e0>x))continue;cut.push([s0,e0])}
+ /* 'Last, First' */
+ for(const m of sh.matchAll(/(?<![\w'’-])([A-Z][a-z'’-]+),\s+([A-Z][a-z]+)(?![\w'’-])/g)){const s0=m.index,e0=s0+m[0].length;if(cut.some(([x,y])=>s0<y&&e0>x)||inA(s0,e0)||!Crowd.nameCI(m[2]+' '+m[1])||ORGW.test(m[1])||STP.some(x=>x.n===m[2]))continue;cut.push([s0,e0])}
+ for(let k=cut.length-1;k>=0;k--){const w=t.slice(cut[k][0],cut[k][1]);if(isPF(w)||isPF(w.replace(/^(?:Mr|Mrs|Ms|Dr|Sen|Rep|Gov|Pres|President)\.?\s+/i,'')))cut.splice(k,1)}
  cut.sort((x,y)=>x[0]-y[0]);for(let k=cut.length-1;k>=0;k--)t=t.slice(0,cut[k][0])+'[name]'+t.slice(cut[k][1]);return t};
 const maskHtml=h=>typeof h==='string'?h.replace(/>([^<]+)</g,(m,t)=>'>'+maskNames(t)+'<').replace(/^([^<]+)/,(m,t)=>maskNames(t)):h;
 const html=i=>maskHtml(rawHtml(i));
@@ -394,7 +400,7 @@ LAYERS.forEach(Ly=>{if(state[Ly.id].on){map.attributionControl.addAttribution(Ly
 map.attributionControl.addAttribution('Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>');
 window.addEventListener('eyemont:hidden',()=>refresh(LAYERS.find(l=>l.id==='crowd')));
 const ns=$('#nearsel');getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>ns.add(new Option(k,k)));
- if(!near){const g=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone];if(g&&BBOX[g[0]]){near=g[0];nearGuess=g}}Promise.all([PLACE_OK,STATES_OK,ALLOW_OK]).then(build)}).catch(()=>{});
+ if(!near){const g=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone];if(g&&BBOX[g[0]]){near=g[0];nearGuess=g}}Promise.all([PLACE_OK,STATES_OK,ALLOW_OK,PF_OK]).then(build)}).catch(()=>{});
 ns.onchange=()=>{near=ns.value;localStorage.setItem('eyemont.near',near);render()};
 setInterval(()=>tab!=='map'&&render(),60e3);
 /* ---------- SIGNAL INTERCEPT: raw chronological firehose (names masked, DOM capped) ---------- */
@@ -472,7 +478,8 @@ async function findPlace(q){q=q.trim().replace(/\s+/g,' ');if(!q)return null;con
 const PEOPLEY=/@|#|^\s*[\w'’-]+\s*,\s*[\w'’-]+\s*$|\b[A-Z]\.\s*[A-Z]|\b(?:mr|mrs|ms|mx|dr|sen|rep|gov|pres|president|senator|mayor|minister)\.?\s/i;
 async function watchTerm(v){const raw=v.trim();if(raw.length<3)return {err:'Use 3+ letters'};
  const hint='Watch a place (state, city, country) or a topic like fire, flood, power outage, road closure.';
- if(PEOPLEY.test(raw)||/[a-z][A-Z]/.test(raw))return {err:'Watch events and places, not people. '+hint};
+ await PF_OK;if(isPF(raw))return {kind:'pf',v:raw.replace(/\s+/g,' ')}; /* public figure: news/post text only */
+ if(PEOPLEY.test(raw)||/[a-z][A-Z]/.test(raw))return {err:'Watch events, places or well-known public figures, not private people. '+hint};
  const lc=raw.toLowerCase(),words=lc.split(/\s+/).filter(w=>!EVSTOP.has(w));
  if(words.length&&words.every(w=>EVW.has(w)))return {kind:'kw',v:lc};
  const pl=await findPlace(raw);if(pl&&pl.st)return {kind:'state',v:pl.st};if(pl&&!pl.ambig)return {kind:'place',v:pl.name,lat:crs(pl.lat),lon:crs(pl.lon),r:50};
@@ -483,17 +490,18 @@ async function watchTerm(v){const raw=v.trim();if(raw.length<3)return {err:'Use 
 let WL=JSON.parse(localStorage.getItem('eyemont.watch')||'[]'),WM=JSON.parse(sessionStorage.getItem('eyemont.wmatch')||'[]'),WSEEN=new Set(JSON.parse(sessionStorage.getItem('eyemont.wseen')||'[]')),wUnread=0,wPick=false;
 const wSave=()=>{localStorage.setItem('eyemont.watch',JSON.stringify(WL));sessionStorage.setItem('eyemont.wmatch',JSON.stringify(WM.slice(0,30)));sessionStorage.setItem('eyemont.wseen',JSON.stringify([...WSEEN].slice(-2000)))};
 const crs=v=>Math.round(v*10)/10;
-const wLabel=w=>w.kind==='kw'?`KEYWORD “${w.v}”`:w.kind==='state'?`STATE ${w.v}`:`${w.v} · ${w.r} km`;
-const wHit=(w,e)=>{if(w.kind==='kw'){const q=w.v.toLowerCase();return e.m.some(x=>(x.i.title||x.i.text||'').toLowerCase().includes(q))||(e.type||'').includes(q)}
+const wLabel=w=>w.kind==='pf'?`PUBLIC FIGURE “${w.v}” · news text only`:w.kind==='kw'?`KEYWORD “${w.v}”`:w.kind==='state'?`STATE ${w.v}`:`${w.v} · ${w.r} km`;
+const wHit=(w,e)=>{if(w.kind==='pf'){const q=w.v.toLowerCase(),re=new RegExp('(?<![\\w])'+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'(?![\\w])','i');return e.m.some(x=>re.test((x.i.title||'')+' '+(x.i.text||'')))}
+ if(w.kind==='kw'){const q=w.v.toLowerCase();return e.m.some(x=>(x.i.title||x.i.text||'').toLowerCase().includes(q))||(e.type||'').includes(q)}
  if(w.kind==='state')return e.st===w.v;return km(w.lat,w.lon,e.lat,e.lon)<=w.r};
 function wBadge(){const b=$('#wbadge');b.hidden=!wUnread;b.textContent=wUnread>99?'99+':wUnread;$('#wb').setAttribute('aria-label',`Watchlists${wUnread?', '+wUnread+' new matches':''}`)}
 function wCheck(){if(!WL.length)return;const fresh=[];FEED.forEach(e=>{const id=eid(e);WL.forEach(w=>{const k=w.id+':'+id;if(WSEEN.has(k)||!wHit(w,e))return;WSEEN.add(k);fresh.push([w,e])})});
- if(!fresh.length)return;fresh.forEach(([w,e])=>WM.unshift({id:eid(e),h:maskNames(e.head),w:wLabel(w),t:Date.now()}));WM=WM.slice(0,30);wUnread+=fresh.length;wBadge();wSave();
- const [w,e]=fresh[0];toast(`⚑ ${wLabel(w)}: ${maskNames(e.head).slice(0,70)}${fresh.length>1?` (+${fresh.length-1} more)`:''}`);
+ if(!fresh.length)return;fresh.forEach(([w,e])=>{if(w.kind==='pf'){const q=w.v.toLowerCase(),it=e.m.find(x=>((x.i.title||'')+' '+(x.i.text||'')).toLowerCase().includes(q))||e.m[0];WM.unshift({pf:1,u:it.i.link||it.i.url||'',h:maskNames(it.i.title||it.i.text||''),w:wLabel(w),t:Date.now()})}else WM.unshift({id:eid(e),h:maskNames(e.head),w:wLabel(w),t:Date.now()})});WM=WM.slice(0,30);wUnread+=fresh.length;wBadge();wSave();
+ const [w,e]=fresh[0];toast(`⚑ ${wLabel(w)}: ${(WM[fresh.length-1]||{}).h?.slice(0,70)||''}${fresh.length>1?` (+${fresh.length-1} more)`:''}`);
  if(navigator.vibrate&&localStorage.getItem('eyemont.vib')!=='0')try{navigator.vibrate([60,40,60])}catch(_){}
  if(window.Notification&&Notification.permission==='granted'&&localStorage.getItem('eyemont.notify')==='1')try{new Notification('Eyemont · '+wLabel(w),{body:maskNames(e.head).slice(0,120)+(fresh.length>1?` (+${fresh.length-1} more)`:''),icon:'icons/icon-192.png',tag:'eyemont-watch'})}catch(_){}}
 function wRender(){wUnread=0;wBadge();$('#wl').innerHTML=WL.length?WL.map((w,i)=>`<li><span>${esc(wLabel(w))}</span><button data-del="${i}" aria-label="Remove watch ${esc(wLabel(w))}">✕</button></li>`).join(''):'<li class="empty">No watches yet.</li>';
- $('#wm').innerHTML=WM.length?WM.map(m=>`<li><button class="wmh" data-id="${m.id}"><small>${esc(m.w)} · ${tzt(m.t)}</small>${esc(m.h)}</button></li>`).join(''):'<li class="empty">No matches yet.</li>';
+ $('#wm').innerHTML=WM.length?WM.map(m=>m.pf?`<li><a class="wmh" href="${esc(/^https?:/.test(m.u)?m.u:'#')}" target="_blank" rel="noopener"><small>${esc(m.w)} · ${tzt(m.t)}</small>${esc(m.h)} ↗</a></li>`:`<li><button class="wmh" data-id="${m.id}"><small>${esc(m.w)} · ${tzt(m.t)}</small>${esc(m.h)}</button></li>`).join(''):'<li class="empty">No matches yet.</li>';
  const n=$('#wnot'),ok=!!window.Notification;const on=ok&&Notification.permission==='granted'&&localStorage.getItem('eyemont.notify')==='1';n.setAttribute('aria-pressed',on);n.textContent=on?'🔔 NOTIFICATIONS ON':'🔔 ENABLE NOTIFICATIONS';n.disabled=!ok;
  $('#wns').textContent=!ok?'Browser notifications not supported here; toasts + badge still work.':Notification.permission==='denied'?'Blocked in browser settings.':'Only while Eyemont is open.'}
 const wHint=()=>{const k=$('#wk').value,v=$('#wv');v.placeholder=k==='kw'?'keyword, e.g. wildfire':k==='state'?'state, e.g. Texas':k==='place'?'place, e.g. Houston':'tap PICK, then the map';$('#wr').hidden=k==='kw'||k==='state';
@@ -572,5 +580,5 @@ $('#cmdf').onsubmit=e=>{e.preventDefault();runCmd($('#cmdi').value)};
 addEventListener('keydown',e=>{if(e.key==='>'&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();openPane('cmd')}});
 setTab(tab);
 window.__feed=()=>FEED.slice(0,10).map(e=>({k:e.kind,t:e.type,h:e.head,c:e.conf,s:e.src,p:where(e)}));
-window.__t={mask:t=>maskNames(t),watch:v=>watchTerm(v),place:q=>findPlace(q),tz:()=>TZL,stateOf:(a,b)=>stateOf(a,b),ready:()=>STATES_OK};
+window.__t={pfReady:()=>PF_OK.then(()=>PF.size),mask:t=>maskNames(t),watch:v=>watchTerm(v),place:q=>findPlace(q),tz:()=>TZL,stateOf:(a,b)=>stateOf(a,b),ready:()=>STATES_OK};
 })();
