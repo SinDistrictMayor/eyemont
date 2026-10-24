@@ -22,6 +22,8 @@ jobs:
         run: python3 .github/dispatch_snapshot.py || true
       - name: Hazards snapshot
         run: python3 .github/hazards_snapshot.py || true
+      - name: Replay history (rolling 24h, read back from the live site, pruned; nothing committed)
+        run: python3 .github/history_snapshot.py || true
       - name: Guard - contact email must not be in the site bundle
         run: '[ -z "$CONTACT_EMAIL" ] || ! grep -rIqiF "$CONTACT_EMAIL" --exclude-dir=.git .'
       - uses: actions/configure-pages@v5

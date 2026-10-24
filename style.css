@@ -138,3 +138,20 @@ body.glitch main{animation:glt .26s steps(2)}@keyframes glt{0%{transform:transla
 .dc.cls-official{border-top:3px solid var(--off)}.dc.cls-major{border-top:3px solid var(--maj)}.dc.cls-independent{border-top:3px solid var(--ind)}
 .dc p{margin:6px 0;color:#e6ffe9}.dc small{color:#9cc9a7;font-size:10px}.dc .none{color:#c8a0a0;font-weight:700}
 .dc mark{background:#2a3a00;color:#fff;outline:1px solid #6b8f00}
+
+/* intercept */
+#ibar{display:flex;gap:6px;padding:8px 10px 0}#iq{flex:1;min-height:44px;background:#000;border:1px solid var(--d);color:var(--g);font:13px ui-monospace,monospace;padding:0 10px;border-radius:2px}
+#ipause,#imore,#inew{min-height:44px;background:#000;border:1px solid var(--g);color:var(--g);font:700 12px ui-monospace,monospace;padding:0 12px;border-radius:2px}
+#ipause[aria-pressed=true]{background:#2a1f00;border-color:#ffd400;color:#ffd400}
+#inew{display:block;width:calc(100% - 20px);margin:8px 10px 0;background:#062010;animation:none}#inew[hidden]{display:none}#imore{display:block;margin:8px auto 16px}
+.ilist{list-style:none;margin:4px 0 0;padding:0 6px;font:12px/1.35 ui-monospace,monospace}
+.ilist li{display:grid;grid-template-columns:auto auto 1fr;gap:2px 6px;padding:6px 4px;border-bottom:1px solid #0a2a12;border-left:2px solid var(--tc);content-visibility:auto;contain-intrinsic-size:auto 44px}
+.ilist .it{color:#9cc9a7}.ilist .isrc{color:var(--tc);font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ilist .ih{grid-column:1/-1;color:#e6ffe9}.ilist .ih a{color:#e6ffe9;text-decoration:none;display:block;min-height:24px}.ilist .ipl{color:#8fbf9a}
+.ilist .cls{font-size:10px;padding:0 4px}
+#tabs button{font-size:11px;letter-spacing:.06em}
+/* time machine */
+#tm{position:fixed;left:6px;right:6px;bottom:calc(var(--tab) + var(--sb) + 52px);z-index:1200;display:none;flex-wrap:wrap;gap:6px;align-items:center;background:rgba(0,8,3,.92);border:1px solid var(--d);padding:6px;border-radius:3px}
+body[data-tab=map] #tm{display:flex}#tm button,#tm select{min-height:44px;min-width:44px;background:#000;border:1px solid var(--g);color:var(--g);font:700 12px ui-monospace,monospace;border-radius:2px;padding:0 8px}
+#tmc{display:flex;flex:1 1 100%;gap:6px;align-items:center;order:3}#tmc[hidden]{display:none}#tmr{flex:1;min-width:0;height:44px;accent-color:#00ff41}
+#tmt{color:#e6ffe9;font-size:12px;flex:1;text-align:right}body.tmon #tmon{border-color:#ffd400;color:#ffd400}
+#tm select{flex:0 0 auto;width:64px;padding:0 4px}#tmr{flex:1 1 auto}
