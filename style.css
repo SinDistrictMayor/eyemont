@@ -182,4 +182,9 @@ body[data-tab=map] #tm{display:flex}#tm button,#tm select{min-height:44px;min-wi
 .cmdh{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.cmdh button{min-height:44px;background:#000;border:1px solid var(--d);color:#e6ffe9;font:13px ui-monospace,monospace;padding:0 10px;border-radius:2px}.cmdh small{color:#9cc9a7}
 #cmdo{white-space:pre-wrap;font-size:12px;color:#d8ffe0;margin:0}
 .dc.cls-official,.dc.cls-major,.dc.cls-independent{background:#000;color:#d8ffe0;font-weight:400}
-body.offline main,body.offline #map{top:calc(var(--hd) + var(--st) + 30px)}
+/* QA fixes */
+#hf.bad{color:#ffd400}
+.ilist .ih a{min-height:44px;display:flex;align-items:center}
+#map .leaflet-control-attribution,#map .leaflet-control-attribution a{font-size:12px!important}
+#upd{position:fixed;left:10px;right:10px;bottom:calc(var(--tab) + var(--sb) + 10px);z-index:4000;min-height:44px;background:#062010;border:1px solid var(--g);color:var(--g);font:700 13px ui-monospace,monospace}#upd[hidden]{display:none}
+#offb{position:relative!important;top:0!important;height:30px;box-sizing:border-box;padding:0 10px;line-height:30px}

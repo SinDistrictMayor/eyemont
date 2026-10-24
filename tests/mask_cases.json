@@ -1,0 +1,129 @@
+{
+ "mask": [
+  [
+   "Kohen Wiley found safe after search",
+   "[name] found safe after search"
+  ],
+  [
+   "JOHN SMITH ARRESTED AFTER CHASE",
+   "[name] ARRESTED AFTER CHASE"
+  ],
+  [
+   "police say john smith was taken into custody",
+   "police say [name] was taken into custody"
+  ],
+  [
+   "Mary-Jane Watson injured in crash",
+   "[name] injured in crash"
+  ],
+  [
+   "Officers say Patrick O'Brien fled the scene",
+   "Officers say [name] fled the scene"
+  ],
+  [
+   "Georgia Smith rescued from floodwaters",
+   "[name] rescued from floodwaters"
+  ],
+  [
+   "Kim Jong Un oversees missile launch",
+   "[name] oversees missile launch"
+  ],
+  [
+   "Ms. Jones told reporters the road was closed",
+   "[name] told reporters the road was closed"
+  ],
+  [
+   "J. Smith was cited by troopers",
+   "[name] was cited by troopers"
+  ],
+  [
+   "M2.1 9 km N of Warner Springs, CA",
+   "M2.1 9 km N of Warner Springs, CA"
+  ],
+  [
+   "Brush fire near Rancho Cucamonga spreads",
+   "Brush fire near Rancho Cucamonga spreads"
+  ],
+  [
+   "Flooding in Costa Rica displaces hundreds",
+   "Flooding in Costa Rica displaces hundreds"
+  ],
+  [
+   "Green · Earthquake in Vanuatu Islands",
+   "Green · Earthquake in Vanuatu Islands"
+  ],
+  [
+   "Forest fires in Papua New Guinea",
+   "Forest fires in Papua New Guinea"
+  ],
+  [
+   "Forest fires in Niger, Burkina Faso",
+   "Forest fires in Niger, Burkina Faso"
+  ],
+  [
+   "Earthquake in Eastern Gulf Of Aden",
+   "Earthquake in Eastern Gulf Of Aden"
+  ],
+  [
+   "Sierra Leone floods kill 12",
+   "Sierra Leone floods kill 12"
+  ],
+  [
+   "Aspen Acres Fire grows to 2,000 acres",
+   "Aspen Acres Fire grows to 2,000 acres"
+  ],
+  [
+   "USGS FEMA NWS update",
+   "USGS FEMA NWS update"
+  ],
+  [
+   "SEVERE THUNDERSTORM WARNING FOR LOS ANGELES COUNTY",
+   "SEVERE THUNDERSTORM WARNING FOR LOS ANGELES COUNTY"
+  ],
+  [
+   "Winter Storm Warning issued for New Hampshire",
+   "Winter Storm Warning issued for New Hampshire"
+  ],
+  [
+   "Ground stop at Newark Liberty",
+   "Ground stop at Newark Liberty"
+  ],
+  [
+   "Mark the date: road closures downtown",
+   "Mark the date: road closures downtown"
+  ]
+ ],
+ "watch_refuse": [
+  "Musk",
+  "trump",
+  "putin",
+  "TRUMP",
+  "Élon Müsk",
+  "Smith, John",
+  "J. Smith",
+  "Ms. Jones",
+  "@elonmusk",
+  "ElonMusk",
+  "AOC",
+  "John Smith",
+  "Kohen Wiley",
+  "Jordan Smith",
+  "jordan"
+ ],
+ "watch_accept": [
+  "Costa Rica",
+  "Sierra Leone",
+  "power outage",
+  "Victoria BC",
+  "Kokomo",
+  "wildfire",
+  "road closure",
+  "earthquake",
+  "Georgia",
+  "California",
+  "Springfield IL",
+  "flood",
+  "shooting",
+  "evacuation"
+ ]
+}

@@ -4,6 +4,11 @@ import json,re,urllib.request,urllib.parse,datetime,os,concurrent.futures as cf
 UA={'User-Agent':'Eyemont/1.0 (https://github.com/SinDistrictMayor/eyemont'+(('; '+os.environ['CONTACT_EMAIL']) if os.environ.get('CONTACT_EMAIL') else '')+')'}
 ALLOW=re.compile(r"fire|alarm|smoke|brush|grass|vegetation|wildland|hazmat|haz-?mat|hazardous|gas leak|odor of gas|natural gas|gas odor|collision|crash|accident|traffic hazard|trfc hazd|traffic (?:incident|collision|accident)|transportation incident|road hazard|roadway|debris|power line|wires? down|line down|tree down|tree in road|water rescue|swift water|flood|electrical|transformer|explosion|fuel spill|spill|lightning|outside fire|vehicle fire|dumpster",re.I)
 DENY=re.compile(r"firearm|discharg|hold ?up|traffic stop|violation|\*\*pd|\bpd\b|assist|medic|\bems\b|\baid\b|injur|\bpi\b|w/i|fatal|death|dead|doa|assault|missing|coroner|domestic|\bdv\b|sex|rape|crisis|mental|suicid|overdose|\bod\b|person|child|juvenile|welfare|shoot|shot|stab|weapon|fight|disturb|ambulance|cardiac|breath|fall|sick|trauma|pedestrian|trapped|victim|burglar|theft|robbery|intox|dui|hit and run|hit & run|patient|unconscious|lift assist|elevator rescue|police|arrest|warrant|suspicious|threat|harass|stalk|abuse|neglect|kidnap|abduct|psych|bomb threat|alarm.*(panic|holdup|duress)|(panic|holdup|duress).*alarm",re.I)
+import re as _re
+def GENERIC(t):
+    """Genericize call types that imply a trapped/injured person."""
+    if _re.search(r'extricat|entrap|pinned|trapped|injur|ejected|fatal|rollover with', t, _re.I): return 'Traffic accident' if _re.search(r'accident|crash|collision|vehicle|mva|tc\b|rollover', t, _re.I) else 'Rescue call'
+    return t
 def pick(o,p):
     for k in p.split('.'): o=o.get(k) if isinstance(o,dict) else None
     return o
@@ -36,6 +41,7 @@ def one(ds):
         except Exception: pass
         approx=not(la and lo and abs(la-ds['lat'])<1 and abs(lo-ds['lon'])<1)
         if approx: la,lo=ds['lat'],ds['lon']
+        ty=GENERIC(ty)
         out.append({'type':ty.title()[:60],'time':t.strftime('%Y-%m-%dT%H:%M:%SZ') if t else None,'lat':round(la,2),'lon':round(lo,2),'city':ds['city'],'source':ds['portal'],'license':ds['license'],**({'approx':1} if approx else {})})
     return out,drop
 with cf.ThreadPoolExecutor(8) as ex:
