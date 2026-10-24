@@ -17,3 +17,12 @@ for n,v in sorted(G.items()):
   out.append('\t'.join([n,bare]+[f'{s}:{a:.2f},{b:.2f}' for s,(a,b) in v.items()]))
 open('data/gaz.txt','w').write('\n'.join(out))
 print(len(out),sum(1 for l in out if '\tu\t' in l))
+# Census Designated Places (.github/us_cdps.json, 2023 Gazetteer): added with an empty flag, so they resolve
+# only when typed with a state ('Warner Springs CA') and are never placed from a bare name.
+C=json.load(open('.github/us_cdps.json'));idx={l.split('\t')[0]:i for i,l in enumerate(out)}
+for n,v in C.items():
+  ex=[f'{s}:{a:.2f},{b:.2f}' for s,(a,b) in v.items()]
+  if n in idx:
+    have={x.split(':')[0] for x in out[idx[n]].split('\t')[2:]};out[idx[n]]+=''.join('\t'+e for e in ex if e.split(':')[0] not in have)
+  else: out.append('\t'.join([n,'']+ex))
+open('data/gaz.txt','w').write('\n'.join(out))

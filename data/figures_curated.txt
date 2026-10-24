@@ -1,0 +1,99 @@
+# Hand-curated unique public-figure entries. These are unmasked even when the name is common
+# (no role cue needed). Bare surnames listed here are matched only as watch keywords / left unmasked.
+Donald Trump
+Trump
+Elon Musk
+Musk
+Vladimir Putin
+Putin
+Volodymyr Zelensky
+Volodymyr Zelenskyy
+Zelensky
+Zelenskyy
+Joe Biden
+Biden
+Gavin Newsom
+Newsom
+AOC
+Alexandria Ocasio-Cortez
+Barack Obama
+Obama
+Michelle Obama
+Tim Cook
+Kamala Harris
+JD Vance
+Xi Jinping
+Kim Jong Un
+Benjamin Netanyahu
+Netanyahu
+Narendra Modi
+Modi
+Emmanuel Macron
+Macron
+Keir Starmer
+Olaf Scholz
+Justin Trudeau
+Mark Carney
+Recep Tayyip Erdogan
+Erdogan
+Pope Francis
+Pope Leo XIV
+King Charles
+Mark Zuckerberg
+Zuckerberg
+Jeff Bezos
+Bezos
+Bill Gates
+Sundar Pichai
+Satya Nadella
+Jensen Huang
+Sam Altman
+Warren Buffett
+Mary Barra
+Jamie Dimon
+Taylor Swift
+Beyoncé
+Beyonce
+Rihanna
+Oprah Winfrey
+Kim Kardashian
+LeBron James
+Lionel Messi
+Cristiano Ronaldo
+Serena Williams
+Tom Brady
+Travis Kelce
+Lady Gaga
+Drake
+Kanye West
+Leonardo DiCaprio
+Tom Hanks
+Dwayne Johnson
+Selena Gomez
+Ariana Grande
+Justin Bieber
+Billie Eilish
+Bad Bunny
+Shakira
+Elton John
+Paul McCartney
+Bruce Springsteen
+Ron DeSantis
+Greg Abbott
+Kathy Hochul
+Nancy Pelosi
+Chuck Schumer
+Mitch McConnell
+Bernie Sanders
+Hakeem Jeffries
+Marco Rubio
+Pete Hegseth
+Hillary Clinton
+Bill Clinton
+George W. Bush
+Eric Adams
+Zohran Mamdani
+Karen Bass
+King Charles III
+Prince William
+Prince Harry

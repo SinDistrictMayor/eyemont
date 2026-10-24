@@ -1,0 +1,3346 @@
+Aaron	38.88,-85.13
+Aberdeen	38.91,-84.99
+Abington	39.73,-84.96
+Aboite	41.00,-85.32
+Abydel	38.57,-86.56
+Academie	41.17,-85.15
+Acme	38.98,-86.06
+Acton	39.66,-85.97
+Adams	39.38,-85.56
+Adams Mill	40.48,-86.51
+Adamsboro	40.78,-86.27
+Ade	40.87,-87.44
+Adel	39.19,-86.80
+Advance	40.00,-86.62
+Adyeville	38.19,-86.77
+Aetna	41.59,-87.29
+Africa	37.84,-87.07
+Ainsworth	41.49,-87.26
+Aix	41.04,-87.15
+Akron	41.04,-86.03
+Al-Mar	39.54,-86.20
+Alamo	39.98,-87.06
+Alaska	39.47,-86.64
+Albany	40.30,-85.24
+Albion	38.74,-85.73
+Aldine	41.20,-86.67
+Alert	39.16,-85.68
+Alexandria	40.26,-85.68
+Alfont	39.95,-85.81
+Alford	38.49,-87.24
+Alfordsville	38.56,-86.95
+Algiers	38.49,-87.18
+Alida	41.51,-86.90
+Allen	41.20,-85.20
+Allen Crossing	39.10,-85.32
+Allendale	39.39,-87.40
+Allens Acres	39.99,-86.30
+Allensville	38.87,-85.02
+Alliance	40.03,-85.65
+Allisonville	39.91,-86.08
+Allman	39.62,-86.43
+Alma Lake	39.61,-87.02
+Alpine	39.55,-85.18
+Alquina	39.61,-85.05
+Alta	39.77,-87.39
+Altamont Switch	40.38,-86.87
+Alto	40.44,-86.17
+Alton	38.12,-86.42
+Altona	41.35,-85.15
+Alvarado	41.58,-84.84
+Ambia	40.49,-87.52
+Ambler	41.72,-86.80
+Amboy	40.60,-85.93
+America	40.68,-85.70
+Americus	40.53,-86.76
+Ames	40.03,-86.89
+Amity	39.43,-86.00
+Amo	39.69,-86.61
+Anderson	40.11,-85.68
+Anderson Mobile Home Park	41.57,-87.43
+Andersonville	39.50,-85.29
+Andrews	40.86,-85.60
+Andry	41.72,-86.76
+Angola	41.63,-85.00
+Anita	39.43,-86.19
+Annandale Estates	39.22,-86.27
+Annapolis	39.85,-87.25
+Anoka	40.72,-86.28
+Ansley Acres	41.08,-85.21
+Anthony	40.28,-85.44
+Anthony Wayne Village	41.04,-85.11
+Antioch	38.86,-84.88
+Antioch Grange	38.74,-85.47
+Antiville	40.50,-84.98
+Apalona	38.15,-86.63
+Apple Valley Estates	41.29,-87.31
+Arabia	39.77,-87.32
+Arba	40.01,-84.87
+Arborview Mobile Home Park	39.78,-86.34
+Arcadia	40.18,-86.02
+Arcana	40.54,-85.50
+Arcola	41.10,-85.29
+Arctic Springs	38.28,-85.71
+Arda	38.52,-87.25
+Ardmore	41.69,-86.32
+Argos	41.24,-86.21
+Ari	41.26,-85.25
+Arlington	39.18,-86.55
+Armiesburg	39.76,-87.35
+Armstrong	38.11,-87.65
+Arney	39.22,-86.93
+Aroma	40.20,-85.87
+Arrowhead Park	41.28,-85.79
+Art	39.40,-87.16
+Arthur	38.34,-87.25
+Artic	41.47,-84.81
+Artist Point	38.16,-86.37
+Ash Grove	40.55,-86.85
+Ash Iron Springs	38.04,-87.19
+Ashboro	39.40,-87.11
+Ashby Yards	38.47,-87.28
+Asherville	39.47,-87.06
+Ashland	39.93,-85.30
+Ashley	41.53,-85.07
+Ashwood	39.98,-85.98
+Asphaltum	41.10,-87.00
+Athens	41.05,-86.13
+Atherton	39.61,-87.36
+Atkinson	40.56,-87.25
+Atkinsonville	39.38,-86.87
+Atlanta	40.22,-86.03
+Attica	40.29,-87.25
+Atwood	41.26,-85.98
+Auburn	41.37,-85.06
+Auburn Junction	41.35,-85.07
+Auburn Trace	39.59,-86.18
+Augusta	39.89,-86.21
+Aultshire	40.21,-85.35
+Aurora	39.06,-84.90
+Austin	38.76,-85.81
+Austin Oaks	39.97,-86.25
+Avalon	41.02,-85.16
+Avalon Hills	39.88,-86.06
+Avenue Mobile Home Park	41.53,-87.37
+Avery	40.31,-86.44
+Avilla	41.37,-85.24
+Avoca	38.91,-86.55
+Avon	39.76,-86.40
+Avonburg	38.89,-85.17
+Aylesworth	40.20,-87.24
+Ayrshire	38.37,-87.24
+Azalia	39.09,-85.85
+Babcock	41.57,-87.11
+Bacon	38.41,-86.43
+Badger Grove	40.58,-86.96
+Baileys Corner	41.07,-87.00
+Bainbridge	39.76,-86.81
+Bainter Town	41.52,-85.82
+Baker	39.13,-87.31
+Bakers Corner	40.13,-86.14
+Bakertown	41.37,-85.36
+Balbec	40.53,-85.15
+Bald Knobs	39.02,-86.17
+Baldridge	39.22,-87.37
+Baldwin Heights	38.34,-87.57
+Ballstown	39.25,-85.24
+Bandmill	38.54,-87.60
+Bandon	38.14,-86.60
+Banner Mills	39.93,-87.10
+Banning Corner	40.37,-87.16
+Banquo	40.70,-85.62
+Banta	39.52,-86.25
+Bar-Barry Heights	40.46,-86.92
+Barbee	41.29,-85.71
+Barbersville	38.91,-85.28
+Barce	40.62,-87.28
+Bargersville	39.52,-86.17
+Barnard	39.85,-86.70
+Barnhart Town	39.50,-87.44
+Barrett	38.20,-87.87
+Barrick Corner	39.26,-87.07
+Barrington Ridge	39.96,-86.05
+Bartle	38.56,-85.89
+Bartlettsville	38.97,-86.44
+Bartonia	40.12,-84.85
+Bartons Location	38.53,-87.34
+Bascom Corner	38.91,-84.97
+Bass Lake	41.21,-86.60
+Bass Station	41.19,-86.60
+Batesville	39.30,-85.22
+Bath	39.51,-84.86
+Battle Ground	40.51,-86.84
+Baugh City	38.04,-87.41
+Bayfield	41.27,-85.71
+Beal	38.58,-87.63
+Beamer	39.37,-86.94
+Beanblossom	39.27,-86.25
+Bear Branch	38.91,-85.07
+Bear Wallow	39.32,-86.37
+Beard	40.37,-86.45
+Beardstown	41.14,-86.60
+Beatrice	41.43,-87.19
+Beattys Corner	41.62,-86.89
+Beatys Beach	41.68,-85.60
+Beaver City	40.91,-87.42
+Beaver Dam	41.09,-86.01
+Becks Grove	39.08,-86.12
+Becks Mill	38.54,-86.16
+Beckville	40.01,-86.71
+Bedford	38.86,-86.49
+Bee Ridge	39.54,-87.17
+Beech Brook	39.55,-85.80
+Beech Grove	39.72,-86.09
+Beechwood	38.21,-86.42
+Beehunter	38.96,-87.12
+Beesons	39.72,-85.13
+Behlmer Corner	39.20,-85.17
+Belknap	37.98,-87.69
+Bell Center	40.87,-86.64
+Bell Rohr Park	41.33,-85.78
+Belle Arbor	39.72,-85.99
+Belle Union	39.57,-86.71
+Belleview	38.86,-85.38
+Belleville	39.68,-86.49
+Bellfountain	40.43,-84.86
+Bellmore	39.76,-87.11
+Belmont	39.92,-85.35
+Belshaw	41.26,-87.45
+Ben Davis	39.75,-86.27
+Benefiel Corner	39.13,-87.41
+Bengal	39.47,-85.92
+Benham	38.98,-85.25
+Bennetts Switch	40.59,-86.11
+Bennettsville	38.43,-85.81
+Bennington	38.86,-85.14
+Benton	41.51,-85.76
+Benton House	39.76,-86.08
+Bentonville	39.75,-85.19
+Benwood	39.56,-87.11
+Berkley Ridge	39.94,-86.03
+Berlien	41.64,-84.88
+Berne	40.66,-84.95
+Bethany	39.17,-86.07
+Bethel	39.99,-84.83
+Bethel Village	39.15,-85.92
+Bethevan	40.53,-85.63
+Bethlehem	38.54,-85.42
+Between-The-Lakes Park	41.32,-85.74
+Beverly Hill	41.55,-86.99
+Beverly Shores	41.69,-86.98
+Bicknell	38.77,-87.31
+Big Four Yard	39.76,-86.36
+Big Hill	41.05,-86.20
+Big Springs	40.07,-86.26
+Billie Creek Village	39.76,-87.20
+Billingsville	39.56,-84.91
+Billtown	39.51,-87.19
+Billville	39.50,-87.13
+Bippus	40.94,-85.62
+Birchim	41.71,-86.60
+Birdseye	38.32,-86.70
+Birmingham	40.94,-86.11
+Black Oak	38.66,-87.08
+Black Point	41.41,-85.68
+Black Rock	40.37,-87.10
+Blackhawk	39.31,-87.30
+Blackhawk Beach	41.52,-87.04
+Blackiston Mill	38.34,-85.80
+Blackiston Village	38.33,-85.79
+Blaine	40.40,-85.06
+Blairsville	38.08,-87.76
+Blakesburg	39.81,-86.91
+Blanford	39.67,-87.52
+Blocher	38.72,-85.66
+Bloods Wood Crossing	38.54,-87.63
+Bloomer	40.08,-85.77
+Bloomfield	39.03,-86.94
+Blooming Grove	39.50,-85.06
+Bloomingdale	39.83,-87.25
+Bloomingport	40.03,-84.99
+Bloomington	39.17,-86.53
+Blooms Eddy (historical)	38.27,-85.76
+Blountsville	40.06,-85.24
+Blue	38.93,-85.00
+Blue Lick	38.51,-85.80
+Blue Ridge	39.52,-85.64
+Blue River	38.53,-85.94
+Bluecast	41.15,-84.87
+Bluestone	39.95,-86.04
+Bluff Acres	39.60,-86.22
+Bluff Creek	39.56,-86.22
+Bluff Point	40.35,-84.98
+Bluffs	39.57,-86.25
+Bluffton	40.74,-85.17
+Board Park	39.59,-86.67
+Bobtown	39.02,-85.95
+Boggstown	39.56,-85.92
+Bogle Corner	39.18,-87.18
+Bolivar	40.96,-85.79
+Bonds	38.68,-86.63
+Bonfiglio's Mobile Home Park	41.60,-87.46
+Bonnell	39.17,-84.97
+Bonneyville Mills	41.72,-85.77
+Bono	38.73,-86.32
+Boone Grove	41.35,-87.13
+Boonville	38.05,-87.27
+Borden	38.47,-85.95
+Boston	39.74,-84.85
+Boston Corner	40.95,-84.90
+Boswell	40.52,-87.38
+Boundary City	40.34,-84.92
+Bourbon	41.30,-86.12
+Bowers	40.16,-86.72
+Bowerstown	40.89,-85.44
+Bowling Green	39.38,-87.01
+Bowman	38.50,-87.35
+Bowman Acres	39.76,-85.77
+Boxley	40.17,-86.18
+Boyd	39.72,-85.55
+Boyleston	40.29,-86.39
+Bracken	40.99,-85.62
+Bradfield Corner	39.73,-87.30
+Bradford	38.37,-86.06
+Bradford Court	39.95,-85.94
+Bramble	38.78,-86.91
+Branchville	38.16,-86.58
+Braxtons Siding	38.56,-86.49
+Braysville	39.29,-84.87
+Braytown	38.73,-85.16
+Brazil	39.52,-87.13
+Breakwater	39.95,-85.94
+Breckenridge	38.22,-86.03
+Breezy Point	40.69,-86.75
+Bremen	41.45,-86.15
+Bremerton Mobile Home Park	41.53,-87.41
+Brems	41.34,-86.70
+Brendan Wood	40.07,-86.47
+Brendonwood	39.86,-86.06
+Brent Woods	39.54,-85.76
+Brentridge	39.58,-86.19
+Brentwood	40.10,-85.72
+Bretzville	38.30,-86.87
+Brewersville	39.08,-85.61
+Briarwood	39.55,-86.51
+Brice	40.42,-84.90
+Brick Chapel	39.71,-86.87
+Bridgeport	38.18,-85.91
+Bridgeton	39.65,-87.18
+Bridgewater	39.93,-85.95
+Bridlebourne	39.95,-86.22
+Brierwood Hills	41.06,-85.23
+Briggs	41.09,-85.47
+Bright	39.22,-84.86
+Brighton	41.72,-85.31
+Brimfield	41.45,-85.40
+Brimstone Corners	38.74,-86.26
+Bringhurst	40.53,-86.53
+Brisco	40.41,-87.36
+Bristol	41.72,-85.82
+Bristow	38.14,-86.72
+Britton Ridge	39.98,-85.99
+Broad Park	39.59,-86.67
+Broad Ripple	39.87,-86.14
+Broadmoor	39.85,-86.21
+Broadview	39.14,-86.54
+Brockton Manor	39.59,-86.19
+Bromer	38.59,-86.34
+Brook	40.87,-87.36
+Brookfield	39.64,-85.94
+Brookhaven	40.52,-85.62
+Brooklyn	39.54,-86.37
+Brooklyn Heights	39.82,-86.21
+Brookmoor	39.57,-86.37
+Brooks	39.94,-85.92
+Brooks Crossing	39.94,-85.95
+Brooksburg	38.74,-85.24
+Brookside Estates	41.15,-85.08
+Brookston	40.60,-86.87
+Brookston Place	39.94,-85.95
+Brookstone Park of Carmel	40.00,-86.18
+Brookville	39.42,-85.01
+Brookville Heights	39.72,-85.91
+Broom Hill	38.45,-85.88
+Brown Jug Corner	39.29,-87.26
+Browns Corner	40.82,-85.41
+Browns Crossing	39.41,-86.51
+Browns Valley	39.90,-86.99
+Brownsburg	39.84,-86.40
+Brownstown	38.38,-86.50
+Brownsville	39.66,-85.00
+Bruce Lake Station	41.07,-86.41
+Bruceville	38.76,-87.42
+Brummitt Acres	41.62,-87.02
+Brunerstown	39.65,-87.00
+Brunswick	39.20,-87.12
+Brushy Prairie	41.64,-85.25
+Bryant	40.53,-84.96
+Bryantsburg	38.89,-85.37
+Bryantsville	38.77,-86.57
+Buchanan	38.22,-85.90
+Buchanan Corner	39.19,-87.20
+Buck Creek	40.49,-86.76
+Buckeye	40.69,-85.35
+Bucks Creek	39.93,-85.98
+Buckskin	38.23,-87.41
+Bucktown	38.99,-87.26
+Bud	39.45,-86.18
+Buddha	38.79,-86.41
+Buena Vista	39.44,-85.27
+Buenavista	39.03,-86.66
+Buffalo	39.02,-84.88
+Buffaloville	38.10,-86.97
+Buffington	41.64,-87.43
+Bufkin	37.99,-87.85
+Bullocktown	37.97,-87.22
+Bunker Hill	39.57,-86.44
+Burberry Place	39.95,-86.03
+Burdick	41.60,-86.97
+Burge Terrace	39.74,-86.00
+Burket	41.16,-85.97
+Burlington	40.48,-86.39
+Burlington Beach	41.51,-87.05
+Burnett	39.54,-87.30
+Burnettsville	40.76,-86.59
+Burney	39.32,-85.64
+Burns City	38.82,-86.89
+Burns Harbor	41.63,-87.13
+Burnsville	39.17,-85.74
+Burr Oak	41.32,-85.43
+Burrows	40.68,-86.51
+Bushrod	38.97,-87.11
+Busseron	38.84,-87.45
+Butler	41.43,-84.87
+Butler Center	41.31,-85.14
+Butlerville	39.03,-85.51
+Buttermilk Point	41.38,-85.67
+Byrneville	38.33,-86.04
+Byron	39.90,-87.11
+C and C Beach	40.70,-86.76
+Caborn	37.97,-87.79
+Cadiz	39.95,-85.49
+Cagle Mill	39.49,-86.94
+Cairo	40.54,-86.92
+Calcutta	39.60,-87.07
+Cale	38.80,-86.75
+Calvertville	39.12,-86.90
+Cambria	40.37,-86.56
+Cambridge City	39.81,-85.17
+Camby	39.66,-86.32
+Camden	40.61,-86.54
+Camelot Manor Estates	41.55,-87.22
+Cammack	40.21,-85.49
+Camp Brosend	37.96,-87.40
+Camp Flat Rock	39.40,-85.75
+Camp Roberts	39.18,-86.19
+Camp Shor	39.00,-84.85
+Campbell Corner	39.14,-87.41
+Campbellsburg	38.65,-86.26
+Campbelltown	38.42,-87.24
+Canaan	38.87,-85.30
+Candleglo Village	39.56,-85.79
+Cannelburg	38.67,-87.00
+Cannelton	37.91,-86.74
+Cantaloupe	38.53,-87.52
+Canton	38.62,-86.03
+Cape Sandy	38.15,-86.37
+Capehart	38.75,-87.19
+Carbon	39.60,-87.12
+Carbondale	40.36,-87.35
+Cardonia	39.56,-87.12
+Carefree	38.25,-86.35
+Carefree Estates	39.93,-85.97
+Carlisle	38.97,-87.41
+Carlos	40.03,-85.03
+Carmel	39.98,-86.12
+Carp	39.39,-86.76
+Carpentersville	39.81,-86.81
+Carriage Estates	39.74,-85.89
+Carrollton	39.71,-85.82
+Cartersburg	39.70,-86.46
+Carthage	39.74,-85.57
+Carwood	38.45,-85.86
+Cary	39.71,-86.82
+Cascade	39.19,-86.54
+Cass	39.09,-87.28
+Cassville	40.56,-86.12
+Castle Garden	38.03,-87.40
+Castleton	39.91,-86.05
+Cataract	39.43,-86.82
+Cates	40.00,-87.34
+Catlin	39.69,-87.24
+Cato	38.44,-87.19
+Cayuga	39.95,-87.46
+Cedar	41.31,-85.16
+Cedar Canyons	41.23,-85.09
+Cedar Cove	39.93,-86.06
+Cedar Farm Landing	37.97,-86.06
+Cedar Grove	39.36,-84.94
+Cedar Hills	39.57,-86.18
+Cedar Lake	41.36,-87.44
+Cedar Lake Mobile Home Park	41.38,-87.44
+Cedar Point	41.40,-85.68
+Cedar Shores	41.23,-85.07
+Cedarville	41.20,-85.02
+Celestine	38.38,-86.78
+Celina	38.19,-86.61
+Cementville	38.35,-85.75
+Centenary	39.66,-87.47
+Centennial	40.01,-87.24
+Center	38.05,-87.34
+Center Point	39.42,-87.08
+Center Square	38.84,-85.03
+Center Valley	39.63,-86.48
+Centerton	39.52,-86.39
+Centerville	37.99,-87.06
+Central	38.10,-86.16
+Central Barren	38.36,-86.10
+Ceylon	40.61,-84.95
+Chain-O-Lakes	41.71,-86.38
+Chalmers	40.66,-86.87
+Chambersburg	38.52,-86.39
+Champlin Meadows	39.41,-86.44
+Chandler	38.04,-87.37
+Chapel Hill	39.78,-86.28
+Chapel Manor	41.48,-87.33
+Char-el Mobile Home Park	41.55,-87.40
+Charle Sumac Estates	39.68,-85.97
+Charlesmac Village	39.68,-85.98
+Charleston Crossing	39.95,-86.03
+Charlestown	38.45,-85.67
+Charlottesville	39.54,-84.85
+Chase	40.52,-87.34
+Chateau Court	39.97,-85.98
+Chatterton	40.40,-87.24
+Chelsea	38.65,-85.52
+Cherry Grove	40.14,-86.90
+Cherry Hill Farms	39.95,-86.05
+Cherryvale	39.46,-87.24
+Chester	39.89,-84.89
+Chesterfield	40.11,-85.60
+Chesterton	39.93,-86.12
+Chesterville	39.07,-85.05
+Chestnut Hill	38.48,-85.93
+Chestnut Ridge	38.89,-85.86
+Chetwynd	39.44,-86.27
+Chili	40.86,-86.03
+China	38.83,-85.34
+Chrisney	38.01,-87.04
+Christiansburg	39.09,-86.16
+Churubusco	41.23,-85.32
+Cicero	40.12,-86.01
+Cincinnati	39.02,-86.73
+Circle Mobile Home Park	41.56,-87.27
+Circle Park	41.55,-84.91
+Circleville	39.60,-85.44
+Clanricarde	41.29,-86.95
+Clare	40.12,-85.96
+Clark Siding	38.47,-85.66
+Clarke Junction	41.63,-87.42
+Clarks	41.13,-86.89
+Clarks Hill	40.25,-86.73
+Clarks Landing	41.56,-84.91
+Clarksburg	39.43,-85.35
+Clarksdale	39.20,-86.13
+Clarksville	38.30,-85.76
+Clay City	39.28,-87.11
+Claypool	41.13,-85.88
+Claysville	38.62,-86.29
+Clayton	39.69,-86.52
+Clear Creek	39.11,-86.54
+Clear Lake	41.74,-84.83
+Clear Spring	38.93,-86.21
+Clearview	39.58,-86.21
+Clermont	39.81,-86.32
+Clermont Heights	39.83,-86.34
+Clermont Mobile Home Park	39.81,-86.33
+Cleveland	39.79,-85.64
+Clifford	39.28,-85.87
+Clifton	39.82,-86.18
+Clinton	39.21,-85.13
+Clinton Falls	39.72,-86.96
+Clover Village	39.61,-85.86
+Cloverdale	39.51,-86.79
+Cloverland	39.50,-87.23
+Clunette	41.32,-85.92
+Clymers	40.71,-86.45
+Coal Bluff	39.58,-87.22
+Coal City	39.23,-87.05
+Coal Creek	40.04,-87.38
+Coalmont	39.19,-87.23
+Coatesville	39.69,-86.67
+Coats Spring	38.44,-87.39
+Cobb	39.58,-87.22
+Cobbs Corner	41.43,-87.11
+Coburg	41.52,-86.95
+Cochran	39.05,-84.92
+Coe	38.31,-87.26
+Coesse	41.13,-85.40
+Coesse Corners	41.14,-85.40
+Cofield Corner	38.95,-84.96
+Coke Oven Hollow	39.85,-87.29
+Colburn	41.55,-86.27
+Cold Springs	39.07,-85.07
+Cole	40.48,-85.79
+Colfax	40.20,-86.67
+Colfax Mobile Home Park	41.55,-87.41
+Collamer	41.08,-85.66
+College Corner	39.84,-85.07
+College Crest	39.93,-86.15
+College Meadows	39.94,-86.14
+Collegeville	40.91,-87.16
+Collett	40.38,-85.00
+Collingwood	39.94,-85.98
+Collins	41.20,-85.39
+Coloma	39.79,-87.29
+Colonial Mobile Home Park	41.55,-87.39
+Colonial Village	39.94,-85.83
+Columbia	39.58,-85.21
+Columbia Center	41.58,-87.50
+Columbia City	41.16,-85.49
+Columbus	39.20,-85.92
+Commiskey	38.86,-85.65
+Como	40.39,-85.09
+Concord	41.33,-84.95
+Concordia Gardens	41.15,-85.11
+Conner Creek	39.95,-86.04
+Conner Knoll	39.98,-86.02
+Connersville	39.64,-85.14
+Connerwood	39.99,-86.02
+Conologue	38.98,-85.80
+Conrad	41.11,-87.44
+Converse	40.39,-85.24
+Cook	41.38,-87.47
+Coolwood Acres	41.46,-87.09
+Cooper Corner	39.87,-85.77
+Cope	39.45,-86.32
+Coppess Corner	40.75,-84.96
+Cordry Sweetwater Lakes	39.30,-86.12
+Corkwell	40.47,-85.06
+Corn Brook	39.24,-85.94
+Cornelius	39.30,-86.30
+Cornettsville	38.76,-87.11
+Corning	38.58,-87.02
+Correct	39.01,-85.29
+Cortland	38.97,-85.96
+Corunna	41.44,-85.15
+Corwin	39.89,-85.30
+Cory	39.38,-87.21
+Corydon	38.21,-86.12
+Corydon Junction	38.30,-86.10
+Cosperville	41.48,-85.47
+Cottage Grove	39.60,-84.86
+Cottage Hill	39.52,-87.15
+Cottingham Estates	39.98,-86.01
+Country Club Gardens	41.05,-85.22
+Country Club Heights	40.12,-85.69
+Country Club Meadows	38.02,-87.57
+Country Manor Estates	39.55,-86.38
+Country Squire Lakes	39.03,-85.70
+Courter	40.84,-86.06
+Courtney Corner	41.63,-84.84
+Coveyville	38.97,-86.47
+Covington	40.14,-87.39
+Covington Dells	41.07,-85.23
+Covington Estates	39.93,-86.01
+Cowan	40.11,-85.39
+Coxton	38.83,-86.56
+Coxville	39.65,-87.29
+Cradick Corner	39.54,-86.81
+Craig	39.33,-85.52
+Craigville	40.78,-85.09
+Crandall	38.29,-86.07
+Crane	38.89,-86.90
+Crawford	38.85,-86.40
+Crawfordsville	40.04,-86.87
+Crawleyville	38.28,-87.83
+Creekwood	39.88,-86.12
+Cresco	41.24,-85.49
+Crest Manor Addition	41.62,-86.23
+Crestlawn	40.07,-85.68
+Crestmoor	39.51,-85.76
+Creston	40.21,-85.37
+Crestview	41.45,-87.06
+Crestview Heights	39.59,-86.32
+Crestwood	41.14,-85.12
+Crete	40.04,-84.86
+Crisman	41.59,-87.17
+Critchfield	39.60,-86.16
+Crocker	41.59,-87.12
+Crompton Hill	39.66,-87.42
+Cromwell	41.40,-85.62
+Crooked Lake	41.68,-85.04
+Cross Plains	38.94,-85.20
+Cross Roads	39.28,-85.24
+Crossroad Temple	39.75,-86.07
+Crosswinds At Windermere	39.94,-85.97
+Crothersville	38.80,-85.84
+Crown Center	39.58,-86.59
+Crown Point	41.42,-87.37
+Crows Nest	39.86,-86.17
+Crumb Corner	40.45,-86.93
+Crumstown	41.62,-86.41
+Crystal	38.49,-86.75
+Cuba	39.38,-86.80
+Culver	41.22,-86.42
+Cumback	38.56,-87.15
+Cumberland	39.78,-85.96
+Cumberland Ridge	39.94,-85.99
+Cumberland Woods	39.97,-85.98
+Cunot	39.46,-86.85
+Curby	38.29,-86.38
+Curryville	39.19,-87.39
+Curtisville	40.32,-85.90
+Cutler	40.48,-86.52
+Cuzco	38.48,-86.72
+Cyclone	40.23,-86.43
+Cynthiana	38.19,-87.71
+Cypress	37.91,-87.63
+Dabney	39.09,-85.35
+Daggett	39.22,-87.04
+Daisy Hill	38.51,-85.94
+Dale	38.17,-86.99
+Daleville	40.12,-85.56
+Dalton	39.98,-85.18
+Dana	39.81,-87.50
+Danes	40.76,-86.26
+Danville	39.76,-86.53
+Dark Hollow	38.89,-86.54
+Darlington	40.11,-86.77
+Darlington Woods	40.12,-86.81
+Darmstadt	38.10,-87.58
+Darrough Chapel	40.48,-86.10
+Davidson	37.97,-86.05
+Davis	41.71,-86.83
+Davy	38.87,-87.60
+Dawnbury	39.87,-86.12
+Daylight	38.09,-87.49
+Dayton	40.37,-86.77
+Dayville	37.95,-87.32
+De Camp Gardens	41.66,-85.92
+De Gonia Springs	38.06,-87.19
+DeFries Landing	41.37,-85.77
+DeMotte	41.20,-87.20
+Deacon	40.63,-86.32
+Dead Mans Crossing	37.96,-87.91
+Decatur	40.83,-84.93
+Decker	38.52,-87.52
+Decker Chapel	38.49,-87.54
+Deedsville	40.91,-86.10
+Deep River	41.48,-87.22
+Deer Creek	40.61,-86.39
+Deer Mill	39.95,-87.06
+Deer Park	41.16,-87.20
+Deerfield	40.28,-84.98
+Deerwood	39.58,-86.22
+Delaware	39.15,-85.21
+Delaware Trails	39.88,-86.18
+Delong	41.14,-86.42
+Delp	40.49,-86.81
+Delphi	40.59,-86.68
+Deming	40.12,-86.10
+Deming Park	39.47,-87.35
+Deming Woods	39.46,-87.36
+Denham	41.15,-86.71
+Denmark	39.27,-87.03
+Denny Corner	39.89,-85.82
+Denver	40.87,-86.08
+Depauw	38.34,-86.22
+Deputy	38.79,-85.65
+Derby	38.03,-86.53
+Desoto	40.25,-85.29
+Deuchars	38.17,-86.45
+Devonshire	39.88,-86.06
+Devore	39.43,-86.75
+Devore Place	39.94,-85.98
+Dewberry	38.95,-85.15
+Dewey	39.51,-87.38
+Dexter	38.06,-86.48
+Diamond	39.61,-87.17
+Dickeyville	38.16,-87.22
+Dillman	40.61,-85.43
+Dillsboro	39.02,-85.06
+Dillsboro Station	39.03,-85.04
+Dinwiddie	41.29,-87.30
+Disko	41.00,-85.94
+Dixie	38.16,-86.21
+Dixon	39.07,-87.03
+Doans	38.92,-86.85
+Dodd	37.91,-86.65
+Dodds Bridge	39.16,-87.52
+Dogwood	38.11,-86.08
+Dolan	39.24,-86.50
+Domestic	40.61,-85.09
+Donaldson	41.36,-86.44
+Donaldsonville	39.53,-87.10
+Dongola	38.37,-87.34
+Dons Mobile Home Park	41.59,-87.20
+Doolittle Mills	38.25,-86.60
+Door Village	41.57,-86.77
+Dooville	40.55,-85.56
+Douglas	38.33,-87.50
+Dover	39.24,-84.95
+Dover Hill	38.73,-86.80
+Downey Corner	38.94,-85.01
+Downeyville	39.43,-85.55
+Doyle	40.81,-86.07
+Doyle Ferguson	40.58,-85.48
+Dreamwold Heights	41.75,-86.25
+Drew	40.22,-85.39
+Drewersburg	39.34,-84.84
+Drexel Gardens	39.74,-86.25
+Driftwood Hills	39.92,-86.12
+Duane Yards	39.50,-87.39
+Dublin	39.81,-85.21
+Dubois	38.45,-86.80
+Dubois Crossroads	38.48,-86.81
+Dudleytown	38.85,-85.90
+Duff	38.33,-87.03
+Dugger	39.07,-87.26
+Duncan	38.29,-85.92
+Dundee	40.27,-85.76
+Dune Acres	41.65,-87.09
+Dune Acres Station	41.64,-87.08
+Duneland Beach	41.76,-86.83
+Duneland Village	41.60,-87.27
+Duneland Village of Gary	41.60,-87.26
+Dunfee	41.09,-85.34
+Dunkirk	40.76,-86.39
+Dunlap	41.64,-85.92
+Dunlapsville	39.59,-84.99
+Dunn	40.56,-87.46
+Dunn Mill	41.16,-85.24
+Dunnington	40.56,-87.49
+Dunns Bridge	41.23,-86.97
+Dunreith	39.80,-85.44
+Dupont	38.89,-85.51
+Durbin	40.06,-85.91
+Durham	38.26,-87.58
+Dwenger Field	41.08,-85.11
+Dyer	41.49,-87.52
+Eagle Point	41.33,-85.68
+Eagle Trace	39.59,-86.17
+Eagle Village	39.96,-86.25
+Eagletown	40.04,-86.19
+Eaglewood Estates	39.95,-86.31
+Eames	38.08,-87.13
+Earl Park	40.68,-87.41
+Earle	38.09,-87.51
+Early Station	39.76,-87.39
+East Chicago	41.64,-87.45
+East Columbus	39.20,-85.90
+East Enterprise	38.87,-84.99
+East Germantown	39.81,-85.14
+East Glenn	39.49,-87.30
+East Haven	39.84,-84.93
+East Lake Estates	41.70,-85.93
+East Liberty	40.94,-84.86
+East Monticello	40.75,-86.75
+East Mount Carmel	38.39,-87.74
+East Oolitic	38.90,-86.51
+East Park	40.28,-86.49
+East Shelburn	39.17,-87.38
+East Union	40.22,-86.13
+Eastern Heights	39.17,-86.48
+Eastgate	39.93,-85.83
+Eastland Gardens	41.02,-85.10
+Eastpoint Terminal	41.67,-84.85
+Eastwitch	40.43,-86.85
+Easytown	39.61,-87.50
+Eaton	40.34,-85.35
+Eby	38.14,-87.26
+Echo Crest	39.95,-86.13
+Echo Lake Mobile Home Community	39.61,-86.44
+Eckerty	38.32,-86.61
+Economy	39.98,-85.09
+Eddy	41.54,-85.44
+Eden	39.91,-85.77
+Edgerton	41.08,-84.81
+Edgewater	41.52,-87.05
+Edgewood	39.68,-86.13
+Edgewood Lake	39.64,-86.80
+Edgewood Village	40.10,-85.75
+Edinburgh	39.35,-85.97
+Edna Mills	40.42,-86.67
+Edwardsport	38.81,-87.25
+Edwardsville	38.28,-85.91
+Eel River	39.32,-87.12
+Effner	40.77,-87.53
+Egans Point	41.34,-85.36
+Ege	41.29,-85.29
+Egg Harbor	38.23,-87.79
+Egypt	40.86,-87.20
+Ehrmandale	39.54,-87.24
+Ekin	40.22,-86.16
+El Dorado	39.59,-86.16
+Elberfeld	38.16,-87.45
+Elizabeth	38.12,-85.97
+Elizabethtown	39.14,-85.81
+Elizaville	40.13,-86.38
+Elk	39.45,-86.43
+Elkhart	41.68,-85.98
+Elkinsville	39.08,-86.26
+Eller Commons	39.94,-86.06
+Eller Run	39.94,-86.06
+Eller Trails	39.94,-86.06
+Ellettsville	39.23,-86.62
+Elliott	38.12,-87.47
+Ellis	39.06,-87.22
+Ellison	41.03,-85.26
+Elliston	39.03,-86.97
+Ellisville	41.02,-85.28
+Ellsworth	38.43,-86.72
+Elm Tree Crossroads	40.79,-84.96
+Elmdale	40.14,-87.02
+Elmhurst	40.10,-85.72
+Elmira	41.59,-85.20
+Elmwood	40.07,-86.46
+Elnora	38.88,-87.09
+Elrod	39.05,-85.16
+Elston	40.39,-86.91
+Elwood	40.28,-85.84
+Elwren	39.11,-86.67
+Eminence	39.52,-86.64
+Emison	38.81,-87.46
+Emma	41.61,-85.54
+Emporia	40.00,-85.63
+Enchanted Hills	41.40,-85.67
+Englewood	38.84,-86.50
+English	38.33,-86.46
+English Lake	41.27,-86.82
+Enochsburg	39.33,-85.30
+Enos	41.01,-87.45
+Enos Corner	38.29,-87.26
+Enterprise	37.84,-87.18
+Epsom	38.79,-87.06
+Epworth Forest	41.33,-85.69
+Erie	38.88,-86.38
+Erskine Station	38.04,-87.54
+Erwin	37.98,-87.92
+Ethel	38.40,-86.52
+Etna	41.27,-85.57
+Etna Green	41.28,-86.05
+Eugene	39.97,-87.47
+Eureka	37.88,-87.22
+Evans Landing	38.00,-85.98
+Evanston	38.04,-86.84
+Evansville	37.97,-87.56
+Everroad Park	39.23,-85.89
+Everton	39.56,-85.09
+Ewing	38.88,-86.06
+Ewington	39.33,-85.57
+Exchange	39.50,-86.32
+Extension Heights	40.10,-85.66
+Fair Acres	38.60,-86.09
+Fair Oaks	41.08,-87.26
+Fairbanks	39.22,-87.52
+Fairdale	38.33,-86.17
+Fairfax	39.01,-86.48
+Fairfield	39.52,-85.00
+Fairfield Center	41.48,-85.13
+Fairfield Heights	39.83,-86.38
+Fairland	39.59,-85.86
+Fairmount	40.42,-85.65
+Fairview	39.69,-85.30
+Fairview Park	39.68,-87.42
+Fairview Station	39.75,-86.23
+Fairwood Hills	39.88,-86.03
+Fall Creek Highland	39.90,-85.99
+Falmouth	39.70,-85.30
+Farabee	38.56,-86.02
+Fargo	38.40,-86.48
+Farlen	38.85,-86.92
+Farleys Addition	39.78,-86.28
+Farmers	39.18,-86.89
+Farmers Retreat	38.98,-85.10
+Farmersburg	39.25,-87.38
+Farmersville	37.98,-87.90
+Farmington	39.62,-85.36
+Farmland	40.19,-85.13
+Farrville	40.58,-85.47
+Fawnbrook Woods	39.98,-86.03
+Fayette	39.93,-86.40
+Fayetteville	38.86,-86.60
+Fayne Siding	39.98,-85.39
+Federal Hill	40.05,-86.02
+Fenn Haven	37.93,-86.76
+Fenns	39.46,-85.80
+Ferdinand	38.22,-86.86
+Ferguson Hill	39.48,-87.46
+Ferndale	39.71,-87.07
+Fewell Rhoades	39.42,-86.40
+Fiat	40.55,-85.15
+Fickle	40.26,-86.67
+Fields	39.55,-86.33
+Fillmore	39.67,-86.75
+Fincastle	39.81,-86.90
+Fish Lake	41.57,-86.55
+Fishers	39.96,-86.01
+Fishersburg	40.07,-85.86
+Fisherville	38.09,-87.43
+Fishtown	38.07,-85.92
+Fiskville	40.05,-86.89
+Five Points	38.85,-85.51
+Five Points Corner	41.33,-87.04
+Flackville	39.81,-86.22
+Flat Iron	40.05,-87.49
+Flat Rock	39.36,-85.83
+Flat Rock Park	39.25,-85.92
+Flax	40.64,-86.52
+Fleener	39.28,-86.41
+Fleming	38.97,-85.81
+Fletcher	40.91,-86.33
+Flint	41.65,-85.13
+Flora	40.73,-86.10
+Florence	38.78,-84.92
+Florida	40.16,-85.71
+Floyds Knobs	38.32,-85.87
+Foley	39.97,-85.38
+Folsomville	38.13,-87.16
+Fontanet	39.58,-87.24
+Foraker	41.52,-85.92
+Foresman	40.50,-87.15
+Forest	40.37,-86.33
+Forest City	41.19,-87.27
+Forest Glen	41.33,-85.76
+Forest Hill	39.26,-85.61
+Forest Hills	40.12,-85.70
+Forest Knoll	39.96,-85.93
+Forest Oaks	41.57,-87.10
+Forest Park	39.24,-85.91
+Forest Park Heights	39.21,-86.59
+Forest Ridge	41.02,-85.27
+Fort Branch	38.25,-87.58
+Fort Ritner	38.77,-86.28
+Fort Wayne	41.13,-85.13
+Fortville	39.93,-85.85
+Fortyone Ranch Mobile Home Park	41.39,-87.47
+Foster	40.15,-87.47
+Fosters Ridge	38.23,-86.66
+Fountain	40.22,-87.34
+Fountain City	39.96,-84.92
+Fountain Park	40.78,-87.16
+Fountaintown	39.69,-85.78
+Four Corners	38.95,-85.74
+Four J's Mobile Home Park	39.61,-86.38
+Four Presidents Corners	41.01,-84.85
+Fowler	40.62,-87.32
+Fowlerton	40.41,-85.57
+Fox	40.64,-85.69
+Fox Hill	39.60,-86.28
+Fox Hollow	39.94,-86.28
+Fox Lake	41.62,-85.03
+Fox Ridge	39.63,-86.85
+Foxberry Trace	39.60,-86.18
+Frakers Mobile Home Court	39.41,-86.42
+Frances	39.61,-86.17
+Francesville	40.99,-86.88
+Francisco	38.33,-87.45
+Frankfort	40.28,-86.51
+Franklin	39.97,-85.19
+Frankton	40.22,-85.78
+Fredericksburg	38.43,-86.19
+Fredonia	38.18,-86.38
+Free	40.62,-87.46
+Freedom	39.21,-86.87
+Freeland Park	40.61,-87.49
+Freelandville	38.86,-87.31
+Freeman	39.20,-86.73
+Freeport	39.66,-85.73
+Freetown	38.97,-86.13
+Fremont	41.73,-84.93
+French Lick	38.55,-86.62
+Frenchtown	38.31,-86.21
+Friendly Corner	40.55,-85.50
+Friendship	38.97,-85.15
+Friendswood	39.65,-86.33
+Fritchton	38.68,-87.42
+Fritz Corner	38.30,-87.16
+Fruitdale	39.32,-86.26
+Fulda	38.11,-86.84
+Fulton	40.95,-86.26
+Furnace	39.01,-86.91
+Furnessville	41.65,-87.01
+Gadsden	40.05,-86.35
+Galader Station	39.68,-86.02
+Gale	39.77,-86.47
+Galena	38.35,-85.94
+Galveston	40.58,-86.19
+Gambill	39.05,-87.26
+Garden Acres	39.12,-86.58
+Garden City	39.18,-85.93
+Garden Village	41.70,-85.91
+Garfield	40.08,-86.82
+Garrett	41.35,-85.14
+Gary	41.59,-87.35
+Garyton	41.57,-87.21
+Gas City	40.49,-85.61
+Gas Lite Mobile Home Park	41.32,-87.20
+Gasburg	39.59,-86.44
+Gaston	40.31,-85.50
+Gatchel	38.05,-86.65
+Gates Corner	40.11,-85.25
+Gatesville	39.26,-86.15
+Gatewood	39.95,-86.05
+Gaynorsville	39.24,-85.52
+Geetingsville	40.42,-86.47
+Geist Woods	39.93,-85.97
+Gem	39.78,-85.90
+Geneva	39.39,-85.72
+Gentle Manor Estates	41.42,-87.35
+Gentryville	38.10,-87.03
+Georgetown	38.29,-85.98
+Georgia	38.71,-86.57
+Gerald	38.01,-86.57
+Germantown	39.93,-85.94
+Germany	38.46,-85.54
+Gerry Park	41.57,-87.41
+Gessie	40.08,-87.50
+Gibson	41.61,-87.46
+Gifford	41.07,-87.05
+Gilead	40.97,-86.02
+Gilman	40.23,-85.58
+Gilmer Park	41.62,-86.25
+Gilmour	39.13,-87.24
+Gimco City	40.26,-85.68
+Gingrich Addition	40.67,-86.75
+Gings	39.67,-85.37
+Giro	38.51,-87.47
+Gladens Corner	40.26,-86.83
+Glen Abbey At Windermere	39.94,-85.98
+Glen Ayre	39.47,-87.30
+Glen Cliff	40.32,-87.25
+Glen Eden	41.69,-85.02
+Glen Park	41.54,-87.34
+Glendale	38.57,-87.08
+Glendale Heights	39.89,-86.11
+Glendora	39.13,-87.36
+Glenhall	40.35,-87.04
+Glenn Ayr	39.47,-87.30
+Glenns Valley	39.64,-86.20
+Glenview Mobile Home Park	41.55,-87.39
+Glenwood	39.63,-85.30
+Glezen	38.42,-87.30
+Glidas	38.06,-86.18
+Glyn Ellen	40.11,-85.65
+Gnaw Bone	39.19,-86.16
+Goblesville	40.99,-85.51
+Golden Acres	41.13,-85.06
+Golden Grove	39.57,-86.18
+Golden Hill	40.71,-86.76
+Goldsmith	40.29,-86.15
+Goodland	40.76,-87.29
+Goodwins Corner	39.65,-84.83
+Gooseport	38.71,-85.94
+Goshen	38.67,-85.71
+Gospel Grove	39.48,-87.29
+Gosport	39.35,-86.67
+Gowdy	39.52,-85.56
+Grabill	41.21,-84.97
+Grafton	38.00,-87.95
+Graham	38.72,-87.20
+Graham Valley	38.15,-87.29
+Graham Woods	41.62,-87.03
+Grammer	39.15,-85.72
+Grandview	39.87,-86.20
+Grandview Lake	39.15,-86.05
+Grange Corner	39.94,-87.19
+Granger	41.75,-86.11
+Grant City	39.87,-85.54
+Grantsburg	38.29,-86.47
+Granville	40.32,-85.32
+Grass Creek	40.95,-86.40
+Gravel Beach	41.55,-85.22
+Gravel Hill	40.65,-87.37
+Gravelton	41.44,-85.92
+Gray Eagle	39.96,-85.93
+Gray Junction	38.33,-87.34
+Grayford	38.96,-85.57
+Graysville	38.32,-85.80
+Green Acres	41.48,-87.30
+Green Center	41.31,-85.37
+Green Hill	40.41,-87.11
+Green Meadows	39.63,-85.89
+Green Oak	41.00,-86.18
+Green Valley	39.61,-86.14
+Greenbriar	39.90,-86.18
+Greenbrier	38.46,-86.56
+Greencastle	39.64,-86.86
+Greendale	39.11,-84.86
+Greene	40.41,-85.10
+Greenfield	39.79,-85.77
+Greenfield Mills	41.75,-85.23
+Greenleaf Manor	41.70,-85.94
+Greens Fork	39.89,-85.04
+Greensboro	39.88,-85.47
+Greensburg	39.34,-85.48
+Greentown	40.48,-85.97
+Greenville	38.37,-85.99
+Greenwood	39.61,-86.11
+Gridley	40.09,-85.65
+Griffin	38.20,-87.91
+Griffith	41.53,-87.42
+Grismore	41.50,-85.63
+Grissom Air Force Base	40.66,-86.15
+Groomsville	40.35,-86.20
+Groveland	39.76,-86.72
+Grovertown	41.38,-86.50
+Gudgel	38.30,-87.36
+Guernsey	40.80,-86.81
+Guilford	39.17,-84.91
+Guion	39.84,-87.11
+Guise Park	41.08,-86.46
+Gulivoire Park	41.61,-86.25
+Gurley Corner	38.86,-84.86
+Gurley Landing	37.96,-86.05
+Guthrie	38.98,-86.51
+Guy	40.44,-85.98
+Gwynneville	39.66,-85.65
+Hacienda Village	41.12,-85.03
+Hackleman	40.42,-85.75
+Hadley	39.73,-86.60
+Hagerstown	39.91,-85.16
+Haglund	41.61,-87.12
+Haig Point	39.95,-85.97
+Haleysbury	38.74,-86.15
+Hall	39.55,-86.54
+Halls Corners	41.24,-84.85
+Hamburg	38.38,-85.77
+Hamilton	40.34,-86.62
+Hamilton Estates Mobile Home Park	40.00,-86.04
+Hamilton Hills	39.93,-86.05
+Hamlet	41.55,-86.58
+Hammond	41.58,-87.50
+Hancock Chapel	38.38,-86.18
+Hancock Corner	39.28,-86.83
+Handy	39.10,-86.49
+Haney Corner	38.94,-85.31
+Hanfield	40.60,-85.58
+Hanging Grove	40.93,-86.98
+Hangman Crossing	38.94,-85.93
+Hanna	41.41,-86.78
+Hanover	38.71,-85.47
+Hanover Beach	38.71,-85.45
+Happy Hollow	38.05,-85.94
+Happy Hollow Heights	40.44,-86.90
+Hardingrove	37.93,-86.57
+Hardinsburg	39.12,-84.85
+Hardscrabble	40.02,-85.84
+Harlan	41.20,-84.92
+Harlansburg	40.81,-85.56
+Harley	40.54,-86.64
+Harley Siding	40.55,-86.63
+Harmeson Heights	40.06,-85.69
+Harmony	39.54,-87.11
+Harper	39.15,-85.59
+Harris	41.41,-86.30
+Harris City	39.28,-85.53
+Harrisburg	39.69,-85.18
+Harrison	39.53,-87.42
+Harrison Green	39.99,-86.01
+Harrison Lake	40.17,-87.24
+Harrison Lakes	39.99,-86.02
+Harrison Park	39.99,-86.02
+Harrison Woods	39.99,-86.02
+Harristown	38.60,-86.02
+Harrisville	40.18,-84.88
+Harrodsburg	39.01,-86.55
+Hartford	38.99,-84.96
+Hartford City	40.45,-85.37
+Hartleyville	38.80,-86.53
+Hartsdale	41.51,-87.47
+Hartsville	39.27,-85.70
+Hartwell	38.32,-87.18
+Hartwell Junction	38.36,-87.14
+Hartzel	41.56,-85.24
+Harvard Park	39.95,-86.06
+Harveysburg	39.98,-87.29
+Harwood	38.00,-87.57
+Hashtown	39.03,-86.92
+Haskell	41.48,-86.90
+Hastings	41.38,-85.93
+Hatfield	37.90,-87.22
+Haubstadt	38.21,-87.57
+Hawthorn Hills	39.94,-85.98
+Hawthorne Hills	41.39,-87.38
+Hawthornes At The Crossing	39.92,-86.31
+Hawton	39.13,-87.31
+Hayden	38.98,-85.74
+Haysville	38.49,-86.92
+Haysville Corner	40.18,-84.83
+Hazel College	40.05,-86.51
+Hazelrigg	40.08,-86.56
+Hazelwood	39.62,-86.52
+Hazleton	38.49,-87.54
+Headlee	40.90,-86.66
+Heath	40.46,-86.73
+Heather Point	39.95,-85.94
+Hebron	41.32,-87.20
+Hedrick	40.30,-87.49
+Heilman	38.16,-87.09
+Helmcrest	39.94,-85.84
+Helmer	41.53,-85.17
+Helmsburg	39.27,-86.29
+Heltonville	38.93,-86.38
+Hemenway	38.20,-87.13
+Hemlock	40.42,-86.04
+Henderson	39.67,-85.52
+Hendricks	39.61,-86.15
+Hendricksville	39.14,-86.70
+Henry	39.79,-85.59
+Henryville	38.54,-85.77
+Hepburn	38.07,-87.80
+Herbamount	39.51,-86.56
+Herbst	40.51,-85.79
+Heritage Green	39.93,-85.98
+Heritage Lake	39.73,-86.71
+Heritage Meadows	39.95,-86.02
+Herr	39.96,-86.43
+Hessen Cassel	40.98,-85.08
+Hesston	41.75,-86.66
+Hessville	41.60,-87.46
+Heusler	37.93,-87.71
+Hi-View Addition	41.61,-86.18
+Hibernia	38.50,-85.53
+Hick's Mobile Home Park	39.43,-86.44
+Hickory Corner	39.31,-87.04
+Hickory Island	39.33,-87.24
+Hickory Knoll Mobile Home Park	39.71,-86.05
+Hickory Ridge	38.26,-87.83
+Hickory Woods	39.95,-86.04
+Hicks	41.71,-86.57
+Hidden Hills	40.78,-86.10
+Hidden Valley	39.16,-84.84
+Highbank Town	38.51,-87.15
+Highbanks	41.32,-85.67
+Highets Corner	39.28,-86.70
+Highland	39.79,-87.40
+Highland Center	39.32,-85.00
+Highland Springs	39.93,-85.93
+Highland Village	39.16,-86.58
+Highlands Park	41.27,-85.79
+Highwoods	39.84,-86.18
+Hildebrand Village	39.55,-85.79
+Hillcrest	38.20,-86.12
+Hillcrest Manufactured Housing Community	41.55,-87.38
+Hillcrest Terrace	37.95,-87.40
+Hillham	38.51,-86.70
+Hillisburg	40.29,-86.34
+Hillsboro	39.97,-85.33
+Hillsborough	39.94,-85.98
+Hillsdale	38.08,-87.55
+Hillside	41.71,-86.62
+Hilltown	38.84,-85.66
+Hindostan	38.67,-86.60
+Hindostan Falls	38.62,-86.85
+Hindustan	39.31,-86.48
+Hirt Corner	39.47,-87.01
+Hiser	39.82,-85.08
+Hitchcock	38.64,-86.17
+Hoagland	40.95,-84.99
+Hobart	41.53,-87.26
+Hobbieville	39.00,-86.71
+Hobbs	40.28,-85.95
+Hoffman Crossing	39.36,-86.95
+Hogtown	38.36,-86.32
+Holaday Hills and Dales	39.94,-86.12
+Holida	39.89,-86.19
+Holland	38.25,-87.04
+Hollandsburg	39.76,-87.07
+Holmesville	41.60,-86.88
+Holton	39.08,-85.39
+Home Corner	40.52,-85.64
+Home Place	39.94,-86.14
+Homecroft	39.67,-86.13
+Homer	39.58,-85.58
+Homestead	39.12,-84.85
+Honduras	40.76,-85.03
+Honey Creek	40.03,-85.49
+Honeysuckle Mobile Home Park	41.53,-87.40
+Honeyville	41.58,-85.60
+Hooker Corner	40.45,-87.32
+Hoosier	39.07,-87.19
+Hoosier Acres	39.16,-86.49
+Hoosierville	39.48,-87.11
+Hoover	40.81,-86.20
+Hoover Crest	39.89,-86.17
+Hoover Mill	39.86,-85.06
+Hoover Park	40.45,-85.36
+Hope	39.30,-85.77
+Hopeville	39.70,-84.97
+Hopewell	39.49,-86.12
+Horace	39.26,-85.56
+Horizon Estates	39.58,-86.21
+Hortonville	40.09,-86.16
+Houston	39.02,-86.19
+Hovey	37.89,-87.94
+Howard	39.92,-87.38
+Howe	41.72,-85.42
+Howesville	39.18,-87.15
+Hubbard	41.70,-86.42
+Hubbell	39.18,-87.01
+Hubbells Corner	39.23,-85.04
+Huber	39.69,-85.14
+Hudnut	39.66,-87.38
+Hudson	41.53,-85.08
+Hudson Lake	41.71,-86.53
+Hudsonville	38.54,-87.07
+Huffman	38.10,-86.78
+Hunter Corner	40.17,-87.24
+Hunter Switch	39.17,-86.57
+Hunters Pointe	39.59,-86.18
+Huntersville	39.30,-85.23
+Huntertown	41.23,-85.17
+Huntingburg	38.30,-86.95
+Huntington	40.88,-85.50
+Huntsville	40.01,-85.73
+Hurlburt	41.37,-87.18
+Huron	38.72,-86.67
+Hursh	41.25,-84.97
+Hutton	39.32,-87.53
+Hyde Park	40.19,-85.31
+Hymera	39.19,-87.30
+Hyndsdale	39.42,-86.48
+IXL Mobile Home Park	41.56,-87.40
+Idaville	40.76,-86.65
+Ideal Mobile Home Court	41.56,-87.41
+Idlewold	39.99,-85.75
+Ijamsville	40.96,-85.83
+Ilene	38.94,-87.11
+Illinoi	41.19,-87.53
+Imperial Hills	39.63,-86.14
+Independence	40.34,-87.17
+Independence Hill	41.48,-87.37
+Indian Creek Estates	39.68,-85.97
+Indian Creek Settlement	38.73,-87.35
+Indian Heights	40.43,-86.13
+Indian Hill	41.33,-86.68
+Indian Hills	41.62,-85.16
+Indian Lake	39.89,-85.99
+Indian Springs	38.80,-86.77
+Indian Village	41.05,-85.17
+Indiana Beach	40.79,-86.77
+Indiana Harbor	41.64,-87.45
+Indianapolis	39.77,-86.16
+Indianola	41.56,-85.25
+Indigo Lake	39.99,-86.00
+Ingalls	39.96,-85.81
+Ingallston	39.73,-86.08
+Inglefield	38.11,-87.56
+Inverness	41.70,-85.09
+Inverness Estates	39.99,-86.02
+Inwood	41.32,-86.20
+Iona	38.55,-87.47
+Ireland	38.41,-87.00
+Irondale	40.10,-85.66
+Ironton	38.66,-86.78
+Irvington	39.77,-86.07
+Island City	39.01,-87.15
+Island Park	41.29,-85.80
+Iva	38.50,-87.12
+Ivanhoe	39.77,-86.01
+Ivy Hills	39.90,-86.07
+Jackson	39.07,-85.44
+Jackson Hill	39.17,-87.36
+Jacksonburg	39.85,-85.11
+Jacksons	40.33,-86.06
+Jacksonville	38.83,-85.05
+Jadden	40.54,-85.46
+Jalapa	40.63,-85.75
+Jamestown	39.93,-86.63
+Janney	40.37,-85.54
+Jarretts	38.12,-87.36
+Jasonville	39.16,-87.20
+Jasper	38.39,-86.93
+Jay City	40.57,-84.85
+Jeff	40.61,-85.35
+Jefferson	40.28,-86.59
+Jeffersonville	38.28,-85.74
+Jenkinsville	39.53,-86.88
+Jericho	39.06,-87.30
+Jerome	40.46,-85.93
+Jessup	39.66,-87.26
+Jewell Village	39.20,-85.85
+Jimtown	38.27,-87.85
+Jockey	38.18,-87.16
+Johnsburg	38.22,-86.96
+Johnson	38.28,-87.75
+Johnsonville	40.23,-87.49
+Johnstown	39.17,-87.01
+Jolietville	40.04,-86.23
+Jolleyville	38.99,-85.36
+Jonesboro	40.48,-85.63
+Jonestown	39.71,-87.50
+Jonesville	39.06,-85.89
+Joppa	39.63,-86.43
+Jordan	38.69,-87.21
+Judah	38.96,-86.54
+Judson	39.81,-87.13
+Judyville	40.36,-87.40
+Julietta	39.74,-85.96
+Kalorama Park	41.33,-85.76
+Kanata Manayunk	41.41,-85.69
+Kankakee	41.51,-86.54
+Kansas	39.33,-86.03
+Kappa Corner	40.53,-86.27
+Kasson	38.02,-87.64
+Keller	39.36,-87.32
+Kellerville	38.48,-86.83
+Kempton	40.29,-86.23
+Kendallville	41.44,-85.26
+Kennard	39.90,-85.52
+Kennedy	38.08,-86.92
+Kenneth	40.76,-86.47
+Kent	38.74,-85.54
+Kentland	40.77,-87.45
+Kentwood	40.28,-86.49
+Kercheval	38.09,-87.01
+Kersey	41.19,-87.16
+Kewanna	41.02,-86.41
+Keystone	40.60,-85.26
+Keystone Manor	39.76,-86.28
+Keytsville	39.65,-87.01
+Kiley	40.53,-85.68
+Kilmore	40.35,-86.51
+Kimmell	41.40,-85.55
+Kinder	39.54,-86.20
+King	38.30,-87.58
+Kingman	39.97,-87.28
+Kings Mill	39.94,-86.21
+Kings Mobile Home Court	41.55,-87.41
+Kings Store	38.20,-86.06
+Kingsborough	39.99,-86.18
+Kingsbury	41.53,-86.70
+Kingsford Heights	41.48,-86.69
+Kingsland	40.83,-85.18
+Kingston	39.38,-85.39
+Kingston Estates	40.00,-86.02
+Kinsey	41.10,-85.70
+Kirby	39.14,-86.61
+Kirklin	40.19,-86.36
+Kirkpatrick	40.21,-86.82
+Kirksville	39.05,-86.61
+Kirschs Corner	39.12,-84.94
+Kitchel	39.68,-84.86
+Kitt	40.50,-85.05
+Kitterman Corners	38.22,-86.70
+Klaasville	41.36,-87.52
+Klemmes Corner	39.35,-85.00
+Klondike	40.47,-86.96
+Klondyke	39.79,-87.34
+Knarr Corner	39.30,-85.43
+Knight Ridge	39.13,-86.43
+Knighthood Grove	39.55,-85.76
+Knighthood Village	39.58,-85.74
+Knightstown	39.80,-85.53
+Knightsville	39.53,-87.11
+Kniman	41.14,-87.14
+Knob Hill	38.03,-87.52
+Knollton Heights	39.84,-86.20
+Knox	39.82,-85.54
+Kokomo	40.49,-86.13
+Koleen	38.97,-86.83
+Koontz Lake	41.42,-86.49
+Kossuth	38.70,-86.10
+Kouts	41.32,-87.03
+Kramer	40.34,-87.29
+Kratzville	38.02,-87.59
+Kreitzburg	41.44,-87.52
+Kriete Corner	38.92,-85.83
+Kurtz	38.96,-86.20
+Kyana	38.31,-86.78
+Kyle	39.14,-84.99
+La Crosse	41.32,-86.89
+La Fontaine	40.67,-85.72
+La Paz	41.46,-86.31
+La Paz Junction	41.46,-86.30
+La Porte	41.61,-86.71
+Laconia	38.03,-86.09
+Lacy	38.63,-86.78
+Ladoga	39.91,-86.80
+Lafayette	40.42,-86.88
+Lagrange	41.64,-85.42
+Lagro	40.84,-85.73
+Lake Bruce	41.07,-86.46
+Lake Cicott	40.76,-86.52
+Lake Dalecarlia	41.33,-87.39
+Lake Eliza	41.43,-87.17
+Lake Grange	41.69,-85.77
+Lake Hart	39.57,-86.43
+Lake Hills	41.46,-87.45
+Lake Holiday	39.97,-86.97
+Lake James	41.71,-85.05
+Lake Mill	37.94,-87.11
+Lake Park	41.70,-86.55
+Lake Shores	41.02,-85.15
+Lake Station	41.58,-87.24
+Lake View	39.49,-85.25
+Lake Village	41.14,-87.45
+Lake Wood	40.55,-85.57
+Lake on the Green	39.14,-86.12
+Lakes of the Four Seasons	41.41,-87.21
+Lakeside	39.88,-86.28
+Lakeside Green	39.93,-85.99
+Lakeside Park	41.25,-85.85
+Laketon	40.97,-85.84
+Lakeview	41.55,-85.22
+Lakeview Spring	41.29,-85.69
+Lakeville	41.52,-86.27
+Lakewood	40.69,-86.76
+Lakewood Hills	38.00,-87.51
+Lalimere	41.72,-86.70
+Lamar	38.07,-86.91
+Lamb	38.69,-85.19
+Lamong	40.09,-86.20
+Lanam	39.23,-86.33
+Lancaster	38.83,-85.52
+Lancaster Park	39.21,-86.56
+Landersdale	39.62,-86.26
+Landess	40.61,-85.56
+Lanesville	38.24,-85.99
+Langoons	38.84,-85.86
+Lantana Estate	39.50,-85.76
+Lantern Crossing	39.93,-86.01
+Lantern Farms	39.98,-86.02
+Lantern Pines	39.93,-86.01
+Laotto	41.29,-85.20
+Lap Corner	39.43,-87.07
+Lapel	40.07,-85.85
+Lapland	39.91,-86.90
+Larimer Hill	39.46,-87.47
+Larwill	41.18,-85.63
+Laud	41.05,-85.45
+Lauer	37.88,-86.60
+Laughery Switch	39.15,-85.24
+Laugheryville	39.23,-85.30
+Laura	41.10,-87.07
+Laurel	39.50,-85.19
+Laveianan Court	39.41,-86.42
+Lawrence	39.84,-86.03
+Lawrenceburg	39.09,-84.85
+Lawrenceburg Junction	39.13,-84.84
+Lawrenceport	38.75,-86.39
+Lawrenceville	39.28,-85.04
+Lawton	41.10,-86.53
+Layton	40.13,-87.33
+Leases Corner	40.87,-86.37
+Leatherwood	39.75,-87.29
+Leavenworth	38.20,-86.34
+Lebanon	40.05,-86.47
+Lee	40.90,-86.97
+Leesburg	41.33,-85.85
+Leesville	38.85,-86.28
+Legendary Hills	39.88,-86.26
+Leipsic	38.67,-86.37
+Leisure	40.36,-85.84
+Leiters Ford	41.12,-86.39
+Lena	39.61,-87.11
+Lena Park	41.19,-86.72
+Leo	41.22,-85.01
+Leo-Cedarville	41.21,-85.02
+Leonard Springs	39.14,-86.58
+Leopold	38.10,-86.58
+Leota	38.65,-85.85
+Leroy	41.36,-87.27
+Letts	39.24,-85.56
+Letts Corner	39.23,-85.57
+Lettsville	38.72,-87.17
+Levert	41.16,-85.31
+Lewis	39.26,-87.26
+Lewis Creek	39.40,-85.82
+Lewisburg	40.75,-86.22
+Lewiston	41.03,-87.05
+Lewisville	39.81,-85.35
+Lexington	38.65,-85.63
+Liber	40.41,-84.97
+Liberal	38.05,-86.94
+Liberty	39.64,-84.93
+Liberty Center	40.70,-85.28
+Liberty Corners	40.19,-85.33
+Liberty Farm Mobile Home Park	41.55,-87.05
+Liberty Hills	41.03,-85.27
+Liberty Mills	41.03,-85.74
+Liberty Park	41.43,-87.37
+Libertyville	39.60,-87.52
+Liggett	39.48,-87.48
+Ligonier	41.47,-85.59
+Lilly Dale	38.01,-86.65
+Limedale	39.62,-86.88
+Lincoln	40.62,-86.21
+Lincoln City	38.12,-87.00
+Lincoln Hills	41.47,-87.11
+Lincoln Pioneer Village	37.88,-87.06
+Lincoln Village	41.47,-87.38
+Lincolnshire	41.03,-85.14
+Lincolnville	40.75,-85.68
+Linden	40.19,-86.90
+Lindenwood	39.66,-86.15
+Linkville	41.42,-86.29
+Linn Grove	40.65,-85.03
+Linnsburg	40.00,-86.80
+Linton	39.03,-87.17
+Linwood	40.19,-85.68
+Lippe	38.02,-87.75
+Lisbon	41.41,-85.26
+Little Acre	39.04,-85.88
+Little Charlie	40.83,-86.20
+Little Point	39.57,-86.63
+Little Rock	38.49,-87.68
+Little Saint Louis	38.30,-86.24
+Little York	38.70,-85.90
+Littles	38.40,-87.29
+Liverpool	41.55,-87.29
+Livonia	38.56,-86.28
+Lizton	39.89,-86.54
+Loafers Station	38.13,-87.12
+Lochiel	40.66,-87.27
+Locke	41.47,-86.01
+Lockport	40.70,-86.57
+Locust Grove	39.77,-84.85
+Locust Point	38.17,-85.91
+Lodi	39.95,-87.41
+Log Cabin Crossroads	40.03,-86.70
+Logan	39.25,-84.89
+Logansport	40.75,-86.36
+Lomax	41.26,-86.87
+London	39.63,-85.92
+London Heights	39.63,-85.91
+Lone Tree	39.13,-87.13
+Long Beach	41.74,-86.86
+Long Lake Island	41.52,-87.05
+Long Run	38.75,-85.12
+Longview Beach	38.37,-85.64
+Longwood Crossing	39.66,-85.23
+Loogootee	38.68,-86.91
+Lookout	39.20,-85.21
+Lorane	41.21,-85.56
+Loree	40.65,-86.06
+Losantville	40.02,-85.18
+Lost River	38.61,-86.45
+Lottaville	41.50,-87.36
+Lottick Corner	38.17,-85.94
+Lotus	39.61,-84.89
+Lovett	38.91,-85.63
+Lowell	41.29,-87.42
+Lower Sunset Park	40.71,-86.75
+Lowman Corner	41.07,-86.02
+Lowmandale	40.08,-85.66
+Lucerne	40.87,-86.40
+Ludwig Park	41.14,-85.15
+Luray	40.07,-85.37
+Luther	41.00,-85.57
+Luxhaven	39.95,-85.89
+Lydick	41.69,-86.38
+Lyford	39.65,-87.37
+Lyles	38.37,-87.66
+Lynhurst	39.76,-86.25
+Lynn	40.05,-84.94
+Lynnville	38.20,-87.30
+Lynwood Hills	39.98,-86.02
+Lyons	38.99,-87.08
+Lyonsville	39.65,-85.05
+Mace	40.01,-86.80
+Macedonia	38.05,-85.96
+Mackey	38.25,-87.39
+Mackie	40.06,-87.29
+Macy	40.96,-86.13
+Madalline	39.73,-87.08
+Madison	38.74,-85.38
+Magee	41.53,-86.75
+Magley	40.83,-85.05
+Magnet	38.10,-86.46
+Magnetic Springs	39.71,-86.47
+Magnolia	38.25,-86.39
+Mahalasville	39.36,-86.36
+Mahan Crossing	38.56,-86.36
+Mahon	40.94,-85.38
+Majenica	40.77,-85.45
+Makin	40.97,-85.59
+Malden	41.38,-87.03
+Maltersville	38.35,-86.89
+Manchester	39.15,-85.01
+Manhattan	39.56,-86.93
+Manilla	39.57,-85.62
+Manor Woods	41.03,-85.26
+Mansard Du Lac	41.59,-87.25
+Mansfield	39.68,-87.10
+Manson	40.24,-86.59
+Manville	38.79,-85.29
+Maple Del	39.96,-86.03
+Maple Grove Village Mobile Home Park	39.46,-86.32
+Maple Lane	41.70,-86.22
+Maple Ridge	39.68,-86.29
+Maple Valley	39.87,-85.59
+Maples	41.01,-84.97
+Mapleton	39.83,-86.17
+Mapleton Corner	39.19,-85.55
+Maplewood	39.83,-86.51
+Maplewood Mobile Home Park	39.88,-85.94
+Maplewood Park	41.12,-85.06
+Marble Hill	38.59,-85.45
+Marco	38.94,-87.14
+Mardenis	40.90,-85.41
+Marengo	38.37,-86.34
+Mariah Hill	38.17,-86.92
+Marian Manor	41.47,-87.09
+Marietta	39.44,-85.88
+Marine Drive Mobile Home Park	41.60,-87.19
+Marineland Gardens	41.38,-85.68
+Marion	39.59,-85.75
+Marion Heights	39.49,-87.45
+Marion Mills	39.31,-87.00
+Markland	38.78,-84.99
+Markle	40.82,-85.34
+Markles	39.53,-87.35
+Markleville	39.98,-85.61
+Marlin Hills	39.21,-86.52
+Marrs Center	37.95,-87.76
+Marshall	39.85,-87.19
+Marshfield	38.71,-85.78
+Marshtown	40.95,-86.34
+Martin	38.12,-87.67
+Martin Heights	38.61,-86.11
+Martinsburg	38.44,-86.03
+Martinsville	39.43,-86.43
+Marysville	38.59,-85.64
+Massacre	39.16,-87.41
+Masthead	39.93,-85.97
+Matamoras	40.55,-85.26
+Matthews	40.39,-85.50
+Mattix Corner	40.34,-86.57
+Mauckport	38.02,-86.20
+Maumee	39.02,-86.26
+Mauzy	39.62,-85.34
+Max	40.01,-86.58
+Maxinkuckee	41.21,-86.38
+Maxville	38.00,-86.81
+Maxwell	39.86,-85.77
+Mayfield	40.20,-85.35
+Mayflower Meadows	39.88,-86.08
+Maynard	41.54,-87.51
+Mays	39.74,-85.43
+Maysville	38.65,-87.23
+Maysville Crossing	40.33,-87.15
+Maywood	39.73,-86.22
+McCarty	39.61,-86.13
+McClures Mobile Home Park	39.40,-86.56
+McCol Place	38.61,-86.11
+McCool	41.58,-87.14
+McCordsville	39.91,-85.92
+McCoy	39.32,-85.41
+McCoysburg	40.91,-87.02
+McCutchanville	38.06,-87.52
+McDaniel	39.41,-86.44
+McGary	38.26,-87.63
+McGrawsville	40.63,-86.01
+McKinley	38.74,-86.21
+McNatts	40.62,-85.39
+McQuinn Estates	40.44,-86.96
+McVille	39.15,-86.74
+Meadow Shores Park	41.58,-85.19
+Meadowbrook	41.06,-85.04
+Meadows Glen	40.07,-85.99
+Meadows Knoll	40.07,-85.98
+Meadowview Mobile Home Park	41.55,-87.14
+Mecca	39.73,-87.33
+Mechanicsburg	39.60,-87.09
+Mechanicsville	38.03,-87.56
+Medaryville	41.08,-86.89
+Medford	40.12,-85.32
+Medora	38.83,-86.17
+Meiks	39.55,-85.75
+Mellott	40.17,-87.15
+Melody Hill	38.03,-87.52
+Melody Lane Mobile Home Park	41.55,-87.41
+Meltzer	39.52,-85.67
+Memphis	38.48,-85.76
+Mentone	41.17,-86.03
+Mentor	38.32,-86.72
+Meridian Hills	39.89,-86.16
+Merom	39.06,-87.57
+Merom Station	39.03,-87.54
+Merriam	41.29,-85.43
+Merrick	41.74,-86.82
+Merrillville	41.48,-87.33
+Messick	39.98,-85.30
+Metamora	39.45,-85.14
+Metea	40.87,-86.31
+Metz	41.62,-84.84
+Mexico	40.82,-86.12
+Miami	40.61,-86.11
+Miami Bend	40.75,-86.30
+Miami Trails Addition	41.60,-86.24
+Michaelsville	40.52,-85.70
+Michiana Shores	41.76,-86.82
+Michigan City	41.71,-86.90
+Michigantown	40.33,-86.39
+Mickleyville	39.75,-86.26
+Middle Branch	39.31,-85.39
+Middleboro	39.89,-84.83
+Middlebury	39.26,-87.12
+Middlefork	38.85,-85.47
+Middletown	39.46,-85.65
+Middletown Park	40.16,-85.42
+Midland	39.12,-87.19
+Midland Junction	39.11,-87.19
+Midway	39.46,-85.22
+Midway Corners	41.52,-86.20
+Mier	40.58,-85.83
+Mifflin	38.31,-86.54
+Milan	39.12,-85.13
+Milan Center	41.14,-84.95
+Miles Point	38.57,-85.42
+Milford	39.35,-85.62
+Milford Junction	41.43,-85.84
+Milledgeville	39.97,-86.50
+Miller	39.62,-86.28
+Millersburg	38.56,-86.34
+Millersport	38.34,-87.05
+Millersville	39.85,-86.09
+Millgrove	40.41,-85.27
+Millhousen	39.21,-85.43
+Milligan	39.85,-87.04
+Millport	38.77,-86.10
+Milltown	38.34,-86.28
+Millville	39.45,-85.12
+Milners Corner	39.92,-85.69
+Milo	40.65,-85.47
+Milroy	39.50,-85.47
+Milton	38.98,-85.01
+Mineral City	38.99,-86.88
+Mineral Springs	41.33,-85.74
+Minshall	39.67,-87.22
+Mishawaka	41.66,-86.16
+Mitchell	38.73,-86.47
+Mixersville	39.49,-84.82
+Moberly	38.27,-86.21
+Modesto	39.27,-86.55
+Modoc	40.05,-85.13
+Moffitt	41.10,-87.22
+Mohawk	39.84,-85.84
+Mongo	41.68,-85.28
+Monitor	40.42,-86.76
+Monmouth	40.87,-84.94
+Monon	40.87,-86.88
+Monoquet	41.29,-85.86
+Monroe	40.75,-84.94
+Monroe City	38.62,-87.35
+Monroe Manor	41.60,-86.69
+Monroeville	40.97,-84.87
+Monrovia	39.58,-86.48
+Montclair	39.85,-86.57
+Monte Cassino Shrine	38.18,-86.81
+Monterey	41.16,-86.48
+Monterey Village	40.05,-86.02
+Montezuma	39.79,-87.37
+Montezuma Station	39.80,-87.39
+Montgomery	38.66,-87.05
+Monticello	40.75,-86.76
+Montmorenci	40.47,-87.03
+Montpelier	40.55,-85.28
+Moody	40.99,-87.02
+Moonlight	41.58,-85.03
+Moonville	40.19,-85.60
+Moore	41.40,-84.95
+Moorefield	38.81,-85.17
+Mooreland	40.00,-85.25
+Moores Hill	39.11,-85.09
+Moorestown	38.72,-86.62
+Mooresville	39.61,-86.37
+Moran	40.39,-86.52
+Morgan Meadows	39.95,-86.01
+Morgan Park	41.61,-87.05
+Morgantown	39.37,-86.26
+Morningside	40.22,-85.37
+Morocco	40.95,-87.45
+Morris	39.28,-85.18
+Morristown	39.67,-85.70
+Morton	39.76,-86.94
+Morven	39.42,-85.66
+Morvins Landing	38.01,-86.17
+Moscow	39.49,-85.56
+Mott Station	38.30,-86.09
+Mound Haven	39.38,-84.98
+Mount Auburn	39.51,-85.19
+Mount Ayr	40.95,-87.30
+Mount Carmel	39.41,-84.87
+Mount Comfort	39.83,-85.92
+Mount Etna	40.74,-85.56
+Mount Healthy	39.08,-86.04
+Mount Jackson	39.77,-86.21
+Mount Lawn	39.91,-85.46
+Mount Liberty	39.18,-86.13
+Mount Meridian	39.60,-86.76
+Mount Olive	38.80,-86.69
+Mount Olympus	38.45,-87.48
+Mount Pisgah	41.60,-85.24
+Mount Pleasant	39.46,-86.12
+Mount Sinai	39.08,-85.00
+Mount Sterling	38.80,-85.07
+Mount Street Mobile Home Park	41.57,-87.40
+Mount Summit	40.00,-85.38
+Mount Tabor	39.31,-86.63
+Mount Vernon	37.93,-87.90
+Mount Zion	40.65,-85.33
+Mount Zion Corner	39.52,-86.56
+Mounts	38.23,-87.71
+Mud Center	37.96,-87.63
+Mudlavia Springs	40.34,-87.29
+Mulberry	40.34,-86.67
+Mull	40.21,-85.07
+Muncie	40.19,-85.39
+Munster	41.56,-87.51
+Murdock	38.91,-86.51
+Muren	38.37,-87.27
+Murray	40.79,-85.20
+Musquabuck Park	41.37,-85.78
+Nabb	38.61,-85.63
+Napoleon	39.20,-85.33
+Nappanee	41.44,-86.00
+Nash	39.75,-86.54
+Nashville	39.21,-86.25
+Natchez	38.62,-86.71
+Navilleton	38.38,-85.94
+Nead	40.71,-86.13
+Neavill Grove	38.78,-85.51
+Nebraska	39.06,-85.46
+Needham	39.53,-85.97
+Needmore	39.25,-86.34
+Neff Corner	39.17,-85.53
+Negangards Corner	39.19,-85.09
+Nevada	40.40,-86.00
+Nevada Mills	41.73,-85.08
+New Albany	38.29,-85.82
+New Alsace	39.23,-85.00
+New Amsterdam	38.10,-86.27
+New Augusta	39.88,-86.24
+New Baltimore	38.18,-87.92
+New Boston	38.00,-86.01
+New Britton	39.98,-86.01
+New Britton Woods	39.98,-86.02
+New Brunswick	39.94,-86.52
+New Burlington	40.12,-85.30
+New Carlisle	41.70,-86.51
+New Carrollton	38.94,-85.37
+New Castle	39.93,-85.37
+New Chicago	41.56,-87.27
+New Columbus	40.02,-85.66
+New Corydon	40.57,-84.84
+New Discovery	39.73,-87.13
+New Elizabethtown	38.92,-85.99
+New Elliott	41.49,-87.42
+New Era	41.29,-85.12
+New Fairfield	39.51,-84.97
+New Farmington	38.93,-85.87
+New Frankfort	38.74,-85.71
+New Goshen	39.58,-87.46
+New Harmony	38.13,-87.94
+New Haven	41.07,-85.01
+New Hope	39.18,-86.83
+New Lancaster	40.26,-85.88
+New Lebanon	39.04,-87.47
+New Liberty	38.57,-85.87
+New Lisbon	39.86,-85.26
+New London	40.44,-86.27
+New Marion	39.01,-85.36
+New Market	38.54,-85.62
+New Maysville	39.79,-86.73
+New Middletown	38.16,-86.05
+New Mount Pleasant	40.36,-85.06
+New Palestine	39.72,-85.89
+New Paris	41.50,-85.83
+New Pekin	38.51,-86.02
+New Pennington	39.28,-85.32
+New Philadelphia	38.63,-85.97
+New Pittsburg	40.31,-84.90
+New Point	39.31,-85.33
+New Richmond	40.20,-86.98
+New Ross	39.96,-86.71
+New Salem	39.54,-85.36
+New Salisbury	38.31,-86.09
+New Santa Fe	40.67,-85.99
+New Trenton	39.31,-84.90
+New Unionville	39.21,-86.46
+New Washington	38.56,-85.54
+New Waverly	40.76,-86.19
+New Whiteland	39.56,-86.10
+New Winchester	39.76,-86.65
+Newark	39.13,-86.81
+Newark Village	39.97,-86.12
+Newbern	39.24,-85.75
+Newberry	38.93,-87.02
+Newburgh	37.94,-87.41
+Newland	41.05,-87.03
+Newport	39.88,-87.41
+Newry	38.90,-85.82
+Newton	40.77,-87.39
+Newton Stewart	38.38,-86.62
+Newtonville	38.00,-86.94
+Newtown	40.20,-87.15
+Newville	41.35,-84.84
+Newville Center	41.31,-84.83
+Nibbyville	41.71,-85.86
+Nine Mile	40.98,-85.22
+Nineveh	39.36,-86.08
+Nisbet	38.15,-87.65
+Noble	40.47,-84.83
+Noble Mobile Home Park	41.60,-87.38
+Noblesville	40.05,-86.01
+Nora	39.91,-86.13
+Norma Jean Addition	40.38,-86.88
+Normal	40.47,-85.83
+Norman	38.95,-86.27
+Normanda	40.30,-86.16
+Norristown	39.37,-85.76
+North Anderson	40.14,-85.68
+North Augusta Addition	39.93,-86.23
+North Belleville	39.69,-86.49
+North Columbus	39.23,-85.91
+North Crane	40.34,-86.81
+North Crows Nest	39.87,-86.16
+North Gate	39.26,-85.95
+North Grove	40.61,-85.97
+North Hayden	41.29,-87.46
+North Highland	41.09,-85.17
+North Indianapolis	39.81,-86.18
+North Judson	41.22,-86.78
+North Liberty	41.53,-86.43
+North Madison	38.77,-85.40
+North Manchester	41.00,-85.77
+North Marion	40.97,-87.15
+North Oaks	40.78,-85.17
+North Ogilville	39.13,-86.01
+North Park	39.30,-85.95
+North Ridge Village	39.94,-86.15
+North Salem	39.86,-86.64
+North Terre Haute	39.53,-87.36
+North Union	39.97,-86.90
+North Vernon	39.01,-85.62
+North Webster	41.33,-85.70
+Northcliff	39.29,-85.88
+Northcrest	41.12,-85.13
+Northern Beach	39.96,-86.07
+Northern Meadows	39.97,-86.26
+Northfield	40.03,-86.28
+Northfield Estates	39.94,-86.04
+Northfield Village	40.06,-86.48
+Norths Landing	38.90,-84.87
+Northwest Manor	39.90,-86.27
+Northwood	41.65,-85.42
+Northwood Hills	39.96,-86.06
+Northwood Park	41.53,-87.05
+Norton	38.49,-86.68
+Nortonburg	39.27,-85.82
+Norway	40.78,-86.76
+Notre Dame	41.70,-86.24
+Nottingham	40.58,-85.15
+Nulltown	39.58,-85.16
+Numa	39.63,-87.37
+Nutwood	41.59,-86.28
+Nyesville	39.78,-87.17
+Oak Forest	39.38,-85.09
+Oak Grove	37.84,-88.02
+Oak Hill	38.30,-87.37
+Oak Lodge	41.59,-85.20
+Oak Park	38.31,-85.70
+Oak Tree Crossroads	39.37,-85.00
+Oakdale	39.02,-85.56
+Oakford	40.42,-86.10
+Oakland City	38.34,-87.35
+Oakland City Junction	38.33,-87.30
+Oaklandon	39.87,-85.96
+Oakley	40.70,-86.01
+Oaktown	38.87,-87.44
+Oakville	40.08,-85.39
+Oakwood	41.68,-86.79
+Oakwood Mobile Home Park	41.25,-87.47
+Oakwood Park	41.41,-85.74
+Oatsville	38.41,-87.41
+Ober	41.27,-86.52
+Occident	39.69,-85.48
+Ockley	40.49,-86.63
+Octagon	40.53,-86.99
+Odell	40.29,-87.07
+Odon	38.84,-86.99
+Ogden	39.80,-85.47
+Ogden Dunes	41.62,-87.19
+Ogilville	39.13,-86.02
+Old Adamsboro	40.78,-86.26
+Old Bargersville	39.52,-86.16
+Old Bath	39.51,-84.89
+Old Halfway	40.49,-87.07
+Old Hill	39.30,-87.21
+Old Milan	39.15,-85.13
+Old Pekin	38.50,-86.00
+Old Saint Louis	39.32,-85.79
+Old Tip Town	41.22,-86.12
+Old Town	40.26,-87.39
+Oldenburg	39.34,-85.20
+Oldtown	39.09,-84.85
+Olean	38.99,-85.22
+Olin	40.15,-87.43
+Olio	39.97,-85.92
+Olive	41.70,-86.45
+Oliver	38.04,-87.84
+Omega	40.20,-85.94
+Ontario	41.70,-85.38
+Onward	40.69,-86.19
+Oolitic	38.90,-86.53
+Ora	41.17,-86.55
+Orange	39.58,-85.30
+Orangeville	38.63,-86.56
+Orchard Grove	41.29,-87.35
+Orchard Heights Addition	41.60,-86.24
+Orchard Highlands	41.68,-86.84
+Orchard Park	39.94,-86.13
+Orestes	40.27,-85.73
+Organ Springs	38.48,-86.16
+Oriole	38.17,-86.50
+Orland	41.73,-85.17
+Orleans	38.66,-86.45
+Ormas	41.30,-85.55
+Orrville	38.46,-87.69
+Osborn	41.59,-87.47
+Osborn Landing	41.28,-85.80
+Osceola	41.67,-86.08
+Osgood	39.13,-85.29
+Ossian	40.88,-85.17
+Oswego	41.32,-85.79
+Otis	41.60,-86.91
+Otisco	38.54,-85.67
+Otsego Center	41.57,-84.91
+Otter Creek Junction	39.55,-87.35
+Otter Village	39.12,-85.33
+Otterbein	40.49,-87.10
+Otto	38.57,-85.47
+Otwell	38.45,-87.09
+Owasco	40.46,-86.63
+Owen	38.46,-85.54
+Owensburg	38.92,-86.73
+Owensville	38.27,-87.69
+Oxford	40.52,-87.25
+Oxford Park	39.95,-86.06
+Packerton	41.12,-85.80
+Page	41.69,-84.86
+Painted Hills	39.40,-86.35
+Palestine	39.42,-84.93
+Palmer	41.39,-87.24
+Palmyra	38.41,-86.11
+Panama	41.71,-85.11
+Paoli	38.56,-86.47
+Paradise	38.00,-87.38
+Paragon	39.40,-86.56
+Paragon Mobile Home Park	41.62,-87.51
+Paris	38.82,-85.63
+Paris Crossing	38.83,-85.65
+Park	39.02,-86.85
+Park View Heights	40.74,-86.05
+Parker City	40.19,-85.20
+Parkers Settlement	38.05,-87.72
+Parkers Station	38.76,-85.65
+Parkersburg	39.87,-86.90
+Parkeville	39.82,-87.08
+Parkside	39.24,-85.91
+Parkview	39.52,-87.39
+Parkway Hills	41.03,-85.26
+Parr	41.03,-87.22
+Patoka	38.41,-87.59
+Patricksburg	39.32,-86.96
+Patriot	38.84,-84.83
+Patronville	37.86,-87.11
+Patton	40.71,-86.74
+Patton Hill	38.90,-86.54
+Paxton	39.02,-87.39
+Paynesville	38.62,-85.49
+Peabody	41.09,-85.49
+Pearsontown	38.42,-86.39
+Pebble Hills	39.62,-86.19
+Pebble Run	39.62,-86.20
+Pecksburg	39.69,-86.57
+Peerless	38.92,-86.50
+Pelzer	37.99,-87.26
+Pembroke	41.10,-87.28
+Pence	40.36,-87.51
+Pendleton	40.00,-85.75
+Penn Park	41.54,-84.92
+Pennington Estates	39.57,-86.20
+Penntown	39.27,-85.10
+Pennville	39.81,-85.11
+Pennyville	38.55,-87.01
+Peoga	39.34,-86.14
+Peoria	39.43,-84.82
+Peppertown	39.40,-85.17
+Percy Junction	40.81,-87.30
+Perkins	40.77,-87.36
+Perkinsville	40.14,-85.86
+Perry Crossing	38.44,-85.76
+Perry Manor	39.68,-86.11
+Perrysburg	40.90,-86.15
+Perrysville	40.05,-87.43
+Perryville	40.59,-85.04
+Pershing	41.10,-86.32
+Perth	39.59,-87.16
+Peru	40.75,-86.07
+Peters Switch	39.02,-85.90
+Petersburg	38.49,-87.28
+Peterson	40.81,-85.01
+Petersville	39.22,-85.82
+Petroleum	40.61,-85.15
+Pettit	40.42,-86.71
+Pettysville	40.88,-85.98
+Phenix	40.58,-85.11
+Philadelphia	39.78,-85.85
+Philip Station	37.98,-87.74
+Philomath	39.72,-85.02
+Phlox	40.42,-85.92
+Piattsville	39.70,-87.13
+Pickard	40.22,-86.26
+Pickwick Park	41.42,-85.73
+Pierceton	41.20,-85.71
+Pierceville	39.13,-85.18
+Pierson Station	39.90,-85.33
+Pigeon	38.10,-87.07
+Pigeon Roost Station	38.61,-85.78
+Pike	40.12,-86.48
+Pikes Peak	39.13,-86.14
+Pikeville	38.32,-87.11
+Pilot Knob	38.28,-86.35
+Pimento	39.31,-87.38
+Pin Hook	39.82,-87.13
+Pinch	40.11,-85.15
+Pine	41.62,-87.39
+Pine Ridge	39.58,-87.49
+Pine Station	41.53,-86.33
+Pine Valley	38.48,-86.45
+Pine Village	40.45,-87.25
+Pinhook	39.22,-85.52
+Pinola	41.60,-86.80
+Pioneer	40.74,-85.90
+Pittsboro	39.86,-86.47
+Pittsburg	40.59,-86.70
+Plainfield	39.70,-86.40
+Plainville	38.81,-87.15
+Plano	39.50,-86.60
+Plantana	39.99,-85.99
+Plato	41.64,-85.33
+Plattsburg	38.72,-86.09
+Pleasant	38.87,-85.18
+Pleasant Acres	39.86,-85.92
+Pleasant Gardens	39.55,-86.96
+Pleasant Hill	39.87,-85.69
+Pleasant Lake	41.58,-85.02
+Pleasant Mills	40.78,-84.84
+Pleasant Plain	40.70,-85.55
+Pleasant Ridge	40.93,-87.07
+Pleasant Valley	38.63,-86.80
+Pleasant View	39.66,-85.94
+Pleasant View Village	39.33,-85.97
+Pleasantville	38.86,-86.21
+Pleasure Valley	39.40,-85.71
+Plevna	40.54,-85.98
+Plum Tree	40.74,-85.39
+Plummer	38.98,-86.97
+Plymouth	41.34,-86.31
+Poe	40.94,-85.09
+Point Commerce	39.13,-86.97
+Point Idalawn	39.26,-86.38
+Point Isabel	40.42,-85.82
+Poland	39.44,-86.95
+Poling	40.53,-85.05
+Pond Creek Mills	38.58,-87.29
+Poneto	40.66,-85.22
+Pontiac	39.59,-87.12
+Pony	40.44,-85.09
+Popcorn	38.98,-86.66
+Poplar Grove	39.71,-86.05
+Port Fulton	38.28,-85.72
+Port Mitchell	41.36,-85.44
+Portage	41.58,-87.18
+Porter	41.62,-87.07
+Porter Crossroads	41.40,-87.16
+Portersville	38.50,-86.98
+Portland	40.43,-84.98
+Portland Mills	39.78,-87.01
+Poseyville	38.17,-87.78
+Potato Mound	39.41,-86.54
+Potawatomi Inn	41.70,-85.02
+Potawatomi Park	41.32,-85.76
+Potawatomi Point	40.75,-86.31
+Pottawattamie Park	41.72,-86.87
+Pottersville	39.21,-86.81
+Poundstone Corner	40.63,-86.34
+Powers	40.32,-85.09
+Powley Corners	40.48,-87.53
+Prairie	37.92,-87.98
+Prairie City	39.45,-87.11
+Prairie Creek	39.28,-87.50
+Prairie View (subdivision)	39.98,-86.05
+Prairieton	39.37,-87.47
+Prather	38.38,-85.69
+Prattsburg	39.16,-85.19
+Preble	40.83,-85.01
+Prescott	39.48,-85.71
+Preston	39.51,-87.37
+Prince William	40.44,-86.57
+Princes Lakes	39.35,-86.10
+Princeton	38.36,-87.57
+Princeton Park	39.95,-86.05
+Progress	40.12,-85.44
+Prospect	38.58,-86.61
+Prosperity	40.18,-85.67
+Providence	39.49,-86.18
+Prowsville	38.68,-86.20
+Pueblo	37.83,-87.11
+Pulaski	40.98,-86.66
+Pumpkin Center	38.59,-86.36
+Purcell	38.60,-87.52
+Purdy Hill	39.51,-87.21
+Putnamville	39.57,-86.87
+Pyeattville	37.94,-87.25
+Pyrmont	40.47,-86.68
+Quaker	39.86,-87.53
+Quaker Haven Park	41.37,-85.76
+Quaker Ridge	39.94,-85.99
+Quakertown	39.58,-85.00
+Queensville	39.05,-85.68
+Quercus Grove	38.85,-84.92
+Quincy	39.45,-86.71
+Raab Crossroads	39.49,-86.99
+Rabbitville	38.77,-86.47
+Raber	41.09,-85.43
+Raccoon	39.86,-86.90
+Radioville	41.16,-86.89
+Radley	40.44,-85.73
+Radnor	40.51,-86.64
+Raglesville	38.80,-86.96
+Ragsdale	38.75,-87.33
+Rahm	37.87,-87.61
+Rainbow Highlands	39.89,-85.98
+Rainbow Mobile Home Park	41.61,-87.11
+Rainsville	40.42,-87.32
+Raintown	39.88,-86.51
+Raleigh	39.74,-85.36
+Ramblewood	41.55,-85.22
+Ramsey	38.32,-86.15
+Randall	39.77,-87.52
+Randolph	40.27,-84.98
+Range Line	41.27,-87.28
+Ranger	38.10,-86.69
+Ransom Place	39.78,-86.17
+Rapture	38.15,-87.84
+Raub	40.73,-87.49
+Ravenswood	39.89,-86.13
+Ravinamy	40.46,-86.90
+Ravinia Oaks	41.57,-84.90
+Ray	40.45,-86.53
+Raymond	39.47,-84.85
+Rays Crossing	39.55,-85.67
+Raysville	39.80,-85.51
+Reagan	40.19,-86.51
+Red Bank	37.97,-87.63
+Red Bush	37.94,-87.27
+Red Hill	38.93,-86.60
+Redcuff Corner	39.16,-87.15
+Redding	38.77,-86.50
+Reddington	39.03,-85.83
+Redkey	40.35,-85.15
+Redmon Park	41.38,-85.78
+Reds Corner	39.60,-85.97
+Reed Station	40.22,-85.52
+Reedville Station	39.71,-85.82
+Reelsville	39.56,-86.97
+Rego	38.49,-86.32
+Rehoboth	38.08,-86.02
+Reiffsburg	40.66,-85.15
+Remington	40.76,-87.15
+Renner	40.47,-85.43
+Reno	39.71,-86.67
+Rensselaer	40.94,-87.15
+Reo	37.90,-87.11
+Retreat	38.82,-85.85
+Rexville	38.95,-85.34
+Reynolds	40.75,-86.87
+Rhodes	39.61,-87.41
+Riceville	38.32,-86.67
+Richey Park	40.67,-86.76
+Richland	39.50,-85.39
+Richland Center	41.16,-86.27
+Richland City	37.95,-87.17
+Richmond	39.83,-84.89
+Richvalley	40.79,-85.92
+Riddle	38.25,-86.43
+Ridertown	40.44,-85.21
+Ridge Road Mobile Home Community	41.55,-87.38
+Ridgemede	39.15,-86.50
+Ridgeport	39.05,-86.80
+Ridgeview	40.76,-86.08
+Ridgeville	40.29,-85.03
+Ridgeway	40.49,-86.30
+Ridgewood	39.60,-86.36
+Ridgleville	38.57,-87.43
+Rigdon	40.38,-85.79
+Riley	39.79,-85.73
+Riley Village	39.51,-85.77
+Rileysburg	40.10,-87.53
+Rincon	39.10,-86.99
+Ringwald	38.78,-85.38
+Ripley	41.10,-86.66
+Rising Sun	38.95,-84.85
+Risse	40.28,-86.49
+Ritchie	37.96,-87.04
+Rivare	40.81,-84.84
+River	40.75,-85.51
+River Edge	39.96,-86.05
+River Forest	40.11,-85.73
+River Glen	39.96,-86.04
+River Haven	41.08,-85.05
+River Highlands	39.97,-86.04
+River Oaks	41.71,-85.40
+River Ridge	38.38,-85.65
+Riverside	40.33,-87.17
+Riverside Mobile Home Park	41.56,-87.29
+Riverton	39.02,-87.57
+Rivervale	38.77,-86.40
+Riverview	38.84,-86.54
+Riverview Acres	39.24,-85.92
+Riverwood	40.10,-85.97
+Roachdale	39.85,-86.80
+Roadman Corner	39.47,-87.03
+Roann	40.91,-85.92
+Roanoke	40.96,-85.37
+Roanoke Station	40.95,-85.36
+Rob Roy	40.24,-87.24
+Roberts	40.32,-87.10
+Robertsdale	41.68,-87.51
+Roble Woods	41.52,-87.05
+Rochester	41.06,-86.22
+Rock Creek Center	40.79,-85.39
+Rock Hill	37.95,-87.04
+Rockdale	39.32,-84.85
+Rockfield	40.64,-86.57
+Rockford	38.99,-85.89
+Rocklane	39.61,-86.01
+Rockport	39.88,-87.28
+Rockport Junction	38.11,-87.01
+Rockville	39.76,-87.23
+Rocky Ford	40.40,-87.33
+Rocky Ripple	39.85,-86.17
+Rogers	38.54,-87.22
+Rogersville	40.04,-85.33
+Roland	38.60,-86.68
+Roll	40.55,-85.39
+Rolling Acres	38.07,-87.27
+Rolling Hill Estates	41.48,-87.40
+Rolling Hills	38.48,-85.59
+Rolling Prairie	41.67,-86.62
+Rolling Ridge	39.54,-85.78
+Rome	37.92,-86.52
+Rome City	41.50,-85.38
+Romine Corner	40.14,-87.43
+Romney	40.25,-86.90
+Romona	39.33,-86.73
+Rosebud	38.19,-87.41
+Roseburg	39.59,-84.95
+Rosedale	39.62,-87.28
+Rosedale Hills	39.69,-86.13
+Roseland	41.72,-86.25
+Roselawn	41.14,-87.31
+Rosewood	38.04,-85.93
+Ross	41.53,-87.37
+Ross Mobile Home Park	41.53,-87.37
+Rossburg	39.33,-85.33
+Rosston	40.05,-86.29
+Rosstown	39.11,-85.93
+Rossville	40.42,-86.59
+Roth Park	40.69,-86.75
+Round Grove	40.59,-87.03
+Round Up	39.94,-86.06
+Roxbury Pines	39.93,-86.06
+Royal Center	40.86,-86.50
+Royal Oaks	41.13,-85.07
+Royalton	39.93,-86.34
+Royerton	40.26,-85.37
+Royville	41.20,-85.13
+Rugby	39.31,-85.71
+Rumble	38.44,-87.34
+Runnymede	41.30,-86.86
+Runyantown	38.49,-85.61
+Rural	40.11,-84.97
+Rush Creek Valley	38.70,-86.17
+Rushville	39.61,-85.45
+Rusk	38.56,-86.76
+Russell Lake	39.95,-86.30
+Russellville	39.86,-86.98
+Russels Point	41.55,-84.92
+Russiaville	40.42,-86.27
+Rustic Hills	37.96,-87.37
+Rutland	41.24,-86.36
+Saddle Creek	39.99,-86.19
+Sail Place	39.93,-85.95
+Saint Anthony	38.31,-86.83
+Saint Bernice	39.71,-87.52
+Saint Croix	38.22,-86.59
+Saint Henry	38.22,-86.93
+Saint James	38.18,-87.58
+Saint Joe	41.32,-84.90
+Saint John	38.08,-87.45
+Saint Johns	41.31,-85.11
+Saint Joseph	38.40,-85.81
+Saint Josephs Shrine	38.17,-86.80
+Saint Leon	39.29,-84.96
+Saint Louis Crossing	39.32,-85.85
+Saint Magdalen	38.96,-85.39
+Saint Marks	38.31,-86.82
+Saint Mary-of-the-Woods	39.51,-87.47
+Saint Marys	38.36,-85.86
+Saint Maurice	39.37,-85.33
+Saint Meinrad	38.17,-86.81
+Saint Omer	39.44,-85.60
+Saint Paul	39.43,-85.63
+Saint Peter	39.32,-85.03
+Saint Philip	37.99,-87.72
+Saint Thomas	38.59,-87.56
+Saint Wendel	38.11,-87.70
+Salamonia	40.38,-84.87
+Salem	39.60,-84.89
+Salem Center	41.59,-85.14
+Salem Heights	41.57,-86.62
+Salina	38.15,-85.91
+Saline City	39.37,-87.13
+Salt Creek Estates	41.60,-87.15
+Saltillo	38.67,-86.29
+Saluda	38.65,-85.48
+Samaria	39.40,-86.19
+San Jacinto	38.96,-85.50
+San Pierre	41.20,-86.89
+Sand Creek Woods	39.96,-85.98
+Sand Ridge	37.90,-87.17
+Sandborn	38.90,-87.19
+Sandcut	39.56,-87.32
+Sanders	39.08,-86.51
+Sandford	39.55,-87.53
+Sandstone Lakes	39.96,-85.95
+Sandstone Ridge	39.95,-85.94
+Sandstone Woods	39.96,-85.95
+Sandusky	39.42,-85.48
+Sandy Beach	40.66,-86.75
+Sandy Hook	38.57,-87.22
+Sandytown	39.68,-87.45
+Santa Claus	38.12,-86.91
+Santa Fe	38.11,-86.91
+Saratoga	40.24,-84.92
+Sardinia	39.15,-85.63
+Sassafras	38.19,-86.69
+Saturn	41.03,-85.36
+Savah	38.02,-87.98
+Sawgrass	39.95,-85.97
+Scalesville	38.20,-87.21
+Scarlet	38.66,-86.67
+Scarlet Oaks	40.70,-86.75
+Scenic Hill	38.68,-86.89
+Schererville	41.48,-87.45
+Schildmeier Park	39.73,-85.94
+Schley	38.05,-86.87
+Schneider	41.19,-87.45
+Schnellville	38.34,-86.76
+Schooler Point Landing	38.16,-86.34
+Scipio	39.39,-84.82
+Scircleville	40.29,-86.30
+Scotchtown	39.08,-87.30
+Scotland	38.91,-86.90
+Scott	41.74,-85.56
+Scott City	39.19,-87.47
+Scott Corner	40.09,-85.13
+Scottsburg	38.29,-87.22
+Scottsville	38.40,-85.91
+Seafield	40.76,-86.99
+Searcy Crossroads	38.85,-84.86
+Sedalia	40.42,-86.51
+Sedan	41.44,-85.10
+Sedley	41.49,-87.16
+Seelyville	39.49,-87.27
+Sellersburg	38.40,-85.75
+Selma	40.19,-85.27
+Selvin	38.20,-87.11
+Servia	40.96,-85.74
+Sevastopol	41.13,-86.02
+Seven Springs	38.14,-85.98
+Sexton	39.70,-85.43
+Seyberts	41.70,-85.51
+Seymour	38.96,-85.89
+Sha-Get Acres	41.58,-85.18
+Shadeland	40.61,-85.61
+Shady Banks	41.39,-85.83
+Shady Hills	40.59,-85.67
+Shady Lane	39.55,-87.13
+Shady Lawn	41.39,-87.35
+Shady Nook	41.56,-85.23
+Shady Side	41.62,-87.14
+Shadyside Mobile Home Court	41.62,-87.14
+Shambaugh Siding	40.48,-86.15
+Shamrock Lakes	40.41,-85.43
+Shanghai	40.45,-86.33
+Shannondale	40.05,-86.70
+Sharon	40.55,-86.39
+Sharpsville	40.38,-86.09
+Sharptown	39.37,-84.87
+Shawswick	38.90,-86.41
+Shedville	40.27,-85.13
+Sheff	40.71,-87.45
+Sheffield Estates	41.65,-87.52
+Shelburn	39.18,-87.39
+Shelburne	39.44,-86.39
+Shelby	41.20,-87.35
+Shelbyville	39.52,-85.78
+Shepardsville	39.60,-87.42
+Shepherd	39.97,-86.43
+Sheridan	40.14,-86.22
+Sherwood Forest	39.92,-86.13
+Shideler	40.31,-85.36
+Shields	38.92,-86.00
+Shiloh	39.04,-87.29
+Shipshewana	41.67,-85.58
+Shirkieville	39.60,-87.50
+Shirley	39.89,-85.58
+Shoals	38.67,-86.79
+Shoals Overlook	38.68,-86.80
+Shooters Hill	39.83,-86.18
+Shore Acres	39.88,-86.14
+Shorewood Forest	41.46,-87.14
+Shorts Corner	38.50,-86.10
+Siberia	38.24,-86.73
+Sidney	41.11,-85.74
+Silex	39.36,-86.66
+Silver Hills	38.28,-85.85
+Silver Lake	41.07,-85.89
+Silver Point	41.33,-85.77
+Silverdale	37.92,-87.07
+Silverville	38.86,-86.67
+Silverwood	39.96,-87.40
+Simonton Lake	41.75,-85.97
+Simpson	40.86,-85.41
+Simpson Corner	40.14,-87.24
+Sims	40.50,-85.86
+Sisson	38.53,-87.56
+Sitka	40.83,-86.74
+Six Points	39.73,-86.34
+Skelton	38.34,-87.78
+Slabtown	39.28,-85.40
+Slatecut	38.45,-85.77
+Sleepy Hollow	39.40,-85.72
+Sleeth	40.65,-86.72
+Sloan	40.30,-87.48
+Smartsburg	40.05,-86.83
+Smedley	38.63,-86.22
+Smith	41.71,-86.67
+Smith Valley	39.61,-86.20
+Smithfield	40.17,-85.27
+Smithland	39.46,-85.85
+Smiths Crossing	39.32,-85.36
+Smithson	40.72,-86.87
+Smithville	39.07,-86.51
+Smithville-Sanders	39.06,-86.51
+Smockville	39.63,-87.13
+Smoke Corner	41.41,-87.07
+Smyrna	38.78,-85.48
+Smythe	37.99,-87.49
+Snacks	39.85,-86.26
+Snow Hill	39.66,-87.17
+Solitude	38.01,-87.90
+Solsberry	39.08,-86.76
+Somerset	40.67,-85.83
+Somerville	38.28,-87.38
+South Bend	41.68,-86.25
+South Boston	38.58,-85.98
+South Center	41.48,-86.64
+South Edgewood	40.10,-85.73
+South Elwood	40.26,-85.84
+South Gate	39.32,-84.96
+South Haven	40.78,-85.83
+South LaPorte	41.58,-86.74
+South Marion	40.91,-87.13
+South Martin	38.54,-86.87
+South Milford	41.53,-85.27
+South Park	41.40,-85.72
+South Peru	40.75,-86.06
+South Raub	40.30,-86.91
+South Richmond	39.80,-84.89
+South Salem	40.15,-84.84
+South Wanatah	41.41,-86.90
+South Washington	38.63,-87.18
+South Whitley	41.08,-85.63
+Southeast Grove	41.33,-87.30
+Southeast Manor	39.63,-85.90
+Southmoor Park	41.48,-87.35
+Southport	39.67,-86.13
+Southwest	41.54,-85.94
+Southwood	39.40,-87.40
+Southwood Trailer Court	39.59,-86.10
+Spades	39.25,-85.12
+Spall's Mobile Home Village	40.97,-84.87
+Sparksville	38.78,-86.24
+Sparta	39.11,-85.05
+Spartanburg	40.07,-84.85
+Spearsville	39.33,-86.20
+Speed	38.41,-85.75
+Speedway	39.80,-86.27
+Speicherville	40.85,-85.79
+Spelterville	39.53,-87.40
+Spencer	39.29,-86.76
+Spencer County Farm	37.87,-87.11
+Spencerville	41.28,-84.92
+Spiceland	39.84,-85.44
+Sponsler	39.00,-87.14
+Spraytown	39.01,-86.08
+Spring Creek (subdivision)	40.00,-86.07
+Spring Grove	39.85,-84.89
+Spring Grove Heights	39.84,-84.89
+Spring Hill	39.62,-86.12
+Spring Hills	39.84,-86.19
+Spring Hollow	39.92,-86.16
+Spring Lake	39.78,-85.85
+Spring Mill Estates	39.88,-86.17
+Spring Mill Village	38.74,-86.43
+Spring Mill Woods	39.92,-86.16
+Spring Valley Mobile Home Park	39.41,-86.42
+Springboro	40.59,-86.78
+Springersville	39.66,-85.05
+Springfield	38.04,-87.87
+Springport	40.05,-85.39
+Springtown	39.70,-86.61
+Springville	38.42,-85.68
+Spurgeon	38.25,-87.26
+Spurgeons Corner	39.07,-86.14
+Spyglass Hill	39.95,-85.98
+Stacer	38.15,-87.57
+Stafford Center	41.41,-84.83
+Stalcup Corner	38.99,-87.02
+Stampers Creek	38.56,-86.38
+Standard	39.20,-87.39
+Stanford	39.09,-86.67
+Stanley	38.16,-87.36
+Staples Ford	38.89,-85.78
+Star City	40.97,-86.56
+Star Mill	41.75,-85.44
+Starlight	38.42,-85.89
+State Line	39.44,-87.53
+Staunton	39.49,-87.19
+Stavetown	39.41,-85.01
+Steam Corner	40.04,-87.24
+Stearleyville	39.45,-87.06
+Stemm	38.96,-86.50
+Stendal	38.27,-87.14
+Stephens Crossing	40.16,-87.18
+Sterling Green	39.98,-86.00
+Sterling Heights	39.74,-86.28
+Steubenville	41.53,-85.02
+Stevenson	38.02,-87.43
+Stevenson Mill	39.98,-86.02
+Stewart	40.36,-87.47
+Stewartsville	38.18,-87.83
+Stilesville	39.64,-86.63
+Stillwell	41.56,-86.60
+Stines Mill Corner	39.48,-86.37
+Stinesville	39.30,-86.65
+Stockdale	40.92,-85.94
+Stockport	40.32,-85.46
+Stockton	39.24,-87.02
+Stockwell	40.29,-86.77
+Stone	40.24,-85.00
+Stone Bluff	40.17,-87.25
+Stone Head	39.13,-86.16
+Stone Quarry Mills	39.85,-85.48
+Stoneburner Landing	41.29,-85.78
+Stonegate	39.95,-86.32
+Stones Crossing	39.58,-86.16
+Stonington	38.73,-86.37
+Stony Creek	41.53,-85.65
+Stony Lonesome	39.20,-86.06
+Stony Ridge	41.33,-85.78
+Story	39.10,-86.21
+Stoutsburg	41.19,-87.11
+Straughn	39.81,-85.29
+Strawtown	40.12,-85.94
+Stringtown	39.79,-85.71
+Stroh	41.58,-85.20
+Stumpke Corner	39.18,-85.13
+Stumptown	39.85,-87.27
+Sugar Creek	39.64,-85.91
+Sugar Grove	38.12,-85.91
+Sugar Hills	39.86,-85.82
+Sullivan	39.10,-87.41
+Sulphur	38.23,-86.47
+Sulphur Spring	39.77,-85.52
+Sulphur Springs	38.21,-86.47
+Suman	41.54,-87.00
+Sumava Resorts	41.17,-87.44
+Summit	39.03,-87.20
+Summit Chapel	41.25,-86.08
+Summit Grove	39.72,-87.39
+Summitville	40.34,-85.64
+Sun Down	39.73,-85.99
+Sunblest	39.97,-86.01
+Sunblest Farms	39.97,-86.03
+Sundown Manor	39.58,-86.38
+Sunman	39.24,-85.09
+Sunny Slopes	39.13,-86.53
+Sunnybrook Acres	41.16,-85.07
+Sunnymeadow	41.13,-85.10
+Sunnymede	40.81,-85.84
+Sunnymede Woods	41.07,-85.07
+Sunnyview	39.75,-86.08
+Sunrise Beach	41.40,-85.69
+Sunset Parkway	38.96,-85.91
+Sunset Village	38.46,-85.53
+Sunshine Gardens	39.69,-86.21
+Sunshine Seven Mobile Home Park	41.57,-87.41
+Sunview	39.95,-85.84
+Superior	39.63,-87.16
+Surprise	38.97,-86.06
+Surrey	41.00,-87.20
+Survant	38.37,-87.16
+Swalls	39.46,-87.29
+Swan	41.32,-85.21
+Swanington	40.58,-87.28
+Swanville	38.69,-85.56
+Swayzee	40.51,-85.83
+Sweet Springs Estates	39.98,-86.02
+Sweetbriar	39.98,-85.99
+Sweetser	40.57,-85.77
+Sweetwater Lake	39.30,-86.13
+Switz City	39.03,-87.05
+Switzer Crossroads	38.27,-86.42
+Sycamore	40.49,-85.92
+Sycamore Corner	40.36,-87.43
+Sycamore Ford	39.96,-87.05
+Sylvan Grove	38.47,-85.74
+Sylvan Manor	41.46,-87.11
+Sylvania	39.92,-87.29
+Syndicate	39.62,-87.41
+Syracuse	41.43,-85.75
+Syria	38.59,-86.40
+Tab	40.41,-87.47
+Tabertown	39.49,-87.25
+Taggart	39.26,-86.14
+Taggart Crossing	39.38,-86.40
+Talbot	40.51,-87.45
+Tall Timbers	41.55,-85.23
+Talma	41.15,-86.14
+Tamarack Grange	41.60,-86.14
+Tampico	38.80,-85.96
+Tangier	39.92,-87.32
+Tanglewood	41.07,-85.00
+Tanner	39.02,-86.79
+Tannersville	39.10,-85.75
+Tarkeo Corner	39.26,-85.48
+Tarry Park	38.80,-86.51
+Taswell	38.33,-86.56
+Taylor	40.34,-86.93
+Taylor Corner	41.49,-84.95
+Taylorsville	39.30,-85.95
+Taylorville	39.46,-87.42
+Tecumseh	39.56,-87.42
+Tee Lake	41.72,-86.69
+Teegarden	41.47,-86.38
+Tefft	41.20,-86.97
+Tell City	37.95,-86.77
+Temple	38.34,-86.42
+Templeton	40.51,-87.21
+Tennyson	38.08,-87.12
+Terhune	40.17,-86.28
+Terrace Bay	40.72,-86.75
+Terrace Mobile Home Park	39.61,-86.30
+Terre Coupee	41.70,-86.48
+Terre Haute	39.47,-87.41
+Terre Town	39.52,-87.38
+Terry	38.09,-86.63
+Tetersburg	40.28,-86.15
+Texas	39.05,-84.89
+Thales	38.51,-86.80
+Thayer	41.17,-87.33
+The Anchorage	39.94,-85.94
+The Hawthorns	39.94,-85.95
+The Portage	39.95,-85.94
+The Red Mills	39.58,-85.92
+The Springs of Cambridge	39.94,-85.92
+The Woodlands	39.93,-86.29
+Thomas	38.61,-87.23
+Thomaston	41.38,-86.81
+Thornhope	40.93,-86.53
+Thornton	38.92,-86.50
+Thorntown	40.13,-86.61
+Thorny Ridge	39.94,-85.96
+Thurman	41.12,-85.00
+Tighe	39.62,-87.52
+Tilden	39.82,-86.44
+Tillman	41.02,-84.89
+Timber Lane Estates	39.95,-86.03
+Timber Springs	39.95,-86.03
+Timbercrest	41.02,-85.31
+Timberhurst	41.55,-85.22
+Times Corner	41.06,-85.22
+Tiosa	41.15,-86.21
+Tippecanoe	41.21,-86.11
+Tipton	40.28,-86.04
+Titus	38.05,-86.26
+Toad Hop	39.46,-87.46
+Tobacco Landing	38.01,-86.09
+Tobinsport	37.85,-86.64
+Tocsin	40.83,-85.11
+Toll Gate Heights	40.76,-85.17
+Tolleston	41.59,-87.37
+Topeka	41.54,-85.54
+Toronto	39.78,-87.50
+Toto	41.26,-86.70
+Town Hill	39.20,-86.25
+Town of Pines	41.68,-86.96
+Townley	41.02,-84.86
+Tracy	41.49,-86.68
+Traders Point	39.89,-86.30
+Trafalgar	39.42,-86.15
+Trail Creek	41.70,-86.86
+Trails End	39.95,-86.07
+Tratebas Mill	41.56,-87.02
+Travisville	40.69,-85.21
+Treaty	40.72,-85.78
+Tree Spring	40.10,-87.43
+Tremont	39.77,-86.32
+Trenton	40.45,-85.24
+Trevlac	39.27,-86.34
+Tri-Lakes	41.25,-85.44
+Trilobi Hills	39.88,-86.00
+Trinity	40.54,-84.85
+Trotter Crossing	38.51,-86.37
+Troy	38.00,-86.80
+Tulip	39.08,-86.89
+Tunker	41.05,-85.56
+Tunnelton	38.77,-86.34
+Turkey Creek	41.56,-85.17
+Turkey Creek Meadows	41.50,-87.34
+Turkey Track	39.35,-86.50
+Turleys	38.57,-86.52
+Turner	39.50,-87.16
+Turner Grove	39.95,-85.94
+Turpin Hill	38.14,-87.29
+Twelve Mile	40.87,-86.23
+Twelve Points	39.49,-87.40
+Twin Beach	39.52,-87.21
+Twin Bridges	38.55,-87.63
+Twin Brooks	39.67,-86.12
+Twin Lakes	41.73,-85.46
+Tyner	41.41,-86.40
+Tyner Crossing	39.65,-85.18
+Ulen	40.06,-86.46
+Underwood	38.60,-85.77
+Union	38.47,-87.43
+Union Center	41.48,-86.64
+Union City	40.20,-84.81
+Union Mills	41.49,-86.78
+Uniondale	40.83,-85.24
+Unionport	40.12,-85.10
+Uniontown	38.85,-85.83
+Unionville	39.23,-86.42
+Universal	39.62,-87.45
+University Heights	39.70,-86.13
+Upland	40.48,-85.49
+Upper Sunset Park	40.73,-86.75
+Upton	37.96,-87.96
+Urbana	40.90,-85.79
+Urmeyville	39.52,-85.99
+Utah	39.06,-84.90
+Utica	38.33,-85.65
+Valeene	38.44,-86.40
+Valentine	41.59,-85.39
+Valley Brook	40.81,-85.84
+Valley City	38.09,-86.22
+Valley Farms Estates	39.95,-85.99
+Valley Mills	39.69,-86.28
+Valley Outlet Center	41.73,-85.00
+Vallonia	38.85,-86.10
+Valparaiso	41.47,-87.06
+Van Bibber Lake	39.73,-86.93
+Van Buren	40.62,-85.50
+Van Buren Park	39.14,-86.58
+Van Loon	41.57,-87.42
+Van Nuys	39.96,-85.35
+Vanada	37.93,-87.36
+Vandalia	39.31,-86.87
+Vanmeter Park	41.09,-86.57
+Vaughan	37.90,-87.63
+Vawter Park	41.39,-85.69
+Veedersburg	40.11,-87.26
+Velpen	38.36,-87.10
+Vera Cruz	40.70,-85.08
+Vermont	40.50,-86.03
+Verne	38.64,-87.43
+Vernon	38.98,-85.61
+Verona	40.82,-86.37
+Versailles	39.07,-85.25
+Vertland	39.91,-86.05
+Vesta	38.49,-85.55
+Vevay	38.75,-85.07
+Vicksburg	39.09,-87.20
+Victor	39.06,-86.58
+Victoria	39.05,-87.22
+Vienna	38.65,-85.77
+Vigo	39.29,-87.54
+Vilas	39.17,-86.84
+Village Mobile Home Park	41.55,-87.36
+Vincennes	38.68,-87.53
+Vine	40.30,-87.14
+Virgie	41.12,-87.18
+Vistula	41.75,-85.73
+Vivalia	39.68,-87.01
+Volga	38.78,-85.52
+Vollmer	38.55,-87.52
+Wa-Will-Away Park	41.29,-85.78
+Wabash	40.80,-85.82
+Wabash Shores	40.45,-86.91
+Waco	38.54,-87.04
+Wadena	40.69,-87.28
+Wadesville	38.10,-87.79
+Wagner Station	38.85,-87.23
+Wakarusa	41.54,-86.02
+Wake Robin Fields	41.62,-87.03
+Wakefield	38.79,-85.56
+Wakeland	39.47,-86.58
+Wakeville Village	41.46,-85.26
+Wald View	41.40,-87.35
+Waldron	39.45,-85.67
+Walesboro	39.15,-85.91
+Walker Park	41.33,-85.75
+Walkerton	41.47,-86.48
+Walkerville	39.53,-85.76
+Wallace	39.99,-87.15
+Wallace Junction	39.46,-86.73
+Wallen	41.16,-85.17
+Walnut	41.18,-86.21
+Walnut Corners	41.13,-85.50
+Walnut Gardens	40.70,-86.75
+Walnut Grove	40.16,-85.94
+Walnut Hills	39.95,-86.00
+Walnut Ridge	38.93,-85.56
+Walton	40.66,-86.24
+Wanamaker	39.70,-86.01
+Wanatah	41.43,-86.90
+Warren	40.68,-85.43
+Warren Hills	39.78,-86.00
+Warren Park	39.78,-86.05
+Warrenton	38.17,-87.53
+Warrington	39.91,-85.63
+Warsaw	41.24,-85.85
+Washington	38.66,-87.17
+Washington Center	41.33,-85.60
+Washington Place	39.78,-86.02
+Waterford	41.67,-86.85
+Waterford Mills	41.54,-85.83
+Waterloo	39.70,-85.10
+Waters Edge	39.57,-86.19
+Watson	38.35,-85.70
+Waugh	40.08,-86.31
+Waveland	39.88,-87.04
+Waverly	39.56,-86.27
+Waverly Woods	39.55,-86.27
+Wawaka	41.46,-85.48
+Wawasee	41.42,-85.70
+Wawasee Village	41.41,-85.75
+Wawpecong	40.58,-86.04
+Waycross	39.30,-86.34
+Waymansville	39.06,-86.04
+Wayne	39.89,-84.93
+Wayne Center	41.48,-85.25
+Waynedale	41.02,-85.18
+Waynesburg	39.21,-85.67
+Waynesville	39.12,-85.89
+Waynetown	40.09,-87.06
+Wayport	39.27,-86.52
+Weaver	40.47,-85.73
+Weaver Creek	39.99,-86.01
+Weaver Woods	39.99,-86.02
+Webers Landing	41.54,-85.39
+Webster	39.90,-84.95
+Weddleville	38.84,-86.22
+Wegan	38.83,-86.02
+Weisburg	39.22,-85.05
+Welborn Switch	38.01,-88.00
+Wellington	39.87,-86.14
+Wellington Heights	39.52,-85.76
+Wells	40.73,-86.11
+Wellsboro	41.50,-86.77
+Wellsburg	40.67,-85.22
+Wesley	40.07,-87.01
+Wesley Manor	40.30,-86.51
+West Atherton	39.61,-87.37
+West Baden Springs	38.57,-86.61
+West Brook Downs	39.21,-86.60
+West Clinton	39.69,-87.53
+West College Corner	39.57,-84.82
+West Dana	39.80,-87.52
+West Elwood	40.28,-85.86
+West Fork	38.23,-86.53
+West Franklin	37.90,-87.71
+West Grove	39.85,-85.01
+West Harrison	39.26,-84.82
+West Lafayette	40.43,-86.91
+West Lebanon	40.27,-87.39
+West Liberty	40.43,-85.89
+West Melcher	39.79,-87.35
+West Middleton	40.44,-86.22
+West Muncie	40.17,-85.48
+West New Goshen	39.57,-87.48
+West Newton	39.65,-86.28
+West Noblesville	40.05,-86.02
+West Overlook	39.17,-86.25
+West Petersburg	38.49,-87.29
+West Terre Haute	39.47,-87.45
+West Union	39.84,-87.34
+West Whiteland	39.55,-86.09
+Westchester	41.03,-85.13
+Westchester Estates	39.90,-86.21
+Western Acres	41.60,-87.08
+Western Village	40.11,-85.72
+Westfield	40.04,-86.13
+Westhill	41.46,-87.10
+Westland	39.75,-85.69
+Westlawn	41.08,-85.23
+Westmoor	41.07,-85.21
+Westover	39.90,-86.23
+Westphalia	38.86,-87.23
+Westpoint	40.35,-87.04
+Westport	39.18,-85.57
+Westside	39.06,-84.91
+Westview	41.59,-85.18
+Westville	41.54,-86.90
+Westwood	39.92,-85.42
+Westwood Square	40.56,-85.69
+Wheatfield	41.19,-87.06
+Wheatland	38.66,-87.31
+Wheatonville	38.19,-87.46
+Wheeler	41.51,-87.18
+Wheeling	38.41,-87.46
+Whispering Sands Mobile Home Court	41.55,-87.07
+Whitaker	39.38,-86.61
+Whitcomb	39.45,-84.94
+Whitcomb Heights	39.49,-87.45
+White Cloud	38.23,-86.22
+White Horse Rapids	39.94,-86.06
+White River	38.39,-87.75
+White Rose	39.03,-87.22
+White Sulphur Springs	38.39,-87.09
+Whitehall	39.17,-86.68
+Whiteland	39.55,-86.08
+Whiteoak	38.41,-87.15
+Whitestown	40.00,-86.35
+Whitesville	39.97,-86.83
+Whitewater	39.94,-84.83
+Whitfield	38.62,-86.91
+Whiting	41.68,-87.49
+Wickliffe	38.37,-86.64
+Wickville	39.60,-87.14
+Wilbur	39.52,-86.49
+Wilders	41.27,-86.90
+Wildwood	41.59,-85.19
+Wildwood Estates	39.95,-86.05
+Wilfred	39.19,-87.35
+Wilkinson	39.89,-85.61
+Williams	38.80,-86.65
+Williams Creek	39.90,-86.15
+Williamsburg	39.95,-85.00
+Williamsburg Manor	41.45,-87.02
+Williamsport	40.29,-87.29
+Williamstown	39.45,-85.47
+Willis	38.55,-87.36
+Willisville	38.45,-87.30
+Willow Branch	39.88,-85.68
+Willow Creek	41.59,-87.18
+Willow Lakes	39.58,-86.18
+Willow Valley	38.69,-86.72
+Willowbrook Estates	39.48,-86.36
+Wilmington	39.06,-84.95
+Wilmot	41.31,-85.64
+Wilshire	40.28,-86.49
+Wilson	38.44,-85.83
+Wilson Corner	39.44,-85.76
+Winamac	41.05,-86.60
+Winchester	40.17,-84.98
+Windemere	39.94,-86.20
+Windermere Pointe	39.94,-85.97
+Windermere Villas	39.94,-85.97
+Windfall	40.36,-85.96
+Winding Creek	39.97,-86.02
+Windjammer	39.93,-85.97
+Windom	38.57,-86.80
+Windsor	40.15,-85.21
+Winfield	41.41,-87.28
+Wingate	40.17,-87.07
+Winona	41.24,-86.57
+Winona Lake	41.23,-85.82
+Winslow	38.38,-87.21
+Winthrop	40.37,-87.23
+Wirt	38.81,-85.45
+Wirt Station	38.81,-85.44
+Wiser	39.61,-86.29
+Witmer Manor	41.54,-85.39
+Witts Station	39.71,-84.86
+Wolcott	40.76,-87.04
+Wolcottville	41.53,-85.37
+Wolff	39.43,-86.40
+Wolfington	39.83,-86.22
+Wolflake	41.34,-85.50
+Woodburn	41.13,-84.85
+Woodbury	39.91,-85.89
+Woodcrest	39.44,-86.39
+Wooded Hills Mobile Home Park	39.44,-86.46
+Woodfield (subdivision)	39.99,-86.08
+Woodgate	39.38,-87.39
+Woodland	41.56,-86.18
+Woodland Hills	41.65,-85.43
+Woodland Park	40.20,-85.31
+Woodland Stream	39.56,-86.18
+Woodland Village	41.59,-87.19
+Woodlawn Grove	38.58,-86.46
+Woodlawn Heights	40.12,-85.69
+Woodmar	41.59,-87.49
+Woodruff	41.57,-85.33
+Woodruff Place	39.78,-86.13
+Woods Edge	39.94,-85.99
+Woodside Park	40.29,-86.53
+Woodstock	39.83,-86.18
+Woodville	39.92,-85.54
+Woodville Hills	39.15,-86.38
+Wooley Corner	40.01,-87.17
+Wooster	38.74,-85.69
+Worthington	39.13,-86.98
+Wrights Corner	39.14,-84.96
+Wyandot	40.35,-86.75
+Wyandotte	38.23,-86.29
+Wyatt	41.53,-86.17
+Wynbrooke	39.80,-86.34
+Wynnedale	39.83,-86.20
+Yankee Town	39.70,-84.99
+Yankeetown	37.92,-87.30
+Yeagers Curve	40.70,-87.44
+Yeddo	40.01,-87.26
+Yellow Bank	39.44,-85.07
+Yellowbanks	41.32,-85.68
+Yellowstone	39.00,-86.34
+Yenne	38.55,-86.79
+Yeoman	40.67,-86.72
+Yockey	38.79,-86.49
+Yoder	40.93,-85.18
+York	41.69,-84.82
+Yorktown	40.17,-85.49
+Yorkville	39.20,-84.97
+Young	39.61,-86.34
+Young America	40.57,-86.35
+Youngs Corner	39.35,-85.06
+Youngs Creek	38.48,-86.50
+Youngstown	39.36,-87.38
+Yountsville	40.02,-86.98
+Zanesville	40.92,-85.28
+Zeigler	41.70,-86.43
+Zelma	38.93,-86.30
+Zenas	39.12,-85.47
+Zionsville	39.95,-86.26
+Zoar	38.27,-87.07
+Zulu	41.04,-84.89

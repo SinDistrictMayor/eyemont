@@ -1,0 +1,1014 @@
+Abington	41.86,-72.01
+Achenbach	41.59,-72.71
+Addison	41.72,-72.58
+Allentown	41.65,-72.99
+Allingtown	41.30,-72.96
+Allyn Point	41.44,-72.08
+Almyville	41.72,-71.87
+Alsop Corner	41.81,-72.82
+Amesville	41.96,-73.38
+Amston	41.63,-72.34
+Andover	41.74,-72.37
+Ansonia	41.35,-73.08
+Aqua Vista	41.45,-73.44
+Arnolds	41.47,-72.51
+Ashford	41.87,-72.12
+Aspetuck	41.22,-73.32
+Atchison Cove	41.57,-73.48
+Attawan Beach	41.30,-72.21
+Attawaugan	41.87,-71.88
+Atwoodville	41.78,-72.17
+Augerville	41.37,-72.91
+Autumn HIll	41.52,-72.87
+Avery Corner	41.52,-72.25
+Avon	41.81,-72.83
+Avon Park North	41.81,-72.84
+Avon Park South	41.81,-72.84
+Backus Corner	41.51,-72.10
+Bahre Corner	41.85,-72.90
+Bailey Beach	41.50,-72.42
+Baileyville	41.51,-72.72
+Bakersville	41.83,-73.03
+Baldwins Crossing	41.24,-73.09
+Ball Pond	41.46,-73.52
+Ballouville	41.88,-71.86
+Baltic	41.62,-72.08
+Bantam	41.72,-73.24
+Bargytown	41.51,-72.17
+Barkhampsted Center	41.93,-72.97
+Barkhamsted	41.93,-72.91
+Barnesville	41.31,-72.91
+Bartlett	41.42,-72.10
+Bashan	41.51,-72.43
+Bayview	41.21,-73.03
+Beachdale	41.58,-71.86
+Beacon Falls	41.44,-73.06
+Beaver Head Corner	41.39,-72.73
+Beaverbrook	41.41,-73.42
+Beckettville	41.39,-73.47
+Bedlam Corner	41.78,-72.15
+Behind the Rocks	41.75,-72.70
+Belle Haven	41.01,-73.63
+Belltown	41.08,-73.53
+Bensted Corner	41.71,-72.88
+Berkshire	41.41,-73.26
+Berkshire Estates	41.44,-73.26
+Berlin	41.62,-72.75
+Beseck Lake	41.52,-72.73
+Bethany	41.42,-73.00
+Bethany Wood	41.45,-72.98
+Bethel	41.37,-73.41
+Bethlehem	41.64,-73.21
+Bethlehem Village	41.64,-73.20
+Bigelow Corners	41.47,-73.50
+Birch Groves	41.55,-73.44
+Birchwood	41.90,-72.72
+Bishops Corner	41.58,-72.87
+Black Hall	41.30,-72.32
+Black Point	41.29,-72.21
+Black Point Beach Club	41.30,-72.20
+Black Rock	41.16,-73.23
+Bloomfield	41.83,-72.73
+Blue Hills	41.81,-72.70
+Bolton	41.77,-72.43
+Boston	41.28,-73.41
+Botsford	41.37,-73.26
+Bowers Hill	41.40,-73.16
+Bradleyville	41.52,-73.08
+Brainerd Park	42.02,-72.58
+Branchville	41.27,-73.44
+Branford	41.28,-72.82
+Branford Center	41.28,-72.82
+Branford Hills	41.27,-72.85
+Breakneck	41.89,-72.66
+Bretton Heights	41.54,-72.66
+Bridgeport	41.18,-73.19
+Bridgewater	41.54,-73.37
+Brightview	41.27,-72.90
+Bristol	41.67,-72.95
+Brockway	41.39,-72.38
+Brockway Landing	41.39,-72.39
+Brookfield	41.48,-73.41
+Brookfield Center	41.47,-73.39
+Brooklyn	41.79,-71.95
+Brooksvale	41.47,-72.92
+Browns Corner	41.83,-72.98
+Buckingham	41.71,-72.52
+Buckland	41.80,-72.55
+Bull Run Corner	41.93,-72.67
+Bulls Bridge	41.68,-73.51
+Bunker Hill	41.57,-73.06
+Burlington	41.77,-72.96
+Burnetts Corner	41.39,-71.98
+Burnham	41.80,-72.62
+Burnside	41.78,-72.61
+Burnt Hill	41.57,-73.03
+Burrville	41.87,-73.08
+Byram	41.00,-73.65
+Calhoun Corners	41.80,-73.38
+Campville	41.74,-73.11
+Canaan	42.03,-73.33
+Canaan Valley	42.04,-73.26
+Candlewood Knolls	41.48,-73.46
+Candlewood Lake Club	41.49,-73.44
+Candlewood Orchards	41.47,-73.44
+Candlewood Pines	41.46,-73.45
+Candlewood Point	41.54,-73.44
+Candlewood Shores	41.48,-73.44
+Candlewood Springs	41.56,-73.44
+Cannondale	41.22,-73.43
+Canterbury	41.70,-71.97
+Canton	41.82,-72.89
+Canton Center	41.86,-72.92
+Canton Valley	41.83,-72.89
+Carroll Corners	41.93,-72.77
+Casagmo	41.29,-73.50
+Case Corner	41.84,-72.77
+Cedar Beach	41.18,-73.10
+Cedar Heights	41.45,-73.44
+Cedar Lake	41.40,-72.50
+Cedar Land	41.47,-73.23
+Cedarhurst	41.43,-73.22
+Center Groton	41.38,-72.03
+Centerbrook	41.35,-72.42
+Centerville	41.38,-72.91
+Central Village	41.72,-71.91
+Central Waterford	41.35,-72.13
+Chaffeeville	41.79,-72.21
+Chaplin	41.79,-72.13
+Chatsworth Village	41.94,-72.79
+Cherry Park	41.81,-72.89
+Cheshire	41.50,-72.90
+Cheshire Village	41.50,-72.90
+Chester	41.40,-72.45
+Chester Center	41.40,-72.45
+Chesterfield	41.43,-72.21
+Chimney Point	41.50,-73.44
+City Point	41.28,-72.93
+City of Milford (balance)	41.22,-73.06
+Clarks Corner	41.77,-72.09
+Clarks Falls	41.46,-71.81
+Clarks Village	41.36,-71.84
+Clayville	41.62,-71.98
+Clinton	41.28,-72.53
+Clinton Beach	41.27,-72.50
+Clintonville	41.39,-72.82
+Coachlight Village	41.78,-72.61
+Cobalt	41.56,-72.56
+Cobalt Landing	41.56,-72.56
+Colchester	41.58,-72.33
+Colebrook	41.99,-73.10
+Coley Town	41.19,-73.34
+Collinsville	41.81,-72.92
+Colonial Mobile Home Park	41.74,-72.64
+Columbia	41.70,-72.30
+Compo	41.11,-73.36
+Conantville	41.74,-72.20
+Conning Towers-Nautilus Park	41.39,-72.07
+Corbin Heights Housing	41.69,-72.80
+Corner of the Pines	41.84,-73.33
+Cornfield Park	41.26,-72.39
+Cornwall	41.84,-73.33
+Cornwall Bridge	41.82,-73.37
+Cos Cob	41.03,-73.60
+Cottage Grove	41.82,-72.70
+Cotton Hollow	41.66,-72.60
+Coventry	41.78,-72.34
+Coventry Lake	41.77,-72.33
+Cranbury	41.15,-73.40
+Crescent Beach	41.32,-72.20
+Crescent Park	41.31,-72.20
+Cromwell	41.60,-72.65
+Cromwell Hills	41.61,-72.68
+Crowley Corner	41.48,-72.31
+Crowleys Corner	41.82,-72.87
+Crystal Lake	41.93,-72.38
+Danbury	41.39,-73.45
+Daniels Mill	41.17,-73.47
+Danielson	41.80,-71.89
+Darien	41.08,-73.47
+Davidsons Corner	41.43,-72.98
+Dayville	41.85,-71.89
+Deaconwood	41.50,-72.92
+Deep River	41.39,-72.44
+Deep River Center	41.38,-72.44
+Dempsey Landing	41.71,-73.23
+Derby	41.32,-73.09
+Devon	41.20,-73.10
+Doaneville	41.57,-71.88
+Dodgingtown	41.38,-73.36
+Dolphin Cove	41.03,-73.55
+Double Beach	41.26,-72.83
+Downtown Hartford	41.77,-72.67
+Drakeville	41.86,-73.16
+Duck Island Roads	41.26,-72.51
+Durham	41.48,-72.68
+Durham Center	41.47,-72.68
+Eagleville	41.79,-72.28
+East Berlin	41.62,-72.71
+East Bridgeport	41.17,-73.18
+East Bristol	41.67,-72.91
+East Brooklyn	41.80,-71.90
+East Canaan	42.01,-73.28
+East Cornwall	41.81,-73.31
+East Derby	41.31,-73.08
+East Farmington Heights	41.73,-72.78
+East Farms	41.55,-72.98
+East Glastonbury	41.69,-72.53
+East Granby	41.94,-72.73
+East Haddam	41.45,-72.46
+East Hampton	41.58,-72.50
+East Hartford	41.78,-72.61
+East Hartford Gardens	41.74,-72.61
+East Hartland	42.00,-72.91
+East Haven	41.28,-72.87
+East Kent	41.73,-73.40
+East Killingly	41.85,-71.82
+East Litchfield	41.76,-73.12
+East Meriden	41.53,-72.76
+East Morris	41.69,-73.18
+East Mountain	41.53,-73.01
+East New London	41.37,-72.10
+East Norwalk	41.11,-73.40
+East Plymouth	41.69,-73.00
+East Putnam	41.91,-71.82
+East River	41.29,-72.64
+East Thompson	42.01,-71.81
+East Village	41.36,-73.19
+East Wallingford	41.44,-72.79
+East Willington	41.87,-72.24
+East Windsor	41.91,-72.55
+East Windsor Hill	41.86,-72.60
+East Woodstock	41.98,-71.98
+Eastford	41.90,-72.08
+Easton	41.25,-73.30
+Ebbs Corner	42.02,-72.75
+Edgewood	41.70,-72.92
+Ekonk	41.65,-71.85
+Ellington	41.90,-72.47
+Elliotts	41.83,-72.01
+Ellithorpe	42.00,-72.31
+Ellsworth	41.83,-73.43
+Elm Hill	41.67,-72.74
+Elmville	41.83,-71.88
+Elmwood	41.73,-72.72
+Enfield	41.98,-72.59
+Erickson Corner	41.66,-73.42
+Essex	41.35,-72.39
+Essex Village	41.36,-72.39
+Exeter	41.62,-72.26
+Fabyan	42.01,-71.94
+Fair Haven	41.31,-72.90
+Fair Haven East	41.30,-72.89
+Fair Lawn	41.55,-73.00
+Fairchild Heights Trailer Park	41.27,-73.13
+Fairfield	41.14,-73.26
+Fairmount	41.59,-73.06
+Falls Village	41.96,-73.36
+Farmington	41.72,-72.83
+Farmington Station	41.72,-72.86
+Farnhams	41.86,-72.56
+Fenwick	41.27,-72.35
+Fenwood	41.27,-72.37
+Fernridge Place	41.77,-72.74
+Fernwood Estates	41.46,-72.90
+Firetown	41.91,-72.82
+Fitch Corner	41.45,-72.11
+Fitchville	41.56,-72.15
+Five Points	41.32,-73.36
+Flanders	41.74,-73.46
+Flax Hill Elderly Housing	41.82,-72.53
+Floral Park	41.32,-72.36
+Floydville	41.93,-72.78
+Fogelmarks Corners	41.60,-72.60
+Foote Corners	41.76,-72.76
+Forbes Village	41.73,-72.60
+Forest Heights	41.24,-73.04
+Forest Village	41.75,-72.60
+Forestville	41.68,-72.92
+Fort Trumbull	41.21,-73.06
+Four Corners	41.63,-72.46
+Fox Hill	41.30,-73.48
+Fox Hollow	41.53,-72.87
+Fox Meadows	41.61,-72.69
+Foxon	41.32,-72.84
+Franklin	41.61,-72.15
+Gales Ferry	41.43,-72.08
+Gaylordsville	41.65,-73.48
+Georgetown	41.26,-73.43
+Germantown	41.41,-73.44
+Giants Neck	41.30,-72.23
+Gilbert Corners	41.18,-73.44
+Gildersleeve	41.60,-72.62
+Gilead	41.67,-72.41
+Gilman	41.58,-72.20
+Glasgo	41.56,-71.89
+Glastonbury	41.71,-72.61
+Glastonbury Center	41.70,-72.60
+Glen Ridge	41.50,-73.07
+Glenbrook	41.06,-73.53
+Glenville	41.04,-73.66
+Godfrey Corner	41.24,-73.38
+Golden Spur	41.37,-72.20
+Goodrich Heights	41.62,-72.65
+Goodrichville	41.98,-72.81
+Goodspeeds Landing	41.45,-72.46
+Goshen	41.83,-73.23
+Granbrook Park	41.94,-72.77
+Granby	41.95,-72.79
+Graniteville	41.34,-72.15
+Grantville	41.95,-73.16
+Grappaville	41.72,-73.23
+Green Manor Village	41.94,-72.66
+Greenfield Hill	41.18,-73.29
+Greens Farms	41.12,-73.32
+Greenville	41.53,-72.06
+Greenwich	41.03,-73.63
+Greystone	41.62,-73.04
+Griswoldville	41.69,-72.67
+Grosvenor Dale	41.97,-71.89
+Groton	41.35,-72.08
+Groton Long Point	41.31,-72.01
+Grove Beach	41.27,-72.48
+Grover Hill	41.15,-73.23
+Guilford	41.29,-72.68
+Guilford Center	41.28,-72.68
+Gulls Hollow	41.63,-73.22
+Gurleyville	41.81,-72.22
+Haddam	41.48,-72.51
+Hadlyme	41.42,-72.41
+Hale Court	41.12,-73.35
+Halladay Corner	42.01,-72.64
+Hallville	41.49,-72.03
+Hamburg	41.38,-72.35
+Hamden	41.40,-72.90
+Hammertown	42.04,-73.41
+Hampsted	41.95,-72.90
+Hampton	41.78,-72.05
+Hamptonville	41.80,-72.05
+Hancock	41.64,-73.02
+Hanover	41.64,-72.07
+Happyland	41.47,-72.06
+Harbor View	41.26,-72.52
+Harborview	41.08,-73.41
+Harrisons	41.39,-72.10
+Harrisville	41.93,-71.94
+Hartford	41.76,-72.69
+Hartland	42.00,-72.98
+Harwinton	41.77,-73.06
+Hattertown	41.34,-73.31
+Hawks Nest	41.27,-72.47
+Hawks Nest Beach	41.28,-72.28
+Hawleyville	41.43,-73.36
+Hawthorne Terrace	41.46,-73.43
+Hayden	41.89,-72.63
+Hayestown	41.42,-73.45
+Haywardville	41.51,-72.33
+Hazardville	41.99,-72.54
+Hebron	41.66,-72.37
+Heilwield Corner	41.51,-72.25
+Heritage Village	41.49,-73.24
+Hickory Haven	41.63,-73.39
+Higganum	41.50,-72.56
+High Ridge	41.17,-73.56
+Highland	41.57,-72.74
+Highland Estates	41.59,-72.70
+Highland Park	41.77,-72.50
+Higley Village	41.94,-72.73
+Hillcrest	41.54,-73.10
+Hilliardville	41.78,-72.56
+Hoadley Neck	41.26,-72.73
+Hockanum	41.74,-72.63
+Hollywyle Park	41.46,-73.46
+Honeypot Glen	41.52,-72.89
+Hope Valley	41.63,-72.38
+Hopeville	41.53,-73.04
+Hopewell	41.35,-73.34
+Horse Heaven	41.62,-73.28
+Hoskins	41.90,-72.79
+Hotchkissville	41.57,-73.22
+Huckleberry Hills Trails	41.80,-72.90
+Hungary	41.98,-72.78
+Hunting Ridge	41.12,-73.57
+Huntington	41.30,-73.15
+Huntingtown	41.36,-73.29
+Huntsville	41.94,-73.31
+Hurds Corner	41.62,-73.42
+Hydeville	41.99,-72.28
+Indian Neck	41.26,-72.80
+Interlaken Estates	41.95,-73.44
+Ives Corner	41.47,-72.91
+Ivoryton	41.35,-72.44
+Jericho	41.34,-72.30
+Jewett City	41.61,-71.98
+Jewitt Corner	41.44,-72.34
+Johnson Park	41.71,-72.21
+Johnsons Corner	41.24,-73.11
+Jordan	41.34,-72.14
+Joyceville	42.05,-73.43
+Kelly Corner	41.88,-73.21
+Kelseytown	41.30,-72.53
+Kensington	41.64,-72.77
+Kent	41.72,-73.48
+Kent Furnace	41.74,-73.47
+Kenyonville	41.93,-72.08
+Kettletown	41.46,-73.20
+Killingly Center	41.84,-71.87
+Killingworth	41.36,-72.56
+Kings Corner	41.94,-72.60
+Kinneytown	41.37,-73.09
+Kitemaug	41.45,-72.09
+Knollcrest	41.50,-73.47
+Knollwood	41.27,-72.38
+Lake Pocotopaug	41.60,-72.51
+Lake View	41.36,-72.51
+Lake View Terrace	41.95,-72.37
+Lakeridge Heights	41.52,-72.64
+Lakeside	41.68,-73.24
+Lakeside Woods	41.57,-73.49
+Lakeville	41.96,-73.44
+Lakewood	41.58,-73.03
+Lamson Corner	41.74,-72.97
+Lanesville	41.54,-73.42
+Lattins Landing	41.45,-73.43
+Laurel Beach	41.18,-73.09
+Laurel Glen	41.47,-71.81
+Laysville	41.35,-72.30
+Lebanon	41.64,-72.21
+Ledyard	41.44,-72.01
+Leesville	41.51,-72.48
+Leetes Island	41.27,-72.71
+Liberty Hill	41.67,-72.25
+Liberty Mobile Home Park	41.68,-72.85
+Lime Rock	41.93,-73.39
+Lisbon	41.60,-72.01
+Litchfield	41.75,-73.19
+Little City	41.45,-72.60
+Little Danbury	41.13,-73.24
+Little Haddam	41.48,-72.45
+Lonetown	41.32,-73.38
+Long HIll Estates	41.54,-72.68
+Long Hill	41.27,-73.22
+Long Ridge	41.16,-73.60
+Lords Point	41.34,-71.93
+Lordship	41.15,-73.11
+Lovely Street	41.78,-72.89
+Lower City	41.92,-73.28
+Lower Merryall	41.65,-73.42
+Lydallville	41.80,-72.49
+Lyme Station	41.30,-72.33
+Lyons Plain	41.23,-73.35
+Macedonia	41.74,-73.50
+Madison	41.28,-72.60
+Madison Center	41.28,-72.60
+Manchester	41.78,-72.52
+Manchester Green	41.79,-72.50
+Manitock Spring	41.35,-72.16
+Mansfield Center	41.77,-72.20
+Mansfield City	41.77,-72.23
+Mansfield Depot	41.80,-72.31
+Mansfield Four Corners	41.83,-72.27
+Mansfield Hollow	41.76,-72.19
+Marble Dale	41.66,-73.37
+Margerie Manor	41.45,-73.47
+Marion	41.56,-72.93
+Marlborough	41.63,-72.46
+Maromas	41.54,-72.56
+Mashantucket	41.48,-71.96
+Mashapaug	42.03,-72.14
+Massapeag	41.46,-72.08
+Mayberry Village	41.78,-72.59
+McClaveville	42.04,-73.10
+Meadowbrook	41.49,-72.88
+Meadowgate	41.95,-72.79
+Mechanicsville	41.97,-72.79
+Melrose	41.94,-72.52
+Melville Village	41.19,-73.23
+Meriden	41.54,-72.81
+Merrow	41.82,-72.31
+Merwinsville	41.65,-73.48
+Miami Shores	41.28,-72.28
+Mianus	41.04,-73.59
+Middle Beach	41.27,-72.59
+Middle Haddam	41.55,-72.55
+Middlebury	41.53,-73.13
+Middlefield	41.52,-72.71
+Middletown	41.56,-72.65
+Midway	41.34,-72.03
+Milestone Corner	41.52,-72.27
+Milford	41.22,-73.06
+Milford Lawns	41.22,-73.01
+Mill Brook	41.96,-73.12
+Mill Hill	41.18,-73.16
+Mill Plain	41.15,-73.27
+Mill Pond Village	41.92,-72.54
+Millbrook	41.38,-72.89
+Milldale	41.57,-72.89
+Miller Memorial Community	41.53,-72.80
+Millington	41.49,-72.36
+Millstone	41.31,-72.17
+Millville	41.49,-73.07
+Milton	41.77,-73.27
+Minortown	41.58,-73.17
+Miramichi	41.55,-72.70
+Miry Brook	41.37,-73.48
+Mitcheltown	41.86,-73.46
+Mixville	41.52,-72.94
+Mobile Medical Unit	41.41,-73.44
+Mohegan	41.48,-72.10
+Momauguin	41.25,-72.88
+Monroe	41.33,-73.21
+Montowese	41.35,-72.86
+Montville Center	41.48,-72.15
+Moodus	41.50,-72.45
+Mooreville	41.91,-73.06
+Moosup	41.71,-71.88
+Morgan Fair Corners	41.41,-73.31
+Morningside	41.21,-73.01
+Morningside Park	41.35,-72.13
+Morris	41.68,-73.20
+Morris Cove	41.26,-72.89
+Mount Carmel	41.42,-72.91
+Mount Carmel Center	41.44,-72.91
+Mount Hope	41.82,-72.17
+Mount Parnassus	41.47,-72.41
+Mount Pleasant Housing	41.67,-72.80
+Mountaincrest	41.47,-72.94
+Mudgetown	41.90,-73.48
+Murray	41.19,-73.29
+Myrtle Beach	41.20,-73.08
+Mystic	41.35,-71.97
+Mystic Seaport	41.36,-71.97
+Naugatuck	41.49,-73.05
+Naugatuck Gardens	41.21,-73.10
+Naugatuck Junction	41.21,-73.11
+Nautilus Park	41.38,-72.07
+Nelsons Corner	41.95,-73.05
+Nepaug	41.83,-73.00
+Neptune Park	41.31,-72.10
+New Britain	41.66,-72.78
+New Canaan	41.15,-73.49
+New Fairfield	41.47,-73.49
+New Halville	41.29,-72.95
+New Hartford	41.88,-72.98
+New Hartford Center	41.88,-72.98
+New Haven	41.31,-72.93
+New London	41.36,-72.10
+New Milford	41.58,-73.41
+New Preston	41.68,-73.35
+Newberry Corner	41.79,-73.14
+Newent	41.60,-72.02
+Newfield	41.11,-73.53
+Newfield Heights	41.56,-72.68
+Newington	41.70,-72.72
+Newington Junction	41.71,-72.74
+Newtown	41.41,-73.30
+Niantic	41.33,-72.19
+Nichols	41.24,-73.16
+Noank	41.33,-71.99
+Norfolk	41.99,-73.20
+Noroton	41.06,-73.49
+Noroton Heights	41.08,-73.49
+North Ashford	41.95,-72.10
+North Bloomfield	41.89,-72.75
+North Branford	41.33,-72.77
+North Canton	41.90,-72.89
+North Colebrook	42.02,-73.11
+North Cornwall	41.87,-73.31
+North Coventry	41.80,-72.37
+North Cromwell	41.61,-72.64
+North End	41.62,-72.87
+North Franklin	41.63,-72.16
+North Goshen	41.90,-73.21
+North Granby	42.00,-72.83
+North Greenwich	41.10,-73.69
+North Grosvenor Dale	41.99,-71.90
+North Guilford	41.37,-72.72
+North Haven	41.39,-72.86
+North Haven Bridge	41.39,-72.87
+North Hollow	42.03,-72.93
+North Kent	41.77,-73.43
+North Lyme	41.41,-72.34
+North Madison	41.36,-72.64
+North Mianus	41.07,-73.59
+North Somers	42.02,-72.45
+North Stamford	41.14,-73.54
+North Stonington	41.44,-71.88
+North Thompsonville	42.02,-72.59
+North Westchester	41.58,-72.40
+North Wilton	41.21,-73.47
+North Windham	41.75,-72.15
+North Woodbury	41.55,-73.21
+North Woodstock	41.99,-72.00
+Northeast	41.79,-72.67
+Northfield	41.06,-73.54
+Northford	41.39,-72.79
+Northville	41.63,-73.39
+Northwest Harwinton	41.78,-73.08
+Norwalk	41.12,-73.41
+Norwich	41.52,-72.08
+Norwichtown	41.55,-72.11
+Nut Plains	41.32,-72.68
+Oakdale	41.47,-72.16
+Oakdale Manor	41.44,-73.25
+Oakland	41.81,-72.52
+Oakland Gardens	41.74,-72.79
+Oakville	41.59,-73.09
+Obtuse Hill	41.47,-73.36
+Occum	41.60,-72.05
+Old Avon Village	41.81,-72.83
+Old Greenwich	41.02,-73.56
+Old Lyme	41.32,-72.33
+Old Lyme Shores	41.29,-72.27
+Old Mystic	41.39,-71.96
+Old Saybrook	41.29,-72.38
+Old Saybrook Center	41.29,-72.37
+Oneco	41.69,-71.81
+Orange	41.28,-73.03
+Orcutts	41.98,-72.32
+Ore Hill	41.96,-73.47
+Oronoke	41.54,-73.09
+Oronoque	41.25,-73.10
+Oronoque Hills North	41.25,-73.11
+Oronoque Hills South	41.25,-73.11
+Osprey Beach	41.32,-72.09
+Oswegatchie	41.36,-72.18
+Otter Cove Estates	41.34,-72.37
+Overlook	41.57,-73.05
+Owenoke	41.11,-73.36
+Ox Hill	41.23,-73.22
+Oxford	41.43,-73.12
+Oxford Park	41.61,-72.67
+Oxford Village	41.77,-72.56
+Oxoboxo River	41.44,-72.13
+Pachaug	41.58,-71.94
+Packer	41.67,-71.95
+Palestine	41.37,-73.32
+Palmers Hill	41.06,-73.57
+Palmertown	41.45,-72.13
+Park Lane	41.60,-73.41
+Parkville	41.76,-72.69
+Pawcatuck	41.38,-71.83
+Paynes Corners	41.38,-73.00
+Pecks Mill	41.22,-73.12
+Pegville	41.97,-72.81
+Pemberwick	41.03,-73.66
+Pequabuck	41.67,-72.99
+Pequot Indian Reservation	41.45,-71.94
+Pequot Village	41.35,-72.06
+Perkins Corner	41.74,-72.26
+Phoenixville	41.88,-72.09
+Pine Bridge	41.43,-73.07
+Pine Grove	42.00,-73.35
+Pine Hill	41.08,-73.63
+Pine Meadow	41.88,-72.97
+Pine Orchard	41.27,-72.78
+Pine Rock Park	41.26,-73.10
+Pineville	41.88,-71.85
+Pinnacle Heights Housing	41.69,-72.81
+Pinneys Corners	41.19,-73.52
+Plainfield	41.68,-71.92
+Plainfield Village	41.68,-71.92
+Plainville	41.67,-72.86
+Plantsville	41.58,-72.89
+Platts Knoll	41.49,-72.88
+Platts Mills	41.51,-73.05
+Plattsville	41.22,-73.26
+Pleasant Acres	41.43,-73.45
+Pleasant Valley	41.37,-72.07
+Pleasure Beach	41.31,-72.15
+Plum Bank Beach	41.27,-72.39
+Plymouth	41.67,-73.05
+Podunk	41.32,-72.65
+Point Beach	41.21,-73.02
+Point O'Woods	41.29,-72.25
+Pomeraug	41.53,-73.21
+Pomfret	41.90,-71.96
+Pomfret Center	41.89,-71.96
+Pomfret Landing	41.85,-71.94
+Pond Meadow	41.33,-72.47
+Pondside	41.54,-72.86
+Ponset	41.47,-72.56
+Ponus	41.13,-73.52
+Pootatuck Park	41.43,-73.26
+Poquetanuck	41.49,-72.04
+Poquonock	41.90,-72.68
+Poquonock Bridge	41.35,-72.02
+Portland	41.57,-72.64
+Pratts Corner	41.56,-72.85
+Preston City	41.53,-71.97
+Prospect	41.50,-72.98
+Puddle Town	41.87,-72.96
+Putnam	41.92,-71.91
+Putnam Heights	41.89,-71.87
+Putney	41.24,-73.11
+Quaddick	41.94,-71.82
+Quaker Farms	41.43,-73.16
+Quaker Hill	41.40,-72.11
+Quakertown	41.41,-72.00
+Quarryville	41.86,-72.42
+Quebec	41.80,-71.89
+Quinebaug	42.02,-71.95
+Quinnipiac	41.43,-72.83
+Rainbow	41.92,-72.69
+Rawson	41.81,-72.07
+Raynham	41.27,-72.90
+Redding	41.30,-73.38
+Redding Ridge	41.31,-73.35
+Reynolds Bridge	41.66,-73.08
+Richards Corner	41.48,-72.91
+Ridgebury	41.36,-73.52
+Ridgefield	41.28,-73.50
+Ridgeway	41.07,-73.56
+Ridgewood	41.26,-72.51
+Rising Corner	42.04,-72.71
+River Glen	41.74,-72.86
+Riverbank	41.10,-73.59
+Rivercliff	41.19,-73.10
+Riverdale	41.56,-72.58
+Rivermead Mobile Home Park	41.73,-72.63
+Riverside	41.03,-73.58
+Riversville	41.06,-73.68
+Riverton	41.96,-73.02
+Riverview Mobile Home Estates	41.51,-73.05
+Robert Hutt Congregate Housing	41.50,-73.07
+Robertsville	41.98,-73.04
+Rock Landing	41.50,-72.52
+Rock Raymond	41.29,-73.27
+Rock Ridge	41.04,-73.65
+Rockland	41.41,-72.66
+Rockville	41.87,-72.45
+Rocky Glen	41.43,-73.27
+Rocky Hill	41.66,-72.64
+Rogers	41.84,-71.91
+Romford	41.68,-73.29
+Roseland Park	41.95,-71.96
+Round Beach	41.08,-73.40
+Rowayton	41.06,-73.44
+Roxbury	41.09,-73.56
+Roxbury Falls	41.51,-73.31
+Roxbury Station	41.56,-73.33
+Russian Village	41.45,-73.25
+Sachem Head	41.25,-72.70
+Salem	41.49,-72.28
+Salisbury	41.98,-73.42
+Salmon Brook	41.96,-72.80
+Sandy Beach	41.69,-73.22
+Sandy Hook	41.42,-73.28
+Sandy Point	41.35,-72.18
+Sanfordtown	41.29,-73.36
+Saugatuck	41.12,-73.37
+Saugatuck Shores	41.10,-73.37
+Saunders Point	41.34,-72.19
+Savin Rock	41.26,-72.95
+Saybrook Manor	41.29,-72.40
+Saybrook Point	41.28,-72.35
+Scantic	41.90,-72.55
+Schoonhoven Park	41.14,-73.23
+Scitico	41.98,-72.52
+Scotland	41.70,-72.08
+Scovill Landing	41.49,-72.47
+Sea Bluff	41.25,-72.96
+Seaside	41.30,-72.13
+Seaview Beach	41.27,-72.58
+Sellecks Corners	41.19,-73.53
+Seymour	41.40,-73.08
+Shady Rest	41.45,-73.28
+Shailerville	41.47,-72.50
+Shaker Pines	42.03,-72.54
+Sharon	41.88,-73.48
+Sharon Valley	41.88,-73.49
+Sheldon-Charter Oak	41.76,-72.67
+Shelton	41.32,-73.09
+Sherman	41.58,-73.50
+Sherman Corner	41.77,-72.14
+Sherwood Manor	42.01,-72.56
+Shewville	41.49,-71.99
+Shippan Point	41.03,-73.52
+Shorehaven	41.09,-73.39
+Short Beach	41.26,-72.84
+Silver Beach	41.20,-73.06
+Silver Falls	41.41,-72.22
+Silvermine	41.15,-73.45
+Silvermine Acres	41.83,-72.91
+Simsbury	41.88,-72.80
+Simsbury Center	41.88,-72.81
+Skinnerville	41.56,-72.51
+Smith Corner	41.59,-72.13
+Snug Harbor	41.44,-73.45
+Sodom	42.04,-73.30
+Somers	41.99,-72.45
+Somersville	41.98,-72.49
+Sound View	41.29,-72.29
+South Britain	41.47,-73.25
+South Canaan	41.96,-73.33
+South Chaplin	41.78,-72.13
+South Coventry	41.77,-72.31
+South Ellsworth	41.82,-73.43
+South End	41.04,-73.54
+South Farms	41.55,-72.64
+South Glastonbury	41.67,-72.60
+South Kent	41.68,-73.47
+South Killingly	41.79,-71.83
+South Lyme	41.31,-72.26
+South Meriden	41.52,-72.83
+South Norfolk	41.92,-73.21
+South Norwalk	41.09,-73.42
+South Wethersfield	41.69,-72.66
+South Willington	41.86,-72.30
+South Wilton	41.17,-73.42
+South Windham	41.68,-72.17
+South Windsor	41.82,-72.62
+South Woodstock	41.94,-71.96
+Southbury	41.48,-73.21
+Southford	41.46,-73.16
+Southington	41.60,-72.88
+Southport	41.14,-73.28
+Southwood Acres	41.96,-72.57
+Spoonville	41.90,-72.74
+Spring Glen	41.36,-72.91
+Spring Hill	41.79,-72.22
+Spring Village	41.92,-72.62
+Springdale	41.09,-73.52
+Stafford	41.98,-72.29
+Stafford Springs	41.95,-72.30
+Staffordville	41.99,-72.26
+Stamford	41.05,-73.54
+Stanwich	41.12,-73.62
+Stepney	41.30,-73.25
+Sterling	41.71,-71.83
+Sterling City	41.38,-72.34
+Stetson Corner	41.79,-72.01
+Stevenson	41.38,-73.18
+Stillmans Corner	41.56,-72.86
+Stonington	41.34,-71.91
+Stony Creek	41.26,-72.75
+Storrs	41.81,-72.25
+Straitsville	41.47,-73.03
+Stratfield	41.21,-73.24
+Stratford	41.18,-73.13
+Strathmore Woods	41.49,-72.89
+Suffield	41.98,-72.65
+Suffield Depot	41.98,-72.65
+Sunnyside	41.30,-73.07
+Sunnyside Trailer Park	41.29,-73.07
+Ta'agan Point	41.44,-73.45
+Taconic	42.04,-73.41
+Taftville	41.57,-72.05
+Talcottville	41.82,-72.50
+Talmadge Hill	41.12,-73.50
+Tariffville	41.91,-72.76
+Tariffville Center	41.92,-72.76
+Taylor Corners	41.45,-73.52
+Taylor Town	41.64,-72.61
+Terramuggus	41.64,-72.47
+Terryville	41.68,-73.01
+Thames View	41.39,-72.11
+Thamesville	41.51,-72.09
+The Cedars	41.93,-73.46
+The Gables	41.94,-72.79
+Thomaston	41.67,-73.07
+Thompson	41.96,-71.86
+Thompsonville	42.00,-72.60
+Thralltown	41.88,-72.65
+Tiffany Hill Corner	41.43,-72.41
+Titicus	41.29,-73.50
+Toilsome Hill	41.20,-73.22
+Tokeneke	41.07,-73.47
+Tolland	41.87,-72.37
+Tolles	41.64,-73.01
+Tootin' Hills	41.86,-72.87
+Topstone	41.30,-73.45
+Torringford	41.82,-73.08
+Torrington	41.80,-73.12
+Totoket	41.33,-72.81
+Town Hill	41.85,-73.00
+Town Landing	41.30,-72.33
+Town Plot Hill	41.54,-73.05
+Tracy	41.50,-72.81
+Trails Corner	41.34,-72.06
+Trumbull	41.24,-73.20
+Tudor Village	41.75,-72.61
+Tunxis Hill	41.18,-73.24
+Turkey Cobble	41.93,-73.19
+Turkey Hill	41.62,-72.79
+Turn of River	41.10,-73.55
+Twin Lakes	42.02,-73.39
+Tyler Lake Heights	41.84,-73.27
+Tylerville	41.45,-72.48
+Uncasville	41.43,-72.11
+Union	41.99,-72.16
+Union City	41.50,-73.05
+Unionville	41.76,-72.89
+Upper Albany	41.78,-72.70
+Upper Merryall	41.66,-73.42
+Upper Stepney	41.32,-73.27
+Valley Mobile Home Park	41.47,-73.00
+Vernon	41.82,-72.48
+Vernon Center	41.84,-72.47
+Versailles	41.60,-72.04
+Village Hill	41.68,-72.24
+Voluntown	41.57,-71.87
+Wallingford	41.46,-72.82
+Wallingford Center	41.45,-72.82
+Walnut Beach	41.19,-73.08
+Wangum Village	42.03,-73.34
+Wapping	41.83,-72.55
+Wapping Mews Elderly Housing	41.83,-72.51
+Warehouse Point	41.93,-72.62
+Warren	41.74,-73.35
+Warrenville	41.86,-72.16
+Washington	41.63,-73.31
+Wataba Lake	41.34,-73.49
+Waterbury	41.56,-73.05
+Waterford	41.34,-72.14
+Watertown	41.61,-73.12
+Waterville	41.59,-73.05
+Wauregan	41.74,-71.91
+Wauregan Station	41.74,-71.90
+Weatogue	41.84,-72.83
+Welles Village	41.73,-72.60
+Wellsville	41.60,-73.41
+Wequetequock	41.36,-71.88
+West Ashford	41.86,-72.18
+West Avon	41.79,-72.86
+West Cheshire	41.51,-72.92
+West Cornwall	41.87,-73.36
+West District	41.74,-72.89
+West End - West Side	41.17,-73.21
+West Goshen	41.83,-73.25
+West Granby	41.96,-72.84
+West Haddam	41.43,-72.56
+West Hartford	41.76,-72.74
+West Hartland	42.01,-72.97
+West Haven	41.27,-72.95
+West Hill	41.78,-72.73
+West Hills	41.33,-72.97
+West Morris	41.69,-73.26
+West Mystic	41.35,-71.98
+West Norfolk	42.00,-73.22
+West Norwalk	41.11,-73.46
+West Redding	41.33,-73.43
+West Seymour	41.39,-73.08
+West Shore	41.24,-72.97
+West Side Hill	41.55,-73.06
+West Simsbury	41.87,-72.86
+West Stafford	41.97,-72.36
+West Suffield	41.99,-72.69
+West Thompson	41.95,-71.91
+West Torrington	41.82,-73.14
+West Wauregan	41.75,-71.92
+West Willington	41.88,-72.30
+West Woods	41.81,-73.47
+West Woodstock	41.95,-72.05
+Westbrook	41.29,-72.45
+Westbrook Center	41.28,-72.44
+Westchester	41.55,-72.41
+Westfield	41.58,-72.70
+Westford	41.92,-72.18
+Westminster	41.71,-72.02
+Westmoor Park	41.78,-72.76
+Weston	41.20,-73.38
+Westport	41.14,-73.36
+Westview Heights	41.54,-73.09
+Westville	41.33,-72.97
+Wethersfield	41.71,-72.65
+Whigville	41.73,-72.94
+White Hills	41.33,-73.15
+White Sands Beach	41.28,-72.30
+Whitings Corner	41.79,-72.77
+Whitneyville	41.34,-72.91
+Wildermere Beach	41.19,-73.09
+Wildmans Landing	41.42,-73.46
+Williams Crossing	41.66,-72.16
+Willimantic	41.71,-72.21
+Willington Hill	41.88,-72.26
+Wilson	41.81,-72.66
+Wilsonville	42.01,-71.89
+Wilton	41.20,-73.44
+Winchester Center	41.90,-73.13
+Windermere	41.88,-72.48
+Windham	41.70,-72.16
+Windmill Springs	41.95,-72.79
+Windsor	41.85,-72.64
+Windsor Locks	41.93,-72.63
+Windsorville	41.89,-72.54
+Winnipauk	41.15,-73.42
+Winnipauk Village	41.13,-73.42
+Winsted	41.92,-73.06
+Winthrop	41.36,-72.49
+Wolcott	41.60,-72.99
+Woodbridge	41.35,-73.01
+Woodbury	41.54,-73.21
+Woodbury Center	41.54,-73.20
+Woodmont	41.23,-72.99
+Woodstock	41.95,-71.97
+Woodstock Valley	41.94,-72.07
+Woodtick	41.58,-72.98
+Woodville	41.70,-73.30
+Wopowog	41.52,-72.49
+Wormwood Hill	41.82,-72.20
+Wrightville	41.83,-73.15
+Yalesville	41.49,-72.82
+Yantic	41.56,-72.12
+Yelping Hill	41.90,-73.30

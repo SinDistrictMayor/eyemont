@@ -188,3 +188,5 @@ body[data-tab=map] #tm{display:flex}#tm button,#tm select{min-height:44px;min-wi
 #map .leaflet-control-attribution,#map .leaflet-control-attribution a{font-size:12px!important}
 #upd{position:fixed;left:10px;right:10px;bottom:calc(var(--tab) + var(--sb) + 10px);z-index:4000;min-height:44px;background:#062010;border:1px solid var(--g);color:var(--g);font:700 13px ui-monospace,monospace}#upd[hidden]{display:none}
 #offb{position:relative!important;top:0!important;height:30px;box-sizing:border-box;padding:0 10px;line-height:30px}
+.leaflet-control-attribution a{display:inline-flex;align-items:center;min-height:44px;min-width:24px;padding:0 2px}
+.leaflet-control-attribution{line-height:44px}
