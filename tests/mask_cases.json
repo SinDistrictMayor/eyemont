@@ -179,6 +179,62 @@
   [
    "Georgia Smith rescued again",
    "[name] rescued again"
+  ],
+  [
+   "Police seek Sean O'Malley after crash",
+   "Police seek [name] after crash"
+  ],
+  [
+   "Family of Maria D'Angelo asks for help",
+   "Family of [name] asks for help"
+  ],
+  [
+   "Neighbors describe Ludwig van Bergen as quiet",
+   "Neighbors describe [name] as quiet"
+  ],
+  [
+   "Rosa de la Cruz found safe",
+   "[name] found safe"
+  ],
+  [
+   "Officers searching for Luis Del Rio",
+   "Officers searching for [name]"
+  ],
+  [
+   "Mary St. Clair rescued from flood",
+   "[name] rescued from flood"
+  ],
+  [
+   "Anna-Marie Smith-Jones missing since Friday",
+   "[name] missing since Friday"
+  ],
+  [
+   "Karen DiNapoli describes crash",
+   "[name] describes crash"
+  ],
+  [
+   "Kevin LaRue charged in robbery",
+   "[name] charged in robbery"
+  ],
+  [
+   "Tom DeMarco arrested after chase",
+   "[name] arrested after chase"
+  ],
+  [
+   "Driver Peter MacLeod identified",
+   "Driver [name] identified"
+  ],
+  [
+   "Jan Van Dyke hospitalized",
+   "[name] hospitalized"
+  ],
+  [
+   "Kevin McKinney charged in crash",
+   "[name] charged in crash"
+  ],
+  [
+   "John MacArthur found safe",
+   "[name] found safe"
   ]
  ],
  "watch_refuse": [
@@ -290,7 +346,24 @@
   "U.S. Army Corps of Engineers opens spillway",
   "UN Security Council meets",
   "EU Commission weighs tariffs",
-  "U.S. Embassy Issues Alert"
+  "U.S. Embassy Issues Alert",
+  "St. Louis Cardinals clinch",
+  "Flooding in San Antonio Riverwalk",
+  "Van Nuys Airport closed",
+  "Delays at LaGuardia Airport",
+  "DeKalb County schools close",
+  "McDonald's recalls burgers in 3 states",
+  "YouTube Star Event canceled",
+  "FedEx Ground hub fire",
+  "San Juan de la Maguana floods",
+  "Sault Ste. Marie storm",
+  "Lake St. Clair water levels",
+  "Port St. Lucie evacuation",
+  "Fort St. John wildfire",
+  "DeSoto County flooding",
+  "LaSalle Street protest",
+  "MacArthur Foundation grants",
+  "PayPal Outage hits users"
  ],
  "watch_kind": {
   "Jordan": "kw",
