@@ -3,9 +3,9 @@
 const RM=matchMedia('(prefers-reduced-motion: reduce)');
 /* digital rain: ~12 fps, very faint, paused when hidden / reduced motion / battery saver */
 const c=document.getElementById('rain'),x=c.getContext('2d');let drops=[],rainT=null;
-function rs(){c.width=innerWidth/2;c.height=innerHeight/2;drops=Array(Math.floor(c.width/12)).fill(0).map(()=>Math.random()*-50)}rs();addEventListener('resize',rs);
-function frame(){x.fillStyle='rgba(0,0,0,.12)';x.fillRect(0,0,c.width,c.height);x.fillStyle='#00ff41';x.font='10px monospace';
- drops.forEach((y,i)=>{x.fillText(String.fromCharCode(0x30A0+Math.random()*96),i*12,y*12);if(y*12>c.height&&Math.random()>.97)drops[i]=0;drops[i]++})}
+function rs(){c.width=Math.ceil(innerWidth/2);c.height=48;drops=Array(Math.floor(c.width/12)).fill(0).map(()=>Math.random()*-50)}rs();addEventListener('resize',rs);
+function frame(){x.fillStyle='rgba(0,0,0,.18)';x.fillRect(0,0,c.width,c.height);x.fillStyle='#00ff41';x.font='10px monospace';
+ drops.forEach((y,i)=>{x.fillText(String.fromCharCode(0x30A0+Math.random()*96),i*12,y*12);if(y*12>c.height&&Math.random()>.9)drops[i]=0;drops[i]++})}
 const rainOn=()=>{if(!rainT&&!document.hidden&&!RM.matches)rainT=setInterval(frame,85)},rainOff=()=>{clearInterval(rainT);rainT=null};
 document.addEventListener('visibilitychange',()=>document.hidden?rainOff():rainOn());RM.addEventListener?.('change',()=>RM.matches?rainOff():rainOn());rainOn();
 const map=L.map('map',{zoomControl:false,worldCopyJump:true,preferCanvas:true}).setView([38,-97],3);window.EYEMONT_MAP=map;
@@ -215,21 +215,44 @@ const svgSpark=b=>{const mx=Math.max(...b,1);const pts=b.map((v,k)=>`${k*8+1},${
 const visible=e=>!topOn.size||[...e.tops].some(t=>topOn.has(t));
 const clsChips=cl=>Object.keys(CLASSES).map(k=>`<span class="cc cls-${k}${cl.includes(k)?' on':''}" title="${CLASSES[k]}">${CLASSES[k][0]}</span>`).join('');
 const where=e=>e.place||e.near||(e.st?e.st:`${e.lat.toFixed(1)}, ${e.lon.toFixed(1)}`);
-const card=(e,k)=>{const T=TOPICS[e.topic];return `<li><button class="card" data-k="${k}" style="--tc:${T[2]}"><span class="ct"><b class="ty">${T[1]} ${esc((e.type||'event').toUpperCase())}</b><span class="conf" aria-label="confidence ${Math.round(e.conf*100)} percent"><i style="width:${Math.round(e.conf*100)}%"></i><em>${Math.round(e.conf*100)}%</em></span></span>
-<span class="hl">${esc(e.head.slice(0,110))}</span><span class="meta"><span class="pl">◎ ${esc(where(e).slice(0,48))}</span><span>${ago(e.last/1000)}</span></span>
-<span class="cf">${clsChips(e.cls)}<small>${e.src} src${e.m.length>1?' · '+e.m.length+' items':''}${e.grow?' · ↑'+e.grow:''}</small>${svgSpark(e.spark)}</span></button></li>`};
-function list(ul,arr,empty){const v=arr.filter(visible);ul.innerHTML=v.length?v.slice(0,120).map(e=>card(e,FEED.indexOf(e))).join(''):`<li class="empty">${empty}</li>`}
+/* coverage split: items per source class -> bar + factual label (who reported it, nothing about truth) */
+const covCounts=e=>{const n={official:0,major:0,independent:0};e.m.forEach(x=>n[x.c]=(n[x.c]||0)+1);return n};
+const covLabel=n=>{const k=Object.keys(CLASSES).filter(c=>n[c]);return k.length===3?'Reported by: all three classes':k.length===1?`Reported by: ${k[0]} only`:'Reported by: '+k.join(' + ')};
+const covBar=e=>{const n=covCounts(e),t=e.m.length||1;return `<span class="cov" role="img" aria-label="${covLabel(n)}: ${n.official} official, ${n.major} major, ${n.independent} independent">${Object.keys(CLASSES).map(c=>`<i class="cv-${c}" style="width:${n[c]/t*100}%"></i>`).join('')}</span><span class="covl"><span>OFF ${n.official}</span><span>MAJ ${n.major}</span><span>IND ${n.independent}</span><em>${covLabel(n)}</em></span>`};
+const segOf=e=>e.cls.every(c=>c==='independent')?'gap':e.cls.every(c=>c==='official')?'off':'mix';
+const card=(e,k)=>{const T=TOPICS[e.topic],cf=Math.round(e.conf*100);return `<li><button class="card" data-k="${k}" style="--tc:${T[2]}"><span class="ct"><b class="ty">[${T[1]} ${esc((e.type||'event').toUpperCase())}]</b><span class="ro id">#${(e.m[0]?.i.id||k+'').toString().slice(-4).toUpperCase()}</span><span class="conf" aria-label="confidence ${cf} percent"><i style="width:${cf}%"></i><em>CONF ${cf}%</em></span></span>
+<span class="hl"><span class="pr" aria-hidden="true">&gt; </span>${esc(e.head.slice(0,110))}</span><span class="meta ro"><span class="pl">◎ ${esc(where(e).slice(0,40))}</span><span>T-${ago(e.last/1000).replace(' ago','')}</span><span>${e.src} SRC${e.m.length>1?' / '+e.m.length+' ITM':''}${e.grow?' ↑'+e.grow:''}</span></span>
+<span class="cf">${covBar(e)}${svgSpark(e.spark)}</span></button></li>`};
+let seg=sessionStorage.getItem('eyemont.seg')||'all';
+function list(ul,arr,empty,sg){const v=arr.filter(visible).filter(e=>!sg||sg==='all'||segOf(e)===sg);ul.innerHTML=v.length?v.slice(0,120).map(e=>card(e,FEED.indexOf(e))).join(''):`<li class="empty">${empty}</li>`}
 let tab=localStorage.getItem('eyemont.tab')||'now';
+/* COMMAND CONSOLE: status HUD, clocks, intercepted-traffic ticker, coverage segments */
+const RMQ=matchMedia('(prefers-reduced-motion: reduce)');
+function hud(ld,ok){$('#hf').textContent=`${ok}/${ld.length}`;const now=Date.now();let n=0;FEED.forEach(e=>e.m.forEach(x=>{if(x.t>now-36e5&&x.t<=now+6e4)n++}));
+ $('#hs').textContent=(n/60).toFixed(1);$('#hi').textContent=FEED.filter(e=>e.kind==='inc').length;ticker()}
+let tkSig='';function ticker(){const v=FEED.filter(visible).slice(0,24),sig=v.map(e=>e.head).join('|');if(sig===tkSig)return;tkSig=sig;
+ const row=v.map(e=>{const T=TOPICS[e.topic];return `<button class="ti" data-k="${FEED.indexOf(e)}" style="--tc:${T[2]}" tabindex="-1"><b>${new Date(e.last).toISOString().slice(11,16)}Z</b> ${T[1]} ${esc((e.type||'event').toUpperCase())} · ${esc(where(e).slice(0,24))} · <span>${esc(e.head.slice(0,70))}</span></button>`}).join('<span class="sep" aria-hidden="true">///</span>');
+ const tk=$('#tk');tk.innerHTML=row+(RMQ.matches?'':'<span class="sep" aria-hidden="true">///</span>'+row);tk.style.setProperty('--dur',Math.max(40,v.length*7)+'s')}
+const tkp=$('#tkp');const setTk=p=>{document.body.classList.toggle('tkpause',p);tkp.setAttribute('aria-pressed',p);tkp.textContent=p?'▶':'❚❚';tkp.setAttribute('aria-label',p?'Resume live ticker':'Pause live ticker')};
+tkp.onclick=()=>setTk(!document.body.classList.contains('tkpause'));
+$('#tkw').addEventListener('click',e=>{const b=e.target.closest('.ti');if(!document.body.classList.contains('tkpause')){setTk(true);return}if(b)openDetail(+b.dataset.k)});
+const pad=n=>String(n).padStart(2,'0');let clkT=null;
+function clk(){const d=new Date();$('#clk').textContent=`UTC ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}:${pad(d.getUTCSeconds())} · LOC ${pad(d.getHours())}:${pad(d.getMinutes())}${TZL?' '+TZL:''}`}
+const clkOn=()=>{clk();if(!clkT)clkT=setInterval(clk,1000)};document.addEventListener('visibilitychange',()=>{if(document.hidden){clearInterval(clkT);clkT=null}else clkOn()});clkOn();
+const SEGN={all:'All incidents, every source class.',gap:'COVERAGE GAP: reported by independent or citizen sources only, no official or major outlet linked yet. Coverage analysis, not verification.',off:'OFFICIAL ONLY: reported only by government or public bodies so far; no major or independent outlet linked yet.'};
+function segUI(){document.querySelectorAll('#seg button').forEach(b=>{const v=b.dataset.v,n=FEED.filter(visible).filter(e=>v==='all'||segOf(e)===v).length;b.setAttribute('aria-pressed',v===seg);b.innerHTML=`${v==='all'?'ALL':v==='gap'?'COVERAGE GAP':'OFFICIAL ONLY'} <b>${n}</b>`});$('#segnote').textContent=SEGN[seg]}
+$('#seg').onclick=e=>{const b=e.target.closest('button');if(!b)return;seg=b.dataset.v;sessionStorage.setItem('eyemont.seg',seg);document.body.classList.add('glitch');setTimeout(()=>document.body.classList.remove('glitch'),260);render()};
+
 /* empty-state wording: never claim "syncing" once every feed has failed; show error + retry state */
 const feedMsg=(ld,er)=>{const pend=ld.filter(l=>!state[l.id].data&&!state[l.id].err).length;if(!er.length||pend)return 'syncing feeds…';
  const nx=Math.min(...er.map(l=>state[l.id].next||Infinity)),sec=isFinite(nx)?Math.max(0,Math.round((nx-Date.now())/1000)):null;
  return `<span class="err">⚠ Could not reach ${er.length} feed${er.length>1?'s':''} (offline or blocked).</span><br>Retrying automatically${sec!=null?' in '+sec+' s':''}. <button type="button" class="btn" data-retry>RETRY NOW</button>`};
 document.addEventListener('click',e=>{if(!e.target.closest('[data-retry]'))return;LAYERS.forEach(Ly=>{const s=state[Ly.id];if(s.on&&s.err){s.fails=0;s.err=null;refresh(Ly)}});render()});
 
-function render(){const ld=LAYERS.filter(l=>state[l.id].on&&W[l.id]),ok=ld.filter(l=>state[l.id].data).length,er=ld.filter(l=>state[l.id].err);
+function render(){const ld=LAYERS.filter(l=>state[l.id].on&&W[l.id]),ok=ld.filter(l=>state[l.id].data).length,er=ld.filter(l=>state[l.id].err);hud(ld,ok);
  $('#sync').textContent=ld.length&&er.length===ld.length?`offline · ${er.length} feeds retrying`:`${ok}/${ld.length} feeds${er.length?' · '+er.length+' retrying':''}`;$('#sync').classList.toggle('bad',!!er.length&&er.length===ld.length);$('#sync').title=er.map(l=>l.label+': '+state[l.id].err).join('\n');
  const nInc=FEED.filter(e=>e.kind==='inc'&&visible(e)).length;
- if(tab==='now'){$('#nowsum').innerHTML=`<b>${FEED.filter(visible).length}</b> signals · <b>${nInc}</b> linked incidents · ranked by confidence, severity, recency`;list($('#nowlist'),FEED,ok?'Nothing matches these filters.':feedMsg(ld,er));const lv=$('#livestrip'),LV=LAYERS.find(l=>l.id==='live');if(topOn.has('news')&&clsOn[LV.cls]){ensure('live').then(()=>{if(!(topOn.has('news')&&clsOn[LV.cls]))return;lv.innerHTML=(state.live.data||[]).map(l=>`<li><a target=_blank rel=noopener href="${esc(links(l.popup)[0]?.[0]||'#')}">▶ ${esc(l.title)} ↗</a></li>`).join('');lv.hidden=false})}else lv.hidden=true}
+ if(tab==='now'){$('#nowsum').innerHTML=`<b>${FEED.filter(visible).length}</b> signals · <b>${nInc}</b> linked incidents · ranked by confidence, severity, recency`;list($('#nowlist'),FEED,ok?(seg==='all'?'Nothing matches these filters.':'No incidents in this coverage view right now.'):feedMsg(ld,er),seg);segUI();const lv=$('#livestrip'),LV=LAYERS.find(l=>l.id==='live');if(topOn.has('news')&&clsOn[LV.cls]){ensure('live').then(()=>{if(!(topOn.has('news')&&clsOn[LV.cls]))return;lv.innerHTML=(state.live.data||[]).map(l=>`<li><a target=_blank rel=noopener href="${esc(links(l.popup)[0]?.[0]||'#')}">▶ ${esc(l.title)} ↗</a></li>`).join('');lv.hidden=false})}else lv.hidden=true}
  if(tab==='near')renderNear();if(tab==='map')drawMap()}
 /* NEAR: coarse region only (chosen state, or a timezone guess). No geolocation API is used. */
 /* tz -> [state, coarse?]. Coarse = the zone spans many states, so we show "Guessed: NY, change". Includes IANA links/aliases Chrome may report. */
@@ -265,6 +288,15 @@ const ensure=id=>{const Ly=LAYERS.find(l=>l.id===id),s=state[id];if(s.data)retur
 let CAMS=null;const loadCams=()=>CAMS||(CAMS=LAYERS.find(l=>l.id==='cams').load().catch(e=>{CAMS=null;return[]}));
 /* detail sheet */
 const sheet=$('#sheet'),sb=$('#sbody');let rmap=null;
+/* HEADLINE DIFF: one representative headline per class side by side; words used only by that class are highlighted. Names masked. */
+const WSTOP=new Set('a an the of in on at to for and or is are was were be by with from as after over into new says say said amid near its it this that has have had will not no up out'.split(' '));
+const hdToks=t=>(t.toLowerCase().match(/[a-z0-9'’]+/g)||[]).filter(w=>!WSTOP.has(w)&&w.length>2);
+function framing(e){const by={};e.m.forEach(x=>(by[x.c]=by[x.c]||[]).push(x));const ks=Object.keys(CLASSES);
+ const rep=c=>{const a=by[c];if(!a)return null;a.sort((p,q)=>p.t-q.t);return maskNames(a[0].i.title.replace(/^[^\w]+/,''))};
+ const H={};ks.forEach(c=>H[c]=rep(c));const W={};ks.forEach(c=>W[c]=new Set(H[c]?hdToks(H[c]):[]));
+ const mark=(c,t)=>esc(t).replace(/[A-Za-z0-9'’]+/g,w=>{const l=w.toLowerCase();return !WSTOP.has(l)&&l.length>2&&ks.some(o=>o!==c&&H[o])&&!ks.some(o=>o!==c&&W[o].has(l))?`<mark>${w}</mark>`:w});
+ const n=covCounts(e);
+ return `<h3>HEADLINE DIFF <small>how each source class frames it</small></h3><p class="covsum">${covBar(e)}</p><div class="diff">${ks.map(c=>`<div class="dc cls-${c}"><span class="cls cls-${c}">${CLASSES[c]} · ${n[c]}</span>${H[c]?`<p>${mark(c,H[c])}</p><small>first: ${esc(by[c][0].src)} · ${tzt(by[c][0].t,1)}</small>`:`<p class="none">COVERAGE GAP<br><small>no ${c} source linked</small></p>`}</div>`).join('')}</div><small class="note">Highlighted words appear only in that class's headline. Earliest headline per class; names masked. Coverage analysis, not a judgement of accuracy.</small>`}
 function openDetail(k){const e=FEED[k];if(!e)return;const T=TOPICS[e.topic];const by={};e.m.forEach(x=>(by[x.c]=by[x.c]||[]).push(x));
  const lk=[];e.m.forEach(x=>links(html(x.i)).forEach(l=>{if(!lk.some(y=>y[0]===l[0]))lk.push([l[0],l[1],x.src])}));if(e.m.some(x=>x.i.url)){e.m.forEach(x=>{if(x.i.url&&!lk.some(y=>y[0]===x.i.url))lk.push([x.i.url,'read at '+x.src,x.src])})}
  const us=!!e.st;
@@ -273,6 +305,7 @@ ${e.m.some(x=>x.i.start)?`<p class="meta">✈ Delay ${(()=>{const st=Math.min(..
 <div class="cbig"><span class="conf"><i style="width:${Math.round(e.conf*100)}%"></i><em>confidence ${Math.round(e.conf*100)}%</em></span>${svgSpark(e.spark)}</div>
 <p class="note">${e.kind==='inc'?`${e.src} distinct sources · ${e.cls.length} class(es) · ${e.m.length} items linked by place (≤25 km), time (≤2 h) and event type. Automatic match, not verification.`:'Single source so far. Confidence rises when independent sources report the same event nearby.'}</p>
 <h3>COVERAGE BY SOURCE CLASS</h3><div class="grid3">${Object.keys(CLASSES).map(c=>`<div class="col${by[c]?'':' none'}"><span class="cls cls-${c}">${CLASSES[c]}</span>${(by[c]||[]).slice(0,6).map(x=>`<p><small>${esc(x.src)}</small>${esc(maskNames(x.i.title.replace(/^[^\w]+/,'')).slice(0,90))}</p>`).join('')||'<p><small>no coverage</small></p>'}</div>`).join('')}</div>
+${framing(e)}
 ${e.m.some(x=>x.Ly.id==='reports')?`<h3>COMMUNITY REPORTS (UNMODERATED)</h3><div class="rep">${e.m.filter(x=>x.Ly.id==='reports').map(x=>html(x.i)+(x.i.mock?'<small>posted to the local test relay (not public)</small>':'')).join('')}</div>`:''}<h3>TIMELINE</h3><ol class="tl">${e.m.slice().sort((a,b)=>b.t-a.t).slice(0,15).map(x=>`<li><time>${new Date(x.t).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</time><span class="cls cls-${x.c}">${CLASSES[x.c][0]}</span> ${esc(maskNames(x.i.title.replace(/^[^\w]+/,'')).slice(0,100))} <small>${esc(x.src)}</small></li>`).join('')}</ol>
 <h3>RADAR</h3>${us?'<div id="rmap" role="img" aria-label="Radar map"></div><small>NEXRAD via Iowa Environmental Mesonet (US only, ~5 min)</small>':`<p><a class="btn" target=_blank rel=noopener href="https://zoom.earth/maps/radar/#view=${e.lat.toFixed(2)},${e.lon.toFixed(2)},8z">Open radar near here ↗</a></p>`}
 <h3>NEARBY CAMS</h3><div id="ncams"><small>${e.st==='California'||(e.lat>32&&e.lat<42.1&&e.lon<-114&&e.lon>-124.5)?'searching Caltrans cams…':'No public cams indexed near here yet (Caltrans only for now).'}</small></div>
@@ -293,7 +326,7 @@ $('#sclose').onclick=closeSheet;addEventListener('keydown',e=>{if(e.key==='Escap
 document.addEventListener('click',ev=>{const b=ev.target.closest('button.card');if(b)openDetail(+b.dataset.k)});
 let SFIPS={},OFFS=[];getJSON('data/counties.json').then(d=>Object.entries(d).forEach(([n,s])=>SFIPS[n]=s.fips)).catch(()=>{});getJSON('data/official_streams.json').then(d=>OFFS=d).catch(()=>{});
 /* tabs */
-function setTab(t){tab=t;localStorage.setItem('eyemont.tab',t);document.querySelectorAll('#tabs button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.t===t)});
+function setTab(t){if(tab!==t){document.body.classList.add('glitch');setTimeout(()=>document.body.classList.remove('glitch'),260)}tab=t;localStorage.setItem('eyemont.tab',t);document.querySelectorAll('#tabs button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.t===t)});
  document.querySelectorAll('.view').forEach(v=>v.hidden=v.id!=='v-'+t);document.body.dataset.tab=t;render()}
 $('#tabs').onclick=e=>{const b=e.target.closest('button');if(b)setTab(b.dataset.t)};
 /* persistent filters: source class + topics */
