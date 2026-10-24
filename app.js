@@ -253,7 +253,7 @@ function render(){const ld=LAYERS.filter(l=>state[l.id].on&&W[l.id]),ok=ld.filte
  $('#sync').textContent=ld.length&&er.length===ld.length?`offline · ${er.length} feeds retrying`:`${ok}/${ld.length} feeds${er.length?' · '+er.length+' retrying':''}`;$('#sync').classList.toggle('bad',!!er.length&&er.length===ld.length);$('#sync').title=er.map(l=>l.label+': '+state[l.id].err).join('\n');
  const nInc=FEED.filter(e=>e.kind==='inc'&&visible(e)).length;
  if(tab==='now'){$('#nowsum').innerHTML=`<b>${FEED.filter(visible).length}</b> signals · <b>${nInc}</b> linked incidents · ranked by confidence, severity, recency`;list($('#nowlist'),FEED,ok?(seg==='all'?'Nothing matches these filters.':'No incidents in this coverage view right now.'):feedMsg(ld,er),seg);segUI();const lv=$('#livestrip'),LV=LAYERS.find(l=>l.id==='live');if(topOn.has('news')&&clsOn[LV.cls]){ensure('live').then(()=>{if(!(topOn.has('news')&&clsOn[LV.cls]))return;lv.innerHTML=(state.live.data||[]).map(l=>`<li><a target=_blank rel=noopener href="${esc(links(l.popup)[0]?.[0]||'#')}">▶ ${esc(l.title)} ↗</a></li>`).join('');lv.hidden=false})}else lv.hidden=true}
- if(tab==='near')renderNear();if(tab==='map')drawMap()}
+ if(tab==='near')renderNear();if(tab==='int')renderInt();if(tab==='map'&&!TM.on)drawMap()}
 /* NEAR: coarse region only (chosen state, or a timezone guess). No geolocation API is used. */
 /* tz -> [state, coarse?]. Coarse = the zone spans many states, so we show "Guessed: NY, change". Includes IANA links/aliases Chrome may report. */
 const TZ=(()=>{const m={},put=(st,c,...z)=>z.forEach(x=>m[x]=[st,c]);
@@ -372,6 +372,43 @@ const ns=$('#nearsel');getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b
 ns.onchange=()=>{near=ns.value;localStorage.setItem('eyemont.near',near);render()};
 setInterval(()=>tab!=='map'&&render(),60e3);
 setTab(tab);
+/* ---------- SIGNAL INTERCEPT: raw chronological firehose (names masked, DOM capped) ---------- */
+const IPAGE=150,IMAX=600;let iCap=IPAGE,iPaused=false,iShown=new Set(),iSnap=null,iQ='';
+function interceptItems(){const now=Date.now(),out=[];LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on||!s.data||Ly.tile||Ly.dynamic||Ly.id==='live'||Ly.id==='cams')return;
+ itemsOf(Ly).forEach(i=>{if(i.flagged)return;const t=i.time;if(!t||t>now+6e5||now-t>864e5)return;const txt=i.title||i.text||'';const ty=LYTYPE[Ly.id]||Object.keys(LEX).find(k=>LEX[k].test(txt))||null;const tp=topicOf(ty,Ly.id);
+  if(topOn.size&&!topOn.has(tp)&&!topOn.has(LYTOPIC[Ly.id]))return;out.push({k:Ly.id+'|'+t+'|'+txt.slice(0,60),t,Ly,i,c:clsOf(i,Ly),tp,txt})})});
+ return out.sort((a,b)=>b.t-a.t)}
+const iTime=t=>{const d=new Date(t);return `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`};
+const iRow=x=>{const T=TOPICS[x.tp],u=x.i.url||(x.i.popup?links(x.i.popup)[0]?.[0]:'');const h=esc(maskNames(x.txt.replace(/^[^\w]+/,'')).slice(0,160));const pl=x.i.place&&!x.i.home?` <span class="ipl">◎ ${esc(maskNames(x.i.place))}</span>`:'';
+ return `<li style="--tc:${T[2]}"><span class="it">${iTime(x.t)}</span><span class="cls cls-${x.c}">${x.c[0].toUpperCase()}</span><span class="isrc">${esc(x.Ly.label.replace(/^\S+\s/,''))}</span><span class="ih">${u?`<a href="${esc(u)}" target=_blank rel=noopener>${h} ↗</a>`:h}${pl}</span></li>`};
+function renderInt(){const all=interceptItems(),q=iQ.toLowerCase();const match=x=>!q||maskNames(x.txt).toLowerCase().includes(q)||x.Ly.label.toLowerCase().includes(q);
+ if(iPaused&&iSnap){const n=all.filter(x=>match(x)&&!iShown.has(x.k)).length;const b=$('#inew');b.hidden=!n;b.textContent=`▲ ${n} NEW · RESUME`;return}
+ const v=all.filter(match);iShown=new Set(v.map(x=>x.k));iSnap=v;$('#inew').hidden=true;
+ $('#ilist').innerHTML=v.length?v.slice(0,iCap).map(iRow).join(''):'<li class="empty">No signals match.</li>';
+ $('#isum').textContent=`${v.length} signals · last 24h · showing ${Math.min(iCap,v.length)} · newest first`;const mb=$('#imore');mb.hidden=v.length<=iCap||iCap>=IMAX;mb.textContent=`SHOW ${IPAGE} MORE`}
+const setIP=p=>{iPaused=p;const b=$('#ipause');b.setAttribute('aria-pressed',p);b.textContent=p?'▶ RESUME':'❚❚ PAUSE';if(!p){iSnap=null;renderInt()}};
+$('#ipause').onclick=()=>setIP(!iPaused);$('#inew').onclick=()=>setIP(false);$('#imore').onclick=()=>{iCap=Math.min(IMAX,iCap+IPAGE);iSnap=null;const p=iPaused;iPaused=false;renderInt();iPaused=p};
+let iqT;$('#iq').oninput=e=>{clearTimeout(iqT);iqT=setTimeout(()=>{iQ=e.target.value.trim();iCap=IPAGE;const p=iPaused;iPaused=false;renderInt();iPaused=p;if(p)iSnap=true},200)};
+setInterval(()=>tab==='int'&&!document.hidden&&renderInt(),15e3);
+/* ---------- TIME MACHINE: replay last 6/12/24h on the map ---------- */
+const TM={on:false,play:false,hist:null,pts:[],cur:1,timer:null,g:L.layerGroup()};const CL={o:'official',m:'major',i:'independent'};
+const tmLoad=()=>TM.hist||(TM.hist=getJSON('data/history/24h.json?t='+Math.floor(Date.now()/9e5)).then(d=>d.r||[]).catch(()=>[]));
+async function tmBuild(){const h=await tmLoad(),seen=new Set(),pts=[],key=(ty,a,b,t)=>ty+'|'+a.toFixed(1)+'|'+b.toFixed(1)+'|'+Math.round(t/6e5);
+ h.forEach(r=>{const t=r[4]*1e3,c=CL[r[5]]||'major';if(!clsOn[c])return;const k=key(r[1],r[2],r[3],t);if(seen.has(k))return;seen.add(k);pts.push({t,lat:r[2],lon:r[3],ty:r[1],tp:topicOf(r[1]==='news'?null:r[1],r[1]==='news'?'news':r[1]==='dispatch'?'d911':r[1]==='quake'?'quakes':r[1]==='outage'?'ioda':'fire')})});
+ FEED.forEach(e=>e.m.forEach(x=>{if(x.i.lat==null)return;const k=key(e.type||'news',x.i.lat,x.i.lon,x.t);if(seen.has(k))return;seen.add(k);pts.push({t:x.t,lat:x.i.lat,lon:x.i.lon,ty:e.type,tp:e.topic})}));
+ TM.pts=pts.filter(p=>!topOn.size||topOn.has(p.tp)).sort((a,b)=>a.t-b.t);tmDraw()}
+const tmWin=()=>+$('#tmw').value*36e5;
+function tmDraw(){const now=Date.now(),w=tmWin(),t0=now-w,cur=t0+w*TM.cur;TM.g.clearLayers();let n=0;
+ for(const p of TM.pts){if(p.t<t0)continue;if(p.t>cur)break;const age=(cur-p.t)/w,fresh=cur-p.t<w/24;const col=TOPICS[p.tp]?.[2]||'#0f4';
+  L.circleMarker([p.lat,p.lon],{radius:fresh?6:3,color:col,weight:fresh?2:0,fillColor:col,fillOpacity:fresh?.9:Math.max(.15,.5-age*.4),interactive:false}).addTo(TM.g);n++}
+ const d=new Date(cur);$('#tmt').textContent=TM.cur>=1?`LIVE · ${n}`:`T-${((now-cur)/36e5).toFixed(1)}H · ${pad(d.getHours())}:${pad(d.getMinutes())} · ${n}`;$('#tmr').value=Math.round(TM.cur*1000)}
+function tmTick(){TM.cur+= (+$('#tms').value)*0.25/120;if(TM.cur>=1){TM.cur=1;tmPlay(false)}tmDraw()}
+function tmPlay(p){TM.play=p;clearInterval(TM.timer);TM.timer=p?setInterval(tmTick,250):null;const b=$('#tmplay');b.textContent=p?'❚❚':'▶';b.setAttribute('aria-label',p?'Pause replay':'Play replay')}
+function tmSet(on){TM.on=on;$('#tmon').setAttribute('aria-pressed',on);$('#tmon').textContent=on?'✕ EXIT REPLAY':'⏱ REPLAY';$('#tmc').hidden=!on;document.body.classList.toggle('tmon',on);
+ if(on){map.removeLayer(mg);TM.g.addTo(map);TM.cur=0;tmBuild().then(()=>tmPlay(true))}else{tmPlay(false);map.removeLayer(TM.g);mg.addTo(map);$('#tmt').textContent='LIVE';drawMap()}}
+$('#tmon').onclick=()=>tmSet(!TM.on);$('#tmplay').onclick=()=>{if(TM.cur>=1)TM.cur=0;tmPlay(!TM.play)};
+$('#tmr').oninput=e=>{tmPlay(false);TM.cur=e.target.value/1000;tmDraw()};$('#tmw').onchange=()=>tmDraw();
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&TM.play)tmPlay(false)});
 window.__feed=()=>FEED.slice(0,10).map(e=>({k:e.kind,t:e.type,h:e.head,c:e.conf,s:e.src,p:where(e)}));
 window.__t={tz:()=>TZL,stateOf:(a,b)=>stateOf(a,b),ready:()=>STATES_OK};
 })();

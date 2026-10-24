@@ -184,3 +184,8 @@ Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, p
 - Header: rain band (48px canvas, paused when hidden / reduced motion), HUD (feeds, signals/min, incidents, UTC+local clock), ticker (tap pauses; static under reduced motion).
 - NOW segments: ALL / COVERAGE GAP (independent-only) / OFFICIAL ONLY, using `segOf(e)` on `e.cls`.
 - Each card has a coverage-split bar (official/major/independent). The detail sheet has a HEADLINE DIFF per class (masked). The wording only describes which sources reported something; it makes no claims about whether it is true.
+
+## Signal intercept + time machine (Oct 2026)
+- INTERCEPT tab: every timestamped item from every loaded feed, sorted newest first, names masked. It uses the global topic and class filters plus a text search. Pause freezes the list and shows an "N NEW" counter. The DOM is capped at 150 rows, expandable up to 600 (content-visibility on rows).
+- MAP REPLAY: a scrubber for 6/12/24h, with play/pause and 1×/4×/16× speed. Data comes from `data/history/24h.json` plus the item timestamps in the current snapshots.
+- History is built by `.github/history_snapshot.py` in the deploy workflow. Each run reads the previous file back from the live Pages site, merges new compact rows `[id,ty,lat,lon,t,c]`, prunes anything older than 24h (cap 20k rows) and deploys the result. Nothing is committed, so the repo does not grow; the file is gitignored.
