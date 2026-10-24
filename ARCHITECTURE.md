@@ -189,3 +189,10 @@ Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, p
 - INTERCEPT tab: every timestamped item from every loaded feed, sorted newest first, names masked. It uses the global topic and class filters plus a text search. Pause freezes the list and shows an "N NEW" counter. The DOM is capped at 150 rows, expandable up to 600 (content-visibility on rows).
 - MAP REPLAY: a scrubber for 6/12/24h, with play/pause and 1×/4×/16× speed. Data comes from `data/history/24h.json` plus the item timestamps in the current snapshots.
 - History is built by `.github/history_snapshot.py` in the deploy workflow. Each run reads the previous file back from the live Pages site, merges new compact rows `[id,ty,lat,lon,t,c]`, prunes anything older than 24h (cap 20k rows) and deploys the result. Nothing is committed, so the repo does not grow; the file is gitignored.
+
+## Watchlists, share, PWA, command bar (Oct 2026)
+- Mask allowlist: `data/allow.txt` lists countries, territories, US states and major places. A pair of words is never masked when it sits entirely inside an allowlisted span, or when it is an allowlisted place followed by a geographic suffix (Islands, Sea, Gulf…).
+- Watchlists: stored in localStorage `eyemont.watch` as keyword, state, place+radius or map point+radius, with coordinates rounded to 0.1°. `wCheck()` runs after each build. Alerts are a toast, a badge, vibration, and a Notification only after the user opts in by tapping. No push.
+- Share: `#i=<eid>&ty&ll&t&p` in the URL hash. `eid` is a hash of the earliest member item. An expired link shows a fallback sheet with nearby live incidents and map/replay buttons. The brief is plain text, uses navigator.share or the clipboard, and masks names.
+- PWA: `manifest.webmanifest`, `icons/`, `sw.js`. The app shell is served stale-while-revalidate. Data and feed APIs are network-first with the last good copy as a fallback (one cache entry per URL, query string ignored). Bump `V` in sw.js when shell files change.
+- Command bar: `>_` button, or press `>`. `runCmd()` handles the commands and `cmdHints()` gives autocomplete.

@@ -180,10 +180,13 @@ const rawHtml=i=>typeof i.popup==='function'?i.popup():i.popup;
 let LOWW=new Set();
 const isTitleCase=t=>{const w=t.match(/\b[A-Za-z][a-z'’]+\b/g)||[];return w.length>3&&w.filter(x=>/^[A-Z]/.test(x)).length/w.length>.6};
 const EVN=/^(?:Fire|Fires|Complex|Storm|Hurricane|Tropical|Typhoon|Cyclone|Flood|Floods|Quake|Earthquake|Tornado|Blaze|Wildfire|Bridge|Dam|River|Creek|Lake|Park|County|Road|Street|Avenue|Highway|Airport|School|High|University|College|Hospital|Center|Department|Police|Sheriff)$/;
-const maskNames=t=>{if(!t)return t;const tk=[...t.matchAll(/(?<![\w'’-])[A-Z][a-z'’-]{1,20}(?![\w])/g)],cut=[];
+/* allowlist: countries, territories, US states, major places — never masked */
+let ALLOW=null,ALLOWS=new Set();const ALLOW_OK=fetch('data/allow.txt').then(r=>r.text()).then(t=>{const a=t.split('\n').map(s=>s.trim()).filter(Boolean);a.forEach(x=>ALLOWS.add(x));ALLOW=new RegExp('(?<![\\w])(?:'+a.sort((x,y)=>y.length-x.length).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?![\\w])','gi')}).catch(()=>{});
+const allowSpans=t=>{const r=[];if(ALLOW){ALLOW.lastIndex=0;for(const m of t.matchAll(ALLOW))r.push([m.index,m.index+m[0].length])}return r};
+const maskNames=t=>{if(!t)return t;const AS=allowSpans(t),inA=(s,e)=>AS.some(([x,y])=>s>=x&&e<=y),GEOS=/^(Islands?|Region|Coast|Sea|Gulf|Peninsula|Province|Border|Area|Basin|Strait|Archipelago|Highlands|Lowlands|Delta|Plateau|Ridge|Trench)$/,nextA=(A,B)=>AS.some(([x,y])=>(x===A.index&&y===A.index+A[0].length&&GEOS.test(B[0]))||(x===B.index&&y===B.index+B[0].length&&GEOS.test(A[0])));const tk=[...t.matchAll(/(?<![\w'’-])[A-Z][a-z'’-]{1,20}(?![\w])/g)],cut=[];
  for(let n=0;n+1<tk.length;n++){const A=tk[n],B=tk[n+1],gap=t.slice(A.index+A[0].length,B.index);if(!/^\s+(?:[A-Z]\.\s+)?$/.test(gap))continue;
   const a=A[0],b=B[0],w=t.slice(A.index,B.index+b.length),C=tk[n+2],nx=C&&/^\s+$/.test(t.slice(B.index+b.length,C.index))?C[0]:'';
-  if(EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w||p[0]===a||p[0]===b)||STP.some(s=>s.n===w||s.n===a||s.n===b))continue;
+  if(inA(A.index,B.index+b.length)||nextA(A,B)||EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w||p[0]===a||p[0]===b)||STP.some(s=>s.n===w||s.n===a||s.n===b))continue;
   if(Crowd.nameCI(a+' '+b)||(!LOWW.has(a)&&!LOWW.has(b))){cut.push([A.index,B.index+b.length]);n++}}
  for(let k=cut.length-1;k>=0;k--)t=t.slice(0,cut[k][0])+'[name]'+t.slice(cut[k][1]);return t};
 const maskHtml=h=>typeof h==='string'?h.replace(/>([^<]+)</g,(m,t)=>'>'+maskNames(t)+'<').replace(/^([^<]+)/,(m,t)=>maskNames(t)):h;
@@ -209,7 +212,7 @@ function build(){const now=Date.now(),inc=incidents(),used=new Set();
    out.push({kind:'one',type:ty,lat:i.lat,lon:i.lon,first:i._t,last:i._t,conf:.15,cls:[m[0].c],src:1,m,topic:tp,tops:new Set([tp,LYTOPIC[Ly.id]]),head:i.title.replace(/^[^\w]+/,''),grow:0,
     score:.3+W[Ly.id]*(Ly.id==='quakes'?(i.sev||0)/5:Ly.id==='gdacs'?(i.alert==='Red'?1.5:i.alert==='Orange'?1:.4):.6)+Math.max(0,1-(now-i._t)/216e5)})})});
  out.forEach(e=>{e.place=e.m.find(x=>x.i.place&&!x.i.home)?.i.place||null;e.near=nearPlace(e.lat,e.lon);e.st=stateOf(e.lat,e.lon);e.spark=sparkPts(e.m,now);const h=safeHead(e);e.head=h.head;e.generic=h.generic});
- FEED=out.sort((a,b)=>b.score-a.score);render()}
+ FEED=out.sort((a,b)=>b.score-a.score);render();try{wCheck();offUI();if(!hashDone)openHash()}catch(err){console.warn(err)}}
 const sparkPts=(m,now)=>{const b=Array(8).fill(0);m.forEach(x=>{const k=7-Math.floor((now-x.t)/9e5);if(k>=0&&k<8)b[k]++});return b};
 const svgSpark=b=>{const mx=Math.max(...b,1);const pts=b.map((v,k)=>`${k*8+1},${17-v/mx*15}`).join(' ');return `<svg class="spk" viewBox="0 0 58 18" aria-hidden="true"><polyline points="${pts}"/></svg>`};
 const visible=e=>!topOn.size||[...e.tops].some(t=>topOn.has(t));
@@ -326,7 +329,7 @@ $('#sclose').onclick=closeSheet;addEventListener('keydown',e=>{if(e.key==='Escap
 document.addEventListener('click',ev=>{const b=ev.target.closest('button.card');if(b)openDetail(+b.dataset.k)});
 let SFIPS={},OFFS=[];getJSON('data/counties.json').then(d=>Object.entries(d).forEach(([n,s])=>SFIPS[n]=s.fips)).catch(()=>{});getJSON('data/official_streams.json').then(d=>OFFS=d).catch(()=>{});
 /* tabs */
-function setTab(t){if(tab!==t){document.body.classList.add('glitch');setTimeout(()=>document.body.classList.remove('glitch'),260)}tab=t;localStorage.setItem('eyemont.tab',t);document.querySelectorAll('#tabs button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.t===t)});
+function setTab(t){if(t!=='map'&&typeof TM!=='undefined'&&TM.play)tmPlay(false);if(tab!==t){document.body.classList.add('glitch');setTimeout(()=>document.body.classList.remove('glitch'),260)}tab=t;localStorage.setItem('eyemont.tab',t);document.querySelectorAll('#tabs button').forEach(b=>{b.setAttribute('aria-selected',b.dataset.t===t)});
  document.querySelectorAll('.view').forEach(v=>v.hidden=v.id!=='v-'+t);document.body.dataset.tab=t;render()}
 $('#tabs').onclick=e=>{const b=e.target.closest('button');if(b)setTab(b.dataset.t)};
 /* persistent filters: source class + topics */
@@ -368,10 +371,9 @@ LAYERS.forEach(Ly=>{if(state[Ly.id].on){map.attributionControl.addAttribution(Ly
 map.attributionControl.addAttribution('Cams: <a href="https://cwwp2.dot.ca.gov">Caltrans</a>');
 window.addEventListener('eyemont:hidden',()=>refresh(LAYERS.find(l=>l.id==='crowd')));
 const ns=$('#nearsel');getJSON('states-bbox.json').then(b=>{BBOX=b;Object.keys(b).sort().forEach(k=>ns.add(new Option(k,k)));
- if(!near){const g=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone];if(g&&BBOX[g[0]]){near=g[0];nearGuess=g}}Promise.all([PLACE_OK,STATES_OK]).then(build)}).catch(()=>{});
+ if(!near){const g=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone];if(g&&BBOX[g[0]]){near=g[0];nearGuess=g}}Promise.all([PLACE_OK,STATES_OK,ALLOW_OK]).then(build)}).catch(()=>{});
 ns.onchange=()=>{near=ns.value;localStorage.setItem('eyemont.near',near);render()};
 setInterval(()=>tab!=='map'&&render(),60e3);
-setTab(tab);
 /* ---------- SIGNAL INTERCEPT: raw chronological firehose (names masked, DOM capped) ---------- */
 const IPAGE=150,IMAX=600;let iCap=IPAGE,iPaused=false,iShown=new Set(),iSnap=null,iQ='';
 function interceptItems(){const now=Date.now(),out=[];LAYERS.forEach(Ly=>{const s=state[Ly.id];if(!s.on||!s.data||Ly.tile||Ly.dynamic||Ly.id==='live'||Ly.id==='cams')return;
@@ -409,6 +411,103 @@ function tmSet(on){TM.on=on;$('#tmon').setAttribute('aria-pressed',on);$('#tmon'
 $('#tmon').onclick=()=>tmSet(!TM.on);$('#tmplay').onclick=()=>{if(TM.cur>=1)TM.cur=0;tmPlay(!TM.play)};
 $('#tmr').oninput=e=>{tmPlay(false);TM.cur=e.target.value/1000;tmDraw()};$('#tmw').onchange=()=>tmDraw();
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&TM.play)tmPlay(false)});
+/* ---------- shared helpers: stable incident ids ---------- */
+const hh=s=>{let h=5381;for(let i=0;i<s.length;i++)h=(h*33^s.charCodeAt(i))>>>0;return h.toString(36)};
+const ikey=x=>x.Ly.id+'|'+(x.i.id||x.i.url||x.i.title||'')+'|'+Math.round(x.t/6e4);
+const eid=e=>e._id||(e._id=hh(e.m.slice().sort((a,b)=>a.t-b.t).slice(0,1).map(ikey).join()));
+const findE=id=>FEED.find(e=>eid(e)===id);
+const panes=['wp','about','cmd'];const openPane=id=>{panes.forEach(p=>$('#'+p).hidden=p!==id);if(id==='wp')wRender();if(id==='cmd'){$('#cmdi').value='';cmdHints('');setTimeout(()=>$('#cmdi').focus(),30)}};
+document.querySelectorAll('.pane [data-close]').forEach(b=>b.onclick=()=>b.closest('.pane').hidden=true);
+addEventListener('keydown',e=>{if(e.key==='Escape')panes.forEach(p=>$('#'+p).hidden=true)});
+$('#ab').onclick=()=>openPane('about');$('#cmdb').onclick=()=>openPane('cmd');$('#wb').onclick=()=>openPane('wp');
+/* ---------- 5) WATCHLISTS (localStorage, in-app alerts only) ---------- */
+let WL=JSON.parse(localStorage.getItem('eyemont.watch')||'[]'),WM=JSON.parse(sessionStorage.getItem('eyemont.wmatch')||'[]'),WSEEN=new Set(JSON.parse(sessionStorage.getItem('eyemont.wseen')||'[]')),wUnread=0,wPick=false;
+const wSave=()=>{localStorage.setItem('eyemont.watch',JSON.stringify(WL));sessionStorage.setItem('eyemont.wmatch',JSON.stringify(WM.slice(0,30)));sessionStorage.setItem('eyemont.wseen',JSON.stringify([...WSEEN].slice(-2000)))};
+const crs=v=>Math.round(v*10)/10;
+const wLabel=w=>w.kind==='kw'?`KEYWORD “${w.v}”`:w.kind==='state'?`STATE ${w.v}`:`${w.v} · ${w.r} km`;
+const wHit=(w,e)=>{if(w.kind==='kw'){const q=w.v.toLowerCase();return e.m.some(x=>(x.i.title||x.i.text||'').toLowerCase().includes(q))||(e.type||'').includes(q)}
+ if(w.kind==='state')return e.st===w.v;return km(w.lat,w.lon,e.lat,e.lon)<=w.r};
+function wBadge(){const b=$('#wbadge');b.hidden=!wUnread;b.textContent=wUnread>99?'99+':wUnread;$('#wb').setAttribute('aria-label',`Watchlists${wUnread?', '+wUnread+' new matches':''}`)}
+function wCheck(){if(!WL.length)return;const fresh=[];FEED.forEach(e=>{const id=eid(e);WL.forEach(w=>{const k=w.id+':'+id;if(WSEEN.has(k)||!wHit(w,e))return;WSEEN.add(k);fresh.push([w,e])})});
+ if(!fresh.length)return;fresh.forEach(([w,e])=>WM.unshift({id:eid(e),h:maskNames(e.head),w:wLabel(w),t:Date.now()}));WM=WM.slice(0,30);wUnread+=fresh.length;wBadge();wSave();
+ const [w,e]=fresh[0];toast(`⚑ ${wLabel(w)}: ${maskNames(e.head).slice(0,70)}${fresh.length>1?` (+${fresh.length-1} more)`:''}`);
+ if(navigator.vibrate&&localStorage.getItem('eyemont.vib')!=='0')try{navigator.vibrate([60,40,60])}catch(_){}
+ if(window.Notification&&Notification.permission==='granted'&&localStorage.getItem('eyemont.notify')==='1')try{new Notification('Eyemont · '+wLabel(w),{body:maskNames(e.head).slice(0,120)+(fresh.length>1?` (+${fresh.length-1} more)`:''),icon:'icons/icon-192.png',tag:'eyemont-watch'})}catch(_){}}
+function wRender(){wUnread=0;wBadge();$('#wl').innerHTML=WL.length?WL.map((w,i)=>`<li><span>${esc(wLabel(w))}</span><button data-del="${i}" aria-label="Remove watch ${esc(wLabel(w))}">✕</button></li>`).join(''):'<li class="empty">No watches yet.</li>';
+ $('#wm').innerHTML=WM.length?WM.map(m=>`<li><button class="wmh" data-id="${m.id}"><small>${esc(m.w)} · ${tzt(m.t)}</small>${esc(m.h)}</button></li>`).join(''):'<li class="empty">No matches yet.</li>';
+ const n=$('#wnot'),ok=!!window.Notification;const on=ok&&Notification.permission==='granted'&&localStorage.getItem('eyemont.notify')==='1';n.setAttribute('aria-pressed',on);n.textContent=on?'🔔 NOTIFICATIONS ON':'🔔 ENABLE NOTIFICATIONS';n.disabled=!ok;
+ $('#wns').textContent=!ok?'Browser notifications not supported here; toasts + badge still work.':Notification.permission==='denied'?'Blocked in browser settings.':'Only while Eyemont is open.'}
+const wHint=()=>{const k=$('#wk').value,v=$('#wv');v.placeholder=k==='kw'?'keyword, e.g. wildfire':k==='state'?'state, e.g. Texas':k==='place'?'place, e.g. Houston':'tap PICK, then the map';$('#wr').hidden=k==='kw'||k==='state';
+ $('#wdl').innerHTML=k==='state'?Object.keys(BBOX).sort().map(s=>`<option value="${esc(s)}">`).join(''):k==='place'?PLACES.slice(0,400).map(p=>`<option value="${esc(p[0])}">`).join(''):'';$('#wadd').textContent=k==='pt'?'◎ PICK':'+ ADD'};
+$('#wk').onchange=wHint;
+function wAdd(w){w.id=hh(JSON.stringify(w)+Date.now());WL.push(w);wSave();FEED.forEach(e=>{if(wHit(w,e))WSEEN.add(w.id+':'+eid(e))});const n=FEED.filter(e=>wHit(w,e)).length;toast(`⚑ watching ${wLabel(w)} · ${n} current match${n===1?'':'es'} (new ones will alert)`);wRender()}
+const findPlace=q=>{q=q.trim().toLowerCase();const st=Object.keys(BBOX).find(s=>s.toLowerCase()===q);if(st){const b=BBOX[st];return {st,lat:(b[0]+b[2])/2,lon:(b[1]+b[3])/2}}const p=PLACES.find(p=>p[0].toLowerCase()===q)||PLACES.find(p=>p[0].toLowerCase().startsWith(q));return p?{name:p[0],lat:p[1],lon:p[2]}:null};
+$('#wf').onsubmit=ev=>{ev.preventDefault();const k=$('#wk').value,v=$('#wv').value.trim(),r=+$('#wr').value;
+ if(k==='kw'){if(v.length<3)return toast('Keyword needs 3+ letters');if(nameLike(v.replace(/\b\w/g,c=>c.toUpperCase())))return toast('Watch events and places, not people');return wAdd({kind:'kw',v:v.toLowerCase()})}
+ if(k==='state'){const st=Object.keys(BBOX).find(s=>s.toLowerCase()===v.toLowerCase());return st?wAdd({kind:'state',v:st}):toast('Pick a US state from the list')}
+ if(k==='place'){const p=findPlace(v);return p?wAdd({kind:'place',v:p.name||p.st,lat:crs(p.lat),lon:crs(p.lon),r}):toast('Place not found in the gazetteer')}
+ wPick=true;$('#wp').hidden=true;setTab('map');document.body.classList.add('picking');toast('Tap the map to set the watch centre (rounded to ~10 km)')};
+map.on('click',e=>{if(!wPick)return;wPick=false;document.body.classList.remove('picking');const la=crs(e.latlng.lat),lo=crs(e.latlng.lng);wAdd({kind:'pt',v:`◎ ${la.toFixed(1)}, ${lo.toFixed(1)}`,lat:la,lon:lo,r:+$('#wr').value});openPane('wp')});
+$('#wl').onclick=e=>{const b=e.target.closest('[data-del]');if(!b)return;WL.splice(+b.dataset.del,1);wSave();wRender()};
+$('#wm').onclick=e=>{const b=e.target.closest('[data-id]');if(!b)return;const x=findE(b.dataset.id);$('#wp').hidden=true;x?openDetail(FEED.indexOf(x)):toast('That incident has expired from the live feed')};
+$('#wnot').onclick=async()=>{if(!window.Notification)return;if(localStorage.getItem('eyemont.notify')==='1'&&Notification.permission==='granted'){localStorage.setItem('eyemont.notify','0');return wRender()}
+ const p=await Notification.requestPermission();localStorage.setItem('eyemont.notify',p==='granted'?'1':'0');wRender()};
+wBadge();
+/* ---------- 6) DOSSIER + SHARE ---------- */
+const shareURL=e=>`${location.origin}${location.pathname}#i=${eid(e)}&ty=${encodeURIComponent(e.type||'event')}&ll=${e.lat.toFixed(1)},${e.lon.toFixed(1)}&t=${Math.round(e.first/6e4)}&p=${encodeURIComponent(maskNames(where(e)).slice(0,60))}`;
+function brief(e){const n=covCounts(e),fmt=t=>new Date(t).toISOString().slice(0,16).replace('T',' ')+'Z';const lk=[];e.m.forEach(x=>{const u=x.i.url||links(html(x.i))[0]?.[0];if(u&&!lk.some(l=>l[0]===u))lk.push([u,x.src,x.c])});
+ return [`EYEMONT DOSSIER · ${(e.type||'event').toUpperCase()}`,`HEADLINE: ${maskNames(e.head)}`,`PLACE: ${maskNames(where(e))} (${e.lat.toFixed(1)}, ${e.lon.toFixed(1)}, coarse)`,`TIME: ${fmt(e.first)}${e.last!==e.first?' → '+fmt(e.last):''} (${tzt(e.first)}${e.last!==e.first?' → '+tzt(e.last,1):''})`,
+  `COVERAGE: official ${n.official} · major ${n.major} · independent ${n.independent} — ${covLabel(n)}`,`CONFIDENCE: ${Math.round(e.conf*100)}% (automatic proximity match, not verification)`,`SOURCES (${lk.length}):`,...lk.slice(0,30).map(l=>`- [${l[2]}] ${l[1]}: ${l[0]}`),`LINK: ${shareURL(e)}`,`Names masked. Coverage analysis, not a claim about truth.`].join('\n')}
+async function copyText(t){try{await navigator.clipboard.writeText(t);return true}catch(_){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}a.remove();return ok}}
+async function doShare(e,what){const url=shareURL(e),txt=what==='brief'?brief(e):null;
+ if(navigator.share){try{await navigator.share(what==='brief'?{title:'Eyemont dossier',text:txt}:{title:'Eyemont · '+maskNames(e.head).slice(0,60),url});return}catch(err){if(err.name==='AbortError')return}}
+ toast(await copyText(txt||url)?(what==='brief'?'⎘ Brief copied':'⇪ Link copied'):'Copy failed — select the text manually')}
+const _od=openDetail;openDetail=function(k){_od(k);const e=FEED[k];if(!e)return;history.replaceState(null,'',shareURL(e));
+ const d=document.createElement('div');d.className='shr';d.innerHTML=`<button class="btn" id="shl">⇪ SHARE LINK</button><button class="btn" id="shb">⎘ COPY BRIEF</button><details id="dos"><summary>DOSSIER (plain text)</summary><pre class="ro">${esc(brief(e))}</pre></details>`;
+ sb.querySelector('h2').after(d);$('#shl').onclick=()=>doShare(e,'link');$('#shb').onclick=()=>doShare(e,'brief')};
+$('#sclose').onclick=()=>closeSheet();const _cs=closeSheet;closeSheet=function(){_cs();if(location.hash.startsWith('#i='))history.replaceState(null,'',location.pathname+location.search)};
+let hashDone=false;const T0=Date.now();function openHash(force){const h=new URLSearchParams(location.hash.slice(1));const id=h.get('i');if(!id){hashDone=true;return}const e=findE(id);if(e){hashDone=true;if(sheet.hidden||$('#exhd'))openDetail(FEED.indexOf(e));return}if(!force&&Date.now()-T0<8000)return;hashDone=true;
+ const ll=(h.get('ll')||'').split(',').map(Number),t=+h.get('t')*6e4,ty=h.get('ty')||'event',pl=h.get('p')||'';const near=ll.length===2&&!isNaN(ll[0])?FEED.filter(x=>km(x.lat,x.lon,ll[0],ll[1])<50&&Math.abs(x.first-t)<6*36e5).slice(0,5):[];
+ sb.innerHTML=`<p class="kick" id="exhd">⌛ EXPIRED LINK</p><h2 id="stitle">This incident is no longer in the live feed</h2><p class="meta">${esc(ty.toUpperCase())} · ◎ ${esc(pl||ll.join(', '))}${t?` · ⏱ ${tzt(t)}`:''}</p><p class="note">Eyemont keeps a rolling window (6–24 h). The original sources may still be online.</p>
+ ${near.length?`<h3>STILL LIVE NEARBY</h3><ul class="sl">${near.map(x=>`<li><button class="btn wmh" data-k="${FEED.indexOf(x)}">${esc(maskNames(x.head).slice(0,80))}</button></li>`).join('')}</ul>`:''}
+ <p>${ll.length===2&&!isNaN(ll[0])?`<button class="btn" id="exmap">◎ SHOW AREA ON MAP</button> `:''}${t&&Date.now()-t<864e5?'<button class="btn" id="exrep">⏱ REPLAY THAT TIME</button>':''}</p>`;
+ sheet.hidden=false;document.body.classList.add('sheet');sb.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>openDetail(+b.dataset.k));
+ $('#exmap')&&($('#exmap').onclick=()=>{closeSheet();setTab('map');setTimeout(()=>map.flyTo(ll,8),80)});
+ $('#exrep')&&($('#exrep').onclick=()=>{closeSheet();setTab('map');$('#tmw').value='24';tmSet(true);setTimeout(()=>{tmPlay(false);TM.cur=Math.max(0,1-(Date.now()-t)/864e5);tmDraw();map.flyTo(ll,6)},400)})}
+addEventListener('hashchange',()=>openHash(true));setTimeout(()=>{if(!hashDone)openHash(true)},9000);
+/* ---------- 7) OFFLINE banner + service worker ---------- */
+function offUI(){const b=$('#offb'),off=!navigator.onLine;if(!off&&FEED.length)localStorage.setItem('eyemont.snap',Date.now());const s=+localStorage.getItem('eyemont.snap')||0;
+ b.hidden=!off;if(off)b.textContent=`OFFLINE · snapshot from ${s?tzt(s):'unknown time'}${s&&Date.now()-s>36e5?' · '+ago(s/1000):''}`;document.body.classList.toggle('offline',off)}
+addEventListener('online',offUI);addEventListener('offline',offUI);
+if('serviceWorker' in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('sw.js').catch(()=>{});
+/* ---------- 8) COMMAND BAR ---------- */
+const TOPW={fire:'fire',fires:'fire',quake:'quakes',quakes:'quakes',weather:'weather',crime:'crime','911':'crime',transport:'transport',air:'transport',outages:'outages',outage:'outages',news:'news',crowd:'crowd'};
+const CMDS=[['help','list commands'],['near ','<place|state>'],['fire','topic'],['quake','topic'],['weather','topic'],['crime','topic'],['transport','topic'],['outages','topic'],['news','topic'],['all','clear filters'],['uncovered','coverage gap view'],['official','official-only view'],['replay ','6h|12h|24h'],['watch ','<keyword>'],['watches','open watchlists'],['intercept',' [search]'],['map','map tab'],['now','now tab'],['about','mirrors & limits']];
+function cmdHints(v){const q=v.toLowerCase();let h=[];const [c,...r]=q.split(' '),arg=r.join(' ');
+ if(c==='near'&&q.includes(' ')){const a=[...new Set([...Object.keys(BBOX),...PLACES.map(p=>p[0])])].filter(s=>s.toLowerCase().startsWith(arg)).slice(0,6);h=a.map(s=>['near '+s,'']);}
+ else if(c==='replay'&&q.includes(' '))h=['6h','12h','24h'].map(x=>['replay '+x,'']);
+ else h=CMDS.filter(([k])=>k.startsWith(q)||!q).slice(0,q?6:20);
+ $('#cmdh').innerHTML=h.map(([k,d])=>`<button type="button" data-c="${esc(k)}">${esc(k)}${d?` <small>${esc(d)}</small>`:''}</button>`).join('')}
+const say=t=>$('#cmdo').textContent=t;
+function runCmd(raw){const v=raw.trim().replace(/^>\s*/,''),[c0,...r]=v.split(/\s+/),c=(c0||'').toLowerCase(),arg=r.join(' ');const done=t=>{toast('> '+v+' · '+t);$('#cmd').hidden=true};
+ if(!c||c==='help'){say(CMDS.map(([k,d])=>(k+' '+d).padEnd(28)).join('\n'));return}
+ if(TOPW[c]){topOn.clear();topOn.add(TOPW[c]);$('#topics [data-p=""]').click();$(`#topics [data-p="${TOPW[c]}"]`).click();if(tab==='near'||tab==='int'){}else setTab(tab==='map'?'map':'now');return done('topic '+TOPW[c])}
+ if(c==='all'){$('#topics [data-p=""]').click();seg='all';sessionStorage.setItem('eyemont.seg',seg);render();return done('filters cleared')}
+ if(c==='uncovered'||c==='gap'||c==='official'){setTab('now');$(`#seg [data-v="${c==='official'?'off':'gap'}"]`).click();return done(c==='official'?'OFFICIAL ONLY':'COVERAGE GAP')}
+ if(c==='near'){if(!arg)return say('usage: near <place|state>');const st=Object.keys(BBOX).find(s=>s.toLowerCase()===arg.toLowerCase());if(st){near=st;localStorage.setItem('eyemont.near',st);setTab('near');return done('NEAR '+st)}
+  const p=findPlace(arg);if(!p)return say(`no place “${arg}” in the gazetteer`);setTab('map');setTimeout(()=>map.flyTo([p.lat,p.lon],8),80);return done('map → '+(p.name||p.st))}
+ if(c==='replay'){const w=parseInt(arg)||24;if(![6,12,24].includes(w))return say('usage: replay 6h|12h|24h');setTab('map');$('#tmw').value=String(w);if(TM.on){TM.cur=0;tmPlay(true)}else tmSet(true);return done(`replay ${w}h`)}
+ if(c==='watch'){if(arg.length<3)return say('usage: watch <keyword> (3+ letters)');if(nameLike(arg.replace(/\b\w/g,x=>x.toUpperCase())))return say('watch events and places, not people');wAdd({kind:'kw',v:arg.toLowerCase()});$('#cmd').hidden=true;return}
+ if(c==='watches'){openPane('wp');return}if(c==='about'){openPane('about');return}
+ if(c==='intercept'){setTab('int');$('#iq').value=arg;$('#iq').dispatchEvent(new Event('input'));return done('intercept'+(arg?' “'+arg+'”':''))}
+ if(['map','now','near'].includes(c)){setTab(c);return done(c)}
+ say(`unknown command “${c}” · type help`)}
+$('#cmdi').oninput=e=>cmdHints(e.target.value);
+$('#cmdi').onkeydown=e=>{if(e.key==='Tab'||e.key==='ArrowRight'&&e.target.selectionStart===e.target.value.length){const f=$('#cmdh button');if(f){e.preventDefault();e.target.value=f.dataset.c;cmdHints(f.dataset.c)}}};
+$('#cmdh').onclick=e=>{const b=e.target.closest('button');if(!b)return;const k=b.dataset.c;if(k.endsWith(' ')){$('#cmdi').value=k;cmdHints(k);$('#cmdi').focus()}else{$('#cmdi').value=k;runCmd(k)}};
+$('#cmdf').onsubmit=e=>{e.preventDefault();runCmd($('#cmdi').value)};
+addEventListener('keydown',e=>{if(e.key==='>'&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();openPane('cmd')}});
+setTab(tab);
 window.__feed=()=>FEED.slice(0,10).map(e=>({k:e.kind,t:e.type,h:e.head,c:e.conf,s:e.src,p:where(e)}));
 window.__t={tz:()=>TZL,stateOf:(a,b)=>stateOf(a,b),ready:()=>STATES_OK};
 })();
