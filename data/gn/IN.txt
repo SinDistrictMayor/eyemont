@@ -1,3346 +1,3346 @@
-Aaron	38.88,-85.13
-Aberdeen	38.91,-84.99
-Abington	39.73,-84.96
-Aboite	41.00,-85.32
-Abydel	38.57,-86.56
-Academie	41.17,-85.15
-Acme	38.98,-86.06
-Acton	39.66,-85.97
-Adams	39.38,-85.56
-Adams Mill	40.48,-86.51
-Adamsboro	40.78,-86.27
-Ade	40.87,-87.44
-Adel	39.19,-86.80
-Advance	40.00,-86.62
-Adyeville	38.19,-86.77
-Aetna	41.59,-87.29
-Africa	37.84,-87.07
-Ainsworth	41.49,-87.26
-Aix	41.04,-87.15
-Akron	41.04,-86.03
-Al-Mar	39.54,-86.20
-Alamo	39.98,-87.06
-Alaska	39.47,-86.64
-Albany	40.30,-85.24
-Albion	38.74,-85.73
-Aldine	41.20,-86.67
-Alert	39.16,-85.68
-Alexandria	40.26,-85.68
-Alfont	39.95,-85.81
-Alford	38.49,-87.24
-Alfordsville	38.56,-86.95
-Algiers	38.49,-87.18
-Alida	41.51,-86.90
-Allen	41.20,-85.20
-Allen Crossing	39.10,-85.32
-Allendale	39.39,-87.40
-Allens Acres	39.99,-86.30
-Allensville	38.87,-85.02
-Alliance	40.03,-85.65
-Allisonville	39.91,-86.08
-Allman	39.62,-86.43
-Alma Lake	39.61,-87.02
-Alpine	39.55,-85.18
-Alquina	39.61,-85.05
-Alta	39.77,-87.39
-Altamont Switch	40.38,-86.87
-Alto	40.44,-86.17
-Alton	38.12,-86.42
-Altona	41.35,-85.15
-Alvarado	41.58,-84.84
-Ambia	40.49,-87.52
-Ambler	41.72,-86.80
-Amboy	40.60,-85.93
-America	40.68,-85.70
-Americus	40.53,-86.76
-Ames	40.03,-86.89
-Amity	39.43,-86.00
-Amo	39.69,-86.61
-Anderson	40.11,-85.68
-Anderson Mobile Home Park	41.57,-87.43
-Andersonville	39.50,-85.29
-Andrews	40.86,-85.60
-Andry	41.72,-86.76
-Angola	41.63,-85.00
-Anita	39.43,-86.19
-Annandale Estates	39.22,-86.27
-Annapolis	39.85,-87.25
-Anoka	40.72,-86.28
-Ansley Acres	41.08,-85.21
-Anthony	40.28,-85.44
-Anthony Wayne Village	41.04,-85.11
-Antioch	38.86,-84.88
-Antioch Grange	38.74,-85.47
-Antiville	40.50,-84.98
-Apalona	38.15,-86.63
-Apple Valley Estates	41.29,-87.31
-Arabia	39.77,-87.32
-Arba	40.01,-84.87
-Arborview Mobile Home Park	39.78,-86.34
-Arcadia	40.18,-86.02
-Arcana	40.54,-85.50
-Arcola	41.10,-85.29
-Arctic Springs	38.28,-85.71
-Arda	38.52,-87.25
-Ardmore	41.69,-86.32
-Argos	41.24,-86.21
-Ari	41.26,-85.25
-Arlington	39.18,-86.55
-Armiesburg	39.76,-87.35
-Armstrong	38.11,-87.65
-Arney	39.22,-86.93
-Aroma	40.20,-85.87
-Arrowhead Park	41.28,-85.79
-Art	39.40,-87.16
-Arthur	38.34,-87.25
-Artic	41.47,-84.81
-Artist Point	38.16,-86.37
-Ash Grove	40.55,-86.85
-Ash Iron Springs	38.04,-87.19
-Ashboro	39.40,-87.11
-Ashby Yards	38.47,-87.28
-Asherville	39.47,-87.06
-Ashland	39.93,-85.30
-Ashley	41.53,-85.07
-Ashwood	39.98,-85.98
-Asphaltum	41.10,-87.00
-Athens	41.05,-86.13
-Atherton	39.61,-87.36
-Atkinson	40.56,-87.25
-Atkinsonville	39.38,-86.87
-Atlanta	40.22,-86.03
-Attica	40.29,-87.25
-Atwood	41.26,-85.98
-Auburn	41.37,-85.06
-Auburn Junction	41.35,-85.07
-Auburn Trace	39.59,-86.18
-Augusta	39.89,-86.21
-Aultshire	40.21,-85.35
-Aurora	39.06,-84.90
-Austin	38.76,-85.81
-Austin Oaks	39.97,-86.25
-Avalon	41.02,-85.16
-Avalon Hills	39.88,-86.06
-Avenue Mobile Home Park	41.53,-87.37
-Avery	40.31,-86.44
-Avilla	41.37,-85.24
-Avoca	38.91,-86.55
-Avon	39.76,-86.40
-Avonburg	38.89,-85.17
-Aylesworth	40.20,-87.24
-Ayrshire	38.37,-87.24
-Azalia	39.09,-85.85
-Babcock	41.57,-87.11
-Bacon	38.41,-86.43
-Badger Grove	40.58,-86.96
-Baileys Corner	41.07,-87.00
-Bainbridge	39.76,-86.81
-Bainter Town	41.52,-85.82
-Baker	39.13,-87.31
-Bakers Corner	40.13,-86.14
-Bakertown	41.37,-85.36
-Balbec	40.53,-85.15
-Bald Knobs	39.02,-86.17
-Baldridge	39.22,-87.37
-Baldwin Heights	38.34,-87.57
-Ballstown	39.25,-85.24
-Bandmill	38.54,-87.60
-Bandon	38.14,-86.60
-Banner Mills	39.93,-87.10
-Banning Corner	40.37,-87.16
-Banquo	40.70,-85.62
-Banta	39.52,-86.25
-Bar-Barry Heights	40.46,-86.92
-Barbee	41.29,-85.71
-Barbersville	38.91,-85.28
-Barce	40.62,-87.28
-Bargersville	39.52,-86.17
-Barnard	39.85,-86.70
-Barnhart Town	39.50,-87.44
-Barrett	38.20,-87.87
-Barrick Corner	39.26,-87.07
-Barrington Ridge	39.96,-86.05
-Bartle	38.56,-85.89
-Bartlettsville	38.97,-86.44
-Bartonia	40.12,-84.85
-Bartons Location	38.53,-87.34
-Bascom Corner	38.91,-84.97
-Bass Lake	41.21,-86.60
-Bass Station	41.19,-86.60
-Batesville	39.30,-85.22
-Bath	39.51,-84.86
-Battle Ground	40.51,-86.84
-Baugh City	38.04,-87.41
-Bayfield	41.27,-85.71
-Beal	38.58,-87.63
-Beamer	39.37,-86.94
-Beanblossom	39.27,-86.25
-Bear Branch	38.91,-85.07
-Bear Wallow	39.32,-86.37
-Beard	40.37,-86.45
-Beardstown	41.14,-86.60
-Beatrice	41.43,-87.19
-Beattys Corner	41.62,-86.89
-Beatys Beach	41.68,-85.60
-Beaver City	40.91,-87.42
-Beaver Dam	41.09,-86.01
-Becks Grove	39.08,-86.12
-Becks Mill	38.54,-86.16
-Beckville	40.01,-86.71
-Bedford	38.86,-86.49
-Bee Ridge	39.54,-87.17
-Beech Brook	39.55,-85.80
-Beech Grove	39.72,-86.09
-Beechwood	38.21,-86.42
-Beehunter	38.96,-87.12
-Beesons	39.72,-85.13
-Behlmer Corner	39.20,-85.17
-Belknap	37.98,-87.69
-Bell Center	40.87,-86.64
-Bell Rohr Park	41.33,-85.78
-Belle Arbor	39.72,-85.99
-Belle Union	39.57,-86.71
-Belleview	38.86,-85.38
-Belleville	39.68,-86.49
-Bellfountain	40.43,-84.86
-Bellmore	39.76,-87.11
-Belmont	39.92,-85.35
-Belshaw	41.26,-87.45
-Ben Davis	39.75,-86.27
-Benefiel Corner	39.13,-87.41
-Bengal	39.47,-85.92
-Benham	38.98,-85.25
-Bennetts Switch	40.59,-86.11
-Bennettsville	38.43,-85.81
-Bennington	38.86,-85.14
-Benton	41.51,-85.76
-Benton House	39.76,-86.08
-Bentonville	39.75,-85.19
-Benwood	39.56,-87.11
-Berkley Ridge	39.94,-86.03
-Berlien	41.64,-84.88
-Berne	40.66,-84.95
-Bethany	39.17,-86.07
-Bethel	39.99,-84.83
-Bethel Village	39.15,-85.92
-Bethevan	40.53,-85.63
-Bethlehem	38.54,-85.42
-Between-The-Lakes Park	41.32,-85.74
-Beverly Hill	41.55,-86.99
-Beverly Shores	41.69,-86.98
-Bicknell	38.77,-87.31
-Big Four Yard	39.76,-86.36
-Big Hill	41.05,-86.20
-Big Springs	40.07,-86.26
-Billie Creek Village	39.76,-87.20
-Billingsville	39.56,-84.91
-Billtown	39.51,-87.19
-Billville	39.50,-87.13
-Bippus	40.94,-85.62
-Birchim	41.71,-86.60
-Birdseye	38.32,-86.70
-Birmingham	40.94,-86.11
-Black Oak	38.66,-87.08
-Black Point	41.41,-85.68
-Black Rock	40.37,-87.10
-Blackhawk	39.31,-87.30
-Blackhawk Beach	41.52,-87.04
-Blackiston Mill	38.34,-85.80
-Blackiston Village	38.33,-85.79
-Blaine	40.40,-85.06
-Blairsville	38.08,-87.76
-Blakesburg	39.81,-86.91
-Blanford	39.67,-87.52
-Blocher	38.72,-85.66
-Bloods Wood Crossing	38.54,-87.63
-Bloomer	40.08,-85.77
-Bloomfield	39.03,-86.94
-Blooming Grove	39.50,-85.06
-Bloomingdale	39.83,-87.25
-Bloomingport	40.03,-84.99
-Bloomington	39.17,-86.53
-Blooms Eddy (historical)	38.27,-85.76
-Blountsville	40.06,-85.24
-Blue	38.93,-85.00
-Blue Lick	38.51,-85.80
-Blue Ridge	39.52,-85.64
-Blue River	38.53,-85.94
-Bluecast	41.15,-84.87
-Bluestone	39.95,-86.04
-Bluff Acres	39.60,-86.22
-Bluff Creek	39.56,-86.22
-Bluff Point	40.35,-84.98
-Bluffs	39.57,-86.25
-Bluffton	40.74,-85.17
-Board Park	39.59,-86.67
-Bobtown	39.02,-85.95
-Boggstown	39.56,-85.92
-Bogle Corner	39.18,-87.18
-Bolivar	40.96,-85.79
-Bonds	38.68,-86.63
-Bonfiglio's Mobile Home Park	41.60,-87.46
-Bonnell	39.17,-84.97
-Bonneyville Mills	41.72,-85.77
-Bono	38.73,-86.32
-Boone Grove	41.35,-87.13
-Boonville	38.05,-87.27
-Borden	38.47,-85.95
-Boston	39.74,-84.85
-Boston Corner	40.95,-84.90
-Boswell	40.52,-87.38
-Boundary City	40.34,-84.92
-Bourbon	41.30,-86.12
-Bowers	40.16,-86.72
-Bowerstown	40.89,-85.44
-Bowling Green	39.38,-87.01
-Bowman	38.50,-87.35
-Bowman Acres	39.76,-85.77
-Boxley	40.17,-86.18
-Boyd	39.72,-85.55
-Boyleston	40.29,-86.39
-Bracken	40.99,-85.62
-Bradfield Corner	39.73,-87.30
-Bradford	38.37,-86.06
-Bradford Court	39.95,-85.94
-Bramble	38.78,-86.91
-Branchville	38.16,-86.58
-Braxtons Siding	38.56,-86.49
-Braysville	39.29,-84.87
-Braytown	38.73,-85.16
-Brazil	39.52,-87.13
-Breakwater	39.95,-85.94
-Breckenridge	38.22,-86.03
-Breezy Point	40.69,-86.75
-Bremen	41.45,-86.15
-Bremerton Mobile Home Park	41.53,-87.41
-Brems	41.34,-86.70
-Brendan Wood	40.07,-86.47
-Brendonwood	39.86,-86.06
-Brent Woods	39.54,-85.76
-Brentridge	39.58,-86.19
-Brentwood	40.10,-85.72
-Bretzville	38.30,-86.87
-Brewersville	39.08,-85.61
-Briarwood	39.55,-86.51
-Brice	40.42,-84.90
-Brick Chapel	39.71,-86.87
-Bridgeport	38.18,-85.91
-Bridgeton	39.65,-87.18
-Bridgewater	39.93,-85.95
-Bridlebourne	39.95,-86.22
-Brierwood Hills	41.06,-85.23
-Briggs	41.09,-85.47
-Bright	39.22,-84.86
-Brighton	41.72,-85.31
-Brimfield	41.45,-85.40
-Brimstone Corners	38.74,-86.26
-Bringhurst	40.53,-86.53
-Brisco	40.41,-87.36
-Bristol	41.72,-85.82
-Bristow	38.14,-86.72
-Britton Ridge	39.98,-85.99
-Broad Park	39.59,-86.67
-Broad Ripple	39.87,-86.14
-Broadmoor	39.85,-86.21
-Broadview	39.14,-86.54
-Brockton Manor	39.59,-86.19
-Bromer	38.59,-86.34
-Brook	40.87,-87.36
-Brookfield	39.64,-85.94
-Brookhaven	40.52,-85.62
-Brooklyn	39.54,-86.37
-Brooklyn Heights	39.82,-86.21
-Brookmoor	39.57,-86.37
-Brooks	39.94,-85.92
-Brooks Crossing	39.94,-85.95
-Brooksburg	38.74,-85.24
-Brookside Estates	41.15,-85.08
-Brookston	40.60,-86.87
-Brookston Place	39.94,-85.95
-Brookstone Park of Carmel	40.00,-86.18
-Brookville	39.42,-85.01
-Brookville Heights	39.72,-85.91
-Broom Hill	38.45,-85.88
-Brown Jug Corner	39.29,-87.26
-Browns Corner	40.82,-85.41
-Browns Crossing	39.41,-86.51
-Browns Valley	39.90,-86.99
-Brownsburg	39.84,-86.40
-Brownstown	38.38,-86.50
-Brownsville	39.66,-85.00
-Bruce Lake Station	41.07,-86.41
-Bruceville	38.76,-87.42
-Brummitt Acres	41.62,-87.02
-Brunerstown	39.65,-87.00
-Brunswick	39.20,-87.12
-Brushy Prairie	41.64,-85.25
-Bryant	40.53,-84.96
-Bryantsburg	38.89,-85.37
-Bryantsville	38.77,-86.57
-Buchanan	38.22,-85.90
-Buchanan Corner	39.19,-87.20
-Buck Creek	40.49,-86.76
-Buckeye	40.69,-85.35
-Bucks Creek	39.93,-85.98
-Buckskin	38.23,-87.41
-Bucktown	38.99,-87.26
-Bud	39.45,-86.18
-Buddha	38.79,-86.41
-Buena Vista	39.44,-85.27
-Buenavista	39.03,-86.66
-Buffalo	39.02,-84.88
-Buffaloville	38.10,-86.97
-Buffington	41.64,-87.43
-Bufkin	37.99,-87.85
-Bullocktown	37.97,-87.22
-Bunker Hill	39.57,-86.44
-Burberry Place	39.95,-86.03
-Burdick	41.60,-86.97
-Burge Terrace	39.74,-86.00
-Burket	41.16,-85.97
-Burlington	40.48,-86.39
-Burlington Beach	41.51,-87.05
-Burnett	39.54,-87.30
-Burnettsville	40.76,-86.59
-Burney	39.32,-85.64
-Burns City	38.82,-86.89
-Burns Harbor	41.63,-87.13
-Burnsville	39.17,-85.74
-Burr Oak	41.32,-85.43
-Burrows	40.68,-86.51
-Bushrod	38.97,-87.11
-Busseron	38.84,-87.45
-Butler	41.43,-84.87
-Butler Center	41.31,-85.14
-Butlerville	39.03,-85.51
-Buttermilk Point	41.38,-85.67
-Byrneville	38.33,-86.04
-Byron	39.90,-87.11
-C and C Beach	40.70,-86.76
-Caborn	37.97,-87.79
-Cadiz	39.95,-85.49
-Cagle Mill	39.49,-86.94
-Cairo	40.54,-86.92
-Calcutta	39.60,-87.07
-Cale	38.80,-86.75
-Calvertville	39.12,-86.90
-Cambria	40.37,-86.56
-Cambridge City	39.81,-85.17
-Camby	39.66,-86.32
-Camden	40.61,-86.54
-Camelot Manor Estates	41.55,-87.22
-Cammack	40.21,-85.49
-Camp Brosend	37.96,-87.40
-Camp Flat Rock	39.40,-85.75
-Camp Roberts	39.18,-86.19
-Camp Shor	39.00,-84.85
-Campbell Corner	39.14,-87.41
-Campbellsburg	38.65,-86.26
-Campbelltown	38.42,-87.24
-Canaan	38.87,-85.30
-Candleglo Village	39.56,-85.79
-Cannelburg	38.67,-87.00
-Cannelton	37.91,-86.74
-Cantaloupe	38.53,-87.52
-Canton	38.62,-86.03
-Cape Sandy	38.15,-86.37
-Capehart	38.75,-87.19
-Carbon	39.60,-87.12
-Carbondale	40.36,-87.35
-Cardonia	39.56,-87.12
-Carefree	38.25,-86.35
-Carefree Estates	39.93,-85.97
-Carlisle	38.97,-87.41
-Carlos	40.03,-85.03
-Carmel	39.98,-86.12
-Carp	39.39,-86.76
-Carpentersville	39.81,-86.81
-Carriage Estates	39.74,-85.89
-Carrollton	39.71,-85.82
-Cartersburg	39.70,-86.46
-Carthage	39.74,-85.57
-Carwood	38.45,-85.86
-Cary	39.71,-86.82
-Cascade	39.19,-86.54
-Cass	39.09,-87.28
-Cassville	40.56,-86.12
-Castle Garden	38.03,-87.40
-Castleton	39.91,-86.05
-Cataract	39.43,-86.82
-Cates	40.00,-87.34
-Catlin	39.69,-87.24
-Cato	38.44,-87.19
-Cayuga	39.95,-87.46
-Cedar	41.31,-85.16
-Cedar Canyons	41.23,-85.09
-Cedar Cove	39.93,-86.06
-Cedar Farm Landing	37.97,-86.06
-Cedar Grove	39.36,-84.94
-Cedar Hills	39.57,-86.18
-Cedar Lake	41.36,-87.44
-Cedar Lake Mobile Home Park	41.38,-87.44
-Cedar Point	41.40,-85.68
-Cedar Shores	41.23,-85.07
-Cedarville	41.20,-85.02
-Celestine	38.38,-86.78
-Celina	38.19,-86.61
-Cementville	38.35,-85.75
-Centenary	39.66,-87.47
-Centennial	40.01,-87.24
-Center	38.05,-87.34
-Center Point	39.42,-87.08
-Center Square	38.84,-85.03
-Center Valley	39.63,-86.48
-Centerton	39.52,-86.39
-Centerville	37.99,-87.06
-Central	38.10,-86.16
-Central Barren	38.36,-86.10
-Ceylon	40.61,-84.95
-Chain-O-Lakes	41.71,-86.38
-Chalmers	40.66,-86.87
-Chambersburg	38.52,-86.39
-Champlin Meadows	39.41,-86.44
-Chandler	38.04,-87.37
-Chapel Hill	39.78,-86.28
-Chapel Manor	41.48,-87.33
-Char-el Mobile Home Park	41.55,-87.40
-Charle Sumac Estates	39.68,-85.97
-Charlesmac Village	39.68,-85.98
-Charleston Crossing	39.95,-86.03
-Charlestown	38.45,-85.67
-Charlottesville	39.54,-84.85
-Chase	40.52,-87.34
-Chateau Court	39.97,-85.98
-Chatterton	40.40,-87.24
-Chelsea	38.65,-85.52
-Cherry Grove	40.14,-86.90
-Cherry Hill Farms	39.95,-86.05
-Cherryvale	39.46,-87.24
-Chester	39.89,-84.89
-Chesterfield	40.11,-85.60
-Chesterton	39.93,-86.12
-Chesterville	39.07,-85.05
-Chestnut Hill	38.48,-85.93
-Chestnut Ridge	38.89,-85.86
-Chetwynd	39.44,-86.27
-Chili	40.86,-86.03
-China	38.83,-85.34
-Chrisney	38.01,-87.04
-Christiansburg	39.09,-86.16
-Churubusco	41.23,-85.32
-Cicero	40.12,-86.01
-Cincinnati	39.02,-86.73
-Circle Mobile Home Park	41.56,-87.27
-Circle Park	41.55,-84.91
-Circleville	39.60,-85.44
-Clanricarde	41.29,-86.95
-Clare	40.12,-85.96
-Clark Siding	38.47,-85.66
-Clarke Junction	41.63,-87.42
-Clarks	41.13,-86.89
-Clarks Hill	40.25,-86.73
-Clarks Landing	41.56,-84.91
-Clarksburg	39.43,-85.35
-Clarksdale	39.20,-86.13
-Clarksville	38.30,-85.76
-Clay City	39.28,-87.11
-Claypool	41.13,-85.88
-Claysville	38.62,-86.29
-Clayton	39.69,-86.52
-Clear Creek	39.11,-86.54
-Clear Lake	41.74,-84.83
-Clear Spring	38.93,-86.21
-Clearview	39.58,-86.21
-Clermont	39.81,-86.32
-Clermont Heights	39.83,-86.34
-Clermont Mobile Home Park	39.81,-86.33
-Cleveland	39.79,-85.64
-Clifford	39.28,-85.87
-Clifton	39.82,-86.18
-Clinton	39.21,-85.13
-Clinton Falls	39.72,-86.96
-Clover Village	39.61,-85.86
-Cloverdale	39.51,-86.79
-Cloverland	39.50,-87.23
-Clunette	41.32,-85.92
-Clymers	40.71,-86.45
-Coal Bluff	39.58,-87.22
-Coal City	39.23,-87.05
-Coal Creek	40.04,-87.38
-Coalmont	39.19,-87.23
-Coatesville	39.69,-86.67
-Coats Spring	38.44,-87.39
-Cobb	39.58,-87.22
-Cobbs Corner	41.43,-87.11
-Coburg	41.52,-86.95
-Cochran	39.05,-84.92
-Coe	38.31,-87.26
-Coesse	41.13,-85.40
-Coesse Corners	41.14,-85.40
-Cofield Corner	38.95,-84.96
-Coke Oven Hollow	39.85,-87.29
-Colburn	41.55,-86.27
-Cold Springs	39.07,-85.07
-Cole	40.48,-85.79
-Colfax	40.20,-86.67
-Colfax Mobile Home Park	41.55,-87.41
-Collamer	41.08,-85.66
-College Corner	39.84,-85.07
-College Crest	39.93,-86.15
-College Meadows	39.94,-86.14
-Collegeville	40.91,-87.16
-Collett	40.38,-85.00
-Collingwood	39.94,-85.98
-Collins	41.20,-85.39
-Coloma	39.79,-87.29
-Colonial Mobile Home Park	41.55,-87.39
-Colonial Village	39.94,-85.83
-Columbia	39.58,-85.21
-Columbia Center	41.58,-87.50
-Columbia City	41.16,-85.49
-Columbus	39.20,-85.92
-Commiskey	38.86,-85.65
-Como	40.39,-85.09
-Concord	41.33,-84.95
-Concordia Gardens	41.15,-85.11
-Conner Creek	39.95,-86.04
-Conner Knoll	39.98,-86.02
-Connersville	39.64,-85.14
-Connerwood	39.99,-86.02
-Conologue	38.98,-85.80
-Conrad	41.11,-87.44
-Converse	40.39,-85.24
-Cook	41.38,-87.47
-Coolwood Acres	41.46,-87.09
-Cooper Corner	39.87,-85.77
-Cope	39.45,-86.32
-Coppess Corner	40.75,-84.96
-Cordry Sweetwater Lakes	39.30,-86.12
-Corkwell	40.47,-85.06
-Corn Brook	39.24,-85.94
-Cornelius	39.30,-86.30
-Cornettsville	38.76,-87.11
-Corning	38.58,-87.02
-Correct	39.01,-85.29
-Cortland	38.97,-85.96
-Corunna	41.44,-85.15
-Corwin	39.89,-85.30
-Cory	39.38,-87.21
-Corydon	38.21,-86.12
-Corydon Junction	38.30,-86.10
-Cosperville	41.48,-85.47
-Cottage Grove	39.60,-84.86
-Cottage Hill	39.52,-87.15
-Cottingham Estates	39.98,-86.01
-Country Club Gardens	41.05,-85.22
-Country Club Heights	40.12,-85.69
-Country Club Meadows	38.02,-87.57
-Country Manor Estates	39.55,-86.38
-Country Squire Lakes	39.03,-85.70
-Courter	40.84,-86.06
-Courtney Corner	41.63,-84.84
-Coveyville	38.97,-86.47
-Covington	40.14,-87.39
-Covington Dells	41.07,-85.23
-Covington Estates	39.93,-86.01
-Cowan	40.11,-85.39
-Coxton	38.83,-86.56
-Coxville	39.65,-87.29
-Cradick Corner	39.54,-86.81
-Craig	39.33,-85.52
-Craigville	40.78,-85.09
-Crandall	38.29,-86.07
-Crane	38.89,-86.90
-Crawford	38.85,-86.40
-Crawfordsville	40.04,-86.87
-Crawleyville	38.28,-87.83
-Creekwood	39.88,-86.12
-Cresco	41.24,-85.49
-Crest Manor Addition	41.62,-86.23
-Crestlawn	40.07,-85.68
-Crestmoor	39.51,-85.76
-Creston	40.21,-85.37
-Crestview	41.45,-87.06
-Crestview Heights	39.59,-86.32
-Crestwood	41.14,-85.12
-Crete	40.04,-84.86
-Crisman	41.59,-87.17
-Critchfield	39.60,-86.16
-Crocker	41.59,-87.12
-Crompton Hill	39.66,-87.42
-Cromwell	41.40,-85.62
-Crooked Lake	41.68,-85.04
-Cross Plains	38.94,-85.20
-Cross Roads	39.28,-85.24
-Crossroad Temple	39.75,-86.07
-Crosswinds At Windermere	39.94,-85.97
-Crothersville	38.80,-85.84
-Crown Center	39.58,-86.59
-Crown Point	41.42,-87.37
-Crows Nest	39.86,-86.17
-Crumb Corner	40.45,-86.93
-Crumstown	41.62,-86.41
-Crystal	38.49,-86.75
-Cuba	39.38,-86.80
-Culver	41.22,-86.42
-Cumback	38.56,-87.15
-Cumberland	39.78,-85.96
-Cumberland Ridge	39.94,-85.99
-Cumberland Woods	39.97,-85.98
-Cunot	39.46,-86.85
-Curby	38.29,-86.38
-Curryville	39.19,-87.39
-Curtisville	40.32,-85.90
-Cutler	40.48,-86.52
-Cuzco	38.48,-86.72
-Cyclone	40.23,-86.43
-Cynthiana	38.19,-87.71
-Cypress	37.91,-87.63
-Dabney	39.09,-85.35
-Daggett	39.22,-87.04
-Daisy Hill	38.51,-85.94
-Dale	38.17,-86.99
-Daleville	40.12,-85.56
-Dalton	39.98,-85.18
-Dana	39.81,-87.50
-Danes	40.76,-86.26
-Danville	39.76,-86.53
-Dark Hollow	38.89,-86.54
-Darlington	40.11,-86.77
-Darlington Woods	40.12,-86.81
-Darmstadt	38.10,-87.58
-Darrough Chapel	40.48,-86.10
-Davidson	37.97,-86.05
-Davis	41.71,-86.83
-Davy	38.87,-87.60
-Dawnbury	39.87,-86.12
-Daylight	38.09,-87.49
-Dayton	40.37,-86.77
-Dayville	37.95,-87.32
-De Camp Gardens	41.66,-85.92
-De Gonia Springs	38.06,-87.19
-DeFries Landing	41.37,-85.77
-DeMotte	41.20,-87.20
-Deacon	40.63,-86.32
-Dead Mans Crossing	37.96,-87.91
-Decatur	40.83,-84.93
-Decker	38.52,-87.52
-Decker Chapel	38.49,-87.54
-Deedsville	40.91,-86.10
-Deep River	41.48,-87.22
-Deer Creek	40.61,-86.39
-Deer Mill	39.95,-87.06
-Deer Park	41.16,-87.20
-Deerfield	40.28,-84.98
-Deerwood	39.58,-86.22
-Delaware	39.15,-85.21
-Delaware Trails	39.88,-86.18
-Delong	41.14,-86.42
-Delp	40.49,-86.81
-Delphi	40.59,-86.68
-Deming	40.12,-86.10
-Deming Park	39.47,-87.35
-Deming Woods	39.46,-87.36
-Denham	41.15,-86.71
-Denmark	39.27,-87.03
-Denny Corner	39.89,-85.82
-Denver	40.87,-86.08
-Depauw	38.34,-86.22
-Deputy	38.79,-85.65
-Derby	38.03,-86.53
-Desoto	40.25,-85.29
-Deuchars	38.17,-86.45
-Devonshire	39.88,-86.06
-Devore	39.43,-86.75
-Devore Place	39.94,-85.98
-Dewberry	38.95,-85.15
-Dewey	39.51,-87.38
-Dexter	38.06,-86.48
-Diamond	39.61,-87.17
-Dickeyville	38.16,-87.22
-Dillman	40.61,-85.43
-Dillsboro	39.02,-85.06
-Dillsboro Station	39.03,-85.04
-Dinwiddie	41.29,-87.30
-Disko	41.00,-85.94
-Dixie	38.16,-86.21
-Dixon	39.07,-87.03
-Doans	38.92,-86.85
-Dodd	37.91,-86.65
-Dodds Bridge	39.16,-87.52
-Dogwood	38.11,-86.08
-Dolan	39.24,-86.50
-Domestic	40.61,-85.09
-Donaldson	41.36,-86.44
-Donaldsonville	39.53,-87.10
-Dongola	38.37,-87.34
-Dons Mobile Home Park	41.59,-87.20
-Doolittle Mills	38.25,-86.60
-Door Village	41.57,-86.77
-Dooville	40.55,-85.56
-Douglas	38.33,-87.50
-Dover	39.24,-84.95
-Dover Hill	38.73,-86.80
-Downey Corner	38.94,-85.01
-Downeyville	39.43,-85.55
-Doyle	40.81,-86.07
-Doyle Ferguson	40.58,-85.48
-Dreamwold Heights	41.75,-86.25
-Drew	40.22,-85.39
-Drewersburg	39.34,-84.84
-Drexel Gardens	39.74,-86.25
-Driftwood Hills	39.92,-86.12
-Duane Yards	39.50,-87.39
-Dublin	39.81,-85.21
-Dubois	38.45,-86.80
-Dubois Crossroads	38.48,-86.81
-Dudleytown	38.85,-85.90
-Duff	38.33,-87.03
-Dugger	39.07,-87.26
-Duncan	38.29,-85.92
-Dundee	40.27,-85.76
-Dune Acres	41.65,-87.09
-Dune Acres Station	41.64,-87.08
-Duneland Beach	41.76,-86.83
-Duneland Village	41.60,-87.27
-Duneland Village of Gary	41.60,-87.26
-Dunfee	41.09,-85.34
-Dunkirk	40.76,-86.39
-Dunlap	41.64,-85.92
-Dunlapsville	39.59,-84.99
-Dunn	40.56,-87.46
-Dunn Mill	41.16,-85.24
-Dunnington	40.56,-87.49
-Dunns Bridge	41.23,-86.97
-Dunreith	39.80,-85.44
-Dupont	38.89,-85.51
-Durbin	40.06,-85.91
-Durham	38.26,-87.58
-Dwenger Field	41.08,-85.11
-Dyer	41.49,-87.52
-Eagle Point	41.33,-85.68
-Eagle Trace	39.59,-86.17
-Eagle Village	39.96,-86.25
-Eagletown	40.04,-86.19
-Eaglewood Estates	39.95,-86.31
-Eames	38.08,-87.13
-Earl Park	40.68,-87.41
-Earle	38.09,-87.51
-Early Station	39.76,-87.39
-East Chicago	41.64,-87.45
-East Columbus	39.20,-85.90
-East Enterprise	38.87,-84.99
-East Germantown	39.81,-85.14
-East Glenn	39.49,-87.30
-East Haven	39.84,-84.93
-East Lake Estates	41.70,-85.93
-East Liberty	40.94,-84.86
-East Monticello	40.75,-86.75
-East Mount Carmel	38.39,-87.74
-East Oolitic	38.90,-86.51
-East Park	40.28,-86.49
-East Shelburn	39.17,-87.38
-East Union	40.22,-86.13
-Eastern Heights	39.17,-86.48
-Eastgate	39.93,-85.83
-Eastland Gardens	41.02,-85.10
-Eastpoint Terminal	41.67,-84.85
-Eastwitch	40.43,-86.85
-Easytown	39.61,-87.50
-Eaton	40.34,-85.35
-Eby	38.14,-87.26
-Echo Crest	39.95,-86.13
-Echo Lake Mobile Home Community	39.61,-86.44
-Eckerty	38.32,-86.61
-Economy	39.98,-85.09
-Eddy	41.54,-85.44
-Eden	39.91,-85.77
-Edgerton	41.08,-84.81
-Edgewater	41.52,-87.05
-Edgewood	39.68,-86.13
-Edgewood Lake	39.64,-86.80
-Edgewood Village	40.10,-85.75
-Edinburgh	39.35,-85.97
-Edna Mills	40.42,-86.67
-Edwardsport	38.81,-87.25
-Edwardsville	38.28,-85.91
-Eel River	39.32,-87.12
-Effner	40.77,-87.53
-Egans Point	41.34,-85.36
-Ege	41.29,-85.29
-Egg Harbor	38.23,-87.79
-Egypt	40.86,-87.20
-Ehrmandale	39.54,-87.24
-Ekin	40.22,-86.16
-El Dorado	39.59,-86.16
-Elberfeld	38.16,-87.45
-Elizabeth	38.12,-85.97
-Elizabethtown	39.14,-85.81
-Elizaville	40.13,-86.38
-Elk	39.45,-86.43
-Elkhart	41.68,-85.98
-Elkinsville	39.08,-86.26
-Eller Commons	39.94,-86.06
-Eller Run	39.94,-86.06
-Eller Trails	39.94,-86.06
-Ellettsville	39.23,-86.62
-Elliott	38.12,-87.47
-Ellis	39.06,-87.22
-Ellison	41.03,-85.26
-Elliston	39.03,-86.97
-Ellisville	41.02,-85.28
-Ellsworth	38.43,-86.72
-Elm Tree Crossroads	40.79,-84.96
-Elmdale	40.14,-87.02
-Elmhurst	40.10,-85.72
-Elmira	41.59,-85.20
-Elmwood	40.07,-86.46
-Elnora	38.88,-87.09
-Elrod	39.05,-85.16
-Elston	40.39,-86.91
-Elwood	40.28,-85.84
-Elwren	39.11,-86.67
-Eminence	39.52,-86.64
-Emison	38.81,-87.46
-Emma	41.61,-85.54
-Emporia	40.00,-85.63
-Enchanted Hills	41.40,-85.67
-Englewood	38.84,-86.50
-English	38.33,-86.46
-English Lake	41.27,-86.82
-Enochsburg	39.33,-85.30
-Enos	41.01,-87.45
-Enos Corner	38.29,-87.26
-Enterprise	37.84,-87.18
-Epsom	38.79,-87.06
-Epworth Forest	41.33,-85.69
-Erie	38.88,-86.38
-Erskine Station	38.04,-87.54
-Erwin	37.98,-87.92
-Ethel	38.40,-86.52
-Etna	41.27,-85.57
-Etna Green	41.28,-86.05
-Eugene	39.97,-87.47
-Eureka	37.88,-87.22
-Evans Landing	38.00,-85.98
-Evanston	38.04,-86.84
-Evansville	37.97,-87.56
-Everroad Park	39.23,-85.89
-Everton	39.56,-85.09
-Ewing	38.88,-86.06
-Ewington	39.33,-85.57
-Exchange	39.50,-86.32
-Extension Heights	40.10,-85.66
-Fair Acres	38.60,-86.09
-Fair Oaks	41.08,-87.26
-Fairbanks	39.22,-87.52
-Fairdale	38.33,-86.17
-Fairfax	39.01,-86.48
-Fairfield	39.52,-85.00
-Fairfield Center	41.48,-85.13
-Fairfield Heights	39.83,-86.38
-Fairland	39.59,-85.86
-Fairmount	40.42,-85.65
-Fairview	39.69,-85.30
-Fairview Park	39.68,-87.42
-Fairview Station	39.75,-86.23
-Fairwood Hills	39.88,-86.03
-Fall Creek Highland	39.90,-85.99
-Falmouth	39.70,-85.30
-Farabee	38.56,-86.02
-Fargo	38.40,-86.48
-Farlen	38.85,-86.92
-Farleys Addition	39.78,-86.28
-Farmers	39.18,-86.89
-Farmers Retreat	38.98,-85.10
-Farmersburg	39.25,-87.38
-Farmersville	37.98,-87.90
-Farmington	39.62,-85.36
-Farmland	40.19,-85.13
-Farrville	40.58,-85.47
-Fawnbrook Woods	39.98,-86.03
-Fayette	39.93,-86.40
-Fayetteville	38.86,-86.60
-Fayne Siding	39.98,-85.39
-Federal Hill	40.05,-86.02
-Fenn Haven	37.93,-86.76
-Fenns	39.46,-85.80
-Ferdinand	38.22,-86.86
-Ferguson Hill	39.48,-87.46
-Ferndale	39.71,-87.07
-Fewell Rhoades	39.42,-86.40
-Fiat	40.55,-85.15
-Fickle	40.26,-86.67
-Fields	39.55,-86.33
-Fillmore	39.67,-86.75
-Fincastle	39.81,-86.90
-Fish Lake	41.57,-86.55
-Fishers	39.96,-86.01
-Fishersburg	40.07,-85.86
-Fisherville	38.09,-87.43
-Fishtown	38.07,-85.92
-Fiskville	40.05,-86.89
-Five Points	38.85,-85.51
-Five Points Corner	41.33,-87.04
-Flackville	39.81,-86.22
-Flat Iron	40.05,-87.49
-Flat Rock	39.36,-85.83
-Flat Rock Park	39.25,-85.92
-Flax	40.64,-86.52
-Fleener	39.28,-86.41
-Fleming	38.97,-85.81
-Fletcher	40.91,-86.33
-Flint	41.65,-85.13
-Flora	40.73,-86.10
-Florence	38.78,-84.92
-Florida	40.16,-85.71
-Floyds Knobs	38.32,-85.87
-Foley	39.97,-85.38
-Folsomville	38.13,-87.16
-Fontanet	39.58,-87.24
-Foraker	41.52,-85.92
-Foresman	40.50,-87.15
-Forest	40.37,-86.33
-Forest City	41.19,-87.27
-Forest Glen	41.33,-85.76
-Forest Hill	39.26,-85.61
-Forest Hills	40.12,-85.70
-Forest Knoll	39.96,-85.93
-Forest Oaks	41.57,-87.10
-Forest Park	39.24,-85.91
-Forest Park Heights	39.21,-86.59
-Forest Ridge	41.02,-85.27
-Fort Branch	38.25,-87.58
-Fort Ritner	38.77,-86.28
-Fort Wayne	41.13,-85.13
-Fortville	39.93,-85.85
-Fortyone Ranch Mobile Home Park	41.39,-87.47
-Foster	40.15,-87.47
-Fosters Ridge	38.23,-86.66
-Fountain	40.22,-87.34
-Fountain City	39.96,-84.92
-Fountain Park	40.78,-87.16
-Fountaintown	39.69,-85.78
-Four Corners	38.95,-85.74
-Four J's Mobile Home Park	39.61,-86.38
-Four Presidents Corners	41.01,-84.85
-Fowler	40.62,-87.32
-Fowlerton	40.41,-85.57
-Fox	40.64,-85.69
-Fox Hill	39.60,-86.28
-Fox Hollow	39.94,-86.28
-Fox Lake	41.62,-85.03
-Fox Ridge	39.63,-86.85
-Foxberry Trace	39.60,-86.18
-Frakers Mobile Home Court	39.41,-86.42
-Frances	39.61,-86.17
-Francesville	40.99,-86.88
-Francisco	38.33,-87.45
-Frankfort	40.28,-86.51
-Franklin	39.97,-85.19
-Frankton	40.22,-85.78
-Fredericksburg	38.43,-86.19
-Fredonia	38.18,-86.38
-Free	40.62,-87.46
-Freedom	39.21,-86.87
-Freeland Park	40.61,-87.49
-Freelandville	38.86,-87.31
-Freeman	39.20,-86.73
-Freeport	39.66,-85.73
-Freetown	38.97,-86.13
-Fremont	41.73,-84.93
-French Lick	38.55,-86.62
-Frenchtown	38.31,-86.21
-Friendly Corner	40.55,-85.50
-Friendship	38.97,-85.15
-Friendswood	39.65,-86.33
-Fritchton	38.68,-87.42
-Fritz Corner	38.30,-87.16
-Fruitdale	39.32,-86.26
-Fulda	38.11,-86.84
-Fulton	40.95,-86.26
-Furnace	39.01,-86.91
-Furnessville	41.65,-87.01
-Gadsden	40.05,-86.35
-Galader Station	39.68,-86.02
-Gale	39.77,-86.47
-Galena	38.35,-85.94
-Galveston	40.58,-86.19
-Gambill	39.05,-87.26
-Garden Acres	39.12,-86.58
-Garden City	39.18,-85.93
-Garden Village	41.70,-85.91
-Garfield	40.08,-86.82
-Garrett	41.35,-85.14
-Gary	41.59,-87.35
-Garyton	41.57,-87.21
-Gas City	40.49,-85.61
-Gas Lite Mobile Home Park	41.32,-87.20
-Gasburg	39.59,-86.44
-Gaston	40.31,-85.50
-Gatchel	38.05,-86.65
-Gates Corner	40.11,-85.25
-Gatesville	39.26,-86.15
-Gatewood	39.95,-86.05
-Gaynorsville	39.24,-85.52
-Geetingsville	40.42,-86.47
-Geist Woods	39.93,-85.97
-Gem	39.78,-85.90
-Geneva	39.39,-85.72
-Gentle Manor Estates	41.42,-87.35
-Gentryville	38.10,-87.03
-Georgetown	38.29,-85.98
-Georgia	38.71,-86.57
-Gerald	38.01,-86.57
-Germantown	39.93,-85.94
-Germany	38.46,-85.54
-Gerry Park	41.57,-87.41
-Gessie	40.08,-87.50
-Gibson	41.61,-87.46
-Gifford	41.07,-87.05
-Gilead	40.97,-86.02
-Gilman	40.23,-85.58
-Gilmer Park	41.62,-86.25
-Gilmour	39.13,-87.24
-Gimco City	40.26,-85.68
-Gingrich Addition	40.67,-86.75
-Gings	39.67,-85.37
-Giro	38.51,-87.47
-Gladens Corner	40.26,-86.83
-Glen Abbey At Windermere	39.94,-85.98
-Glen Ayre	39.47,-87.30
-Glen Cliff	40.32,-87.25
-Glen Eden	41.69,-85.02
-Glen Park	41.54,-87.34
-Glendale	38.57,-87.08
-Glendale Heights	39.89,-86.11
-Glendora	39.13,-87.36
-Glenhall	40.35,-87.04
-Glenn Ayr	39.47,-87.30
-Glenns Valley	39.64,-86.20
-Glenview Mobile Home Park	41.55,-87.39
-Glenwood	39.63,-85.30
-Glezen	38.42,-87.30
-Glidas	38.06,-86.18
-Glyn Ellen	40.11,-85.65
-Gnaw Bone	39.19,-86.16
-Goblesville	40.99,-85.51
-Golden Acres	41.13,-85.06
-Golden Grove	39.57,-86.18
-Golden Hill	40.71,-86.76
-Goldsmith	40.29,-86.15
-Goodland	40.76,-87.29
-Goodwins Corner	39.65,-84.83
-Gooseport	38.71,-85.94
-Goshen	38.67,-85.71
-Gospel Grove	39.48,-87.29
-Gosport	39.35,-86.67
-Gowdy	39.52,-85.56
-Grabill	41.21,-84.97
-Grafton	38.00,-87.95
-Graham	38.72,-87.20
-Graham Valley	38.15,-87.29
-Graham Woods	41.62,-87.03
-Grammer	39.15,-85.72
-Grandview	39.87,-86.20
-Grandview Lake	39.15,-86.05
-Grange Corner	39.94,-87.19
-Granger	41.75,-86.11
-Grant City	39.87,-85.54
-Grantsburg	38.29,-86.47
-Granville	40.32,-85.32
-Grass Creek	40.95,-86.40
-Gravel Beach	41.55,-85.22
-Gravel Hill	40.65,-87.37
-Gravelton	41.44,-85.92
-Gray Eagle	39.96,-85.93
-Gray Junction	38.33,-87.34
-Grayford	38.96,-85.57
-Graysville	38.32,-85.80
-Green Acres	41.48,-87.30
-Green Center	41.31,-85.37
-Green Hill	40.41,-87.11
-Green Meadows	39.63,-85.89
-Green Oak	41.00,-86.18
-Green Valley	39.61,-86.14
-Greenbriar	39.90,-86.18
-Greenbrier	38.46,-86.56
-Greencastle	39.64,-86.86
-Greendale	39.11,-84.86
-Greene	40.41,-85.10
-Greenfield	39.79,-85.77
-Greenfield Mills	41.75,-85.23
-Greenleaf Manor	41.70,-85.94
-Greens Fork	39.89,-85.04
-Greensboro	39.88,-85.47
-Greensburg	39.34,-85.48
-Greentown	40.48,-85.97
-Greenville	38.37,-85.99
-Greenwood	39.61,-86.11
-Gridley	40.09,-85.65
-Griffin	38.20,-87.91
-Griffith	41.53,-87.42
-Grismore	41.50,-85.63
-Grissom Air Force Base	40.66,-86.15
-Groomsville	40.35,-86.20
-Groveland	39.76,-86.72
-Grovertown	41.38,-86.50
-Gudgel	38.30,-87.36
-Guernsey	40.80,-86.81
-Guilford	39.17,-84.91
-Guion	39.84,-87.11
-Guise Park	41.08,-86.46
-Gulivoire Park	41.61,-86.25
-Gurley Corner	38.86,-84.86
-Gurley Landing	37.96,-86.05
-Guthrie	38.98,-86.51
-Guy	40.44,-85.98
-Gwynneville	39.66,-85.65
-Hacienda Village	41.12,-85.03
-Hackleman	40.42,-85.75
-Hadley	39.73,-86.60
-Hagerstown	39.91,-85.16
-Haglund	41.61,-87.12
-Haig Point	39.95,-85.97
-Haleysbury	38.74,-86.15
-Hall	39.55,-86.54
-Halls Corners	41.24,-84.85
-Hamburg	38.38,-85.77
-Hamilton	40.34,-86.62
-Hamilton Estates Mobile Home Park	40.00,-86.04
-Hamilton Hills	39.93,-86.05
-Hamlet	41.55,-86.58
-Hammond	41.58,-87.50
-Hancock Chapel	38.38,-86.18
-Hancock Corner	39.28,-86.83
-Handy	39.10,-86.49
-Haney Corner	38.94,-85.31
-Hanfield	40.60,-85.58
-Hanging Grove	40.93,-86.98
-Hangman Crossing	38.94,-85.93
-Hanna	41.41,-86.78
-Hanover	38.71,-85.47
-Hanover Beach	38.71,-85.45
-Happy Hollow	38.05,-85.94
-Happy Hollow Heights	40.44,-86.90
-Hardingrove	37.93,-86.57
-Hardinsburg	39.12,-84.85
-Hardscrabble	40.02,-85.84
-Harlan	41.20,-84.92
-Harlansburg	40.81,-85.56
-Harley	40.54,-86.64
-Harley Siding	40.55,-86.63
-Harmeson Heights	40.06,-85.69
-Harmony	39.54,-87.11
-Harper	39.15,-85.59
-Harris	41.41,-86.30
-Harris City	39.28,-85.53
-Harrisburg	39.69,-85.18
-Harrison	39.53,-87.42
-Harrison Green	39.99,-86.01
-Harrison Lake	40.17,-87.24
-Harrison Lakes	39.99,-86.02
-Harrison Park	39.99,-86.02
-Harrison Woods	39.99,-86.02
-Harristown	38.60,-86.02
-Harrisville	40.18,-84.88
-Harrodsburg	39.01,-86.55
-Hartford	38.99,-84.96
-Hartford City	40.45,-85.37
-Hartleyville	38.80,-86.53
-Hartsdale	41.51,-87.47
-Hartsville	39.27,-85.70
-Hartwell	38.32,-87.18
-Hartwell Junction	38.36,-87.14
-Hartzel	41.56,-85.24
-Harvard Park	39.95,-86.06
-Harveysburg	39.98,-87.29
-Harwood	38.00,-87.57
-Hashtown	39.03,-86.92
-Haskell	41.48,-86.90
-Hastings	41.38,-85.93
-Hatfield	37.90,-87.22
-Haubstadt	38.21,-87.57
-Hawthorn Hills	39.94,-85.98
-Hawthorne Hills	41.39,-87.38
-Hawthornes At The Crossing	39.92,-86.31
-Hawton	39.13,-87.31
-Hayden	38.98,-85.74
-Haysville	38.49,-86.92
-Haysville Corner	40.18,-84.83
-Hazel College	40.05,-86.51
-Hazelrigg	40.08,-86.56
-Hazelwood	39.62,-86.52
-Hazleton	38.49,-87.54
-Headlee	40.90,-86.66
-Heath	40.46,-86.73
-Heather Point	39.95,-85.94
-Hebron	41.32,-87.20
-Hedrick	40.30,-87.49
-Heilman	38.16,-87.09
-Helmcrest	39.94,-85.84
-Helmer	41.53,-85.17
-Helmsburg	39.27,-86.29
-Heltonville	38.93,-86.38
-Hemenway	38.20,-87.13
-Hemlock	40.42,-86.04
-Henderson	39.67,-85.52
-Hendricks	39.61,-86.15
-Hendricksville	39.14,-86.70
-Henry	39.79,-85.59
-Henryville	38.54,-85.77
-Hepburn	38.07,-87.80
-Herbamount	39.51,-86.56
-Herbst	40.51,-85.79
-Heritage Green	39.93,-85.98
-Heritage Lake	39.73,-86.71
-Heritage Meadows	39.95,-86.02
-Herr	39.96,-86.43
-Hessen Cassel	40.98,-85.08
-Hesston	41.75,-86.66
-Hessville	41.60,-87.46
-Heusler	37.93,-87.71
-Hi-View Addition	41.61,-86.18
-Hibernia	38.50,-85.53
-Hick's Mobile Home Park	39.43,-86.44
-Hickory Corner	39.31,-87.04
-Hickory Island	39.33,-87.24
-Hickory Knoll Mobile Home Park	39.71,-86.05
-Hickory Ridge	38.26,-87.83
-Hickory Woods	39.95,-86.04
-Hicks	41.71,-86.57
-Hidden Hills	40.78,-86.10
-Hidden Valley	39.16,-84.84
-Highbank Town	38.51,-87.15
-Highbanks	41.32,-85.67
-Highets Corner	39.28,-86.70
-Highland	39.79,-87.40
-Highland Center	39.32,-85.00
-Highland Springs	39.93,-85.93
-Highland Village	39.16,-86.58
-Highlands Park	41.27,-85.79
-Highwoods	39.84,-86.18
-Hildebrand Village	39.55,-85.79
-Hillcrest	38.20,-86.12
-Hillcrest Manufactured Housing Community	41.55,-87.38
-Hillcrest Terrace	37.95,-87.40
-Hillham	38.51,-86.70
-Hillisburg	40.29,-86.34
-Hillsboro	39.97,-85.33
-Hillsborough	39.94,-85.98
-Hillsdale	38.08,-87.55
-Hillside	41.71,-86.62
-Hilltown	38.84,-85.66
-Hindostan	38.67,-86.60
-Hindostan Falls	38.62,-86.85
-Hindustan	39.31,-86.48
-Hirt Corner	39.47,-87.01
-Hiser	39.82,-85.08
-Hitchcock	38.64,-86.17
-Hoagland	40.95,-84.99
-Hobart	41.53,-87.26
-Hobbieville	39.00,-86.71
-Hobbs	40.28,-85.95
-Hoffman Crossing	39.36,-86.95
-Hogtown	38.36,-86.32
-Holaday Hills and Dales	39.94,-86.12
-Holida	39.89,-86.19
-Holland	38.25,-87.04
-Hollandsburg	39.76,-87.07
-Holmesville	41.60,-86.88
-Holton	39.08,-85.39
-Home Corner	40.52,-85.64
-Home Place	39.94,-86.14
-Homecroft	39.67,-86.13
-Homer	39.58,-85.58
-Homestead	39.12,-84.85
-Honduras	40.76,-85.03
-Honey Creek	40.03,-85.49
-Honeysuckle Mobile Home Park	41.53,-87.40
-Honeyville	41.58,-85.60
-Hooker Corner	40.45,-87.32
-Hoosier	39.07,-87.19
-Hoosier Acres	39.16,-86.49
-Hoosierville	39.48,-87.11
-Hoover	40.81,-86.20
-Hoover Crest	39.89,-86.17
-Hoover Mill	39.86,-85.06
-Hoover Park	40.45,-85.36
-Hope	39.30,-85.77
-Hopeville	39.70,-84.97
-Hopewell	39.49,-86.12
-Horace	39.26,-85.56
-Horizon Estates	39.58,-86.21
-Hortonville	40.09,-86.16
-Houston	39.02,-86.19
-Hovey	37.89,-87.94
-Howard	39.92,-87.38
-Howe	41.72,-85.42
-Howesville	39.18,-87.15
-Hubbard	41.70,-86.42
-Hubbell	39.18,-87.01
-Hubbells Corner	39.23,-85.04
-Huber	39.69,-85.14
-Hudnut	39.66,-87.38
-Hudson	41.53,-85.08
-Hudson Lake	41.71,-86.53
-Hudsonville	38.54,-87.07
-Huffman	38.10,-86.78
-Hunter Corner	40.17,-87.24
-Hunter Switch	39.17,-86.57
-Hunters Pointe	39.59,-86.18
-Huntersville	39.30,-85.23
-Huntertown	41.23,-85.17
-Huntingburg	38.30,-86.95
-Huntington	40.88,-85.50
-Huntsville	40.01,-85.73
-Hurlburt	41.37,-87.18
-Huron	38.72,-86.67
-Hursh	41.25,-84.97
-Hutton	39.32,-87.53
-Hyde Park	40.19,-85.31
-Hymera	39.19,-87.30
-Hyndsdale	39.42,-86.48
-IXL Mobile Home Park	41.56,-87.40
-Idaville	40.76,-86.65
-Ideal Mobile Home Court	41.56,-87.41
-Idlewold	39.99,-85.75
-Ijamsville	40.96,-85.83
-Ilene	38.94,-87.11
-Illinoi	41.19,-87.53
-Imperial Hills	39.63,-86.14
-Independence	40.34,-87.17
-Independence Hill	41.48,-87.37
-Indian Creek Estates	39.68,-85.97
-Indian Creek Settlement	38.73,-87.35
-Indian Heights	40.43,-86.13
-Indian Hill	41.33,-86.68
-Indian Hills	41.62,-85.16
-Indian Lake	39.89,-85.99
-Indian Springs	38.80,-86.77
-Indian Village	41.05,-85.17
-Indiana Beach	40.79,-86.77
-Indiana Harbor	41.64,-87.45
-Indianapolis	39.77,-86.16
-Indianola	41.56,-85.25
-Indigo Lake	39.99,-86.00
-Ingalls	39.96,-85.81
-Ingallston	39.73,-86.08
-Inglefield	38.11,-87.56
-Inverness	41.70,-85.09
-Inverness Estates	39.99,-86.02
-Inwood	41.32,-86.20
-Iona	38.55,-87.47
-Ireland	38.41,-87.00
-Irondale	40.10,-85.66
-Ironton	38.66,-86.78
-Irvington	39.77,-86.07
-Island City	39.01,-87.15
-Island Park	41.29,-85.80
-Iva	38.50,-87.12
-Ivanhoe	39.77,-86.01
-Ivy Hills	39.90,-86.07
-Jackson	39.07,-85.44
-Jackson Hill	39.17,-87.36
-Jacksonburg	39.85,-85.11
-Jacksons	40.33,-86.06
-Jacksonville	38.83,-85.05
-Jadden	40.54,-85.46
-Jalapa	40.63,-85.75
-Jamestown	39.93,-86.63
-Janney	40.37,-85.54
-Jarretts	38.12,-87.36
-Jasonville	39.16,-87.20
-Jasper	38.39,-86.93
-Jay City	40.57,-84.85
-Jeff	40.61,-85.35
-Jefferson	40.28,-86.59
-Jeffersonville	38.28,-85.74
-Jenkinsville	39.53,-86.88
-Jericho	39.06,-87.30
-Jerome	40.46,-85.93
-Jessup	39.66,-87.26
-Jewell Village	39.20,-85.85
-Jimtown	38.27,-87.85
-Jockey	38.18,-87.16
-Johnsburg	38.22,-86.96
-Johnson	38.28,-87.75
-Johnsonville	40.23,-87.49
-Johnstown	39.17,-87.01
-Jolietville	40.04,-86.23
-Jolleyville	38.99,-85.36
-Jonesboro	40.48,-85.63
-Jonestown	39.71,-87.50
-Jonesville	39.06,-85.89
-Joppa	39.63,-86.43
-Jordan	38.69,-87.21
-Judah	38.96,-86.54
-Judson	39.81,-87.13
-Judyville	40.36,-87.40
-Julietta	39.74,-85.96
-Kalorama Park	41.33,-85.76
-Kanata Manayunk	41.41,-85.69
-Kankakee	41.51,-86.54
-Kansas	39.33,-86.03
-Kappa Corner	40.53,-86.27
-Kasson	38.02,-87.64
-Keller	39.36,-87.32
-Kellerville	38.48,-86.83
-Kempton	40.29,-86.23
-Kendallville	41.44,-85.26
-Kennard	39.90,-85.52
-Kennedy	38.08,-86.92
-Kenneth	40.76,-86.47
-Kent	38.74,-85.54
-Kentland	40.77,-87.45
-Kentwood	40.28,-86.49
-Kercheval	38.09,-87.01
-Kersey	41.19,-87.16
-Kewanna	41.02,-86.41
-Keystone	40.60,-85.26
-Keystone Manor	39.76,-86.28
-Keytsville	39.65,-87.01
-Kiley	40.53,-85.68
-Kilmore	40.35,-86.51
-Kimmell	41.40,-85.55
-Kinder	39.54,-86.20
-King	38.30,-87.58
-Kingman	39.97,-87.28
-Kings Mill	39.94,-86.21
-Kings Mobile Home Court	41.55,-87.41
-Kings Store	38.20,-86.06
-Kingsborough	39.99,-86.18
-Kingsbury	41.53,-86.70
-Kingsford Heights	41.48,-86.69
-Kingsland	40.83,-85.18
-Kingston	39.38,-85.39
-Kingston Estates	40.00,-86.02
-Kinsey	41.10,-85.70
-Kirby	39.14,-86.61
-Kirklin	40.19,-86.36
-Kirkpatrick	40.21,-86.82
-Kirksville	39.05,-86.61
-Kirschs Corner	39.12,-84.94
-Kitchel	39.68,-84.86
-Kitt	40.50,-85.05
-Kitterman Corners	38.22,-86.70
-Klaasville	41.36,-87.52
-Klemmes Corner	39.35,-85.00
-Klondike	40.47,-86.96
-Klondyke	39.79,-87.34
-Knarr Corner	39.30,-85.43
-Knight Ridge	39.13,-86.43
-Knighthood Grove	39.55,-85.76
-Knighthood Village	39.58,-85.74
-Knightstown	39.80,-85.53
-Knightsville	39.53,-87.11
-Kniman	41.14,-87.14
-Knob Hill	38.03,-87.52
-Knollton Heights	39.84,-86.20
-Knox	39.82,-85.54
-Kokomo	40.49,-86.13
-Koleen	38.97,-86.83
-Koontz Lake	41.42,-86.49
-Kossuth	38.70,-86.10
-Kouts	41.32,-87.03
-Kramer	40.34,-87.29
-Kratzville	38.02,-87.59
-Kreitzburg	41.44,-87.52
-Kriete Corner	38.92,-85.83
-Kurtz	38.96,-86.20
-Kyana	38.31,-86.78
-Kyle	39.14,-84.99
-La Crosse	41.32,-86.89
-La Fontaine	40.67,-85.72
-La Paz	41.46,-86.31
-La Paz Junction	41.46,-86.30
-La Porte	41.61,-86.71
-Laconia	38.03,-86.09
-Lacy	38.63,-86.78
-Ladoga	39.91,-86.80
-Lafayette	40.42,-86.88
-Lagrange	41.64,-85.42
-Lagro	40.84,-85.73
-Lake Bruce	41.07,-86.46
-Lake Cicott	40.76,-86.52
-Lake Dalecarlia	41.33,-87.39
-Lake Eliza	41.43,-87.17
-Lake Grange	41.69,-85.77
-Lake Hart	39.57,-86.43
-Lake Hills	41.46,-87.45
-Lake Holiday	39.97,-86.97
-Lake James	41.71,-85.05
-Lake Mill	37.94,-87.11
-Lake Park	41.70,-86.55
-Lake Shores	41.02,-85.15
-Lake Station	41.58,-87.24
-Lake View	39.49,-85.25
-Lake Village	41.14,-87.45
-Lake Wood	40.55,-85.57
-Lake on the Green	39.14,-86.12
-Lakes of the Four Seasons	41.41,-87.21
-Lakeside	39.88,-86.28
-Lakeside Green	39.93,-85.99
-Lakeside Park	41.25,-85.85
-Laketon	40.97,-85.84
-Lakeview	41.55,-85.22
-Lakeview Spring	41.29,-85.69
-Lakeville	41.52,-86.27
-Lakewood	40.69,-86.76
-Lakewood Hills	38.00,-87.51
-Lalimere	41.72,-86.70
-Lamar	38.07,-86.91
-Lamb	38.69,-85.19
-Lamong	40.09,-86.20
-Lanam	39.23,-86.33
-Lancaster	38.83,-85.52
-Lancaster Park	39.21,-86.56
-Landersdale	39.62,-86.26
-Landess	40.61,-85.56
-Lanesville	38.24,-85.99
-Langoons	38.84,-85.86
-Lantana Estate	39.50,-85.76
-Lantern Crossing	39.93,-86.01
-Lantern Farms	39.98,-86.02
-Lantern Pines	39.93,-86.01
-Laotto	41.29,-85.20
-Lap Corner	39.43,-87.07
-Lapel	40.07,-85.85
-Lapland	39.91,-86.90
-Larimer Hill	39.46,-87.47
-Larwill	41.18,-85.63
-Laud	41.05,-85.45
-Lauer	37.88,-86.60
-Laughery Switch	39.15,-85.24
-Laugheryville	39.23,-85.30
-Laura	41.10,-87.07
-Laurel	39.50,-85.19
-Laveianan Court	39.41,-86.42
-Lawrence	39.84,-86.03
-Lawrenceburg	39.09,-84.85
-Lawrenceburg Junction	39.13,-84.84
-Lawrenceport	38.75,-86.39
-Lawrenceville	39.28,-85.04
-Lawton	41.10,-86.53
-Layton	40.13,-87.33
-Leases Corner	40.87,-86.37
-Leatherwood	39.75,-87.29
-Leavenworth	38.20,-86.34
-Lebanon	40.05,-86.47
-Lee	40.90,-86.97
-Leesburg	41.33,-85.85
-Leesville	38.85,-86.28
-Legendary Hills	39.88,-86.26
-Leipsic	38.67,-86.37
-Leisure	40.36,-85.84
-Leiters Ford	41.12,-86.39
-Lena	39.61,-87.11
-Lena Park	41.19,-86.72
-Leo	41.22,-85.01
-Leo-Cedarville	41.21,-85.02
-Leonard Springs	39.14,-86.58
-Leopold	38.10,-86.58
-Leota	38.65,-85.85
-Leroy	41.36,-87.27
-Letts	39.24,-85.56
-Letts Corner	39.23,-85.57
-Lettsville	38.72,-87.17
-Levert	41.16,-85.31
-Lewis	39.26,-87.26
-Lewis Creek	39.40,-85.82
-Lewisburg	40.75,-86.22
-Lewiston	41.03,-87.05
-Lewisville	39.81,-85.35
-Lexington	38.65,-85.63
-Liber	40.41,-84.97
-Liberal	38.05,-86.94
-Liberty	39.64,-84.93
-Liberty Center	40.70,-85.28
-Liberty Corners	40.19,-85.33
-Liberty Farm Mobile Home Park	41.55,-87.05
-Liberty Hills	41.03,-85.27
-Liberty Mills	41.03,-85.74
-Liberty Park	41.43,-87.37
-Libertyville	39.60,-87.52
-Liggett	39.48,-87.48
-Ligonier	41.47,-85.59
-Lilly Dale	38.01,-86.65
-Limedale	39.62,-86.88
-Lincoln	40.62,-86.21
-Lincoln City	38.12,-87.00
-Lincoln Hills	41.47,-87.11
-Lincoln Pioneer Village	37.88,-87.06
-Lincoln Village	41.47,-87.38
-Lincolnshire	41.03,-85.14
-Lincolnville	40.75,-85.68
-Linden	40.19,-86.90
-Lindenwood	39.66,-86.15
-Linkville	41.42,-86.29
-Linn Grove	40.65,-85.03
-Linnsburg	40.00,-86.80
-Linton	39.03,-87.17
-Linwood	40.19,-85.68
-Lippe	38.02,-87.75
-Lisbon	41.41,-85.26
-Little Acre	39.04,-85.88
-Little Charlie	40.83,-86.20
-Little Point	39.57,-86.63
-Little Rock	38.49,-87.68
-Little Saint Louis	38.30,-86.24
-Little York	38.70,-85.90
-Littles	38.40,-87.29
-Liverpool	41.55,-87.29
-Livonia	38.56,-86.28
-Lizton	39.89,-86.54
-Loafers Station	38.13,-87.12
-Lochiel	40.66,-87.27
-Locke	41.47,-86.01
-Lockport	40.70,-86.57
-Locust Grove	39.77,-84.85
-Locust Point	38.17,-85.91
-Lodi	39.95,-87.41
-Log Cabin Crossroads	40.03,-86.70
-Logan	39.25,-84.89
-Logansport	40.75,-86.36
-Lomax	41.26,-86.87
-London	39.63,-85.92
-London Heights	39.63,-85.91
-Lone Tree	39.13,-87.13
-Long Beach	41.74,-86.86
-Long Lake Island	41.52,-87.05
-Long Run	38.75,-85.12
-Longview Beach	38.37,-85.64
-Longwood Crossing	39.66,-85.23
-Loogootee	38.68,-86.91
-Lookout	39.20,-85.21
-Lorane	41.21,-85.56
-Loree	40.65,-86.06
-Losantville	40.02,-85.18
-Lost River	38.61,-86.45
-Lottaville	41.50,-87.36
-Lottick Corner	38.17,-85.94
-Lotus	39.61,-84.89
-Lovett	38.91,-85.63
-Lowell	41.29,-87.42
-Lower Sunset Park	40.71,-86.75
-Lowman Corner	41.07,-86.02
-Lowmandale	40.08,-85.66
-Lucerne	40.87,-86.40
-Ludwig Park	41.14,-85.15
-Luray	40.07,-85.37
-Luther	41.00,-85.57
-Luxhaven	39.95,-85.89
-Lydick	41.69,-86.38
-Lyford	39.65,-87.37
-Lyles	38.37,-87.66
-Lynhurst	39.76,-86.25
-Lynn	40.05,-84.94
-Lynnville	38.20,-87.30
-Lynwood Hills	39.98,-86.02
-Lyons	38.99,-87.08
-Lyonsville	39.65,-85.05
-Mace	40.01,-86.80
-Macedonia	38.05,-85.96
-Mackey	38.25,-87.39
-Mackie	40.06,-87.29
-Macy	40.96,-86.13
-Madalline	39.73,-87.08
-Madison	38.74,-85.38
-Magee	41.53,-86.75
-Magley	40.83,-85.05
-Magnet	38.10,-86.46
-Magnetic Springs	39.71,-86.47
-Magnolia	38.25,-86.39
-Mahalasville	39.36,-86.36
-Mahan Crossing	38.56,-86.36
-Mahon	40.94,-85.38
-Majenica	40.77,-85.45
-Makin	40.97,-85.59
-Malden	41.38,-87.03
-Maltersville	38.35,-86.89
-Manchester	39.15,-85.01
-Manhattan	39.56,-86.93
-Manilla	39.57,-85.62
-Manor Woods	41.03,-85.26
-Mansard Du Lac	41.59,-87.25
-Mansfield	39.68,-87.10
-Manson	40.24,-86.59
-Manville	38.79,-85.29
-Maple Del	39.96,-86.03
-Maple Grove Village Mobile Home Park	39.46,-86.32
-Maple Lane	41.70,-86.22
-Maple Ridge	39.68,-86.29
-Maple Valley	39.87,-85.59
-Maples	41.01,-84.97
-Mapleton	39.83,-86.17
-Mapleton Corner	39.19,-85.55
-Maplewood	39.83,-86.51
-Maplewood Mobile Home Park	39.88,-85.94
-Maplewood Park	41.12,-85.06
-Marble Hill	38.59,-85.45
-Marco	38.94,-87.14
-Mardenis	40.90,-85.41
-Marengo	38.37,-86.34
-Mariah Hill	38.17,-86.92
-Marian Manor	41.47,-87.09
-Marietta	39.44,-85.88
-Marine Drive Mobile Home Park	41.60,-87.19
-Marineland Gardens	41.38,-85.68
-Marion	39.59,-85.75
-Marion Heights	39.49,-87.45
-Marion Mills	39.31,-87.00
-Markland	38.78,-84.99
-Markle	40.82,-85.34
-Markles	39.53,-87.35
-Markleville	39.98,-85.61
-Marlin Hills	39.21,-86.52
-Marrs Center	37.95,-87.76
-Marshall	39.85,-87.19
-Marshfield	38.71,-85.78
-Marshtown	40.95,-86.34
-Martin	38.12,-87.67
-Martin Heights	38.61,-86.11
-Martinsburg	38.44,-86.03
-Martinsville	39.43,-86.43
-Marysville	38.59,-85.64
-Massacre	39.16,-87.41
-Masthead	39.93,-85.97
-Matamoras	40.55,-85.26
-Matthews	40.39,-85.50
-Mattix Corner	40.34,-86.57
-Mauckport	38.02,-86.20
-Maumee	39.02,-86.26
-Mauzy	39.62,-85.34
-Max	40.01,-86.58
-Maxinkuckee	41.21,-86.38
-Maxville	38.00,-86.81
-Maxwell	39.86,-85.77
-Mayfield	40.20,-85.35
-Mayflower Meadows	39.88,-86.08
-Maynard	41.54,-87.51
-Mays	39.74,-85.43
-Maysville	38.65,-87.23
-Maysville Crossing	40.33,-87.15
-Maywood	39.73,-86.22
-McCarty	39.61,-86.13
-McClures Mobile Home Park	39.40,-86.56
-McCol Place	38.61,-86.11
-McCool	41.58,-87.14
-McCordsville	39.91,-85.92
-McCoy	39.32,-85.41
-McCoysburg	40.91,-87.02
-McCutchanville	38.06,-87.52
-McDaniel	39.41,-86.44
-McGary	38.26,-87.63
-McGrawsville	40.63,-86.01
-McKinley	38.74,-86.21
-McNatts	40.62,-85.39
-McQuinn Estates	40.44,-86.96
-McVille	39.15,-86.74
-Meadow Shores Park	41.58,-85.19
-Meadowbrook	41.06,-85.04
-Meadows Glen	40.07,-85.99
-Meadows Knoll	40.07,-85.98
-Meadowview Mobile Home Park	41.55,-87.14
-Mecca	39.73,-87.33
-Mechanicsburg	39.60,-87.09
-Mechanicsville	38.03,-87.56
-Medaryville	41.08,-86.89
-Medford	40.12,-85.32
-Medora	38.83,-86.17
-Meiks	39.55,-85.75
-Mellott	40.17,-87.15
-Melody Hill	38.03,-87.52
-Melody Lane Mobile Home Park	41.55,-87.41
-Meltzer	39.52,-85.67
-Memphis	38.48,-85.76
-Mentone	41.17,-86.03
-Mentor	38.32,-86.72
-Meridian Hills	39.89,-86.16
-Merom	39.06,-87.57
-Merom Station	39.03,-87.54
-Merriam	41.29,-85.43
-Merrick	41.74,-86.82
-Merrillville	41.48,-87.33
-Messick	39.98,-85.30
-Metamora	39.45,-85.14
-Metea	40.87,-86.31
-Metz	41.62,-84.84
-Mexico	40.82,-86.12
-Miami	40.61,-86.11
-Miami Bend	40.75,-86.30
-Miami Trails Addition	41.60,-86.24
-Michaelsville	40.52,-85.70
-Michiana Shores	41.76,-86.82
-Michigan City	41.71,-86.90
-Michigantown	40.33,-86.39
-Mickleyville	39.75,-86.26
-Middle Branch	39.31,-85.39
-Middleboro	39.89,-84.83
-Middlebury	39.26,-87.12
-Middlefork	38.85,-85.47
-Middletown	39.46,-85.65
-Middletown Park	40.16,-85.42
-Midland	39.12,-87.19
-Midland Junction	39.11,-87.19
-Midway	39.46,-85.22
-Midway Corners	41.52,-86.20
-Mier	40.58,-85.83
-Mifflin	38.31,-86.54
-Milan	39.12,-85.13
-Milan Center	41.14,-84.95
-Miles Point	38.57,-85.42
-Milford	39.35,-85.62
-Milford Junction	41.43,-85.84
-Milledgeville	39.97,-86.50
-Miller	39.62,-86.28
-Millersburg	38.56,-86.34
-Millersport	38.34,-87.05
-Millersville	39.85,-86.09
-Millgrove	40.41,-85.27
-Millhousen	39.21,-85.43
-Milligan	39.85,-87.04
-Millport	38.77,-86.10
-Milltown	38.34,-86.28
-Millville	39.45,-85.12
-Milners Corner	39.92,-85.69
-Milo	40.65,-85.47
-Milroy	39.50,-85.47
-Milton	38.98,-85.01
-Mineral City	38.99,-86.88
-Mineral Springs	41.33,-85.74
-Minshall	39.67,-87.22
-Mishawaka	41.66,-86.16
-Mitchell	38.73,-86.47
-Mixersville	39.49,-84.82
-Moberly	38.27,-86.21
-Modesto	39.27,-86.55
-Modoc	40.05,-85.13
-Moffitt	41.10,-87.22
-Mohawk	39.84,-85.84
-Mongo	41.68,-85.28
-Monitor	40.42,-86.76
-Monmouth	40.87,-84.94
-Monon	40.87,-86.88
-Monoquet	41.29,-85.86
-Monroe	40.75,-84.94
-Monroe City	38.62,-87.35
-Monroe Manor	41.60,-86.69
-Monroeville	40.97,-84.87
-Monrovia	39.58,-86.48
-Montclair	39.85,-86.57
-Monte Cassino Shrine	38.18,-86.81
-Monterey	41.16,-86.48
-Monterey Village	40.05,-86.02
-Montezuma	39.79,-87.37
-Montezuma Station	39.80,-87.39
-Montgomery	38.66,-87.05
-Monticello	40.75,-86.76
-Montmorenci	40.47,-87.03
-Montpelier	40.55,-85.28
-Moody	40.99,-87.02
-Moonlight	41.58,-85.03
-Moonville	40.19,-85.60
-Moore	41.40,-84.95
-Moorefield	38.81,-85.17
-Mooreland	40.00,-85.25
-Moores Hill	39.11,-85.09
-Moorestown	38.72,-86.62
-Mooresville	39.61,-86.37
-Moran	40.39,-86.52
-Morgan Meadows	39.95,-86.01
-Morgan Park	41.61,-87.05
-Morgantown	39.37,-86.26
-Morningside	40.22,-85.37
-Morocco	40.95,-87.45
-Morris	39.28,-85.18
-Morristown	39.67,-85.70
-Morton	39.76,-86.94
-Morven	39.42,-85.66
-Morvins Landing	38.01,-86.17
-Moscow	39.49,-85.56
-Mott Station	38.30,-86.09
-Mound Haven	39.38,-84.98
-Mount Auburn	39.51,-85.19
-Mount Ayr	40.95,-87.30
-Mount Carmel	39.41,-84.87
-Mount Comfort	39.83,-85.92
-Mount Etna	40.74,-85.56
-Mount Healthy	39.08,-86.04
-Mount Jackson	39.77,-86.21
-Mount Lawn	39.91,-85.46
-Mount Liberty	39.18,-86.13
-Mount Meridian	39.60,-86.76
-Mount Olive	38.80,-86.69
-Mount Olympus	38.45,-87.48
-Mount Pisgah	41.60,-85.24
-Mount Pleasant	39.46,-86.12
-Mount Sinai	39.08,-85.00
-Mount Sterling	38.80,-85.07
-Mount Street Mobile Home Park	41.57,-87.40
-Mount Summit	40.00,-85.38
-Mount Tabor	39.31,-86.63
-Mount Vernon	37.93,-87.90
-Mount Zion	40.65,-85.33
-Mount Zion Corner	39.52,-86.56
-Mounts	38.23,-87.71
-Mud Center	37.96,-87.63
-Mudlavia Springs	40.34,-87.29
-Mulberry	40.34,-86.67
-Mull	40.21,-85.07
-Muncie	40.19,-85.39
-Munster	41.56,-87.51
-Murdock	38.91,-86.51
-Muren	38.37,-87.27
-Murray	40.79,-85.20
-Musquabuck Park	41.37,-85.78
-Nabb	38.61,-85.63
-Napoleon	39.20,-85.33
-Nappanee	41.44,-86.00
-Nash	39.75,-86.54
-Nashville	39.21,-86.25
-Natchez	38.62,-86.71
-Navilleton	38.38,-85.94
-Nead	40.71,-86.13
-Neavill Grove	38.78,-85.51
-Nebraska	39.06,-85.46
-Needham	39.53,-85.97
-Needmore	39.25,-86.34
-Neff Corner	39.17,-85.53
-Negangards Corner	39.19,-85.09
-Nevada	40.40,-86.00
-Nevada Mills	41.73,-85.08
-New Albany	38.29,-85.82
-New Alsace	39.23,-85.00
-New Amsterdam	38.10,-86.27
-New Augusta	39.88,-86.24
-New Baltimore	38.18,-87.92
-New Boston	38.00,-86.01
-New Britton	39.98,-86.01
-New Britton Woods	39.98,-86.02
-New Brunswick	39.94,-86.52
-New Burlington	40.12,-85.30
-New Carlisle	41.70,-86.51
-New Carrollton	38.94,-85.37
-New Castle	39.93,-85.37
-New Chicago	41.56,-87.27
-New Columbus	40.02,-85.66
-New Corydon	40.57,-84.84
-New Discovery	39.73,-87.13
-New Elizabethtown	38.92,-85.99
-New Elliott	41.49,-87.42
-New Era	41.29,-85.12
-New Fairfield	39.51,-84.97
-New Farmington	38.93,-85.87
-New Frankfort	38.74,-85.71
-New Goshen	39.58,-87.46
-New Harmony	38.13,-87.94
-New Haven	41.07,-85.01
-New Hope	39.18,-86.83
-New Lancaster	40.26,-85.88
-New Lebanon	39.04,-87.47
-New Liberty	38.57,-85.87
-New Lisbon	39.86,-85.26
-New London	40.44,-86.27
-New Marion	39.01,-85.36
-New Market	38.54,-85.62
-New Maysville	39.79,-86.73
-New Middletown	38.16,-86.05
-New Mount Pleasant	40.36,-85.06
-New Palestine	39.72,-85.89
-New Paris	41.50,-85.83
-New Pekin	38.51,-86.02
-New Pennington	39.28,-85.32
-New Philadelphia	38.63,-85.97
-New Pittsburg	40.31,-84.90
-New Point	39.31,-85.33
-New Richmond	40.20,-86.98
-New Ross	39.96,-86.71
-New Salem	39.54,-85.36
-New Salisbury	38.31,-86.09
-New Santa Fe	40.67,-85.99
-New Trenton	39.31,-84.90
-New Unionville	39.21,-86.46
-New Washington	38.56,-85.54
-New Waverly	40.76,-86.19
-New Whiteland	39.56,-86.10
-New Winchester	39.76,-86.65
-Newark	39.13,-86.81
-Newark Village	39.97,-86.12
-Newbern	39.24,-85.75
-Newberry	38.93,-87.02
-Newburgh	37.94,-87.41
-Newland	41.05,-87.03
-Newport	39.88,-87.41
-Newry	38.90,-85.82
-Newton	40.77,-87.39
-Newton Stewart	38.38,-86.62
-Newtonville	38.00,-86.94
-Newtown	40.20,-87.15
-Newville	41.35,-84.84
-Newville Center	41.31,-84.83
-Nibbyville	41.71,-85.86
-Nine Mile	40.98,-85.22
-Nineveh	39.36,-86.08
-Nisbet	38.15,-87.65
-Noble	40.47,-84.83
-Noble Mobile Home Park	41.60,-87.38
-Noblesville	40.05,-86.01
-Nora	39.91,-86.13
-Norma Jean Addition	40.38,-86.88
-Normal	40.47,-85.83
-Norman	38.95,-86.27
-Normanda	40.30,-86.16
-Norristown	39.37,-85.76
-North Anderson	40.14,-85.68
-North Augusta Addition	39.93,-86.23
-North Belleville	39.69,-86.49
-North Columbus	39.23,-85.91
-North Crane	40.34,-86.81
-North Crows Nest	39.87,-86.16
-North Gate	39.26,-85.95
-North Grove	40.61,-85.97
-North Hayden	41.29,-87.46
-North Highland	41.09,-85.17
-North Indianapolis	39.81,-86.18
-North Judson	41.22,-86.78
-North Liberty	41.53,-86.43
-North Madison	38.77,-85.40
-North Manchester	41.00,-85.77
-North Marion	40.97,-87.15
-North Oaks	40.78,-85.17
-North Ogilville	39.13,-86.01
-North Park	39.30,-85.95
-North Ridge Village	39.94,-86.15
-North Salem	39.86,-86.64
-North Terre Haute	39.53,-87.36
-North Union	39.97,-86.90
-North Vernon	39.01,-85.62
-North Webster	41.33,-85.70
-Northcliff	39.29,-85.88
-Northcrest	41.12,-85.13
-Northern Beach	39.96,-86.07
-Northern Meadows	39.97,-86.26
-Northfield	40.03,-86.28
-Northfield Estates	39.94,-86.04
-Northfield Village	40.06,-86.48
-Norths Landing	38.90,-84.87
-Northwest Manor	39.90,-86.27
-Northwood	41.65,-85.42
-Northwood Hills	39.96,-86.06
-Northwood Park	41.53,-87.05
-Norton	38.49,-86.68
-Nortonburg	39.27,-85.82
-Norway	40.78,-86.76
-Notre Dame	41.70,-86.24
-Nottingham	40.58,-85.15
-Nulltown	39.58,-85.16
-Numa	39.63,-87.37
-Nutwood	41.59,-86.28
-Nyesville	39.78,-87.17
-Oak Forest	39.38,-85.09
-Oak Grove	37.84,-88.02
-Oak Hill	38.30,-87.37
-Oak Lodge	41.59,-85.20
-Oak Park	38.31,-85.70
-Oak Tree Crossroads	39.37,-85.00
-Oakdale	39.02,-85.56
-Oakford	40.42,-86.10
-Oakland City	38.34,-87.35
-Oakland City Junction	38.33,-87.30
-Oaklandon	39.87,-85.96
-Oakley	40.70,-86.01
-Oaktown	38.87,-87.44
-Oakville	40.08,-85.39
-Oakwood	41.68,-86.79
-Oakwood Mobile Home Park	41.25,-87.47
-Oakwood Park	41.41,-85.74
-Oatsville	38.41,-87.41
-Ober	41.27,-86.52
-Occident	39.69,-85.48
-Ockley	40.49,-86.63
-Octagon	40.53,-86.99
-Odell	40.29,-87.07
-Odon	38.84,-86.99
-Ogden	39.80,-85.47
-Ogden Dunes	41.62,-87.19
-Ogilville	39.13,-86.02
-Old Adamsboro	40.78,-86.26
-Old Bargersville	39.52,-86.16
-Old Bath	39.51,-84.89
-Old Halfway	40.49,-87.07
-Old Hill	39.30,-87.21
-Old Milan	39.15,-85.13
-Old Pekin	38.50,-86.00
-Old Saint Louis	39.32,-85.79
-Old Tip Town	41.22,-86.12
-Old Town	40.26,-87.39
-Oldenburg	39.34,-85.20
-Oldtown	39.09,-84.85
-Olean	38.99,-85.22
-Olin	40.15,-87.43
-Olio	39.97,-85.92
-Olive	41.70,-86.45
-Oliver	38.04,-87.84
-Omega	40.20,-85.94
-Ontario	41.70,-85.38
-Onward	40.69,-86.19
-Oolitic	38.90,-86.53
-Ora	41.17,-86.55
-Orange	39.58,-85.30
-Orangeville	38.63,-86.56
-Orchard Grove	41.29,-87.35
-Orchard Heights Addition	41.60,-86.24
-Orchard Highlands	41.68,-86.84
-Orchard Park	39.94,-86.13
-Orestes	40.27,-85.73
-Organ Springs	38.48,-86.16
-Oriole	38.17,-86.50
-Orland	41.73,-85.17
-Orleans	38.66,-86.45
-Ormas	41.30,-85.55
-Orrville	38.46,-87.69
-Osborn	41.59,-87.47
-Osborn Landing	41.28,-85.80
-Osceola	41.67,-86.08
-Osgood	39.13,-85.29
-Ossian	40.88,-85.17
-Oswego	41.32,-85.79
-Otis	41.60,-86.91
-Otisco	38.54,-85.67
-Otsego Center	41.57,-84.91
-Otter Creek Junction	39.55,-87.35
-Otter Village	39.12,-85.33
-Otterbein	40.49,-87.10
-Otto	38.57,-85.47
-Otwell	38.45,-87.09
-Owasco	40.46,-86.63
-Owen	38.46,-85.54
-Owensburg	38.92,-86.73
-Owensville	38.27,-87.69
-Oxford	40.52,-87.25
-Oxford Park	39.95,-86.06
-Packerton	41.12,-85.80
-Page	41.69,-84.86
-Painted Hills	39.40,-86.35
-Palestine	39.42,-84.93
-Palmer	41.39,-87.24
-Palmyra	38.41,-86.11
-Panama	41.71,-85.11
-Paoli	38.56,-86.47
-Paradise	38.00,-87.38
-Paragon	39.40,-86.56
-Paragon Mobile Home Park	41.62,-87.51
-Paris	38.82,-85.63
-Paris Crossing	38.83,-85.65
-Park	39.02,-86.85
-Park View Heights	40.74,-86.05
-Parker City	40.19,-85.20
-Parkers Settlement	38.05,-87.72
-Parkers Station	38.76,-85.65
-Parkersburg	39.87,-86.90
-Parkeville	39.82,-87.08
-Parkside	39.24,-85.91
-Parkview	39.52,-87.39
-Parkway Hills	41.03,-85.26
-Parr	41.03,-87.22
-Patoka	38.41,-87.59
-Patricksburg	39.32,-86.96
-Patriot	38.84,-84.83
-Patronville	37.86,-87.11
-Patton	40.71,-86.74
-Patton Hill	38.90,-86.54
-Paxton	39.02,-87.39
-Paynesville	38.62,-85.49
-Peabody	41.09,-85.49
-Pearsontown	38.42,-86.39
-Pebble Hills	39.62,-86.19
-Pebble Run	39.62,-86.20
-Pecksburg	39.69,-86.57
-Peerless	38.92,-86.50
-Pelzer	37.99,-87.26
-Pembroke	41.10,-87.28
-Pence	40.36,-87.51
-Pendleton	40.00,-85.75
-Penn Park	41.54,-84.92
-Pennington Estates	39.57,-86.20
-Penntown	39.27,-85.10
-Pennville	39.81,-85.11
-Pennyville	38.55,-87.01
-Peoga	39.34,-86.14
-Peoria	39.43,-84.82
-Peppertown	39.40,-85.17
-Percy Junction	40.81,-87.30
-Perkins	40.77,-87.36
-Perkinsville	40.14,-85.86
-Perry Crossing	38.44,-85.76
-Perry Manor	39.68,-86.11
-Perrysburg	40.90,-86.15
-Perrysville	40.05,-87.43
-Perryville	40.59,-85.04
-Pershing	41.10,-86.32
-Perth	39.59,-87.16
-Peru	40.75,-86.07
-Peters Switch	39.02,-85.90
-Petersburg	38.49,-87.28
-Peterson	40.81,-85.01
-Petersville	39.22,-85.82
-Petroleum	40.61,-85.15
-Pettit	40.42,-86.71
-Pettysville	40.88,-85.98
-Phenix	40.58,-85.11
-Philadelphia	39.78,-85.85
-Philip Station	37.98,-87.74
-Philomath	39.72,-85.02
-Phlox	40.42,-85.92
-Piattsville	39.70,-87.13
-Pickard	40.22,-86.26
-Pickwick Park	41.42,-85.73
-Pierceton	41.20,-85.71
-Pierceville	39.13,-85.18
-Pierson Station	39.90,-85.33
-Pigeon	38.10,-87.07
-Pigeon Roost Station	38.61,-85.78
-Pike	40.12,-86.48
-Pikes Peak	39.13,-86.14
-Pikeville	38.32,-87.11
-Pilot Knob	38.28,-86.35
-Pimento	39.31,-87.38
-Pin Hook	39.82,-87.13
-Pinch	40.11,-85.15
-Pine	41.62,-87.39
-Pine Ridge	39.58,-87.49
-Pine Station	41.53,-86.33
-Pine Valley	38.48,-86.45
-Pine Village	40.45,-87.25
-Pinhook	39.22,-85.52
-Pinola	41.60,-86.80
-Pioneer	40.74,-85.90
-Pittsboro	39.86,-86.47
-Pittsburg	40.59,-86.70
-Plainfield	39.70,-86.40
-Plainville	38.81,-87.15
-Plano	39.50,-86.60
-Plantana	39.99,-85.99
-Plato	41.64,-85.33
-Plattsburg	38.72,-86.09
-Pleasant	38.87,-85.18
-Pleasant Acres	39.86,-85.92
-Pleasant Gardens	39.55,-86.96
-Pleasant Hill	39.87,-85.69
-Pleasant Lake	41.58,-85.02
-Pleasant Mills	40.78,-84.84
-Pleasant Plain	40.70,-85.55
-Pleasant Ridge	40.93,-87.07
-Pleasant Valley	38.63,-86.80
-Pleasant View	39.66,-85.94
-Pleasant View Village	39.33,-85.97
-Pleasantville	38.86,-86.21
-Pleasure Valley	39.40,-85.71
-Plevna	40.54,-85.98
-Plum Tree	40.74,-85.39
-Plummer	38.98,-86.97
-Plymouth	41.34,-86.31
-Poe	40.94,-85.09
-Point Commerce	39.13,-86.97
-Point Idalawn	39.26,-86.38
-Point Isabel	40.42,-85.82
-Poland	39.44,-86.95
-Poling	40.53,-85.05
-Pond Creek Mills	38.58,-87.29
-Poneto	40.66,-85.22
-Pontiac	39.59,-87.12
-Pony	40.44,-85.09
-Popcorn	38.98,-86.66
-Poplar Grove	39.71,-86.05
-Port Fulton	38.28,-85.72
-Port Mitchell	41.36,-85.44
-Portage	41.58,-87.18
-Porter	41.62,-87.07
-Porter Crossroads	41.40,-87.16
-Portersville	38.50,-86.98
-Portland	40.43,-84.98
-Portland Mills	39.78,-87.01
-Poseyville	38.17,-87.78
-Potato Mound	39.41,-86.54
-Potawatomi Inn	41.70,-85.02
-Potawatomi Park	41.32,-85.76
-Potawatomi Point	40.75,-86.31
-Pottawattamie Park	41.72,-86.87
-Pottersville	39.21,-86.81
-Poundstone Corner	40.63,-86.34
-Powers	40.32,-85.09
-Powley Corners	40.48,-87.53
-Prairie	37.92,-87.98
-Prairie City	39.45,-87.11
-Prairie Creek	39.28,-87.50
-Prairie View (subdivision)	39.98,-86.05
-Prairieton	39.37,-87.47
-Prather	38.38,-85.69
-Prattsburg	39.16,-85.19
-Preble	40.83,-85.01
-Prescott	39.48,-85.71
-Preston	39.51,-87.37
-Prince William	40.44,-86.57
-Princes Lakes	39.35,-86.10
-Princeton	38.36,-87.57
-Princeton Park	39.95,-86.05
-Progress	40.12,-85.44
-Prospect	38.58,-86.61
-Prosperity	40.18,-85.67
-Providence	39.49,-86.18
-Prowsville	38.68,-86.20
-Pueblo	37.83,-87.11
-Pulaski	40.98,-86.66
-Pumpkin Center	38.59,-86.36
-Purcell	38.60,-87.52
-Purdy Hill	39.51,-87.21
-Putnamville	39.57,-86.87
-Pyeattville	37.94,-87.25
-Pyrmont	40.47,-86.68
-Quaker	39.86,-87.53
-Quaker Haven Park	41.37,-85.76
-Quaker Ridge	39.94,-85.99
-Quakertown	39.58,-85.00
-Queensville	39.05,-85.68
-Quercus Grove	38.85,-84.92
-Quincy	39.45,-86.71
-Raab Crossroads	39.49,-86.99
-Rabbitville	38.77,-86.47
-Raber	41.09,-85.43
-Raccoon	39.86,-86.90
-Radioville	41.16,-86.89
-Radley	40.44,-85.73
-Radnor	40.51,-86.64
-Raglesville	38.80,-86.96
-Ragsdale	38.75,-87.33
-Rahm	37.87,-87.61
-Rainbow Highlands	39.89,-85.98
-Rainbow Mobile Home Park	41.61,-87.11
-Rainsville	40.42,-87.32
-Raintown	39.88,-86.51
-Raleigh	39.74,-85.36
-Ramblewood	41.55,-85.22
-Ramsey	38.32,-86.15
-Randall	39.77,-87.52
-Randolph	40.27,-84.98
-Range Line	41.27,-87.28
-Ranger	38.10,-86.69
-Ransom Place	39.78,-86.17
-Rapture	38.15,-87.84
-Raub	40.73,-87.49
-Ravenswood	39.89,-86.13
-Ravinamy	40.46,-86.90
-Ravinia Oaks	41.57,-84.90
-Ray	40.45,-86.53
-Raymond	39.47,-84.85
-Rays Crossing	39.55,-85.67
-Raysville	39.80,-85.51
-Reagan	40.19,-86.51
-Red Bank	37.97,-87.63
-Red Bush	37.94,-87.27
-Red Hill	38.93,-86.60
-Redcuff Corner	39.16,-87.15
-Redding	38.77,-86.50
-Reddington	39.03,-85.83
-Redkey	40.35,-85.15
-Redmon Park	41.38,-85.78
-Reds Corner	39.60,-85.97
-Reed Station	40.22,-85.52
-Reedville Station	39.71,-85.82
-Reelsville	39.56,-86.97
-Rego	38.49,-86.32
-Rehoboth	38.08,-86.02
-Reiffsburg	40.66,-85.15
-Remington	40.76,-87.15
-Renner	40.47,-85.43
-Reno	39.71,-86.67
-Rensselaer	40.94,-87.15
-Reo	37.90,-87.11
-Retreat	38.82,-85.85
-Rexville	38.95,-85.34
-Reynolds	40.75,-86.87
-Rhodes	39.61,-87.41
-Riceville	38.32,-86.67
-Richey Park	40.67,-86.76
-Richland	39.50,-85.39
-Richland Center	41.16,-86.27
-Richland City	37.95,-87.17
-Richmond	39.83,-84.89
-Richvalley	40.79,-85.92
-Riddle	38.25,-86.43
-Ridertown	40.44,-85.21
-Ridge Road Mobile Home Community	41.55,-87.38
-Ridgemede	39.15,-86.50
-Ridgeport	39.05,-86.80
-Ridgeview	40.76,-86.08
-Ridgeville	40.29,-85.03
-Ridgeway	40.49,-86.30
-Ridgewood	39.60,-86.36
-Ridgleville	38.57,-87.43
-Rigdon	40.38,-85.79
-Riley	39.79,-85.73
-Riley Village	39.51,-85.77
-Rileysburg	40.10,-87.53
-Rincon	39.10,-86.99
-Ringwald	38.78,-85.38
-Ripley	41.10,-86.66
-Rising Sun	38.95,-84.85
-Risse	40.28,-86.49
-Ritchie	37.96,-87.04
-Rivare	40.81,-84.84
-River	40.75,-85.51
-River Edge	39.96,-86.05
-River Forest	40.11,-85.73
-River Glen	39.96,-86.04
-River Haven	41.08,-85.05
-River Highlands	39.97,-86.04
-River Oaks	41.71,-85.40
-River Ridge	38.38,-85.65
-Riverside	40.33,-87.17
-Riverside Mobile Home Park	41.56,-87.29
-Riverton	39.02,-87.57
-Rivervale	38.77,-86.40
-Riverview	38.84,-86.54
-Riverview Acres	39.24,-85.92
-Riverwood	40.10,-85.97
-Roachdale	39.85,-86.80
-Roadman Corner	39.47,-87.03
-Roann	40.91,-85.92
-Roanoke	40.96,-85.37
-Roanoke Station	40.95,-85.36
-Rob Roy	40.24,-87.24
-Roberts	40.32,-87.10
-Robertsdale	41.68,-87.51
-Roble Woods	41.52,-87.05
-Rochester	41.06,-86.22
-Rock Creek Center	40.79,-85.39
-Rock Hill	37.95,-87.04
-Rockdale	39.32,-84.85
-Rockfield	40.64,-86.57
-Rockford	38.99,-85.89
-Rocklane	39.61,-86.01
-Rockport	39.88,-87.28
-Rockport Junction	38.11,-87.01
-Rockville	39.76,-87.23
-Rocky Ford	40.40,-87.33
-Rocky Ripple	39.85,-86.17
-Rogers	38.54,-87.22
-Rogersville	40.04,-85.33
-Roland	38.60,-86.68
-Roll	40.55,-85.39
-Rolling Acres	38.07,-87.27
-Rolling Hill Estates	41.48,-87.40
-Rolling Hills	38.48,-85.59
-Rolling Prairie	41.67,-86.62
-Rolling Ridge	39.54,-85.78
-Rome	37.92,-86.52
-Rome City	41.50,-85.38
-Romine Corner	40.14,-87.43
-Romney	40.25,-86.90
-Romona	39.33,-86.73
-Rosebud	38.19,-87.41
-Roseburg	39.59,-84.95
-Rosedale	39.62,-87.28
-Rosedale Hills	39.69,-86.13
-Roseland	41.72,-86.25
-Roselawn	41.14,-87.31
-Rosewood	38.04,-85.93
-Ross	41.53,-87.37
-Ross Mobile Home Park	41.53,-87.37
-Rossburg	39.33,-85.33
-Rosston	40.05,-86.29
-Rosstown	39.11,-85.93
-Rossville	40.42,-86.59
-Roth Park	40.69,-86.75
-Round Grove	40.59,-87.03
-Round Up	39.94,-86.06
-Roxbury Pines	39.93,-86.06
-Royal Center	40.86,-86.50
-Royal Oaks	41.13,-85.07
-Royalton	39.93,-86.34
-Royerton	40.26,-85.37
-Royville	41.20,-85.13
-Rugby	39.31,-85.71
-Rumble	38.44,-87.34
-Runnymede	41.30,-86.86
-Runyantown	38.49,-85.61
-Rural	40.11,-84.97
-Rush Creek Valley	38.70,-86.17
-Rushville	39.61,-85.45
-Rusk	38.56,-86.76
-Russell Lake	39.95,-86.30
-Russellville	39.86,-86.98
-Russels Point	41.55,-84.92
-Russiaville	40.42,-86.27
-Rustic Hills	37.96,-87.37
-Rutland	41.24,-86.36
-Saddle Creek	39.99,-86.19
-Sail Place	39.93,-85.95
-Saint Anthony	38.31,-86.83
-Saint Bernice	39.71,-87.52
-Saint Croix	38.22,-86.59
-Saint Henry	38.22,-86.93
-Saint James	38.18,-87.58
-Saint Joe	41.32,-84.90
-Saint John	38.08,-87.45
-Saint Johns	41.31,-85.11
-Saint Joseph	38.40,-85.81
-Saint Josephs Shrine	38.17,-86.80
-Saint Leon	39.29,-84.96
-Saint Louis Crossing	39.32,-85.85
-Saint Magdalen	38.96,-85.39
-Saint Marks	38.31,-86.82
-Saint Mary-of-the-Woods	39.51,-87.47
-Saint Marys	38.36,-85.86
-Saint Maurice	39.37,-85.33
-Saint Meinrad	38.17,-86.81
-Saint Omer	39.44,-85.60
-Saint Paul	39.43,-85.63
-Saint Peter	39.32,-85.03
-Saint Philip	37.99,-87.72
-Saint Thomas	38.59,-87.56
-Saint Wendel	38.11,-87.70
-Salamonia	40.38,-84.87
-Salem	39.60,-84.89
-Salem Center	41.59,-85.14
-Salem Heights	41.57,-86.62
-Salina	38.15,-85.91
-Saline City	39.37,-87.13
-Salt Creek Estates	41.60,-87.15
-Saltillo	38.67,-86.29
-Saluda	38.65,-85.48
-Samaria	39.40,-86.19
-San Jacinto	38.96,-85.50
-San Pierre	41.20,-86.89
-Sand Creek Woods	39.96,-85.98
-Sand Ridge	37.90,-87.17
-Sandborn	38.90,-87.19
-Sandcut	39.56,-87.32
-Sanders	39.08,-86.51
-Sandford	39.55,-87.53
-Sandstone Lakes	39.96,-85.95
-Sandstone Ridge	39.95,-85.94
-Sandstone Woods	39.96,-85.95
-Sandusky	39.42,-85.48
-Sandy Beach	40.66,-86.75
-Sandy Hook	38.57,-87.22
-Sandytown	39.68,-87.45
-Santa Claus	38.12,-86.91
-Santa Fe	38.11,-86.91
-Saratoga	40.24,-84.92
-Sardinia	39.15,-85.63
-Sassafras	38.19,-86.69
-Saturn	41.03,-85.36
-Savah	38.02,-87.98
-Sawgrass	39.95,-85.97
-Scalesville	38.20,-87.21
-Scarlet	38.66,-86.67
-Scarlet Oaks	40.70,-86.75
-Scenic Hill	38.68,-86.89
-Schererville	41.48,-87.45
-Schildmeier Park	39.73,-85.94
-Schley	38.05,-86.87
-Schneider	41.19,-87.45
-Schnellville	38.34,-86.76
-Schooler Point Landing	38.16,-86.34
-Scipio	39.39,-84.82
-Scircleville	40.29,-86.30
-Scotchtown	39.08,-87.30
-Scotland	38.91,-86.90
-Scott	41.74,-85.56
-Scott City	39.19,-87.47
-Scott Corner	40.09,-85.13
-Scottsburg	38.29,-87.22
-Scottsville	38.40,-85.91
-Seafield	40.76,-86.99
-Searcy Crossroads	38.85,-84.86
-Sedalia	40.42,-86.51
-Sedan	41.44,-85.10
-Sedley	41.49,-87.16
-Seelyville	39.49,-87.27
-Sellersburg	38.40,-85.75
-Selma	40.19,-85.27
-Selvin	38.20,-87.11
-Servia	40.96,-85.74
-Sevastopol	41.13,-86.02
-Seven Springs	38.14,-85.98
-Sexton	39.70,-85.43
-Seyberts	41.70,-85.51
-Seymour	38.96,-85.89
-Sha-Get Acres	41.58,-85.18
-Shadeland	40.61,-85.61
-Shady Banks	41.39,-85.83
-Shady Hills	40.59,-85.67
-Shady Lane	39.55,-87.13
-Shady Lawn	41.39,-87.35
-Shady Nook	41.56,-85.23
-Shady Side	41.62,-87.14
-Shadyside Mobile Home Court	41.62,-87.14
-Shambaugh Siding	40.48,-86.15
-Shamrock Lakes	40.41,-85.43
-Shanghai	40.45,-86.33
-Shannondale	40.05,-86.70
-Sharon	40.55,-86.39
-Sharpsville	40.38,-86.09
-Sharptown	39.37,-84.87
-Shawswick	38.90,-86.41
-Shedville	40.27,-85.13
-Sheff	40.71,-87.45
-Sheffield Estates	41.65,-87.52
-Shelburn	39.18,-87.39
-Shelburne	39.44,-86.39
-Shelby	41.20,-87.35
-Shelbyville	39.52,-85.78
-Shepardsville	39.60,-87.42
-Shepherd	39.97,-86.43
-Sheridan	40.14,-86.22
-Sherwood Forest	39.92,-86.13
-Shideler	40.31,-85.36
-Shields	38.92,-86.00
-Shiloh	39.04,-87.29
-Shipshewana	41.67,-85.58
-Shirkieville	39.60,-87.50
-Shirley	39.89,-85.58
-Shoals	38.67,-86.79
-Shoals Overlook	38.68,-86.80
-Shooters Hill	39.83,-86.18
-Shore Acres	39.88,-86.14
-Shorewood Forest	41.46,-87.14
-Shorts Corner	38.50,-86.10
-Siberia	38.24,-86.73
-Sidney	41.11,-85.74
-Silex	39.36,-86.66
-Silver Hills	38.28,-85.85
-Silver Lake	41.07,-85.89
-Silver Point	41.33,-85.77
-Silverdale	37.92,-87.07
-Silverville	38.86,-86.67
-Silverwood	39.96,-87.40
-Simonton Lake	41.75,-85.97
-Simpson	40.86,-85.41
-Simpson Corner	40.14,-87.24
-Sims	40.50,-85.86
-Sisson	38.53,-87.56
-Sitka	40.83,-86.74
-Six Points	39.73,-86.34
-Skelton	38.34,-87.78
-Slabtown	39.28,-85.40
-Slatecut	38.45,-85.77
-Sleepy Hollow	39.40,-85.72
-Sleeth	40.65,-86.72
-Sloan	40.30,-87.48
-Smartsburg	40.05,-86.83
-Smedley	38.63,-86.22
-Smith	41.71,-86.67
-Smith Valley	39.61,-86.20
-Smithfield	40.17,-85.27
-Smithland	39.46,-85.85
-Smiths Crossing	39.32,-85.36
-Smithson	40.72,-86.87
-Smithville	39.07,-86.51
-Smithville-Sanders	39.06,-86.51
-Smockville	39.63,-87.13
-Smoke Corner	41.41,-87.07
-Smyrna	38.78,-85.48
-Smythe	37.99,-87.49
-Snacks	39.85,-86.26
-Snow Hill	39.66,-87.17
-Solitude	38.01,-87.90
-Solsberry	39.08,-86.76
-Somerset	40.67,-85.83
-Somerville	38.28,-87.38
-South Bend	41.68,-86.25
-South Boston	38.58,-85.98
-South Center	41.48,-86.64
-South Edgewood	40.10,-85.73
-South Elwood	40.26,-85.84
-South Gate	39.32,-84.96
-South Haven	40.78,-85.83
-South LaPorte	41.58,-86.74
-South Marion	40.91,-87.13
-South Martin	38.54,-86.87
-South Milford	41.53,-85.27
-South Park	41.40,-85.72
-South Peru	40.75,-86.06
-South Raub	40.30,-86.91
-South Richmond	39.80,-84.89
-South Salem	40.15,-84.84
-South Wanatah	41.41,-86.90
-South Washington	38.63,-87.18
-South Whitley	41.08,-85.63
-Southeast Grove	41.33,-87.30
-Southeast Manor	39.63,-85.90
-Southmoor Park	41.48,-87.35
-Southport	39.67,-86.13
-Southwest	41.54,-85.94
-Southwood	39.40,-87.40
-Southwood Trailer Court	39.59,-86.10
-Spades	39.25,-85.12
-Spall's Mobile Home Village	40.97,-84.87
-Sparksville	38.78,-86.24
-Sparta	39.11,-85.05
-Spartanburg	40.07,-84.85
-Spearsville	39.33,-86.20
-Speed	38.41,-85.75
-Speedway	39.80,-86.27
-Speicherville	40.85,-85.79
-Spelterville	39.53,-87.40
-Spencer	39.29,-86.76
-Spencer County Farm	37.87,-87.11
-Spencerville	41.28,-84.92
-Spiceland	39.84,-85.44
-Sponsler	39.00,-87.14
-Spraytown	39.01,-86.08
-Spring Creek (subdivision)	40.00,-86.07
-Spring Grove	39.85,-84.89
-Spring Grove Heights	39.84,-84.89
-Spring Hill	39.62,-86.12
-Spring Hills	39.84,-86.19
-Spring Hollow	39.92,-86.16
-Spring Lake	39.78,-85.85
-Spring Mill Estates	39.88,-86.17
-Spring Mill Village	38.74,-86.43
-Spring Mill Woods	39.92,-86.16
-Spring Valley Mobile Home Park	39.41,-86.42
-Springboro	40.59,-86.78
-Springersville	39.66,-85.05
-Springfield	38.04,-87.87
-Springport	40.05,-85.39
-Springtown	39.70,-86.61
-Springville	38.42,-85.68
-Spurgeon	38.25,-87.26
-Spurgeons Corner	39.07,-86.14
-Spyglass Hill	39.95,-85.98
-Stacer	38.15,-87.57
-Stafford Center	41.41,-84.83
-Stalcup Corner	38.99,-87.02
-Stampers Creek	38.56,-86.38
-Standard	39.20,-87.39
-Stanford	39.09,-86.67
-Stanley	38.16,-87.36
-Staples Ford	38.89,-85.78
-Star City	40.97,-86.56
-Star Mill	41.75,-85.44
-Starlight	38.42,-85.89
-State Line	39.44,-87.53
-Staunton	39.49,-87.19
-Stavetown	39.41,-85.01
-Steam Corner	40.04,-87.24
-Stearleyville	39.45,-87.06
-Stemm	38.96,-86.50
-Stendal	38.27,-87.14
-Stephens Crossing	40.16,-87.18
-Sterling Green	39.98,-86.00
-Sterling Heights	39.74,-86.28
-Steubenville	41.53,-85.02
-Stevenson	38.02,-87.43
-Stevenson Mill	39.98,-86.02
-Stewart	40.36,-87.47
-Stewartsville	38.18,-87.83
-Stilesville	39.64,-86.63
-Stillwell	41.56,-86.60
-Stines Mill Corner	39.48,-86.37
-Stinesville	39.30,-86.65
-Stockdale	40.92,-85.94
-Stockport	40.32,-85.46
-Stockton	39.24,-87.02
-Stockwell	40.29,-86.77
-Stone	40.24,-85.00
-Stone Bluff	40.17,-87.25
-Stone Head	39.13,-86.16
-Stone Quarry Mills	39.85,-85.48
-Stoneburner Landing	41.29,-85.78
-Stonegate	39.95,-86.32
-Stones Crossing	39.58,-86.16
-Stonington	38.73,-86.37
-Stony Creek	41.53,-85.65
-Stony Lonesome	39.20,-86.06
-Stony Ridge	41.33,-85.78
-Story	39.10,-86.21
-Stoutsburg	41.19,-87.11
-Straughn	39.81,-85.29
-Strawtown	40.12,-85.94
-Stringtown	39.79,-85.71
-Stroh	41.58,-85.20
-Stumpke Corner	39.18,-85.13
-Stumptown	39.85,-87.27
-Sugar Creek	39.64,-85.91
-Sugar Grove	38.12,-85.91
-Sugar Hills	39.86,-85.82
-Sullivan	39.10,-87.41
-Sulphur	38.23,-86.47
-Sulphur Spring	39.77,-85.52
-Sulphur Springs	38.21,-86.47
-Suman	41.54,-87.00
-Sumava Resorts	41.17,-87.44
-Summit	39.03,-87.20
-Summit Chapel	41.25,-86.08
-Summit Grove	39.72,-87.39
-Summitville	40.34,-85.64
-Sun Down	39.73,-85.99
-Sunblest	39.97,-86.01
-Sunblest Farms	39.97,-86.03
-Sundown Manor	39.58,-86.38
-Sunman	39.24,-85.09
-Sunny Slopes	39.13,-86.53
-Sunnybrook Acres	41.16,-85.07
-Sunnymeadow	41.13,-85.10
-Sunnymede	40.81,-85.84
-Sunnymede Woods	41.07,-85.07
-Sunnyview	39.75,-86.08
-Sunrise Beach	41.40,-85.69
-Sunset Parkway	38.96,-85.91
-Sunset Village	38.46,-85.53
-Sunshine Gardens	39.69,-86.21
-Sunshine Seven Mobile Home Park	41.57,-87.41
-Sunview	39.95,-85.84
-Superior	39.63,-87.16
-Surprise	38.97,-86.06
-Surrey	41.00,-87.20
-Survant	38.37,-87.16
-Swalls	39.46,-87.29
-Swan	41.32,-85.21
-Swanington	40.58,-87.28
-Swanville	38.69,-85.56
-Swayzee	40.51,-85.83
-Sweet Springs Estates	39.98,-86.02
-Sweetbriar	39.98,-85.99
-Sweetser	40.57,-85.77
-Sweetwater Lake	39.30,-86.13
-Switz City	39.03,-87.05
-Switzer Crossroads	38.27,-86.42
-Sycamore	40.49,-85.92
-Sycamore Corner	40.36,-87.43
-Sycamore Ford	39.96,-87.05
-Sylvan Grove	38.47,-85.74
-Sylvan Manor	41.46,-87.11
-Sylvania	39.92,-87.29
-Syndicate	39.62,-87.41
-Syracuse	41.43,-85.75
-Syria	38.59,-86.40
-Tab	40.41,-87.47
-Tabertown	39.49,-87.25
-Taggart	39.26,-86.14
-Taggart Crossing	39.38,-86.40
-Talbot	40.51,-87.45
-Tall Timbers	41.55,-85.23
-Talma	41.15,-86.14
-Tamarack Grange	41.60,-86.14
-Tampico	38.80,-85.96
-Tangier	39.92,-87.32
-Tanglewood	41.07,-85.00
-Tanner	39.02,-86.79
-Tannersville	39.10,-85.75
-Tarkeo Corner	39.26,-85.48
-Tarry Park	38.80,-86.51
-Taswell	38.33,-86.56
-Taylor	40.34,-86.93
-Taylor Corner	41.49,-84.95
-Taylorsville	39.30,-85.95
-Taylorville	39.46,-87.42
-Tecumseh	39.56,-87.42
-Tee Lake	41.72,-86.69
-Teegarden	41.47,-86.38
-Tefft	41.20,-86.97
-Tell City	37.95,-86.77
-Temple	38.34,-86.42
-Templeton	40.51,-87.21
-Tennyson	38.08,-87.12
-Terhune	40.17,-86.28
-Terrace Bay	40.72,-86.75
-Terrace Mobile Home Park	39.61,-86.30
-Terre Coupee	41.70,-86.48
-Terre Haute	39.47,-87.41
-Terre Town	39.52,-87.38
-Terry	38.09,-86.63
-Tetersburg	40.28,-86.15
-Texas	39.05,-84.89
-Thales	38.51,-86.80
-Thayer	41.17,-87.33
-The Anchorage	39.94,-85.94
-The Hawthorns	39.94,-85.95
-The Portage	39.95,-85.94
-The Red Mills	39.58,-85.92
-The Springs of Cambridge	39.94,-85.92
-The Woodlands	39.93,-86.29
-Thomas	38.61,-87.23
-Thomaston	41.38,-86.81
-Thornhope	40.93,-86.53
-Thornton	38.92,-86.50
-Thorntown	40.13,-86.61
-Thorny Ridge	39.94,-85.96
-Thurman	41.12,-85.00
-Tighe	39.62,-87.52
-Tilden	39.82,-86.44
-Tillman	41.02,-84.89
-Timber Lane Estates	39.95,-86.03
-Timber Springs	39.95,-86.03
-Timbercrest	41.02,-85.31
-Timberhurst	41.55,-85.22
-Times Corner	41.06,-85.22
-Tiosa	41.15,-86.21
-Tippecanoe	41.21,-86.11
-Tipton	40.28,-86.04
-Titus	38.05,-86.26
-Toad Hop	39.46,-87.46
-Tobacco Landing	38.01,-86.09
-Tobinsport	37.85,-86.64
-Tocsin	40.83,-85.11
-Toll Gate Heights	40.76,-85.17
-Tolleston	41.59,-87.37
-Topeka	41.54,-85.54
-Toronto	39.78,-87.50
-Toto	41.26,-86.70
-Town Hill	39.20,-86.25
-Town of Pines	41.68,-86.96
-Townley	41.02,-84.86
-Tracy	41.49,-86.68
-Traders Point	39.89,-86.30
-Trafalgar	39.42,-86.15
-Trail Creek	41.70,-86.86
-Trails End	39.95,-86.07
-Tratebas Mill	41.56,-87.02
-Travisville	40.69,-85.21
-Treaty	40.72,-85.78
-Tree Spring	40.10,-87.43
-Tremont	39.77,-86.32
-Trenton	40.45,-85.24
-Trevlac	39.27,-86.34
-Tri-Lakes	41.25,-85.44
-Trilobi Hills	39.88,-86.00
-Trinity	40.54,-84.85
-Trotter Crossing	38.51,-86.37
-Troy	38.00,-86.80
-Tulip	39.08,-86.89
-Tunker	41.05,-85.56
-Tunnelton	38.77,-86.34
-Turkey Creek	41.56,-85.17
-Turkey Creek Meadows	41.50,-87.34
-Turkey Track	39.35,-86.50
-Turleys	38.57,-86.52
-Turner	39.50,-87.16
-Turner Grove	39.95,-85.94
-Turpin Hill	38.14,-87.29
-Twelve Mile	40.87,-86.23
-Twelve Points	39.49,-87.40
-Twin Beach	39.52,-87.21
-Twin Bridges	38.55,-87.63
-Twin Brooks	39.67,-86.12
-Twin Lakes	41.73,-85.46
-Tyner	41.41,-86.40
-Tyner Crossing	39.65,-85.18
-Ulen	40.06,-86.46
-Underwood	38.60,-85.77
-Union	38.47,-87.43
-Union Center	41.48,-86.64
-Union City	40.20,-84.81
-Union Mills	41.49,-86.78
-Uniondale	40.83,-85.24
-Unionport	40.12,-85.10
-Uniontown	38.85,-85.83
-Unionville	39.23,-86.42
-Universal	39.62,-87.45
-University Heights	39.70,-86.13
-Upland	40.48,-85.49
-Upper Sunset Park	40.73,-86.75
-Upton	37.96,-87.96
-Urbana	40.90,-85.79
-Urmeyville	39.52,-85.99
-Utah	39.06,-84.90
-Utica	38.33,-85.65
-Valeene	38.44,-86.40
-Valentine	41.59,-85.39
-Valley Brook	40.81,-85.84
-Valley City	38.09,-86.22
-Valley Farms Estates	39.95,-85.99
-Valley Mills	39.69,-86.28
-Valley Outlet Center	41.73,-85.00
-Vallonia	38.85,-86.10
-Valparaiso	41.47,-87.06
-Van Bibber Lake	39.73,-86.93
-Van Buren	40.62,-85.50
-Van Buren Park	39.14,-86.58
-Van Loon	41.57,-87.42
-Van Nuys	39.96,-85.35
-Vanada	37.93,-87.36
-Vandalia	39.31,-86.87
-Vanmeter Park	41.09,-86.57
-Vaughan	37.90,-87.63
-Vawter Park	41.39,-85.69
-Veedersburg	40.11,-87.26
-Velpen	38.36,-87.10
-Vera Cruz	40.70,-85.08
-Vermont	40.50,-86.03
-Verne	38.64,-87.43
-Vernon	38.98,-85.61
-Verona	40.82,-86.37
-Versailles	39.07,-85.25
-Vertland	39.91,-86.05
-Vesta	38.49,-85.55
-Vevay	38.75,-85.07
-Vicksburg	39.09,-87.20
-Victor	39.06,-86.58
-Victoria	39.05,-87.22
-Vienna	38.65,-85.77
-Vigo	39.29,-87.54
-Vilas	39.17,-86.84
-Village Mobile Home Park	41.55,-87.36
-Vincennes	38.68,-87.53
-Vine	40.30,-87.14
-Virgie	41.12,-87.18
-Vistula	41.75,-85.73
-Vivalia	39.68,-87.01
-Volga	38.78,-85.52
-Vollmer	38.55,-87.52
-Wa-Will-Away Park	41.29,-85.78
-Wabash	40.80,-85.82
-Wabash Shores	40.45,-86.91
-Waco	38.54,-87.04
-Wadena	40.69,-87.28
-Wadesville	38.10,-87.79
-Wagner Station	38.85,-87.23
-Wakarusa	41.54,-86.02
-Wake Robin Fields	41.62,-87.03
-Wakefield	38.79,-85.56
-Wakeland	39.47,-86.58
-Wakeville Village	41.46,-85.26
-Wald View	41.40,-87.35
-Waldron	39.45,-85.67
-Walesboro	39.15,-85.91
-Walker Park	41.33,-85.75
-Walkerton	41.47,-86.48
-Walkerville	39.53,-85.76
-Wallace	39.99,-87.15
-Wallace Junction	39.46,-86.73
-Wallen	41.16,-85.17
-Walnut	41.18,-86.21
-Walnut Corners	41.13,-85.50
-Walnut Gardens	40.70,-86.75
-Walnut Grove	40.16,-85.94
-Walnut Hills	39.95,-86.00
-Walnut Ridge	38.93,-85.56
-Walton	40.66,-86.24
-Wanamaker	39.70,-86.01
-Wanatah	41.43,-86.90
-Warren	40.68,-85.43
-Warren Hills	39.78,-86.00
-Warren Park	39.78,-86.05
-Warrenton	38.17,-87.53
-Warrington	39.91,-85.63
-Warsaw	41.24,-85.85
-Washington	38.66,-87.17
-Washington Center	41.33,-85.60
-Washington Place	39.78,-86.02
-Waterford	41.67,-86.85
-Waterford Mills	41.54,-85.83
-Waterloo	39.70,-85.10
-Waters Edge	39.57,-86.19
-Watson	38.35,-85.70
-Waugh	40.08,-86.31
-Waveland	39.88,-87.04
-Waverly	39.56,-86.27
-Waverly Woods	39.55,-86.27
-Wawaka	41.46,-85.48
-Wawasee	41.42,-85.70
-Wawasee Village	41.41,-85.75
-Wawpecong	40.58,-86.04
-Waycross	39.30,-86.34
-Waymansville	39.06,-86.04
-Wayne	39.89,-84.93
-Wayne Center	41.48,-85.25
-Waynedale	41.02,-85.18
-Waynesburg	39.21,-85.67
-Waynesville	39.12,-85.89
-Waynetown	40.09,-87.06
-Wayport	39.27,-86.52
-Weaver	40.47,-85.73
-Weaver Creek	39.99,-86.01
-Weaver Woods	39.99,-86.02
-Webers Landing	41.54,-85.39
-Webster	39.90,-84.95
-Weddleville	38.84,-86.22
-Wegan	38.83,-86.02
-Weisburg	39.22,-85.05
-Welborn Switch	38.01,-88.00
-Wellington	39.87,-86.14
-Wellington Heights	39.52,-85.76
-Wells	40.73,-86.11
-Wellsboro	41.50,-86.77
-Wellsburg	40.67,-85.22
-Wesley	40.07,-87.01
-Wesley Manor	40.30,-86.51
-West Atherton	39.61,-87.37
-West Baden Springs	38.57,-86.61
-West Brook Downs	39.21,-86.60
-West Clinton	39.69,-87.53
-West College Corner	39.57,-84.82
-West Dana	39.80,-87.52
-West Elwood	40.28,-85.86
-West Fork	38.23,-86.53
-West Franklin	37.90,-87.71
-West Grove	39.85,-85.01
-West Harrison	39.26,-84.82
-West Lafayette	40.43,-86.91
-West Lebanon	40.27,-87.39
-West Liberty	40.43,-85.89
-West Melcher	39.79,-87.35
-West Middleton	40.44,-86.22
-West Muncie	40.17,-85.48
-West New Goshen	39.57,-87.48
-West Newton	39.65,-86.28
-West Noblesville	40.05,-86.02
-West Overlook	39.17,-86.25
-West Petersburg	38.49,-87.29
-West Terre Haute	39.47,-87.45
-West Union	39.84,-87.34
-West Whiteland	39.55,-86.09
-Westchester	41.03,-85.13
-Westchester Estates	39.90,-86.21
-Western Acres	41.60,-87.08
-Western Village	40.11,-85.72
-Westfield	40.04,-86.13
-Westhill	41.46,-87.10
-Westland	39.75,-85.69
-Westlawn	41.08,-85.23
-Westmoor	41.07,-85.21
-Westover	39.90,-86.23
-Westphalia	38.86,-87.23
-Westpoint	40.35,-87.04
-Westport	39.18,-85.57
-Westside	39.06,-84.91
-Westview	41.59,-85.18
-Westville	41.54,-86.90
-Westwood	39.92,-85.42
-Westwood Square	40.56,-85.69
-Wheatfield	41.19,-87.06
-Wheatland	38.66,-87.31
-Wheatonville	38.19,-87.46
-Wheeler	41.51,-87.18
-Wheeling	38.41,-87.46
-Whispering Sands Mobile Home Court	41.55,-87.07
-Whitaker	39.38,-86.61
-Whitcomb	39.45,-84.94
-Whitcomb Heights	39.49,-87.45
-White Cloud	38.23,-86.22
-White Horse Rapids	39.94,-86.06
-White River	38.39,-87.75
-White Rose	39.03,-87.22
-White Sulphur Springs	38.39,-87.09
-Whitehall	39.17,-86.68
-Whiteland	39.55,-86.08
-Whiteoak	38.41,-87.15
-Whitestown	40.00,-86.35
-Whitesville	39.97,-86.83
-Whitewater	39.94,-84.83
-Whitfield	38.62,-86.91
-Whiting	41.68,-87.49
-Wickliffe	38.37,-86.64
-Wickville	39.60,-87.14
-Wilbur	39.52,-86.49
-Wilders	41.27,-86.90
-Wildwood	41.59,-85.19
-Wildwood Estates	39.95,-86.05
-Wilfred	39.19,-87.35
-Wilkinson	39.89,-85.61
-Williams	38.80,-86.65
-Williams Creek	39.90,-86.15
-Williamsburg	39.95,-85.00
-Williamsburg Manor	41.45,-87.02
-Williamsport	40.29,-87.29
-Williamstown	39.45,-85.47
-Willis	38.55,-87.36
-Willisville	38.45,-87.30
-Willow Branch	39.88,-85.68
-Willow Creek	41.59,-87.18
-Willow Lakes	39.58,-86.18
-Willow Valley	38.69,-86.72
-Willowbrook Estates	39.48,-86.36
-Wilmington	39.06,-84.95
-Wilmot	41.31,-85.64
-Wilshire	40.28,-86.49
-Wilson	38.44,-85.83
-Wilson Corner	39.44,-85.76
-Winamac	41.05,-86.60
-Winchester	40.17,-84.98
-Windemere	39.94,-86.20
-Windermere Pointe	39.94,-85.97
-Windermere Villas	39.94,-85.97
-Windfall	40.36,-85.96
-Winding Creek	39.97,-86.02
-Windjammer	39.93,-85.97
-Windom	38.57,-86.80
-Windsor	40.15,-85.21
-Winfield	41.41,-87.28
-Wingate	40.17,-87.07
-Winona	41.24,-86.57
-Winona Lake	41.23,-85.82
-Winslow	38.38,-87.21
-Winthrop	40.37,-87.23
-Wirt	38.81,-85.45
-Wirt Station	38.81,-85.44
-Wiser	39.61,-86.29
-Witmer Manor	41.54,-85.39
-Witts Station	39.71,-84.86
-Wolcott	40.76,-87.04
-Wolcottville	41.53,-85.37
-Wolff	39.43,-86.40
-Wolfington	39.83,-86.22
-Wolflake	41.34,-85.50
-Woodburn	41.13,-84.85
-Woodbury	39.91,-85.89
-Woodcrest	39.44,-86.39
-Wooded Hills Mobile Home Park	39.44,-86.46
-Woodfield (subdivision)	39.99,-86.08
-Woodgate	39.38,-87.39
-Woodland	41.56,-86.18
-Woodland Hills	41.65,-85.43
-Woodland Park	40.20,-85.31
-Woodland Stream	39.56,-86.18
-Woodland Village	41.59,-87.19
-Woodlawn Grove	38.58,-86.46
-Woodlawn Heights	40.12,-85.69
-Woodmar	41.59,-87.49
-Woodruff	41.57,-85.33
-Woodruff Place	39.78,-86.13
-Woods Edge	39.94,-85.99
-Woodside Park	40.29,-86.53
-Woodstock	39.83,-86.18
-Woodville	39.92,-85.54
-Woodville Hills	39.15,-86.38
-Wooley Corner	40.01,-87.17
-Wooster	38.74,-85.69
-Worthington	39.13,-86.98
-Wrights Corner	39.14,-84.96
-Wyandot	40.35,-86.75
-Wyandotte	38.23,-86.29
-Wyatt	41.53,-86.17
-Wynbrooke	39.80,-86.34
-Wynnedale	39.83,-86.20
-Yankee Town	39.70,-84.99
-Yankeetown	37.92,-87.30
-Yeagers Curve	40.70,-87.44
-Yeddo	40.01,-87.26
-Yellow Bank	39.44,-85.07
-Yellowbanks	41.32,-85.68
-Yellowstone	39.00,-86.34
-Yenne	38.55,-86.79
-Yeoman	40.67,-86.72
-Yockey	38.79,-86.49
-Yoder	40.93,-85.18
-York	41.69,-84.82
-Yorktown	40.17,-85.49
-Yorkville	39.20,-84.97
-Young	39.61,-86.34
-Young America	40.57,-86.35
-Youngs Corner	39.35,-85.06
-Youngs Creek	38.48,-86.50
-Youngstown	39.36,-87.38
-Yountsville	40.02,-86.98
-Zanesville	40.92,-85.28
-Zeigler	41.70,-86.43
-Zelma	38.93,-86.30
-Zenas	39.12,-85.47
-Zionsville	39.95,-86.26
-Zoar	38.27,-87.07
-Zulu	41.04,-84.89
+0Aaron	389,-851
+1berdeen	389,-850
+2ington	397,-850
+2oite	410,-853
+2ydel	386,-866
+1cademie	412,-852
+2me	390,-861
+2ton	397,-860
+1dams	394,-856
+5 Mill	405,-865
+5boro	408,-863
+2e	409,-874
+3l	392,-868
+2vance	400,-866
+2yeville	382,-868
+1etna	416,-873
+1frica	378,-871
+1insworth	415,-873
+2x	410,-872
+1kron	410,-860
+1l-Mar	395,-862
+2amo	400,-871
+3ska	395,-866
+2bany	403,-852
+3ion	387,-857
+2dine	412,-867
+2ert	392,-857
+3xandria	403,-857
+2font	400,-858
+4rd	385,-872
+6sville	386,-870
+2giers	385,-872
+2ida	415,-869
+2len	412,-852
+5 Crossing	391,-853
+5dale	394,-874
+5s Acres	400,-863
+6ville	389,-850
+3iance	400,-856
+4sonville	399,-861
+3man	396,-864
+2ma Lake	396,-870
+2pine	396,-852
+2quina	396,-850
+2ta	398,-874
+4mont Switch	404,-869
+3o	404,-862
+4n	381,-864
+5a	414,-852
+2varado	416,-848
+1mbia	405,-875
+3ler	417,-868
+3oy	406,-859
+2erica	407,-857
+6us	405,-868
+3s	400,-869
+2ity	394,-860
+2o	397,-866
+1nderson	401,-857
+8 Mobile Home Park	416,-874
+8ville	395,-853
+3rews	409,-856
+4y	417,-868
+2gola	416,-850
+2ita	394,-862
+2nandale Estates	392,-863
+4polis	398,-872
+2oka	407,-863
+2sley Acres	411,-852
+2thony	403,-854
+7 Wayne Village	410,-851
+3ioch	389,-849
+7 Grange	387,-855
+4ville	405,-850
+1palona	382,-866
+2ple Valley Estates	413,-873
+1rabia	398,-873
+2ba	400,-849
+3orview Mobile Home Park	398,-863
+2cadia	402,-860
+4na	405,-855
+3ola	411,-853
+3tic Springs	383,-857
+2da	385,-872
+3more	417,-863
+2gos	412,-862
+2i	413,-852
+2lington	392,-866
+2miesburg	398,-874
+3strong	381,-876
+2ney	392,-869
+2oma	402,-859
+2rowhead Park	413,-858
+2t	394,-872
+3hur	383,-872
+3ic	415,-848
+4st Point	382,-864
+1sh Grove	406,-868
+4Iron Springs	380,-872
+3boro	394,-871
+4y Yards	385,-873
+3erville	395,-871
+3land	399,-853
+4ey	415,-851
+3wood	400,-860
+2phaltum	411,-870
+1thens	410,-861
+4rton	396,-874
+2kinson	406,-872
+8ville	394,-869
+2lanta	402,-860
+2tica	403,-872
+2wood	413,-860
+1uburn	414,-851
+6 Junction	414,-851
+7Trace	396,-862
+2gusta	399,-862
+2ltshire	402,-854
+2rora	391,-849
+2stin	388,-858
+6 Oaks	400,-862
+1valon	410,-852
+6 Hills	399,-861
+2enue Mobile Home Park	415,-874
+3ry	403,-864
+2illa	414,-852
+2oca	389,-866
+3n	398,-864
+4burg	389,-852
+1ylesworth	402,-872
+2rshire	384,-872
+1zalia	391,-858
+0Babcock	416,-871
+2con	384,-864
+2dger Grove	406,-870
+2ileys Corner	411,-870
+3nbridge	398,-868
+4ter Town	415,-858
+2ker	391,-873
+5s Corner	401,-861
+5town	414,-854
+2lbec	405,-852
+3d Knobs	390,-862
+4ridge	392,-874
+4win Heights	383,-876
+3lstown	392,-852
+2ndmill	385,-876
+4on	381,-866
+3ner Mills	399,-871
+4ing Corner	404,-872
+3quo	407,-856
+3ta	395,-862
+2r-Barry Heights	405,-869
+3bee	413,-857
+5rsville	389,-853
+3ce	406,-873
+3gersville	395,-862
+3nard	398,-867
+4hart Town	395,-874
+3rett	382,-879
+4ick Corner	393,-871
+5ngton Ridge	400,-860
+3tle	386,-859
+6ttsville	390,-864
+4onia	401,-848
+6s Location	385,-873
+2scom Corner	389,-850
+3s Lake	412,-866
+5Station	412,-866
+2tesville	393,-852
+3h	395,-849
+3tle Ground	405,-868
+2ugh City	380,-874
+2yfield	413,-857
+1eal	386,-876
+3mer	394,-869
+3nblossom	393,-862
+3r Branch	389,-851
+5Wallow	393,-864
+4d	404,-864
+5stown	411,-866
+3trice	414,-872
+4tys Corner	416,-869
+4ys Beach	417,-856
+3ver City	409,-874
+7Dam	411,-860
+2cks Grove	391,-861
+6Mill	385,-862
+4ville	400,-867
+2dford	389,-865
+2e Ridge	395,-872
+3ch Brook	396,-858
+6Grove	397,-861
+5wood	382,-864
+3hunter	390,-871
+3sons	397,-851
+2hlmer Corner	392,-852
+2lknap	380,-877
+3l Center	409,-866
+5Rohr Park	413,-858
+4e Arbor	397,-860
+6Union	396,-867
+5view	389,-854
+7lle	397,-865
+4fountain	404,-849
+4more	398,-871
+3mont	399,-854
+3shaw	413,-874
+2n Davis	398,-863
+3efiel Corner	391,-874
+3gal	395,-859
+3ham	390,-852
+3netts Switch	406,-861
+8ville	384,-858
+4ington	389,-851
+3ton	415,-858
+6 House	398,-861
+6ville	398,-852
+3wood	396,-871
+2rkley Ridge	399,-860
+3lien	416,-849
+3ne	407,-850
+2thany	392,-861
+4el	400,-848
+6 Village	392,-859
+5van	405,-856
+4lehem	385,-854
+3ween-The-Lakes Park	413,-857
+2verly Hill	416,-870
+8Shores	417,-870
+1icknell	388,-873
+2g Four Yard	398,-864
+4Hill	410,-862
+4Springs	401,-863
+2llie Creek Village	398,-872
+5ngsville	396,-849
+4town	395,-872
+4ville	395,-871
+2ppus	409,-856
+2rchim	417,-866
+3dseye	383,-867
+3mingham	409,-861
+1lack Oak	387,-871
+6Point	414,-857
+6Rock	404,-871
+5hawk	393,-873
+9 Beach	415,-870
+5iston Mill	383,-858
+;Village	383,-858
+3ine	404,-851
+4rsville	381,-878
+3kesburg	398,-869
+3nford	397,-875
+2ocher	387,-857
+3ods Wood Crossing	385,-876
+4mer	401,-858
+5field	390,-869
+5ing Grove	395,-851
+8dale	398,-872
+8port	400,-850
+8ton	392,-865
+5s Eddy (historical)	383,-858
+3untsville	401,-852
+2ue	389,-850
+4 Lick	385,-858
+5Ridge	395,-856
+7ver	385,-859
+4cast	412,-849
+4stone	400,-860
+3ff Acres	396,-862
+6Creek	396,-862
+6Point	404,-850
+5s	396,-862
+5ton	407,-852
+1oard Park	396,-867
+2btown	390,-860
+2ggstown	396,-859
+3le Corner	392,-872
+2livar	410,-858
+2nds	387,-866
+3figlio's Mobile Home Park	416,-875
+3nell	392,-850
+5yville Mills	417,-858
+3o	387,-863
+2one Grove	414,-871
+4ville	380,-873
+2rden	385,-860
+2ston	397,-848
+6 Corner	410,-849
+3well	405,-874
+2undary City	403,-849
+3rbon	413,-861
+2wers	402,-867
+6town	409,-854
+3ling Green	394,-870
+3man	385,-874
+6 Acres	398,-858
+2xley	402,-862
+2yd	397,-856
+3leston	403,-864
+1racken	410,-856
+3dfield Corner	397,-873
+5ord	384,-861
+8 Court	400,-859
+3mble	388,-869
+3nchville	382,-866
+3xtons Siding	386,-865
+3ysville	393,-849
+4town	387,-852
+3zil	395,-871
+2eakwater	400,-859
+3ckenridge	382,-860
+3ezy Point	407,-868
+3men	414,-862
+5rton Mobile Home Park	415,-874
+4s	413,-867
+3ndan Wood	401,-865
+5onwood	399,-861
+4t Woods	395,-858
+5ridge	396,-862
+5wood	401,-857
+3tzville	383,-869
+3wersville	391,-856
+2iarwood	396,-865
+3ce	404,-849
+4k Chapel	397,-869
+3dgeport	382,-859
+6ton	396,-872
+6water	399,-860
+4lebourne	400,-862
+3erwood Hills	411,-852
+3ggs	411,-855
+4ht	392,-849
+6on	417,-853
+3mfield	414,-854
+4stone Corners	387,-863
+3nghurst	405,-865
+3sco	404,-874
+4tol	417,-858
+6w	381,-867
+3tton Ridge	400,-860
+2oad Park	396,-867
+6Ripple	399,-861
+5moor	398,-862
+5view	391,-865
+3ckton Manor	396,-862
+3mer	386,-863
+3ok	409,-874
+5field	396,-859
+5haven	405,-856
+5lyn	395,-864
+8 Heights	398,-862
+5moor	396,-864
+5s	399,-859
+6 Crossing	399,-860
+6burg	387,-852
+6ide Estates	412,-851
+6ton	406,-869
+9 Place	399,-860
+9e Park of Carmel	400,-862
+5ville	394,-850
+: Heights	397,-859
+4m Hill	384,-859
+3wn Jug Corner	393,-873
+5s Corner	408,-854
+8rossing	394,-865
+7Valley	399,-870
+6burg	398,-864
+6town	384,-865
+6ville	397,-850
+2uce Lake Station	411,-864
+5ville	388,-874
+3mmitt Acres	416,-870
+3nerstown	396,-870
+4swick	392,-871
+3shy Prairie	416,-852
+2yant	405,-850
+6sburg	389,-854
+7ville	388,-866
+1uchanan	382,-859
+8 Corner	392,-872
+3k Creek	405,-868
+4eye	407,-854
+4s Creek	399,-860
+5kin	382,-874
+4town	390,-873
+2d	394,-862
+3dha	388,-864
+2ena Vista	394,-853
+5vista	390,-867
+2ffalo	390,-849
+7ville	381,-870
+4ington	416,-874
+3kin	380,-878
+2llocktown	380,-872
+2nker Hill	396,-864
+2rberry Place	400,-860
+3dick	416,-870
+3ge Terrace	397,-860
+3ket	412,-860
+3lington	405,-864
+: Beach	415,-870
+3nett	395,-873
+7sville	408,-866
+5y	393,-856
+4s City	388,-869
+6Harbor	416,-871
+5ville	392,-857
+3r Oak	413,-854
+4ows	407,-865
+2shrod	390,-871
+3seron	388,-874
+2tler	414,-849
+6 Center	413,-851
+6ville	390,-855
+3termilk Point	414,-857
+1yrneville	383,-860
+3on	399,-871
+0C and C Beach	407,-868
+1aborn	380,-878
+2diz	400,-855
+2gle Mill	395,-869
+2iro	405,-869
+2lcutta	396,-871
+3e	388,-868
+3vertville	391,-869
+2mbria	404,-866
+6dge City	398,-852
+4y	397,-863
+3den	406,-865
+3elot Manor Estates	416,-872
+3mack	402,-855
+3p Brosend	380,-874
+5Flat Rock	394,-858
+5Roberts	392,-862
+5Shor	390,-848
+4bell Corner	391,-874
+8sburg	386,-863
+8town	384,-872
+2naan	389,-853
+3dleglo Village	396,-858
+3nelburg	387,-870
+6ton	379,-867
+3taloupe	385,-875
+4on	386,-860
+2pe Sandy	382,-864
+4hart	388,-872
+2rbon	396,-871
+6dale	404,-874
+3donia	396,-871
+3efree	382,-864
+8 Estates	399,-860
+3lisle	390,-874
+4os	400,-850
+3mel	400,-861
+3p	394,-868
+4entersville	398,-868
+3riage Estates	397,-859
+4ollton	397,-858
+3tersburg	397,-865
+4hage	397,-856
+3wood	384,-859
+3y	397,-868
+2scade	392,-865
+3s	391,-873
+4ville	406,-861
+3tle Garden	380,-874
+6ton	399,-860
+2taract	394,-868
+3es	400,-873
+3lin	397,-872
+3o	384,-872
+2yuga	400,-875
+1edar	413,-852
+5 Canyons	412,-851
+7ove	399,-861
+6Farm Landing	380,-861
+6Grove	394,-849
+6Hills	396,-862
+6Lake	414,-874
+: Mobile Home Park	414,-874
+6Point	414,-857
+6Shores	412,-851
+5ville	412,-850
+2lestine	384,-868
+3ina	382,-866
+2mentville	384,-858
+2ntenary	397,-875
+6nial	400,-872
+5r	380,-873
+6 Point	394,-871
+7Square	388,-850
+7Valley	396,-865
+6ton	395,-864
+6ville	380,-871
+4ral	381,-862
+7 Barren	384,-861
+2ylon	406,-850
+1hain-O-Lakes	417,-864
+3lmers	407,-869
+3mbersburg	385,-864
+4plin Meadows	394,-864
+3ndler	380,-874
+3pel Hill	398,-863
+7Manor	415,-873
+3r-el Mobile Home Park	416,-874
+4le Sumac Estates	397,-860
+6smac Village	397,-860
+7ton Crossing	400,-860
+9wn	384,-857
+5ottesville	395,-848
+3se	405,-873
+3teau Court	400,-860
+4terton	404,-872
+2elsea	386,-855
+3rry Grove	401,-869
+7Hill Farms	400,-860
+6vale	395,-872
+3ster	399,-849
+7field	401,-856
+7ton	399,-861
+7ville	391,-850
+5nut Hill	385,-859
+9Ridge	389,-859
+3twynd	394,-863
+2ili	409,-860
+3na	388,-853
+2risney	380,-870
+5tiansburg	391,-862
+2urubusco	412,-853
+1icero	401,-860
+2ncinnati	390,-867
+2rcle Mobile Home Park	416,-873
+7Park	416,-849
+6ville	396,-854
+1lanricarde	413,-870
+3re	401,-860
+4k Siding	385,-857
+5e Junction	416,-874
+5s	411,-869
+6 Hill	402,-867
+7Landing	416,-849
+6burg	394,-854
+6dale	392,-861
+6ville	383,-858
+3y City	393,-871
+4pool	411,-859
+4sville	386,-863
+4ton	397,-865
+2ear Creek	391,-865
+6Lake	417,-848
+6Spring	389,-862
+5view	396,-862
+3rmont	398,-863
+8 Heights	398,-863
+9Mobile Home Park	398,-863
+3veland	398,-856
+2ifford	393,-859
+4ton	398,-862
+3nton	392,-851
+7 Falls	397,-870
+2over Village	396,-859
+6dale	395,-868
+6land	395,-872
+2unette	413,-859
+2ymers	407,-864
+1oal Bluff	396,-872
+5City	392,-870
+6reek	400,-874
+4mont	392,-872
+3tesville	397,-867
+4s Spring	384,-874
+2bb	396,-872
+4s Corner	414,-871
+3urg	415,-870
+2chran	390,-849
+2e	383,-873
+3sse	411,-854
+6 Corners	411,-854
+2field Corner	390,-850
+2ke Oven Hollow	398,-873
+2lburn	416,-863
+3d Springs	391,-851
+3e	405,-858
+3fax	402,-867
+6 Mobile Home Park	416,-874
+3lamer	411,-857
+4ege Corner	398,-851
+9rest	399,-862
+8Meadows	399,-861
+7ville	409,-872
+5tt	404,-850
+4ingwood	399,-860
+6s	412,-854
+3oma	398,-873
+4nial Mobile Home Park	416,-874
+9Village	399,-858
+3umbia	396,-852
+8 Center	416,-875
+:ity	412,-855
+6us	392,-859
+2mmiskey	389,-856
+3o	404,-851
+2ncord	413,-850
+7ia Gardens	412,-851
+3ner Creek	400,-860
+7Knoll	400,-860
+6sville	396,-851
+6wood	400,-860
+3ologue	390,-858
+3rad	411,-874
+3verse	404,-852
+2ok	414,-875
+3lwood Acres	415,-871
+3per Corner	399,-858
+2pe	394,-863
+3pess Corner	408,-850
+2rdry Sweetwater Lakes	393,-861
+3kwell	405,-851
+3n Brook	392,-859
+4elius	393,-863
+5ttsville	388,-871
+4ing	386,-870
+3rect	390,-853
+3tland	390,-860
+3unna	414,-852
+3win	399,-853
+3y	394,-872
+4don	382,-861
+7 Junction	383,-861
+2sperville	415,-855
+2ttage Grove	396,-849
+8Hill	395,-872
+4ingham Estates	400,-860
+2untry Club Gardens	410,-852
+=Heights	401,-857
+=Meadows	380,-876
+8Manor Estates	396,-864
+8Squire Lakes	390,-857
+3rter	408,-861
+5ney Corner	416,-848
+2veyville	390,-865
+3ington	401,-874
+9 Dells	411,-852
+:Estates	399,-860
+2wan	401,-854
+2xton	388,-866
+3ville	396,-873
+1radick Corner	395,-868
+3ig	393,-855
+5ville	408,-851
+3ndall	383,-861
+4e	389,-869
+3wford	388,-864
+8sville	400,-869
+4leyville	383,-878
+2eekwood	399,-861
+3sco	412,-855
+4t Manor Addition	416,-862
+5lawn	401,-857
+5moor	395,-858
+5on	402,-854
+5view	414,-871
+9 Heights	396,-863
+5wood	411,-851
+3te	400,-849
+2isman	416,-872
+3tchfield	396,-862
+2ocker	416,-871
+3mpton Hill	397,-874
+4well	414,-856
+3oked Lake	417,-850
+3ss Plains	389,-852
+6Roads	393,-852
+5road Temple	398,-861
+5winds At Windermere	399,-860
+3thersville	388,-858
+3wn Center	396,-866
+6Point	414,-874
+4s Nest	399,-862
+2umb Corner	404,-869
+4stown	416,-864
+2ystal	385,-868
+1uba	394,-868
+2lver	412,-864
+2mback	386,-872
+4erland	398,-860
+: Ridge	399,-860
+;Woods	400,-860
+2not	395,-868
+2rby	383,-864
+3ryville	392,-874
+3tisville	403,-859
+2tler	405,-865
+2zco	385,-867
+1yclone	402,-864
+2nthiana	382,-877
+2press	379,-876
+0Dabney	391,-854
+2ggett	392,-870
+2isy Hill	385,-859
+2le	382,-870
+4ville	401,-856
+3ton	400,-852
+2na	398,-875
+3es	408,-863
+3ville	398,-865
+2rk Hollow	389,-865
+3lington	401,-868
+: Woods	401,-868
+3mstadt	381,-876
+3rough Chapel	405,-861
+2vidson	380,-860
+4s	417,-868
+3y	389,-876
+2wnbury	399,-861
+2ylight	381,-875
+3ton	404,-868
+3ville	380,-873
+1e Camp Gardens	417,-859
+3Gonia Springs	381,-872
+2Fries Landing	414,-858
+2Motte	412,-872
+2acon	406,-863
+3d Mans Crossing	380,-879
+2catur	408,-849
+3ker	385,-875
+6 Chapel	385,-875
+2edsville	409,-861
+3p River	415,-872
+3r Creek	406,-864
+5Mill	400,-871
+5Park	412,-872
+4field	403,-850
+4wood	396,-862
+2laware	392,-852
+8 Trails	399,-862
+3ong	411,-864
+3p	405,-868
+4hi	406,-867
+2ming	401,-861
+6 Park	395,-874
+7Woods	395,-874
+2nham	412,-867
+3mark	393,-870
+3ny Corner	399,-858
+3ver	409,-861
+2pauw	383,-862
+3uty	388,-856
+2rby	380,-865
+2soto	402,-853
+2uchars	382,-864
+2vonshire	399,-861
+4re	394,-868
+6 Place	399,-860
+2wberry	390,-852
+3ey	395,-874
+2xter	381,-865
+1iamond	396,-872
+2ckeyville	382,-872
+2llman	406,-854
+4sboro	390,-851
+9 Station	390,-850
+2nwiddie	413,-873
+2sko	410,-859
+2xie	382,-862
+3on	391,-870
+1oans	389,-868
+2dd	379,-866
+4s Bridge	392,-875
+2gwood	381,-861
+2lan	392,-865
+2mestic	406,-851
+2naldson	414,-864
+9ville	395,-871
+3gola	384,-873
+3s Mobile Home Park	416,-872
+2olittle Mills	382,-866
+3r Village	416,-868
+3ville	406,-856
+2uglas	383,-875
+2ver	392,-850
+5 Hill	387,-868
+2wney Corner	389,-850
+6ville	394,-856
+2yle	408,-861
+5 Ferguson	406,-855
+1reamwold Heights	418,-862
+3w	402,-854
+4ersburg	393,-848
+3xel Gardens	397,-862
+2iftwood Hills	399,-861
+1uane Yards	395,-874
+2blin	398,-852
+3ois	384,-868
+6 Crossroads	385,-868
+2dleytown	388,-859
+2ff	383,-870
+2gger	391,-873
+2ncan	383,-859
+3dee	403,-858
+3e Acres	416,-871
+: Station	416,-871
+4land Beach	418,-868
+9Village	416,-873
+@ of Gary	416,-873
+3fee	411,-853
+3kirk	408,-864
+3lap	416,-859
+6sville	396,-850
+3n	406,-875
+4 Mill	412,-852
+4ington	406,-875
+4s Bridge	412,-870
+3reith	398,-854
+2pont	389,-855
+2rbin	401,-859
+3ham	383,-876
+1wenger Field	411,-851
+1yer	415,-875
+0Eagle Point	413,-857
+6Trace	396,-862
+6Village	400,-862
+5town	400,-862
+5wood Estates	400,-863
+2mes	381,-871
+2rl Park	407,-874
+4e	381,-875
+4y Station	398,-874
+2st Chicago	416,-874
+6olumbus	392,-859
+5Enterprise	389,-850
+5Germantown	398,-851
+6lenn	395,-873
+5Haven	398,-849
+5Lake Estates	417,-859
+6iberty	409,-849
+5Monticello	408,-868
+7unt Carmel	384,-877
+5Oolitic	389,-865
+5Park	403,-865
+5Shelburn	392,-874
+5Union	402,-861
+4ern Heights	392,-865
+4gate	399,-858
+4land Gardens	410,-851
+4point Terminal	417,-848
+4witch	404,-868
+3ytown	396,-875
+2ton	403,-854
+1by	381,-873
+1cho Crest	400,-861
+5Lake Mobile Home Community	396,-864
+2kerty	383,-866
+2onomy	400,-851
+1ddy	415,-854
+2en	399,-858
+2gerton	411,-848
+4water	415,-870
+5ood	397,-861
+8 Lake	396,-868
+9Village	401,-858
+2inburgh	394,-860
+2na Mills	404,-867
+2wardsport	388,-872
+7ville	383,-859
+1el River	393,-871
+1ffner	408,-875
+1gans Point	413,-854
+2e	413,-853
+2g Harbor	382,-878
+2ypt	409,-872
+1hrmandale	395,-872
+1kin	402,-862
+1l Dorado	396,-862
+2berfeld	382,-874
+2izabeth	381,-860
+9town	391,-858
+5ville	401,-864
+2k	394,-864
+3hart	417,-860
+3insville	391,-863
+2ler Commons	399,-861
+6Run	399,-861
+6Trails	399,-861
+4ttsville	392,-866
+3iott	381,-875
+4s	391,-872
+5on	410,-853
+5ton	390,-870
+5ville	410,-853
+3sworth	384,-867
+2m Tree Crossroads	408,-850
+3dale	401,-870
+3hurst	401,-857
+3ira	416,-852
+3wood	401,-865
+2nora	389,-871
+2rod	390,-852
+2ston	404,-869
+2wood	403,-858
+3ren	391,-867
+1minence	395,-866
+3son	388,-875
+2ma	416,-855
+2poria	400,-856
+1nchanted Hills	414,-857
+2glewood	388,-865
+4ish	383,-865
+7 Lake	413,-868
+2ochsburg	393,-853
+3s	410,-874
+4 Corner	383,-873
+2terprise	378,-872
+1psom	388,-871
+2worth Forest	413,-857
+1rie	389,-864
+2skine Station	380,-875
+2win	380,-879
+1thel	384,-865
+2na	413,-856
+4 Green	413,-860
+1ugene	400,-875
+2reka	379,-872
+1vans Landing	380,-860
+5ton	380,-868
+5ville	380,-876
+2erroad Park	392,-859
+4ton	396,-851
+1wing	389,-861
+5ton	393,-856
+1xchange	395,-863
+2tension Heights	401,-857
+0Fair Acres	386,-861
+5Oaks	411,-873
+4banks	392,-875
+4dale	383,-862
+4fax	390,-865
+5ield	395,-850
+9 Center	415,-851
+:Heights	398,-864
+4land	396,-859
+4mount	404,-856
+4view	397,-853
+8 Park	397,-874
+9Station	398,-862
+4wood Hills	399,-860
+2ll Creek Highland	399,-860
+3mouth	397,-853
+2rabee	386,-860
+3go	384,-865
+3len	388,-869
+5ys Addition	398,-863
+3mers	392,-869
+7 Retreat	390,-851
+7burg	392,-874
+7ville	380,-879
+4ington	396,-854
+4land	402,-851
+3rville	406,-855
+2wnbrook Woods	400,-860
+2yette	399,-864
+7ville	389,-866
+3ne Siding	400,-854
+1ederal Hill	400,-860
+2nn Haven	379,-868
+4s	395,-858
+2rdinand	382,-869
+3guson Hill	395,-875
+3ndale	397,-871
+2well Rhoades	394,-864
+1iat	406,-852
+2ckle	403,-867
+2elds	396,-863
+2llmore	397,-868
+2ncastle	398,-869
+2sh Lake	416,-866
+4ers	400,-860
+7burg	401,-859
+6ville	381,-874
+4town	381,-859
+3kville	400,-869
+2ve Points	388,-855
+; Corner	413,-870
+1lackville	398,-862
+3t Iron	400,-875
+5Rock	394,-858
+9 Park	392,-859
+3x	406,-865
+2eener	393,-864
+3ming	390,-858
+3tcher	409,-863
+2int	416,-851
+2ora	407,-861
+4ence	388,-849
+4ida	402,-857
+3yds Knobs	383,-859
+1oley	400,-854
+3somville	381,-872
+2ntanet	396,-872
+2raker	415,-859
+3esman	405,-872
+5t	404,-863
+6 City	412,-873
+7Glen	413,-858
+7Hill	393,-856
+;s	401,-857
+7Knoll	400,-859
+7Oaks	416,-871
+7Park	392,-859
+; Heights	392,-866
+7Ridge	410,-853
+3t Branch	382,-876
+5Ritner	388,-863
+5Wayne	411,-851
+4ville	399,-858
+4yone Ranch Mobile Home Park	414,-875
+2ster	402,-875
+6s Ridge	382,-867
+2untain	402,-873
+8 City	400,-849
+9Park	408,-872
+8town	397,-858
+3r Corners	390,-857
+5J's Mobile Home Park	396,-864
+5Presidents Corners	410,-848
+2wler	406,-873
+6ton	404,-856
+2x	406,-857
+3 Hill	396,-863
+5ollow	399,-863
+4Lake	416,-850
+4Ridge	396,-868
+3berry Trace	396,-862
+1rakers Mobile Home Court	394,-864
+3nces	396,-862
+7ville	410,-869
+5isco	383,-874
+4kfort	403,-865
+5lin	400,-852
+5ton	402,-858
+2edericksburg	384,-862
+4onia	382,-864
+3e	406,-875
+4dom	392,-869
+4land Park	406,-875
+8ville	389,-873
+4man	392,-867
+4port	397,-857
+4town	390,-861
+3mont	417,-849
+3nch Lick	386,-866
+6town	383,-862
+2iendly Corner	406,-855
+6ship	390,-852
+7wood	396,-863
+3tchton	387,-874
+4z Corner	383,-872
+2uitdale	393,-863
+1ulda	381,-868
+3ton	410,-863
+2rnace	390,-869
+4essville	416,-870
+0Gadsden	400,-864
+2lader Station	397,-860
+3e	398,-865
+4na	384,-859
+3veston	406,-862
+2mbill	390,-873
+2rden Acres	391,-866
+7City	392,-859
+7Village	417,-859
+3field	401,-868
+3rett	414,-851
+3y	416,-874
+4ton	416,-872
+2s City	405,-856
+4Lite Mobile Home Park	413,-872
+3burg	396,-864
+3ton	403,-855
+2tchel	380,-866
+3es Corner	401,-852
+5ville	393,-862
+4wood	400,-860
+2ynorsville	392,-855
+1eetingsville	404,-865
+2ist Woods	399,-860
+2m	398,-859
+2neva	394,-857
+3tle Manor Estates	414,-874
+4ryville	381,-870
+2orgetown	383,-860
+5ia	387,-866
+2rald	380,-866
+3mantown	399,-859
+6y	385,-855
+3ry Park	416,-874
+2ssie	401,-875
+1ibson	416,-875
+2fford	411,-870
+2lead	410,-860
+3man	402,-856
+4er Park	416,-862
+4our	391,-872
+2mco City	403,-857
+2ngrich Addition	407,-868
+4s	397,-854
+2ro	385,-875
+1ladens Corner	403,-868
+2en Abbey At Windermere	399,-860
+6yre	395,-873
+5Cliff	403,-872
+5Eden	417,-850
+5Park	415,-873
+4dale	386,-871
+8 Heights	399,-861
+5ora	391,-874
+4hall	404,-870
+4n Ayr	395,-873
+5s Valley	396,-862
+4view Mobile Home Park	416,-874
+4wood	396,-853
+3zen	384,-873
+2idas	381,-862
+2yn Ellen	401,-856
+1naw Bone	392,-862
+1oblesville	410,-855
+2lden Acres	411,-851
+7Grove	396,-862
+7Hill	407,-868
+4smith	403,-862
+2odland	408,-873
+4wins Corner	396,-848
+3seport	387,-859
+2shen	387,-857
+3pel Grove	395,-873
+4ort	394,-867
+2wdy	395,-856
+1rabill	412,-850
+3fton	380,-880
+3ham	387,-872
+6 Valley	382,-873
+7Woods	416,-870
+3mmer	392,-857
+3ndview	399,-862
+9 Lake	392,-860
+4ge Corner	399,-872
+6r	418,-861
+4t City	399,-855
+5sburg	383,-865
+4ville	403,-853
+3ss Creek	410,-864
+3vel Beach	416,-852
+7Hill	406,-874
+6ton	414,-859
+3y Eagle	400,-859
+5Junction	383,-873
+4ford	390,-856
+4sville	383,-858
+2een Acres	415,-873
+6Center	413,-854
+6Hill	404,-871
+6Meadows	396,-859
+6Oak	410,-862
+6Valley	396,-861
+5briar	399,-862
+8er	385,-866
+5castle	396,-869
+5dale	391,-849
+5e	404,-851
+5field	398,-858
+: Mills	418,-852
+5leaf Manor	417,-859
+5s Fork	399,-850
+6boro	399,-855
+7urg	393,-855
+5town	405,-860
+5ville	384,-860
+5wood	396,-861
+2idley	401,-856
+3ffin	382,-879
+6th	415,-874
+3smore	415,-856
+4som Air Force Base	407,-862
+2oomsville	404,-862
+3veland	398,-867
+5rtown	414,-865
+1udgel	383,-874
+2ernsey	408,-868
+2ilford	392,-849
+3on	398,-871
+3se Park	411,-865
+2livoire Park	416,-862
+2rley Corner	389,-849
+7Landing	380,-860
+2thrie	390,-865
+2y	404,-860
+1wynneville	397,-856
+0Hacienda Village	411,-850
+3kleman	404,-858
+2dley	397,-866
+2gerstown	399,-852
+3lund	416,-871
+2ig Point	400,-860
+2leysbury	387,-862
+3l	396,-865
+4s Corners	412,-848
+2mburg	384,-858
+3ilton	403,-866
+8 Estates Mobile Home Park	400,-860
+9Hills	399,-860
+3let	416,-866
+3mond	416,-875
+2ncock Chapel	384,-862
+9orner	393,-868
+3dy	391,-865
+3ey Corner	389,-853
+3field	406,-856
+3ging Grove	409,-870
+4man Crossing	389,-859
+3na	414,-868
+3over	387,-855
+7 Beach	387,-854
+2ppy Hollow	380,-859
+< Heights	404,-869
+2rdingrove	379,-866
+6sburg	391,-848
+4scrabble	400,-858
+3lan	412,-849
+6sburg	408,-856
+4ey	405,-866
+6 Siding	406,-866
+3meson Heights	401,-857
+4ony	395,-871
+3per	392,-856
+3ris	414,-863
+6 City	393,-855
+6burg	397,-852
+6on	395,-874
+8 Green	400,-860
+9Lake	402,-872
+=s	400,-860
+9Park	400,-860
+9Woods	400,-860
+6town	386,-860
+6ville	402,-849
+4odsburg	390,-866
+3tford	390,-850
+8 City	404,-854
+4leyville	388,-865
+4sdale	415,-875
+5ville	393,-857
+4well	383,-872
+8 Junction	384,-871
+4zel	416,-852
+3vard Park	400,-861
+4eysburg	400,-873
+3wood	380,-876
+2shtown	390,-869
+3kell	415,-869
+3tings	414,-859
+2tfield	379,-872
+2ubstadt	382,-876
+2wthorn Hills	399,-860
+8e Hills	414,-874
+9s At The Crossing	399,-863
+4on	391,-873
+2yden	390,-857
+3sville	385,-869
+9 Corner	402,-848
+2zel College	400,-865
+5rigg	401,-866
+5wood	396,-865
+3leton	385,-875
+1eadlee	409,-867
+3th	405,-867
+5er Point	400,-859
+2bron	413,-872
+2drick	403,-875
+2ilman	382,-871
+2lmcrest	399,-858
+4er	415,-852
+4sburg	393,-863
+3tonville	389,-864
+2menway	382,-871
+3lock	404,-860
+2nderson	397,-855
+4ricks	396,-862
+9ville	391,-867
+3ry	398,-856
+5ville	385,-858
+2pburn	381,-878
+2rbamount	395,-866
+4st	405,-858
+3itage Green	399,-860
+9Lake	397,-867
+9Meadows	400,-860
+3r	400,-864
+2ssen Cassel	410,-851
+4ton	418,-867
+4ville	416,-875
+2usler	379,-877
+1i-View Addition	416,-862
+2bernia	385,-855
+2ck's Mobile Home Park	394,-864
+4ory Corner	393,-870
+8Island	393,-872
+8Knoll Mobile Home Park	397,-860
+8Ridge	383,-878
+8Woods	400,-860
+4s	417,-866
+2dden Hills	408,-861
+7Valley	392,-848
+2ghbank Town	385,-872
+8s	413,-857
+4ets Corner	393,-867
+4land	398,-874
+8 Center	393,-850
+9Springs	399,-859
+9Village	392,-866
+8s Park	413,-858
+4woods	398,-862
+2ldebrand Village	396,-858
+3lcrest	382,-861
+9 Manufactured Housing Community	416,-874
+:Terrace	380,-874
+4ham	385,-867
+4isburg	403,-863
+4sboro	400,-853
+9ugh	399,-860
+5dale	381,-876
+5ide	417,-866
+4town	388,-857
+2ndostan	387,-866
+9 Falls	386,-868
+4ustan	393,-865
+2rt Corner	395,-870
+2ser	398,-851
+2tchcock	386,-862
+1oagland	410,-850
+2bart	415,-873
+3bieville	390,-867
+4s	403,-860
+2ffman Crossing	394,-870
+2gtown	384,-863
+2laday Hills and Dales	399,-861
+3ida	399,-862
+3land	382,-870
+7sburg	398,-871
+3mesville	416,-869
+3ton	391,-854
+2me Corner	405,-856
+5Place	399,-861
+4croft	397,-861
+4r	396,-856
+4stead	391,-848
+2nduras	408,-850
+3ey Creek	400,-855
+5suckle Mobile Home Park	415,-874
+5ville	416,-856
+2oker Corner	404,-873
+3sier	391,-872
+7 Acres	392,-865
+7ville	395,-871
+3ver	408,-862
+6 Crest	399,-862
+7Mill	399,-851
+7Park	404,-854
+2pe	393,-858
+4ville	397,-850
+4well	395,-861
+2race	393,-856
+3izon Estates	396,-862
+3tonville	401,-862
+2uston	390,-862
+2vey	379,-879
+2ward	399,-874
+3e	417,-854
+4sville	392,-872
+1ubbard	417,-864
+4ell	392,-870
+7s Corner	392,-850
+3er	397,-851
+2dnut	397,-874
+3son	415,-851
+6 Lake	417,-865
+6ville	385,-871
+2ffman	381,-868
+2nter Corner	402,-872
+7Switch	392,-866
+6s Pointe	396,-862
+7ville	393,-852
+6town	412,-852
+4ingburg	383,-870
+7ton	409,-855
+4sville	400,-857
+2rlburt	414,-872
+3on	387,-867
+3sh	412,-850
+2tton	393,-875
+1yde Park	402,-853
+2mera	392,-873
+2ndsdale	394,-865
+0IXL Mobile Home Park	416,-874
+1daville	408,-866
+2eal Mobile Home Court	416,-874
+2lewold	400,-858
+1jamsville	410,-858
+1lene	389,-871
+2linoi	412,-875
+1mperial Hills	396,-861
+1ndependence	403,-872
+< Hill	415,-874
+3ian Creek Estates	397,-860
+=Settlement	387,-874
+7Heights	404,-861
+8ill	413,-867
+;s	416,-852
+7Lake	399,-860
+7Springs	388,-868
+7Village	410,-852
+6a Beach	408,-868
+8Harbor	416,-874
+7polis	398,-862
+6ola	416,-852
+4go Lake	400,-860
+2galls	400,-858
+7ton	397,-861
+3lefield	381,-876
+2verness	417,-851
+9 Estates	400,-860
+2wood	413,-862
+1ona	386,-875
+1reland	384,-870
+2ondale	401,-857
+4ton	387,-868
+2vington	398,-861
+1sland City	390,-872
+7Park	413,-858
+1va	385,-871
+3nhoe	398,-860
+2y Hills	399,-861
+0Jackson	391,-854
+7 Hill	392,-874
+7burg	398,-851
+7s	403,-861
+7ville	388,-850
+2dden	405,-855
+2lapa	406,-858
+2mestown	399,-866
+2nney	404,-855
+2rretts	381,-874
+2sonville	392,-872
+3per	384,-869
+2y City	406,-848
+1eff	406,-854
+4erson	403,-866
+9ville	383,-857
+2nkinsville	395,-869
+2richo	391,-873
+3ome	405,-859
+2ssup	397,-873
+2well Village	392,-858
+1imtown	383,-878
+1ockey	382,-872
+2hnsburg	382,-870
+5on	383,-878
+7ville	402,-875
+5town	392,-870
+2lietville	400,-862
+3leyville	390,-854
+2nesboro	405,-856
+5town	397,-875
+5ville	391,-859
+2ppa	396,-864
+2rdan	387,-872
+1udah	390,-865
+3son	398,-871
+3yville	404,-874
+2lietta	397,-860
+0Kalorama Park	413,-858
+2nata Manayunk	414,-857
+3kakee	415,-865
+3sas	393,-860
+2ppa Corner	405,-863
+2sson	380,-876
+1eller	394,-873
+6ville	385,-868
+2mpton	403,-862
+2ndallville	414,-853
+3nard	399,-855
+4edy	381,-869
+5th	408,-865
+3t	387,-855
+4land	408,-874
+4wood	403,-865
+2rcheval	381,-870
+3sey	412,-872
+2wanna	410,-864
+2ystone	406,-853
+8 Manor	398,-863
+3tsville	396,-870
+1iley	405,-857
+3more	404,-865
+2mmell	414,-856
+2nder	395,-862
+3g	383,-876
+4man	400,-873
+4s Mill	399,-862
+7obile Home Court	416,-874
+6Store	382,-861
+5borough	400,-862
+6ury	415,-867
+5ford Heights	415,-867
+5land	408,-852
+5ton	394,-854
+8 Estates	400,-860
+3sey	411,-857
+2rby	391,-866
+3klin	402,-864
+4patrick	402,-868
+4sville	390,-866
+3schs Corner	391,-849
+2tchel	397,-849
+3t	405,-850
+4erman Corners	382,-867
+1laasville	414,-875
+2emmes Corner	394,-850
+2ondike	405,-870
+5yke	398,-873
+1narr Corner	393,-854
+2ight Ridge	391,-864
+6hood Grove	396,-858
+;Village	396,-857
+6stown	398,-855
+7ville	395,-871
+3man	411,-871
+2ob Hill	380,-875
+3llton Heights	398,-862
+3x	398,-855
+1okomo	405,-861
+2leen	390,-868
+2ontz Lake	414,-865
+2ssuth	387,-861
+2uts	413,-870
+1ramer	403,-873
+3tzville	380,-876
+2eitzburg	414,-875
+2iete Corner	389,-858
+1urtz	390,-862
+1yana	383,-868
+2le	391,-850
+0La Crosse	413,-869
+3Fontaine	407,-857
+3Paz	415,-863
+6 Junction	415,-863
+4orte	416,-867
+2conia	380,-861
+3y	386,-868
+2doga	399,-868
+2fayette	404,-869
+2grange	416,-854
+4o	408,-857
+2ke Bruce	411,-865
+5Cicott	408,-865
+5Dalecarlia	413,-874
+5Eliza	414,-872
+5Grange	417,-858
+5Hart	396,-864
+6ills	415,-874
+6oliday	400,-870
+5James	417,-850
+5Mill	379,-871
+5Park	417,-866
+5Shores	410,-852
+6tation	416,-872
+5View	395,-852
+7llage	411,-874
+5Wood	406,-856
+5on the Green	391,-861
+4s of the Four Seasons	414,-872
+5ide	399,-863
+8 Green	399,-860
+9Park	412,-858
+4ton	410,-858
+4view	416,-852
+8 Spring	413,-857
+6lle	415,-863
+4wood	407,-868
+8 Hills	380,-875
+2limere	417,-867
+2mar	381,-869
+3b	387,-852
+3ong	401,-862
+2nam	392,-863
+3caster	388,-855
+9 Park	392,-866
+3dersdale	396,-863
+5ss	406,-856
+3esville	382,-860
+3goons	388,-859
+3tana Estate	395,-858
+4ern Crossing	399,-860
+8Farms	400,-860
+8Pines	399,-860
+2otto	413,-852
+2p Corner	394,-871
+3el	401,-858
+3land	399,-869
+2rimer Hill	395,-875
+3will	412,-856
+2ud	410,-854
+3er	379,-866
+3ghery Switch	392,-852
+8ville	392,-853
+3ra	411,-871
+4el	395,-852
+2veianan Court	394,-864
+2wrence	398,-860
+8burg	391,-848
+< Junction	391,-848
+8port	388,-864
+8ville	393,-850
+3ton	411,-865
+2yton	401,-873
+1eases Corner	409,-864
+3therwood	398,-873
+3venworth	382,-863
+2banon	400,-865
+2e	409,-870
+3sburg	413,-858
+4ville	388,-863
+2gendary Hills	399,-863
+2ipsic	387,-864
+3sure	404,-858
+3ters Ford	411,-864
+2na	396,-871
+4 Park	412,-867
+2o	412,-850
+3-Cedarville	412,-850
+3nard Springs	391,-866
+3pold	381,-866
+3ta	386,-858
+2roy	414,-873
+2tts	392,-856
+5 Corner	392,-856
+5ville	387,-872
+2vert	412,-853
+2wis	393,-873
+5 Creek	394,-858
+5burg	408,-862
+5ton	410,-870
+5ville	398,-854
+2xington	386,-856
+1iber	404,-850
+5al	380,-869
+5ty	396,-849
+7 Center	407,-853
+9orners	402,-853
+8Farm Mobile Home Park	416,-870
+8Hills	410,-853
+8Mills	410,-857
+8Park	414,-874
+7ville	396,-875
+2ggett	395,-875
+3onier	415,-856
+2lly Dale	380,-866
+2medale	396,-869
+2ncoln	406,-862
+7 City	381,-870
+8Hills	415,-871
+8Pioneer Village	379,-871
+8Village	415,-874
+7shire	410,-851
+7ville	408,-857
+3den	402,-869
+6wood	397,-862
+3kville	414,-863
+3n Grove	406,-850
+4sburg	400,-868
+3ton	390,-872
+3wood	402,-857
+2ppe	380,-878
+2sbon	414,-853
+2ttle Acre	390,-859
+7Charlie	408,-862
+7Point	396,-866
+7Rock	385,-877
+7Saint Louis	383,-862
+7York	387,-859
+6s	384,-873
+2verpool	416,-873
+3onia	386,-863
+2zton	399,-865
+1oafers Station	381,-871
+2chiel	407,-873
+3ke	415,-860
+4port	407,-866
+3ust Grove	398,-848
+7Point	382,-859
+2di	400,-874
+2g Cabin Crossroads	400,-867
+3an	392,-849
+5sport	408,-864
+2max	413,-869
+2ndon	396,-859
+6 Heights	396,-859
+3e Tree	391,-871
+3g Beach	417,-869
+5Lake Island	415,-870
+5Run	388,-851
+4view Beach	384,-856
+4wood Crossing	397,-852
+2ogootee	387,-869
+3kout	392,-852
+2rane	412,-856
+3ee	406,-861
+2santville	400,-852
+3t River	386,-864
+2ttaville	415,-874
+4ick Corner	382,-859
+3us	396,-849
+2vett	389,-856
+2well	413,-874
+4r Sunset Park	407,-868
+3man Corner	411,-860
+6dale	401,-857
+1ucerne	409,-864
+2dwig Park	411,-852
+2ray	401,-854
+2ther	410,-856
+2xhaven	400,-859
+1ydick	417,-864
+2ford	396,-874
+2les	384,-877
+2nhurst	398,-862
+3n	400,-849
+4ville	382,-873
+3wood Hills	400,-860
+2ons	390,-871
+5ville	396,-850
+0Mace	400,-868
+4donia	380,-860
+3key	382,-874
+4ie	401,-873
+3y	410,-861
+2dalline	397,-871
+3ison	387,-854
+2gee	415,-868
+3ley	408,-850
+3net	381,-865
+6ic Springs	397,-865
+4olia	382,-864
+2halasville	394,-864
+4n Crossing	386,-864
+3on	409,-854
+2jenica	408,-854
+2kin	410,-856
+2lden	414,-870
+3tersville	384,-869
+2nchester	392,-850
+3hattan	396,-869
+3illa	396,-856
+3or Woods	410,-853
+3sard Du Lac	416,-872
+4field	397,-871
+4on	402,-866
+3ville	388,-853
+2ple Del	400,-860
+6Grove Village Mobile Home Park	395,-863
+6Lane	417,-862
+6Ridge	397,-863
+6Valley	399,-856
+5s	410,-850
+5ton	398,-862
+8 Corner	392,-856
+5wood	398,-865
+9 Mobile Home Park	399,-859
+:Park	411,-851
+2rble Hill	386,-854
+3co	389,-871
+3denis	409,-854
+3engo	384,-863
+3iah Hill	382,-869
+5n Manor	415,-871
+4etta	394,-859
+4ne Drive Mobile Home Park	416,-872
+6land Gardens	414,-857
+4on	396,-858
+6 Heights	395,-874
+7Mills	393,-870
+3kland	388,-850
+5e	408,-853
+6s	395,-874
+6ville	400,-856
+3lin Hills	392,-865
+3rs Center	380,-878
+3shall	398,-872
+5field	387,-858
+5town	410,-863
+3tin	381,-877
+6 Heights	386,-861
+6sburg	384,-860
+7ville	394,-864
+3ysville	386,-856
+2ssacre	392,-874
+3thead	399,-860
+2tamoras	406,-853
+3thews	404,-855
+4ix Corner	403,-866
+2uckport	380,-862
+3mee	390,-863
+3zy	396,-853
+2x	400,-866
+3inkuckee	412,-864
+3ville	380,-868
+3well	399,-858
+2yfield	402,-854
+4lower Meadows	399,-861
+3nard	415,-875
+3s	397,-854
+4ville	386,-872
+9 Crossing	403,-872
+3wood	397,-862
+1cCarty	396,-861
+3lures Mobile Home Park	394,-866
+3ol Place	386,-861
+4ol	416,-871
+4rdsville	399,-859
+4y	393,-854
+5sburg	409,-870
+3utchanville	381,-875
+2Daniel	394,-864
+2Gary	383,-876
+3rawsville	406,-860
+2Kinley	387,-862
+2Natts	406,-854
+2Quinn Estates	404,-870
+2Ville	392,-867
+1eadow Shores Park	416,-852
+6brook	411,-850
+6s Glen	401,-860
+8Knoll	401,-860
+6view Mobile Home Park	416,-871
+2cca	397,-873
+3hanicsburg	396,-871
+9ville	380,-876
+2daryville	411,-869
+3ford	401,-853
+3ora	388,-862
+2iks	396,-858
+2llott	402,-872
+3ody Hill	380,-875
+7Lane Mobile Home Park	416,-874
+3tzer	395,-857
+2mphis	385,-858
+2ntone	412,-860
+5r	383,-867
+2ridian Hills	399,-862
+3om	391,-876
+5 Station	390,-875
+3riam	413,-854
+5ck	417,-868
+5llville	415,-873
+2ssick	400,-853
+2tamora	394,-851
+3ea	409,-863
+3z	416,-848
+2xico	408,-861
+1iami	406,-861
+5 Bend	408,-863
+6Trails Addition	416,-862
+2chaelsville	405,-857
+4iana Shores	418,-868
+5gan City	417,-869
+8town	403,-864
+3kleyville	398,-863
+2ddle Branch	393,-854
+6boro	399,-848
+7ury	393,-871
+6fork	388,-855
+6town	395,-856
+: Park	402,-854
+3land	391,-872
+7 Junction	391,-872
+3way	395,-852
+6 Corners	415,-862
+2er	406,-858
+2fflin	383,-865
+2lan	391,-851
+5 Center	411,-850
+3es Point	386,-854
+3ford	394,-856
+7 Junction	414,-858
+3ledgeville	400,-865
+5r	396,-863
+6sburg	386,-863
+7port	383,-870
+7ville	398,-861
+4grove	404,-853
+4housen	392,-854
+4igan	398,-870
+4port	388,-861
+4town	383,-863
+4ville	394,-851
+3ners Corner	399,-857
+3o	406,-855
+3roy	395,-855
+3ton	390,-850
+2neral City	390,-869
+8Springs	413,-857
+3shall	397,-872
+2shawaka	417,-862
+2tchell	387,-865
+2xersville	395,-848
+1oberly	383,-862
+2desto	393,-866
+3oc	400,-851
+2ffitt	411,-872
+2hawk	398,-858
+2ngo	417,-853
+3itor	404,-868
+3mouth	409,-849
+3on	409,-869
+4quet	413,-859
+3roe	408,-849
+6 City	386,-874
+7Manor	416,-867
+6ville	410,-849
+5via	396,-865
+3tclair	398,-866
+4e Cassino Shrine	382,-868
+5rey	412,-865
+8 Village	400,-860
+5zuma	398,-874
+9 Station	398,-874
+4gomery	387,-870
+4icello	408,-868
+4morenci	405,-870
+4pelier	406,-853
+2ody	410,-870
+3nlight	416,-850
+4ville	402,-856
+3re	414,-850
+5field	388,-852
+5land	400,-852
+5s Hill	391,-851
+6town	387,-866
+6ville	396,-864
+2ran	404,-865
+3gan Meadows	400,-860
+7Park	416,-870
+6town	394,-863
+3ningside	402,-854
+3occo	410,-874
+3ris	393,-852
+6town	397,-857
+3ton	398,-869
+3ven	394,-857
+4ins Landing	380,-862
+2scow	395,-856
+2tt Station	383,-861
+2und Haven	394,-850
+4t Auburn	395,-852
+7yr	410,-873
+6Carmel	394,-849
+7omfort	398,-859
+6Etna	407,-856
+6Healthy	391,-860
+6Jackson	398,-862
+6Lawn	399,-855
+7iberty	392,-861
+6Meridian	396,-868
+6Olive	388,-867
+8ympus	384,-875
+6Pisgah	416,-852
+7leasant	395,-861
+6Sinai	391,-850
+7terling	388,-851
+8reet Mobile Home Park	416,-874
+7ummit	400,-854
+6Tabor	393,-866
+6Vernon	379,-879
+6Zion	406,-853
+: Corner	395,-866
+5s	382,-877
+1ud Center	380,-876
+3lavia Springs	403,-873
+2lberry	403,-867
+3l	402,-851
+2ncie	402,-854
+3ster	416,-875
+2rdock	389,-865
+3en	384,-873
+3ray	408,-852
+2squabuck Park	414,-858
+0Nabb	386,-856
+2poleon	392,-853
+3panee	414,-860
+2sh	398,-865
+4ville	392,-862
+2tchez	386,-867
+2villeton	384,-859
+1ead	407,-861
+3vill Grove	388,-855
+2braska	391,-855
+2edham	395,-860
+4more	392,-863
+2ff Corner	392,-855
+2gangards Corner	392,-851
+2vada	404,-860
+6 Mills	417,-851
+2w Albany	383,-858
+6sace	392,-850
+5msterdam	381,-863
+5ugusta	399,-862
+4Baltimore	382,-879
+5oston	380,-860
+5ritton	400,-860
+; Woods	400,-860
+6unswick	399,-865
+5urlington	401,-853
+4Carlisle	417,-865
+7rollton	389,-854
+6stle	399,-854
+5hicago	416,-873
+5olumbus	400,-857
+6rydon	406,-848
+4Discovery	397,-871
+4Elizabethtown	389,-860
+6liott	415,-874
+5ra	413,-851
+4Fairfield	395,-850
+6rmington	389,-859
+5rankfort	387,-857
+4Goshen	396,-875
+4Harmony	381,-879
+6ven	411,-850
+5ope	392,-868
+4Lancaster	403,-859
+5ebanon	390,-875
+5iberty	386,-859
+6sbon	399,-853
+5ondon	404,-863
+4Marion	390,-854
+7ket	385,-856
+6ysville	398,-867
+5iddletown	382,-860
+5ount Pleasant	404,-851
+4Palestine	397,-859
+6ris	415,-858
+5ekin	385,-860
+6nnington	393,-853
+5hiladelphia	386,-860
+5ittsburg	403,-849
+5oint	393,-853
+4Richmond	402,-870
+5oss	400,-867
+4Salem	395,-854
+7isbury	383,-861
+6nta Fe	407,-860
+4Trenton	393,-849
+4Unionville	392,-865
+4Washington	386,-855
+6verly	408,-862
+5hiteland	396,-861
+5inchester	398,-866
+3ark	391,-868
+6 Village	400,-861
+3bern	392,-858
+6ry	389,-870
+4urgh	379,-874
+3land	410,-870
+3port	399,-874
+3ry	389,-858
+3ton	408,-874
+6 Stewart	384,-866
+6ville	380,-869
+5wn	402,-872
+3ville	414,-848
+8 Center	413,-848
+1ibbyville	417,-859
+2ne Mile	410,-852
+4veh	394,-861
+2sbet	382,-876
+1oble	405,-848
+5 Mobile Home Park	416,-874
+5sville	400,-860
+2ra	399,-861
+3ma Jean Addition	404,-869
+5l	405,-858
+5n	390,-863
+6da	403,-862
+3ristown	394,-858
+3th Anderson	401,-857
+7ugusta Addition	399,-862
+6Belleville	397,-865
+6Columbus	392,-859
+7rane	403,-868
+8ows Nest	399,-862
+6Gate	393,-860
+7rove	406,-860
+6Hayden	413,-875
+7ighland	411,-852
+6Indianapolis	398,-862
+6Judson	412,-868
+6Liberty	415,-864
+6Madison	388,-854
+8nchester	410,-858
+8rion	410,-872
+6Oaks	408,-852
+7gilville	391,-860
+6Park	393,-860
+6Ridge Village	399,-862
+6Salem	399,-866
+6Terre Haute	395,-874
+6Union	400,-869
+6Vernon	390,-856
+6Webster	413,-857
+5cliff	393,-859
+6rest	411,-851
+5ern Beach	400,-861
+9Meadows	400,-863
+5field	400,-863
+: Estates	399,-860
+;Village	401,-865
+5s Landing	389,-849
+5west Manor	399,-863
+6ood	416,-854
+9 Hills	400,-861
+:Park	415,-870
+4on	385,-867
+6burg	393,-858
+3way	408,-868
+2tre Dame	417,-862
+3tingham	406,-852
+1ulltown	396,-852
+2ma	396,-874
+2twood	416,-863
+1yesville	398,-872
+0Oak Forest	394,-851
+4Grove	378,-880
+4Hill	383,-874
+4Lodge	416,-852
+4Park	383,-857
+4Tree Crossroads	394,-850
+3dale	390,-856
+3ford	404,-861
+3land City	383,-874
+< Junction	383,-873
+7on	399,-860
+4ey	407,-860
+3town	389,-874
+3ville	401,-854
+3wood	417,-868
+7 Mobile Home Park	412,-875
+8Park	414,-857
+2tsville	384,-874
+1ber	413,-865
+1ccident	397,-855
+2kley	405,-866
+2tagon	405,-870
+1dell	403,-871
+2on	388,-870
+1gden	398,-855
+5 Dunes	416,-872
+2ilville	391,-860
+1ld Adamsboro	408,-863
+4Bargersville	395,-862
+6th	395,-849
+4Halfway	405,-871
+5ill	393,-872
+4Milan	392,-851
+4Pekin	385,-860
+4Saint Louis	393,-858
+4Tip Town	412,-861
+5own	403,-874
+3enburg	393,-852
+3town	391,-848
+2ean	390,-852
+2in	402,-874
+3o	400,-859
+3ve	417,-864
+5r	380,-878
+1mega	402,-859
+1ntario	417,-854
+2ward	407,-862
+1olitic	389,-865
+1ra	412,-866
+3nge	396,-853
+6ville	386,-866
+2chard Grove	413,-874
+8Heights Addition	416,-862
+9ighlands	417,-868
+8Park	399,-861
+2estes	403,-857
+2gan Springs	385,-862
+2iole	382,-865
+2land	417,-852
+3eans	387,-864
+2mas	413,-856
+2rville	385,-877
+1sborn	416,-875
+6 Landing	413,-858
+2ceola	417,-861
+2good	391,-853
+2sian	409,-852
+2wego	413,-858
+1tis	416,-869
+4co	385,-857
+2sego Center	416,-849
+2ter Creek Junction	396,-874
+6Village	391,-853
+5bein	405,-871
+3o	386,-855
+2well	384,-871
+1wasco	405,-866
+2en	385,-855
+4sburg	389,-867
+5ville	383,-877
+1xford	405,-872
+6 Park	400,-861
+0Packerton	411,-858
+2ge	417,-849
+2inted Hills	394,-864
+2lestine	394,-849
+3mer	414,-872
+4yra	384,-861
+2nama	417,-851
+2oli	386,-865
+2radise	380,-874
+4gon	394,-866
+7 Mobile Home Park	416,-875
+3is	388,-856
+5 Crossing	388,-856
+3k	390,-868
+4 View Heights	407,-860
+4er City	402,-852
+6s Settlement	380,-877
+9tation	388,-856
+7burg	399,-869
+5ville	398,-871
+4side	392,-859
+4view	395,-874
+4way Hills	410,-853
+3r	410,-872
+2toka	384,-876
+3ricksburg	393,-870
+5ot	388,-848
+4onville	379,-871
+3ton	407,-867
+6 Hill	389,-865
+2xton	390,-874
+2ynesville	386,-855
+1eabody	411,-855
+3rsontown	384,-864
+2bble Hills	396,-862
+7Run	396,-862
+2cksburg	397,-866
+2erless	389,-865
+2lzer	380,-873
+2mbroke	411,-873
+2nce	404,-875
+3dleton	400,-858
+3n Park	415,-849
+4ington Estates	396,-862
+4town	393,-851
+4ville	398,-851
+4yville	386,-870
+2oga	393,-861
+3ria	394,-848
+2ppertown	394,-852
+2rcy Junction	408,-873
+3kins	408,-874
+7ville	401,-859
+3ry Crossing	384,-858
+6Manor	397,-861
+5sburg	409,-862
+6ville	400,-874
+5ville	406,-850
+3shing	411,-863
+3th	396,-872
+3u	408,-861
+2ters Switch	390,-859
+6burg	385,-873
+6on	408,-850
+6ville	392,-858
+3roleum	406,-852
+3tit	404,-867
+4ysville	409,-860
+1henix	406,-851
+2iladelphia	398,-858
+4ip Station	380,-877
+4omath	397,-850
+2lox	404,-859
+1iattsville	397,-871
+2ckard	402,-863
+4wick Park	414,-857
+2erceton	412,-857
+6ville	391,-852
+4son Station	399,-853
+2geon	381,-871
+6 Roost Station	386,-858
+2ke	401,-865
+4s Peak	391,-861
+4ville	383,-871
+2lot Knob	383,-864
+2mento	393,-874
+2n Hook	398,-871
+3ch	401,-852
+3e	416,-874
+4 Ridge	396,-875
+5Station	415,-863
+5Valley	385,-864
+6illage	404,-872
+3hook	392,-855
+3ola	416,-868
+2oneer	407,-859
+2ttsboro	399,-865
+6urg	406,-867
+1lainfield	397,-864
+5ville	388,-872
+3no	395,-866
+4tana	400,-860
+3to	416,-853
+4tsburg	387,-861
+2easant	389,-852
+8 Acres	399,-859
+9Gardens	396,-870
+9Hill	399,-857
+9Lake	416,-850
+9Mills	408,-848
+9Plain	407,-856
+9Ridge	409,-871
+9Valley	386,-868
+:iew	397,-859
+= Village	393,-860
+8ville	389,-862
+5ure Valley	394,-857
+3vna	405,-860
+2um Tree	407,-854
+4mer	390,-870
+2ymouth	413,-863
+1oe	409,-851
+2int Commerce	391,-870
+6Idalawn	393,-864
+7sabel	404,-858
+2land	394,-870
+3ing	405,-850
+2nd Creek Mills	386,-873
+3eto	407,-852
+3tiac	396,-871
+3y	404,-851
+2pcorn	390,-867
+3lar Grove	397,-860
+2rt Fulton	383,-857
+5Mitchell	414,-854
+4age	416,-872
+4er	416,-871
+6 Crossroads	414,-872
+6sville	385,-870
+4land	404,-850
+8 Mills	398,-870
+2seyville	382,-878
+2tato Mound	394,-865
+4watomi Inn	417,-850
+;Park	413,-858
+<oint	408,-863
+3tawattamie Park	417,-869
+4ersville	392,-868
+2undstone Corner	406,-863
+2wers	403,-851
+3ley Corners	405,-875
+1rairie	379,-880
+7 City	394,-871
+9reek	393,-875
+8View (subdivision)	400,-860
+7ton	394,-875
+3ther	384,-857
+4tsburg	392,-852
+2eble	408,-850
+3scott	395,-857
+4ton	395,-874
+2ince William	404,-866
+6s Lakes	394,-861
+6ton	384,-876
+9 Park	400,-860
+2ogress	401,-854
+3spect	386,-866
+6rity	402,-857
+3vidence	395,-862
+3wsville	387,-862
+1ueblo	378,-871
+2laski	410,-867
+2mpkin Center	386,-864
+2rcell	386,-875
+3dy Hill	395,-872
+2tnamville	396,-869
+1yeattville	379,-872
+2rmont	405,-867
+0Quaker	399,-875
+6 Haven Park	414,-858
+7Ridge	399,-860
+6town	396,-850
+2eensville	390,-857
+3rcus Grove	388,-849
+2incy	394,-867
+0Raab Crossroads	395,-870
+2bbitville	388,-865
+3er	411,-854
+2ccoon	399,-869
+2dioville	412,-869
+3ley	404,-857
+3nor	405,-866
+2glesville	388,-870
+3sdale	388,-873
+2hm	379,-876
+2inbow Highlands	399,-860
+8Mobile Home Park	416,-871
+4sville	404,-873
+4town	399,-865
+2leigh	397,-854
+2mblewood	416,-852
+3sey	383,-862
+2ndall	398,-875
+4olph	403,-850
+3ge Line	413,-873
+5r	381,-867
+3som Place	398,-862
+2pture	382,-878
+2ub	407,-875
+2venswood	399,-861
+3inamy	405,-869
+5ia Oaks	416,-849
+2y	404,-865
+3mond	395,-848
+3s Crossing	396,-857
+4ville	398,-855
+1eagan	402,-865
+2d Bank	380,-876
+5ush	379,-873
+4Hill	389,-866
+3cuff Corner	392,-872
+3ding	388,-865
+7ton	390,-858
+3key	404,-852
+3mon Park	414,-858
+3s Corner	396,-860
+2ed Station	402,-855
+4ville Station	397,-858
+3lsville	396,-870
+2go	385,-863
+2hoboth	381,-860
+2iffsburg	407,-852
+2mington	408,-872
+2nner	405,-854
+3o	397,-867
+3sselaer	409,-872
+2o	379,-871
+2treat	388,-858
+2xville	390,-853
+2ynolds	408,-869
+1hodes	396,-874
+1iceville	383,-867
+3hey Park	407,-868
+4land	395,-854
+8 Center	412,-863
+:ity	380,-872
+4mond	398,-849
+4valley	408,-859
+2ddle	382,-864
+3ertown	404,-852
+3ge Road Mobile Home Community	416,-874
+5mede	392,-865
+5port	390,-868
+5view	408,-861
+7lle	403,-850
+5way	405,-863
+6ood	396,-864
+4leville	386,-874
+2gdon	404,-858
+2ley	398,-857
+5 Village	395,-858
+5sburg	401,-875
+2ncon	391,-870
+3gwald	388,-854
+2pley	411,-867
+2sing Sun	390,-848
+3se	403,-865
+2tchie	380,-870
+2vare	408,-848
+3er	408,-855
+5 Edge	400,-860
+6Forest	401,-857
+6Glen	400,-860
+6Haven	411,-850
+7ighlands	400,-860
+6Oaks	417,-854
+6Ridge	384,-856
+5side	403,-872
+9 Mobile Home Park	416,-873
+5ton	390,-876
+5vale	388,-864
+6iew	388,-865
+9 Acres	392,-859
+5wood	401,-860
+1oachdale	398,-868
+3dman Corner	395,-870
+3nn	409,-859
+4oke	410,-854
+7 Station	410,-854
+2b Roy	402,-872
+3erts	403,-871
+7dale	417,-875
+3le Woods	415,-870
+2chester	411,-862
+3k Creek Center	408,-854
+5Hill	380,-870
+4dale	393,-848
+4field	406,-866
+5ord	390,-859
+4lane	396,-860
+4port	399,-873
+8 Junction	381,-870
+4ville	398,-872
+4y Ford	404,-873
+6Ripple	398,-862
+2gers	385,-872
+6ville	400,-853
+2land	386,-867
+3l	406,-854
+4ing Acres	381,-873
+8Hill Estates	415,-874
+<s	385,-856
+8Prairie	417,-866
+8Ridge	395,-858
+2me	379,-865
+4 City	415,-854
+3ine Corner	401,-874
+3ney	402,-869
+3ona	393,-867
+2sebud	382,-874
+6rg	396,-850
+4dale	396,-873
+8 Hills	397,-861
+4land	417,-862
+6wn	411,-873
+4wood	380,-859
+3s	415,-874
+4 Mobile Home Park	415,-874
+4burg	393,-853
+4ton	400,-863
+6wn	391,-859
+4ville	404,-866
+2th Park	407,-868
+2und Grove	406,-870
+6Up	399,-861
+2xbury Pines	399,-861
+2yal Center	409,-865
+6Oaks	411,-851
+5ton	399,-863
+3erton	403,-854
+3ville	412,-851
+1ugby	393,-857
+2mble	384,-873
+2nnymede	413,-869
+3yantown	385,-856
+2ral	401,-850
+2sh Creek Valley	387,-862
+4ville	396,-854
+3k	386,-868
+3sell Lake	400,-863
+7ville	399,-870
+6s Point	416,-849
+4iaville	404,-863
+3tic Hills	380,-874
+2tland	412,-864
+0Saddle Creek	400,-862
+2il Place	399,-860
+3nt Anthony	383,-868
+6Bernice	397,-875
+6Croix	382,-866
+6Henry	382,-869
+6James	382,-876
+7oe	413,-849
+8hn	381,-874
+:s	413,-851
+8seph	384,-858
+<s Shrine	382,-868
+6Leon	393,-850
+7ouis Crossing	393,-858
+6Magdalen	390,-854
+8rks	383,-868
+9y-of-the-Woods	395,-875
+:s	384,-859
+8urice	394,-853
+7einrad	382,-868
+6Omer	394,-856
+6Paul	394,-856
+7eter	393,-850
+7hilip	380,-877
+6Thomas	386,-876
+6Wendel	381,-877
+2lamonia	404,-849
+3em	396,-849
+5 Center	416,-851
+6Heights	416,-866
+3ina	382,-859
+5e City	394,-871
+3t Creek Estates	416,-872
+4illo	387,-863
+3uda	386,-855
+2maria	394,-862
+2n Jacinto	390,-855
+4Pierre	412,-869
+3d Creek Woods	400,-860
+5Ridge	379,-872
+4born	389,-872
+4cut	396,-873
+4ers	391,-865
+4ford	396,-875
+4stone Lakes	400,-860
+:Ridge	400,-859
+:Woods	400,-860
+4usky	394,-855
+4y Beach	407,-868
+6Hook	386,-872
+5town	397,-874
+3ta Claus	381,-869
+6Fe	381,-869
+2ratoga	402,-849
+3dinia	392,-856
+2ssafras	382,-867
+2turn	410,-854
+2vah	380,-880
+2wgrass	400,-860
+1calesville	382,-872
+3rlet	387,-867
+7 Oaks	407,-868
+2enic Hill	387,-869
+2hererville	415,-874
+3ildmeier Park	397,-859
+3ley	380,-869
+3neider	412,-874
+5llville	383,-868
+3ooler Point Landing	382,-863
+2ipio	394,-848
+3rcleville	403,-863
+2otchtown	391,-873
+4land	389,-869
+4t	417,-856
+5 City	392,-875
+7orner	401,-851
+5sburg	383,-872
+6ville	384,-859
+1eafield	408,-870
+3rcy Crossroads	388,-849
+2dalia	404,-865
+4n	414,-851
+3ley	415,-872
+2elyville	395,-873
+2llersburg	384,-858
+3ma	402,-853
+3vin	382,-871
+2rvia	410,-857
+2vastopol	411,-860
+3en Springs	381,-860
+2xton	397,-854
+2yberts	417,-855
+3mour	390,-859
+1ha-Get Acres	416,-852
+3deland	406,-856
+4y Banks	414,-858
+6Hills	406,-857
+6Lane	396,-871
+8wn	414,-874
+6Nook	416,-852
+6Side	416,-871
+5side Mobile Home Court	416,-871
+3mbaugh Siding	405,-862
+4rock Lakes	404,-854
+3nghai	404,-863
+4nondale	400,-867
+3ron	406,-864
+4psville	404,-861
+5town	394,-849
+3wswick	389,-864
+2edville	403,-851
+3ff	407,-874
+5ield Estates	416,-875
+3lburn	392,-874
+8e	394,-864
+5y	412,-874
+6ville	395,-858
+3pardsville	396,-874
+4herd	400,-864
+3ridan	401,-862
+4wood Forest	399,-861
+2ideler	403,-854
+3elds	389,-860
+3loh	390,-873
+3pshewana	417,-856
+3rkieville	396,-875
+4ley	399,-856
+2oals	387,-868
+6 Overlook	387,-868
+3oters Hill	398,-862
+3re Acres	399,-861
+5wood Forest	415,-871
+4ts Corner	385,-861
+1iberia	382,-867
+2dney	411,-857
+2lex	394,-867
+3ver Hills	383,-858
+7Lake	411,-859
+7Point	413,-858
+6dale	379,-871
+6ville	389,-867
+6wood	400,-874
+2monton Lake	418,-860
+3pson	409,-854
+7 Corner	401,-872
+3s	405,-859
+2sson	385,-876
+2tka	408,-867
+2x Points	397,-863
+1kelton	383,-878
+1labtown	393,-854
+3tecut	384,-858
+2eepy Hollow	394,-857
+4th	406,-867
+2oan	403,-875
+1martsburg	400,-868
+2edley	386,-862
+2ith	417,-867
+5 Valley	396,-862
+5field	402,-853
+5land	395,-858
+5s Crossing	393,-854
+6on	407,-869
+5ville	391,-865
+:-Sanders	391,-865
+2ockville	396,-871
+3ke Corner	414,-871
+2yrna	388,-855
+3the	380,-875
+1nacks	398,-863
+2ow Hill	397,-872
+1olitude	380,-879
+3sberry	391,-868
+2merset	407,-858
+5ville	383,-874
+2uth Bend	417,-862
+7oston	386,-860
+6Center	415,-866
+6Edgewood	401,-857
+7lwood	403,-858
+6Gate	393,-850
+6Haven	408,-858
+6LaPorte	416,-867
+6Marion	409,-871
+9tin	385,-869
+7ilford	415,-853
+6Park	414,-857
+7eru	408,-861
+6Raub	403,-869
+7ichmond	398,-849
+6Salem	402,-848
+6Wanatah	414,-869
+8shington	386,-872
+7hitley	411,-856
+5east Grove	413,-873
+:Manor	396,-859
+5moor Park	415,-874
+5port	397,-861
+5west	415,-859
+6ood	394,-874
+9 Trailer Court	396,-861
+1pades	392,-851
+3ll's Mobile Home Village	410,-849
+3rksville	388,-862
+4ta	391,-850
+6nburg	401,-848
+2earsville	393,-862
+3ed	384,-858
+5way	398,-863
+3icherville	408,-858
+3lterville	395,-874
+3ncer	393,-868
+7 County Farm	379,-871
+7ville	413,-849
+2iceland	398,-854
+2onsler	390,-871
+2raytown	390,-861
+3ing Creek (subdivision)	400,-861
+7Grove	398,-849
+< Heights	398,-849
+7Hill	396,-861
+;s	398,-862
+8ollow	399,-862
+7Lake	398,-858
+7Mill Estates	399,-862
+<Village	387,-864
+<Woods	399,-862
+7Valley Mobile Home Park	394,-864
+6boro	406,-868
+6ersville	397,-850
+6field	380,-879
+6port	400,-854
+6town	397,-866
+6ville	384,-857
+2urgeon	382,-873
+8s Corner	391,-861
+2yglass Hill	400,-860
+1tacer	382,-876
+3fford Center	414,-848
+3lcup Corner	390,-870
+3mpers Creek	386,-864
+3ndard	392,-874
+4ford	391,-867
+4ley	382,-874
+3ples Ford	389,-858
+3r City	410,-866
+5Mill	418,-854
+4light	384,-859
+3te Line	394,-875
+3unton	395,-872
+3vetown	394,-850
+2eam Corner	400,-872
+4rleyville	394,-871
+3mm	390,-865
+3ndal	383,-871
+3phens Crossing	402,-872
+3rling Green	400,-860
+9Heights	397,-863
+3ubenville	415,-850
+3venson	380,-874
+9 Mill	400,-860
+3wart	404,-875
+7sville	382,-878
+2ilesville	396,-866
+4lwell	416,-866
+3nes Mill Corner	395,-864
+6ville	393,-866
+2ockdale	409,-859
+5port	403,-855
+5ton	392,-870
+5well	403,-868
+3ne	402,-850
+5 Bluff	402,-872
+6Head	391,-862
+6Quarry Mills	398,-855
+5burner Landing	413,-858
+5gate	400,-863
+5s Crossing	396,-862
+4ington	387,-864
+4y Creek	415,-856
+6Lonesome	392,-861
+6Ridge	413,-858
+3ry	391,-862
+3utsburg	412,-871
+2raughn	398,-853
+4wtown	401,-859
+3ingtown	398,-857
+3oh	416,-852
+2umpke Corner	392,-851
+5town	398,-873
+1ugar Creek	396,-859
+6Grove	381,-859
+6Hills	399,-858
+2llivan	391,-874
+3phur	382,-865
+7 Spring	398,-855
+>s	382,-865
+2man	415,-870
+4va Resorts	412,-874
+3mit	390,-872
+6 Chapel	412,-861
+7Grove	397,-874
+6ville	403,-856
+2n Down	397,-860
+3blest	400,-860
+8 Farms	400,-860
+3down Manor	396,-864
+3man	392,-851
+3ny Slopes	391,-865
+5brook Acres	412,-851
+5meadow	411,-851
+7de	408,-858
+9 Woods	411,-851
+5view	398,-861
+3rise Beach	414,-857
+3set Parkway	390,-859
+7Village	385,-855
+4hine Gardens	397,-862
+9Seven Mobile Home Park	416,-874
+3view	400,-858
+2perior	396,-872
+2rprise	390,-861
+3rey	410,-872
+3vant	384,-872
+1walls	395,-873
+3n	413,-852
+4ington	406,-873
+4ville	387,-856
+3yzee	405,-858
+2eet Springs Estates	400,-860
+5briar	400,-860
+5ser	406,-858
+5water Lake	393,-861
+2itz City	390,-870
+5er Crossroads	383,-864
+1ycamore	405,-859
+8 Corner	404,-874
+9Ford	400,-870
+2lvan Grove	385,-857
+7Manor	415,-871
+6ia	399,-873
+2ndicate	396,-874
+2racuse	414,-858
+3ia	386,-864
+0Tab	404,-875
+3ertown	395,-872
+2ggart	393,-861
+7 Crossing	394,-864
+2lbot	405,-874
+3l Timbers	416,-852
+3ma	412,-861
+2marack Grange	416,-861
+3pico	388,-860
+2ngier	399,-873
+4lewood	411,-850
+3ner	390,-868
+6sville	391,-858
+2rkeo Corner	393,-855
+3ry Park	388,-865
+2swell	383,-866
+2ylor	403,-869
+6 Corner	415,-850
+6sville	393,-860
+6ville	395,-874
+1ecumseh	396,-874
+2e Lake	417,-867
+3garden	415,-864
+2fft	412,-870
+2ll City	380,-868
+2mple	383,-864
+6ton	405,-872
+2nnyson	381,-871
+2rhune	402,-863
+3race Bay	407,-868
+8Mobile Home Park	396,-863
+4e Coupee	417,-865
+6Haute	395,-874
+6Town	395,-874
+4y	381,-866
+2tersburg	403,-862
+2xas	390,-849
+1hales	385,-868
+3yer	412,-873
+2e Anchorage	399,-859
+4Hawthorns	399,-860
+4Portage	400,-859
+4Red Mills	396,-859
+4Springs of Cambridge	399,-859
+4Woodlands	399,-863
+2omas	386,-872
+6ton	414,-868
+3rnhope	409,-865
+5ton	389,-865
+7wn	401,-866
+5y Ridge	399,-860
+2urman	411,-850
+1ighe	396,-875
+2lden	398,-864
+3lman	410,-849
+2mber Lane Estates	400,-860
+7Springs	400,-860
+6crest	410,-853
+6hurst	416,-852
+3es Corner	411,-852
+2osa	412,-862
+2ppecanoe	412,-861
+3ton	403,-860
+2tus	380,-863
+1oad Hop	395,-875
+2bacco Landing	380,-861
+3insport	378,-866
+2csin	408,-851
+2ll Gate Heights	408,-852
+4eston	416,-874
+2peka	415,-855
+2ronto	398,-875
+2to	413,-867
+2wn Hill	392,-862
+5of Pines	417,-870
+4ley	410,-849
+1racy	415,-867
+3ders Point	399,-863
+3falgar	394,-862
+3il Creek	417,-869
+5s End	400,-861
+3tebas Mill	416,-870
+3visville	407,-852
+2eaty	407,-858
+3e Spring	401,-874
+3mont	398,-863
+3nton	404,-852
+3vlac	393,-863
+2i-Lakes	412,-854
+3lobi Hills	399,-860
+3nity	405,-848
+2otter Crossing	385,-864
+3y	380,-868
+1ulip	391,-869
+2nker	410,-856
+3nelton	388,-863
+2rkey Creek	416,-852
+< Meadows	415,-873
+7Track	394,-865
+3leys	386,-865
+3ner	395,-872
+6 Grove	400,-859
+3pin Hill	381,-873
+1welve Mile	409,-862
+7Points	395,-874
+2in Beach	395,-872
+6ridges	386,-876
+7ooks	397,-861
+5Lakes	417,-855
+1yner	414,-864
+5 Crossing	396,-852
+0Ulen	401,-865
+1nderwood	386,-858
+2ion	385,-874
+5 Center	415,-866
+7ity	402,-848
+6Mills	415,-868
+5dale	408,-852
+5port	401,-851
+5town	388,-858
+5ville	392,-864
+3versal	396,-874
+7ity Heights	397,-861
+1pland	405,-855
+2per Sunset Park	407,-868
+2ton	380,-880
+1rbana	409,-858
+2meyville	395,-860
+1tah	391,-849
+2ica	383,-856
+0Valeene	384,-864
+4ntine	416,-854
+3ley Brook	408,-858
+7City	381,-862
+7Farms Estates	400,-860
+7Mills	397,-863
+7Outlet Center	417,-850
+4onia	388,-861
+3paraiso	415,-871
+2n Bibber Lake	397,-869
+5uren	406,-855
+9 Park	391,-866
+4Loon	416,-874
+4Nuys	400,-854
+3ada	379,-874
+3dalia	393,-869
+3meter Park	411,-866
+2ughan	379,-876
+2wter Park	414,-857
+1eedersburg	401,-873
+2lpen	384,-871
+2ra Cruz	407,-851
+3mont	405,-860
+3ne	386,-874
+4on	390,-856
+3ona	408,-864
+3sailles	391,-852
+3tland	399,-860
+2sta	385,-856
+2vay	388,-851
+1icksburg	391,-872
+3tor	391,-866
+6ia	390,-872
+2enna	386,-858
+2go	393,-875
+2las	392,-868
+3lage Mobile Home Park	416,-874
+2ncennes	387,-875
+3e	403,-871
+2rgie	411,-872
+2stula	418,-857
+2valia	397,-870
+1olga	388,-855
+3lmer	386,-875
+0Wa-Will-Away Park	413,-858
+2bash	408,-858
+6 Shores	404,-869
+2co	385,-870
+2dena	407,-873
+4sville	381,-878
+2gner Station	388,-872
+2karusa	415,-860
+3e Robin Fields	416,-870
+4field	388,-856
+4land	395,-866
+4ville Village	415,-853
+2ld View	414,-874
+4ron	394,-857
+3esboro	392,-859
+3ker Park	413,-858
+6ton	415,-865
+6ville	395,-858
+3lace	400,-872
+7 Junction	395,-867
+4en	412,-852
+3nut	412,-862
+6 Corners	411,-855
+7Gardens	407,-868
+8rove	402,-859
+7Hills	400,-860
+7Ridge	389,-856
+3ton	407,-862
+2namaker	397,-860
+4tah	414,-869
+2rren	407,-854
+6 Hills	398,-860
+7Park	398,-860
+6ton	382,-875
+4ington	399,-856
+3saw	412,-858
+2shington	387,-872
+: Center	413,-856
+;Place	398,-860
+2terford	417,-868
+9 Mills	415,-858
+5loo	397,-851
+5s Edge	396,-862
+3son	384,-857
+2ugh	401,-863
+2veland	399,-870
+4rly	396,-863
+7 Woods	396,-863
+2waka	415,-855
+4see	414,-857
+7 Village	414,-858
+3pecong	406,-860
+2ycross	393,-863
+3mansville	391,-860
+3ne	399,-849
+5 Center	415,-852
+5dale	410,-852
+5sburg	392,-857
+6ville	391,-859
+5town	401,-871
+3port	393,-865
+1eaver	405,-857
+6 Creek	400,-860
+7Woods	400,-860
+2bers Landing	415,-854
+3ster	399,-850
+2ddleville	388,-862
+2gan	388,-860
+2isburg	392,-850
+2lborn Switch	380,-880
+3lington	399,-861
+: Heights	395,-858
+4s	407,-861
+5boro	415,-868
+6urg	407,-852
+2sley	401,-870
+6 Manor	403,-865
+3t Atherton	396,-874
+5Baden Springs	386,-866
+6rook Downs	392,-866
+5Clinton	397,-875
+6ollege Corner	396,-848
+5Dana	398,-875
+5Elwood	403,-859
+5Fork	382,-865
+6ranklin	379,-877
+5Grove	398,-850
+5Harrison	393,-848
+5Lafayette	404,-869
+6ebanon	403,-874
+6iberty	404,-859
+5Melcher	398,-874
+6iddleton	404,-862
+6uncie	402,-855
+5New Goshen	396,-875
+8ton	396,-863
+6oblesville	400,-860
+5Overlook	392,-862
+5Petersburg	385,-873
+5Terre Haute	395,-874
+5Union	398,-873
+5Whiteland	396,-861
+4chester	410,-851
+; Estates	399,-862
+4ern Acres	416,-871
+8Village	401,-857
+4field	400,-861
+4hill	415,-871
+4land	398,-857
+6wn	411,-852
+4moor	411,-852
+4over	399,-862
+4phalia	389,-872
+5oint	404,-870
+6rt	392,-856
+4side	391,-849
+4view	416,-852
+6lle	415,-869
+4wood	399,-854
+8 Square	406,-857
+1heatfield	412,-871
+5land	387,-873
+5onville	382,-875
+3eler	415,-872
+5ing	384,-875
+2ispering Sands Mobile Home Court	416,-871
+3taker	394,-866
+4comb	394,-849
+8 Heights	395,-874
+4e Cloud	382,-862
+6Horse Rapids	399,-861
+6River	384,-878
+7ose	390,-872
+6Sulphur Springs	384,-871
+5hall	392,-867
+5land	396,-861
+5oak	384,-872
+5stown	400,-864
+6ville	400,-868
+5water	399,-848
+4field	386,-869
+4ing	417,-875
+1ickliffe	384,-866
+4ville	396,-871
+2lbur	395,-865
+3ders	413,-869
+4wood	416,-852
+8 Estates	400,-860
+3fred	392,-874
+3kinson	399,-856
+3liams	388,-866
+8 Creek	399,-862
+8burg	400,-850
+< Manor	414,-870
+8port	403,-873
+8town	394,-855
+5s	386,-874
+6ville	384,-873
+4ow Branch	399,-857
+7Creek	416,-872
+7Lakes	396,-862
+7Valley	387,-867
+6brook Estates	395,-864
+3mington	391,-850
+4ot	413,-856
+3shire	403,-865
+4on	384,-858
+6 Corner	394,-858
+2namac	410,-866
+3chester	402,-850
+3demere	399,-862
+5rmere Pointe	399,-860
+;Villas	399,-860
+4fall	404,-860
+4ing Creek	400,-860
+4jammer	399,-860
+4om	386,-868
+4sor	402,-852
+3field	414,-873
+3gate	402,-871
+3ona	412,-866
+6 Lake	412,-858
+3slow	384,-872
+3throp	404,-872
+2rt	388,-854
+4 Station	388,-854
+2ser	396,-863
+2tmer Manor	415,-854
+3ts Station	397,-849
+1olcott	408,-870
+7ville	415,-854
+3ff	394,-864
+4ington	398,-862
+4lake	413,-855
+2odburn	411,-848
+7y	399,-859
+4crest	394,-864
+4ed Hills Mobile Home Park	394,-865
+4field (subdivision)	400,-861
+4gate	394,-874
+4land	416,-862
+8 Hills	416,-854
+9Park	402,-853
+9Stream	396,-862
+9Village	416,-872
+6wn Grove	386,-865
+9Heights	401,-857
+4mar	416,-875
+4ruff	416,-853
+8 Place	398,-861
+4s Edge	399,-860
+5ide Park	403,-865
+5tock	398,-862
+4ville	399,-855
+9 Hills	392,-864
+3ley Corner	400,-872
+3ster	387,-857
+2rthington	391,-870
+1rights Corner	391,-850
+1yandot	404,-868
+7te	382,-863
+3tt	415,-862
+2nbrooke	398,-863
+3nedale	398,-862
+0Yankee Town	397,-850
+6town	379,-873
+1eagers Curve	407,-874
+2ddo	400,-873
+2llow Bank	394,-851
+6banks	413,-857
+6stone	390,-863
+2nne	386,-868
+2oman	407,-867
+1ockey	388,-865
+2der	409,-852
+2rk	417,-848
+4town	402,-855
+4ville	392,-850
+2ung	396,-863
+5 America	406,-864
+5s Corner	394,-851
+8reek	385,-865
+6town	394,-874
+4tsville	400,-870
+0Zanesville	409,-853
+1eigler	417,-864
+2lma	389,-863
+2nas	391,-855
+1ionsville	400,-863
+1oar	383,-871
+1ulu	410,-849

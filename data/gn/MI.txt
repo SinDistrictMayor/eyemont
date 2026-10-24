@@ -1,3466 +1,3466 @@
-Abbottsford	43.02,-82.63
-Acme	44.77,-85.50
-Ada	42.95,-85.49
-Adair	42.80,-82.63
-Adams Park	42.15,-85.47
-Adamsville	41.79,-85.99
-Addison	41.99,-84.35
-Addison Junction	41.99,-84.33
-Adrian	41.90,-84.04
-Advance	45.22,-85.08
-Aetna	43.57,-85.92
-Afton	45.37,-84.50
-Agate	46.47,-89.07
-Agnew	42.97,-86.18
-Ahgosatown	45.08,-85.59
-Ahmeek	47.30,-88.40
-Ainger	42.48,-84.93
-Akron	43.57,-83.51
-Alabaster	44.19,-83.56
-Alabaster Junction	44.25,-83.56
-Alamando	43.74,-84.53
-Alamo	42.38,-85.71
-Alan's Mobile Home Park	42.65,-84.11
-Alanson	45.44,-84.79
-Alaska	42.84,-85.48
-Alba	44.97,-84.97
-Alberta	46.64,-88.48
-Albion	42.24,-84.75
-Albion Landing	42.38,-84.78
-Alcona	44.76,-83.30
-Alden	44.88,-85.28
-Alder	46.79,-87.70
-Alembic	43.60,-84.67
-Alfred	46.08,-87.63
-Algansee	41.83,-84.88
-Alger	44.13,-84.12
-Algonac	42.62,-82.53
-Algonquin Lake Trailer Court	42.67,-85.35
-Alicia	43.27,-84.03
-Allegan	42.53,-85.86
-Allegan Mobile Estates	42.52,-85.82
-Allen	41.96,-84.77
-Allen Park	42.26,-83.21
-Allen's Trailer Court	42.08,-83.96
-Allendale	44.00,-84.79
-Allendale Meadows Mobile Park	42.97,-85.91
-Allenton	41.77,-85.97
-Allenville	45.98,-84.82
-Allouez	47.29,-88.41
-Alma	43.38,-84.66
-Almeda Beach	43.82,-83.92
-Almena	42.26,-85.83
-Almont	42.92,-83.04
-Aloha	45.53,-84.47
-Alpena	45.06,-83.43
-Alpena Junction	45.06,-83.46
-Alpha	46.04,-88.38
-Alpine	43.07,-85.69
-Alpine Mobile Home Village	43.66,-84.27
-Alpine Mobile Village	43.05,-85.69
-Alpine Village Mobile Home Park	43.63,-83.93
-Alston	46.77,-88.75
-Alto	42.86,-85.38
-Alton	45.88,-86.88
-Altona	43.54,-85.31
-Alverno	45.56,-84.39
-Alvin	44.52,-83.44
-Amadore	43.20,-82.59
-Amasa	46.23,-88.45
-Amber	43.96,-86.32
-Amble	43.43,-85.39
-American Mobile Home Park	43.04,-83.65
-Americana Estates Mobile Home Park	42.74,-82.73
-Amsden	43.17,-85.12
-Anchor Bay Gardens	42.64,-82.81
-Anchor Bay Harbor	42.66,-82.80
-Anchor Bay Shores	42.64,-82.82
-Anchorville	42.69,-82.69
-Anderson	42.47,-84.01
-Anderson Bayview	44.24,-83.55
-Andersonville	42.73,-83.49
-Andrews Estates Mobile Home Park	42.28,-85.39
-Angel	44.83,-85.42
-Angling	44.67,-85.01
-Ann Arbor	42.28,-83.74
-Antlers	46.75,-87.66
-Antoine	45.84,-88.06
-Antrim	44.89,-85.07
-Antrim Center	42.81,-84.11
-Anvil	46.47,-90.02
-Aplin Beach	43.65,-83.87
-Apollo Eleven Mobile Home Park	41.94,-84.98
-Apple Carr Village	43.24,-86.12
-Applegate	43.36,-82.64
-Arbor Meadows Mobile Home Park	42.21,-83.67
-Arbutus Beach	44.95,-84.68
-Arcadia	44.49,-86.23
-Arcadian	47.16,-88.56
-Arcadian Oak Mobile Home Park	42.33,-85.25
-Arden	41.99,-86.39
-Arenac	44.01,-83.86
-Argentine	42.79,-83.85
-Argyle	43.56,-82.94
-Arlene	44.39,-85.29
-Arlington Estates Mobile Village	43.21,-86.15
-Arlington Manor Mobile Home Park	43.60,-84.17
-Armada	42.84,-82.88
-Arn	43.49,-83.74
-Arnheim	46.92,-88.48
-Arnold	46.05,-87.49
-Artesia Beach	44.36,-84.49
-Arthur Bay	45.31,-87.44
-Ash Acres	44.04,-84.81
-Ashland	45.20,-83.45
-Ashland Center	43.34,-85.85
-Ashley	43.19,-84.47
-Ashton	43.97,-85.50
-Askel	46.90,-88.58
-Aspen Commons Mobile Home Park	45.01,-84.68
-Assinins	46.81,-88.48
-Assyria	42.46,-85.13
-Athens	42.09,-85.23
-Atkins	43.06,-82.58
-Atlanta	45.00,-84.14
-Atlantic Mine	47.10,-88.63
-Atlas	42.94,-83.53
-Attica	43.03,-83.17
-Atwood	45.18,-85.35
-Au Gres	44.05,-83.70
-Au Sable	44.41,-83.33
-Au Sable River Park	44.40,-84.46
-Au Train	46.43,-86.84
-Auburn	43.60,-84.07
-Auburn Heights	42.63,-83.22
-Auburn Hills	42.69,-83.23
-Augusta	42.34,-85.35
-Aura	46.86,-88.32
-Aurelius	42.52,-84.52
-Aurora	46.45,-90.15
-Ausable Mobile Home Village	44.41,-83.33
-Austin	41.74,-84.69
-Austin Center	43.62,-82.94
-Austin Corners	42.79,-83.51
-Auvinen Corner	46.52,-90.10
-Avalon Beach	41.86,-83.39
-Avenue A Mobile Home Estates	42.33,-85.25
-Averill	43.67,-84.34
-Avery	44.96,-84.03
-Avoca	43.06,-82.69
-Avondale	44.02,-85.23
-Avonwood Village Mobile Home Park	42.31,-85.14
-Axin	44.21,-85.55
-Ayr	45.49,-84.85
-Azalia	42.02,-83.67
-Babbits Resort	44.67,-84.61
-Babcock	42.22,-84.80
-Bach	43.68,-83.36
-Backus Beach	44.76,-83.55
-Bad Axe	43.80,-83.00
-Bagley	45.55,-87.58
-Bagnall	44.43,-85.76
-Baie de Wasai	46.46,-84.24
-Bailey	43.28,-85.81
-Bainbridge Center	42.12,-86.28
-Baker Village Mobile Home Park	42.30,-85.17
-Bakersville	42.49,-86.07
-Bakertown	41.81,-86.39
-Baldwin	43.90,-85.85
-Balitmore	46.53,-89.23
-Ballards Corners	43.12,-85.71
-Balsam	46.21,-88.38
-Baltic	47.07,-88.63
-Banat	45.52,-87.70
-Bancroft	42.88,-84.06
-Banfield	42.46,-85.29
-Bangor	42.31,-86.11
-Bankers	41.90,-84.69
-Bannister	43.13,-84.42
-Bar Lake	44.30,-86.31
-Baraga	46.78,-88.49
-Barbeau	46.29,-84.28
-Bark River	45.71,-87.30
-Barker Creek	44.78,-85.31
-Barnard	45.25,-85.30
-Barnes Lake-Millers Lake	43.18,-83.31
-Baroda	41.96,-86.49
-Baroda Estates	41.96,-86.49
-Barry's Resort and Mobile Home Park	42.61,-85.21
-Barryton	43.75,-85.15
-Barton City	44.68,-83.61
-Barton Hills	42.32,-83.77
-Basswood	46.19,-88.85
-Batavia	41.91,-85.10
-Batavia Center	41.94,-85.12
-Batcheller	44.00,-86.13
-Bates	44.77,-85.44
-Bates Junction	46.09,-88.60
-Bates Location	46.11,-88.62
-Bath	42.82,-84.45
-Battle Creek	42.32,-85.18
-Bauer	42.92,-85.90
-Baxter	44.50,-85.53
-Bay City	43.59,-83.89
-Bay Harbor	45.36,-85.08
-Bay Mills	46.44,-84.58
-Bay Park	43.65,-83.59
-Bay Port	43.85,-83.37
-Bay Shore	45.36,-85.10
-Bay Shore Estates	45.36,-85.09
-Bay Side Village Mobile Home Park	43.56,-83.89
-Bay View	45.39,-84.93
-Bay Village Mobile Home Estates	43.62,-83.83
-Bayport Park	42.85,-83.72
-Bayside Estates Mobile Home Park	43.76,-83.43
-Bayside Mobile Estates	45.13,-87.61
-Beach Grove	45.30,-87.44
-Beachmont	42.65,-86.22
-Beacon	46.51,-87.99
-Beacon Hill	47.14,-88.81
-Beadle Lake	42.27,-85.15
-Beal City	43.67,-84.91
-Bear Lake	44.42,-86.15
-Bear Town	46.81,-88.51
-Beaton	46.30,-89.34
-Beaver	43.71,-84.07
-Beaver Grove	46.48,-87.32
-Beaverdam	42.85,-85.96
-Beaverton	43.88,-84.48
-Bedford	42.40,-85.23
-Bedford Hills Mobile Village	42.36,-85.23
-Bedore	42.56,-82.61
-Beebe	43.34,-84.55
-Beech	42.38,-83.30
-Beech Grove Trailer Park	42.04,-85.83
-Beecher	43.09,-83.69
-Beechwood	46.16,-88.77
-Bel-Air Mobile Home Park	43.38,-83.89
-Belding	43.10,-85.23
-Belknap	45.33,-83.84
-Bell	45.25,-83.43
-Bell Landing	45.49,-84.07
-Bell Oak	42.73,-84.17
-Bellaire	44.98,-85.21
-Belle River	42.82,-82.70
-Belleville	42.20,-83.49
-Belleville North	42.22,-83.48
-Bellevue	42.44,-85.02
-Bellevue Mobile Home Park	42.42,-85.01
-Belmont	43.08,-85.61
-Belsay	43.03,-83.60
-Bendon	44.63,-85.84
-Bennington	42.94,-84.24
-Benson	44.21,-85.50
-Benson Park	44.20,-83.55
-Bentheim	42.71,-85.92
-Bentley	43.95,-84.13
-Bentleys Corners	42.10,-84.87
-Benton	42.13,-83.86
-Benton Center	42.12,-86.38
-Benton Harbor	42.12,-86.45
-Benton Heights	42.13,-86.41
-Benzonia	44.62,-86.10
-Bergland	46.59,-89.57
-Berkley	42.50,-83.18
-Berlamont	42.39,-85.99
-Berlin Center	42.90,-85.13
-Berne	43.84,-83.27
-Berrien Center	41.96,-86.28
-Berrien Springs	41.95,-86.34
-Berry Junction	43.30,-86.26
-Berryville	42.41,-84.49
-Bertrand	41.77,-86.26
-Berville	42.91,-82.88
-Bessemer	46.48,-90.05
-Bete Grise	47.39,-87.96
-Bethany Beach	41.89,-86.62
-Bethel	41.83,-85.07
-Betsy	47.30,-88.06
-Betty B Landing	46.40,-85.28
-Betzer	41.75,-84.48
-Beulah	44.63,-86.09
-Beverly Hills	46.51,-87.61
-Big Bay	46.82,-87.73
-Big Beaver	42.56,-83.12
-Big Bend	43.52,-85.58
-Big Cut	45.33,-84.00
-Big Prairie	43.52,-85.64
-Big Rapids	43.70,-85.48
-Big Rapids Mobile Home Court	43.71,-85.47
-Bigelow	44.98,-84.28
-Biggs Settlement	44.71,-84.13
-Billings	43.85,-84.35
-Bingham	44.88,-85.67
-Bingham Farms	42.52,-83.27
-Birch	46.70,-87.58
-Birch Beach	43.20,-82.51
-Birch Creek	45.20,-87.61
-Birch Crest Estates	41.81,-86.22
-Birch Grove Mobile Home Park	47.13,-88.59
-Birch Run	43.25,-83.79
-Birch Run Mobile Home Park	43.27,-83.79
-Birchgrove Mobile Home Community	46.53,-87.40
-Birchwood	41.88,-86.63
-Birchwood Beach	44.87,-84.32
-Birchwood Estates Mobile Home Park	42.13,-85.22
-Birchwood Farms Mobile Home Park	43.24,-83.79
-Birchwood Mobile Home Park	43.07,-83.76
-Birchwood Shores	44.08,-83.59
-Birdsall	41.94,-84.00
-Birmingham	42.55,-83.21
-Bishop	43.42,-85.90
-Bitely	43.75,-85.86
-Black Lake	45.43,-84.25
-Black Lake Bluffs	45.47,-84.24
-Black River	44.82,-83.30
-Blaine	43.12,-82.58
-Blanchard	43.52,-85.08
-Blaney Junction	46.02,-85.91
-Blaney Park	46.12,-85.93
-Bliss	45.68,-84.88
-Blissfield	41.83,-83.86
-Blom	45.65,-87.74
-Bloomfield	42.54,-83.23
-Bloomfield Hills	42.58,-83.25
-Bloomfield Township	42.58,-83.27
-Bloomingdale	42.38,-85.96
-Blue Water Beach	43.21,-82.52
-Bluff Beach	41.82,-85.54
-Blumfield Corners	43.42,-83.72
-Bodus	44.91,-85.78
-Bolles Harbor	41.87,-83.39
-Bolton	45.18,-83.59
-Bombay	43.74,-84.27
-Bonifas	46.31,-89.17
-Bonner Landing	45.70,-85.58
-Boon	44.29,-85.60
-Borculo	42.89,-86.02
-Borland	43.54,-85.44
-Boston	47.18,-88.53
-Bostwick Lake	43.09,-85.45
-Boulder Park	45.31,-85.28
-Bovine	46.72,-88.43
-Bowens Mill	42.66,-85.52
-Bowmanville	44.08,-84.25
-Bowne Center	42.81,-85.37
-Boyd	42.73,-86.09
-Boyne City	45.22,-85.01
-Boyne Falls	45.17,-84.92
-Bradley	42.63,-85.64
-Bradleyville	43.58,-83.62
-Brady Center	43.17,-84.23
-Brampton	45.93,-87.07
-Brandon Gardens	42.83,-83.44
-Brant	43.26,-84.23
-Brassar	46.51,-84.22
-Bravo	42.51,-86.09
-Braywood	42.26,-86.35
-Breckenridge	43.41,-84.47
-Breckenridge Mobile Home Park	43.41,-84.48
-Breedsville	42.35,-86.07
-Breezy Beach	41.80,-85.56
-Brent Creek	43.12,-83.89
-Brentwood Estates Mobile Home Park	43.64,-83.92
-Brentwood Mobile Village	42.86,-85.66
-Brethren	44.30,-86.02
-Bretton Woods	42.74,-84.61
-Brevort	46.02,-85.04
-Briarwood Senior Housing	42.48,-83.34
-Brice	43.16,-84.76
-Bridgeport	43.36,-83.88
-Bridgeport Mobile Home Park	43.37,-83.89
-Bridgeton	43.35,-85.94
-Bridgeville	43.14,-84.59
-Bridgewater	42.16,-83.90
-Bridgman	41.94,-86.56
-Brighton	42.53,-83.78
-Brighton Village Mobile Home Park	42.56,-83.81
-Brimley	46.41,-84.57
-Brinton	43.77,-85.01
-Brissette Beach	43.71,-83.94
-Bristol	44.10,-85.58
-British Landing	45.88,-84.65
-Britton	41.99,-83.83
-Broad Acres	42.55,-82.90
-Broadbridge Station	42.68,-82.51
-Broadway Acres Mobile Home Park	43.61,-84.74
-Brockway	43.07,-82.77
-Brohman	43.69,-85.82
-Bronson	41.87,-85.19
-Brook Haven Mobile Home Park	43.05,-85.66
-Brookfield	42.45,-84.80
-Brookhaven Estates Mobile Home Park	43.41,-85.79
-Brooklyn	42.11,-84.25
-Brookside	44.74,-85.65
-Brookside Meadows Community Mobile Home Park	42.89,-85.82
-Brookton Corners	46.55,-87.46
-Brookville	42.38,-83.58
-Broomfield Center	43.60,-85.03
-Broomfield Valley Mobile Home Park	43.60,-84.98
-Brown City	43.21,-82.99
-Brownlee Park	42.32,-85.14
-Brownstown Charter Township	42.08,-83.19
-Brownsville	41.88,-85.95
-Bruce Crossing	46.53,-89.18
-Bruningville	45.39,-83.82
-Brunswick	43.43,-86.04
-Brutus	45.49,-84.78
-Bryant	44.53,-83.67
-Buchanan	41.83,-86.36
-Buck Trails	44.10,-84.86
-Buckhorn	42.00,-86.40
-Buckley	44.50,-85.68
-Buckroe	46.67,-87.52
-Bucks	44.75,-84.57
-Buckshot Landing	46.82,-89.80
-Buell Hill Estates Mobile Home Park	43.26,-82.72
-Buena Vista	43.42,-83.90
-Bullis Crossing	42.47,-84.03
-Bullock Creek	43.58,-84.25
-Bumbletown	47.29,-88.42
-Bunker Hill	42.48,-84.32
-Burdickville	44.85,-85.95
-Burgess	45.35,-85.16
-Burkhart Ridge Mobile Home Park	42.61,-84.00
-Burlington	42.11,-85.08
-Burnips	42.73,-85.84
-Burns Landing	46.83,-87.73
-Burnside	43.21,-83.08
-Burnt	43.24,-83.90
-Burr Oak	41.85,-85.32
-Burt	43.24,-83.91
-Burt Lake	45.44,-84.71
-Burton	43.00,-83.62
-Butler	42.06,-84.87
-Butman	44.14,-84.47
-Butterfield	44.28,-84.95
-Butternut	43.18,-84.92
-Buttersville	43.95,-86.46
-Byron	42.82,-83.94
-Byron Center	42.81,-85.72
-Byron Center Mobile Village	42.81,-85.73
-Cadgewith Farms Mobile Home Park	42.78,-84.52
-Cadillac	44.25,-85.40
-Cadillac Leisure Mobile Home Community	44.26,-85.42
-Cadmus	41.87,-84.16
-Cady	42.56,-82.96
-Caffey	46.17,-85.19
-Caffey Corner	46.16,-85.19
-Calcite	45.41,-83.79
-Calderwood	46.41,-89.09
-Caledonia	42.79,-85.52
-California	41.80,-84.88
-Calumet	47.25,-88.45
-Calvin Center	41.85,-85.94
-Cambria	41.82,-84.66
-Cambridge Junction	42.06,-84.22
-Camden	41.75,-84.76
-Camelot Villa Mobile Home Community	43.13,-83.61
-Camelot Village Mobile Home Park	43.25,-85.80
-Camp Dejacket	46.59,-90.28
-Camp Lu Lay Lea	44.34,-84.01
-Campbell	46.02,-87.13
-Campbell Corners	42.81,-85.23
-Campbells Corner	42.80,-83.13
-Campbells Corners	44.31,-84.15
-Canada Corners	43.24,-85.85
-Canada Creek Ranch	45.17,-84.21
-Canada Shores	41.81,-84.96
-Canadian Lakes	43.58,-85.30
-Canandaigua	41.80,-84.23
-Canby Corners	45.64,-84.92
-Candlewick Court Mobile Home Park	42.98,-84.19
-Canfield Beach	45.46,-84.22
-Cannonsburg	43.05,-85.47
-Canterbury Estates Mobile Home Park	42.95,-85.07
-Canton	42.31,-83.48
-Capac	43.01,-82.93
-Carbondale	45.28,-87.62
-Carland	43.06,-84.30
-Carleton	42.06,-83.39
-Carleton Mobile Home Park	42.06,-83.39
-Carlisle	42.55,-84.97
-Carlshend	46.31,-87.22
-Carlton	42.73,-85.25
-Carney	45.59,-87.56
-Caro	43.49,-83.40
-Caro Mobile Estates	43.48,-83.41
-Carp Lake	45.70,-84.75
-Carp Lake Landing	46.83,-89.72
-Carpenter Landing	46.29,-85.76
-Carr	43.87,-86.04
-Carriage Hills Mobile Home Park	43.07,-83.67
-Carriage Manor Mobile Home Park	43.00,-83.65
-Carrollton	43.46,-83.93
-Carson City	43.18,-84.85
-Carsonville	43.43,-82.67
-Cascade	42.91,-85.50
-Casco	42.75,-82.67
-Caseville	43.94,-83.27
-Cash	43.35,-82.79
-Casnovia	43.23,-85.79
-Caspian	46.06,-88.63
-Cass City	43.60,-83.17
-Cassopolis	41.91,-86.01
-Castle Park	42.75,-86.21
-Cathro	45.16,-83.55
-Cecil	45.75,-84.83
-Cedar	44.85,-85.80
-Cedar Bank	46.30,-87.27
-Cedar Bluff	42.49,-86.25
-Cedar Creek	42.52,-85.33
-Cedar Haven	44.18,-83.56
-Cedar Lake	43.41,-84.98
-Cedar River	45.41,-87.35
-Cedar River Estates Mobile Home Park	42.65,-84.08
-Cedar Run	44.76,-85.81
-Cedar Springs	43.22,-85.55
-Cedar Springs Mobile Estates	43.23,-85.55
-Cedarfield Mobile Home Park	43.22,-85.58
-Cedarville	46.00,-84.36
-Cement City	42.07,-84.33
-Centennial	47.26,-88.43
-Centennial Heights	47.26,-88.44
-Center Line	42.49,-83.03
-Central	47.41,-88.20
-Central Lake	45.07,-85.26
-Centre Chateaux Mobile Home Park	41.93,-85.53
-Centreville	41.92,-85.53
-Century Park Mobile Home Park	42.73,-84.66
-Ceresco	42.27,-85.06
-Chaison	45.88,-87.06
-Chalet Estates	45.39,-84.86
-Chalkerville	42.43,-84.02
-Chamberlain	42.07,-85.74
-Champion	46.51,-87.96
-Champion Mine	47.03,-88.67
-Chandler	45.87,-87.16
-Channing	46.14,-88.09
-Chapin	43.13,-84.30
-Charing Cross	42.57,-83.22
-Charles	46.01,-84.69
-Charleston	43.66,-82.69
-Charlesworth	42.45,-84.69
-Charlevoix	45.32,-85.26
-Charlevoix Estates	45.30,-85.26
-Charlotte	42.56,-84.84
-Charlotte Landing	42.39,-84.78
-Chase	43.89,-85.64
-Chassell	47.03,-88.53
-Chassell Bay Cabins Mobile Home Park	47.04,-88.52
-Chateau Deerfield Manor Mobile Home Park	42.98,-85.90
-Chateau Estates Mobile Home Park	42.60,-83.94
-Chateau Ferrand Estates Mobile Home Park	42.88,-85.73
-Chateau Old Orchard Mobile Home Park	43.02,-83.50
-Chateau Pines Lake Mobile Home Park	43.08,-83.31
-Chateau Timber Heights Mobile Home Park	43.03,-83.49
-Chatham	46.35,-86.93
-Chauncey	43.05,-85.55
-Chauteau Algoma Estates Mobile Home Park	43.16,-85.56
-Chauteau Norton Shores Mobile Home Park	43.19,-86.22
-Chauteau Torrey Hills Mobile Home Park	42.95,-83.73
-Cheboygan	45.65,-84.47
-Chelsea	42.32,-84.02
-Cherry Beach	42.68,-82.51
-Cherry Bend	44.79,-85.65
-Cherry Hill	42.31,-83.54
-Cherryland Mobile Home Park	44.73,-85.60
-Cherrywood Village Mobile Home Park	44.58,-85.51
-Chesaning	43.18,-84.11
-Cheshire Center	42.45,-85.93
-Chester	42.61,-84.91
-Chesterfield	42.66,-82.84
-Chesterfield Shores	42.67,-82.76
-Chestonia	45.06,-85.08
-Cheviers	44.57,-83.74
-Chicagon	46.10,-88.51
-Chicora	42.48,-85.97
-Chief Lake	44.35,-86.10
-Childsdale	43.10,-85.58
-Chilson	42.53,-83.86
-Chimney Corners Resort	44.69,-86.21
-Chippewa	43.88,-85.11
-Chippewa Beach	45.44,-84.64
-Chippewa Hills Trailer Court	43.16,-85.15
-Chippewa Lake	43.74,-85.30
-Chippewa Travel Trailer Park	46.46,-84.36
-Chippewa Vista	43.74,-85.10
-Chouteau Estates Macomb Mobile Home Park	42.64,-82.92
-Christmas	46.44,-86.70
-Chums Corner	44.67,-85.66
-Churchville	46.52,-84.12
-Cider Mill Village Mobile Home Community	42.72,-85.46
-Circle Drive Mobile Home Park	43.65,-85.45
-Circle Pine Center	42.57,-85.46
-Clam River	44.95,-85.28
-Clare	43.82,-84.77
-Clarence Center	42.38,-84.77
-Clarenceville	42.45,-83.34
-Clarendon	42.13,-84.87
-Clarion	45.28,-84.92
-Clark Bayshore	44.25,-83.54
-Clark Corners	43.02,-86.15
-Clarklake	42.12,-84.34
-Clarksburg	46.49,-87.85
-Clarkston	42.74,-83.42
-Clarksville	42.84,-85.24
-Clausedale	43.29,-84.06
-Clawson	42.53,-83.15
-Clays Landing	42.55,-82.60
-Clayton	41.86,-84.24
-Clifford	43.31,-83.18
-Clifton Mill	42.79,-83.09
-Climax	42.24,-85.33
-Clinton	42.07,-83.97
-Clinton Mobile Home Community	42.06,-83.07
-Clinton Township	42.59,-82.92
-Clinton Village	42.80,-84.53
-Clintonville	42.69,-83.36
-Clio	43.18,-83.73
-Clover Estates Mobile Home Park	43.19,-86.15
-Cloverdale	42.54,-85.39
-Cloverville	43.19,-86.17
-Clowry	46.52,-87.90
-Clyde	42.68,-83.62
-Coach Light Estates Mobile Home Park	41.84,-83.88
-Coachville Mobile Park	42.24,-83.68
-Coalwood	46.34,-86.73
-Coats Grove	42.68,-85.19
-Coddes Beach	45.44,-84.22
-Coe	43.48,-84.64
-Coffman Trailer Court	42.25,-84.47
-Cohoctah	42.76,-83.95
-Cohoctah Center	42.76,-83.99
-Cold Springs	45.46,-84.59
-Coldwater	41.94,-85.00
-Coleman	43.76,-84.59
-Colfax	43.74,-86.08
-College Heights Mobile Home Park	42.64,-83.22
-College Park Mobile Village	43.71,-85.48
-Collens Landing	44.65,-84.77
-Colling	43.61,-83.41
-Collins	42.93,-84.94
-Collins Corner	42.21,-85.48
-Coloma	42.19,-86.31
-Colon	41.96,-85.32
-Colonial Acres Mobile Home Park	41.80,-86.05
-Colonial Estates Mobile Home Park	41.80,-85.66
-Colonial Manor Mobile Home Park	42.28,-85.66
-Colonville	43.84,-84.71
-Columbiaville	43.16,-83.41
-Columbus	42.88,-82.66
-Colwood	43.61,-83.35
-Comins	44.81,-84.05
-Commerce	42.59,-83.49
-Comstock	42.29,-85.51
-Comstock Northwest	42.32,-85.52
-Comstock Park	43.04,-85.67
-Concord	42.18,-84.64
-Condit	42.19,-84.79
-Cone	42.03,-83.75
-Conklin	43.13,-85.88
-Conners Creek	42.36,-82.96
-Connorville	46.55,-89.93
-Constantine	41.84,-85.67
-Continental Estates Mobile Home Park	43.04,-83.52
-Continental Mobile Village	42.45,-83.07
-Continental North Mobile Home Park	43.07,-83.52
-Conway	45.42,-84.87
-Cooks	45.92,-86.48
-Cooks Corners	43.09,-85.26
-Cooks Mill	42.22,-85.42
-Cooper	42.38,-85.61
-Coopersville	43.06,-85.93
-Cooperton	44.16,-84.79
-Copeland Corner	42.67,-82.62
-Copemish	44.48,-85.92
-Copenhagen Beach	45.98,-86.29
-Copper City	47.28,-88.39
-Copper Falls	47.43,-88.20
-Copper Harbor	47.47,-87.89
-Coral	43.36,-85.40
-Cordell	46.19,-84.85
-Corey	41.90,-85.76
-Corinne	46.09,-85.72
-Corinth	42.78,-85.66
-Cornell	45.90,-87.22
-Corning	42.72,-85.60
-Corunna	42.98,-84.12
-Cotton	44.70,-85.05
-Country Acres Mobile Home Park	41.87,-86.28
-Country Acres Mobile Village	44.25,-85.44
-Country Acres Village Mobile Home Park	42.32,-85.62
-Country Estates Mobile Home Park	42.88,-85.69
-Country Heritage Mobile Home Park	41.95,-83.65
-Country Hill Pines Mobile Home Park	43.26,-82.67
-Country Hills Village Mobile Home Park	42.83,-85.84
-Country Holiday Estates Mobile Home Park	42.30,-85.97
-Country Manor Mobile Home Park	42.92,-84.03
-Country Meadow Mobile Home Park	43.80,-82.97
-Country Meadows Mobile Home Community	42.54,-85.67
-Country Meadows Village Mobile Home Park	42.83,-85.53
-Country Mobile Home Park	43.78,-85.50
-Country Place Park	43.66,-84.76
-Country Side Mobile Home Park	43.61,-84.37
-Country View Estates Mobile Home Park	43.47,-85.97
-Country Village Estates Mobile Home Park	44.27,-84.22
-Country Village Mobile Home Park	42.78,-84.68
-Country Village Mobile Park	43.03,-85.87
-Countryside Mobile Court	41.91,-85.02
-Countryside Village Mobile Home Park	42.83,-84.25
-Covert	42.29,-86.26
-Covington	46.54,-88.54
-Cozy Mobile Home Community	42.20,-84.38
-Craigsmere	46.42,-89.24
-Crawford	43.52,-84.79
-Creek Valley Mobile Home Park	42.36,-85.23
-Creekside Estates Mobile Home Park	42.87,-85.68
-Creighton	46.35,-86.28
-Cressey	42.43,-85.47
-Crestview Manor Mobile Home Park	43.07,-83.31
-Creswell	45.02,-85.35
-Crickelwood Court Mobile Home Park	43.20,-85.88
-Crisp	42.89,-86.08
-Crockery Mobile Home Park	43.09,-86.12
-Crofton	44.67,-85.24
-Cross Village, Harbor Springs	45.64,-85.04
-Crossings on Broadway Mobile Home Park	43.60,-84.74
-Croswell	43.28,-82.62
-Croton	43.44,-85.66
-Croton Heights	43.46,-85.63
-Crow Island	43.47,-83.90
-Crump	43.75,-84.09
-Crystal	43.26,-84.91
-Crystal Beach	41.84,-84.97
-Crystal Downs Mobile Village	43.40,-86.31
-Crystal Falls	46.10,-88.33
-Crystal Lake Mobile Home Park	44.62,-86.11
-Crystal Mobile Home Park	42.11,-86.42
-Crystal Spring	44.82,-85.65
-Crystal Valley	43.77,-86.24
-Crystallia	44.67,-86.25
-Cumber	43.62,-82.98
-Cunard	45.74,-87.67
-Curran	44.71,-83.81
-Curtis	46.21,-85.75
-Curtisville	44.56,-83.87
-Cusino	46.44,-86.36
-Custer	43.95,-86.22
-Cutcheon	44.41,-85.13
-Cutlerville	42.84,-85.66
-Dafter	46.36,-84.43
-Daggett	45.46,-87.61
-Dailey	41.89,-86.09
-Dale	43.86,-84.43
-Dalton	43.32,-86.26
-Damon	44.48,-84.23
-Danaher	46.34,-85.78
-Danish Landing	44.66,-84.78
-Dansville	42.56,-84.30
-Darragh	44.77,-85.05
-Davis	42.73,-82.96
-Davisburg	42.75,-83.54
-Davison	43.03,-83.52
-Davison East Mobile Estates	43.03,-83.50
-Davison Hills Mobile Home Park	43.13,-83.50
-Dayton	43.46,-83.29
-Dayton Center	43.51,-85.98
-Daytona Branch	43.46,-83.29
-De Tour Village	45.99,-83.90
-DeWitt	42.84,-84.57
-Deal Mobile Home Village	42.21,-85.79
-Dean	43.59,-84.21
-Dearborn	42.32,-83.18
-Dearborn Heights	42.34,-83.27
-Decatur	42.11,-85.97
-Decker	43.46,-83.05
-Deckerville	43.53,-82.74
-Deer Creek	42.76,-83.91
-Deer Park	46.67,-85.62
-Deerfield	41.89,-83.78
-Deerfield Center	43.60,-84.91
-Deerfield Pines Mobile Home Park	43.19,-83.32
-Deerheart Valley	44.54,-84.57
-Deerton	46.47,-87.04
-Deford	43.51,-83.19
-Deibert	44.58,-85.23
-Delano	44.10,-83.63
-Delaware	47.42,-88.10
-Delhi Manor Mobile Home Park	42.64,-84.51
-Delhi Mills	42.33,-83.81
-Delray	42.30,-83.12
-Delta Center	42.73,-84.66
-Delta Mills	42.77,-84.65
-Delta Mobile Home Park	42.97,-83.69
-Delton	42.50,-85.41
-Delwin	43.70,-84.68
-Denmark Junction	43.42,-83.65
-Dennison	43.07,-85.99
-Denton	42.26,-83.52
-Denton Township Trailer Park	44.29,-84.65
-Dequindre Estates Mobile Home Park	42.65,-83.09
-Derby	42.01,-86.48
-Detroit	42.33,-83.05
-Detroit Beach	41.93,-83.33
-Devan Mobile Home Park	42.20,-85.88
-Devereaux	42.32,-84.71
-Devil's Lake Estates	41.98,-84.31
-Devils Corner	45.74,-86.61
-Devils Elbow	44.69,-85.48
-Devils Lake	42.01,-84.29
-Deward	44.84,-84.83
-Dexter	42.34,-83.89
-Diamond Shores	41.90,-85.97
-Diamond Springs	42.68,-85.90
-Diane Mobile Home Manor	43.10,-83.70
-Diann	41.93,-83.64
-Dice	43.47,-84.11
-Dice Corners	43.61,-84.37
-Dick	46.19,-84.83
-Diffin	46.21,-87.03
-Dighton	44.09,-85.35
-Dimondale	42.65,-84.65
-Dinca	44.28,-85.05
-Diorite	46.51,-87.83
-Disco	42.68,-83.03
-Dixboro	42.31,-83.66
-Dixon	46.33,-86.85
-Dodge City	46.78,-87.87
-Dodgeville	47.09,-88.58
-Dogwood Manor Mobile Home Park	42.60,-86.07
-Dollar Bay	47.12,-88.51
-Dollar Settlement	46.46,-84.74
-Dollarville	46.35,-85.54
-Dolph	44.23,-84.88
-Donahue Beach	43.66,-83.88
-Donaldson	46.32,-84.36
-Donken	46.94,-88.79
-Donnelly	44.99,-84.31
-Dorgans Crossing	46.40,-84.61
-Dorr	42.73,-85.72
-Dorsey	46.34,-87.08
-Doster	42.47,-85.54
-Doty	46.36,-86.54
-Doughertys Corners	42.30,-85.72
-Douglas	42.64,-86.20
-Douglas Estates Mobile Home Park	42.63,-86.21
-Dover	43.89,-84.75
-Dowagiac	41.98,-86.11
-Dowling	42.52,-85.25
-Drayton Plains	42.68,-83.38
-Dreamland	47.10,-88.41
-Drenthe	42.78,-85.94
-Drew	43.66,-85.03
-Driftwood Village Mobile Home Park	44.18,-86.32
-Drummond	46.02,-83.73
-Dryburg	46.21,-84.68
-Dryden	42.95,-83.12
-Dublin	44.18,-85.93
-Duck Lake	42.40,-84.78
-Duel	43.71,-84.15
-Duffield	42.93,-83.91
-Dukes	46.35,-87.16
-Dundee	41.96,-83.66
-Dundee Meadows Mobile Home Park	41.96,-83.67
-Dunes Mobile Home Park	43.21,-86.31
-Dunham	46.38,-89.79
-Dunn Location	46.07,-88.37
-Dunningville	42.61,-85.95
-Duplain	43.05,-84.45
-Durand	42.91,-83.98
-Dutch Mills Mobile Home Park	42.78,-84.40
-Dutch Village Mobile Home Park	43.12,-83.67
-Dutton	42.84,-85.59
-Dutton Mill Village Mobile Home Park	42.84,-85.58
-Eagle	42.81,-84.79
-Eagle Harbor	47.46,-88.16
-Eagle Lake Estates	41.81,-86.03
-Eagle Mills	46.51,-87.53
-Eagle Nest	47.41,-88.28
-Eagle Point	41.90,-85.98
-Eagle River	47.41,-88.30
-Eagles Nest	45.19,-87.61
-East Comstock	42.29,-85.49
-East Cooper	42.35,-85.55
-East Dayton	43.41,-83.29
-East DeWitt	42.85,-84.54
-East Gilead	41.78,-85.08
-East Grand Rapids	42.94,-85.61
-East Highland	42.66,-83.57
-East Jordan	45.16,-85.12
-East Jordan Mobile Home Park	45.15,-85.11
-East Kingsford	45.79,-88.06
-East Lake	44.24,-86.30
-East Lansing	42.74,-84.48
-East Leroy	42.17,-85.22
-East Martin	42.55,-85.59
-East Rockwood	42.05,-83.21
-East Saugatuck	42.68,-86.09
-East Tawas	44.28,-83.49
-Eastlawn	42.24,-83.59
-Eastmanville	43.02,-85.96
-Eastmont	42.95,-85.56
-Easton	43.11,-84.09
-Eastpointe	42.47,-82.96
-Eastport	45.11,-85.35
-Eastwood	42.30,-85.55
-Eaton Pines Village Mobile Home Park	42.50,-84.66
-Eaton Rapids	42.51,-84.66
-Eau Claire	41.99,-86.30
-Eben Junction	46.35,-86.97
-Eckerman	46.37,-85.04
-Eckerman Corner	46.35,-85.03
-Eckford	42.20,-84.87
-Ecorse	42.24,-83.15
-Eden	42.52,-84.43
-Edenville	43.80,-84.38
-Edgemont Park	42.75,-84.59
-Edgemont, Southfield	42.47,-83.31
-Edgerton	43.16,-85.57
-Edgetts	44.06,-85.58
-Edgewater	44.71,-86.11
-Edgewater Beach	45.77,-84.73
-Edgewater Heights	42.20,-83.51
-Edgewood	43.29,-84.43
-Edgewood Village Mobile Home Park	43.40,-84.13
-Edison Mobile Home Court	42.97,-82.46
-Edmore	43.41,-85.04
-Edmore Mobile Home Park	43.41,-85.05
-Edwards	44.18,-84.27
-Edwardsburg	41.80,-86.08
-Edwardsburg Mobile Home Estates	41.79,-86.08
-Egelcraft Mobile Home Park	43.22,-86.14
-Eightmile Corner	46.42,-85.59
-Elba	43.04,-83.44
-Elberta	44.62,-86.23
-Elbow Lake	44.22,-84.04
-Elbridge	43.69,-86.22
-Eldorado	44.59,-84.40
-Elk Rapids	44.90,-85.42
-Elkhorn	45.95,-86.41
-Elkton	43.82,-83.18
-Ellington	43.55,-83.32
-Ellsworth	45.17,-85.25
-Elm	42.38,-83.33
-Elm Hall	43.37,-84.84
-Elmcrest Mobile Village	42.26,-83.55
-Elmdale	42.85,-85.31
-Elmer	43.42,-82.93
-Elmhurst	45.50,-84.69
-Elmira	45.06,-84.86
-Elms Mobile Home Park	43.00,-83.65
-Elmwood	46.22,-88.91
-Elo	46.87,-88.64
-Eloise	42.29,-83.34
-Elsie	43.09,-84.39
-Elwell	43.39,-84.75
-Emerson	46.56,-85.03
-Emerson Station	45.06,-83.65
-Emery	42.36,-83.68
-Emmett	42.99,-82.76
-Empire	44.81,-86.06
-Engadine	46.12,-85.57
-English Meadows Mobile Home Park	42.29,-84.45
-Englishville	43.12,-85.69
-Ensign	45.90,-86.87
-Ensley Center	43.34,-85.62
-Entrican	43.35,-85.15
-Epoufette	46.06,-85.17
-Epsilon	45.36,-84.80
-Epworth Assembly	43.98,-86.47
-Erickson Landing	46.14,-88.40
-Erie	41.79,-83.50
-Erie Mobile Home Village	41.74,-83.53
-Escanaba	45.75,-87.06
-Essexville	43.62,-83.84
-Estates of Genesee Valley Mobile Home Park	42.96,-83.81
-Estey	43.87,-84.21
-Estral Beach	41.98,-83.24
-Ethelwood	46.49,-89.72
-Eugene	43.29,-84.71
-Eureka	43.10,-84.51
-Eureka Place	43.19,-85.20
-Eustis	45.76,-87.34
-Evans	43.20,-85.46
-Evart	43.90,-85.26
-Evelyn	46.37,-86.53
-Evergreen Acres	41.91,-83.43
-Evergreen Beach	45.49,-83.98
-Evergreen Estates Mobile Home Park	41.98,-84.68
-Evergreen Mobile Home Community	43.03,-85.08
-Evergreen Park Mobile Home Park	42.38,-85.59
-Evergreen Shores	45.90,-84.74
-Evergreen Village Mobile Home Park	43.40,-84.62
-Ewen	46.54,-89.28
-Eyedylwild Beach	44.96,-84.70
-Fabius	41.91,-85.72
-Factoryville	42.05,-85.31
-Fair Haven	42.68,-82.65
-Fair Plain	42.09,-86.46
-Fairfax	41.96,-85.37
-Fairfield	41.81,-84.04
-Fairfield Manor Mobile Home Park	43.60,-84.01
-Fairgrove	43.52,-83.54
-Fairland	41.90,-86.28
-Fairlane Estates Mobile Home Park	42.60,-83.91
-Fairlawn Estates Mobile Home Park	42.62,-83.92
-Fairport	45.62,-86.66
-Fairview	44.73,-84.05
-Fairview Estates Mobile Home Park	41.93,-85.00
-Fairview Trailer Court	45.77,-87.08
-Faithorn	45.68,-87.75
-Falconview Estates Mobile Home Park	43.53,-84.10
-Fallasburg	42.98,-85.32
-Falmouth	44.24,-85.09
-Fargo	43.10,-82.66
-Farmers Creek	42.96,-83.34
-Farmington	42.46,-83.38
-Farmington Acres	42.45,-83.39
-Farmington Hills	42.49,-83.38
-Farrandville	43.19,-83.73
-Farrar Landing	44.88,-84.60
-Farwell	43.84,-84.87
-Faunus	45.89,-87.51
-Fawn River	41.78,-85.34
-Fayette	45.72,-86.67
-Fayettes Corner	44.41,-84.10
-Felch	46.00,-87.83
-Felch Mountain	46.00,-87.83
-Fenmore	43.17,-84.35
-Fenner's Mobile Village	42.98,-82.49
-Fennville	42.59,-86.10
-Fenton	42.80,-83.70
-Fenton Oaks Mobile Home Community	42.79,-83.74
-Fenwick	43.15,-85.08
-Fern	43.85,-86.22
-Ferndale	42.46,-83.13
-Ferry	43.58,-86.22
-Ferrysburg	43.08,-86.22
-Fibre	46.21,-84.73
-Fife Lake	44.58,-85.35
-Filer City	44.22,-86.29
-Filion	43.90,-83.00
-Fillmore	42.72,-86.04
-Findley	41.89,-85.37
-Fingerboard Corner	45.37,-84.45
-Finkton	45.05,-85.12
-Firesteel	46.87,-89.22
-First Point Mobile Home Park	44.85,-85.69
-Fish Corners	42.26,-86.30
-Fisher	41.88,-84.88
-Fisherman's Cove Mobile Home Park	42.96,-83.72
-Fisherville	43.60,-84.11
-Fishville	42.21,-84.16
-Fitchburg	42.44,-84.28
-Five Corners	44.64,-84.53
-Five Lakes	43.14,-83.23
-Five Mile Corners	42.06,-86.11
-Five Points	42.81,-83.61
-Five Points Corner	42.51,-84.84
-Five Points North	43.07,-84.17
-Fivemile Corner	44.75,-85.52
-Flamingo Trailer Court	42.46,-83.34
-Flanders	45.06,-83.75
-Flat Rock	45.83,-87.18
-Flat Rock Village Mobile Home Park	42.04,-83.33
-Fleming	42.64,-84.01
-Fletcher	44.54,-84.95
-Flint	43.01,-83.69
-Floodwood	46.22,-88.01
-Flowerfield	42.07,-85.66
-Floyd	43.59,-84.41
-Flushing	43.06,-83.85
-Flushing Estates Mobile Home Park	43.12,-83.86
-Foote Site Village	44.43,-83.44
-Forbes Location	46.12,-88.65
-Forbush Corner	44.79,-84.71
-Ford Boulevard Mobile Home Park	42.24,-83.58
-Ford River	45.68,-87.14
-Fordney	43.27,-84.31
-Forest Beach	45.43,-85.02
-Forest Green Estates	42.82,-84.27
-Forest Grove	42.80,-85.86
-Forest Grove Station	42.81,-85.88
-Forest Hill	43.44,-84.69
-Forest Hills	42.71,-84.40
-Forest Hills Mobile Home Park	43.68,-85.48
-Forest Lake	46.33,-86.84
-Forester	43.50,-82.57
-Forestville	46.59,-87.46
-Fornicola Trailer Park	46.48,-84.35
-Forster	42.56,-82.62
-Fort Holmes	45.86,-84.62
-Fort Mackinac	45.85,-84.62
-Fort Wayne	42.30,-83.10
-Fortune Lake	46.09,-88.42
-Foster	42.31,-83.78
-Foster City	45.96,-87.74
-Fosters	43.30,-83.92
-Fostoria	43.25,-83.37
-Fouch	44.83,-85.72
-Fountain	44.05,-86.18
-Fountain Park	41.83,-84.53
-Fountain Point	44.97,-85.71
-Fountain Springs Mobile Home Park	42.28,-85.68
-Four Seasons Trailer Park	43.49,-85.61
-Four Towns	42.62,-83.41
-Fourmile Corner	46.42,-85.51
-Fourmile Lake	42.33,-83.97
-Fowler	43.00,-84.74
-Fowlerville	42.66,-84.07
-Fox	45.48,-87.30
-Frain Lake	42.33,-83.62
-Francis Grove	43.72,-84.39
-Francisco	42.28,-84.14
-Frankenmuth	43.33,-83.74
-Frankentrost	43.41,-83.79
-Frankfort	44.63,-86.23
-Frankfort Trailer Park	44.64,-86.19
-Franklin	42.52,-83.31
-Franklin Communities Mobile Home Park	43.31,-86.26
-Franklin Mine	47.14,-88.57
-Franklin Valley Estates Mobile Home Park	42.27,-85.63
-Franklin Woods Mobile Home Park	41.79,-86.25
-Fraser	42.54,-82.95
-Freda	47.14,-88.82
-Frederic	44.78,-84.75
-Free Soil	44.11,-86.22
-Freedom	45.74,-84.64
-Freeland	43.53,-84.12
-Freeland Mobile Home Park	43.56,-84.17
-Freeman Landing	46.62,-87.47
-Freeport	42.77,-85.31
-Freidberger	43.62,-82.92
-Fremont	43.47,-85.94
-French Landing	42.21,-83.44
-French Town	43.77,-86.44
-French Town Villa Mobile Home Park	42.00,-83.35
-Frenchtown	46.47,-87.68
-Friendly Village of Adrian	41.88,-84.05
-Friendsville	42.31,-86.22
-Fritzburg	42.13,-86.05
-Frontier	41.78,-84.60
-Frost	46.60,-88.87
-Frost Corners	42.84,-84.87
-Fruit Ridge Center	43.12,-85.77
-Fruitport	43.13,-86.15
-Fuller	46.30,-89.10
-Fulton	42.12,-85.35
-Gaastra	46.06,-88.61
-Gagetown	43.66,-83.24
-Gaines	42.87,-83.91
-Gale-Valley Estates Mobile Home Park	42.29,-85.41
-Galesburg	42.29,-85.42
-Galien	41.80,-86.50
-Galloway	43.33,-84.37
-Ganges	42.58,-86.21
-Garden	45.77,-86.55
-Garden City	42.33,-83.33
-Garden Corners	45.89,-86.54
-Gardendale	43.04,-82.49
-Gardenville	46.46,-84.30
-Gardner	45.54,-87.71
-Gardners Corners	42.13,-85.35
-Garfield	43.35,-84.13
-Garland Village	44.86,-84.30
-Garletts Corner	44.22,-85.80
-Garnet	46.16,-85.31
-Garth	45.90,-86.95
-Gay	47.23,-88.16
-Gaylord	45.03,-84.67
-Geddes	42.27,-83.67
-Geels	44.42,-84.48
-Gem	46.53,-89.14
-Genesee	43.11,-83.62
-Geneva	41.96,-84.28
-Gentian	46.43,-87.47
-Gera	43.39,-83.74
-Germfask	46.25,-85.93
-Giauque Beach	45.48,-84.59
-Gibbs City	46.23,-88.70
-Gibraltar	42.10,-83.19
-Gibson	42.71,-86.19
-Gibson Lake	46.20,-88.43
-Giddings	44.58,-85.20
-Gilbert	44.38,-85.42
-Gilchrist	46.14,-85.38
-Gilead	41.80,-85.16
-Gilford	43.49,-83.62
-Gillet Landing	46.87,-87.78
-Gingellville	42.72,-83.31
-Girard	42.03,-85.00
-Gitchel	42.78,-85.84
-Gladstone	45.85,-87.02
-Gladwin	43.98,-84.49
-Glen Arbor	44.90,-85.99
-Glen Haven	44.90,-86.03
-Glen Lake Trailer Park	44.86,-86.01
-Glen Lord	42.04,-86.51
-Glen-Aire Mobile Home Park	42.05,-86.48
-Glencoe	43.96,-82.89
-Glendale	42.30,-85.96
-Glendora	41.89,-86.49
-Glengary	42.57,-83.50
-Glenn	42.52,-86.23
-Glenn Haven Shores	42.49,-86.24
-Glenn Shores	42.50,-86.24
-Glenn Stores	42.50,-86.24
-Glenn Wood Mobile Village	42.47,-83.08
-Glennie	44.56,-83.73
-Glenwood	42.06,-86.03
-Glenwood Beach	44.06,-83.61
-Glenwood Estates Mobile Home Park	43.13,-85.71
-Glovers Corner	46.89,-88.11
-Gobles	42.36,-85.88
-Goetzville	46.06,-84.09
-Gogebic	46.35,-89.50
-Golden	46.14,-88.02
-Golden Pond Estates	41.90,-85.71
-Golfcrest	41.94,-83.37
-Good Hart	45.57,-85.11
-Goodar	44.50,-83.90
-Goodells	42.98,-82.67
-Goodison	42.73,-83.16
-Goodland	43.09,-83.07
-Goodrich	42.92,-83.51
-Gordon	46.48,-87.23
-Gordon Beach	41.83,-86.70
-Gordonville	43.57,-84.37
-Gould City	46.10,-85.70
-Gourley	45.59,-87.42
-Gowen	43.25,-85.30
-Graafschap	42.75,-86.14
-Grace	45.55,-84.13
-Grafton	42.04,-83.39
-Grand Beach	41.77,-86.80
-Grand Blanc	42.93,-83.63
-Grand Blanc Township	42.91,-83.64
-Grand Country Mobile Home Village	43.01,-86.00
-Grand Haven	43.06,-86.23
-Grand Junction	42.40,-86.07
-Grand Ledge	42.75,-84.75
-Grand Ledge Ravines Mobile Home Park	42.75,-84.76
-Grand Marais	46.67,-85.99
-Grand Rapids	42.96,-85.67
-Grand Shire Estates Mobile Home Park	42.65,-84.08
-Grand Valley	42.97,-85.87
-Grand View	45.72,-84.60
-Grand View Acres	42.43,-83.45
-Grand View Beach	45.46,-84.59
-Grande Pointe	42.60,-82.55
-Grandville	42.91,-85.76
-Grange Corners	42.58,-86.19
-Granite Bluff	45.94,-88.05
-Grant	43.34,-85.81
-Grant Center	43.77,-85.40
-Grape	41.96,-83.54
-Grass Lake	42.25,-84.21
-Grattan	43.08,-85.38
-Grawn	44.66,-85.69
-Grayling	44.66,-84.71
-Great Lakes Beach	43.22,-82.52
-Great Northern Trailer Court	46.30,-85.49
-Greater Galesburg	42.28,-85.45
-Green	46.84,-89.44
-Green Acres Mobile Home Park	43.22,-85.71
-Green Garden	46.44,-87.28
-Green Haven	46.54,-86.02
-Green Lake	42.74,-85.60
-Green Meadow Village Mobile Home Park	42.85,-85.66
-Green Oak	42.49,-83.70
-Green River	44.99,-85.06
-Green Timbers	45.17,-84.54
-Greenbriar Estates Mobile Home Park	43.13,-85.26
-Greenbriar Village Mobile Home Park	43.99,-84.50
-Greenbush	44.59,-83.32
-Greenfield Park	42.34,-85.14
-Greenfield Village	42.31,-83.22
-Greenland	46.78,-89.10
-Greenville	43.18,-85.25
-Greenwood	46.49,-87.76
-Gregory	42.46,-84.08
-Gregoryville	47.19,-88.39
-Greilickville	44.78,-85.64
-Gresham	42.64,-84.90
-Grind Stone City	44.05,-82.90
-Groos	45.81,-87.10
-Gros Cap	45.87,-84.83
-Grosse Ile	42.13,-83.14
-Grosse Pointe	42.39,-82.91
-Grosse Pointe Farms	42.41,-82.89
-Grosse Pointe Park	42.38,-82.94
-Grosse Pointe Shores	42.44,-82.88
-Grosse Pointe Woods	42.44,-82.91
-Groveland Corners	42.82,-83.55
-Groveton	43.24,-84.13
-Guernsey Lake Mobile Home Court	42.55,-85.41
-Gull Lake	42.37,-85.39
-Gulliver	45.99,-86.01
-Gun River Mobile Estates	42.47,-85.64
-Gun River West Mobile Home Park	42.46,-85.65
-Gunnisonville	42.81,-84.52
-Gunther Mobile Home Court	43.10,-83.67
-Gustin	44.63,-83.41
-Guthrie	42.30,-84.07
-Gwinn	46.28,-87.44
-Haakwood	45.30,-84.62
-Hadley	42.95,-83.40
-Hagensville	45.33,-83.78
-Hale	44.38,-83.80
-Hallers Corners	42.69,-83.70
-Halls Corner	43.54,-85.22
-Hamburg	42.45,-83.80
-Hamburg Hills Estates Mobile Home Park	42.43,-83.81
-Hamilton	42.68,-86.01
-Hamlin Lake	44.02,-86.46
-Hamlin Mobile Home Community	42.64,-84.15
-Hammell Beach	44.09,-83.58
-Hammond	45.50,-84.04
-Hamtramck	42.39,-83.05
-Hancock	47.13,-88.58
-Hand	42.25,-83.27
-Hangore Heights	45.44,-84.30
-Hannah	44.58,-85.64
-Hannahville	45.65,-87.35
-Hanover	42.10,-84.55
-Hanover Village Apartments Mobile Home Park	42.64,-85.28
-Hansen	45.24,-87.61
-Harbert	41.87,-86.63
-Harbor Beach	43.84,-82.65
-Harbor Point	45.42,-84.99
-Harbor Springs	45.43,-84.99
-Harbor Springs Estate	45.44,-84.98
-Harbor View	45.34,-83.49
-Hard Luck	44.07,-84.19
-Hardwood	45.96,-87.69
-Hardwood Acres	44.72,-85.82
-Haring	44.28,-85.40
-Harlan	44.46,-85.82
-Harlem	42.87,-86.11
-Harmon City Heights	44.13,-83.57
-Harper Woods	42.43,-82.92
-Harrietta	44.31,-85.70
-Harris	45.70,-87.35
-Harrisburg	43.19,-85.87
-Harrison	44.02,-84.80
-Harrison Beach	45.98,-86.30
-Harrison Mobile Home Estates	44.01,-84.80
-Harrisville	44.66,-83.29
-Harsens Island	42.58,-82.57
-Hart	43.70,-86.36
-Hartford	42.21,-86.17
-Hartland	42.66,-83.75
-Hartland Meadows Mobile Home Park	42.63,-83.69
-Hartley	46.39,-89.82
-Hartman	42.01,-86.32
-Harvard	43.19,-85.42
-Harvey	46.49,-87.35
-Haslett	42.75,-84.40
-Hastings	42.65,-85.29
-Hatchs	44.83,-85.68
-Hatmaker	41.85,-85.12
-Hatton	43.92,-84.82
-Hautala Corner	46.52,-90.16
-Havenview Mobile Home Court	43.73,-85.51
-Hawkhead	42.47,-86.21
-Hawkins	43.80,-85.60
-Hawks	45.30,-83.89
-Hawthorne	42.77,-82.47
-Hazel	46.79,-88.72
-Hazel Park	42.46,-83.10
-Hazelhurst	41.88,-86.63
-Heather Hill Estates Mobile Home Park	43.00,-83.76
-Hebards	47.28,-88.30
-Heimforth	44.86,-85.71
-Helena	43.77,-82.69
-Hell	42.43,-83.98
-Helmer	46.27,-85.72
-Helps	45.93,-87.60
-Hemans	43.46,-83.09
-Hemlock	44.28,-83.70
-Henderson	43.09,-84.20
-Hendricks	45.98,-87.35
-Heritage Hills Mobile Home Park	43.89,-86.40
-Herman	46.67,-88.37
-Hermansville	45.71,-87.60
-Herrick	43.80,-84.71
-Herrington	43.06,-85.83
-Herron	45.02,-83.65
-Hersey	43.85,-85.44
-Hesperia	43.57,-86.04
-Hessel	46.00,-84.43
-Hetherton	45.01,-84.37
-Hi-Way Mobile Haven	42.60,-84.77
-Hi-Way Trailer Court	42.95,-83.65
-Hiawatha	46.12,-86.26
-Hiawatha Location	46.07,-88.64
-Hiawatha Trailer Park	44.00,-83.10
-Hickory Corners	42.44,-85.38
-Hickory Haven Mobile Home Community	42.50,-84.65
-Hickory Hills Village Mobile Home Park	42.22,-85.18
-Hickory Ridge	42.68,-83.66
-Hidden Creek Manufactured Home Community	41.74,-83.69
-Hidden Forest Mobile Home Park	43.96,-86.37
-Hidden Oaks Mobile Home Park	43.12,-86.15
-Hidden Valley Mobile Home Community	42.99,-85.00
-Higbee Corner	43.54,-85.39
-Higgins Lake	44.48,-84.78
-High Banks	45.64,-84.27
-Highland	42.64,-83.62
-Highland Hills Mobile Home Park	42.32,-85.61
-Highland Park	42.40,-85.42
-Highlands Mobile Home Park	43.12,-83.67
-Highwood	43.93,-84.31
-Higman Park	42.13,-86.47
-Hill's Haven Mobile Home Park	41.88,-86.36
-Hill's Mobile Home Park	43.46,-85.96
-Hillanlake Village Mobile Home Park	42.09,-84.20
-Hillcrest	46.49,-90.16
-Hillcrest Acres Mobile Home Park	42.32,-85.61
-Hillcrest Mobile Home Park	43.19,-86.22
-Hillcrest Orchard	41.85,-83.48
-Hilliards	42.67,-85.73
-Hillman	45.06,-83.90
-Hills Corners	41.89,-86.48
-Hillsdale	41.92,-84.63
-Hillsdale Mobile Village	41.94,-84.65
-Hillside Acres Mobile Home Park	41.88,-84.71
-Hilltop	44.61,-85.66
-Hilltop Mobile Home Park	43.03,-85.63
-Hillview Mobile Estates	42.19,-86.30
-Hinchman	41.97,-86.43
-Hiram	43.34,-85.48
-Hobart	44.18,-85.45
-Hockaday	44.09,-84.43
-Hodunk	42.01,-85.06
-Holiday Gardens Mobile Home Park	42.75,-85.58
-Holiday Manor Park	42.28,-84.32
-Holiday Mobile Home Park	42.70,-85.78
-Holiday South Mobile Home Park	41.91,-83.44
-Holiday Terrace Mobile Home Park	43.67,-85.25
-Holiday Village Mobile Home Park	43.95,-86.32
-Holiday West Village Mobile Home Park	42.83,-86.15
-Holland	42.79,-86.11
-Holloway	41.94,-83.91
-Holly	42.79,-83.63
-Hollywood	42.49,-86.24
-Holt	42.64,-84.52
-Holt Manor Mobile Home Park	42.65,-84.53
-Holt's Mobile Home Court	43.07,-83.67
-Holton	43.41,-86.08
-Holy Corners	42.81,-85.53
-Homecrest Villa Mobile Home Park	42.53,-85.88
-Homeier	46.77,-87.68
-Homer	42.15,-84.81
-Homer Location	46.12,-88.66
-Homestead	46.34,-84.12
-Honor	44.66,-86.02
-Hooks Corner	41.83,-86.67
-Hooper	42.51,-85.56
-Hoovers Corners	43.10,-84.31
-Hope	43.76,-84.34
-Hopkins	42.62,-85.76
-Hopkinsburg	42.62,-85.70
-Horr	43.68,-85.05
-Horton	42.15,-84.52
-Horton Bay	45.28,-85.08
-Houghton	47.12,-88.57
-Houghton Lake	44.31,-84.76
-Houghton Lake Heights	44.33,-84.77
-Houghton Point	44.37,-84.76
-Houle	45.71,-87.40
-Houseman	44.61,-85.31
-Howard City	43.40,-85.47
-Howardsville	42.03,-85.72
-Howell	42.61,-83.93
-Howlandsburg	42.34,-85.40
-Hoxeyville	44.19,-85.71
-Hoytville	42.74,-84.90
-Hubbard Lake	44.76,-83.54
-Hubbardston	43.09,-84.84
-Hubbell	47.17,-88.43
-Huber	43.61,-86.00
-Hudson	41.86,-84.35
-Hudson Mills	42.39,-83.92
-Hudsonville	42.87,-85.87
-Hulbert	46.35,-85.15
-Humboldt	46.50,-87.89
-Humboldt Mine	46.48,-87.90
-Humphrey	44.47,-86.06
-Hunters Creek	42.99,-83.29
-Hunters Creek Estates Mobile Home Park	43.67,-85.32
-Hunters Creek Mobile Home Community	43.04,-83.32
-Hunters Glen Mobile Home Park	42.73,-85.66
-Huntington Run Mobile Home Park	42.26,-85.67
-Huntington Woods	42.48,-83.17
-Huntspur	46.04,-85.85
-Huntsville Park	43.60,-83.16
-Huron Beach	45.49,-84.09
-Huron City	44.03,-82.83
-Huron Heights	44.14,-83.57
-Huron Mountain	46.89,-87.87
-Huron Oaks	44.23,-83.55
-Huron River Mobile Home Park	42.05,-83.22
-Huron Shores Estates Mobile Home Park	43.46,-82.55
-Huronia Heights	43.21,-82.52
-Hurontown	47.11,-88.57
-Hyde	45.73,-87.20
-Hyde Park	44.22,-83.55
-Hylas	45.96,-87.68
-Ida	41.91,-83.57
-Ida Center	41.87,-83.57
-Ideal Villa Mobile Home Park	42.95,-83.31
-Idlewild	43.89,-85.80
-Imlay City	43.02,-83.08
-Imperial Heights	46.53,-88.13
-Imperial Mobile Homes	42.76,-84.74
-Ina	44.12,-85.29
-Independence Commons Mobile Home Park	42.63,-84.75
-Indian Cove Estates Mobile Home Park	41.93,-85.19
-Indian Grove	42.39,-86.28
-Indian Lake	42.01,-86.21
-Indian River	45.41,-84.61
-Indian Town	46.41,-86.56
-Indian Village Mobile Home Park	42.22,-84.35
-Indiantown	45.70,-87.38
-Indianville	45.51,-84.72
-Ingalls	45.38,-87.61
-Ingallston	45.21,-87.53
-Ingleside	45.60,-84.71
-Inkster	42.29,-83.31
-Inland	46.04,-85.87
-Interlochen	44.64,-85.77
-Inverness Mobile Home Community	41.73,-83.56
-Ionia	42.99,-85.07
-Iron Mountain	45.82,-88.07
-Iron River	46.09,-88.64
-Irons	44.14,-85.92
-Ironton	45.26,-85.19
-Ironwood	46.45,-90.17
-Irving	42.69,-85.42
-Isabella	45.90,-86.61
-Isabella Mobile Home Park	43.60,-84.75
-Isadore	44.88,-85.77
-Ishaward	44.81,-84.84
-Ishpeming	46.49,-87.67
-Island View	45.64,-87.20
-Ithaca	43.29,-84.61
-Iva	43.46,-84.27
-Ivanhoe	43.71,-83.09
-Jacks Landing	44.67,-85.45
-Jackson	42.25,-84.40
-Jackson Mobile Home Park	42.22,-84.39
-Jackson Trailer Park	42.47,-83.03
-Jacobsville	46.98,-88.41
-Jamestown	42.83,-85.84
-Jasper	41.79,-84.04
-Jeddo	43.15,-82.58
-Jefferson	42.11,-84.29
-Jenison	42.91,-85.79
-Jennings	44.33,-85.30
-Jericho Corners	42.35,-86.21
-Jerico	41.97,-86.53
-Jerome	42.03,-84.47
-Jerusalem	42.27,-83.98
-Jessieville	46.45,-90.13
-Johannesburg	44.99,-84.46
-Johnson Landing	45.27,-87.47
-Johnswood	45.95,-83.62
-Jones	41.90,-85.80
-Jonesville	41.98,-84.66
-Joppa	42.19,-85.22
-Jordan	43.66,-84.73
-Jossman Acres	42.76,-83.47
-Juddville	43.06,-83.99
-Judy's Mobile Home Court	41.78,-86.78
-Jugville	43.53,-85.86
-Juhl	43.36,-82.95
-Junet	46.51,-90.20
-Juniata	43.35,-83.46
-Juniper	46.36,-86.59
-K I Sawyer	46.33,-87.38
-K. I. Sawyer Air Force Base	46.33,-87.37
-Kaiserville	42.43,-84.03
-Kalamazoo	42.29,-85.59
-Kalamo	42.54,-85.01
-Kaleva	44.37,-86.01
-Kalkaska	44.73,-85.18
-Kampvilla Mobile Home Park	44.48,-86.12
-Karlin	44.58,-85.78
-Karrs Corner	43.45,-83.58
-Katakitckon Indian Village	46.15,-89.09
-Kawkawlin	43.65,-83.94
-Kearsarge	47.27,-88.42
-Kearsley Lake Terrace Mobile Home Park	43.06,-83.64
-Keego Harbor	42.61,-83.34
-Keelans Corner	44.34,-85.08
-Keeler	42.11,-86.17
-Keewahdin	43.04,-82.44
-Kelden	46.22,-84.29
-Kells	45.43,-87.71
-Kellys Corners	43.24,-85.95
-Kelso Junction	46.15,-88.25
-Kendall	42.36,-85.81
-Kenneth	46.10,-84.93
-Keno	44.47,-84.41
-Kensington Meadows Mobile Home Park	42.68,-84.61
-Kent City	43.22,-85.75
-Kent City Mobile Home Park	43.22,-85.72
-Kenton	46.49,-88.89
-Kentucky	46.27,-86.63
-Kentwood	42.87,-85.64
-Kerby	43.00,-84.07
-Kerr Hill	42.90,-83.40
-Kessington	41.78,-85.90
-Keswick	44.93,-85.65
-Kew	45.16,-87.62
-Kewadin	44.93,-85.37
-Keweenaw Bay	46.86,-88.48
-Key Heights Village Mobile Home Park	42.93,-85.39
-Key Mobile Home Court	43.98,-84.36
-Kibbie	42.42,-86.19
-Kiernan	46.15,-88.18
-Killarney Beach	43.69,-83.92
-Killmaster	44.63,-83.45
-Kilmanagh	43.76,-83.36
-Kimball	42.95,-82.56
-Kimball Location	46.09,-88.33
-Kimberly Estates Mobile Home Park	41.99,-83.37
-Kinde	43.94,-83.00
-Kinderhook	41.80,-85.01
-King Arthur Mobile Home Park	42.79,-84.52
-King's Court Mobile Home Park	44.73,-85.61
-Kings Corner	43.25,-85.07
-Kings Court Mobile Park	41.89,-84.02
-Kings Landing	42.04,-86.40
-Kings Mill	43.14,-83.17
-Kingsbrook Mobile Home Estates	42.93,-83.05
-Kingsford	45.79,-88.07
-Kingsland	42.59,-84.65
-Kingsley	45.93,-87.26
-Kingsley Beach	45.40,-84.66
-Kingsley Mobile Park	42.25,-83.56
-Kingston	43.41,-83.19
-Kinneville	42.47,-84.57
-Kinney	43.02,-85.77
-Kinross	46.28,-84.51
-Kipling	45.87,-87.01
-Kirkwood Community Mobile Home Park	43.03,-83.64
-Kiva	46.25,-87.08
-Klingers	41.79,-85.53
-Klingville	46.97,-88.48
-Kneeland	44.71,-84.09
-Knights Mill	44.12,-83.95
-Knollwood Estates Mobile Home Park	42.97,-85.90
-Kochville	43.50,-83.95
-Koss	45.39,-87.71
-Kris Kay Mobile Home Park	43.40,-84.13
-Kristana Mobile Home Park	42.77,-84.54
-Kurtz	44.56,-83.65
-L and M Trailer Park	46.48,-84.40
-L'Anse	46.76,-88.45
-L'Anse Mobile Home Court	46.74,-88.43
-La Grande Mobile Home Court	42.92,-85.76
-La Grange	41.95,-86.04
-La Salle	41.87,-83.45
-LaBranche	45.88,-87.47
-LaFayette Landing	46.80,-89.84
-Labarge	42.81,-85.49
-Lac La Belle	47.38,-88.02
-Lacey	42.49,-85.19
-Lachine	45.08,-83.72
-Lacota	42.41,-86.13
-Ladoga	46.28,-87.05
-Lafayette Place Mobile Home Park	42.45,-83.08
-Lagoon Beach	43.66,-83.89
-Laing	43.52,-82.93
-Laingsburg	42.89,-84.35
-Lake	43.85,-85.01
-Lake Angeline	46.48,-87.68
-Lake Angelus	42.70,-83.32
-Lake Ann	44.72,-85.84
-Lake Bluff	45.81,-87.06
-Lake City	44.34,-85.22
-Lake Fenton	42.85,-83.71
-Lake Forest Mobile Home Park	43.38,-85.78
-Lake George	43.96,-84.95
-Lake Gogebic	46.58,-89.61
-Lake Haven Estates Mobile Home Park	46.28,-87.34
-Lake Huron Beach	44.23,-83.55
-Lake Isabella	43.64,-85.00
-Lake Leelanau	44.98,-85.72
-Lake Linden	47.19,-88.41
-Lake Margrethe	44.64,-84.77
-Lake Michigan Beach	42.22,-86.37
-Lake Michigan Heights Mobile Home Park	45.31,-85.25
-Lake Mine	46.78,-89.05
-Lake Odessa	42.78,-85.14
-Lake Orion	42.78,-83.24
-Lake Orion Heights	42.77,-83.26
-Lake Region Mobile Home Park	41.95,-84.88
-Lake Roland	46.88,-88.86
-Lake Superior Estates	46.47,-84.35
-Lake Terrace Mobile Court	45.33,-85.23
-Lake in the Hills Mobile Home Park	42.69,-83.24
-Lakecrest Mobile Home Park	41.98,-85.04
-Lakefield	43.35,-84.33
-Lakeland	42.46,-83.84
-Lakeport	43.12,-82.49
-Lakeshore Estates Mobile Home Park	45.18,-83.46
-Lakeshore Mobile Estates Park	42.01,-86.52
-Lakeside	41.85,-86.67
-Lakeside Mobile Court	43.05,-83.65
-Lakeside Mobile Home Community	43.12,-85.36
-Laketon	46.34,-85.75
-Lakeview	41.83,-86.69
-Lakeview Estates Mobile Home Park	42.93,-84.00
-Lakeview Homes Mobile Home Park	43.43,-85.26
-Lakeview Mobile Home Park	42.20,-83.57
-Lakeview Mobile Home Village	45.22,-85.01
-Lakeview Mobile Park	42.80,-86.12
-Lakeview Village Mobile Home Park	43.88,-84.50
-Lakeville	42.82,-83.15
-Lakewood	45.19,-83.43
-Lakewood Club	43.37,-86.26
-Lakewood Mobile Home Estates	41.84,-86.65
-Lakewood Mobile Home Park	43.79,-86.43
-Lambert	45.84,-87.10
-Lambertville	41.77,-83.63
-Lambs	42.93,-82.71
-Lamont	43.01,-85.91
-Lanewood	42.33,-84.02
-Langport	43.37,-84.39
-Langston	43.31,-85.24
-Lansing	42.73,-84.56
-Lapeer	43.05,-83.32
-Lapeer Heights	43.01,-83.59
-Lapeer Meadows Mobile Home Park	43.07,-83.30
-Laporte	43.50,-84.19
-Larch	45.79,-87.06
-Larkin	43.72,-84.25
-Larson Beach	44.80,-83.52
-Lathrop	46.15,-87.22
-Lathrup Village	42.50,-83.22
-Laurium	47.24,-88.44
-Lavender Corner	46.50,-85.94
-Lawndale	42.29,-85.46
-Lawndale Estates Mobile Home Park	43.48,-84.04
-Lawrence	42.22,-86.05
-Lawrence Manor Mobile Home Park	42.56,-84.84
-Lawrence Mobile Home Park	42.21,-86.05
-Lawson	46.33,-87.14
-Lawton	42.17,-85.85
-Layton Corners	43.18,-83.99
-Le Lac Appelle	42.28,-86.30
-Le Roy	44.04,-85.45
-Leapers	45.79,-87.69
-Leaton	43.67,-84.71
-Lee	42.45,-86.09
-Lee Center	42.41,-84.89
-Lee Villa Mobile Home Park	41.96,-84.97
-Leelanau Schools	44.92,-85.97
-Leelanau Shores	44.89,-85.69
-Leer	45.20,-83.74
-Leetsville	44.79,-85.14
-Leffingwell Estates Mobile Home Park	41.84,-84.36
-Legrand	45.40,-84.45
-Leisure	42.47,-86.17
-Leisure Estates Mobile Home Park	42.81,-86.12
-Leisure Village Mobile Home Park	43.06,-85.55
-Leland	45.02,-85.76
-Lemon Park	42.15,-85.50
-Lenawee Junction	41.88,-83.94
-Lencel	46.35,-85.43
-Lennon	42.98,-83.93
-Leonard	42.87,-83.14
-Leoni	42.24,-84.27
-Leonidas	42.02,-85.35
-Leota	44.14,-84.89
-Leroy	45.22,-83.52
-Leslie	42.45,-84.43
-Leslie's Mobile Home Village	42.48,-82.94
-Lesterville	42.96,-82.91
-Level Park	42.36,-85.27
-Level Park-Oak Park	42.36,-85.27
-Levering	45.64,-84.79
-Lewer Pewabic	47.15,-88.56
-Lewiston	44.88,-84.31
-Lewisville	43.94,-82.83
-Lexington	43.27,-82.53
-Lexington Heights	43.23,-82.52
-Lexington Mobile Home Park	43.28,-82.53
-Liberty	42.10,-84.40
-Liberty Corners	41.75,-83.59
-Lickly Corners	41.80,-84.46
-Life O'Riley Mobile Home Park	42.66,-84.57
-Lilley	43.77,-85.85
-Lima Center	42.30,-83.96
-Lime Creek	41.77,-84.33
-Limestone	46.26,-86.93
-Liminga	47.16,-88.70
-Lincoln	44.68,-83.41
-Lincoln Estates Mobile Home Park	42.76,-86.10
-Lincoln Junction	44.49,-83.35
-Lincoln Park	42.25,-83.18
-Linden	42.81,-83.78
-Linden Hills	42.30,-86.32
-Linden Mobile Home Park	41.76,-85.94
-Linden Place Mobile Home Court	42.97,-83.78
-Linkville	43.76,-83.27
-Linwood	43.74,-83.96
-Linwood Beach	43.72,-83.94
-Lisbon	43.15,-85.79
-Liske	45.33,-83.74
-Litchfield	42.04,-84.76
-Little Gem Mobile Home Court	42.54,-85.64
-Little Killarney Beach	43.68,-83.92
-Little Lake	46.29,-87.34
-Little Manistee	44.10,-85.91
-Little Paw Paw Lake	42.22,-86.28
-Little Point Sable	43.63,-86.54
-Little Valley Estates Mobile Home Park	42.44,-83.34
-Little Venice	42.69,-84.96
-Livingston	41.97,-86.54
-Livonia	42.37,-83.35
-Lockport	43.52,-84.25
-Lockwood	41.88,-85.05
-Lockwood Beach	43.84,-84.34
-Locust Corners	41.88,-84.42
-Lodi	44.64,-85.18
-Loehme	43.69,-84.07
-Log Haven Mobile Home Park	44.99,-84.67
-Logan	42.33,-83.67
-Logan Estates Mobile Home Park	42.83,-86.00
-London	42.02,-83.61
-Long Lake	44.42,-83.87
-Long Lake Heights	44.10,-84.77
-Long Point	45.52,-84.55
-Long Rapids	45.13,-83.72
-Longrie	45.41,-87.73
-Loomis	43.79,-84.67
-Loon Lake Manufactured Home Community	42.83,-83.75
-Loretto	45.78,-87.82
-Lost Lake Woods	44.78,-83.42
-Lottivue	42.66,-82.76
-Louis Cabin Landing	44.67,-84.64
-Lovells	44.80,-84.48
-Lowell	42.93,-85.34
-Lower Chub Landing	44.89,-84.58
-Loxley	44.27,-84.80
-Lucas	44.22,-85.29
-Luce	43.23,-84.03
-Ludington	43.96,-86.45
-Lulu	41.88,-83.61
-Lum	43.10,-83.15
-Luna Pier	41.81,-83.44
-Lupton	44.43,-84.03
-Luther	44.04,-85.68
-Luzerne	44.62,-84.27
-Lyle	43.83,-84.54
-Lyndon Center	42.38,-84.08
-Lyndon Mobile Home Court	43.81,-83.00
-Lyon Manor	44.46,-84.73
-Lyons	42.98,-84.95
-Mabel	44.77,-85.36
-Macatawa	42.77,-86.21
-Mackinac Island	45.85,-84.62
-Mackinaw City	45.78,-84.73
-Macks Landing	42.63,-86.15
-Macomb	42.70,-82.96
-Macon	42.07,-83.87
-Madison Center	41.86,-84.04
-Madison Heights	42.49,-83.11
-Malcolm	44.49,-86.16
-Mancelona	44.90,-85.06
-Manchester	42.15,-84.04
-Mandan	47.42,-88.02
-Mangum	46.46,-87.26
-Manistee	44.24,-86.32
-Manistique	45.96,-86.25
-Manitou Beach	41.97,-84.31
-Manitou Beach-Devils Lake	41.98,-84.29
-Manning	45.52,-84.35
-Mansfield	46.09,-88.15
-Mansfield Location	46.12,-88.22
-Mantila Camp	46.21,-87.06
-Manton	44.41,-85.40
-Maple Beach	42.05,-83.19
-Maple City	44.86,-85.86
-Maple Grove	46.30,-87.16
-Maple Grove Corners	42.38,-86.24
-Maple Grove Estates Mobile Home Community	42.73,-85.71
-Maple Grove Mobile Home Communities	43.00,-83.08
-Maple Grove Mobile Home Park	42.96,-83.69
-Maple Grove Mobile Home Village	43.60,-84.18
-Maple Grove Trailer Park	41.93,-85.97
-Maple Hill	43.37,-85.48
-Maple Hill Village Mobile Home Park	42.20,-86.17
-Maple Island	42.06,-86.18
-Maple Island Estates Mobile Home Park	43.26,-86.07
-Maple Knoll Mobile Home Park	42.59,-84.80
-Maple Leaf	42.58,-82.57
-Maple Rapids	43.10,-84.69
-Maple Ridge	44.14,-83.93
-Maple Valley	44.31,-84.49
-Maple View Estates Mobile Home Park	43.61,-84.63
-Maple Woods Manufactured Home Community	41.89,-84.07
-Maplehurst	42.35,-85.15
-Mapleton	44.90,-85.51
-Mapleview Estates Mobile Home Park	43.21,-82.98
-Mapleview Valley Mobile Home Park	42.80,-86.01
-Maplewood	45.97,-86.97
-Maplewood Mobile Home Park	42.85,-85.67
-Marcellus	42.03,-85.82
-Marengo	42.27,-84.85
-Marenisco	46.38,-89.70
-Marilla	44.37,-85.88
-Marine City	42.72,-82.49
-Marion	44.10,-85.15
-Marion Springs	43.24,-84.33
-Marks	46.26,-85.70
-Marlborough	43.86,-85.84
-Marlette	43.33,-83.08
-Marlin Village Mobile Home Community	41.85,-86.14
-Marne	43.04,-85.83
-Marquette	46.54,-87.40
-Marsh Corner	45.58,-84.94
-Marshall	42.27,-84.96
-Martin	42.54,-85.64
-Martindale Beach	42.69,-82.51
-Martins Bluff	45.64,-85.49
-Martins Landing	46.54,-87.99
-Martinsville	42.14,-83.46
-Marysville	42.91,-82.49
-Marysville Farms Manufacturing Home Community	42.95,-82.49
-Marysville Villa Estates Mobile Home Park	42.93,-82.46
-Mashek	46.05,-87.47
-Mason	42.58,-84.44
-Mason Manor Mobile Home Community	42.52,-84.44
-Masonville	45.91,-86.99
-Mass City	46.76,-89.09
-Mastodon	46.02,-88.35
-Matchwood	46.56,-89.40
-Matherton	43.07,-84.84
-Mattawan	42.21,-85.78
-Matteson	41.94,-85.19
-Maue Corners	44.36,-86.14
-Maxton	46.03,-83.68
-Maybee	42.00,-83.52
-Mayfield	44.63,-85.53
-Mayville	43.34,-83.35
-Maywood	45.84,-86.99
-McBain	44.19,-85.21
-McBride	43.35,-85.04
-McCarron	46.33,-84.28
-McClure	44.04,-84.43
-McComb Corner	46.87,-88.11
-McCords	42.87,-85.44
-McDonald	42.27,-86.16
-McFarland	46.18,-87.24
-McGee	44.61,-85.17
-McGregor	43.48,-82.75
-McGrew Junction	43.07,-83.68
-McHarg	45.04,-83.61
-McIntyre Landing	44.67,-84.81
-McIvor	44.23,-83.68
-McKeever	46.75,-89.05
-McKinley	44.65,-83.94
-McLean	43.36,-85.98
-McLeods Corner	46.30,-85.36
-McManus Corner	44.54,-85.46
-McMillan	46.34,-85.69
-McMillan Corner	46.31,-85.69
-McPhees Landing	46.37,-85.42
-Meade	42.72,-82.87
-Meadow	44.26,-83.64
-Meadow Lane Mobile Home Park	44.70,-85.66
-Meadow Lane Village Mobile Home Park	41.94,-85.62
-Meadow Streams Estate Mobile Home Park	42.06,-86.40
-Meadow View Village Mobile Home Park	42.27,-85.63
-Meadowbrook Estates Mobile Home Park	41.91,-83.43
-Meadowbrook Manor Estates Mobile Home Park	43.12,-83.83
-Meadows Mobile Home Park	43.46,-83.70
-Meadows of Farwell Mobile Home Park	43.84,-84.86
-Meadows of Saint Johns Mobile Home Park	42.97,-84.57
-Meadowview Village Mobile Home Park	43.47,-85.97
-Meads Landing	44.41,-84.80
-Mears	43.68,-86.42
-Meauwataka	44.35,-85.54
-Mecosta	43.62,-85.23
-Medina	41.81,-84.26
-Meisenheimer Corners	43.86,-86.40
-Melita	44.11,-84.01
-Melstrand	46.46,-86.42
-Melvin	43.19,-82.86
-Melvindale	42.28,-83.18
-Memory Lane Mobile Home Park	41.79,-85.47
-Memphis	42.90,-82.77
-Mendon	42.01,-85.45
-Menominee	45.11,-87.61
-Menonaqua Beach	45.42,-84.91
-Mentha	42.36,-85.77
-Meredith	44.13,-84.61
-Meridian	42.69,-84.36
-Merlino's Hidden Valley Estates Mobile Home Park	42.72,-85.26
-Merrill	43.41,-84.33
-Merriman	45.92,-88.06
-Merritt	44.33,-84.94
-Merriweather	46.57,-89.64
-Merson	42.43,-85.87
-Mesick	44.41,-85.71
-Metamora	42.94,-83.29
-Metropolitan	45.99,-87.89
-Metz	45.29,-83.80
-Meyers Beach	43.81,-83.93
-Miami Beach	45.45,-84.56
-Miami Park	42.47,-86.25
-Michelson	44.38,-84.84
-Michiana	41.76,-86.81
-Michiana Mobile Home Park	41.92,-85.45
-Michigamme	46.53,-88.11
-Michigan Center	42.23,-84.33
-Michillinda	43.35,-86.41
-Michiwaukee Shores	45.95,-86.36
-Middle Village	45.55,-85.11
-Middleton	43.18,-84.71
-Middletown	42.99,-84.14
-Middleville	42.71,-85.46
-Midland	43.62,-84.25
-Midland Park	42.39,-85.39
-Mikado	44.59,-83.42
-Milan	42.09,-83.68
-Milford	42.59,-83.60
-Mill Mine Junction	47.08,-88.65
-Mill Pond Village Mobile Home Park	42.66,-84.53
-Mill Street Mobile Home Park	45.13,-84.67
-Millbrook	43.55,-85.09
-Millburg	42.12,-86.34
-Millecoquins	46.14,-85.51
-Miller	42.55,-82.66
-Miller Trailer Village	42.21,-84.54
-Millers Corners	44.58,-85.15
-Millersburg	45.33,-84.06
-Millersville	44.28,-85.56
-Millerton	44.04,-86.05
-Millett	42.70,-84.62
-Milleville Beach	42.05,-83.19
-Millgrove	42.57,-85.90
-Millington	43.28,-83.53
-Millville	42.53,-84.19
-Millwood Mobile Home Park	42.26,-85.55
-Milton	42.69,-82.82
-Milwood	42.26,-85.57
-Minards Mill	42.34,-84.55
-Minden City	43.67,-82.78
-Mineral Hills, Iron River	46.11,-88.65
-Minnesota Lake Mobile Home Park	42.94,-82.49
-Minor Beach	45.95,-86.32
-Mio	44.65,-84.13
-Missaukee Junction	44.31,-85.41
-Mission	46.45,-84.60
-Misty Meadows Mobile Home Park	43.79,-83.07
-Mitchell Brothers Mobile Home Park	42.36,-86.28
-Mizpah Park	42.16,-86.44
-Mobile Home Estates	44.74,-85.18
-Mobile Village Trailer Park	42.02,-86.52
-Moddersville	44.22,-84.95
-Mohawk	47.30,-88.36
-Moline	42.74,-85.66
-Moltke	45.40,-83.93
-Mona Lake Mobile Home Park	43.19,-86.24
-Monongahela Location	46.09,-88.37
-Monroe	41.92,-83.40
-Monroe Center	44.61,-85.70
-Montague	43.42,-86.36
-Monteith Station	42.52,-85.64
-Monterey Center	42.64,-85.84
-Montgomery	41.78,-84.80
-Montrose	43.18,-83.89
-Montrose Mobile Home Park	43.19,-83.82
-Moore Park	42.01,-85.64
-Moorestown	44.47,-85.00
-Mooreville	42.10,-83.73
-Moorland	43.23,-85.99
-Moran	45.99,-84.83
-Morenci	41.72,-84.22
-Morey	44.43,-85.22
-Morgan	42.62,-85.18
-Morgan Corners	42.23,-85.20
-Morland Corner	43.24,-85.99
-Morley	43.49,-85.44
-Morres Junction	44.01,-84.10
-Morrice	42.84,-84.18
-Morseville	43.24,-83.87
-Moscow	42.05,-84.51
-Moseley	43.03,-85.35
-Mosherville	42.06,-84.66
-Motor City Trailer Park	42.47,-83.03
-Mottville	41.80,-85.76
-Mount Clemens	42.60,-82.88
-Mount Forest	43.89,-84.11
-Mount Morris	43.12,-83.69
-Mount Pleasant	42.46,-86.25
-Mount Pleasant Mobile Home Village	43.60,-84.80
-Mount Vernon	42.74,-83.09
-Muir	43.00,-84.94
-Muirs	42.56,-82.59
-Mulberry	41.74,-83.88
-Mullett Lake	45.56,-84.53
-Mullett Lake Woods	45.55,-84.46
-Mulliken	42.76,-84.90
-Munger	43.52,-83.77
-Munising	46.41,-86.65
-Munising Junction	46.38,-86.71
-Munith	42.39,-84.25
-Munson	41.71,-84.33
-Munuscong	46.25,-84.19
-Muskegon	43.23,-86.25
-Muskegon Heights	43.20,-86.24
-Muttonville	42.80,-82.74
-Myren	46.43,-86.43
-Myrtle Grove Mobile Home Park	43.04,-83.74
-Nadeau	45.61,-87.55
-Nahma	45.84,-86.66
-Nahma Junction	45.90,-86.71
-Naomi	42.04,-86.27
-Napier	42.09,-86.28
-Napoleon	42.16,-84.25
-Narenta	45.73,-87.24
-Nashville	42.60,-85.09
-Natalie	46.35,-85.58
-Nathan	45.58,-87.71
-National City	44.23,-83.72
-National Mine	46.46,-87.68
-Naubinway	46.09,-85.45
-Naults	45.99,-88.39
-Needmore	42.68,-84.86
-Neeley	42.50,-85.55
-Negaunee	46.50,-87.61
-Nellsville	44.34,-84.81
-Nelson	43.33,-84.23
-Nepco Camp Number 7	47.40,-88.14
-Nesen's Countryside Mobile Home Park	43.40,-84.62
-Nessen City	44.52,-85.88
-Nestoria	46.57,-88.26
-New Baltimore	42.68,-82.74
-New Boston	42.16,-83.40
-New Bristol Location	46.10,-88.39
-New Buffalo	41.79,-86.74
-New Dalton	46.39,-87.20
-New Era	43.56,-86.35
-New Greenleaf	43.66,-83.08
-New Haven	42.73,-82.80
-New Haven Center	43.25,-84.78
-New Holland	42.86,-86.08
-New Hudson	42.51,-83.62
-New Lothrop	43.12,-83.97
-New Richmond	42.65,-86.10
-New Salem	42.75,-85.80
-New Swanzy	46.28,-87.43
-New Troy	41.88,-86.55
-New Village Estates Mobile Home Park	42.14,-84.80
-Newark	42.86,-83.63
-Newaygo	43.42,-85.80
-Newberry	46.35,-85.51
-Newburg	42.04,-83.97
-Newland	44.30,-86.24
-Newport	42.00,-83.31
-Newport Farms Mobile Home Community	42.01,-83.33
-Nicholson	42.78,-84.12
-Nicholsville	42.04,-85.90
-Niles	41.83,-86.25
-Niles Pines Mobile Estates	41.82,-86.21
-Nine Mile	43.88,-84.07
-Nirvana	43.90,-85.71
-Nisula	46.76,-88.79
-Nomad	45.59,-85.52
-Nomad Mobile Home Park	43.20,-86.22
-Nonesuch	46.76,-89.62
-Noordeloos	42.84,-86.06
-Norrie	46.45,-90.16
-North Adams	41.97,-84.53
-North Arms	44.97,-85.23
-North Aurelius	42.58,-84.54
-North Bay Harbor Club Mobile Home Park	42.77,-83.82
-North Bessemer	46.51,-90.07
-North Blendon	42.93,-85.96
-North Bradley	43.71,-84.49
-North Branch	43.23,-83.20
-North Branch Meadows Mobile Home Park	43.23,-83.19
-North Byron	42.85,-85.73
-North Dorr	42.77,-85.76
-North Dort Manor Mobile Home Park	43.13,-83.68
-North Epworth	43.98,-86.47
-North Escanaba	45.76,-87.07
-North Farmington	42.53,-83.38
-North Hill Mobile Home Village	43.14,-82.80
-North Ironwood	46.51,-90.16
-North Lake	46.49,-87.73
-North Lakeport	43.14,-82.50
-North Leslie	42.48,-84.44
-North Manitou	45.12,-85.98
-North Morenci	41.76,-84.22
-North Morris Estates Mobile Home Park	43.14,-83.69
-North Muskegon	43.26,-86.27
-North Niles	41.85,-86.24
-North Paynesville	46.56,-89.12
-North Shore Estates Mobile Home Park	42.14,-86.45
-North Shore Trailer Park	44.38,-84.73
-North Shores	41.84,-83.41
-North Star	43.25,-84.54
-North Wheeler	43.47,-84.43
-North Williams	43.64,-84.09
-Northbrook Mobile Home Estates	42.67,-85.62
-Northern Estates Mobile Home Village North	43.09,-85.63
-Northern Estates Mobile Village South	43.09,-85.64
-Northernair Mobile Estates	46.28,-87.42
-Northfield	42.34,-83.73
-Northfield Estates Mobile Home Park	42.42,-83.78
-Northland	46.07,-87.60
-Northport	45.13,-85.62
-Northside Community Mobile Home Park	45.47,-84.62
-Northstar Mobile Home Park	44.66,-85.89
-Northtown Meadows Mobile Home Park	41.73,-83.55
-Northview	43.05,-85.60
-Northville	42.43,-83.48
-Northwood	42.33,-85.59
-Northwood Estates Mobile Home Park	43.03,-84.15
-Norton	42.38,-83.31
-Norton Shores	43.17,-86.26
-Norvell	42.16,-84.18
-Norwalk	44.34,-86.16
-Norway	45.79,-87.90
-Norwayne	42.30,-83.39
-Norwood	45.22,-85.38
-Nottawa	41.92,-85.45
-Notten	42.28,-84.12
-Nottingham Forest Mobile Home Park	45.03,-84.71
-Novi	42.48,-83.48
-Nunica	43.08,-86.07
-O'Neil	44.64,-85.07
-Oak	42.38,-83.23
-Oak Bluff Estates Mobile Home Park	45.84,-87.05
-Oak Brook Estates Mobile Home Park	42.19,-85.67
-Oak Crest Trailer Park	42.62,-83.91
-Oak Forest Mobile Home Park	42.32,-85.13
-Oak Grove	42.70,-83.93
-Oak Hill	44.22,-86.30
-Oak Island Mobile Home Park	42.78,-84.44
-Oak Park	42.36,-85.26
-Oak Point	42.19,-84.26
-Oak Ridge	46.29,-84.21
-Oak Shade Park	42.07,-84.16
-Oak Wood Shores	44.21,-83.55
-Oakbrook Mobile Home Park	43.66,-83.90
-Oakhurst	43.64,-83.61
-Oakland	42.74,-85.92
-Oakland Estates Mobile Home Park	42.64,-83.22
-Oaklawn Beechwood	42.81,-86.11
-Oakley	43.14,-84.17
-Oakley Park	42.57,-83.50
-Oakridge Estates Mobile Home Park	41.90,-83.41
-Oaks Mobile Home Park	43.19,-86.22
-Oakside Mobile Home Park	43.62,-84.16
-Oakview Estates Mobile Home Park	41.80,-86.62
-Oakview Mobile Home Estates	43.66,-84.81
-Oakville	42.08,-83.58
-Oakwood	42.87,-83.34
-Oakwood Mobile Home Community	41.74,-83.55
-Oberlin	44.07,-84.51
-Ocqueoc	45.41,-84.09
-Oden	45.42,-84.83
-Odgers Location	46.10,-88.35
-Ogden	41.82,-83.98
-Ogden Center	41.77,-83.96
-Ogemaw Springs	44.30,-84.29
-Ogontz	45.87,-86.79
-Oil City	43.61,-84.59
-Ojibway	47.34,-88.33
-Okemos	42.72,-84.43
-Ola	43.18,-84.56
-Old Mill Gardens	42.27,-85.20
-Old Mission	44.96,-85.49
-Old Oak Trails Estates Mobile Home Park	43.66,-84.32
-Old Saugatuck	42.67,-86.21
-Old Squaw Skin Landing	42.64,-86.07
-Old Victoria Historic Townsite	46.71,-89.23
-Oldport	41.99,-83.29
-Olive Center	42.91,-86.08
-Olivers	43.88,-85.58
-Olivet	42.44,-84.92
-Olney Corners	43.13,-84.34
-Olson	43.63,-84.43
-Omena	45.06,-85.59
-Omer	44.05,-83.85
-Onaway	45.36,-84.22
-Oneida Center	42.73,-84.78
-Onekama	44.36,-86.21
-Onekama Junction	44.34,-86.20
-Onondaga	42.44,-84.56
-Onota	46.47,-87.00
-Onsted	42.01,-84.19
-Ontario Place Mobile Home Park	41.77,-86.23
-Ontonagon	46.87,-89.31
-Orangeville	42.55,-85.52
-Orchard	45.29,-83.73
-Orchard Beach	45.56,-84.46
-Orchard Cove Manufactured Home Community	43.16,-83.53
-Orchard Grove Village Mobile Home Park	42.25,-83.80
-Orchard Lake	42.58,-83.36
-Orchard Park	42.34,-85.19
-Orchard Point	45.22,-83.49
-Orchard View Estates	42.10,-86.43
-Orleans	43.07,-85.14
-Orono	43.94,-85.52
-Orr	43.38,-84.17
-Ortonville	42.85,-83.44
-Osceola	47.23,-88.45
-Oscoda	44.42,-83.33
-Oscoda Mobile Home Park	44.47,-83.33
-Oshtemo	42.26,-85.68
-Oskar	47.17,-88.65
-Ossawinamakee Beach	46.00,-86.29
-Osseo	41.89,-84.54
-Ossineke	44.90,-83.44
-Otisville	43.17,-83.52
-Otsego	42.46,-85.70
-Otsego Lake	44.92,-84.69
-Ottawa	41.77,-83.52
-Ottawa Center	43.03,-86.03
-Otter Lake	43.21,-83.45
-Ottogan Mobile Home Estates	42.77,-86.00
-Overisel	42.73,-86.01
-Ovid	43.01,-84.37
-Owasso	43.00,-84.17
-Owendale	43.73,-83.27
-Owosso	43.00,-84.18
-Owosso Trailer Park	43.00,-84.22
-Oxbow	42.67,-86.20
-Oxbow Park	43.51,-85.60
-Oxford	42.82,-83.26
-Ozark	46.14,-84.97
-Paavola	47.15,-88.54
-Packard	42.68,-84.60
-Paines	43.40,-84.04
-Painesdale	47.04,-88.67
-Paint Creek	42.16,-83.58
-Palatka	46.05,-88.62
-Palestine	45.41,-87.53
-Palisades Park	42.31,-86.32
-Palmer	46.44,-87.59
-Palms	43.61,-82.77
-Palmyra	41.86,-83.94
-Palo	43.11,-84.99
-Panola	46.05,-88.33
-Paradise	46.63,-85.04
-Parchment	42.33,-85.57
-Paris	43.77,-85.50
-Paris Estates Mobile Home Park	42.88,-85.66
-Parishfield	42.50,-83.83
-Parisville	43.71,-82.80
-Park Lake	44.15,-85.21
-Park Lake Mobile Home Court	42.79,-84.44
-Park Meadow Estates Mobile Home Park	42.96,-83.64
-Park Meadows Mobile Home Community	43.28,-86.24
-Park Ridge Mobile Home Park	45.81,-88.05
-Park Terrace Mobile Home Park	42.73,-84.60
-Parkdale	44.27,-86.30
-Parkers Corners	42.57,-84.11
-Parkington	46.01,-85.95
-Parklane Court Mobile Home Park	42.48,-83.07
-Parkview Estates Mobile Home Park	42.86,-84.94
-Parkville	42.02,-85.55
-Parkwood Village Mobile Home Park	43.26,-83.95
-Parma	42.26,-84.60
-Parmelee	42.75,-85.47
-Parnell	43.04,-85.41
-Parshallburg	43.15,-84.14
-Parshallville	42.69,-83.78
-Partello	42.40,-84.85
-Partridge Creek	42.63,-82.95
-Partridge's RV and Mobile Home Park	43.36,-83.58
-Pasadena Mobile Home Park	43.04,-83.75
-Patons Corner	45.47,-84.99
-Patrick Landing	45.98,-84.38
-Patterson Gardens	41.92,-83.43
-Paulding	46.40,-89.18
-Pavilion	42.17,-85.46
-Pavillion Center	42.20,-85.48
-Pavillion Estates Mobile Home Park	42.24,-85.50
-Pavlovic Corner	44.57,-85.75
-Paw Paw	42.22,-85.89
-Paw Paw Lake	42.21,-86.27
-Paxton	45.05,-83.61
-Payment	46.53,-84.14
-Paynesville	46.52,-89.12
-Peachtree Manor Mobile Home Park	43.32,-83.82
-Peacock	44.05,-85.89
-Pearl	42.54,-86.09
-Pearl Beach	41.82,-84.99
-Pearl Grange	42.09,-86.36
-Pearline	42.97,-85.92
-Pearll City	44.98,-84.68
-Peatville	43.64,-82.82
-Pebble Creek Mobile Home Community	43.48,-83.64
-Peck	43.26,-82.82
-Pelkie	46.81,-88.64
-Pellston	45.55,-84.79
-Pemberthy Crossing	44.63,-84.91
-Penn	41.95,-85.94
-Pennellwood	41.93,-86.33
-Pennfield	42.37,-85.10
-Pentoga	46.00,-88.49
-Pentwater	43.78,-86.43
-Pequaming	46.85,-88.40
-Perch Point	42.67,-82.62
-Pere Cheney	44.58,-84.64
-Perkins	45.98,-87.07
-Perrinton	43.18,-84.68
-Perronville	45.80,-87.35
-Perry	42.83,-84.22
-Perry Lake Heights	42.83,-83.40
-Peshawbestown	45.02,-85.60
-Peters	42.74,-82.63
-Petersburg	41.90,-83.71
-Petersburg Junction	41.89,-83.70
-Petoskey	45.37,-84.96
-Petrieville	42.54,-84.62
-Pettysville	42.48,-83.87
-Pewabic	47.14,-88.56
-Pewamo	43.00,-84.85
-Pheasant Ridge Estates Mobile Home Park	44.23,-85.41
-Pheasant Run Mobile Home Park	43.00,-83.76
-Phelps	43.92,-84.92
-Phelps Mobile Home Park	42.10,-86.10
-Phillipsville	47.28,-88.41
-Phoenix	47.39,-88.28
-Pickford	46.16,-84.36
-Pier Cove	42.59,-86.23
-Pierport	44.43,-86.24
-Pierson	43.32,-85.50
-Pigeon	43.83,-83.27
-Pilgrim	44.66,-86.25
-Pinckney	42.46,-83.95
-Pinconning	43.85,-83.96
-Pine Acres Trailer Court	46.49,-87.33
-Pine Aire Mobile Home Park	43.06,-85.69
-Pine Court Mobile Home Park	44.19,-85.20
-Pine Creek	42.17,-85.26
-Pine Forest Mobile Home Park	43.18,-83.82
-Pine Grove	42.35,-85.86
-Pine Grove Beach	43.82,-85.96
-Pine Haven Estates Mobile Home Park	43.00,-84.88
-Pine Ridge	45.74,-87.17
-Pine Ridge Mobile Home Park	42.80,-83.86
-Pine River	43.98,-83.89
-Pine Run	43.18,-83.71
-Pine Stump Junction	46.57,-85.59
-Pine Wood Park	44.16,-83.57
-Pinebrook Village Mobile Home Park	42.86,-85.65
-Pinerest Mobile Estates	43.51,-83.36
-Pines	46.35,-86.29
-Pines Mobile Home Park	43.70,-86.38
-Pines Mobile Home Village	43.80,-83.02
-Piney Ridge	44.02,-86.47
-Piney Woods	44.07,-84.81
-Pinnebog	43.94,-83.10
-Pioneer	44.47,-85.16
-Pioneer Estates	46.53,-87.41
-Pisgah Heights	44.09,-85.23
-Pittsburg	42.89,-84.22
-Pittsburg Landing	45.40,-84.64
-Pittsfield	42.21,-83.72
-Pittsford	41.86,-84.48
-Plainfield	42.50,-84.11
-Plains	46.33,-87.40
-Plainwell	42.44,-85.65
-Planter	46.51,-89.97
-Platte River	44.66,-85.93
-Pleasant Beach Mobile Home Park	43.84,-84.34
-Pleasant Lake	42.38,-84.35
-Pleasant Lake Mobile Home Court	42.38,-84.32
-Pleasant Ridge	42.47,-83.14
-Pleasant Ridge Manufactured Home Community	43.56,-84.77
-Pleasant Valley	45.06,-85.16
-Pleasant Valley Estates Mobile Home Park	43.41,-84.24
-Pleasant Valley Mobile Home Park	43.82,-84.78
-Pleasant View	45.51,-84.91
-Pleasant View Estates Mobile Home Park	42.41,-86.25
-Pleasant View Mobile Home Park	42.18,-86.27
-Pleasanton	44.47,-86.12
-Pleasantville Mobile Home Community	41.97,-83.35
-Plymouth	46.46,-89.98
-Plymouth Township	42.37,-83.49
-Podunk	44.05,-84.57
-Pogy	43.80,-85.34
-Point Lakeview	42.66,-82.78
-Point Mills	47.09,-88.47
-Point Nipigon	45.71,-84.57
-Pointe Aux Pins	45.73,-84.48
-Pointe aux Barques	44.06,-82.96
-Pointe aux Chenes	42.61,-82.54
-Pointe aux Peaux	41.95,-83.25
-Pointe aux Tremble	42.62,-82.57
-Pokagon	41.91,-86.18
-Polaski	45.23,-83.66
-Pollok	42.62,-84.34
-Pomeroy	42.19,-85.48
-Pomona	44.47,-85.88
-Pompeii	43.18,-84.60
-Pond View Estates Mobile Home Park	43.19,-85.24
-Ponshewaing	45.42,-84.80
-Pontchartrain Shores	46.03,-84.59
-Pontiac	42.64,-83.29
-Popple	43.77,-83.10
-Pori	46.68,-88.96
-Port Austin	44.05,-82.99
-Port Crescent	44.00,-83.06
-Port Dolomite	45.98,-84.28
-Port Hope	43.94,-82.71
-Port Huron	42.97,-82.42
-Port Inland	45.97,-85.87
-Port Oneida	44.95,-85.95
-Port Sanilac	43.43,-82.54
-Port Sheldon	42.90,-86.20
-Port of Call Mobile Home Park	42.95,-82.49
-Portage	42.20,-85.58
-Portage Entry	46.98,-88.44
-Portage Terrace Mobile Home Park	42.65,-85.56
-Porter	43.52,-84.47
-Portland	42.87,-84.90
-Posen	45.26,-83.70
-Poseyville	43.54,-84.25
-Potterville	42.63,-84.74
-Powell	46.82,-87.82
-Powers	45.69,-87.53
-Prairie	42.98,-85.03
-Prairieville	42.50,-85.46
-Prattville	41.78,-84.40
-Prescott	44.19,-83.93
-Presidential Estates Mobile Home Park	42.86,-85.85
-Presque Isle	45.30,-83.48
-Presque Isle Estates	45.42,-83.84
-Preston Corners	42.70,-83.00
-Price	42.93,-84.48
-Pries Landing	45.69,-84.54
-Princeton	46.29,-87.48
-Prosper	44.24,-85.03
-Prudenville	44.30,-84.65
-Pulaski	42.12,-84.64
-Pullman	42.48,-86.09
-Quail Run Community Mobile Home Park	42.72,-82.78
-Quakertown	42.49,-83.38
-Quanicassee	43.58,-83.68
-Quiet Cove Mobile Home Park	42.81,-84.33
-Quincy	41.94,-84.88
-Quincy Mill	47.15,-88.46
-Quinnesec	45.81,-87.99
-Qumby	42.61,-85.23
-Rabbit Bay	47.06,-88.36
-Raber	46.09,-84.07
-Raco	46.38,-84.72
-Racy	43.20,-84.31
-Radio City Village Mobile Home Park	45.35,-84.96
-Rainbow Bend	44.13,-84.92
-Rainy Beach	45.45,-84.22
-Raisin Center	41.93,-83.95
-Raisin Ridge Estate and Mobile Home Park	41.91,-83.38
-Ralph	46.11,-87.78
-Ramona	43.60,-85.80
-Ramona Park	45.43,-84.95
-Ramsay	46.47,-90.00
-Randville	45.99,-88.06
-Rankin	42.91,-83.75
-Ransom	41.78,-84.53
-Rapid City	44.83,-85.28
-Rapid River	45.93,-86.97
-Rapson	43.86,-82.88
-Rasmus	44.63,-84.78
-Rathbone	43.34,-84.43
-Rattle Run	42.87,-82.60
-Ravenna	43.19,-85.94
-Ravine View Estates Mobile Home Park	42.21,-86.34
-Ravines Mobile Home Park	42.10,-86.41
-Rawsonville	42.22,-83.55
-Ray	41.76,-84.87
-Ray Center	42.76,-82.90
-Raymond's Landing Trailer Park	41.97,-85.02
-Rea	41.98,-83.72
-Reade	46.06,-87.56
-Reading	41.84,-84.75
-Red Oak	44.71,-84.29
-Red Park	44.35,-86.24
-Redford	42.38,-83.30
-Redford DUPLICATE OF https://www.geonames.org/5006917/redford.html	42.39,-83.30
-Redman	43.93,-82.83
-Redridge	47.15,-88.76
-Redstone	43.48,-84.47
-Reed City	43.88,-85.51
-Reeman	43.45,-86.01
-Reese	43.45,-83.70
-Remus	43.60,-85.14
-Reno	43.08,-85.84
-Republic	46.41,-87.98
-Rexton	46.16,-85.24
-Rhodes	43.90,-84.18
-Rice Creek	42.33,-84.83
-Richardsons Mill	46.02,-86.39
-Richfield Center	43.09,-83.52
-Richfield Mobile Home Park	43.05,-83.66
-Richland	42.38,-85.46
-Richland Junction	42.40,-85.50
-Richmond	42.81,-82.76
-Richmondville	43.57,-82.59
-Richville	43.41,-83.68
-Ridgeville	41.76,-84.02
-Ridgeway	41.99,-83.86
-Riga	41.81,-83.82
-Riggsville	45.57,-84.61
-Riley	42.92,-84.68
-Riley Center	42.94,-82.84
-Ripley	47.13,-88.55
-River Haven Mobile Home Park	44.27,-86.30
-River Haven Village Mobile Home Park	43.02,-86.15
-River Raisin	42.12,-83.98
-River Ridge Mobile Home Community	42.16,-83.80
-River Rouge	42.27,-83.13
-River Spring Estates	41.93,-86.36
-Riverbrook Mobile Home Park	42.74,-82.78
-Riverdale	43.39,-84.84
-Riverland	45.80,-87.23
-Rivers Edge a Quiet Community Mobile Home Park	42.81,-82.49
-Riverside	42.18,-86.38
-Riverside Mobile Home Estates	41.85,-86.37
-Riverside Mobile Home Park	43.19,-83.87
-Riverside Mobile Home Village	46.47,-84.30
-Riverview	43.45,-85.65
-Riverview Estates Mobile Community	42.71,-84.60
-Riverview Estates Mobile Home Park	44.89,-83.43
-Riverview Mobile Home Estates	43.56,-83.89
-Riverview Mobile Home Park	43.47,-83.41
-Rives Junction	42.39,-84.46
-Roaring Brook	45.43,-84.95
-Robbins	46.38,-89.23
-Roberts Corner	46.30,-85.49
-Roberts Landing	42.66,-82.52
-Robin Glen Mobile Home Community	43.45,-83.84
-Robin Glen-Indiantown	43.46,-83.84
-Robin Hood Mobile Court	41.93,-84.00
-Robinson	42.99,-86.08
-Rochester	42.68,-83.13
-Rochester Hills	42.66,-83.15
-Rock	46.07,-87.17
-Rock Harbor Lodge	48.15,-88.48
-Rock River	46.47,-86.91
-Rockford	43.12,-85.56
-Rockland	46.74,-89.18
-Rockport	45.20,-83.39
-Rockview	46.09,-84.36
-Rockwood	42.07,-83.25
-Rodney	43.67,-85.33
-Rogers City	45.42,-83.82
-Rogers Corner	42.24,-83.97
-Rogers Location	46.11,-88.58
-Rogersville	43.12,-83.58
-Rolland Center	43.52,-85.00
-Rollin	41.91,-84.32
-Rolling Hills Mobile Home Community	42.35,-85.22
-Rome Center	41.94,-84.19
-Romeo	42.80,-83.01
-Romulus	42.22,-83.40
-Rondo	45.32,-84.62
-Roosevelt	43.35,-84.19
-Roosevelt Park	43.20,-86.27
-Roots	42.34,-84.32
-Roscommon	44.50,-84.59
-Rose Center	42.73,-83.62
-Rose City	44.42,-84.12
-Rose Corners	42.74,-83.67
-Rose Island	43.78,-83.43
-Roseburg	43.19,-82.74
-Rosebush	43.70,-84.77
-Rosedale	46.38,-84.32
-Rosemary Beach	41.98,-86.56
-Roseville	42.50,-82.94
-Ross	42.78,-85.69
-Rosy Mound	43.03,-86.22
-Rothbury	43.51,-86.35
-Rotunda Mobile Home Park	42.77,-84.54
-Roulo	42.19,-83.48
-Round Lake Estates	41.96,-84.29
-Rousseau	46.71,-88.97
-Rowes Corner	42.19,-84.03
-Royal Estates Mobile Home Park	42.38,-85.68
-Royal Mobile Home Park	42.99,-83.65
-Royal Oak	42.49,-83.14
-Royal Oak Beach	45.49,-84.58
-Royston	45.16,-83.89
-Ruby	43.04,-82.61
-Ruby's Mobile Home Park	43.83,-84.77
-Rudds Mill	42.77,-83.22
-Rudgate East Company Mobile Home Park	42.72,-83.02
-Rudgate Manor Mobile Home Park	42.59,-83.06
-Rudyard	46.23,-84.60
-Rumely	46.35,-87.03
-Rush Lake Mobile Home Park	42.24,-86.21
-Rushton	42.45,-83.70
-Rusk	42.96,-86.01
-Russellville	43.09,-83.56
-Rust	44.99,-83.95
-Rustford	43.51,-85.34
-Rustic Acres Mobile Home Park	41.76,-85.94
-Ruth	43.72,-82.74
-Ryan	43.47,-84.37
-Sac Bay	45.65,-86.69
-Saddlebrook Farms Manufactured Home Community	42.24,-85.72
-Saganing	43.93,-83.91
-Saginaw	43.42,-83.95
-Saginaw Bay Estates Mobile Home Park	43.62,-83.78
-Saginaw Township North	43.46,-84.01
-Saginaw Township South	43.42,-84.02
-Saginaw Valley Mobile Home Park	43.50,-83.95
-Saginaw Village Mobile Home Park	43.39,-83.90
-Sagola	46.09,-88.08
-Saint Anthony	41.80,-83.66
-Saint Charles	43.30,-84.14
-Saint Clair	42.82,-82.49
-Saint Clair Haven	42.58,-82.79
-Saint Clair Place Mobile Home Park	42.83,-82.51
-Saint Clair Shores	42.50,-82.89
-Saint Elmo	43.58,-84.47
-Saint Helen	44.36,-84.41
-Saint Huberts	43.54,-86.09
-Saint Ignace	45.87,-84.73
-Saint Jacques	45.90,-86.74
-Saint James	45.75,-85.52
-Saint Johns	43.00,-84.56
-Saint Johns Mobile Home Village	43.01,-84.57
-Saint Joseph	42.11,-86.48
-Saint Louis	43.41,-84.61
-Saint Nicholas	45.99,-87.23
-Salem	42.41,-83.58
-Saline	42.17,-83.78
-Saline Meadows Mobile Home Park	42.19,-83.72
-Salisbury	46.47,-87.68
-Salmon Trout	47.11,-88.74
-Salva	45.89,-87.20
-Samaria	41.81,-83.58
-Sand Creek	41.83,-84.10
-Sand Lake	44.32,-83.68
-Sand River	46.49,-87.12
-Sandhill Mobile Home Estates	43.06,-83.19
-Sandpiper Estates Cooperative Mobile Home Park	43.25,-82.53
-Sands	46.42,-87.41
-Sands Trailer Court	46.40,-87.41
-Sandstone	42.25,-84.52
-Sandusky	43.42,-82.83
-Sandy Beach	42.05,-86.19
-Sandy Pines	42.69,-85.81
-Sanford	43.67,-84.38
-Sans Souci	42.58,-82.56
-Sans Souci Beach	41.83,-84.97
-Santiago	44.11,-83.70
-Saranac	42.93,-85.21
-Sauble	44.03,-86.00
-Saugatuck	42.66,-86.20
-Sault Ste. Marie	46.50,-84.35
-Sawyer	41.89,-86.59
-Schaffer	45.76,-87.30
-Schmidt Corner	47.16,-88.64
-Schomberg	44.92,-85.77
-Schoolcraft	42.11,-85.64
-Schultz	42.58,-85.35
-Science City Mobile Home Park	43.61,-84.18
-Scio	42.33,-83.84
-Scio Farms Estates Mobile Home Park	42.29,-83.86
-Scofield	42.02,-83.48
-Scotsdale Estates Mobile Home Park	43.40,-84.67
-Scott Lake	46.02,-88.58
-Scottdale	42.04,-86.44
-Scotts	42.20,-85.41
-Scottville	43.95,-86.28
-Sears	43.90,-85.18
-Seaway Mobile Home Ranch	42.89,-82.48
-Sebewa Corners	42.80,-84.96
-Sebewaing	43.73,-83.45
-Sebille Manor	42.66,-82.81
-Secord	44.02,-84.35
-Seewhy	46.35,-85.09
-Segwun	42.92,-85.34
-Seidlers	43.68,-84.09
-Selkirk	44.31,-84.07
-Selkirk Mobile Home Park	42.39,-85.63
-Selma	46.36,-87.18
-Seneca	47.31,-88.36
-Seney	46.35,-85.95
-Senter	47.11,-88.44
-Sethton	43.22,-84.78
-Seven Harbors	42.67,-83.57
-Shabbona	43.53,-83.05
-Shady Acres Mobile Home Park	42.65,-85.97
-Shady Acres Mobile Home Village	42.12,-86.45
-Shady Brook Mobile Home Park	42.35,-85.81
-Shady Lane Trailer Court	44.36,-84.42
-Shady Oaks Mobile Home Park	43.29,-86.26
-Shady Park Mobile Home Community	42.20,-84.34
-Shady Rest Mobile Plaza	43.64,-83.91
-Shady Shores	44.41,-83.97
-Shadylane Mobile Home Estates	42.46,-83.08
-Shadyside	41.82,-84.54
-Shafer Location	46.08,-88.36
-Shaftsburg	42.80,-84.29
-Shallows	46.47,-84.44
-Shamrock Mobile Home Village	41.95,-83.40
-Shanghai Corners	42.03,-86.33
-Shangrai-La Mobile Home Park	42.69,-86.15
-Sharon	44.58,-85.07
-Sharon Hollow	42.18,-84.10
-Sharps Corners	44.42,-84.68
-Shattuckville	43.45,-84.05
-Shawnee Mobile Home Court	41.94,-86.49
-Shaytown	42.70,-84.98
-Sheffield	43.19,-85.49
-Sheffield Estates Mobile Home Park	42.63,-83.25
-Shelby	42.67,-83.03
-Shelby West Mobile Home Community	42.66,-83.01
-Shelbyville	42.59,-85.64
-Sheldon	42.27,-83.48
-Shelldrake	46.68,-85.03
-Shepardsville	43.00,-84.43
-Shepherd	43.52,-84.69
-Sheridan	43.21,-85.07
-Sherman	44.42,-85.70
-Sherman City	43.73,-85.08
-Sherman Oaks Mobile Park	42.34,-84.42
-Sherman Park	42.49,-86.08
-Sherwood	42.00,-85.24
-Sherwood Forest Mobile Home Park	42.98,-85.09
-Shiawasseetown	42.93,-84.08
-Shields	43.42,-84.06
-Shiloh	43.10,-85.09
-Shingleton	46.35,-86.47
-Shorecrest	42.51,-86.24
-Shoreham	42.06,-86.52
-Shorewood	42.65,-86.22
-Shorewood Hills	41.90,-86.62
-Shorewood-Tower Hills-Harbert	41.88,-86.61
-Sibley	42.17,-83.18
-Sickles	43.28,-84.45
-Sid Town	44.45,-83.61
-Sidnaw	46.50,-88.71
-Sidney	43.25,-85.13
-Siemens	46.47,-90.10
-Sigma	44.67,-85.05
-Silver Beach	45.55,-84.53
-Silver City	46.83,-89.57
-Silver Creek Estates	46.49,-87.36
-Silver Lake View Mobile Home Park	44.70,-85.68
-Silver Lawn Trailer Park	42.04,-84.32
-Silver Shores Mobile Home Park	44.67,-85.68
-Silverbrook Manufactured Home Community	41.81,-86.23
-Silverwood	43.32,-83.25
-Simmons	46.10,-84.60
-Simmons Mobile Home Park	41.77,-85.94
-Sister Lakes	42.07,-86.20
-Sitka	43.38,-86.02
-Six Lakes	43.43,-85.15
-Skandia	46.38,-87.24
-Skandia Station	46.38,-87.21
-Skanee	46.87,-88.21
-Skeels	44.09,-84.59
-Skidmore	45.79,-88.07
-Skidway Lake	44.18,-84.04
-Skookum	44.08,-85.64
-Skyline Village	44.57,-84.70
-Slapneck	46.34,-86.89
-Slaybaugh Corner	43.94,-85.43
-Sleepy Hollow	46.40,-89.24
-Slocum	43.22,-85.91
-Smith Crossing	43.03,-84.22
-Smiths Creek	42.91,-82.60
-Smithville	44.52,-85.17
-Smyrna	43.06,-85.26
-Snover	43.46,-82.97
-Snow	41.92,-86.48
-Snowshoe	47.23,-88.24
-Snowville	46.50,-87.82
-Snug Harbor	46.56,-85.07
-Snyderville	42.84,-82.67
-Sodus	42.04,-86.37
-Sokol Camp	41.82,-86.72
-Solon	44.81,-85.76
-Solon Center	43.25,-85.61
-Somerset	42.05,-84.38
-Somerset Center	42.05,-84.41
-Somerset Meadows Mobile Home Park	42.96,-82.55
-Somerset Mobile Home Park	41.97,-85.06
-Sonoma	42.23,-85.23
-Soo Hill	45.79,-87.11
-Soo Junction	46.34,-85.26
-South Blendon	42.89,-85.92
-South Boardman	44.64,-85.28
-South Branch	44.47,-83.89
-South Butler	42.02,-84.88
-South Creek Village Mobile Home Park	43.14,-83.70
-South Fairfield	41.73,-83.98
-South Greenwood	46.47,-87.79
-South Gull Lake	42.39,-85.40
-South Haven	42.40,-86.27
-South Haven Highlands	42.45,-86.26
-South Ionia	42.97,-85.07
-South Jackson	42.16,-84.43
-South Lyon	42.46,-83.65
-South Monroe	41.90,-83.42
-South Monterey	42.60,-85.84
-South Park	42.94,-82.46
-South Range	47.07,-88.64
-South Riley	42.86,-84.66
-South Rockwood	42.06,-83.26
-South Valley Estates Mobile Home Park	42.96,-83.81
-South Whitehall	43.40,-86.35
-Southern Belle Mobile Community	41.87,-84.68
-Southfield	42.47,-83.22
-Southgate	42.21,-83.19
-Southgate Mobile Park	41.87,-84.02
-Southgate Mobile Village	43.75,-84.59
-Southland	41.73,-83.78
-Southwood Village Mobile Home Park	42.85,-85.64
-Spalding	45.70,-87.51
-Sparlingville	42.96,-82.52
-Sparr	45.04,-84.57
-Sparta	43.16,-85.71
-Speaker	43.21,-82.80
-Spencer	44.64,-85.11
-Spinks Corners	42.09,-86.32
-Spratt	45.01,-83.75
-Spring Arbor	42.21,-84.55
-Spring Beach	41.91,-85.96
-Spring Grove	42.51,-86.17
-Spring Lake	43.08,-86.20
-Spring Lake Mobile Home Park	42.01,-86.47
-Spring Valley Estates Mobile Home Park	42.10,-84.55
-Spring Valley Mobile Home Park	43.08,-85.57
-Springbrook Estates Mobile Home Park	42.82,-83.02
-Springer	45.92,-86.40
-Springfield	42.75,-83.47
-Springfield Place	42.31,-85.22
-Springport	44.64,-83.31
-Springville	42.03,-84.17
-Springwell Heights	45.43,-84.69
-Spruce	44.84,-83.47
-Sprucetree Mobile Home Court	42.28,-84.94
-Stager	45.99,-88.35
-Stalls Corner	42.64,-84.89
-Stalwart	46.10,-84.24
-Stambaugh, Iron River	46.08,-88.63
-Standale	42.97,-85.78
-Standish	43.98,-83.96
-Stanley Corners	42.22,-85.14
-Stanton	43.29,-85.08
-Stanton Mobile Home Park	43.30,-85.09
-Stanwood	43.58,-85.45
-Star	46.35,-86.39
-Star City	44.37,-84.99
-Stark	42.38,-83.37
-Starlight Mobile Home Park	42.50,-83.75
-Starville	42.68,-82.59
-Steamburg	41.88,-84.61
-Steiner	41.99,-83.39
-Stephenson	45.42,-87.61
-Sterling	44.03,-84.02
-Sterling Estates Mobile Home Park	41.88,-84.03
-Sterling Heights	42.58,-83.03
-Steuben	46.19,-86.46
-Stevensville	42.01,-86.52
-Stickley	46.31,-89.39
-Stillman	46.34,-86.75
-Stirlingville	46.19,-84.32
-Stittsville	44.45,-85.08
-Stock's Creek Mobile Home Park	42.98,-82.48
-Stockbridge	42.45,-84.18
-Stockholm Forest Village Mobile Home Park	43.71,-84.40
-Stoddard Mobile Court	43.17,-84.17
-Stoneport	45.30,-83.42
-Stoney Corner	44.19,-85.28
-Stoney Point	42.08,-84.58
-Stoney Point Trailer Park	42.50,-85.43
-Stonington	45.72,-86.98
-Stony Creek	41.96,-83.33
-Stony Lake	43.56,-86.50
-Stony Point	42.50,-85.43
-Stoughton Corners	42.23,-86.17
-Strasburg	41.91,-83.50
-Strickland	43.50,-84.84
-Stringtown	41.88,-84.83
-Stronach	44.21,-86.28
-Strongs	46.36,-84.97
-Strongs Corner	46.35,-84.97
-Sturgis	41.80,-85.42
-Stutsmanville	45.51,-85.01
-Suburban Estates Mobile Home Park	44.75,-85.72
-Sugar Grove	44.01,-86.28
-Sugar Loaf	46.59,-87.45
-Sugar Rapids	44.09,-84.41
-Sugarloaf Mobile Home Park	42.15,-85.63
-Sugartree Mobile Home Park	43.50,-83.38
-Sullivan	43.18,-86.05
-Sullivans Landing	46.65,-86.20
-Sulphur Springs	42.42,-86.24
-Summerton	43.47,-84.73
-Summit City	44.55,-85.52
-Sumner	43.31,-84.82
-Sumnerville	41.91,-86.21
-Sun	43.32,-85.72
-Sun Valley Mobile Home Estates	42.26,-84.37
-Sundell	46.35,-87.08
-Sunfield	42.76,-84.99
-Sunnyside	42.26,-83.32
-Sunnyside Estates Community	46.55,-87.41
-Sunnyside Mobile Home Park	42.24,-83.71
-Sunrise Estates Mobile Home Community	45.19,-83.44
-Sunrise Heights	42.30,-85.17
-Sunrise Landing	46.53,-86.09
-Sunrise Mobile Home Park	42.27,-85.00
-Sunset Beach	42.09,-84.20
-Sunset Mobile Home Park	43.42,-82.86
-Sunset Ridge Mobile Home Park	42.87,-84.94
-Sunset View Mobile Home Park	42.86,-84.90
-Sunshine Beach	47.09,-88.52
-Superior	47.08,-88.60
-Suttons Bay	44.98,-85.65
-Swan Creek	43.38,-84.09
-Swan Creek Mobile Home Community	42.19,-83.55
-Swan Lake Mobile Estates	42.46,-85.94
-Swanson	45.47,-87.71
-Swanzy	46.30,-87.37
-Swartz Creek	42.96,-83.83
-Swartz Creek Estates Mobile Home Park	42.96,-83.85
-Swedetown	47.24,-88.46
-Sweet Lake Mobile Home Park	41.80,-85.35
-Sycamore Village Mobile Home Park	42.58,-84.46
-Sylvan Beach	43.37,-86.42
-Sylvan Center	42.29,-84.08
-Sylvan Glen Mobile Estates	42.57,-83.83
-Sylvan Lake	42.61,-83.33
-Sylvester	43.54,-85.25
-Taffeltown	44.54,-85.18
-Tag-A-Long Trailer Court	42.69,-82.51
-Talbot	45.51,-87.60
-Tallmadge	42.99,-85.83
-Tallman	43.98,-86.11
-Tamarac Village Mobile Home Park	44.01,-86.46
-Tamarack	46.30,-89.04
-Tamarack Estates Mobile Home Park	43.43,-85.48
-Tapiola	46.92,-88.63
-Tappan	42.97,-82.48
-Tasmas Corners	42.80,-86.16
-Tawas City	44.27,-83.51
-Tawas River Trailer Park	44.28,-83.52
-Taylor	42.24,-83.27
-Taylor Center	42.23,-83.26
-Taymouth	43.24,-83.87
-Teapot Dome	42.21,-85.97
-Tecumseh	42.00,-83.94
-Teeterville	43.50,-84.42
-Tekonsha	42.09,-84.99
-Temperance	41.78,-83.57
-Temple	44.03,-85.03
-Tent City	44.50,-84.82
-Tesch	45.75,-87.28
-Texas Corners	42.20,-85.69
-Thayer	46.33,-89.46
-The Heights	42.08,-84.20
-The Jackpines	44.45,-83.80
-The Lakes Mobile Home Park	42.99,-82.56
-Theilers	46.46,-89.70
-Theodore	46.00,-87.84
-Thetford Center	43.18,-83.64
-Thomas	42.88,-83.30
-Thomaston	46.52,-89.93
-Thompson	45.90,-86.33
-Thompsonville	44.52,-85.94
-Thornapple Lake Estates Mobile Home Park	42.62,-85.18
-Thornton	42.97,-82.62
-Thornville	42.94,-83.22
-Three Churches Corner	43.67,-84.01
-Three Lakes	46.55,-88.20
-Three Mile Lake Mobile Home Park	42.19,-85.95
-Three Oaks	41.80,-86.61
-Three Oaks Estates Mobile Home Park	42.18,-84.66
-Three Rivers	41.94,-85.63
-Thunderbird Mobile Village	42.33,-85.24
-Tift Corner	43.40,-85.62
-Timber Country Mobile Home Park	43.41,-84.77
-Timberline Estates Mobile Home Park	43.30,-86.15
-Timberlost	46.56,-85.17
-Tioga	46.56,-88.35
-Tipton	42.02,-84.06
-Titus	43.67,-85.11
-Tobico Beach	43.68,-83.91
-Tobin Location	46.09,-88.36
-Toivola	47.00,-88.77
-Tompkins	42.37,-84.54
-Topaz	46.57,-89.47
-Topinabee	45.48,-84.60
-Toquin	42.26,-86.22
-Torch Lake	45.08,-85.36
-Torch River	44.85,-85.32
-Tower	45.36,-84.30
-Tower Hill Shorelands	41.90,-86.61
-Town and Country Mobile Home Park	45.63,-84.44
-Town and Country Mobile Village	44.74,-85.60
-Tradewind Mobile Court	43.19,-83.72
-Trailtree Village	41.95,-84.98
-Traunik	46.26,-86.97
-Traverse	47.26,-88.26
-Traverse Bay	47.19,-88.23
-Traverse City	44.76,-85.62
-Tremaine Corners	42.90,-85.07
-Trenary	46.20,-86.97
-Trenton	42.14,-83.18
-Triangle Mobile Home Park	42.31,-85.14
-Triangle Spur	46.25,-88.43
-Trimountain	47.06,-88.66
-Trist	42.34,-84.20
-Trombly	46.04,-87.15
-Trout Creek	46.48,-89.01
-Trout Lake	46.19,-85.02
-Trowbridge	45.23,-84.59
-Trowbridge Park	46.56,-87.44
-Troy	43.74,-86.02
-Trufant	43.31,-85.35
-Tudor Estates Mobile Home Park	42.96,-83.68
-Tula	46.55,-89.81
-Tunis	46.44,-88.62
-Turk Lake	43.27,-85.26
-Turner	44.14,-83.79
-Turner Shores	41.86,-86.66
-Turners Corner	42.43,-85.43
-Turtle	44.19,-83.74
-Tuscola	43.33,-83.66
-Tustin	44.10,-85.46
-Twelve Corners	42.14,-86.38
-Twilight Mobile Home Park	43.00,-83.65
-Twin Lake	43.36,-86.16
-Twin Lakes	46.90,-88.85
-Twin Lakes Trailer Court	41.96,-85.64
-Twin Meadows Mobile Home Park	42.97,-83.69
-Twin Pine Mobile Home Park	42.27,-84.72
-Twin Pines Mobile Home Park	44.26,-84.22
-Twining	44.11,-83.81
-Two Rivers	43.63,-84.95
-Tyre	43.68,-82.89
-Ubly	43.71,-82.93
-Udell	44.23,-86.09
-Unadilla	42.43,-84.06
-Union	41.79,-85.87
-Union City	42.07,-85.14
-Union Lake	42.61,-83.45
-Union Pier	41.83,-86.69
-Union Plains	42.83,-84.01
-Unionville	43.65,-83.47
-University Center	43.56,-83.98
-Updyke	43.19,-86.11
-Urbandale	42.35,-85.24
-Utica	42.63,-83.03
-Vail	46.34,-86.77
-Valley Brook Estates Mobile Home Park	42.63,-84.54
-Valley Center	43.19,-82.92
-Valley Estates Mobile Home Park	42.77,-84.55
-Valley Farms	42.78,-84.54
-Valley Island	43.79,-83.43
-Valley Mobile Home Park	43.64,-83.94
-Valley Springs Mobile Home Park	42.64,-84.74
-Valley Vista Mobile Home Park	42.93,-85.36
-Van	45.59,-84.78
-Van Meer	46.42,-86.47
-Vandalia	41.92,-85.91
-Vanderbilt	45.14,-84.66
-Vandercook Lake	42.19,-84.39
-Vantown	42.60,-84.22
-Vassar	43.37,-83.58
-Vaughn Village Mobile Home Park	43.47,-83.43
-Vaughnsville	47.38,-88.30
-Veery Point	45.51,-84.56
-Vega	45.79,-87.60
-Vermilac	46.53,-88.46
-Vermilion	46.76,-85.15
-Vermontville	42.63,-85.02
-Vernon	42.94,-84.03
-Vernon Center	43.76,-84.77
-Vernon City	43.81,-84.77
-Verona	43.81,-82.88
-Verona Park	42.33,-85.16
-Vestaburg	43.40,-84.91
-Vick	46.32,-87.16
-Vickery Landing	42.50,-85.27
-Vickeryville	43.19,-84.97
-Vicksburg	42.12,-85.53
-Victoria	46.70,-89.23
-Victoria Woods Mobile Home Court	43.60,-84.16
-Vienna	41.79,-83.48
-Vienna Corners	44.97,-84.37
-Vienna Junction	41.75,-83.50
-Villa Estates Mobile Home Park	42.96,-83.74
-Village Estates Mobile Home Park	42.25,-83.56
-Village Green Mobile Home Park	43.04,-86.20
-Village Mobile Home Court	41.94,-85.64
-Village Trails Mobile Home Community	43.38,-85.48
-Villageside Mobile Home Park	43.54,-83.54
-Vineland	42.06,-86.47
-Vinings Trailer Park	42.34,-84.23
-Virgil Location	46.11,-88.64
-Virginia Park	42.77,-86.18
-Vogel Center	44.19,-85.05
-Volinia	42.01,-85.95
-Volney	43.70,-86.02
-Vriesland	42.81,-85.94
-Vulcan	45.78,-87.86
-Wabaningo	43.37,-86.42
-Wacousta	42.83,-84.70
-Wadhams	42.99,-82.54
-Wagarville	44.03,-84.47
-Wagner Beach	44.11,-83.57
-Wahjamega	43.46,-83.44
-Wainola	46.73,-89.03
-Wakefield	46.48,-89.94
-Wakelee	41.98,-85.88
-Waldenburg	42.66,-82.94
-Waldron	41.73,-84.42
-Wales Center	42.94,-82.68
-Walgamor Corners	43.74,-85.95
-Walhalla	43.95,-86.11
-Walker	43.00,-85.77
-Walkerville	43.71,-86.12
-Wallace	44.53,-83.67
-Walled Lake	42.54,-83.48
-Wallin	44.57,-85.89
-Walloon Lake	45.27,-84.93
-Walnut Point	42.35,-84.99
-Walnut Ridge Manufactured Home Community	42.29,-84.45
-Walsh	46.35,-86.18
-Walters	42.76,-83.34
-Walton	44.52,-85.40
-Walton Junction	44.53,-85.40
-Waltz	42.10,-83.39
-Warren	42.49,-83.01
-Warren Dunes Estates Mobile Home Park	41.92,-86.58
-Wasas	46.72,-89.01
-Wasepi	41.94,-85.46
-Washburn Lake Village Mobile Home Park	41.93,-85.33
-Washington	42.72,-83.04
-Washington Mobile Home Park	42.74,-83.03
-Waterford	42.69,-83.41
-Waterloo	42.35,-84.14
-Waters	44.88,-84.70
-Watersmeet	46.27,-89.18
-Waterstone	42.84,-83.29
-Watertower Travel Trailer Park	43.07,-83.32
-Watertown	43.34,-82.83
-Watervale	44.55,-86.21
-Watervliet	42.19,-86.26
-Watrousville	43.45,-83.52
-Watson	42.54,-85.70
-Watson's Mobile Home Park	42.45,-85.68
-Wattles Park	42.30,-85.11
-Watton	46.54,-88.61
-Wauban Beach	45.45,-84.63
-Waucedah	45.76,-87.75
-Waverland Beach	41.99,-86.56
-Waverly	42.74,-84.62
-Waverly Shores Village Mobile Home Park	42.83,-86.08
-Wayland	42.67,-85.64
-Wayne	42.28,-83.39
-Wayside Mobile Court	43.39,-86.30
-Weadock	45.62,-84.63
-Weale	43.81,-83.40
-Weare	43.75,-86.34
-Weatherstone Village Mobile Home Park	42.34,-85.52
-Webbervilla Mobile Home Park	42.67,-84.18
-Webberville	42.67,-84.17
-Webster	42.40,-83.80
-Wedgewood	44.19,-85.49
-Weidman	43.69,-84.97
-Weimer	44.02,-86.46
-Welcome Corner	42.70,-85.29
-Weldon	44.57,-86.06
-Wellington	46.33,-89.66
-Wellington Estates Mobile Home Park	43.09,-85.25
-Wells	45.78,-87.08
-Wellston	44.22,-85.96
-Wellsville	41.88,-83.89
-Wenona Beach Estates Mobile Home Park	43.65,-83.87
-Wequetonsing	45.43,-84.97
-West Bangor	42.31,-86.19
-West Bay City	43.60,-83.90
-West Bloomfield Township	42.57,-83.38
-West Branch	44.28,-84.24
-West Branch Travel Trailer Park	44.26,-84.22
-West Gladstone	45.84,-87.06
-West Haven Mobile Home Park	42.98,-83.73
-West Highland	42.64,-83.66
-West Ishpeming	46.48,-87.70
-West Kinderhook	41.78,-85.05
-West Leroy	42.22,-85.29
-West Monroe	41.91,-83.43
-West Olive	42.92,-86.15
-West Olive Estates Mobile Home Park	42.93,-86.15
-West Sebewa	42.84,-85.05
-West Shore Estates Mobile Home Park	43.57,-83.91
-West Sumpter	42.12,-83.51
-West Tamarack	47.26,-88.48
-West Tappan	42.97,-82.54
-West Windsor	42.65,-84.70
-Westacres	42.60,-83.42
-Westchester Heights	42.92,-84.38
-Western Location	46.10,-88.31
-Westland	42.32,-83.40
-Weston	41.77,-84.10
-Westons Iroquois Beach	46.49,-84.67
-Westphalia	42.93,-84.80
-Westridge Mobile Home Park	42.26,-83.56
-Westville	43.36,-85.08
-Westwinds Mobile Home Park	43.70,-84.77
-Westwood	42.30,-85.63
-Westwood Heights Mobile Home Park	43.07,-83.76
-Westwood Village Mobile Home Park	43.04,-83.75
-Wetmore	46.38,-86.62
-Wetmore Landing	46.62,-87.47
-Wetzel	44.93,-85.03
-Wexford Corner	44.51,-85.70
-Whaley Drain	42.65,-84.68
-Wheatland	41.97,-84.40
-Wheeler	43.41,-84.44
-Whigville	42.94,-83.65
-Whipsering Pines Mobile Home Park	41.83,-85.67
-Whispering Pines Estates and Mobile Home Park	42.40,-86.20
-Whispering Pines Housing Community	43.63,-84.38
-Whispering Woods Mobile Home Community	44.44,-83.35
-White	46.77,-88.83
-White Birch Estates	45.81,-88.03
-White Birch Estates Mobile Home Park	43.86,-85.51
-White Birch Mobile Home Park	43.28,-83.83
-White Birch Village Mobile Home Park	43.67,-84.05
-White City	46.41,-89.54
-White Cloud	43.55,-85.77
-White Creek Country Estates Mobile Home Park	43.26,-85.58
-White Lake	42.69,-83.55
-White Oak	42.52,-84.19
-White Oak Estates Mobile Home Park	43.11,-83.76
-White Oaks Estates Mobile Home Park	43.11,-83.76
-White Pigeon	41.80,-85.64
-White Pine	46.75,-89.58
-White Pine Village	43.93,-86.44
-White Pines Mobile Home Park	42.06,-86.16
-White Rock	43.71,-82.61
-White Star	43.98,-84.37
-Whitefish Hill RV and Mobile Home Park	45.92,-86.94
-Whitefish Point	46.77,-84.97
-Whiteford Center	41.78,-83.68
-Whitehall	43.41,-86.35
-Whitehouse Landing	46.55,-85.17
-Whites Beach	43.93,-83.89
-Whites Landing	44.91,-84.57
-Whitestone Point	44.11,-83.57
-Whitmore Lake	42.44,-83.75
-Whitney	45.82,-87.39
-Whitneyville	42.87,-85.46
-Whittaker	42.13,-83.60
-Whittemore	44.23,-83.80
-Wic-a-te-wah	44.36,-86.22
-Wickware	43.61,-83.04
-Wico	46.47,-89.96
-Wierenga's Hess Lake Mobile Home Park	43.40,-85.78
-Wilber	44.39,-83.49
-Wilder Center	43.03,-85.73
-Wildeys	42.21,-85.97
-Wildwood	45.27,-85.00
-Wiley	43.86,-86.28
-Willard	43.67,-84.11
-Williams Crossing	46.44,-86.44
-Williams Landing	46.45,-86.67
-Williamsburg	44.77,-85.40
-Williamsport	44.36,-86.26
-Williamston	42.69,-84.28
-Williamsville	41.87,-85.86
-Willis	42.16,-83.56
-Willow	42.12,-83.40
-Willow Green Mobile Home Park	41.91,-83.43
-Willow Park Mobile Home Park	42.76,-86.10
-Willow Point Mobile Home Park	42.61,-82.86
-Willow Run	42.26,-83.57
-Willow Run Mobile Home Park	42.26,-83.54
-Willow Tree Village Mobile Home Park	43.63,-83.90
-Willow Village Home Court	42.69,-84.26
-Wilmot	43.46,-83.19
-Wilson	45.71,-87.44
-Winde	45.97,-87.10
-Windham Hill Manufactured Home Community	42.28,-84.47
-Windigo	47.91,-89.16
-Windmill Estates Mobile Home Park	43.38,-83.89
-Windmill Mobile Home Park	42.81,-86.09
-Windmill Pointe Mobile Home Park	42.88,-85.66
-Windsor Estates Mobile Home Park	42.66,-84.66
-Windsor Woods Village Mobile Home Park	42.67,-85.66
-Winegars	43.94,-84.37
-Winn	43.52,-84.90
-Winona	46.87,-88.91
-Winslow's Mobile Home Park	42.69,-84.29
-Winter's Motor Court	43.28,-83.79
-Winthrop Junction	46.48,-87.69
-Wise	43.73,-84.65
-Wisner	43.62,-83.58
-Witbeck	46.32,-88.00
-Witch Lake	46.28,-88.02
-Withi Trailer Park	44.03,-84.81
-Wixom	42.52,-83.54
-Wobic	46.50,-87.95
-Wolcott Mills	42.77,-82.93
-Wolf Crossing	43.04,-84.25
-Wolf Lake	44.01,-85.84
-Wolverine	45.27,-84.60
-Wolverine Lake	42.56,-83.47
-Wood Creek Farms	42.51,-83.33
-Woodbury	42.76,-85.07
-Woodcreek Mobile Home Park	44.73,-85.56
-Woodcreek Village Estates Mobile Home Park	43.09,-85.08
-Woodcrest Estates Mobile Home Park	43.41,-84.59
-Wooden Shoe Village	43.98,-84.36
-Woodhaven	42.14,-83.24
-Woodland	42.73,-85.13
-Woodland Beach	41.94,-83.31
-Woodland Estates Mobile Home Park	43.09,-85.56
-Woodland Lake Mobile Courts	42.56,-83.79
-Woodland Park	43.71,-85.86
-Woodlawn	45.94,-87.30
-Woodlawn Beach	42.42,-85.42
-Woods	43.76,-84.89
-Woods Corners	43.08,-85.08
-Woodvalley Mobile Home Park	43.33,-83.57
-Woodville	43.87,-84.03
-Wooster	43.51,-85.87
-Worden	42.39,-83.64
-Worth	43.93,-83.97
-Wright	43.11,-85.81
-Wrights Corners	42.20,-84.96
-Wyandotte	46.89,-88.88
-Wyman	43.46,-85.04
-Wyngate Farms Manufactured Home Community	42.24,-85.67
-Wyoming	42.91,-85.71
-Yale	46.47,-90.06
-Yalmar	46.41,-87.24
-Yargerville	41.84,-83.53
-Yates	42.67,-83.10
-York	42.10,-83.73
-Yorkshire Manor Mobile Home Park	42.05,-83.39
-Yorkville	42.38,-85.40
-Youngs Trailer Park	43.87,-85.50
-Ypsilanti	42.24,-83.61
-Ypsilanti Mobile Home Village	42.24,-83.59
-Yuba	44.82,-85.46
-Yuma	44.35,-85.75
-Zeba	46.80,-88.41
-Zeeland	42.81,-86.02
-Zenith Heights	45.31,-85.04
-Zilwaukee	43.48,-83.92
-Zutphen	42.83,-85.88
+0Abbottsford	430,-826
+1cme	448,-855
+1da	430,-855
+3ir	428,-826
+3ms Park	422,-855
+5ville	418,-860
+2dison	420,-844
+7 Junction	420,-843
+2rian	419,-840
+2vance	452,-851
+1etna	436,-859
+1fton	454,-845
+1gate	465,-891
+2new	430,-862
+1hgosatown	451,-856
+2meek	473,-884
+1inger	425,-849
+1kron	436,-835
+1labaster	442,-836
+9 Junction	442,-836
+3mando	437,-845
+4o	424,-857
+3n's Mobile Home Park	426,-841
+4son	454,-848
+3ska	428,-855
+2ba	450,-850
+3erta	466,-885
+3ion	422,-848
+6 Landing	424,-848
+2cona	448,-833
+2den	449,-853
+4r	468,-877
+2embic	436,-847
+2fred	461,-876
+2gansee	418,-849
+3er	441,-841
+3onac	426,-825
+5quin Lake Trailer Court	427,-854
+2icia	433,-840
+2legan	425,-859
+7 Mobile Estates	425,-858
+4n	420,-848
+5 Park	423,-832
+5's Trailer Court	421,-840
+5dale	440,-848
+9 Meadows Mobile Park	430,-859
+5ton	418,-860
+5ville	460,-848
+3ouez	473,-884
+2ma	434,-847
+3eda Beach	438,-839
+4na	423,-858
+3ont	429,-830
+2oha	455,-845
+2pena	451,-834
+6 Junction	451,-835
+3ha	460,-884
+3ine	431,-857
+6 Mobile Home Village	437,-843
+>Village	430,-857
+7Village Mobile Home Park	436,-839
+2ston	468,-888
+2to	429,-854
+4n	459,-869
+5a	435,-853
+2verno	456,-844
+3in	445,-834
+1madore	432,-826
+3sa	462,-884
+2ber	440,-863
+3le	434,-854
+2erican Mobile Home Park	430,-836
+8a Estates Mobile Home Park	427,-827
+2sden	432,-851
+1nchor Bay Gardens	426,-828
+;Harbor	427,-828
+;Shores	426,-828
+6ville	427,-827
+2derson	425,-840
+8 Bayview	442,-836
+8ville	427,-835
+3rews Estates Mobile Home Park	423,-854
+2gel	448,-854
+3ling	447,-850
+2n Arbor	423,-837
+2tlers	468,-877
+3oine	458,-881
+3rim	449,-851
+6 Center	428,-841
+2vil	465,-900
+1plin Beach	436,-839
+2ollo Eleven Mobile Home Park	419,-850
+2ple Carr Village	432,-861
+5gate	434,-826
+1rbor Meadows Mobile Home Park	422,-837
+3utus Beach	450,-847
+2cadia	445,-862
+7n	472,-886
+8 Oak Mobile Home Park	423,-852
+2den	420,-864
+2enac	440,-839
+2gentine	428,-838
+3yle	436,-829
+2lene	444,-853
+3ington Estates Mobile Village	432,-862
+:Manor Mobile Home Park	436,-842
+2mada	428,-829
+2n	435,-837
+3heim	469,-885
+3old	460,-875
+2tesia Beach	444,-845
+3hur Bay	453,-874
+1sh Acres	440,-848
+3land	452,-834
+7 Center	433,-858
+4ey	432,-845
+3ton	440,-855
+2kel	469,-886
+2pen Commons Mobile Home Park	450,-847
+2sinins	468,-885
+3yria	425,-851
+1thens	421,-852
+2kins	431,-826
+2lanta	450,-841
+6ic Mine	471,-886
+4s	429,-835
+2tica	430,-832
+2wood	452,-854
+1u Gres	440,-837
+3Sable	444,-833
+8 River Park	444,-845
+3Train	464,-868
+2burn	436,-841
+6 Heights	426,-832
+8ills	427,-832
+2gusta	423,-854
+2ra	469,-883
+3elius	425,-845
+3ora	464,-902
+2sable Mobile Home Village	444,-833
+3tin	417,-847
+6 Center	436,-829
+8orners	428,-835
+2vinen Corner	465,-901
+1valon Beach	419,-834
+2enue A Mobile Home Estates	423,-852
+3rill	437,-843
+4y	450,-840
+2oca	431,-827
+3ndale	440,-852
+4wood Village Mobile Home Park	423,-851
+1xin	442,-856
+1yr	455,-848
+1zalia	420,-837
+0Babbits Resort	447,-846
+3cock	422,-848
+2ch	437,-834
+3kus Beach	448,-836
+2d Axe	438,-830
+2gley	456,-876
+3nall	444,-858
+2ie de Wasai	465,-842
+3ley	433,-858
+3nbridge Center	421,-863
+2ker Village Mobile Home Park	423,-852
+5sville	425,-861
+5town	418,-864
+2ldwin	439,-858
+3itmore	465,-892
+3lards Corners	431,-857
+3sam	462,-884
+3tic	471,-886
+2nat	455,-877
+3croft	429,-841
+3field	425,-853
+3gor	423,-861
+3kers	419,-847
+3nister	431,-844
+2r Lake	443,-863
+3aga	468,-885
+3beau	463,-843
+3k River	457,-873
+4er Creek	448,-853
+3nard	452,-853
+4es Lake-Millers Lake	432,-833
+3oda	420,-865
+6 Estates	420,-865
+3ry's Resort and Mobile Home Park	426,-852
+5ton	438,-852
+3ton City	447,-836
+7Hills	423,-838
+2sswood	462,-888
+2tavia	419,-851
+7 Center	419,-851
+3cheller	440,-861
+3es	448,-854
+5 Junction	461,-886
+6Location	461,-886
+3h	428,-844
+3tle Creek	423,-852
+2uer	429,-859
+2xter	445,-855
+2y City	436,-839
+4Harbor	454,-851
+4Mills	464,-846
+4Park	436,-836
+5ort	438,-834
+4Shore	454,-851
+9 Estates	454,-851
+5ide Village Mobile Home Park	436,-839
+4View	454,-849
+6llage Mobile Home Estates	436,-838
+3port Park	428,-837
+3side Estates Mobile Home Park	438,-834
+8Mobile Estates	451,-876
+1each Grove	453,-874
+5mont	426,-862
+4on	465,-880
+6 Hill	471,-888
+3dle Lake	423,-852
+3l City	437,-849
+3r Lake	444,-862
+5Town	468,-885
+3ton	463,-893
+3ver	437,-841
+6 Grove	465,-873
+6dam	428,-860
+6ton	439,-845
+2dford	424,-852
+7 Hills Mobile Village	424,-852
+3ore	426,-826
+2ebe	433,-846
+3ch	424,-833
+5 Grove Trailer Park	420,-858
+5er	431,-837
+5wood	462,-888
+2l-Air Mobile Home Park	434,-839
+3ding	431,-852
+3knap	453,-838
+3l	452,-834
+4 Landing	455,-841
+5Oak	427,-842
+4aire	450,-852
+4e River	428,-827
+5ville	422,-835
+: North	422,-835
+6ue	424,-850
+8 Mobile Home Park	424,-850
+3mont	431,-856
+3say	430,-836
+2ndon	446,-858
+3nington	429,-842
+3son	442,-855
+6 Park	442,-836
+3theim	427,-859
+4ley	440,-841
+7s Corners	421,-849
+4on	421,-839
+6 Center	421,-864
+7Harbor	421,-864
+8eights	421,-864
+3zonia	446,-861
+2rgland	466,-896
+3kley	425,-832
+3lamont	424,-860
+4in Center	429,-851
+3ne	438,-833
+3rien Center	420,-863
+8Springs	420,-863
+4y Junction	433,-863
+5ville	424,-845
+3trand	418,-863
+3ville	429,-829
+2ssemer	465,-900
+2te Grise	474,-880
+3hany Beach	419,-866
+4el	418,-851
+3sy	473,-881
+3ty B Landing	464,-853
+3zer	418,-845
+2ulah	446,-861
+2verly Hills	465,-876
+1ig Bay	468,-877
+5eaver	426,-831
+6nd	435,-856
+4Cut	453,-840
+4Prairie	435,-856
+4Rapids	437,-855
+: Mobile Home Court	437,-855
+3elow	450,-843
+3gs Settlement	447,-841
+2llings	438,-844
+2ngham	449,-857
+7 Farms	425,-833
+2rch	467,-876
+5 Beach	432,-825
+6Creek	452,-876
+9st Estates	418,-862
+6Grove Mobile Home Park	471,-886
+6Run	432,-838
+9 Mobile Home Park	433,-838
+5grove Mobile Home Community	465,-874
+5wood	419,-866
+9 Beach	449,-843
+:Estates Mobile Home Park	421,-852
+:Farms Mobile Home Park	432,-838
+:Mobile Home Park	431,-838
+:Shores	441,-836
+3dsall	419,-840
+3mingham	426,-832
+2shop	434,-859
+2tely	438,-859
+1lack Lake	454,-842
+: Bluffs	455,-842
+6River	448,-833
+3ine	431,-826
+3nchard	435,-851
+4ey Junction	460,-859
+7Park	461,-859
+2iss	457,-849
+5field	418,-839
+2om	456,-877
+3omfield	425,-832
+: Hills	426,-832
+;Township	426,-833
+5ingdale	424,-860
+2ue Water Beach	432,-825
+3ff Beach	418,-855
+3mfield Corners	434,-837
+1odus	449,-858
+2lles Harbor	419,-834
+3ton	452,-836
+2mbay	437,-843
+2nifas	463,-892
+3ner Landing	457,-856
+2on	443,-856
+2rculo	429,-860
+3land	435,-854
+2ston	472,-885
+4wick Lake	431,-854
+2ulder Park	453,-853
+2vine	467,-884
+2wens Mill	427,-855
+3manville	441,-842
+3ne Center	428,-854
+2yd	427,-861
+3ne City	452,-850
+6Falls	452,-849
+1radley	426,-856
+7ville	436,-836
+4y Center	432,-842
+3mpton	459,-871
+3ndon Gardens	428,-834
+4t	433,-842
+3ssar	465,-842
+3vo	425,-861
+3ywood	423,-864
+2eckenridge	434,-845
+< Mobile Home Park	434,-845
+3edsville	424,-861
+4zy Beach	418,-856
+3nt Creek	431,-839
+5wood Estates Mobile Home Park	436,-839
+:Mobile Village	429,-857
+3thren	443,-860
+4ton Woods	427,-846
+3vort	460,-850
+2iarwood Senior Housing	425,-833
+3ce	432,-848
+3dgeport	434,-839
+: Mobile Home Park	434,-839
+6ton	434,-859
+6ville	431,-846
+6water	422,-839
+5man	419,-866
+3ghton	425,-838
+8 Village Mobile Home Park	426,-838
+3mley	464,-846
+3nton	438,-850
+3ssette Beach	437,-839
+4tol	441,-856
+3tish Landing	459,-846
+4ton	420,-838
+2oad Acres	426,-829
+5bridge Station	427,-825
+5way Acres Mobile Home Park	436,-847
+3ckway	431,-828
+3hman	437,-858
+3nson	419,-852
+3ok Haven Mobile Home Park	430,-857
+5field	424,-848
+5haven Estates Mobile Home Park	434,-858
+5lyn	421,-842
+5side	447,-856
+9 Meadows Community Mobile Home Park	429,-858
+5ton Corners	466,-875
+5ville	424,-836
+4mfield Center	436,-850
+;Valley Mobile Home Park	436,-850
+3wn City	432,-830
+5lee Park	423,-851
+5stown Charter Township	421,-832
+6ville	419,-860
+2uce Crossing	465,-892
+3ningville	454,-838
+4swick	434,-860
+3tus	455,-848
+2yant	445,-837
+1uchanan	418,-864
+3k Trails	441,-849
+4horn	420,-864
+4ley	445,-857
+4roe	467,-875
+4s	448,-846
+5hot Landing	468,-898
+2ell Hill Estates Mobile Home Park	433,-827
+3na Vista	434,-839
+2llis Crossing	425,-840
+4ock Creek	436,-842
+2mbletown	473,-884
+2nker Hill	425,-843
+2rdickville	448,-860
+3gess	454,-852
+3khart Ridge Mobile Home Park	426,-840
+3lington	421,-851
+3nips	427,-858
+4s Landing	468,-877
+5ide	432,-831
+4t	432,-839
+3r Oak	418,-853
+3t	432,-839
+4 Lake	454,-847
+4on	430,-836
+2tler	421,-849
+3man	441,-845
+3terfield	443,-850
+6nut	432,-849
+6sville	440,-865
+1yron	428,-839
+5 Center	428,-857
+< Mobile Village	428,-857
+0Cadgewith Farms Mobile Home Park	428,-845
+3illac	442,-854
+8 Leisure Mobile Home Community	443,-854
+3mus	419,-842
+3y	426,-830
+2ffey	462,-852
+6 Corner	462,-852
+2lcite	454,-838
+3derwood	464,-891
+3edonia	428,-855
+3ifornia	418,-849
+3umet	472,-884
+3vin Center	418,-859
+2mbria	418,-847
+6dge Junction	421,-842
+3den	418,-848
+3elot Villa Mobile Home Community	431,-836
+=ge Mobile Home Park	432,-858
+3p Dejacket	466,-903
+5Lu Lay Lea	443,-840
+4bell	460,-871
+8 Corners	428,-852
+8s Corner	428,-831
+@s	443,-842
+2nada Corners	432,-858
+8reek Ranch	452,-842
+7Shores	418,-850
+5ian Lakes	436,-853
+4ndaigua	418,-842
+3by Corners	456,-849
+3dlewick Court Mobile Home Park	430,-842
+3field Beach	455,-842
+3nonsburg	430,-855
+3terbury Estates Mobile Home Park	430,-851
+4on	423,-835
+2pac	430,-829
+2rbondale	453,-876
+3land	431,-843
+4eton	421,-834
+8 Mobile Home Park	421,-834
+4isle	426,-850
+4shend	463,-872
+4ton	427,-852
+3ney	456,-876
+3o	435,-834
+4 Mobile Estates	435,-834
+3p Lake	457,-848
+9 Landing	468,-897
+4enter Landing	463,-858
+3r	439,-860
+4iage Hills Mobile Home Park	431,-837
+9Manor Mobile Home Park	430,-836
+4ollton	435,-839
+3son City	432,-848
+6ville	434,-827
+2scade	429,-855
+4o	428,-827
+3eville	439,-833
+3h	434,-828
+3novia	432,-858
+3pian	461,-886
+3s City	436,-832
+4opolis	419,-860
+3tle Park	428,-862
+2thro	452,-836
+1ecil	458,-848
+2dar	448,-858
+5 Bank	463,-873
+7luff	425,-862
+6Creek	425,-853
+6Haven	442,-836
+6Lake	434,-850
+6River	454,-874
+; Estates Mobile Home Park	426,-841
+7un	448,-858
+6Springs	432,-856
+= Mobile Estates	432,-856
+5field Mobile Home Park	432,-856
+5ville	460,-844
+2ment City	421,-843
+2ntennial	473,-884
+: Heights	473,-884
+5r Line	425,-830
+4ral	474,-882
+7 Lake	451,-853
+5e Chateaux Mobile Home Park	419,-855
+6ville	419,-855
+4ury Park Mobile Home Park	427,-847
+2resco	423,-851
+1haison	459,-871
+3let Estates	454,-849
+4kerville	424,-840
+3mberlain	421,-857
+4pion	465,-880
+8 Mine	470,-887
+3ndler	459,-872
+4ning	461,-881
+3pin	431,-843
+3ring Cross	426,-832
+4les	460,-847
+7ton	437,-827
+7worth	424,-847
+6voix	453,-853
+: Estates	453,-853
+5otte	426,-848
+9 Landing	424,-848
+3se	439,-856
+4sell	470,-885
+8 Bay Cabins Mobile Home Park	470,-885
+3teau Deerfield Manor Mobile Home Park	430,-859
+8Estates Mobile Home Park	426,-839
+8Ferrand Estates Mobile Home Park	429,-857
+8Old Orchard Mobile Home Park	430,-835
+8Pines Lake Mobile Home Park	431,-833
+8Timber Heights Mobile Home Park	430,-835
+4ham	464,-869
+3uncey	430,-856
+4teau Algoma Estates Mobile Home Park	432,-856
+9Norton Shores Mobile Home Park	432,-862
+9Torrey Hills Mobile Home Park	430,-837
+2eboygan	456,-845
+3lsea	423,-840
+3rry Beach	427,-825
+9nd	448,-856
+7Hill	423,-835
+6land Mobile Home Park	447,-856
+6wood Village Mobile Home Park	446,-855
+3saning	432,-841
+4hire Center	424,-859
+4ter	426,-849
+7field	427,-828
+< Shores	427,-828
+5onia	451,-851
+3viers	446,-837
+2icagon	461,-885
+4ora	425,-860
+3ef Lake	444,-861
+3ldsdale	431,-856
+4son	425,-839
+3mney Corners Resort	447,-862
+3ppewa	439,-851
+8 Beach	454,-846
+9Hills Trailer Court	432,-852
+9Lake	437,-853
+9Travel Trailer Park	465,-844
+9Vista	437,-851
+2outeau Estates Macomb Mobile Home Park	426,-829
+2ristmas	464,-867
+2ums Corner	447,-857
+3rchville	465,-841
+1ider Mill Village Mobile Home Community	427,-855
+2rcle Drive Mobile Home Park	436,-854
+7Pine Center	426,-855
+1lam River	450,-853
+3re	438,-848
+5nce Center	424,-848
+8ville	424,-833
+6don	421,-849
+4ion	453,-849
+4k Bayshore	442,-835
+6Corners	430,-862
+5lake	421,-843
+5sburg	465,-878
+6ton	427,-834
+6ville	428,-852
+3usedale	433,-841
+3wson	425,-832
+3ys Landing	426,-826
+4ton	419,-842
+2ifford	433,-832
+4ton Mill	428,-831
+3max	422,-853
+3nton	421,-840
+7 Mobile Home Community	421,-831
+8Township	426,-829
+8Village	428,-845
+7ville	427,-834
+3o	432,-837
+2over Estates Mobile Home Park	432,-862
+6dale	425,-854
+6ville	432,-862
+3wry	465,-879
+2yde	427,-836
+1oach Light Estates Mobile Home Park	418,-839
+5ville Mobile Park	422,-837
+3lwood	463,-867
+3ts Grove	427,-852
+2ddes Beach	454,-842
+2e	435,-846
+2ffman Trailer Court	422,-845
+2hoctah	428,-840
+8 Center	428,-840
+2ld Springs	455,-846
+4water	419,-850
+3eman	438,-846
+3fax	437,-861
+3lege Heights Mobile Home Park	426,-832
+8Park Mobile Village	437,-855
+5ns Landing	446,-848
+4ing	436,-834
+6s	429,-849
+7 Corner	422,-855
+3oma	422,-863
+4n	420,-853
+5ial Acres Mobile Home Park	418,-860
+9Estates Mobile Home Park	418,-857
+9Manor Mobile Home Park	423,-857
+5ville	438,-847
+3umbiaville	432,-834
+6us	429,-827
+3wood	436,-834
+2mins	448,-840
+3merce	426,-835
+3stock	423,-855
+8 Northwest	423,-855
+9Park	430,-857
+2ncord	422,-846
+3dit	422,-848
+3e	420,-838
+3klin	431,-859
+3ners Creek	424,-830
+4orville	466,-899
+3stantine	418,-857
+3tinental Estates Mobile Home Park	430,-835
+<Mobile Village	424,-831
+<North Mobile Home Park	431,-835
+3way	454,-849
+2oks	459,-865
+5 Corners	431,-853
+6Mill	422,-854
+3per	424,-856
+6sville	431,-859
+6ton	442,-848
+2peland Corner	427,-826
+4mish	445,-859
+4nhagen Beach	460,-863
+3per City	473,-884
+7Falls	474,-882
+7Harbor	475,-879
+2ral	434,-854
+3dell	462,-848
+3ey	419,-858
+3inne	461,-857
+5th	428,-857
+3nell	459,-872
+4ing	427,-856
+3unna	430,-841
+2tton	447,-850
+2untry Acres Mobile Home Park	419,-863
+EVillage	442,-854
+>Village Mobile Home Park	423,-856
+8Estates Mobile Home Park	429,-857
+8Heritage Mobile Home Park	420,-836
+9ill Pines Mobile Home Park	433,-827
+<s Village Mobile Home Park	428,-858
+9oliday Estates Mobile Home Park	423,-860
+8Manor Mobile Home Park	429,-840
+9eadow Mobile Home Park	438,-830
+>s Mobile Home Community	425,-857
+@Village Mobile Home Park	428,-855
+9obile Home Park	438,-855
+8Place Park	437,-848
+8Side Mobile Home Park	436,-844
+8View Estates Mobile Home Park	435,-860
+:llage Estates Mobile Home Park	443,-842
+@Mobile Home Park	428,-847
+GPark	430,-859
+7side Mobile Court	419,-850
+<Village Mobile Home Park	428,-842
+2vert	423,-863
+3ington	465,-885
+2zy Mobile Home Community	422,-844
+1raigsmere	464,-892
+3wford	435,-848
+2eek Valley Mobile Home Park	424,-852
+5side Estates Mobile Home Park	429,-857
+3ighton	464,-863
+3ssey	424,-855
+4tview Manor Mobile Home Park	431,-833
+4well	450,-854
+2ickelwood Court Mobile Home Park	432,-859
+3sp	429,-861
+2ockery Mobile Home Park	431,-861
+3fton	447,-852
+3ss Village, Harbor Springs	456,-850
+5ings on Broadway Mobile Home Park	436,-847
+4well	433,-826
+3ton	434,-857
+6 Heights	435,-856
+3w Island	435,-839
+2ump	438,-841
+2ystal	433,-849
+7 Beach	418,-850
+8Downs Mobile Village	434,-863
+8Falls	461,-883
+8Lake Mobile Home Park	446,-861
+8Mobile Home Park	421,-864
+8Spring	448,-856
+8Valley	438,-862
+7lia	447,-862
+1umber	436,-830
+2nard	457,-877
+2rran	447,-838
+3tis	462,-858
+6ville	446,-839
+2sino	464,-864
+3ter	440,-862
+2tcheon	444,-851
+3lerville	428,-857
+0Dafter	464,-844
+2ggett	455,-876
+2iley	419,-861
+2le	439,-844
+3ton	433,-863
+2mon	445,-842
+2naher	463,-858
+3ish Landing	447,-848
+3sville	426,-843
+2rragh	448,-850
+2vis	427,-830
+5burg	428,-835
+5on	430,-835
+7 East Mobile Estates	430,-835
+8Hills Mobile Home Park	431,-835
+2yton	435,-833
+6 Center	435,-860
+6a Branch	435,-833
+1e Tour Village	460,-839
+2Witt	428,-846
+2al Mobile Home Village	422,-858
+3n	436,-842
+3rborn	423,-832
+8 Heights	423,-833
+2catur	421,-860
+3ker	435,-830
+6ville	435,-827
+2er Creek	428,-839
+5Park	467,-856
+4field	419,-838
+9 Center	436,-849
+:Pines Mobile Home Park	432,-833
+4heart Valley	445,-846
+4ton	465,-870
+2ford	435,-832
+2ibert	446,-852
+2lano	441,-836
+4ware	474,-881
+3hi Manor Mobile Home Park	426,-845
+7ills	423,-838
+3ray	423,-831
+3ta Center	427,-847
+6Mills	428,-846
+7obile Home Park	430,-837
+4on	425,-854
+3win	437,-847
+2nmark Junction	434,-836
+3nison	431,-860
+3ton	423,-835
+6 Township Trailer Park	443,-846
+2quindre Estates Mobile Home Park	426,-831
+2rby	420,-865
+2troit	423,-830
+7 Beach	419,-833
+2van Mobile Home Park	422,-859
+3ereaux	423,-847
+3il's Lake Estates	420,-843
+5s Corner	457,-866
+7Elbow	447,-855
+7Lake	420,-843
+2ward	448,-848
+2xter	423,-839
+1iamond Shores	419,-860
+9prings	427,-859
+3ne Mobile Home Manor	431,-837
+4n	419,-836
+2ce	435,-841
+4 Corners	436,-844
+3k	462,-848
+2ffin	462,-870
+2ghton	441,-854
+2mondale	426,-846
+2nca	443,-850
+2orite	465,-878
+2sco	427,-830
+2xboro	423,-837
+3on	463,-868
+1odge City	468,-879
+5ville	471,-886
+2gwood Manor Mobile Home Park	426,-861
+2llar Bay	471,-885
+7Settlement	465,-847
+6ville	464,-855
+3ph	442,-849
+2nahue Beach	437,-839
+4ldson	463,-844
+3ken	469,-888
+3nelly	450,-843
+2rgans Crossing	464,-846
+3r	427,-857
+3sey	463,-871
+2ster	425,-855
+2ty	464,-865
+2ughertys Corners	423,-857
+4las	426,-862
+7 Estates Mobile Home Park	426,-862
+2ver	439,-848
+2wagiac	420,-861
+3ling	425,-852
+1rayton Plains	427,-834
+2eamland	471,-884
+3nthe	428,-859
+3w	437,-850
+2iftwood Village Mobile Home Park	442,-863
+2ummond	460,-837
+2yburg	462,-847
+3den	430,-831
+1ublin	442,-859
+2ck Lake	424,-848
+2el	437,-842
+2ffield	429,-839
+2kes	464,-872
+2ndee	420,-837
+6 Meadows Mobile Home Park	420,-837
+3es Mobile Home Park	432,-863
+3ham	464,-898
+3n Location	461,-884
+4ingville	426,-860
+2plain	430,-844
+2rand	429,-840
+2tch Mills Mobile Home Park	428,-844
+6Village Mobile Home Park	431,-837
+3ton	428,-856
+6 Mill Village Mobile Home Park	428,-856
+0Eagle	428,-848
+5 Harbor	475,-882
+6Lake Estates	418,-860
+6Mills	465,-875
+6Nest	474,-883
+6Point	419,-860
+6River	474,-883
+5s Nest	452,-876
+2st Comstock	423,-855
+7oper	424,-856
+5Dayton	434,-833
+6eWitt	428,-845
+5Gilead	418,-851
+6rand Rapids	429,-856
+5Highland	427,-836
+5Jordan	452,-851
+; Mobile Home Park	452,-851
+5Kingsford	458,-881
+5Lake	442,-863
+7nsing	427,-845
+6eroy	422,-852
+5Martin	426,-856
+5Rockwood	420,-832
+5Saugatuck	427,-861
+5Tawas	443,-835
+4lawn	422,-836
+4manville	430,-860
+5ont	430,-856
+4on	431,-841
+4pointe	425,-830
+6rt	451,-854
+4wood	423,-856
+2ton Pines Village Mobile Home Park	425,-847
+6Rapids	425,-847
+2u Claire	420,-863
+1ben Junction	464,-870
+1ckerman	464,-850
+8 Corner	464,-850
+3ford	422,-849
+2orse	422,-832
+1den	425,-844
+4ville	438,-844
+2gemont Park	428,-846
+8, Southfield	425,-833
+4rton	432,-856
+4tts	441,-856
+4water	447,-861
+9 Beach	458,-847
+:Heights	422,-835
+5ood	433,-844
+8 Village Mobile Home Park	434,-841
+2ison Mobile Home Court	430,-825
+2more	434,-850
+6 Mobile Home Park	434,-850
+2wards	442,-843
+7burg	418,-861
+; Mobile Home Estates	418,-861
+1gelcraft Mobile Home Park	432,-861
+1ightmile Corner	464,-856
+1lba	430,-834
+3erta	446,-862
+3ow Lake	442,-840
+3ridge	437,-862
+2dorado	446,-844
+2k Rapids	449,-854
+3horn	460,-864
+3ton	438,-832
+2lington	436,-833
+3sworth	452,-852
+2m	424,-833
+3 Hall	434,-848
+3crest Mobile Village	423,-836
+3dale	428,-853
+3er	434,-829
+3hurst	455,-847
+3ira	451,-849
+3s Mobile Home Park	430,-836
+3wood	462,-889
+2o	469,-886
+3ise	423,-833
+2sie	431,-844
+2well	434,-848
+1merson	466,-850
+7 Station	451,-836
+4y	424,-837
+2mett	430,-828
+2pire	448,-861
+1ngadine	461,-856
+3lish Meadows Mobile Home Park	423,-844
+7ville	431,-857
+2sign	459,-869
+3ley Center	433,-856
+2trican	434,-852
+1poufette	461,-852
+2silon	454,-848
+2worth Assembly	440,-865
+1rickson Landing	461,-884
+3e	418,-835
+4 Mobile Home Village	417,-835
+1scanaba	458,-871
+2sexville	436,-838
+2tates of Genesee Valley Mobile Home Park	430,-838
+3ey	439,-842
+3ral Beach	420,-832
+1thelwood	465,-897
+1ugene	433,-847
+2reka	431,-845
+6 Place	432,-852
+2stis	458,-873
+1vans	432,-855
+3rt	439,-853
+2elyn	464,-865
+3rgreen Acres	419,-834
+:Beach	455,-840
+:Estates Mobile Home Park	420,-847
+:Mobile Home Community	430,-851
+:Park Mobile Home Park	424,-856
+:Shores	459,-847
+:Village Mobile Home Park	434,-846
+1wen	465,-893
+1yedylwild Beach	450,-847
+0Fabius	419,-857
+2ctoryville	420,-853
+2ir Haven	427,-826
+5Plain	421,-865
+4fax	420,-854
+5ield	418,-840
+9 Manor Mobile Home Park	436,-840
+4grove	435,-835
+4land	419,-863
+7e Estates Mobile Home Park	426,-839
+6wn Estates Mobile Home Park	426,-839
+4port	456,-867
+4view	447,-840
+8 Estates Mobile Home Park	419,-850
+9Trailer Court	458,-871
+3thorn	457,-878
+2lconview Estates Mobile Home Park	435,-841
+3lasburg	430,-853
+3mouth	442,-851
+2rgo	431,-827
+3mers Creek	430,-833
+4ington	425,-834
+: Acres	424,-834
+;Hills	425,-834
+3randville	432,-837
+5r Landing	449,-846
+3well	438,-849
+2unus	459,-875
+2wn River	418,-853
+2yette	457,-867
+7s Corner	444,-841
+1elch	460,-878
+5 Mountain	460,-878
+2nmore	432,-844
+3ner's Mobile Village	430,-825
+4ville	426,-861
+3ton	428,-837
+6 Oaks Mobile Home Community	428,-837
+3wick	432,-851
+2rn	438,-862
+4dale	425,-831
+3ry	436,-862
+5sburg	431,-862
+1ibre	462,-847
+2fe Lake	446,-854
+2ler City	442,-863
+3ion	439,-830
+3lmore	427,-860
+2ndley	419,-854
+3gerboard Corner	454,-844
+3kton	450,-851
+2resteel	469,-892
+3st Point Mobile Home Park	448,-857
+2sh Corners	423,-863
+4er	419,-849
+6man's Cove Mobile Home Park	430,-837
+6ville	436,-841
+4ville	422,-842
+2tchburg	424,-843
+2ve Corners	446,-845
+5Lakes	431,-832
+5Mile Corners	421,-861
+5Points	428,-836
+; Corner	425,-848
+<North	431,-842
+4mile Corner	448,-855
+1lamingo Trailer Court	425,-833
+3nders	451,-838
+3t Rock	458,-872
+9 Village Mobile Home Park	420,-833
+2eming	426,-840
+3tcher	445,-850
+2int	430,-837
+2oodwood	462,-880
+3werfield	421,-857
+3yd	436,-844
+2ushing	431,-838
+8 Estates Mobile Home Park	431,-839
+1oote Site Village	444,-834
+2rbes Location	461,-886
+4ush Corner	448,-847
+3d Boulevard Mobile Home Park	422,-836
+5River	457,-871
+4ney	433,-843
+3est Beach	454,-850
+7Green Estates	428,-843
+9ove	428,-859
+< Station	428,-859
+7Hill	434,-847
+;s	427,-844
+< Mobile Home Park	437,-855
+7Lake	463,-868
+6er	435,-826
+6ville	466,-875
+3nicola Trailer Park	465,-844
+3ster	426,-826
+3t Holmes	459,-846
+5Mackinac	458,-846
+5Wayne	423,-831
+4une Lake	461,-884
+2ster	423,-838
+6 City	460,-877
+6s	433,-839
+4oria	432,-834
+2uch	448,-857
+3ntain	440,-862
+8 Park	418,-845
+:oint	450,-857
+9Springs Mobile Home Park	423,-857
+3r Seasons Trailer Park	435,-856
+5Towns	426,-834
+4mile Corner	464,-855
+9Lake	423,-840
+2wler	430,-847
+6ville	427,-841
+2x	455,-873
+1rain Lake	423,-836
+3ncis Grove	437,-844
+7co	423,-841
+4kenmuth	433,-837
+7trost	434,-838
+5fort	446,-862
+9 Trailer Park	446,-862
+5lin	425,-833
+8 Communities Mobile Home Park	433,-863
+9Mine	471,-886
+9Valley Estates Mobile Home Park	423,-856
+9Woods Mobile Home Park	418,-862
+3ser	425,-830
+2eda	471,-888
+4eric	448,-848
+3e Soil	441,-862
+4dom	457,-846
+4land	435,-841
+8 Mobile Home Park	436,-842
+4man Landing	466,-875
+4port	428,-853
+3idberger	436,-829
+3mont	435,-859
+3nch Landing	422,-834
+7Town	438,-864
+; Villa Mobile Home Park	420,-834
+6town	465,-877
+2iendly Village of Adrian	419,-840
+6sville	423,-862
+3tzburg	421,-860
+2ontier	418,-846
+3st	466,-889
+5 Corners	428,-849
+2uit Ridge Center	431,-858
+5port	431,-862
+1uller	463,-891
+3ton	421,-854
+0Gaastra	461,-886
+2getown	437,-832
+2ines	429,-839
+2le-Valley Estates Mobile Home Park	423,-854
+4sburg	423,-854
+3ien	418,-865
+3loway	433,-844
+2nges	426,-862
+2rden	458,-866
+6 City	423,-833
+8orners	459,-865
+6dale	430,-825
+6ville	465,-843
+4ner	455,-877
+7s Corners	421,-854
+3field	434,-841
+3land Village	449,-843
+4etts Corner	442,-858
+3net	462,-853
+3th	459,-870
+2y	472,-882
+3lord	450,-847
+1eddes	423,-837
+2els	444,-845
+2m	465,-891
+2nesee	431,-836
+4va	420,-843
+3tian	464,-875
+2ra	434,-837
+3mfask	462,-859
+1iauque Beach	455,-846
+2bbs City	462,-887
+3raltar	421,-832
+3son	427,-862
+6 Lake	462,-884
+2ddings	446,-852
+2lbert	444,-854
+3christ	461,-854
+3ead	418,-852
+3ford	435,-836
+3let Landing	469,-878
+2ngellville	427,-833
+2rard	420,-850
+2tchel	428,-858
+1ladstone	458,-870
+4win	440,-845
+2en Arbor	449,-860
+5Haven	449,-860
+5Lake Trailer Park	449,-860
+6ord	420,-865
+4-Aire Mobile Home Park	420,-865
+4coe	440,-829
+4dale	423,-860
+5ora	419,-865
+4gary	426,-835
+4n	425,-862
+5 Haven Shores	425,-862
+6Shores	425,-862
+7tores	425,-862
+6Wood Mobile Village	425,-831
+5ie	446,-837
+4wood	421,-860
+8 Beach	441,-836
+9Estates Mobile Home Park	431,-857
+2overs Corner	469,-881
+1obles	424,-859
+2etzville	461,-841
+2gebic	464,-895
+2lden	461,-880
+6 Pond Estates	419,-857
+3fcrest	419,-834
+2od Hart	456,-851
+4ar	445,-839
+4ells	430,-827
+4ison	427,-832
+4land	431,-831
+4rich	429,-835
+2rdon	465,-872
+6 Beach	418,-867
+6ville	436,-844
+2uld City	461,-857
+3rley	456,-874
+2wen	432,-853
+1raafschap	428,-861
+3ce	456,-841
+3fton	420,-834
+3nd Beach	418,-868
+7lanc	429,-836
+; Township	429,-836
+6Country Mobile Home Village	430,-860
+6Haven	431,-862
+6Junction	424,-861
+6Ledge	428,-848
+; Ravines Mobile Home Park	428,-848
+6Marais	467,-860
+6Rapids	430,-857
+6Shire Estates Mobile Home Park	426,-841
+6Valley	430,-859
+7iew	457,-846
+: Acres	424,-834
+;Beach	455,-846
+5e Pointe	426,-826
+5ville	429,-858
+4ge Corners	426,-862
+4ite Bluff	459,-880
+4t	433,-858
+5 Center	438,-854
+3pe	420,-835
+3ss Lake	422,-842
+3ttan	431,-854
+3wn	447,-857
+3yling	447,-847
+2eat Lakes Beach	432,-825
+6Northern Trailer Court	463,-855
+5er Galesburg	423,-854
+3en	468,-894
+5 Acres Mobile Home Park	432,-857
+6Garden	464,-873
+6Haven	465,-860
+6Lake	427,-856
+6Meadow Village Mobile Home Park	428,-857
+6Oak	425,-837
+6River	450,-851
+6Timbers	452,-845
+5briar Estates Mobile Home Park	431,-853
+;Village Mobile Home Park	440,-845
+6ush	446,-833
+5field Park	423,-851
+;Village	423,-832
+5land	468,-891
+5ville	432,-852
+5wood	465,-878
+3gory	425,-841
+7ville	472,-884
+3ilickville	448,-856
+3sham	426,-849
+2ind Stone City	440,-829
+2oos	458,-871
+3s Cap	459,-848
+4se Ile	421,-831
+7Pointe	424,-829
+= Farms	424,-829
+>Park	424,-829
+>Shores	424,-829
+>Woods	424,-829
+3veland Corners	428,-836
+5ton	432,-841
+1uernsey Lake Mobile Home Court	426,-854
+2ll Lake	424,-854
+4iver	460,-860
+2n River Mobile Estates	425,-856
+:West Mobile Home Park	425,-856
+3nisonville	428,-845
+3ther Mobile Home Court	431,-837
+2stin	446,-834
+2thrie	423,-841
+1winn	463,-874
+0Haakwood	453,-846
+2dley	430,-834
+2gensville	453,-838
+2le	444,-838
+3lers Corners	427,-837
+4s Corner	435,-852
+2mburg	424,-838
+7 Hills Estates Mobile Home Park	424,-838
+3ilton	427,-860
+3lin Lake	440,-865
+7Mobile Home Community	426,-842
+3mell Beach	441,-836
+4ond	455,-840
+3tramck	424,-830
+2ncock	471,-886
+3d	422,-833
+3gore Heights	454,-843
+3nah	446,-856
+6ville	456,-874
+3over	421,-846
+7 Village Apartments Mobile Home Park	426,-853
+3sen	452,-876
+2rbert	419,-866
+4or Beach	438,-826
+7Point	454,-850
+7Springs	454,-850
+> Estate	454,-850
+7View	453,-835
+3d Luck	441,-842
+4wood	460,-877
+8 Acres	447,-858
+3ing	443,-854
+3lan	445,-858
+4em	429,-861
+3mon City Heights	441,-836
+3per Woods	424,-829
+3rietta	443,-857
+5s	457,-874
+6burg	432,-859
+6on	440,-848
+8 Beach	460,-863
+9Mobile Home Estates	440,-848
+6ville	447,-833
+3sens Island	426,-826
+3t	437,-864
+4ford	422,-862
+4land	427,-838
+8 Meadows Mobile Home Park	426,-837
+5ey	464,-898
+4man	420,-863
+3vard	432,-854
+4ey	465,-874
+2slett	428,-844
+3tings	426,-853
+2tchs	448,-857
+3maker	418,-851
+3ton	439,-848
+2utala Corner	465,-902
+2venview Mobile Home Court	437,-855
+2wkhead	425,-862
+4ins	438,-856
+4s	453,-839
+3thorne	428,-825
+2zel	468,-887
+5 Park	425,-831
+5hurst	419,-866
+1eather Hill Estates Mobile Home Park	430,-838
+2bards	473,-883
+2imforth	449,-857
+2lena	438,-827
+3l	424,-840
+3mer	463,-857
+3ps	459,-876
+2mans	435,-831
+3lock	443,-837
+2nderson	431,-842
+4ricks	460,-874
+2ritage Hills Mobile Home Park	439,-864
+3man	467,-884
+6sville	457,-876
+3rick	438,-847
+5ngton	431,-858
+4on	450,-836
+3sey	438,-854
+2speria	436,-860
+3sel	460,-844
+2therton	450,-844
+1i-Way Mobile Haven	426,-848
+7Trailer Court	430,-836
+2awatha	461,-863
+8 Location	461,-886
+9Trailer Park	440,-831
+2ckory Corners	424,-854
+8Haven Mobile Home Community	425,-846
+9ills Village Mobile Home Park	422,-852
+8Ridge	427,-837
+2dden Creek Manufactured Home Community	417,-837
+7Forest Mobile Home Park	440,-864
+7Oaks Mobile Home Park	431,-862
+7Valley Mobile Home Community	430,-850
+2gbee Corner	435,-854
+3gins Lake	445,-848
+3h Banks	456,-843
+4land	426,-836
+8 Hills Mobile Home Park	423,-856
+9Park	424,-854
+8s Mobile Home Park	431,-837
+4wood	439,-843
+3man Park	421,-865
+2ll's Haven Mobile Home Park	419,-864
+7Mobile Home Park	435,-860
+4anlake Village Mobile Home Park	421,-842
+4crest	465,-902
+9 Acres Mobile Home Park	423,-856
+:Mobile Home Park	432,-862
+:Orchard	418,-835
+4iards	427,-857
+4man	451,-839
+4s Corners	419,-865
+5dale	419,-846
+9 Mobile Village	419,-846
+5ide Acres Mobile Home Park	419,-847
+4top	446,-857
+7 Mobile Home Park	430,-856
+4view Mobile Estates	422,-863
+2nchman	420,-864
+2ram	433,-855
+1obart	442,-854
+2ckaday	441,-844
+2dunk	420,-851
+2liday Gardens Mobile Home Park	428,-856
+8Manor Park	423,-843
+9obile Home Park	427,-858
+8South Mobile Home Park	419,-834
+8Terrace Mobile Home Park	437,-852
+8Village Mobile Home Park	440,-863
+8West Village Mobile Home Park	428,-862
+3land	428,-861
+4oway	419,-839
+4y	428,-836
+5wood	425,-862
+3t	426,-845
+4 Manor Mobile Home Park	426,-845
+4's Mobile Home Court	431,-837
+4on	434,-861
+3y Corners	428,-855
+2mecrest Villa Mobile Home Park	425,-859
+4ier	468,-877
+4r	422,-848
+5 Location	461,-887
+4stead	463,-841
+2nor	447,-860
+2oks Corner	418,-867
+3per	425,-856
+3vers Corners	431,-843
+2pe	438,-843
+3kins	426,-858
+7burg	426,-857
+2rr	437,-850
+3ton	422,-845
+6 Bay	453,-851
+2ughton	471,-886
+8 Lake	443,-848
+= Heights	443,-848
+9Point	444,-848
+3le	457,-874
+3seman	446,-853
+2ward City	434,-855
+6sville	420,-857
+3ell	426,-839
+3landsburg	423,-854
+2xeyville	442,-857
+2ytville	427,-849
+1ubbard Lake	448,-835
+7ston	431,-848
+4ell	472,-884
+3er	436,-860
+2dson	419,-844
+6 Mills	424,-839
+6ville	429,-859
+2lbert	464,-852
+2mboldt	465,-879
+8 Mine	465,-879
+3phrey	445,-861
+2nters Creek	430,-833
+= Estates Mobile Home Park	437,-853
+>Mobile Home Community	430,-833
+8Glen Mobile Home Park	427,-857
+4ington Run Mobile Home Park	423,-857
+;Woods	425,-832
+4spur	460,-858
+5ville Park	436,-832
+2ron Beach	455,-841
+6City	440,-828
+6Heights	441,-836
+6Mountain	469,-879
+6Oaks	442,-836
+6River Mobile Home Park	420,-832
+6Shores Estates Mobile Home Park	435,-826
+5ia Heights	432,-825
+5town	471,-886
+1yde	457,-872
+4 Park	442,-836
+2las	460,-877
+0Ida	419,-836
+3 Center	419,-836
+2eal Villa Mobile Home Park	430,-833
+2lewild	439,-858
+1mlay City	430,-831
+2perial Heights	465,-881
+9Mobile Homes	428,-847
+1na	441,-853
+2dependence Commons Mobile Home Park	426,-848
+3ian Cove Estates Mobile Home Park	419,-852
+7Grove	424,-863
+7Lake	420,-862
+7River	454,-846
+7Town	464,-866
+7Village Mobile Home Park	422,-844
+6town	457,-874
+6ville	455,-847
+2galls	454,-876
+7ton	452,-875
+3leside	456,-847
+2kster	423,-833
+2land	460,-859
+2terlochen	446,-858
+2verness Mobile Home Community	417,-836
+1onia	430,-851
+1ron Mountain	458,-881
+5River	461,-886
+4s	441,-859
+4ton	453,-852
+4wood	464,-902
+2ving	427,-854
+1sabella	459,-866
+8 Mobile Home Park	436,-848
+3dore	449,-858
+2haward	448,-848
+3peming	465,-877
+2land View	456,-872
+1thaca	433,-846
+1va	435,-843
+3nhoe	437,-831
+0Jacks Landing	447,-854
+5on	422,-844
+7 Mobile Home Park	422,-844
+8Trailer Park	425,-830
+3obsville	470,-884
+2mestown	428,-858
+2sper	418,-840
+1eddo	432,-826
+2fferson	421,-843
+2nison	429,-858
+3nings	443,-853
+2richo Corners	424,-862
+5o	420,-865
+3ome	420,-845
+3usalem	423,-840
+2ssieville	464,-901
+1ohannesburg	450,-845
+3nson Landing	453,-875
+5wood	460,-836
+2nes	419,-858
+5ville	420,-847
+2ppa	422,-852
+2rdan	437,-847
+2ssman Acres	428,-835
+1uddville	431,-840
+3y's Mobile Home Court	418,-868
+2gville	435,-859
+2hl	434,-830
+2net	465,-902
+3iata	434,-835
+4per	464,-866
+0K I Sawyer	463,-874
+1. I. Sawyer Air Force Base	463,-874
+1aiserville	424,-840
+2lamazoo	423,-856
+5o	425,-850
+3eva	444,-860
+3kaska	447,-852
+2mpvilla Mobile Home Park	445,-861
+2rlin	446,-858
+3rs Corner	434,-836
+2takitckon Indian Village	462,-891
+2wkawlin	436,-839
+1earsarge	473,-884
+5ley Lake Terrace Mobile Home Park	431,-836
+2ego Harbor	426,-833
+3lans Corner	443,-851
+4er	421,-862
+3wahdin	430,-824
+2lden	462,-843
+3ls	454,-877
+4ys Corners	432,-860
+3so Junction	462,-882
+2ndall	424,-858
+3neth	461,-849
+3o	445,-844
+3sington Meadows Mobile Home Park	427,-846
+3t City	432,-858
+9 Mobile Home Park	432,-857
+4on	465,-889
+4ucky	463,-866
+4wood	429,-856
+2rby	430,-841
+3r Hill	429,-834
+2ssington	418,-859
+3wick	449,-856
+2w	452,-876
+3adin	449,-854
+3eenaw Bay	469,-885
+2y Heights Village Mobile Home Park	429,-854
+4Mobile Home Court	440,-844
+1ibbie	424,-862
+2ernan	462,-882
+2llarney Beach	437,-839
+4master	446,-834
+3managh	438,-834
+2mball	430,-826
+7 Location	461,-883
+4erly Estates Mobile Home Park	420,-834
+2nde	439,-830
+5rhook	418,-850
+3g Arthur Mobile Home Park	428,-845
+4's Court Mobile Home Park	447,-856
+4s Corner	432,-851
+8urt Mobile Park	419,-840
+6Landing	420,-864
+6Mill	431,-832
+5brook Mobile Home Estates	429,-830
+5ford	458,-881
+5land	426,-846
+6ey	459,-873
+8 Beach	454,-847
+9Mobile Park	422,-836
+5ton	434,-832
+3neville	425,-846
+5y	430,-858
+3ross	463,-845
+2pling	459,-870
+2rkwood Community Mobile Home Park	430,-836
+2va	462,-871
+1lingers	418,-855
+5ville	470,-885
+1neeland	447,-841
+2ights Mill	441,-840
+2ollwood Estates Mobile Home Park	430,-859
+1ochville	435,-840
+2ss	454,-877
+1ris Kay Mobile Home Park	434,-841
+4tana Mobile Home Park	428,-845
+1urtz	446,-836
+0L and M Trailer Park	465,-844
+1'Anse	468,-884
+6 Mobile Home Court	467,-884
+1a Grande Mobile Home Court	429,-858
+7ge	420,-860
+3Salle	419,-834
+2Branche	459,-875
+2Fayette Landing	468,-898
+2barge	428,-855
+2c La Belle	474,-880
+3ey	425,-852
+3hine	451,-837
+3ota	424,-861
+2doga	463,-870
+2fayette Place Mobile Home Park	424,-831
+2goon Beach	437,-839
+2ing	435,-829
+5sburg	429,-844
+2ke	438,-850
+4 Angeline	465,-877
+:us	427,-833
+7n	447,-858
+5Bluff	458,-871
+5City	443,-852
+5Fenton	428,-837
+6orest Mobile Home Park	434,-858
+5George	440,-850
+6ogebic	466,-896
+5Haven Estates Mobile Home Park	463,-873
+6uron Beach	442,-836
+5Isabella	436,-850
+5Leelanau	450,-857
+6inden	472,-884
+5Margrethe	446,-848
+6ichigan Beach	422,-864
+>Heights Mobile Home Park	453,-852
+7ne	468,-890
+5Odessa	428,-851
+6rion	428,-832
+: Heights	428,-833
+5Region Mobile Home Park	420,-849
+6oland	469,-889
+5Superior Estates	465,-844
+5Terrace Mobile Court	453,-852
+5in the Hills Mobile Home Park	427,-832
+4crest Mobile Home Park	420,-850
+4field	434,-843
+4land	425,-838
+4port	431,-825
+4shore Estates Mobile Home Park	452,-835
+:Mobile Estates Park	420,-865
+5ide	418,-867
+8 Mobile Court	430,-836
+@Home Community	431,-854
+4ton	463,-858
+4view	418,-867
+8 Estates Mobile Home Park	429,-840
+9Homes Mobile Home Park	434,-853
+9Mobile Home Park	422,-836
+EVillage	452,-850
+@Park	428,-861
+9Village Mobile Home Park	439,-845
+6lle	428,-832
+4wood	452,-834
+8 Club	434,-863
+9Mobile Home Estates	418,-866
+EPark	438,-864
+2mbert	458,-871
+7ville	418,-836
+4s	429,-827
+3ont	430,-859
+2newood	423,-840
+3gport	434,-844
+4ston	433,-852
+3sing	427,-846
+2peer	430,-833
+6 Heights	430,-836
+7Meadows Mobile Home Park	431,-833
+3orte	435,-842
+2rch	458,-871
+3kin	437,-842
+3son Beach	448,-835
+2throp	462,-872
+5up Village	425,-832
+2urium	472,-884
+2vender Corner	465,-859
+2wndale	423,-855
+8 Estates Mobile Home Park	435,-840
+3rence	422,-860
+8 Manor Mobile Home Park	426,-848
+:obile Home Park	422,-860
+3son	463,-871
+3ton	422,-858
+2yton Corners	432,-840
+1e Lac Appelle	423,-863
+3Roy	440,-854
+2apers	458,-877
+3ton	437,-847
+2e	424,-861
+3 Center	424,-849
+4Villa Mobile Home Park	420,-850
+3lanau Schools	449,-860
+:hores	449,-857
+3r	452,-837
+3tsville	448,-851
+2ffingwell Estates Mobile Home Park	418,-844
+2grand	454,-844
+2isure	425,-862
+7 Estates Mobile Home Park	428,-861
+8Village Mobile Home Park	431,-856
+2land	450,-858
+2mon Park	422,-855
+2nawee Junction	419,-839
+3cel	464,-854
+3non	430,-839
+2onard	429,-831
+4i	422,-843
+5das	420,-854
+3ta	441,-849
+2roy	452,-835
+2slie	424,-844
+6's Mobile Home Village	425,-829
+3terville	430,-829
+2vel Park	424,-853
+:-Oak Park	424,-853
+4ring	456,-848
+2wer Pewabic	472,-886
+3iston	449,-843
+5ville	439,-828
+2xington	433,-825
+9 Heights	432,-825
+:Mobile Home Park	433,-825
+1iberty	421,-844
+7 Corners	418,-836
+2ckly Corners	418,-845
+2fe O'Riley Mobile Home Park	427,-846
+2lley	438,-858
+2ma Center	423,-840
+3e Creek	418,-843
+4stone	463,-869
+3inga	472,-887
+2ncoln	447,-834
+7 Estates Mobile Home Park	428,-861
+8Junction	445,-834
+8Park	422,-832
+3den	428,-838
+6 Hills	423,-863
+7Mobile Home Park	418,-859
+7Place Mobile Home Court	430,-838
+3kville	438,-833
+3wood	437,-840
+7 Beach	437,-839
+2sbon	432,-858
+3ke	453,-837
+2tchfield	420,-848
+3tle Gem Mobile Home Court	425,-856
+7Killarney Beach	437,-839
+7Lake	463,-873
+7Manistee	441,-859
+7Paw Paw Lake	422,-863
+8oint Sable	436,-865
+7Valley Estates Mobile Home Park	424,-833
+8enice	427,-850
+2vingston	420,-865
+3onia	424,-834
+1ockport	435,-842
+4wood	419,-850
+8 Beach	438,-843
+3ust Corners	419,-844
+2di	446,-852
+2ehme	437,-841
+2g Haven Mobile Home Park	450,-847
+3an	423,-837
+5 Estates Mobile Home Park	428,-860
+2ndon	420,-836
+3g Lake	444,-839
+9 Heights	441,-848
+5Point	455,-846
+5Rapids	451,-837
+4rie	454,-877
+2omis	438,-847
+3n Lake Manufactured Home Community	428,-838
+2retto	458,-878
+2st Lake Woods	448,-834
+2ttivue	427,-828
+2uis Cabin Landing	447,-846
+2vells	448,-845
+2well	429,-853
+4r Chub Landing	449,-846
+2xley	443,-848
+1ucas	442,-853
+3e	432,-840
+2dington	440,-864
+2lu	419,-836
+2m	431,-832
+2na Pier	418,-834
+2pton	444,-840
+2ther	440,-857
+2zerne	446,-843
+1yle	438,-845
+2ndon Center	424,-841
+7Mobile Home Court	438,-830
+2on Manor	445,-847
+4s	430,-850
+0Mabel	448,-854
+2catawa	428,-862
+3kinac Island	458,-846
+7w City	458,-847
+4s Landing	426,-862
+3omb	427,-830
+4n	421,-839
+2dison Center	419,-840
+8Heights	425,-831
+2lcolm	445,-862
+2ncelona	449,-851
+4hester	422,-840
+3dan	474,-880
+3gum	465,-873
+3istee	442,-863
+6ique	460,-862
+4tou Beach	420,-843
+=-Devils Lake	420,-843
+3ning	455,-844
+3sfield	461,-882
+9 Location	461,-882
+3tila Camp	462,-871
+4on	444,-854
+2ple Beach	420,-832
+6City	449,-859
+6Grove	463,-872
+; Corners	424,-862
+<Estates Mobile Home Community	427,-857
+<Mobile Home Communities	430,-831
+HPark	430,-837
+HVillage	436,-842
+<Trailer Park	419,-860
+6Hill	434,-855
+: Village Mobile Home Park	422,-862
+6Island	421,-862
+< Estates Mobile Home Park	433,-861
+6Knoll Mobile Home Park	426,-848
+6Leaf	426,-826
+6Rapids	431,-847
+7idge	441,-839
+6Valley	443,-845
+7iew Estates Mobile Home Park	436,-846
+6Woods Manufactured Home Community	419,-841
+5hurst	424,-852
+5ton	449,-855
+5view Estates Mobile Home Park	432,-830
+:Valley Mobile Home Park	428,-860
+5wood	460,-870
+9 Mobile Home Park	428,-857
+2rcellus	420,-858
+3engo	423,-848
+5isco	464,-897
+3illa	444,-859
+4ne City	427,-825
+4on	441,-852
+6 Springs	432,-843
+3ks	463,-857
+3lborough	439,-858
+4ette	433,-831
+4in Village Mobile Home Community	418,-861
+3ne	430,-858
+3quette	465,-874
+3sh Corner	456,-849
+5all	423,-850
+3tin	425,-856
+6dale Beach	427,-825
+6s Bluff	456,-855
+8Landing	465,-880
+7ville	421,-835
+3ysville	429,-825
+: Farms Manufacturing Home Community	430,-825
+;Villa Estates Mobile Home Park	429,-825
+2shek	460,-875
+3on	426,-844
+5 Manor Mobile Home Community	425,-844
+5ville	459,-870
+3s City	468,-891
+3todon	460,-884
+2tchwood	466,-894
+3herton	431,-848
+3tawan	422,-858
+4eson	419,-852
+2ue Corners	444,-861
+2xton	460,-837
+2ybee	420,-835
+3field	446,-855
+3ville	433,-834
+3wood	458,-870
+1cBain	442,-852
+3ride	434,-850
+2Carron	463,-843
+3lure	440,-844
+3omb Corner	469,-881
+4rds	429,-854
+2Donald	423,-862
+2Farland	462,-872
+2Gee	446,-852
+3regor	435,-828
+5w Junction	431,-837
+2Harg	450,-836
+2Intyre Landing	447,-848
+3vor	442,-837
+2Keever	468,-890
+3inley	446,-839
+2Lean	434,-860
+4ods Corner	463,-854
+2Manus Corner	445,-855
+3illan	463,-857
+8 Corner	463,-857
+2Phees Landing	464,-854
+1eade	427,-829
+4ow	443,-836
+6 Lane Mobile Home Park	447,-857
+<Village Mobile Home Park	419,-856
+7Streams Estate Mobile Home Park	421,-864
+7View Village Mobile Home Park	423,-856
+6brook Estates Mobile Home Park	419,-834
+<Manor Estates Mobile Home Park	431,-838
+6s Mobile Home Park	435,-837
+8of Farwell Mobile Home Park	438,-849
+;Saint Johns Mobile Home Park	430,-846
+6view Village Mobile Home Park	435,-860
+4s Landing	444,-848
+3rs	437,-864
+3uwataka	444,-855
+2costa	436,-852
+2dina	418,-843
+2isenheimer Corners	439,-864
+2lita	441,-840
+3strand	465,-864
+3vin	432,-829
+6dale	423,-832
+2mory Lane Mobile Home Park	418,-855
+3phis	429,-828
+2ndon	420,-854
+3ominee	451,-876
+4naqua Beach	454,-849
+3tha	424,-858
+2redith	441,-846
+3idian	427,-844
+3lino's Hidden Valley Estates Mobile Home Park	427,-853
+3rill	434,-843
+5man	459,-881
+5tt	443,-849
+5weather	466,-896
+3son	424,-859
+2sick	444,-857
+2tamora	429,-833
+3ropolitan	460,-879
+3z	453,-838
+2yers Beach	438,-839
+1iami Beach	454,-846
+6Park	425,-862
+2chelson	444,-848
+4iana	418,-868
+8 Mobile Home Park	419,-854
+5gamme	465,-881
+7n Center	422,-843
+5llinda	434,-864
+5waukee Shores	460,-864
+2ddle Village	456,-851
+6ton	432,-847
+8wn	430,-841
+6ville	427,-855
+3land	436,-842
+7 Park	424,-854
+2kado	446,-834
+2lan	421,-837
+3ford	426,-836
+3l Mine Junction	471,-886
+5Pond Village Mobile Home Park	427,-845
+5Street Mobile Home Park	451,-847
+4brook	436,-851
+5urg	421,-863
+4ecoquins	461,-855
+5r	426,-827
+6 Trailer Village	422,-845
+6s Corners	446,-852
+7burg	453,-841
+7ville	443,-856
+6ton	440,-860
+5tt	427,-846
+5ville Beach	420,-832
+4grove	426,-859
+4ington	433,-835
+4ville	425,-842
+4wood Mobile Home Park	423,-856
+3ton	427,-828
+3wood	423,-856
+2nards Mill	423,-846
+3den City	437,-828
+3eral Hills, Iron River	461,-886
+3nesota Lake Mobile Home Park	429,-825
+3or Beach	460,-863
+2o	446,-841
+2ssaukee Junction	443,-854
+4ion	464,-846
+3ty Meadows Mobile Home Park	438,-831
+2tchell Brothers Mobile Home Park	424,-863
+2zpah Park	422,-864
+1obile Home Estates	447,-852
+7Village Trailer Park	420,-865
+2ddersville	442,-850
+2hawk	473,-884
+2line	427,-857
+3tke	454,-839
+2na Lake Mobile Home Park	432,-862
+3ongahela Location	461,-884
+3roe	419,-834
+6 Center	446,-857
+3tague	434,-864
+4eith Station	425,-856
+5rey Center	426,-858
+4gomery	418,-848
+4rose	432,-839
+8 Mobile Home Park	432,-838
+2ore Park	420,-856
+5stown	445,-850
+5ville	421,-837
+4land	432,-860
+2ran	460,-848
+3enci	417,-842
+4y	444,-852
+3gan	426,-852
+6 Corners	422,-852
+3land Corner	432,-860
+4ey	435,-854
+3res Junction	440,-841
+4ice	428,-842
+3seville	432,-839
+2scow	420,-845
+3eley	430,-854
+3herville	421,-847
+2tor City Trailer Park	425,-830
+3tville	418,-858
+2unt Clemens	426,-829
+6Forest	439,-841
+6Morris	431,-837
+6Pleasant	425,-862
+> Mobile Home Village	436,-848
+6Vernon	427,-831
+1uir	430,-849
+4s	426,-826
+2lberry	417,-839
+3lett Lake	456,-845
+< Woods	456,-845
+4iken	428,-849
+2nger	435,-838
+3ising	464,-866
+8 Junction	464,-867
+4th	424,-842
+3son	417,-843
+3uscong	462,-842
+2skegon	432,-862
+8 Heights	432,-862
+2ttonville	428,-827
+1yren	464,-864
+3tle Grove Mobile Home Park	430,-837
+0Nadeau	456,-876
+2hma	458,-867
+5 Junction	459,-867
+2omi	420,-863
+2pier	421,-863
+3oleon	422,-842
+2renta	457,-872
+2shville	426,-851
+2talie	464,-856
+3han	456,-877
+3ional City	442,-837
+9Mine	465,-877
+2ubinway	461,-854
+3lts	460,-884
+1eedmore	427,-849
+3ley	425,-856
+2gaunee	465,-876
+2llsville	443,-848
+3son	433,-842
+2pco Camp Number 7	474,-881
+2sen's Countryside Mobile Home Park	434,-846
+3sen City	445,-859
+3toria	466,-883
+2w Baltimore	427,-827
+5oston	422,-834
+5ristol Location	461,-884
+5uffalo	418,-867
+4Dalton	464,-872
+4Era	436,-864
+4Greenleaf	437,-831
+4Haven	427,-828
+9 Center	432,-848
+5olland	429,-861
+5udson	425,-836
+4Lothrop	431,-840
+4Richmond	426,-861
+4Salem	428,-858
+5wanzy	463,-874
+4Troy	419,-866
+4Village Estates Mobile Home Park	421,-848
+3ark	429,-836
+4ygo	434,-858
+3berry	464,-855
+4urg	420,-840
+3land	443,-862
+3port	420,-833
+7 Farms Mobile Home Community	420,-833
+1icholson	428,-841
+7ville	420,-859
+2les	418,-862
+5 Pines Mobile Estates	418,-862
+2ne Mile	439,-841
+2rvana	439,-857
+2sula	468,-888
+1omad	456,-855
+5 Mobile Home Park	432,-862
+2nesuch	468,-896
+2ordeloos	428,-861
+2rrie	464,-902
+3th Adams	420,-845
+7rms	450,-852
+7urelius	426,-845
+6Bay Harbor Club Mobile Home Park	428,-838
+7essemer	465,-901
+7lendon	429,-860
+7radley	437,-845
+9nch	432,-832
+< Meadows Mobile Home Park	432,-832
+7yron	428,-857
+6Dorr	428,-858
+9t Manor Mobile Home Park	431,-837
+6Epworth	440,-865
+7scanaba	458,-871
+6Farmington	425,-834
+6Hill Mobile Home Village	431,-828
+6Ironwood	465,-902
+6Lake	465,-877
+:port	431,-825
+7eslie	425,-844
+6Manitou	451,-860
+7orenci	418,-842
+9ris Estates Mobile Home Park	431,-837
+7uskegon	433,-863
+6Niles	418,-862
+6Paynesville	466,-891
+6Shore Estates Mobile Home Park	421,-864
+<Trailer Park	444,-847
+;s	418,-834
+7tar	432,-845
+6Wheeler	435,-844
+7illiams	436,-841
+5brook Mobile Home Estates	427,-856
+5ern Estates Mobile Home Village North	431,-856
+HVillage South	431,-856
+8air Mobile Estates	463,-874
+5field	423,-837
+: Estates Mobile Home Park	424,-838
+5land	461,-876
+5port	451,-856
+5side Community Mobile Home Park	455,-846
+6tar Mobile Home Park	447,-859
+5town Meadows Mobile Home Park	417,-836
+5view	430,-856
+7lle	424,-835
+5wood	423,-856
+9 Estates Mobile Home Park	430,-842
+4on	424,-833
+6 Shores	432,-863
+3vell	422,-842
+3walk	443,-862
+5y	458,-879
+6ne	423,-834
+4ood	452,-854
+2ttawa	419,-854
+4en	423,-841
+4ingham Forest Mobile Home Park	450,-847
+2vi	425,-835
+1unica	431,-861
+0O'Neil	446,-851
+1ak	424,-832
+3 Bluff Estates Mobile Home Park	458,-870
+5rook Estates Mobile Home Park	422,-857
+4Crest Trailer Park	426,-839
+4Forest Mobile Home Park	423,-851
+4Grove	427,-839
+4Hill	442,-863
+4Island Mobile Home Park	428,-844
+4Park	424,-853
+5oint	422,-843
+4Ridge	463,-842
+4Shade Park	421,-842
+4Wood Shores	442,-836
+3brook Mobile Home Park	437,-839
+3hurst	436,-836
+3land	427,-859
+7 Estates Mobile Home Park	426,-832
+5wn Beechwood	428,-861
+4ey	431,-842
+6 Park	426,-835
+3ridge Estates Mobile Home Park	419,-834
+3s Mobile Home Park	432,-862
+4ide Mobile Home Park	436,-842
+3view Estates Mobile Home Park	418,-866
+8Mobile Home Estates	437,-848
+5lle	421,-836
+3wood	429,-833
+7 Mobile Home Community	417,-836
+1berlin	441,-845
+1cqueoc	454,-841
+1den	454,-848
+2gers Location	461,-884
+1gden	418,-840
+5 Center	418,-840
+2emaw Springs	443,-843
+2ontz	459,-868
+1il City	436,-846
+1jibway	473,-883
+1kemos	427,-844
+1la	432,-846
+2d Mill Gardens	423,-852
+6ssion	450,-855
+4Oak Trails Estates Mobile Home Park	437,-843
+4Saugatuck	427,-862
+5quaw Skin Landing	426,-861
+4Victoria Historic Townsite	467,-892
+3port	420,-833
+2ive Center	429,-861
+5rs	439,-856
+5t	424,-849
+2ney Corners	431,-843
+2son	436,-844
+1mena	451,-856
+3r	440,-838
+1naway	454,-842
+2eida Center	427,-848
+3kama	444,-862
+7 Junction	443,-862
+2ondaga	424,-846
+3ta	465,-870
+2sted	420,-842
+2tario Place Mobile Home Park	418,-862
+3onagon	469,-893
+1rangeville	426,-855
+2chard	453,-837
+7 Beach	456,-845
+8Cove Manufactured Home Community	432,-835
+8Grove Village Mobile Home Park	422,-838
+8Lake	426,-834
+8Park	423,-852
+9oint	452,-835
+8View Estates	421,-864
+2leans	431,-851
+2ono	439,-855
+2r	434,-842
+2tonville	428,-834
+1sceola	472,-884
+3oda	444,-833
+6 Mobile Home Park	445,-833
+2htemo	423,-857
+2kar	472,-886
+2sawinamakee Beach	460,-863
+3eo	419,-845
+3ineke	449,-834
+1tisville	432,-835
+2sego	425,-857
+6 Lake	449,-847
+2tawa	418,-835
+6 Center	430,-860
+3er Lake	432,-834
+3ogan Mobile Home Estates	428,-860
+1verisel	427,-860
+2id	430,-844
+1wasso	430,-842
+2endale	437,-833
+2osso	430,-842
+6 Trailer Park	430,-842
+1xbow	427,-862
+5 Park	435,-856
+2ford	428,-833
+1zark	461,-850
+0Paavola	472,-885
+2ckard	427,-846
+2ines	434,-840
+6dale	470,-887
+4t Creek	422,-836
+2latka	460,-886
+3estine	454,-875
+3isades Park	423,-863
+3mer	464,-876
+4s	436,-828
+4yra	419,-839
+3o	431,-850
+2nola	460,-883
+2radise	466,-850
+3chment	423,-856
+3is	438,-855
+5 Estates Mobile Home Park	429,-857
+5hfield	425,-838
+5ville	437,-828
+3k Lake	442,-852
+9 Mobile Home Court	428,-844
+5Meadow Estates Mobile Home Park	430,-836
+;s Mobile Home Community	433,-862
+5Ridge Mobile Home Park	458,-880
+5Terrace Mobile Home Park	427,-846
+4dale	443,-863
+4ers Corners	426,-841
+4ington	460,-860
+4lane Court Mobile Home Park	425,-831
+4view Estates Mobile Home Park	429,-849
+6lle	420,-856
+4wood Village Mobile Home Park	433,-840
+3ma	423,-846
+4elee	428,-855
+3nell	430,-854
+3shallburg	432,-841
+8ville	427,-838
+3tello	424,-848
+4ridge Creek	426,-830
+9's RV and Mobile Home Park	434,-836
+2sadena Mobile Home Park	430,-838
+2tons Corner	455,-850
+3rick Landing	460,-844
+3terson Gardens	419,-834
+2ulding	464,-892
+2vilion	422,-855
+5lion Center	422,-855
+:Estates Mobile Home Park	422,-855
+3lovic Corner	446,-858
+2w Paw	422,-859
+7 Lake	422,-863
+2xton	450,-836
+2yment	465,-841
+3nesville	465,-891
+1eachtree Manor Mobile Home Park	433,-838
+4ock	440,-859
+3rl	425,-861
+5 Beach	418,-850
+6Grange	421,-864
+5ine	430,-859
+5l City	450,-847
+3tville	436,-828
+2bble Creek Mobile Home Community	435,-836
+2ck	433,-828
+2lkie	468,-886
+3lston	456,-848
+2mberthy Crossing	446,-849
+2nn	420,-859
+4ellwood	419,-863
+4field	424,-851
+3toga	460,-885
+4water	438,-864
+2quaming	468,-884
+2rch Point	427,-826
+3e Cheney	446,-846
+3kins	460,-871
+3rinton	432,-847
+4onville	458,-874
+4y	428,-842
+5 Lake Heights	428,-834
+2shawbestown	450,-856
+2ters	427,-826
+6burg	419,-837
+: Junction	419,-837
+3oskey	454,-850
+3rieville	425,-846
+3tysville	425,-839
+2wabic	471,-886
+4mo	430,-848
+1heasant Ridge Estates Mobile Home Park	442,-854
+:un Mobile Home Park	430,-838
+3lps	439,-849
+6 Mobile Home Park	421,-861
+2illipsville	473,-884
+2oenix	474,-883
+1ickford	462,-844
+2er Cove	426,-862
+4port	444,-862
+4son	433,-855
+2geon	438,-833
+2lgrim	447,-862
+2nckney	425,-840
+4onning	438,-840
+3e Acres Trailer Court	465,-873
+6ire Mobile Home Park	431,-857
+5Court Mobile Home Park	442,-852
+6reek	422,-853
+5Forest Mobile Home Park	432,-838
+5Grove	424,-859
+: Beach	438,-860
+5Haven Estates Mobile Home Park	430,-849
+5Ridge	457,-872
+: Mobile Home Park	428,-839
+7ver	440,-839
+6un	432,-837
+5Stump Junction	466,-856
+5Wood Park	442,-836
+4brook Village Mobile Home Park	429,-856
+4rest Mobile Estates	435,-834
+4s	464,-863
+5 Mobile Home Park	437,-864
+BVillage	438,-830
+4y Ridge	440,-865
+6Woods	441,-848
+3nebog	439,-831
+2oneer	445,-852
+7 Estates	465,-874
+2sgah Heights	441,-852
+2ttsburg	429,-842
+9 Landing	454,-846
+5field	422,-837
+6ord	419,-845
+1lainfield	425,-841
+5s	463,-874
+5well	424,-856
+3nter	465,-900
+3tte River	447,-859
+2easant Beach Mobile Home Park	438,-843
+9Lake	424,-844
+= Mobile Home Court	424,-843
+9Ridge	425,-831
+> Manufactured Home Community	436,-848
+9Valley	451,-852
+? Estates Mobile Home Park	434,-842
+@Mobile Home Park	438,-848
+:iew	455,-849
+= Estates Mobile Home Park	424,-862
+>Mobile Home Park	422,-863
+8on	445,-861
+8ville Mobile Home Community	420,-834
+2ymouth	465,-900
+8 Township	424,-835
+1odunk	440,-846
+2gy	438,-853
+2int Lakeview	427,-828
+6Mills	471,-885
+6Nipigon	457,-846
+5e Aux Pins	457,-845
+7aux Barques	441,-830
+;Chenes	426,-825
+;Peaux	420,-832
+;Tremble	426,-826
+2kagon	419,-862
+2laski	452,-837
+3lok	426,-843
+2meroy	422,-855
+3ona	445,-859
+3peii	432,-846
+2nd View Estates Mobile Home Park	432,-852
+3shewaing	454,-848
+3tchartrain Shores	460,-846
+4iac	426,-833
+2pple	438,-831
+2ri	467,-890
+3t Austin	440,-830
+5Crescent	440,-831
+5Dolomite	460,-843
+5Hope	439,-827
+6uron	430,-824
+5Inland	460,-859
+5Oneida	450,-860
+5Sanilac	434,-825
+6heldon	429,-862
+5of Call Mobile Home Park	430,-825
+4age	422,-856
+7 Entry	470,-884
+8Terrace Mobile Home Park	426,-856
+4er	435,-845
+4land	429,-849
+2sen	453,-837
+4yville	435,-842
+2tterville	426,-847
+2well	468,-878
+4rs	457,-875
+1rairie	430,-850
+7ville	425,-855
+3ttville	418,-844
+2escott	442,-839
+4idential Estates Mobile Home Park	429,-858
+4que Isle	453,-835
+< Estates	454,-838
+4ton Corners	427,-830
+2ice	429,-845
+3es Landing	457,-845
+3nceton	463,-875
+2osper	442,-850
+2udenville	443,-846
+1ulaski	421,-846
+3lman	425,-861
+0Quail Run Community Mobile Home Park	427,-828
+3kertown	425,-834
+3nicassee	436,-837
+2iet Cove Mobile Home Park	428,-843
+3ncy	419,-849
+6 Mill	472,-885
+4nesec	458,-880
+2mby	426,-852
+0Rabbit Bay	471,-884
+3er	461,-841
+2co	464,-847
+3y	432,-843
+2dio City Village Mobile Home Park	454,-850
+2inbow Bend	441,-849
+4y Beach	454,-842
+3sin Center	419,-840
+7Ridge Estate and Mobile Home Park	419,-834
+2lph	461,-878
+2mona	436,-858
+6 Park	454,-850
+3say	465,-900
+2ndville	460,-881
+3kin	429,-838
+3som	418,-845
+2pid City	448,-853
+6River	459,-870
+3son	439,-829
+2smus	446,-848
+2thbone	433,-844
+3tle Run	429,-826
+2venna	432,-859
+3ine View Estates Mobile Home Park	422,-863
+6s Mobile Home Park	421,-864
+2wsonville	422,-836
+2y	418,-849
+3 Center	428,-829
+3mond's Landing Trailer Park	420,-850
+1ea	420,-837
+3de	461,-876
+4ing	418,-848
+2d Oak	447,-843
+4Park	444,-862
+3ford	424,-833
+7 DUPLICATE OF https://www.geonames.org/5006917/redford.html	424,-833
+3man	439,-828
+3ridge	472,-888
+3stone	435,-845
+2ed City	439,-855
+3man	434,-860
+3se	434,-837
+2mus	436,-851
+2no	431,-858
+2public	464,-880
+2xton	462,-852
+1hodes	439,-842
+1ice Creek	423,-848
+3hardsons Mill	460,-864
+4field Center	431,-835
+:Mobile Home Park	430,-837
+4land	424,-855
+8 Junction	424,-855
+4mond	428,-828
+8ville	436,-826
+4ville	434,-837
+2dgeville	418,-840
+5way	420,-839
+2ga	418,-838
+3gsville	456,-846
+2ley	429,-847
+5 Center	429,-828
+2pley	471,-886
+2ver Haven Mobile Home Park	443,-863
+<Village Mobile Home Park	430,-862
+6Raisin	421,-840
+7idge Mobile Home Community	422,-838
+7ouge	423,-831
+6Spring Estates	419,-864
+5brook Mobile Home Park	427,-828
+5dale	434,-848
+5land	458,-872
+5s Edge a Quiet Community Mobile Home Park	428,-825
+6ide	422,-864
+9 Mobile Home Estates	418,-864
+FPark	432,-839
+FVillage	465,-843
+5view	434,-856
+9 Estates Mobile Community	427,-846
+IHome Park	449,-834
+:Mobile Home Estates	436,-839
+FPark	435,-834
+4s Junction	424,-845
+1oaring Brook	454,-850
+2bbins	464,-892
+3erts Corner	463,-855
+8Landing	427,-825
+3in Glen Mobile Home Community	434,-838
+:-Indiantown	435,-838
+6Hood Mobile Court	419,-840
+5son	430,-861
+2chester	427,-831
+9 Hills	427,-832
+3k	461,-872
+4 Harbor Lodge	482,-885
+5River	465,-869
+4ford	431,-856
+4land	467,-892
+4port	452,-834
+4view	461,-844
+4wood	421,-832
+2dney	437,-853
+2gers City	454,-838
+8orner	422,-840
+7Location	461,-886
+6ville	431,-836
+2lland Center	435,-850
+4in	419,-843
+6g Hills Mobile Home Community	424,-852
+2me Center	419,-842
+4o	428,-830
+3ulus	422,-834
+2ndo	453,-846
+2osevelt	434,-842
+9 Park	432,-863
+3ts	423,-843
+2scommon	445,-846
+3e Center	427,-836
+6ity	444,-841
+6orners	427,-837
+5Island	438,-834
+4burg	432,-827
+6sh	437,-848
+4dale	464,-843
+4mary Beach	420,-866
+4ville	425,-829
+3s	428,-857
+3y Mound	430,-862
+2thbury	435,-864
+3unda Mobile Home Park	428,-845
+2ulo	422,-835
+3nd Lake Estates	420,-843
+3sseau	467,-890
+2wes Corner	422,-840
+2yal Estates Mobile Home Park	424,-857
+6Mobile Home Park	430,-836
+6Oak	425,-831
+9 Beach	455,-846
+3ston	452,-839
+1uby	430,-826
+4's Mobile Home Park	438,-848
+2dds Mill	428,-832
+3gate East Company Mobile Home Park	427,-830
+8Manor Mobile Home Park	426,-831
+3yard	462,-846
+2mely	464,-870
+2sh Lake Mobile Home Park	422,-862
+4ton	424,-837
+3k	430,-860
+3sellville	431,-836
+3t	450,-840
+4ford	435,-853
+4ic Acres Mobile Home Park	418,-859
+2th	437,-827
+1yan	435,-844
+0Sac Bay	456,-867
+2ddlebrook Farms Manufactured Home Community	422,-857
+2ganing	439,-839
+3inaw	434,-840
+7 Bay Estates Mobile Home Park	436,-838
+8Township North	435,-840
+ASouth	434,-840
+8Valley Mobile Home Park	435,-840
+9illage Mobile Home Park	434,-839
+3ola	461,-881
+2int Anthony	418,-837
+6Charles	433,-841
+7lair	428,-825
+; Haven	426,-828
+<Place Mobile Home Park	428,-825
+<Shores	425,-829
+6Elmo	436,-845
+6Helen	444,-844
+7uberts	435,-861
+6Ignace	459,-847
+6Jacques	459,-867
+8mes	458,-855
+7ohns	430,-846
+; Mobile Home Village	430,-846
+8seph	421,-865
+6Louis	434,-846
+6Nicholas	460,-872
+2lem	424,-836
+3ine	422,-838
+6 Meadows Mobile Home Park	422,-837
+4sbury	465,-877
+3mon Trout	471,-887
+3va	459,-872
+2maria	418,-836
+2nd Creek	418,-841
+5Lake	443,-837
+5River	465,-871
+4hill Mobile Home Estates	431,-832
+4piper Estates Cooperative Mobile Home Park	432,-825
+4s	464,-874
+5 Trailer Court	464,-874
+5tone	422,-845
+4usky	434,-828
+4y Beach	420,-862
+6Pines	427,-858
+3ford	437,-844
+3s Souci	426,-826
+: Beach	418,-850
+3tiago	441,-837
+2ranac	429,-852
+2uble	440,-860
+3gatuck	427,-862
+3lt Ste. Marie	465,-844
+2wyer	419,-866
+1chaffer	458,-873
+3midt Corner	472,-886
+3omberg	449,-858
+4olcraft	421,-856
+3ultz	426,-854
+2ience City Mobile Home Park	436,-842
+3o	423,-838
+4 Farms Estates Mobile Home Park	423,-839
+2ofield	420,-835
+3tsdale Estates Mobile Home Park	434,-847
+4t Lake	460,-886
+5dale	420,-864
+5s	422,-854
+5ville	440,-863
+1ears	439,-852
+3way Mobile Home Ranch	429,-825
+2bewa Corners	428,-850
+6ing	437,-834
+3ille Manor	427,-828
+2cord	440,-844
+2ewhy	464,-851
+2gwun	429,-853
+2idlers	437,-841
+2lkirk	443,-841
+7 Mobile Home Park	424,-856
+3ma	464,-872
+2neca	473,-884
+4y	464,-860
+3ter	471,-884
+2thton	432,-848
+2ven Harbors	427,-836
+1habbona	435,-830
+3dy Acres Mobile Home Park	426,-860
+HVillage	421,-864
+6Brook Mobile Home Park	424,-858
+6Lane Trailer Court	444,-844
+6Oaks Mobile Home Park	433,-863
+6Park Mobile Home Community	422,-843
+6Rest Mobile Plaza	436,-839
+6Shores	444,-840
+5lane Mobile Home Estates	425,-831
+5side	418,-845
+3fer Location	461,-884
+4tsburg	428,-843
+3llows	465,-844
+3mrock Mobile Home Village	420,-834
+3nghai Corners	420,-863
+5rai-La Mobile Home Park	427,-862
+3ron	446,-851
+6 Hollow	422,-841
+4ps Corners	444,-847
+3ttuckville	434,-840
+3wnee Mobile Home Court	419,-865
+3ytown	427,-850
+2effield	432,-855
+9 Estates Mobile Home Park	426,-832
+3lby	427,-830
+6 West Mobile Home Community	427,-830
+6ville	426,-856
+4don	423,-835
+4ldrake	467,-850
+3pardsville	430,-844
+4herd	435,-847
+3ridan	432,-851
+4man	444,-857
+7 City	437,-851
+8Oaks Mobile Park	423,-844
+8Park	425,-861
+4wood	420,-852
+8 Forest Mobile Home Park	430,-851
+2iawasseetown	429,-841
+3elds	434,-841
+3loh	431,-851
+3ngleton	464,-865
+2orecrest	425,-862
+5ham	421,-865
+5wood	426,-862
+9 Hills	419,-866
+9-Tower Hills-Harbert	419,-866
+1ibley	422,-832
+2ckles	433,-844
+2d Town	444,-836
+3naw	465,-887
+4ey	432,-851
+2emens	465,-901
+2gma	447,-850
+2lver Beach	456,-845
+7City	468,-896
+8reek Estates	465,-874
+7Lake View Mobile Home Park	447,-857
+9wn Trailer Park	420,-843
+7Shores Mobile Home Park	447,-857
+6brook Manufactured Home Community	418,-862
+6wood	433,-832
+2mmons	461,-846
+7 Mobile Home Park	418,-859
+2ster Lakes	421,-862
+2tka	434,-860
+2x Lakes	434,-852
+1kandia	464,-872
+7 Station	464,-872
+4ee	469,-882
+2eels	441,-846
+2idmore	458,-881
+4way Lake	442,-840
+2ookum	441,-856
+2yline Village	446,-847
+1lapneck	463,-869
+3ybaugh Corner	439,-854
+2eepy Hollow	464,-892
+2ocum	432,-859
+1mith Crossing	430,-842
+5s Creek	429,-826
+5ville	445,-852
+2yrna	431,-853
+1nover	435,-830
+3w	419,-865
+4shoe	472,-882
+4ville	465,-878
+2ug Harbor	466,-851
+2yderville	428,-827
+1odus	420,-864
+2kol Camp	418,-867
+2lon	448,-858
+5 Center	432,-856
+2merset	420,-844
+8 Center	420,-844
+9Meadows Mobile Home Park	430,-826
+:obile Home Park	420,-851
+2noma	422,-852
+2o Hill	458,-871
+4Junction	463,-853
+2uth Blendon	429,-859
+7oardman	446,-853
+7ranch	445,-839
+7utler	420,-849
+6Creek Village Mobile Home Park	431,-837
+6Fairfield	417,-840
+6Greenwood	465,-878
+7ull Lake	424,-854
+6Haven	424,-863
+; Highlands	424,-863
+6Ionia	430,-851
+6Jackson	422,-844
+6Lyon	425,-836
+6Monroe	419,-834
+9terey	426,-858
+6Park	429,-825
+6Range	471,-886
+7iley	429,-847
+7ockwood	421,-833
+6Valley Estates Mobile Home Park	430,-838
+6Whitehall	434,-864
+5ern Belle Mobile Community	419,-847
+5field	425,-832
+5gate	422,-832
+9 Mobile Park	419,-840
+AVillage	438,-846
+5land	417,-838
+5wood Village Mobile Home Park	428,-856
+1palding	457,-875
+3rlingville	430,-825
+4r	450,-846
+4ta	432,-857
+2eaker	432,-828
+3ncer	446,-851
+2inks Corners	421,-863
+2ratt	450,-838
+3ing Arbor	422,-846
+7Beach	419,-860
+7Grove	425,-862
+7Lake	431,-862
+; Mobile Home Park	420,-865
+7Valley Estates Mobile Home Park	421,-846
+>Mobile Home Park	431,-856
+6brook Estates Mobile Home Park	428,-830
+6er	459,-864
+6field	428,-835
+; Place	423,-852
+6port	446,-833
+6ville	420,-842
+6well Heights	454,-847
+3uce	448,-835
+6tree Mobile Home Court	423,-849
+1tager	460,-884
+3lls Corner	426,-849
+4wart	461,-842
+3mbaugh, Iron River	461,-886
+3ndale	430,-858
+5ish	440,-840
+4ley Corners	422,-851
+4ton	433,-851
+7 Mobile Home Park	433,-851
+4wood	436,-854
+3r	464,-864
+4 City	444,-850
+4k	424,-834
+4light Mobile Home Park	425,-838
+4ville	427,-826
+2eamburg	419,-846
+3iner	420,-834
+3phenson	454,-876
+3rling	440,-840
+8 Estates Mobile Home Park	419,-840
+9Heights	426,-830
+3uben	462,-865
+3vensville	420,-865
+2ickley	463,-894
+3llman	463,-868
+3rlingville	462,-843
+3ttsville	444,-851
+2ock's Creek Mobile Home Park	430,-825
+5bridge	424,-842
+5holm Forest Village Mobile Home Park	437,-844
+3ddard Mobile Court	432,-842
+3neport	453,-834
+5y Corner	442,-853
+7Point	421,-846
+< Trailer Park	425,-854
+4ington	457,-870
+4y Creek	420,-833
+6Lake	436,-865
+6Point	425,-854
+3ughton Corners	422,-862
+2rasburg	419,-835
+3ickland	435,-848
+4ngtown	419,-848
+3onach	442,-863
+5gs	464,-850
+7 Corner	464,-850
+2urgis	418,-854
+3tsmanville	455,-850
+1uburban Estates Mobile Home Park	448,-857
+2gar Grove	440,-863
+6Loaf	466,-874
+6Rapids	441,-844
+5loaf Mobile Home Park	422,-856
+5tree Mobile Home Park	435,-834
+2llivan	432,-860
+8s Landing	466,-862
+3phur Springs	424,-862
+2mmerton	435,-847
+4it City	446,-855
+3ner	433,-848
+6ville	419,-862
+2n	433,-857
+3 Valley Mobile Home Estates	423,-844
+3dell	464,-871
+3field	428,-850
+3nyside	423,-833
+9 Estates Community	466,-874
+:Mobile Home Park	422,-837
+3rise Estates Mobile Home Community	452,-834
+8Heights	423,-852
+8Landing	465,-861
+8Mobile Home Park	423,-850
+3set Beach	421,-842
+7Mobile Home Park	434,-829
+7Ridge Mobile Home Park	429,-849
+7View Mobile Home Park	429,-849
+4hine Beach	471,-885
+2perior	471,-886
+2ttons Bay	450,-856
+1wan Creek	434,-841
+: Mobile Home Community	422,-836
+5Lake Mobile Estates	425,-859
+4son	455,-877
+4zy	463,-874
+3rtz Creek	430,-838
+< Estates Mobile Home Park	430,-838
+2edetown	472,-885
+3et Lake Mobile Home Park	418,-854
+1ycamore Village Mobile Home Park	426,-845
+2lvan Beach	434,-864
+7Center	423,-841
+7Glen Mobile Estates	426,-838
+7Lake	426,-833
+4ester	435,-852
+0Taffeltown	445,-852
+2g-A-Long Trailer Court	427,-825
+2lbot	455,-876
+3lmadge	430,-858
+6n	440,-861
+2marac Village Mobile Home Park	440,-865
+7k	463,-890
+8 Estates Mobile Home Park	434,-855
+2piola	469,-886
+3pan	430,-825
+2smas Corners	428,-862
+2was City	443,-835
+6River Trailer Park	443,-835
+2ylor	422,-833
+6 Center	422,-833
+3mouth	432,-839
+1eapot Dome	422,-860
+2cumseh	420,-839
+2eterville	435,-844
+2konsha	421,-850
+2mperance	418,-836
+4le	440,-850
+2nt City	445,-848
+2sch	458,-873
+2xas Corners	422,-857
+1hayer	463,-895
+2e Heights	421,-842
+4Jackpines	444,-838
+4Lakes Mobile Home Park	430,-826
+3ilers	465,-897
+3odore	460,-878
+3tford Center	432,-836
+2omas	429,-833
+6ton	465,-899
+4pson	459,-863
+8ville	445,-859
+3rnapple Lake Estates Mobile Home Park	426,-852
+5ton	430,-826
+5ville	429,-832
+2ree Churches Corner	437,-840
+6Lakes	466,-882
+6Mile Lake Mobile Home Park	422,-860
+6Oaks	418,-866
+: Estates Mobile Home Park	422,-847
+6Rivers	419,-856
+2underbird Mobile Village	423,-852
+1ift Corner	434,-856
+2mber Country Mobile Home Park	434,-848
+6line Estates Mobile Home Park	433,-862
+7ost	466,-852
+2oga	466,-884
+2pton	420,-841
+2tus	437,-851
+1obico Beach	437,-839
+4n Location	461,-884
+2ivola	470,-888
+2mpkins	424,-845
+2paz	466,-895
+3inabee	455,-846
+2quin	423,-862
+2rch Lake	451,-854
+6River	448,-853
+2wer	454,-843
+5 Hill Shorelands	419,-866
+3n and Country Mobile Home Park	456,-844
+HVillage	447,-856
+1radewind Mobile Court	432,-837
+3iltree Village	420,-850
+3unik	463,-870
+3verse	473,-883
+8 Bay	472,-882
+9City	448,-856
+2emaine Corners	429,-851
+3nary	462,-870
+4ton	421,-832
+2iangle Mobile Home Park	423,-851
+9Spur	462,-884
+3mountain	471,-887
+3st	423,-842
+2ombly	460,-872
+3ut Creek	465,-890
+6Lake	462,-850
+3wbridge	452,-846
+: Park	466,-874
+3y	437,-860
+2ufant	433,-854
+1udor Estates Mobile Home Park	430,-837
+2la	466,-898
+2nis	464,-886
+2rk Lake	433,-853
+3ner	441,-838
+6 Shores	419,-867
+6s Corner	424,-854
+3tle	442,-837
+2scola	433,-837
+3tin	441,-855
+1welve Corners	421,-864
+2ilight Mobile Home Park	430,-836
+3n Lake	434,-862
+9s	469,-888
+: Trailer Court	420,-856
+5Meadows Mobile Home Park	430,-837
+5Pine Mobile Home Park	423,-847
+9s Mobile Home Park	443,-842
+4ing	441,-838
+2o Rivers	436,-850
+1yre	437,-829
+0Ubly	437,-829
+1dell	442,-861
+1nadilla	424,-841
+2ion	418,-859
+5 City	421,-851
+6Lake	426,-834
+6Pier	418,-867
+7lains	428,-840
+5ville	436,-835
+3versity Center	436,-840
+1pdyke	432,-861
+1rbandale	424,-852
+1tica	426,-830
+0Vail	463,-868
+2lley Brook Estates Mobile Home Park	426,-845
+7Center	432,-829
+7Estates Mobile Home Park	428,-846
+7Farms	428,-845
+7Island	438,-834
+7Mobile Home Park	436,-839
+7Springs Mobile Home Park	426,-847
+7Vista Mobile Home Park	429,-854
+2n	456,-848
+3 Meer	464,-865
+3dalia	419,-859
+4erbilt	451,-847
+6cook Lake	422,-844
+3town	426,-842
+2ssar	434,-836
+2ughn Village Mobile Home Park	435,-834
+6sville	474,-883
+1eery Point	455,-846
+2ga	458,-876
+2rmilac	465,-885
+6ion	468,-852
+4ontville	426,-850
+3non	429,-840
+6 Center	438,-848
+8ity	438,-848
+3ona	438,-829
+6 Park	423,-852
+2staburg	434,-849
+1ick	463,-872
+4ery Landing	425,-853
+7ville	432,-850
+4sburg	421,-855
+3toria	467,-892
+8 Woods Mobile Home Court	436,-842
+2enna	418,-835
+6 Corners	450,-844
+7Junction	418,-835
+2lla Estates Mobile Home Park	430,-837
+5ge Estates Mobile Home Park	422,-836
+8Green Mobile Home Park	430,-862
+8Mobile Home Court	419,-856
+8Trails Mobile Home Community	434,-855
+7side Mobile Home Park	435,-835
+2neland	421,-865
+3ings Trailer Park	423,-842
+2rgil Location	461,-886
+5nia Park	428,-862
+1ogel Center	442,-850
+2linia	420,-860
+3ney	437,-860
+1riesland	428,-859
+1ulcan	458,-879
+0Wabaningo	434,-864
+2cousta	428,-847
+2dhams	430,-825
+2garville	440,-845
+3ner Beach	441,-836
+2hjamega	435,-834
+2inola	467,-890
+2kefield	465,-899
+4lee	420,-859
+2ldenburg	427,-829
+4ron	417,-844
+3es Center	429,-827
+3gamor Corners	437,-860
+3halla	440,-861
+3ker	430,-858
+6ville	437,-861
+3lace	445,-837
+4ed Lake	425,-835
+4in	446,-859
+4oon Lake	453,-849
+3nut Point	424,-850
+7Ridge Manufactured Home Community	423,-844
+3sh	464,-862
+3ters	428,-833
+4on	445,-854
+6 Junction	445,-854
+4z	421,-834
+2rren	425,-830
+6 Dunes Estates Mobile Home Park	419,-866
+2sas	467,-890
+3epi	419,-855
+3hburn Lake Village Mobile Home Park	419,-853
+4ington	427,-830
+: Mobile Home Park	427,-830
+2terford	427,-834
+5loo	424,-841
+5s	449,-847
+6meet	463,-892
+6tone	428,-833
+5tower Travel Trailer Park	431,-833
+8n	433,-828
+5vale	446,-862
+6liet	422,-863
+3rousville	434,-835
+3son	425,-857
+6's Mobile Home Park	424,-857
+3tles Park	423,-851
+4on	465,-886
+2uban Beach	454,-846
+3cedah	458,-878
+2verland Beach	420,-866
+6y	427,-846
+7 Shores Village Mobile Home Park	428,-861
+2yland	427,-856
+3ne	423,-834
+3side Mobile Court	434,-863
+1eadock	456,-846
+3le	438,-834
+3re	438,-863
+3therstone Village Mobile Home Park	423,-855
+2bbervilla Mobile Home Park	427,-842
+:e	427,-842
+3ster	424,-838
+2dgewood	442,-855
+2idman	437,-850
+3mer	440,-865
+2lcome Corner	427,-853
+3don	446,-861
+3lington	463,-897
+: Estates Mobile Home Park	431,-852
+4s	458,-871
+5ton	442,-860
+5ville	419,-839
+2nona Beach Estates Mobile Home Park	436,-839
+2quetonsing	454,-850
+2st Bangor	423,-862
+7y City	436,-839
+6loomfield Township	426,-834
+6ranch	443,-842
+; Travel Trailer Park	443,-842
+5Gladstone	458,-871
+5Haven Mobile Home Park	430,-837
+6ighland	426,-837
+5Ishpeming	465,-877
+5Kinderhook	418,-850
+5Leroy	422,-853
+5Monroe	419,-834
+5Olive	429,-862
+: Estates Mobile Home Park	429,-862
+5Sebewa	428,-850
+6hore Estates Mobile Home Park	436,-839
+6umpter	421,-835
+5Tamarack	473,-885
+7ppan	430,-825
+5Windsor	426,-847
+4acres	426,-834
+4chester Heights	429,-844
+4ern Location	461,-883
+4land	423,-834
+4on	418,-841
+6s Iroquois Beach	465,-847
+4phalia	429,-848
+4ridge Mobile Home Park	423,-836
+4ville	434,-851
+4winds Mobile Home Park	437,-848
+5ood	423,-856
+8 Heights Mobile Home Park	431,-838
+9Village Mobile Home Park	430,-838
+2tmore	464,-866
+7 Landing	466,-875
+3zel	449,-850
+2xford Corner	445,-857
+1haley Drain	426,-847
+2eatland	420,-844
+3eler	434,-844
+2igville	429,-836
+3psering Pines Mobile Home Park	418,-857
+3spering Pines Estates and Mobile Home Park	424,-862
+AHousing Community	436,-844
+;Woods Mobile Home Community	444,-834
+3te	468,-888
+5 Birch Estates	458,-880
+C Mobile Home Park	439,-855
+<Mobile Home Park	433,-838
+<Village Mobile Home Park	437,-840
+6City	464,-895
+7loud	436,-858
+7reek Country Estates Mobile Home Park	433,-856
+6Lake	427,-836
+6Oak	425,-842
+9 Estates Mobile Home Park	431,-838
+9s Estates Mobile Home Park	431,-838
+6Pigeon	418,-856
+8ne	468,-896
+: Village	439,-864
+:s Mobile Home Park	421,-862
+6Rock	437,-826
+6Star	440,-844
+5fish Hill RV and Mobile Home Park	459,-869
+:Point	468,-850
+6ord Center	418,-837
+5hall	434,-864
+6ouse Landing	466,-852
+5s Beach	439,-839
+7Landing	449,-846
+6tone Point	441,-836
+4more Lake	424,-838
+4ney	458,-874
+7ville	429,-855
+4taker	421,-836
+5emore	442,-838
+1ic-a-te-wah	444,-862
+3kware	436,-830
+3o	465,-900
+2erenga's Hess Lake Mobile Home Park	434,-858
+2lber	444,-835
+3der Center	430,-857
+5ys	422,-860
+4wood	453,-850
+3ey	439,-863
+3lard	437,-841
+4iams Crossing	464,-864
+9Landing	464,-867
+8burg	448,-854
+8port	444,-863
+8ton	427,-843
+8ville	419,-859
+5s	422,-836
+4ow	421,-834
+6 Green Mobile Home Park	419,-834
+7Park Mobile Home Park	428,-861
+8oint Mobile Home Park	426,-829
+7Run	423,-836
+: Mobile Home Park	423,-835
+7Tree Village Mobile Home Park	436,-839
+7Village Home Court	427,-843
+3mot	435,-832
+3son	457,-874
+2nde	460,-871
+4ham Hill Manufactured Home Community	423,-845
+4igo	479,-892
+4mill Estates Mobile Home Park	434,-839
+9Mobile Home Park	428,-861
+9Pointe Mobile Home Park	429,-857
+4sor Estates Mobile Home Park	427,-847
+8Woods Village Mobile Home Park	427,-857
+3egars	439,-844
+3n	435,-849
+3ona	469,-889
+3slow's Mobile Home Park	427,-843
+3ter's Motor Court	433,-838
+4hrop Junction	465,-877
+2se	437,-846
+3ner	436,-836
+2tbeck	463,-880
+3ch Lake	463,-880
+3hi Trailer Park	440,-848
+2xom	425,-835
+1obic	465,-880
+2lcott Mills	428,-829
+3f Crossing	430,-842
+5Lake	440,-858
+3verine	453,-846
+9 Lake	426,-835
+2od Creek Farms	425,-833
+4bury	428,-851
+4creek Mobile Home Park	447,-856
+:Village Estates Mobile Home Park	431,-851
+7st Estates Mobile Home Park	434,-846
+4en Shoe Village	440,-844
+4haven	421,-832
+4land	427,-851
+8 Beach	419,-833
+9Estates Mobile Home Park	431,-856
+9Lake Mobile Courts	426,-838
+9Park	437,-859
+6wn	459,-873
+8 Beach	424,-854
+4s	438,-849
+5 Corners	431,-851
+4valley Mobile Home Park	433,-836
+5ille	439,-840
+3ster	435,-859
+2rden	424,-836
+3th	439,-840
+1right	431,-858
+6s Corners	422,-850
+1yandotte	469,-889
+2man	435,-850
+2ngate Farms Manufactured Home Community	422,-857
+2oming	429,-857
+0Yale	465,-901
+3mar	464,-872
+2rgerville	418,-835
+2tes	427,-831
+1ork	421,-837
+4shire Manor Mobile Home Park	420,-834
+4ville	424,-854
+2ungs Trailer Park	439,-855
+1psilanti	422,-836
+9 Mobile Home Village	422,-836
+1uba	448,-855
+2ma	444,-858
+0Zeba	468,-884
+2eland	428,-860
+2nith Heights	453,-850
+1ilwaukee	435,-839
+1utphen	428,-859

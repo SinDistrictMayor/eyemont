@@ -1,0 +1,277 @@
+ABC News
+AMD
+AT&T
+Adidas
+Adobe
+African Union
+Airbnb
+Airbus
+Al Jazeera
+Alibaba
+Allstate
+Alphabet
+Amazon
+American Airlines
+Amnesty International
+Anthropic
+Apple
+Arab League
+Army Corps of Engineers
+Associated Press
+Axios
+BBC News
+BP
+Bank of America
+Bloomberg
+Boeing
+Border Patrol
+Boston Globe
+Bundeswehr
+ByteDance
+CARE International
+CBS News
+CNBC
+CNN
+CVS
+Capitol Police
+Catholic Charities
+Census Bureau
+Chevron
+Chicago Tribune
+Citigroup
+Cleveland Clinic
+Coast Guard
+Coca-Cola
+Comcast
+Con Edison
+Corps of Engineers
+Costco
+Customs and Border Protection
+Daily Mail
+Defense Department
+Delta Air Lines
+Department of Agriculture
+Department of Defense
+Department of Education
+Department of Energy
+Department of Homeland Security
+Department of Justice
+Department of Labor
+Department of Transportation
+Department of Veterans Affairs
+Department of the Interior
+Deutsche Welle
+Direct Relief
+Disney
+Doctors Without Borders
+DoorDash
+Downing Street
+DraftKings
+Duke Energy
+Elysee
+Environmental Protection Agency
+European Central Bank
+European Commission
+European Parliament
+European Union
+Exxon
+ExxonMobil
+Facebook
+FanDuel
+Fanatics
+Fanatics Sportsbook
+FedEx
+Federal Aviation Administration
+Federal Communications Commission
+Federal Emergency Management Agency
+Federal Reserve
+Federal Trade Commission
+Feeding America
+Fifth Third Bank
+Financial Times
+Fish and Wildlife Service
+Food and Drug Administration
+Ford
+Forest Service
+Fox News
+France 24
+G20
+G7
+GE Aerospace
+Gap
+Geico
+General Assembly
+General Electric
+General Motors
+Geological Survey
+Goldman Sachs
+Google
+Greenpeace
+Haaretz
+Habitat for Humanity
+Hamas
+Health and Human Services
+Hezbollah
+Home Depot
+Homeland Security
+Honda
+Houthis
+Huawei
+Human Rights Watch
+IBM
+Immigration and Customs Enforcement
+Instagram
+Intel
+International Atomic Energy Agency
+International Committee of the Red Cross
+International Court of Justice
+International Criminal Court
+International Monetary Fund
+JPMorgan
+JPMorgan Chase
+Johns Hopkins
+Johnson & Johnson
+Justice Department
+Kremlin
+Kroger
+Kyiv Independent
+Le Monde
+Library of Congress
+Lockheed Martin
+Los Angeles Times
+Lowe's
+Lyft
+MSNBC
+Mastercard
+Mayo Clinic
+McDonald's
+Medicaid
+Medicare
+Medicare Advantage
+Mega Millions
+Merck
+Mercy Corps
+Met Police
+Meta
+Metropolitan Police
+Microsoft
+Moderna
+Morgan Stanley
+Médecins Sans Frontières
+NATO
+NBC News
+NPR
+National Guard
+National Hurricane Center
+National Park Service
+National Rally
+National Transportation Safety Board
+National Weather Service
+Netflix
+New York Post
+New York Times
+Newsweek
+Nike
+Northrop Grumman
+Nvidia
+OPEC
+OpenAI
+Oracle
+Oxfam
+PBS
+PG&E
+Pan Am
+Pan Am Flight
+Park Service
+PayPal
+Peace Corps
+Pentagon
+PepsiCo
+Pfizer
+Politico
+Postal Service
+Powerball
+Progressive
+Raytheon
+Red Crescent
+Red Cross
+Reuters
+Royal Air Force
+Royal Navy
+Salesforce
+Salvation Army
+Samaritan's Purse
+Samsung
+Saturday Night Live
+Save the Children
+Scotland Yard
+Secret Service
+Securities and Exchange Commission
+Security Council
+Shell
+Sky News
+Small Business Administration
+Smithsonian
+Social Security
+Social Security Administration
+Sony
+Southern California Edison
+Southwest Airlines
+SpaceX
+Spectrum
+Starbucks
+Starlink
+State Department
+State Farm
+State Farm Arena
+Stellantis
+Storm Prediction Center
+Supreme Court
+T-Mobile
+Taliban
+Target
+Tencent
+Tesla
+The Atlantic
+The Economist
+The Guardian
+The Hill
+The Independent
+TikTok
+Time Magazine
+Times of Israel
+Toyota
+Transportation Security Administration
+Treasury Department
+UN Security Council
+UNESCO
+UNHCR
+UNICEF
+UNRWA
+UPS
+USA Today
+Uber
+United Airlines
+United Nations
+UnitedHealth
+UnitedHealthcare
+Verizon
+Victoria Secret
+Victoria's Secret
+Visa
+Walgreens
+Wall Street Journal
+Walmart
+Washington Post
+Weather Prediction Center
+Weekend Update
+Wells Fargo
+WhatsApp
+White House
+World Bank
+World Central Kitchen
+World Food Programme
+World Health Organization
+World Trade Organization
+Yellow Vests
+Élysée
