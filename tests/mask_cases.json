@@ -25,10 +25,6 @@
    "[name] rescued from floodwaters"
   ],
   [
-   "Kim Jong Un oversees missile launch",
-   "[name] oversees missile launch"
-  ],
-  [
    "Ms. Jones told reporters the road was closed",
    "[name] told reporters the road was closed"
   ],
@@ -91,24 +87,34 @@
   [
    "Mark the date: road closures downtown",
    "Mark the date: road closures downtown"
+  ],
+  [
+   "Mary Ann Kowalczyk missing since Friday",
+   "[name] missing since Friday"
+  ],
+  [
+   "Smith, John arrested after standoff",
+   "[name] arrested after standoff"
+  ],
+  [
+   "KOHEN WILEY FOUND",
+   "[name] FOUND"
   ]
  ],
  "watch_refuse": [
-  "Musk",
-  "trump",
-  "putin",
-  "TRUMP",
-  "Élon Müsk",
   "Smith, John",
   "J. Smith",
   "Ms. Jones",
   "@elonmusk",
   "ElonMusk",
-  "AOC",
   "John Smith",
   "Kohen Wiley",
   "Jordan Smith",
-  "jordan"
+  "jordan",
+  "Smith",
+  "John",
+  "Mary Ann Kowalczyk",
+  "smith, john"
  ],
  "watch_accept": [
   "Costa Rica",
@@ -125,5 +131,29 @@
   "flood",
   "shooting",
   "evacuation"
+ ],
+ "pf_unmasked": [
+  "Donald Trump visits Florida after storm",
+  "ELON MUSK says Starlink restored",
+  "President Joe Biden tours flood damage",
+  "Kim Jong Un oversees missile launch",
+  "Gavin Newsom declares emergency",
+  "Alexandria Ocasio-Cortez urges aid",
+  "Volodymyr Zelensky addresses parliament",
+  "Taylor Swift donates to relief"
+ ],
+ "watch_pf": [
+  "Trump",
+  "trump",
+  "TRUMP",
+  "Musk",
+  "putin",
+  "Zelensky",
+  "Biden",
+  "Newsom",
+  "AOC",
+  "Gavin Newsom",
+  "Elon Musk",
+  "Kim Jong Un"
  ]
 }
