@@ -1,0 +1,465 @@
+Abu Dhabi
+Addis Ababa
+Afghanistan
+Africa
+Alabama
+Alaska
+Albania
+Aleutian Islands
+Algeria
+American Samoa
+Andaman Islands
+Andorra
+Angola
+Antarctica
+Antigua and Barbuda
+Arabian Sea
+Arctic Ocean
+Argentina
+Arizona
+Arkansas
+Armenia
+Aruba
+Asia
+Atlantic Ocean
+Australia
+Austria
+Azerbaijan
+Azores
+Bahamas
+Bahrain
+Baja California
+Baja California Sur
+Balkans
+Banda Sea
+Bangladesh
+Barbados
+Baton Rouge
+Bay Area
+Bay of Bengal
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Big Island
+Black Sea
+Bolivia
+Borneo
+Bosnia and Herzegovina
+Botswana
+Brazil
+British Columbia
+British Virgin Islands
+Brunei
+Buenos Aires
+Bulgaria
+Burkina Faso
+Burma
+Burundi
+Cabo Verde
+California
+Cambodia
+Cameroon
+Canada
+Canary Islands
+Cape Town
+Cape Verde
+Caribbean
+Caspian Sea
+Cayman Islands
+Central African Republic
+Central America
+Central Asia
+Chad
+Chile
+China
+Christmas Island
+Colombia
+Colorado
+Comoros
+Congo
+Connecticut
+Cook Islands
+Costa Rica
+Cote d'Ivoire
+Crimea
+Croatia
+Cuba
+Curacao
+Cyprus
+Czech Republic
+Czechia
+Dar es Salaam
+Death Valley
+Delaware
+Democratic Republic of the Congo
+Denmark
+District of Columbia
+Djibouti
+Dominica
+Dominican Republic
+Donbas
+East Africa
+East Asia
+East China Sea
+East Pacific Rise
+East Timor
+Easter Island
+Eastern Europe
+Ecuador
+Egypt
+El Paso
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Europe
+Falkland Islands
+Faroe Islands
+Fiji
+Fiji Islands
+Finland
+Florida
+Fort Worth
+France
+French Guiana
+French Polynesia
+Gabon
+Galapagos Islands
+Gambia
+Gaza
+Georgia
+Germany
+Ghana
+Gibraltar
+Grand Canyon
+Great Britain
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guatemala City
+Guinea
+Guinea-Bissau
+Gulf of Alaska
+Gulf of California
+Gulf of Mexico
+Guyana
+Haiti
+Hawaii
+Ho Chi Minh City
+Hokkaido
+Honduras
+Hong Kong
+Honshu
+Horn of Africa
+Hungary
+Huntington Beach
+Iceland
+Idaho
+Illinois
+India
+Indian Ocean
+Indiana
+Indonesia
+Iowa
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Ivory Coast
+Jamaica
+Jan Mayen
+Japan
+Java
+Jordan
+Kansas
+Kansas City
+Kashmir
+Kazakhstan
+Kentucky
+Kenya
+Kermadec Islands
+Kilauea
+Kiribati
+Kosovo
+Kuala Lumpur
+Kurdistan
+Kuril Islands
+Kuwait
+Kyrgyzstan
+Kyushu
+Laos
+Las Vegas
+Latin America
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Long Beach
+Los Angeles
+Louisiana
+Loyalty Islands
+Luxembourg
+Luzon
+Macao
+Macau
+Madagascar
+Madeira
+Maine
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Maryland
+Massachusetts
+Mauna Loa
+Mauritania
+Mauritius
+Mayotte
+Mediterranean
+Mediterranean Sea
+Mexico
+Mexico City
+Miami Beach
+Michigan
+Micronesia
+Mid-Atlantic Ridge
+Middle East
+Mindanao
+Minnesota
+Mississippi
+Missouri
+Moldova
+Molucca Sea
+Monaco
+Mongolia
+Montana
+Montenegro
+Morocco
+Mount Etna
+Mount Fuji
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nebraska
+Nepal
+Netherlands
+Nevada
+New Brunswick
+New Caledonia
+New Delhi
+New Hampshire
+New Jersey
+New Mexico
+New Orleans
+New South Wales
+New York
+New York City
+New Zealand
+Newfoundland and Labrador
+Newport Beach
+Nicaragua
+Nicobar Islands
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Africa
+North America
+North Atlantic
+North Carolina
+North Dakota
+North Korea
+North Macedonia
+North Pacific
+Northern Ireland
+Northern Mariana Islands
+Northern Territory
+Northwest Territories
+Norway
+Nova Scotia
+Nuevo Leon
+Oceania
+Ohio
+Oklahoma
+Oklahoma City
+Oman
+Oregon
+Pacific Ocean
+Pakistan
+Palau
+Palestine
+Palm Beach
+Palm Springs
+Panama
+Panama City
+Papua New Guinea
+Paraguay
+Pennsylvania
+Persian Gulf
+Peru
+Philippine Islands
+Philippines
+Phnom Penh
+Pitcairn Islands
+Poland
+Port Moresby
+Port-Olry
+Port-au-Prince
+Portugal
+Prince Edward Island
+Puerto Rico
+Qatar
+Quebec City
+Quintana Roo
+Red Sea
+Reunion
+Rhode Island
+Rio de Janeiro
+Romania
+Russia
+Rwanda
+Sahel
+Saint Kitts and Nevis
+Saint Louis
+Saint Lucia
+Saint Vincent and the Grenadines
+Salt Lake City
+Samoa
+San Antonio
+San Diego
+San Francisco
+San Jose
+San Juan
+San Luis Potosi
+San Marino
+Santa Barbara
+Santa Cruz
+Santa Fe
+Santa Rosa
+Santo Domingo
+Sao Paulo
+Sao Tome and Principe
+Saudi Arabia
+Sea of Japan
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Silicon Valley
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South America
+South Asia
+South Atlantic
+South Australia
+South Carolina
+South China Sea
+South Dakota
+South Georgia
+South Korea
+South Pacific
+South Sandwich Islands
+South Sudan
+Southeast Asia
+Southern Africa
+Southern Ocean
+Spain
+Sri Jayawardenepura Kotte
+Sri Lanka
+St Louis
+St. Louis
+Sudan
+Sulawesi
+Sumatra
+Suriname
+Svalbard
+Sweden
+Switzerland
+Syria
+Taiwan
+Taiwan Region
+Tajikistan
+Tanzania
+Tel Aviv
+Tennessee
+Texas
+Thailand
+Tibet
+Tierra del Fuego
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Tonga Islands
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkiye
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Türkiye
+US Virgin Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Utah
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vermont
+Viet Nam
+Vietnam
+Virgin Islands
+Virginia
+Virginia Beach
+Wallis and Futuna
+Washington
+Washington DC
+West Africa
+West Bank
+West Palm Beach
+West Virginia
+Western Australia
+Western Europe
+Western Sahara
+Wisconsin
+Wyoming
+Xinjiang
+Yellowstone
+Yemen
+Zambia
+ZimbabweGulf of Aden
+Eastern Gulf of Aden
+Vanuatu Islands
+Strait of Hormuz
+Horn of Africa
+Bay of Biscay
+Sea of Okhotsk
+Gulf of Guinea
+Gulf of Oman
