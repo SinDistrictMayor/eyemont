@@ -1,1755 +1,1755 @@
-Abbotts Mill	38.89,-75.48
-Adams Crossroads	38.80,-75.70
-Adamsville	38.83,-75.69
-Addick Estates	39.80,-75.45
-Afton	39.83,-75.48
-Ainsley Woods	39.76,-75.71
-Airmont Acres	39.53,-75.67
-Alapocas	39.77,-75.56
-Alban Park	39.73,-75.57
-Albertson	39.74,-75.63
-Albertson Park	39.74,-75.63
-Albion	39.71,-75.66
-Alexanders Village	39.07,-75.52
-Alisa Estates	39.35,-75.64
-Allee	39.11,-75.55
-Amaranth	39.71,-75.78
-Analine Village	39.81,-75.44
-Anderson Crossroads	38.86,-75.37
-Andersons Corner	38.70,-75.26
-Andrews Lake Estates	39.02,-75.53
-Andrewsville	38.86,-75.63
-Anglesey	39.76,-75.62
-Angola Acres II Mobile Home Park	38.67,-75.16
-Angola Beach Mobile Home Park	38.65,-75.16
-Angola Crest II Mobile Home Park	38.67,-75.15
-Angola Crest Mobile Home Park	38.67,-75.16
-Angola Landing	38.64,-75.13
-Angola Neck Park Mobile Home Park	38.67,-75.15
-Angola by the Bay	38.67,-75.17
-Aniline Village	39.81,-75.44
-Anne Acres	38.70,-75.08
-Anneville	39.13,-75.52
-Arabian Acres	38.74,-75.23
-Arbor Pointe Apartments	39.71,-75.65
-Arbour Park	39.65,-75.76
-Arbre Park Mobile Home Park	38.71,-75.20
-Arden	39.81,-75.49
-Ardencroft	39.80,-75.49
-Ardentown	39.81,-75.48
-Argo Corners	38.87,-75.35
-Argos Choice	38.95,-75.51
-Armstrong	39.48,-75.72
-Arundel	39.74,-75.67
-Ashbourne Hills	39.81,-75.47
-Ashland	39.80,-75.66
-Ashley	39.73,-75.58
-Ashley Heights	39.73,-75.58
-Aspen Meadows	38.73,-75.13
-Atlanta	38.71,-75.68
-Atlanta Estates	38.66,-75.63
-Auburn	39.81,-75.69
-Auburn Hills	39.80,-75.69
-Augustine	39.76,-75.55
-Augustine Hills	39.76,-75.55
-Avalon	39.73,-75.62
-Avalon Park Mobile Home Park	38.66,-75.27
-Bacons	38.51,-75.57
-Baileys Landing	38.57,-75.64
-Bald Eagle Village	38.71,-75.10
-Ballymeade	39.83,-75.49
-Bank Harbor Retreat	38.56,-75.10
-Banks Acres	38.56,-75.11
-Banks Development	38.55,-75.11
-Banks Harbor Estates	38.56,-75.10
-Banksville Park	38.56,-75.12
-Barclay Farms	39.10,-75.56
-Barkers Landing	39.09,-75.46
-Barkers Landing Estates	39.05,-75.47
-Barkley	39.83,-75.52
-Barley Woods	39.77,-75.61
-Basin Corner	39.68,-75.59
-Bay City Mobile Home Park	38.63,-75.13
-Bay Colony	38.59,-75.14
-Bay Harbor	38.71,-75.10
-Bay Shore Hills	38.70,-75.14
-Bay Shore Mobile Home Park	38.58,-75.08
-Bay View Estates	38.46,-75.13
-Bay View Heights	39.05,-75.40
-Bay View Park	38.51,-75.06
-Bay Vista	38.70,-75.10
-Bayard	38.50,-75.13
-Bayberry Dunes	38.57,-75.06
-Bayside Hamlet	38.58,-75.08
-Bayview Heights	39.06,-75.41
-Bayview Manor	39.64,-75.61
-Bayville	38.47,-75.09
-Beachfield	38.73,-75.12
-Beachwood	38.50,-75.16
-Beacon Hill	39.82,-75.51
-Beacon Hill North	39.83,-75.51
-Beades Estate	39.11,-75.53
-Bear	39.63,-75.66
-Beau Tree	39.84,-75.52
-Beaver Brook Apartments	39.64,-75.62
-Beaver Dam Acres	38.69,-75.21
-Beaver Dam Heights	38.65,-75.59
-Beaver Valley	39.84,-75.56
-Bechers Brook	39.23,-75.63
-Becks Landing	39.62,-75.70
-Beech Haven	39.20,-75.60
-Beech Hill	39.75,-75.73
-Beechers Lot	39.64,-75.70
-Beechwold	39.78,-75.53
-Belford Manor	39.73,-75.65
-Bella Vista	39.77,-75.68
-Bellefonte	39.77,-75.50
-Bellevue	39.77,-75.48
-Bellevue Hills	39.78,-75.49
-Bellewood	39.79,-75.53
-Belltown	38.75,-75.18
-Belltown Woods	39.61,-75.72
-Belmoor	39.73,-75.59
-Belvidere	39.72,-75.62
-Ben Robins Landing	38.66,-75.16
-Bennum	38.71,-75.31
-Benton	39.81,-75.52
-Berkeley Farms	39.76,-75.74
-Berkeley Ridge	39.78,-75.68
-Berrytown	39.01,-75.59
-Bestfield	39.72,-75.61
-Bethany Beach	38.54,-75.06
-Bethany Dunes	38.56,-75.06
-Bethany Village	38.56,-75.06
-Bethel	39.23,-75.58
-Bethesda	39.14,-75.69
-Beverly Woods	39.82,-75.48
-Bicentennial Village	39.17,-75.55
-Biddles Corner	39.53,-75.65
-Big Oak Corners	39.27,-75.59
-Big Pine	38.85,-75.69
-Bigger Tract	39.80,-75.46
-Birch Knoll	39.83,-75.50
-Birch Pointe	39.71,-75.70
-Birchwood Park	39.68,-75.69
-Birds Corner	39.56,-75.64
-Bishops Corner	39.22,-75.58
-Black Hog Landing	38.77,-75.19
-Blackbird	39.37,-75.66
-Blackbird Landing	39.39,-75.64
-Blackiston	39.27,-75.70
-Blackwater	38.55,-75.16
-Blackwater Beach	38.58,-75.16
-Blackwater Cove	38.56,-75.14
-Blackwater Village	38.56,-75.16
-Blades	38.64,-75.61
-Blanchard	38.82,-75.65
-Bloomfield Acres	38.95,-75.51
-Blue Ball	39.78,-75.54
-Blue Rock Manor	39.80,-75.54
-Bombay Woods	39.29,-75.59
-Bon Ayre	39.78,-75.67
-Bookhammer Landing	38.68,-75.14
-Bork Acres	39.06,-75.55
-Bossard Property	38.65,-75.63
-Bottom Hills	38.62,-75.07
-Boulder Brook	39.80,-75.52
-Bowen Landing	38.92,-75.41
-Bowers Beach	39.06,-75.40
-Bowers Landing	39.05,-75.45
-Boxwood	39.73,-75.60
-Boyds Corner	39.50,-75.65
-Boyers Village	38.54,-75.15
-Brackenville	39.78,-75.68
-Brackenville Woods	39.79,-75.66
-Branchview	38.64,-75.67
-Brandon	39.83,-75.52
-Brandywine	39.83,-75.53
-Brandywine Commons	39.82,-75.55
-Brandywine Estates	39.79,-75.48
-Brandywine Forge	39.83,-75.52
-Brandywine Hills	39.77,-75.52
-Brandywine Perry Park	39.83,-75.55
-Brandywine Springs	39.74,-75.64
-Brandywine Springs Manor	39.75,-75.64
-Brandywood	39.82,-75.51
-Breezewood	39.05,-75.55
-Breezewood II	39.66,-75.71
-Brenford	39.26,-75.61
-Briar Hook	38.68,-75.66
-Briar Park	39.11,-75.54
-Briarwood Manor	38.72,-75.30
-Brick Store	39.32,-75.57
-Bridgeville	38.74,-75.60
-Bridgeville Manor	38.73,-75.60
-Bridgeville North	38.75,-75.60
-Bridgeville-Greenwood	38.77,-75.60
-Bridleshire Farms	39.76,-75.73
-Bristle Knoll	39.72,-75.78
-Broad Acres	38.64,-75.58
-Broad Creek	38.59,-75.58
-Broad Creek Estates	38.56,-75.62
-Broadkill Beach	38.83,-75.21
-Brookbend	39.68,-75.68
-Brookdale Heights	39.08,-75.49
-Brookfield	39.10,-75.54
-Brookhaven	39.70,-75.69
-Brookhaven Estates	39.06,-75.50
-Brookhill Farms	39.78,-75.69
-Brookland Terrace	39.74,-75.62
-Brookmeade	39.75,-75.63
-Brookmont Farms	39.63,-75.69
-Brookside	39.67,-75.73
-Brookview	39.81,-75.46
-Brown Street	38.91,-75.41
-Browns Corner	39.09,-75.52
-Brownsville	38.91,-75.68
-Bryan Park	38.69,-75.59
-Bryans Store	38.59,-75.41
-Buck Hill Landing	38.56,-75.22
-Buckingham Heights	39.81,-75.50
-Bullseye	38.59,-75.22
-Bunting	38.46,-75.15
-Burton Acres	38.58,-75.26
-Burtonwood Village	39.27,-75.59
-Burwood	39.09,-75.56
-Burwood Farms	39.09,-75.56
-Bush Manor	39.21,-75.56
-Buttonwood	39.68,-75.56
-Byewood Manor	38.56,-75.12
-Calhoun Landing	38.59,-75.12
-Camden	39.11,-75.54
-Camelot Mobile Home Park	38.72,-75.12
-Cameron Hills	39.79,-75.69
-Canby Park Estates	39.74,-75.58
-Candlewicke	39.12,-75.52
-Cannon	38.70,-75.61
-Cantebury Apartments	38.74,-75.59
-Canterbury	39.04,-75.56
-Canterbury Hills	39.76,-75.65
-Canterbury Trails	39.04,-75.55
-Canterville	39.03,-75.55
-Cape Windsor Mobile Home Park	38.45,-75.07
-Capes Cove Mobile Home Park	38.76,-75.17
-Capital Trail Farms	39.73,-75.65
-Capitol Green	39.16,-75.52
-Capitol Park	39.14,-75.50
-Captains Grant Mobile Home Park	38.60,-75.18
-Caravel Farms	39.60,-75.72
-Cardiff	39.81,-75.54
-Cardinal Hills	39.13,-75.60
-Careys Estate Mobile Home Park	38.55,-75.37
-Carlisle Village	39.19,-75.58
-Carousel Knoll	39.73,-75.67
-Carpenter	39.82,-75.46
-Carpenters Corner	38.74,-75.15
-Carrcroft	39.79,-75.51
-Carrcroft Crest	39.79,-75.50
-Carriage Lane	39.11,-75.52
-Carriage Run	39.67,-75.63
-Carsylian Acres	38.75,-75.23
-Carter Development	39.12,-75.53
-Casson Corner	39.16,-75.61
-Castle Apartments	39.67,-75.59
-Castle Hills	39.69,-75.56
-Catalina Gardens	39.65,-75.75
-Cavaliers Country Club Apartments	39.68,-75.65
-Cave Colony	38.76,-75.29
-Cedar Brae Farm	39.36,-75.68
-Cedar Chase	39.20,-75.55
-Cedar Farms	39.63,-75.71
-Cedar Heights	39.72,-75.62
-Cedar Shores	38.57,-75.09
-Cedarbrook Acres	39.28,-75.61
-Cedars	39.74,-75.64
-Cedars Knoll	39.74,-75.64
-Cedartree	39.83,-75.49
-Cedarville Mobile Home Park	38.58,-75.09
-Centennial Village	39.64,-75.66
-Centerville	39.82,-75.62
-Central Kent	39.05,-75.66
-Centreville	39.81,-75.62
-Chalfonte	39.82,-75.53
-Chambersville	39.36,-75.58
-Champlin Village	39.73,-75.59
-Channin	39.83,-75.51
-Chapel Hill	39.70,-75.73
-Chapelcrest	39.82,-75.54
-Chapeltown	39.10,-75.70
-Chaplecroft	39.12,-75.54
-Charter Oaks	39.78,-75.69
-Chatham	39.80,-75.52
-Chelsea Estates	39.69,-75.59
-Cherokee Woods	39.68,-75.71
-Cherrington	39.82,-75.62
-Cherry Hill	39.68,-75.77
-Cherrytree Landing	38.64,-75.59
-Chestnut Grove	39.17,-75.57
-Chestnut Hill Estates	39.68,-75.71
-Chestnut Knoll	38.96,-75.45
-Cheswold	39.22,-75.59
-Cheswold Farms	39.20,-75.62
-Chimney Hill	39.02,-75.56
-Choate	39.70,-75.70
-Choptank Mills	39.07,-75.74
-Christiana	39.67,-75.66
-Christiana Acres	39.69,-75.62
-Christiana Green	39.65,-75.68
-Christiana Landing	39.65,-75.66
-Christiana Village	39.67,-75.66
-Christina Manor	39.68,-75.79
-Church Creek	39.08,-75.48
-Church Hill	39.77,-75.67
-Church Hill Village	38.93,-75.48
-Circle Haven Mobile Home Park	38.94,-75.56
-Clair Manor	39.81,-75.50
-Claridge Court	39.65,-75.62
-Clarksons Crossroads	38.71,-75.65
-Clarksville	38.55,-75.15
-Clay Acres	39.59,-75.71
-Claymont	39.80,-75.46
-Claymont Addition	39.80,-75.47
-Claymont Heights	39.80,-75.47
-Claymont Manor	39.80,-75.45
-Claymont Terrace	39.80,-75.46
-Claymont Village	39.80,-75.46
-Clayton	39.29,-75.63
-Clearfield	39.73,-75.59
-Clearview Manor	39.71,-75.57
-Cleland Heights	39.73,-75.57
-Clermont	39.79,-75.53
-Clifton Park Manor	39.76,-75.51
-Club House Landing	38.56,-75.09
-Club Lane	39.81,-75.54
-Coach Hill	39.71,-75.71
-Cocked Hat	38.77,-75.61
-Coffee Run	39.75,-75.66
-Cokesbury Village	39.78,-75.66
-College Park	39.67,-75.77
-Collins Beach	39.39,-75.52
-Collins Creek Estates	38.56,-75.12
-Collins Mill Park	38.71,-75.52
-Collins Park	39.69,-75.56
-Collins Park Mobile Home Park	38.56,-75.09
-Collins Pond Acres	38.71,-75.51
-Collins and Russell Development	38.79,-75.32
-Colmar Manor	39.28,-75.61
-Colonial Acres	38.61,-75.56
-Colonial East Mobile Home Park	38.74,-75.14
-Colonial Heights	39.75,-75.58
-Colonial Village Apartments	39.68,-75.57
-Colonial Woods	39.81,-75.54
-Colony Hills	39.71,-75.61
-Colony West	38.95,-75.43
-Columbia	38.50,-75.68
-Commerce Square	39.30,-75.60
-Concord	39.76,-75.54
-Concord Heights	38.65,-75.54
-Concord Hills	39.83,-75.55
-Concord Manor	39.81,-75.54
-Concord Towers	39.67,-75.68
-Conley Chapel Village Mobile Home Park	38.69,-75.20
-Cool Spring	38.73,-75.25
-Cool Spring Farms	38.73,-75.25
-Cool Spring Farms Mobile Home Park	38.73,-75.25
-Cool Spring Manor	38.72,-75.26
-Cooper Farm	39.74,-75.64
-Coopers Corner	39.14,-75.52
-Corbit	39.59,-75.66
-Corner Ketch	39.75,-75.74
-Cornish Hills	39.77,-75.71
-Cottage Mill	39.65,-75.75
-Country Club Estates	38.90,-75.41
-Country Estates	38.54,-75.10
-Country Gates	39.83,-75.52
-Country Living Mobile Home Park	38.59,-75.34
-Country Village	38.72,-75.15
-Countryside Farms	39.59,-75.72
-County Seat Gardens Mobile Home Park	38.72,-75.39
-Coventry	39.67,-75.64
-Coverdale Crossroads	38.71,-75.53
-Covered Bridge Farms	39.70,-75.78
-Covey Creek	38.76,-75.16
-Cowgills Corner	39.20,-75.48
-Cozy Cove Mobile Home Park	38.63,-75.13
-Cragmere	39.77,-75.49
-Cragmere Woods	39.77,-75.49
-Craigs Mill	38.63,-75.65
-Cranston Heights	39.73,-75.63
-Crestfield	39.82,-75.50
-Cricket Hill	39.79,-75.71
-Cripple Creek	38.77,-75.24
-Cristine Manor	39.69,-75.78
-Cross Keys	38.57,-75.37
-Crossgates	39.14,-75.54
-Crystal Run Farm	39.52,-75.70
-Cuelen Acres	38.53,-75.22
-Cypress Gardens	39.10,-75.49
-D and K Mobile Home Park	38.97,-75.53
-Dagsboro	38.55,-75.25
-Danfield Acres	38.68,-75.24
-Daniels Tract	39.38,-75.53
-Darley Woods	39.82,-75.47
-Dartmouth Woods	39.83,-75.51
-Dartmouth Woods II	39.83,-75.52
-Davis Corner	39.17,-75.68
-Deacons Walk	39.73,-75.72
-Deakyneville	39.37,-75.54
-Deep Branch Farm	39.43,-75.71
-Deer Creek	38.79,-75.59
-Deer Run	39.64,-75.71
-Deerhurst	39.78,-75.54
-Deerwood	38.72,-75.30
-Del Haven Estates	39.06,-75.50
-Del Shire	39.21,-75.56
-Delaire	39.78,-75.49
-Delaney Corner	39.30,-75.75
-Delaplane Manor	39.70,-75.71
-Delaware City	39.58,-75.59
-Delaware Heights	39.83,-75.62
-Delaware Junction	39.72,-75.58
-Delmar	38.46,-75.58
-Delpark Manor	39.72,-75.66
-Delshire	39.21,-75.56
-Delwoods	39.78,-75.54
-Delwynn	39.81,-75.53
-Denton Manor	38.56,-75.11
-Denton Mills	38.55,-75.12
-Denton Woods Mobile Home Park	38.56,-75.10
-Derby Shores	39.09,-75.57
-Derbywood	39.09,-75.56
-Devon	39.67,-75.77
-Devonshire	39.83,-75.54
-Devonshire Woods	38.66,-75.64
-Dewey Beach	38.69,-75.07
-Dexter Corners	39.33,-75.70
-Dinahs Corner	39.19,-75.64
-Dobbinsville	39.66,-75.58
-Dodds Addition	38.70,-75.08
-Dogwood Acres	38.54,-75.58
-Dogwood Acres Mobile Home Park	38.56,-75.19
-Dogwood Meadows	38.94,-75.46
-Dogwood Park Mobile Home Park	38.64,-75.31
-Donas Landing	39.21,-75.43
-Donovan Development	38.91,-75.45
-Douglas Forge	38.65,-75.58
-Dover	39.16,-75.52
-Dover Base Housing	39.12,-75.48
-Dover East Estates Mobile Home Park	39.16,-75.50
-Dover Heights	39.17,-75.51
-Doverbrook Gardens	39.14,-75.47
-Downs Chapel	39.21,-75.72
-Dragon Run Terrace Mobile Home Park	39.56,-75.69
-Drawbridge	38.79,-75.25
-Driftwood Village Mobile Home Park	38.61,-75.20
-Drummond North	39.73,-75.72
-Drummond Ridge	39.72,-75.70
-Dublin Hill	38.75,-75.65
-Duck Creek Landing	39.32,-75.57
-Dunbarton Oaks Apartments	38.69,-75.40
-Duncan Glen	39.74,-75.65
-Duncan Village	39.73,-75.64
-Duncan Woods	39.74,-75.64
-Dunleith	39.71,-75.56
-Dunlinden Acres	39.74,-75.65
-Dupont	39.19,-75.56
-Dupont Manor	39.20,-75.55
-Duponts Landing	39.75,-75.49
-Duross Heights	39.68,-75.62
-Dutch Acres	38.75,-75.18
-Dutch Neck Crossroads	39.29,-75.52
-Dutch Neck Farms	39.53,-75.63
-Eagle Heights	39.12,-75.49
-Eagles Nest	39.11,-75.53
-Eagles Nest Landing	39.35,-75.56
-East Lake Gardens	39.17,-75.52
-East Mill Run	38.76,-75.21
-East Minquadale	39.70,-75.56
-East Side	39.74,-75.54
-East Side Village	38.77,-75.30
-Eastburn Acres	39.71,-75.68
-Eastburn Farms	39.74,-75.70
-Eastburn Heights	39.71,-75.68
-Eastman Heights	38.89,-75.42
-Eberton	39.22,-75.57
-Ebright	39.84,-75.53
-Eden Park Gardens	39.72,-75.54
-Eden Roc	39.20,-75.60
-Edenridge	39.80,-75.56
-Edge Hill	39.17,-75.52
-Edgebrooke	39.67,-75.66
-Edgehill Acres	39.16,-75.51
-Edgemoor	39.75,-75.50
-Edgemoor Gardens	39.76,-75.50
-Edgemoor Terrace	39.76,-75.50
-Edgewater	38.75,-75.20
-Edgewood Hills	39.76,-75.50
-Edgewood Manor	38.55,-75.15
-Edward Cordrey Subdivision	38.63,-75.28
-Edwardsville	39.00,-75.71
-Ellendale	38.81,-75.42
-Elliots Addition	39.74,-75.61
-Elmhurst	39.73,-75.59
-Elmwood	39.67,-75.70
-Elsmere	39.74,-75.60
-Enchanted Acres Mobile Home Park	38.63,-75.18
-English Village	39.72,-75.70
-Evans Park Mobile Home Park	38.53,-75.28
-Everetts Corner	39.20,-75.75
-Evergreen Acres	39.50,-75.64
-Evergreen Farms	39.45,-75.67
-Fairfax	39.79,-75.54
-Fairfax Farms	39.79,-75.55
-Fairfield	39.70,-75.77
-Fairfield Crest	39.70,-75.76
-Fairfield Farms	39.12,-75.53
-Fairmount	38.67,-75.22
-Fairthorne	39.77,-75.60
-Fairview	39.17,-75.54
-Fairway Falls	39.73,-75.70
-Fairway Villas	38.58,-75.14
-Fairwinds	39.64,-75.64
-Fairwinds Mobile Home Park	39.64,-75.64
-Farm View Park	38.88,-75.45
-Farmington	38.87,-75.58
-Farnhurst	39.69,-75.58
-Faulkland	39.75,-75.64
-Faulkland Heights	39.74,-75.63
-Faulkland Woods	39.75,-75.64
-Federalsburg	38.83,-75.43
-Felton	39.01,-75.58
-Felton Heights	39.02,-75.57
-Felton Manor	39.01,-75.57
-Felton Station	39.01,-75.57
-Fennimore Landing	39.45,-75.59
-Fenwick Estates	38.46,-75.19
-Fenwick Island	38.46,-75.05
-Fenwick Landing	38.45,-75.07
-Fenwick West	38.47,-75.12
-Fern Hook	39.70,-75.57
-Fernwood	38.65,-75.57
-Ferry Landing	38.59,-75.24
-Fieldsboro	39.42,-75.66
-Fieldwood Addition	38.73,-75.12
-Fish Hook Mobile Home Court	38.64,-75.33
-Fisher Landing	38.71,-75.18
-Fisher Mill Park	38.69,-75.55
-Fishermans Park Mobile Home Park	38.63,-75.11
-Five Points	38.75,-75.17
-Flea Hill	38.66,-75.44
-Fleming Corners	38.92,-75.60
-Flemings Landing	39.35,-75.55
-Florence	39.08,-75.46
-Foord Landing	38.84,-75.26
-Fords Corner	39.19,-75.70
-Forest	39.37,-75.68
-Forest Brook Glen	39.72,-75.60
-Forest Gate	39.23,-75.73
-Forest Hills Park	39.79,-75.52
-Forest Landing	39.12,-75.50
-Forest Park	39.74,-75.61
-Forest Park Mobile Home Park	38.62,-75.33
-Forrest Grove Village Mobile Home Park	39.17,-75.68
-Forwood	39.80,-75.50
-Foulk Woods	39.81,-75.52
-Four Seasons	39.63,-75.76
-Four Seasons Park	39.62,-75.75
-Fox Chase Park	39.68,-75.68
-Fox Hall	39.17,-75.56
-Fox Hollow	38.70,-75.17
-Fox Meadow	39.80,-75.70
-Fox Run Mobile Home Park	38.52,-75.11
-Fox Woods	39.67,-75.68
-Foxfield	39.68,-75.78
-Foxfire	39.73,-75.71
-Foxfire Meadow	38.53,-75.08
-Foxhall Courtside	39.18,-75.59
-Frankford	38.52,-75.23
-Frasers Corner	39.58,-75.77
-Frederica	39.01,-75.47
-Frederick Acres	38.60,-75.51
-Fredericks Addition	39.74,-75.61
-Fredrick Lodge Mobile Home Park	39.36,-75.65
-Freeman Corner	38.89,-75.46
-Frenchs Mobile Homes	39.01,-75.37
-Friedel Property	38.66,-75.58
-Galewood	39.79,-75.53
-Gams Crest	39.55,-75.65
-Gander Hill	39.42,-75.67
-Gardenside	39.29,-75.62
-Garfield Park	39.70,-75.56
-Garrison Lake Green	39.25,-75.61
-Garton Development	39.11,-75.56
-Garwood Estates	39.61,-75.66
-Gateway Farms	39.78,-75.69
-Generals Green	39.13,-75.49
-Generals Greene	39.13,-75.42
-George Meyers Development	39.09,-75.50
-Georgetown	38.69,-75.39
-Georgian Terrace	39.77,-75.51
-Glasgow	39.60,-75.75
-Glasgow Court	39.62,-75.70
-Glasgow Pines	39.62,-75.71
-Glen Berne Estates	39.72,-75.63
-Glendale	39.63,-75.67
-Glenside Farms	39.79,-75.51
-Glenville	39.71,-75.64
-Goose Point	39.54,-75.77
-Gordon Heights	39.76,-75.51
-Gordy Estates	39.73,-75.61
-Goslee Mill	38.72,-75.19
-Gran-ville	38.64,-75.30
-Granada Mobile Home Park	39.05,-75.50
-Grandview Meadows	39.08,-75.49
-Granogue	39.83,-75.59
-Gravel Hill	38.71,-75.32
-Graylyn Crest	39.80,-75.52
-Great Good Place	39.75,-75.76
-Great Oak Farms	39.50,-75.63
-Green Acres	39.79,-75.50
-Green Acres Mobile Home Park	39.11,-75.54
-Green Briar	39.15,-75.67
-Green Briar Court	38.55,-75.09
-Green Hill	38.79,-75.17
-Green Meadow	39.79,-75.52
-Green Spring	39.32,-75.65
-Green Spring Farm	39.32,-75.64
-Green Valley	39.70,-75.69
-Greenbank	39.74,-75.64
-Greenbridge	39.68,-75.72
-Greenlea Acres	38.70,-75.37
-Greenleaf Manor	39.68,-75.70
-Greenmount	39.79,-75.48
-Greens Corner	38.99,-75.68
-Greens Landing	38.66,-75.16
-Greens of Dover	39.16,-75.56
-Greenshire	39.80,-75.47
-Greentop	38.85,-75.42
-Greentree	39.81,-75.46
-Greenview	39.12,-75.52
-Greenville	38.89,-75.66
-Greenville Development	39.78,-75.60
-Greenville Manor	39.78,-75.60
-Greenville Place	39.77,-75.60
-Greenwood	38.81,-75.59
-Greenwood Gardens	38.80,-75.59
-Grendon Farms	39.73,-75.68
-Greylag	39.48,-75.67
-Gristmill Woods	39.78,-75.51
-Grubbs Corner	39.83,-75.49
-Grubbs Landing	39.79,-75.47
-Gull Point	38.59,-75.21
-Gulls Nest	38.58,-75.06
-Gum Crossroads	38.65,-75.47
-Gumboro	38.48,-75.37
-Gumwood	39.79,-75.52
-Guyencourt	39.81,-75.59
-Gwinhurst	39.79,-75.48
-H and H Corner	39.38,-75.67
-Hall Estates	38.94,-75.46
-Hamilton Park	39.72,-75.55
-Hammville	39.23,-75.58
-Hampton	39.83,-75.52
-Hanbys Corner	39.82,-75.49
-Harbeson	38.72,-75.28
-Hardscrabble	38.61,-75.48
-Hares Corner	39.67,-75.60
-Harlemtown	38.69,-75.38
-Harmon	38.61,-75.20
-Harmony	39.70,-75.69
-Harmony Hills	39.69,-75.68
-Harrington	38.92,-75.58
-Harrison Knoll	39.03,-75.54
-Hartly	39.17,-75.71
-Hasting Estates Mobile Home Park	38.63,-75.59
-Hastings Park Mobile Home Park	38.63,-75.59
-Haven Lake Estates	38.91,-75.46
-Haverford	39.78,-75.69
-Hay Point Landing	39.35,-75.55
-Hayden Park	39.71,-75.59
-Hazeldell	39.71,-75.55
-Hazelwood	39.22,-75.53
-Hazlettville	39.12,-75.64
-Hazzard Landing	38.81,-75.21
-Hearns Crossroads	38.53,-75.55
-Hearns Mill	38.68,-75.59
-Heather Valley	39.76,-75.68
-Heather Woods	39.63,-75.70
-Heatherbrooke	39.80,-75.52
-Heatherfield	39.16,-75.56
-Heatherton	39.78,-75.70
-Hedgerow Hollow Mobile Home Park	39.27,-75.59
-Helms Landing	38.56,-75.22
-Henderson Heights	39.72,-75.70
-Henlopen Acres	38.73,-75.09
-Henlopen Keys	38.73,-75.10
-Henry Clay	39.77,-75.58
-Heritage	39.72,-75.68
-Heritage Farms	39.72,-75.68
-Heritage Village	38.66,-75.63
-Heronwood	38.76,-75.22
-Herring Creek Estates	38.66,-75.19
-Herring Landing	38.65,-75.14
-Hickman Village Estates Mobile Home Park	38.54,-75.54
-Hickory Dale Acres	39.21,-75.56
-Hickory Hill	39.78,-75.69
-Hickory Ridge	39.25,-75.59
-Hickory Woods	39.59,-75.70
-Hidden Acres	38.55,-75.15
-Hidden Pond	39.02,-75.57
-Hideaway Acres	39.09,-75.50
-High Point	39.77,-75.51
-High Point Mobile Home Park	39.05,-75.46
-Highland Acres	39.12,-75.52
-Highland Meadows	39.79,-75.67
-Highland Terrace	38.70,-75.39
-Highland West	39.76,-75.66
-Highland Woods	39.82,-75.48
-Hill N Dale	38.62,-75.62
-Hillcrest	39.76,-75.51
-Hillcrest Acres Mobile Home Park	38.61,-75.23
-Hilldale	39.20,-75.48
-Hillendale	39.80,-75.49
-Hillside Acres	39.03,-75.54
-Hillside Heights	39.68,-75.69
-Hillstream	39.77,-75.74
-Hilltop Acres	38.85,-75.43
-Hilltop Manor	39.78,-75.48
-Hitchens Crossroads	38.58,-75.46
-Hoagland Subdivision	38.57,-75.66
-Hoars Addition	39.21,-75.58
-Hockessin	39.79,-75.70
-Hockessin Hunt	39.77,-75.71
-Hockessin Park	39.79,-75.69
-Holiday Acres	38.57,-75.27
-Holiday Estates	38.53,-75.27
-Holiday Hills	39.82,-75.50
-Holiday Pines	38.63,-75.21
-Holiday Pines Mobile Home Park	38.64,-75.21
-Hollandsville	38.99,-75.67
-Holletts Corners	39.29,-75.73
-Hollingsworth Development	39.83,-75.62
-Holloway Terrace	39.70,-75.55
-Holly Forest	38.54,-75.13
-Holly Hill	38.84,-75.43
-Holly Hills	39.80,-75.49
-Holly Knoll	39.79,-75.70
-Holly Lake Mobile Home Park	38.78,-75.32
-Holly Leaf Estates Mobile Home Park	38.65,-75.26
-Holly Oak	39.79,-75.48
-Holly Oak Mobile Home Park	38.47,-75.57
-Holly Oak Terrace	39.78,-75.49
-Holly Pines Mobile Home Park	38.72,-75.18
-Holly Ridge	38.57,-75.08
-Hollybrook Apartments	38.57,-75.57
-Hollymount	38.68,-75.22
-Hollyville	38.67,-75.24
-Hollyville Acres	38.69,-75.23
-Hollywoods Park	38.54,-75.58
-Homestead Mobile Home Park	38.61,-75.39
-Hopkins Corners	38.96,-75.68
-Horns Mobile Village Mobile Home Park	38.59,-75.58
-Horseshoe Hill	39.80,-75.67
-Hourglass	39.13,-75.68
-Houston	38.92,-75.51
-Howard Manor	38.55,-75.14
-Hudson Crossroads	38.48,-75.17
-Hudson Pond Acres	38.84,-75.44
-Hudson Trails	39.04,-75.55
-Hughes Crossing	39.20,-75.57
-Hughes Crossroads	38.97,-75.70
-Hummingbird Hills	38.97,-75.41
-Hunters Point	39.17,-75.58
-Hunters Ridge	39.06,-75.49
-Hunting Hills	39.68,-75.78
-Huntley	39.14,-75.52
-Huntley Circle	39.14,-75.52
-Hurley Heights	38.65,-75.62
-Hyde Park	39.75,-75.65
-I and I Mobile Home Park	38.98,-75.58
-Idela	39.73,-75.59
-Independence Village	39.17,-75.50
-Indian Beach	38.69,-75.07
-Indian Cove	38.49,-75.11
-Indian Field	39.81,-75.48
-Indian Harbor Villa	38.59,-75.06
-Indian Landing Mobile Home Park	38.62,-75.11
-Indian Landing North Mobile Home Park	38.63,-75.12
-Indian Mission	38.67,-75.24
-Indian River Acres	38.57,-75.17
-Indiantown Farms	38.62,-75.21
-Iron Gates	39.79,-75.68
-Iron Hill	39.63,-75.75
-Iron Hills Apartments	39.64,-75.72
-Irons Lane Landing	38.59,-75.14
-Israel Haul	38.58,-75.19
-Ivy Ridge	39.68,-75.63
-Jacksons Ridge	38.94,-75.54
-Jacobs Crossroads	38.74,-75.69
-Jamestowne	39.65,-75.64
-Jamisons Corner	39.50,-75.68
-Jarrell Farms	39.76,-75.71
-Jefferson Crossroads	38.83,-75.35
-Jefferson Farms	39.68,-75.57
-Jimtown	38.73,-75.19
-John Char Estates	38.92,-75.54
-John Marsh Landing	38.66,-75.16
-Johnson	38.48,-75.14
-Johnson Development	38.61,-75.60
-Johnson Farm	39.30,-75.63
-Jones Crossroads	38.60,-75.45
-Kawan Acres	38.66,-75.30
-Keen-Wik	38.46,-75.09
-Keeney	39.62,-75.70
-Keenwik Sound	38.47,-75.11
-Keenwik West	38.47,-75.10
-Kenmore Park	38.66,-75.58
-Kent Acres	39.13,-75.52
-Kentbourne II	39.29,-75.69
-Kentmere	39.77,-75.56
-Kenton	39.23,-75.66
-Kerseys Evergreen Acres	38.56,-75.28
-Kershaw Acres	39.82,-75.51
-Keystone	39.73,-75.61
-Kiamensi	39.72,-75.64
-Kiamensi Gardens	39.72,-75.64
-Kiamensi Heights	39.72,-75.63
-Killens Addition	38.70,-75.08
-Kimberly Chase	39.83,-75.53
-Kimberton	39.68,-75.73
-Kings Cliff Mobile Home Park	39.14,-75.50
-Kings Croft	39.62,-75.67
-Kings Crossroads	38.75,-75.45
-Kings Grant	38.49,-75.05
-Kings Ridge	39.82,-75.50
-Kings Second Addition	38.69,-75.40
-Kinston Acres	39.62,-75.66
-Kirkwood	39.57,-75.70
-Kirkwood Gardens	39.75,-75.65
-Kitts Hummock	39.10,-75.40
-Klair Estate	39.72,-75.65
-Knotts Landing	38.94,-75.44
-Knowles Crossroads	38.65,-75.45
-KynLyn Apartments	39.76,-75.49
-Laffertys Corner	39.15,-75.49
-Lake Forest Mobile Home Est	38.98,-75.57
-Lake Pines	38.56,-75.55
-Lake Shores	38.68,-75.60
-Lakecroft II	39.65,-75.66
-Lakeshore Village	39.24,-75.59
-Lakeside Estates Mobile Home Park	38.63,-75.59
-Lakeside Manor	38.56,-75.56
-Lakeview Estates	38.58,-75.34
-Lakewind	39.03,-75.51
-Lakewind III	39.03,-75.51
-Lakewood	38.65,-75.55
-Lakewood Development	38.91,-75.45
-Lamatan I	39.76,-75.74
-Lamatan II	39.76,-75.75
-Lambeth Riding	39.77,-75.70
-Lancashire	39.82,-75.49
-Lancaster Court	39.75,-75.60
-Lancaster Village	39.74,-75.59
-Land of Pleasant Living	38.56,-75.11
-Landenberg Junction	39.73,-75.62
-Landers Park	39.69,-75.57
-Landlith	39.74,-75.53
-Lantern Lane Mobile Villa	38.46,-75.16
-Larchmont	39.80,-75.67
-Larence Cordrey Subdivision	38.63,-75.26
-Latimer Estates	39.73,-75.57
-Laurel	38.56,-75.57
-Laurel Bend	39.14,-75.51
-Laurel Creek	38.56,-75.56
-Laurel Mobile Home Park	38.56,-75.56
-Laurel-Delmar	38.52,-75.48
-Lauren Farms	39.60,-75.68
-Lawndale	39.28,-75.59
-Layton Corners	38.90,-75.69
-Lazy Lagoon Mobile Home Park	38.50,-75.23
-Lazy Lake	38.73,-75.26
-Lebanon	39.11,-75.50
-Leedon Estates	39.69,-75.58
-Leipsic	39.24,-75.52
-Leisure Point Mobile Home Park	38.63,-75.16
-Lewes	38.77,-75.14
-Lewes Beach	38.79,-75.15
-Lexington Mill	39.04,-75.51
-Liberty	39.73,-75.62
-Liftwood	39.78,-75.52
-Lightfoots Furnace	38.64,-75.58
-Limestone Acres	39.73,-75.67
-Limestone Gap	39.73,-75.66
-Limestone Gardene	39.73,-75.66
-Limestone Hills	39.75,-75.68
-Lincoln	38.87,-75.42
-Lincoln Park	39.16,-75.54
-Lincoln Village	38.87,-75.44
-Lindamere	39.76,-75.49
-Lindell Square	39.73,-75.67
-Lindell Village	39.72,-75.67
-Linden Green Apartment	39.73,-75.69
-Linden Heath	39.74,-75.70
-Linden Hill	39.73,-75.69
-Linden Square	39.73,-75.70
-Lingo Estate Mobile Home Park	38.63,-75.17
-Lingo Landing	38.63,-75.12
-Little Acres	38.50,-75.56
-Little Baltimore	39.77,-75.74
-Little Creek	39.17,-75.45
-Little Creek Landing	39.16,-75.44
-Little Heaven	39.04,-75.46
-Little Jersey	39.56,-75.71
-Llangollen Estates	39.65,-75.62
-Lochwood	38.68,-75.20
-Locustville	39.07,-75.49
-Log Cabin Mobile Home Park	38.74,-75.24
-Log Run	39.81,-75.49
-London Village	39.07,-75.53
-Lone Star Mobile Home Park	39.11,-75.54
-Long Acres	38.72,-75.19
-Long Neck	38.62,-75.15
-Long Neck Village Mobile Home Park	38.63,-75.17
-Long Point Landing	39.31,-75.62
-Longview Farms	39.82,-75.47
-Longwood	39.81,-75.54
-Lords Corner	39.01,-75.72
-Lorewood Grove	39.54,-75.69
-Loveville	39.77,-75.66
-Lowe	38.52,-75.51
-Lower Moores Corner	39.18,-75.59
-Lowes Crossroads	38.52,-75.41
-Lucky Estates	38.93,-75.54
-Lumbrook	39.69,-75.73
-Lums Pond Estates II	39.58,-75.71
-Lynch Heights	38.95,-75.43
-Lyndalia	39.72,-75.60
-Lynford	39.73,-75.61
-Lynn Lee Village Mobile Home Park	38.56,-75.09
-Lynnfield	39.79,-75.51
-Madelyn Gardens	39.79,-75.53
-Magnolia	39.07,-75.48
-Magnolia Mobile Home Park	39.07,-75.48
-Magnolia Shores	38.48,-75.11
-Mahan	39.07,-75.72
-Mallard Point	38.75,-75.21
-Mallard Pond	39.16,-75.56
-Mallards Run	39.30,-75.60
-Manchester Square	39.17,-75.51
-Manette Heights	39.72,-75.66
-Manley	39.78,-75.70
-Manor Park	39.69,-75.60
-Manor Park Apartments	39.69,-75.58
-Maplechase	39.82,-75.50
-Maplecrest	39.73,-75.65
-Maplehurst	39.25,-75.57
-Maplewood	38.73,-75.14
-Marabou Meadows	39.59,-75.75
-Marker Estates	39.21,-75.57
-Markeys Mobile Home Park	39.10,-75.51
-Marshallton	39.73,-75.65
-Marshallton Green	39.73,-75.64
-Marshallton Heights II	39.72,-75.64
-Marshtown	38.69,-75.16
-Marvels Crossroads	38.93,-75.52
-Marydale	39.66,-75.70
-Marydel	39.11,-75.74
-Masonicville	39.72,-75.61
-Massey Landing	38.63,-75.10
-Mastens Corner	38.97,-75.62
-Mastens Heights Mobile Home Park	38.73,-75.13
-Mayfair	39.13,-75.54
-Mayfield	39.80,-75.51
-Mayview Manor	39.70,-75.55
-McClellandville	39.71,-75.78
-McDaniel Heights	39.80,-75.55
-McDonalds Crossroads	38.67,-75.45
-McDonough	39.49,-75.65
-McKnatt Corners	38.94,-75.68
-McNichol Place	38.75,-75.16
-Meadow Acres	38.66,-75.57
-Meadow Glen	39.12,-75.54
-Meadow Ridge	39.14,-75.62
-Meadow Vista	39.38,-75.71
-Meadowbrook	39.75,-75.72
-Meadowbrook Acres	39.06,-75.54
-Meadowbrook Farms	39.51,-75.72
-Meadowbrook Farms South	39.50,-75.72
-Meadowood	39.71,-75.69
-Meadows	38.65,-75.57
-Mechanicsville	39.72,-75.78
-Meeting House Hill	39.79,-75.69
-Meeting House Meadows	39.79,-75.69
-Melanie	39.66,-75.63
-Melbourne Manor	39.10,-75.61
-Melody Meadows	39.59,-75.75
-Melody Meadows II	39.60,-75.75
-Melvin Crossroads	38.92,-75.72
-Melvins	38.94,-75.52
-Melvins Crossroads	38.96,-75.53
-Mendenhall Village	39.76,-75.69
-Mermaid	39.74,-75.69
-Mermaid Run	39.74,-75.69
-Messick Development	38.70,-75.54
-Meyle Estates	38.54,-75.09
-Middleboro Crest	39.72,-75.59
-Middleboro East	39.72,-75.54
-Middleboro Manor	39.72,-75.58
-Middleford	38.67,-75.57
-Middleford Acres	38.68,-75.61
-Middlesex Beach	38.52,-75.05
-Middletown	39.45,-75.72
-Middletown-Odessa	39.44,-75.67
-Midnight Thicket	38.58,-75.54
-Midvale	39.66,-75.61
-Midvalf	39.66,-75.61
-Midway	38.73,-75.13
-Midway Estates	38.73,-75.16
-Midway Park	38.74,-75.14
-Midway Park Subdivision	38.74,-75.14
-Mifflin Meadows	39.09,-75.55
-Milford	38.91,-75.43
-Milford Crossing	38.93,-75.44
-Milford Crossroads	39.72,-75.74
-Milford Meadows	39.71,-75.73
-Mill Creek	39.78,-75.70
-Mill Creek Manor	38.76,-75.20
-Mill Pond Acres	38.76,-75.20
-Mill Run Acres	38.55,-75.11
-Millcreek	39.29,-75.62
-Miller Creek Park Mobile Home Park	38.51,-75.10
-Millpond Acres	38.76,-75.20
-Millsboro	38.59,-75.29
-Millside	39.72,-75.55
-Milltown	39.73,-75.67
-Millville	38.55,-75.12
-Milton	38.78,-75.31
-Minners Corners	38.97,-75.63
-Minquadale	39.71,-75.57
-Minquadale Trailer Village	39.70,-75.57
-Mispillion Light	38.95,-75.31
-Mission	38.55,-75.35
-Misty Pines	39.06,-75.48
-Mitchell Estates	39.75,-75.66
-Mobile Gardens Mobile Home Park	38.63,-75.59
-Mockingbird Hill	39.76,-75.68
-Mockingbird Hills	39.76,-75.68
-Monroe Park	39.77,-75.60
-Montchan	39.78,-75.59
-Montchanin	39.79,-75.59
-Montclare	39.73,-75.68
-Monterey Farms	39.63,-75.64
-Montgomery Woods	39.80,-75.67
-Moores Acres	39.62,-75.66
-Moores Corner	39.21,-75.61
-Moores Lake Development	39.13,-75.52
-Morris Estates	39.15,-75.52
-Morris Mill	38.64,-75.32
-Mount Cuba	39.79,-75.64
-Mount Joy	38.63,-75.30
-Mount Pleasant	39.51,-75.71
-Mount Pleasant Mobile Home Park	39.52,-75.71
-Mulberry Landing	38.49,-75.08
-Munsee	39.82,-75.50
-Murray Estates	38.56,-75.08
-Murrays Corner	38.75,-75.15
-Murrays Development	38.70,-75.38
-Murrays Haven	38.55,-75.10
-Murry Landing	38.57,-75.09
-Naaman	39.81,-75.44
-Naamans Gardens	39.83,-75.52
-Naamans Manor	39.82,-75.50
-Nandains Landing	39.26,-75.53
-Nanticoke Acres	38.64,-75.58
-Nanticoke Estates	38.62,-75.62
-Nanticoke Farms	39.78,-75.61
-Nanticoke Shores Mobile Home Park	38.63,-75.14
-Nassau	38.75,-75.19
-Nassau Park Mobile Home Park	38.75,-75.19
-Nentego Manor	38.52,-75.36
-New Castle	39.66,-75.56
-New Market	38.81,-75.40
-New Market Village Mobile Home Park	38.81,-75.39
-Newark	39.68,-75.75
-Newark Oaks	39.68,-75.72
-Newell Creek	39.10,-75.55
-Newkirk Estates	39.70,-75.70
-Newport	39.71,-75.61
-Newport Heights	39.71,-75.60
-Newton Woods	38.77,-75.59
-Newtons Acres	38.59,-75.08
-Nonatum Mills	39.69,-75.75
-Normandy Manor	39.79,-75.51
-Normansmeade	39.08,-75.53
-North Hills	39.77,-75.51
-North Minister	39.83,-75.50
-North Seaford Heights	38.66,-75.60
-North Shores	38.92,-75.45
-North Shores Addition	38.66,-75.58
-North Star	39.76,-75.72
-North Star Addition	39.76,-75.71
-Northcrest	39.83,-75.50
-Northhurst	39.77,-75.48
-Northridge	39.25,-75.59
-Northshire	39.82,-75.50
-Northwood	39.80,-75.50
-Nottingham Green	39.69,-75.78
-Nottingham Manor	39.68,-75.77
-Oak Acres	38.49,-75.11
-Oak Drive	38.59,-75.31
-Oak Forest Estates	39.18,-75.70
-Oak Forest Mobile Home Park	38.63,-75.17
-Oak Grove	39.16,-75.49
-Oak Hollow	39.66,-75.64
-Oak Lane Manor	39.79,-75.53
-Oak Meadows Mobile Home Park	38.61,-75.20
-Oak Orchard	38.60,-75.17
-Oak Orchard West Mobile Home Park	38.61,-75.20
-Oak Point Acres	39.10,-75.66
-Oak Shadows	39.18,-75.49
-Oakdale	39.67,-75.70
-Oakland	39.68,-75.76
-Oakley	38.81,-75.49
-Oakmont	39.71,-75.55
-Oaknoll	39.03,-75.56
-Oaktree Apartments	39.65,-75.78
-Oakwood Hills	39.76,-75.67
-Ocean View	38.55,-75.09
-Ocean Village	38.56,-75.06
-Ocean Way Estates	38.54,-75.08
-Odessa	39.46,-75.66
-Odessa Heights	39.45,-75.66
-Ogletown	39.68,-75.70
-Old Furnace	38.67,-75.52
-Old Landing	38.58,-75.27
-Old Landing Woods	38.70,-75.13
-Old Mill Acres	38.60,-75.64
-Old Mill Manor	39.69,-75.70
-Omar	38.53,-75.20
-Orchard Acres	39.03,-75.54
-Orchard Manor	38.60,-75.18
-Otters Run	39.03,-75.50
-Overbrook	38.77,-75.21
-Overbrook Shores	38.76,-75.23
-Overlook Colony	39.80,-75.47
-Overview Gardens	39.71,-75.57
-Owens	38.81,-75.53
-Owls Nest	39.81,-75.63
-Oxyoke Mobile Home Park	39.08,-75.57
-Oyster Rocks	38.80,-75.20
-Packing House Corner	38.47,-75.67
-Paden Corner	39.16,-75.61
-Padens Corner Mobile Home Park	39.16,-75.62
-Palm Springs Manor	39.64,-75.79
-Palmer Park	39.10,-75.54
-Paris Villa	39.06,-75.53
-Paris Woods	38.96,-75.52
-Parkridge at Bellevue	39.77,-75.49
-Parkside	39.56,-75.70
-Parkwood	39.75,-75.65
-Patterson Place Mobile Home Park	38.65,-75.26
-Patty Cannon Estates	38.59,-75.64
-Pearson Grove	39.23,-75.75
-Pearsons Corner	39.15,-75.65
-Peikin Park	39.70,-75.69
-Pembrey	39.81,-75.53
-Penarth	39.81,-75.52
-Pencader	39.67,-75.74
-Pencader Farms	39.57,-75.76
-Pencader Village	39.63,-75.75
-Pendrew Manor	39.72,-75.66
-Penn Acres	39.68,-75.58
-Penn Acres South	39.67,-75.59
-Penn Rose	39.76,-75.52
-Penndrew Manor	39.72,-75.67
-Pennington	39.83,-75.51
-Pennington Farm	39.83,-75.51
-Pennock	39.71,-75.69
-Pennwood	39.12,-75.51
-Penny Acres	39.76,-75.52
-Pennyhill	39.77,-75.51
-Pennyhill Terrace	39.76,-75.51
-Penrock	39.79,-75.49
-Pentland	39.82,-75.63
-Pepper	38.54,-75.48
-Pepper Ridge	39.74,-75.71
-Pepper Ridge Mobile Home Park	38.50,-75.22
-Pepperbox	38.50,-75.44
-Peppers Landing	38.48,-75.08
-Persimmon Park Place	39.19,-75.52
-Perth	39.80,-75.52
-Petersburg	39.05,-75.65
-Pharsalia	39.12,-75.55
-Pheasant Point II	39.27,-75.64
-Phil Mar Estates	38.71,-75.10
-Philadelphia	38.79,-75.43
-Phillips Heights	39.77,-75.51
-Phillips Hill	38.57,-75.33
-Pickwick Acres	39.03,-75.53
-Piedmont	39.80,-75.60
-Piermont Woods	39.65,-75.71
-Pierson Farms	39.81,-75.54
-Pigeon Run	39.63,-75.65
-Pike Creek	39.73,-75.70
-Pike Creek Valley	39.74,-75.70
-Pilottown	38.78,-75.15
-Pine Grove	38.54,-75.12
-Pine Lake Development	38.67,-75.29
-Pine Lodge Addition	38.59,-75.31
-Pine Manor Estates	38.52,-75.13
-Pine Ridge	38.94,-75.54
-Pine Swamp Corner	39.68,-75.68
-Pine Tree Corners	39.41,-75.66
-Pine Valley Farms	39.52,-75.63
-Pine Valley Mobile Home Park	38.73,-75.13
-Pine Water Farm	38.66,-75.18
-Pine Water Landing	38.66,-75.17
-Pinecrest	39.71,-75.67
-Pinepoint Mobile Home Park	38.60,-75.22
-Pinetown	38.75,-75.22
-Pinewood Acres Mobile Home Park	39.21,-75.58
-Piney Glade	38.73,-75.12
-Piney Grove	38.63,-75.39
-Piney Grove Manor	38.64,-75.37
-Piney Point	38.56,-75.09
-Plantation Crossing	39.28,-75.67
-Plantation Park II Mobile Home Park	38.51,-75.11
-Planters Woods	39.18,-75.60
-Pleasant Hill	39.74,-75.73
-Pleasant Hills	39.71,-75.62
-Pleasant Woods	38.94,-75.50
-Pleasanton Acres	39.20,-75.50
-Pleasantville	39.66,-75.63
-Plum Run	39.73,-75.70
-Plymouth	39.03,-75.56
-Point Breeze	39.38,-75.66
-Pond Acres	38.55,-75.07
-Pondside Acres	38.86,-75.40
-Port Mahon	39.19,-75.40
-Port Penn	39.52,-75.58
-Porter	39.60,-75.69
-Porter Square	39.59,-75.72
-Portsville	38.56,-75.63
-Postles Corner	39.13,-75.45
-Pot Nets West	38.62,-75.17
-Pots Nets North Mobile Home Park	38.63,-75.15
-Powelton	38.89,-75.58
-Presidential Courts	39.16,-75.55
-Prices Corner	39.74,-75.62
-Primehook Beach	38.86,-75.24
-Prince George Acres	38.55,-75.23
-Princeton Estates	39.82,-75.46
-Princeton Wood II	39.64,-75.66
-Probst Mobile Home Park	39.11,-75.64
-Pusey Crossroads	38.56,-75.41
-Pusey Development	38.55,-75.58
-Quail Ridge	39.76,-75.67
-Quails Nest	39.14,-75.59
-Quaker Hill	39.80,-75.69
-Quakers Heights	38.76,-75.16
-Quakertown	38.76,-75.16
-Quarryville	39.78,-75.49
-Queens Quest	38.48,-75.05
-Quillens Point	38.59,-75.07
-Quintynnes	39.82,-75.60
-Radnor Green	39.81,-75.47
-Raintree Village	39.65,-75.68
-Ralphs	38.50,-75.64
-Ramble Woods	39.82,-75.47
-Rambleton Acres	39.66,-75.62
-Ravenwood	39.29,-75.56
-Records Estates	38.51,-75.59
-Red Hill Manor	38.76,-75.21
-Red Lion	39.61,-75.66
-Red Mill Farms	38.75,-75.21
-Red Mills Farms	39.70,-75.71
-Redden	38.74,-75.42
-Redden Crossroads	38.74,-75.42
-Redmont	39.72,-75.64
-Reeves Crossing	38.98,-75.58
-Rehak	39.17,-75.71
-Rehoboth Beach	38.72,-75.08
-Rehoboth Manor	38.71,-75.09
-Rehoboth Shores Mobile Home Park	38.63,-75.14
-Reybold	39.59,-75.63
-Reynard Crossing	39.23,-75.74
-Reynolds Mill	38.81,-75.34
-Richard Heights	38.68,-75.64
-Richardson Estates	39.11,-75.52
-Richardson Park	39.73,-75.59
-Ricland Heights	38.67,-75.64
-Ridgewood	39.77,-75.51
-Ridgewood Manor	39.26,-75.58
-Rising Sun	39.10,-75.52
-Rising Sun Mobile Home Park	39.10,-75.51
-Rising Sun-Lebanon	39.10,-75.50
-River Breeze	38.62,-75.19
-River Village II Mobile Home Park	38.61,-75.20
-River Village Mobile Home Park	38.62,-75.20
-River-view Acres	38.56,-75.63
-Riverdale	38.59,-75.18
-Riverdale Estates Mobile Home Park	39.03,-75.58
-Riveredge Park	39.69,-75.55
-Rivers End	39.64,-75.66
-Riverside	39.80,-75.47
-Riverside Addition	39.79,-75.46
-Riverview	39.03,-75.51
-Riverview Gardens	39.82,-75.46
-Robbins	38.76,-75.42
-Robertson Landing	38.81,-75.24
-Robinson Landing	38.69,-75.14
-Robinsonville	38.71,-75.19
-Robscott Manor	39.66,-75.75
-Rock Manor	39.77,-75.55
-Rockland	39.80,-75.57
-Rockland Hills	39.10,-75.60
-Rockland West	39.15,-75.62
-Rockland Woods	39.80,-75.58
-Rockwood Hills	39.78,-75.53
-Rockwood Woods	39.77,-75.53
-Rodney Village	39.13,-75.53
-Rodric Village	39.13,-75.52
-Roesville	39.00,-75.53
-Rogers Corners	39.71,-75.55
-Rogers Development	38.70,-75.36
-Rogers Haven	38.56,-75.09
-Rogers Manor	39.67,-75.56
-Rolling Hills	39.72,-75.65
-Rolling Meadows	39.58,-75.68
-Rolling Park	39.79,-75.47
-Rolling Ridge	39.76,-75.68
-Rose Hill Gardens	39.71,-75.55
-Rose Valley Estates	39.40,-75.72
-Rosegate	39.71,-75.55
-Roselle Terrace	39.74,-75.61
-Roseville Park	39.70,-75.71
-Ross	38.66,-75.62
-Roxana	38.50,-75.17
-Roxford	38.55,-75.13
-Royal Grant	39.11,-75.53
-Runnymeade	39.77,-75.69
-Ruth Harbor	38.66,-75.55
-Ruthby	39.69,-75.70
-Rutherford	39.69,-75.68
-Ryans Run	39.25,-75.58
-Sabarto East	39.21,-75.57
-Saienni Farms	39.64,-75.62
-Saint George	38.50,-75.58
-Saint Georges	39.56,-75.65
-Saint Georges Heights	39.56,-75.65
-Saint Johnstown	38.81,-75.58
-Salem Village	39.67,-75.70
-Salem Woods	39.64,-75.70
-Sand Dunes Village	38.76,-75.18
-Sand Hill	38.73,-75.36
-Sandtown	39.03,-75.72
-Sandy Beach	38.58,-75.26
-Sandy Brae	38.74,-75.15
-Sandy Fork	38.55,-75.53
-Sandy Landing	38.57,-75.18
-Sassafras Landing	38.50,-75.08
-Saulsbury Switch	38.70,-75.34
-Savannah Place	38.76,-75.16
-Scarborough Park	39.73,-75.59
-Schoolview	39.15,-75.50
-Schultie Crossroads	39.00,-75.73
-Scottfield	39.66,-75.73
-Scotts Corner	38.78,-75.67
-Scottsdale Park Mobile Home Park	38.50,-75.55
-Scrap Tavern Crossroads	39.01,-75.53
-Sea Air Mobile Home Park	38.72,-75.11
-Sea Colony	38.53,-75.05
-Sea Colony East	38.53,-75.05
-Sea Del Estates	38.57,-75.06
-Sea Dunes	38.48,-75.05
-Sea Farers Village	38.63,-75.17
-Sea Spray Village	38.74,-75.20
-Seabreak	38.55,-75.06
-Seabreeze	38.70,-75.08
-Seaford	38.64,-75.61
-Seaford Heights	38.65,-75.61
-Seaside Villas	38.48,-75.05
-Seatowne	38.48,-75.05
-Sedgley Farms	39.77,-75.62
-Seeneytown	39.20,-75.67
-Selbyville	38.46,-75.22
-Selbyville-Frankford	38.52,-75.19
-Seton	39.77,-75.49
-Seton Villa	39.77,-75.49
-Seven Hickories	39.22,-75.63
-Shady Acres Mobile Home Park	38.56,-75.56
-Shady Dell Mobile Home Park	38.52,-75.10
-Shady Grove	38.73,-75.12
-Shady Lane	39.12,-75.52
-Shady Park Mobile Home Park	38.47,-75.10
-Shady Rest Park	38.72,-75.26
-Shady Ridge	38.73,-75.12
-Shady Side	38.75,-75.20
-Shadybrook Farms	39.19,-75.47
-Shaffer Property	38.76,-75.16
-Shaft Ox Corner	38.52,-75.36
-Sharpley	39.80,-75.56
-Shawnee	38.89,-75.46
-Shawnee Acres	38.89,-75.40
-Shawns Hideaway Mobile Home Park	38.65,-75.18
-Shaws Corner	39.20,-75.65
-Sheep Pen Landing	38.64,-75.15
-Sheffield Manor	39.70,-75.69
-Shell Landing	38.67,-75.14
-Shellburne	39.78,-75.51
-Shelley Farms	39.58,-75.77
-Shenandoah	39.51,-75.63
-Sheridan Square	39.73,-75.65
-Sheriden	39.28,-75.60
-Sherwood	39.15,-75.53
-Sherwood Acres	38.54,-75.15
-Sherwood Forest	39.67,-75.69
-Sherwood Forest Mobile Home Park	38.64,-75.20
-Sherwood Park	39.74,-75.66
-Shingle Landing	39.54,-75.59
-Shipley Chase	39.81,-75.53
-Shipley Heights	39.78,-75.52
-Shipley Ridge	39.78,-75.52
-Shipley Woods	39.82,-75.53
-Shockley Heights	38.71,-75.10
-Shockley Manor	38.72,-75.10
-Shortly	38.61,-75.39
-Shorts Corner	39.21,-75.67
-Shorts Landing	39.35,-75.54
-Shuffelt Acres	38.64,-75.67
-Silver Brook	39.66,-75.75
-Silver Lake Manor	38.71,-75.09
-Silver Lake Shores	38.70,-75.08
-Silver Maple Mobile Home Park	39.10,-75.49
-Silver Springs	39.75,-75.59
-Silver View Farm	38.70,-75.11
-Silverbrook	39.75,-75.60
-Silverbrook Gardens	39.74,-75.58
-Silverside	39.79,-75.49
-Silverside Heights	39.78,-75.48
-Silview	39.71,-75.62
-Simonds Gardens	39.71,-75.54
-Six Forks	38.89,-75.53
-Skyline Crest	39.73,-75.68
-Skyline Orchard	39.79,-75.67
-Skyline Ridge	39.72,-75.69
-Slaughter	39.16,-75.71
-Slaughter Beach	38.91,-75.30
-Sloan Landing	38.66,-75.13
-Smith Crossroads	39.10,-75.72
-Smith Hill	38.50,-75.51
-Smith Landing	38.79,-75.27
-Smith Mill Farms	39.73,-75.72
-Smithfield Acres	38.47,-75.20
-Smyrna	39.30,-75.60
-Smyrna Landing	39.31,-75.59
-Snug Harbor	38.66,-75.57
-Snug Hill	39.79,-75.67
-South Bethany	38.52,-75.05
-South Bowers	39.06,-75.40
-South Wilmington	39.73,-75.54
-Southwood	39.78,-75.72
-Southwood Acres Mobile Home Park	39.05,-75.50
-Spring Brook Forest	38.50,-75.15
-Spring Hill	38.97,-75.43
-Spring Lake	38.71,-75.09
-Spring Valley	39.77,-75.65
-Springfield Crossroads	38.68,-75.31
-Springfield Farms Addition	38.68,-75.37
-Spruance City	39.29,-75.62
-Stage Mobile Home Village	38.47,-75.55
-Stage Road Development	39.72,-75.73
-Stanley Manor	38.90,-75.46
-Stanton	39.72,-75.64
-Stanton Estates	39.71,-75.65
-Star Hill	39.11,-75.54
-Star Hill Village	39.10,-75.54
-Star Landing	38.76,-75.20
-Stave Landing	39.43,-75.60
-Staytonville	38.85,-75.52
-Steamboat Landing	38.80,-75.24
-Steele Acres	38.58,-75.08
-Stephen R Korup / Joseph B Riddle	39.23,-75.74
-Stirrup Farms	39.76,-75.73
-Stockdale	39.80,-75.46
-Stockley	38.64,-75.34
-Stockton	39.67,-75.58
-Stonehaven	39.77,-75.51
-Stoneridge	39.78,-75.69
-Stones Throw	39.63,-75.74
-Stony Crest	39.75,-75.62
-Stratford	39.67,-75.63
-Strawberry Landing	38.50,-75.07
-Strimels Mobile Home Park	39.22,-75.58
-Stuyvesant Hills	39.78,-75.67
-Sugar Loaf Chase	39.48,-75.64
-Summer Hill	39.65,-75.69
-Summerfield Village	39.03,-75.58
-Summit Bridge	39.54,-75.73
-Summit View	39.65,-75.77
-Sunnybrae	39.82,-75.51
-Sunnyside Acres	39.29,-75.60
-Sunnyside Village	39.28,-75.61
-Surrey Park	39.80,-75.53
-Susan Beach Corner	38.47,-75.65
-Sussex Estates	38.60,-75.56
-Sussex Shores	38.55,-75.06
-Sussex Woods	38.84,-75.44
-Swain Acres	38.69,-75.40
-Swallow Hill	39.79,-75.64
-Swanendael	38.77,-75.16
-Swann Keys	38.48,-75.09
-Swanwyck	39.69,-75.56
-Swanwyck Estates	39.69,-75.56
-Swanwyck Gardens	39.69,-75.57
-Sweet Briar Mobile Home Park	38.75,-75.23
-Sycamore	38.60,-75.49
-Sycamore Farms	39.43,-75.66
-Sycamore Gardens	39.70,-75.71
-Talley Brook	39.82,-75.53
-Talley Farms	39.83,-75.50
-Talleys Corner	39.81,-75.52
-Talleyville	39.81,-75.55
-Tavistock	39.81,-75.56
-Taylor Estates	39.13,-75.53
-Taylors Corner	39.39,-75.72
-Taylors Gut Landing	39.33,-75.51
-Taylortown	39.65,-75.67
-Teaberry Woods	38.47,-75.10
-Tenby Chase	39.77,-75.73
-Tent	39.36,-75.61
-Tessie-Maringola Estates	38.84,-75.44
-Thatchers Landing	38.56,-75.20
-The Beeches	39.15,-75.51
-The Blades	39.12,-75.53
-The Bluffs	39.73,-75.70
-The Cedars	39.74,-75.63
-The Elms	39.67,-75.69
-The Flying Dutchman Mobile Home Park	39.04,-75.55
-The Glade	38.74,-75.10
-The Hamlet	39.17,-75.55
-The Heath	38.91,-75.46
-The Highlands	39.72,-75.68
-The Hills of Skyline	39.72,-75.69
-The Island	39.46,-75.59
-The Landing	38.59,-75.21
-The Narrows	38.49,-75.08
-The Oaks	38.66,-75.60
-The Orchard	39.10,-75.52
-The Pines of Pike Creek	39.75,-75.71
-The Plantations	38.73,-75.16
-The Reservation	38.57,-75.08
-The Shoals	38.48,-75.05
-The Timbers	39.83,-75.48
-The Villa	39.66,-75.64
-The Village at Wild Quail	39.12,-75.62
-The Village of Drummond Hill	39.71,-75.71
-The Willows	38.69,-75.18
-The Woods	39.68,-75.64
-The Woods on Herring Creek	38.66,-75.14
-Thomas Landing	39.45,-75.61
-Thompson	39.73,-75.76
-Thompsonville	39.00,-75.39
-Thorntown	39.52,-75.60
-Three Seasons Mobile Home Park	38.70,-75.11
-Tidbury Creek Park Mobile Home Park	39.11,-75.51
-Tidbury Manor	39.12,-75.51
-Timber Ridge	39.66,-75.63
-Todd Estates	39.67,-75.71
-Tolham Estates	39.61,-75.66
-Top of the Wedge	39.71,-75.78
-Tower Shores	38.58,-75.06
-Towne Point	39.18,-75.52
-Townsend	39.40,-75.69
-Townsend Fields	39.09,-75.54
-Tree Top Valley	39.78,-75.68
-Trepagnier	39.78,-75.67
-Tri-State Mobile Home Park	38.70,-75.17
-Trinity	38.62,-75.19
-Tru Vale Acres	38.73,-75.12
-Truitts Midway Development	38.73,-75.13
-Truitts Park	38.71,-75.09
-Tuckahoe Acres	38.59,-75.12
-Turnkey	39.09,-75.55
-Tussock Pond	38.54,-75.64
-Tuxedo Park	39.72,-75.62
-Twin Eagle Farms	39.28,-75.71
-Twin Oaks	39.78,-75.54
-Tybouts Corner	39.62,-75.64
-Tybrook	39.75,-75.63
-Underwood Corner	39.24,-75.68
-Upcounty Mobile Home Park	38.62,-75.64
-Valley Run	39.82,-75.47
-Valley View	39.80,-75.68
-Vandyke	39.36,-75.74
-Varlano	39.66,-75.67
-Vaughn Landing	38.78,-75.28
-Vernon	38.89,-75.65
-Victor E Hurley Estates	38.65,-75.60
-Victoria Woods	39.66,-75.64
-Village at Chestnut Ridge	39.06,-75.53
-Village of Cantebury	39.65,-75.63
-Village of Garrison Lake	39.26,-75.59
-Village of Rocky Run	39.81,-75.56
-Village of Westover	39.15,-75.56
-Vintage Village	39.79,-75.71
-Viola	39.04,-75.57
-Viola Woods	39.05,-75.56
-Voshell Cove	39.17,-75.60
-Voshell Mill	39.10,-75.53
-Walker	39.34,-75.60
-Walkers Acres	38.80,-75.43
-Walnut Hill	39.80,-75.69
-Walnut Ridge	39.80,-75.63
-Waples	38.83,-75.31
-Waples Pond Acres	38.82,-75.30
-Ward	38.49,-75.48
-Warren Landing	39.06,-75.43
-Warrens Mobile Home Park	39.22,-75.67
-Warrington Manor	38.93,-75.56
-Warwick	38.60,-75.23
-Warwick Park	38.60,-75.21
-Washington Heights	39.73,-75.64
-Washington Park	39.66,-75.58
-Waterview Acres	38.64,-75.55
-Wawaset Park	39.76,-75.57
-Ways Corner	39.82,-75.50
-Weatherhill Farms	39.74,-75.69
-Webb Landing	39.05,-75.39
-Webb Manor	38.90,-75.45
-Weber Tract	39.83,-75.51
-Webster Farm	39.79,-75.51
-Wedge Hills	39.71,-75.78
-Wedgewood	39.13,-75.54
-Weldin Farms	39.78,-75.53
-Weldin Park	39.78,-75.53
-Weldin Woods	39.78,-75.52
-Wellington Hills	39.79,-75.71
-Wellington Woods	39.63,-75.69
-Welshire	39.78,-75.52
-Wembly	39.79,-75.49
-Wescoats Corner	38.75,-75.16
-West Bay Park Mobile Home Park	38.66,-75.14
-West Beach	38.57,-75.17
-West Dover Mobile Home Park	39.16,-75.62
-West Farm	39.79,-75.60
-West Haven	39.76,-75.59
-West Meadow	39.71,-75.73
-West Minquadale	39.71,-75.57
-West Park	39.76,-75.60
-West Rehoboth	38.71,-75.10
-West Riding	39.77,-75.65
-West Shore	39.29,-75.61
-Westbrite	39.84,-75.52
-Westerlee	38.46,-75.59
-Westerloo	39.83,-75.50
-Westfield	39.72,-75.64
-Westgate Farms	39.77,-75.66
-Westminster	39.76,-75.65
-Westmont	39.76,-75.65
-Westover Hills	39.76,-75.59
-Westview	39.72,-75.62
-Westwood Manor	39.80,-75.50
-Westwoods	38.50,-75.37
-Wexford Chapelcroft	39.83,-75.53
-Whaleys Corners	38.65,-75.43
-Whaleys Crossroads	38.53,-75.45
-Wheatleys Pond	39.28,-75.64
-Whigville	39.22,-75.67
-Whilton	39.66,-75.63
-Whispering Pines Mobile Home Park	39.09,-75.52
-White Briar	39.79,-75.69
-White Creek Manor	38.55,-75.10
-White Hall	39.04,-75.60
-White Horse Farm	38.69,-75.25
-White House Beach Mobile Home Park	38.62,-75.13
-White House Landing	39.09,-75.47
-White Oak Farms	39.18,-75.51
-White Oak Mobile Home Park	38.88,-75.40
-White River Estates	38.56,-75.66
-White Village	39.82,-75.45
-Whitehall Crossroads	39.27,-75.52
-Whitehall Landing	39.25,-75.48
-Whiteleysburg	38.96,-75.73
-Whites Village	39.82,-75.46
-Whitesville	38.46,-75.43
-Wickham Woods	39.05,-75.47
-Wickwood	39.79,-75.53
-Wiggins Mill	39.40,-75.70
-Wilgus Subdivision	38.53,-75.07
-William Ritter Manor	38.63,-75.18
-Williamhurst	39.82,-75.59
-Williamsburg	39.59,-75.68
-Williamsburg Court	39.82,-75.51
-Williamsville	38.90,-75.51
-Willow Grove	39.07,-75.63
-Willow Run	39.74,-75.61
-Wilmington	39.75,-75.55
-Wilmington Manor	39.69,-75.58
-Wilmington Manor Gardens	39.67,-75.58
-Wilmont	39.81,-75.54
-Wilson	39.66,-75.74
-Wiltbank Landing	38.81,-75.24
-Wind Song Farms	39.28,-75.66
-Winding Creek Village	38.64,-75.16
-Windsor Hills	39.80,-75.53
-Windward	39.78,-75.64
-Windy Bush	39.80,-75.49
-Windy Hills	39.69,-75.72
-Windy Mill Park	39.69,-75.72
-Windy Way	39.26,-75.59
-Winmill	39.02,-75.52
-Winterbury	39.76,-75.66
-Winterset Farms	39.84,-75.52
-Winterthur	39.80,-75.59
-Wisseman Acres	38.91,-75.46
-Wood Branch	38.67,-75.36
-Wood Mill	39.72,-75.67
-Wood Ridge	39.75,-75.72
-Wood Wards Addition	39.74,-75.61
-Woodacres	39.82,-75.46
-Woodbine	39.81,-75.53
-Woodbrook	39.79,-75.56
-Woodbury	39.04,-75.55
-Woodcreek	39.74,-75.70
-Woodcrest	39.17,-75.54
-Woodcrest Estates	38.60,-75.43
-Wooddale	39.77,-75.64
-Wooded Acres	38.62,-75.55
-Wooden Bridge	39.03,-75.52
-Woodenhawk	38.79,-75.69
-Woodfield	39.06,-75.54
-Woodland	39.75,-75.62
-Woodland Beach	39.33,-75.47
-Woodland Court Mobile Home Park	39.31,-75.58
-Woodland Heights	38.56,-75.57
-Woodland Park	39.75,-75.62
-Woodland Station	38.63,-75.65
-Woods Edge	38.70,-75.17
-Woods Haven	38.93,-75.41
-Woods Manor	39.13,-75.52
-Woods Manor East	39.13,-75.51
-Woodshade	39.65,-75.68
-Woodside	39.07,-75.57
-Woodside East	39.07,-75.54
-Woodside Hills	39.79,-75.49
-Woodside Manor	39.59,-75.72
-Woodstock Court	39.16,-75.55
-Woodstream Gardens	39.82,-75.46
-Worthland	39.81,-75.45
-Wrange Hill Estates	39.59,-75.70
-Wrangle Hill	39.58,-75.66
-Wrights Crossroads	39.15,-75.73
-Wycliff	39.79,-75.49
-Wynleigh	39.82,-75.61
-Wynn Wood	39.09,-75.58
-Wynnewood	39.82,-75.50
-Wyoming	39.12,-75.56
-Wyoming Mills	39.12,-75.55
-York Beach	38.51,-75.05
-York Towne	39.76,-75.73
-Yorklyn	39.81,-75.68
-Yorklyn Ridge	39.80,-75.67
-Yorkshire	39.65,-75.74
-Zoar	38.65,-75.30
-Zurkow Development	39.17,-75.56
+0Abbotts Mill	389,-755
+1dams Crossroads	388,-757
+5ville	388,-757
+2dick Estates	398,-754
+1fton	398,-755
+1insley Woods	398,-757
+2rmont Acres	395,-757
+1lapocas	398,-756
+2ban Park	397,-756
+3ertson	397,-756
+9 Park	397,-756
+3ion	397,-757
+2exanders Village	391,-755
+2isa Estates	394,-756
+2lee	391,-756
+1maranth	397,-758
+1naline Village	398,-754
+2derson Crossroads	389,-754
+8s Corner	387,-753
+3rews Lake Estates	390,-755
+7ville	389,-756
+2glesey	398,-756
+3ola Acres II Mobile Home Park	387,-752
+7Beach Mobile Home Park	386,-752
+7Crest II Mobile Home Park	387,-752
+=Mobile Home Park	387,-752
+7Landing	386,-751
+7Neck Park Mobile Home Park	387,-752
+7by the Bay	387,-752
+2iline Village	398,-754
+2ne Acres	387,-751
+4ville	391,-755
+1rabian Acres	387,-752
+2bor Pointe Apartments	397,-756
+4ur Park	396,-758
+3re Park Mobile Home Park	387,-752
+2den	398,-755
+5croft	398,-755
+5town	398,-755
+2go Corners	389,-754
+4s Choice	390,-755
+2mstrong	395,-757
+2undel	397,-757
+1shbourne Hills	398,-755
+3land	398,-757
+4ey	397,-756
+6 Heights	397,-756
+2pen Meadows	387,-751
+1tlanta	387,-757
+7 Estates	387,-756
+1uburn	398,-757
+6 Hills	398,-757
+2gustine	398,-756
+9 Hills	398,-756
+1valon	397,-756
+6 Park Mobile Home Park	387,-753
+0Bacons	385,-756
+2ileys Landing	386,-756
+2ld Eagle Village	387,-751
+3lymeade	398,-755
+2nk Harbor Retreat	386,-751
+4s Acres	386,-751
+6Development	386,-751
+6Harbor Estates	386,-751
+5ville Park	386,-751
+2rclay Farms	391,-756
+3kers Landing	391,-755
+? Estates	390,-755
+4ley	398,-755
+3ley Woods	398,-756
+2sin Corner	397,-756
+2y City Mobile Home Park	386,-751
+5olony	386,-751
+4Harbor	387,-751
+4Shore Hills	387,-751
+:Mobile Home Park	386,-751
+4View Estates	385,-751
+9Heights	390,-754
+9Park	385,-751
+6sta	387,-751
+3ard	385,-751
+3berry Dunes	386,-751
+3side Hamlet	386,-751
+3view Heights	391,-754
+8Manor	396,-756
+5lle	385,-751
+1eachfield	387,-751
+5wood	385,-752
+4on Hill	398,-755
+; North	398,-755
+3des Estate	391,-755
+3r	396,-757
+3u Tree	398,-755
+3ver Brook Apartments	396,-756
+7Dam Acres	387,-752
+;Heights	386,-756
+7Valley	398,-756
+2chers Brook	392,-756
+3ks Landing	396,-757
+2ech Haven	392,-756
+7ill	398,-757
+5ers Lot	396,-757
+5wold	398,-755
+2lford Manor	397,-756
+3la Vista	398,-757
+4efonte	398,-755
+5vue	398,-755
+8 Hills	398,-755
+5wood	398,-755
+4town	388,-752
+8 Woods	396,-757
+3moor	397,-756
+3videre	397,-756
+2n Robins Landing	387,-752
+3num	387,-753
+3ton	398,-755
+2rkeley Farms	398,-757
+9Ridge	398,-757
+3rytown	390,-756
+2stfield	397,-756
+2thany Beach	385,-751
+8Dunes	386,-751
+8Village	386,-751
+4el	392,-756
+5sda	391,-757
+2verly Woods	398,-755
+1icentennial Village	392,-756
+2ddles Corner	395,-756
+2g Oak Corners	393,-756
+4Pine	388,-757
+3ger Tract	398,-755
+2rch Knoll	398,-755
+6Pointe	397,-757
+5wood Park	397,-757
+3ds Corner	396,-756
+2shops Corner	392,-756
+1lack Hog Landing	388,-752
+5bird	394,-757
+9 Landing	394,-756
+5iston	393,-757
+5water	386,-752
+: Beach	386,-752
+;Cove	386,-751
+;Village	386,-752
+3des	386,-756
+3nchard	388,-756
+2oomfield Acres	390,-755
+2ue Ball	398,-755
+5Rock Manor	398,-755
+1ombay Woods	393,-756
+2n Ayre	398,-757
+2okhammer Landing	387,-751
+2rk Acres	391,-756
+2ssard Property	386,-756
+2ttom Hills	386,-751
+2ulder Brook	398,-755
+2wen Landing	389,-754
+4rs Beach	391,-754
+7Landing	390,-754
+2xwood	397,-756
+2yds Corner	395,-756
+3ers Village	385,-752
+1rackenville	398,-757
+< Woods	398,-757
+3nchview	386,-757
+4don	398,-755
+5ywine	398,-755
+: Commons	398,-756
+;Estates	398,-755
+;Forge	398,-755
+;Hills	398,-755
+;Perry Park	398,-756
+;Springs	397,-756
+B Manor	398,-756
+7ood	398,-755
+2eezewood	390,-756
+: II	397,-757
+3nford	393,-756
+2iar Hook	387,-757
+6Park	391,-755
+5wood Manor	387,-753
+3ck Store	393,-756
+3dgeville	387,-756
+; Manor	387,-756
+<North	388,-756
+;-Greenwood	388,-756
+4leshire Farms	398,-757
+3stle Knoll	397,-758
+2oad Acres	386,-756
+6Creek	386,-756
+; Estates	386,-756
+5kill Beach	388,-752
+3okbend	397,-757
+5dale Heights	391,-755
+5field	391,-755
+5haven	397,-757
+: Estates	391,-755
+6ill Farms	398,-757
+5land Terrace	397,-756
+5meade	398,-756
+6ont Farms	396,-757
+5side	397,-757
+5view	398,-755
+3wn Street	389,-754
+5s Corner	391,-755
+6ville	389,-757
+2yan Park	387,-756
+5s Store	386,-754
+1uck Hill Landing	386,-752
+4ingham Heights	398,-755
+2llseye	386,-752
+2nting	385,-752
+2rton Acres	386,-753
+6wood Village	393,-756
+3wood	391,-756
+7 Farms	391,-756
+2sh Manor	392,-756
+2ttonwood	397,-756
+1yewood Manor	386,-751
+0Calhoun Landing	386,-751
+2mden	391,-755
+3elot Mobile Home Park	387,-751
+4ron Hills	398,-757
+2nby Park Estates	397,-756
+3dlewicke	391,-755
+3non	387,-756
+3tebury Apartments	387,-756
+5rbury	390,-756
+: Hills	398,-756
+;Trails	390,-756
+6ville	390,-756
+2pe Windsor Mobile Home Park	384,-751
+4s Cove Mobile Home Park	388,-752
+3ital Trail Farms	397,-756
+5ol Green	392,-755
+8Park	391,-755
+3tains Grant Mobile Home Park	386,-752
+2ravel Farms	396,-757
+3diff	398,-755
+5nal Hills	391,-756
+3eys Estate Mobile Home Park	386,-754
+3lisle Village	392,-756
+3ousel Knoll	397,-757
+3penter	398,-755
+9s Corner	387,-752
+3rcroft	398,-755
+9 Crest	398,-755
+4iage Lane	391,-755
+9Run	397,-756
+3sylian Acres	388,-752
+3ter Development	391,-755
+2sson Corner	392,-756
+3tle Apartments	397,-756
+7Hills	397,-756
+2talina Gardens	396,-758
+2valiers Country Club Apartments	397,-756
+3e Colony	388,-753
+1edar Brae Farm	394,-757
+6Chase	392,-756
+6Farms	396,-757
+6Heights	397,-756
+6Shores	386,-751
+5brook Acres	393,-756
+5s	397,-756
+6 Knoll	397,-756
+5tree	398,-755
+5ville Mobile Home Park	386,-751
+2ntennial Village	396,-757
+5rville	398,-756
+4ral Kent	390,-757
+5eville	398,-756
+1halfonte	398,-755
+3mbersville	394,-756
+4plin Village	397,-756
+3nnin	398,-755
+3pel Hill	397,-757
+6crest	398,-755
+6town	391,-757
+4lecroft	391,-755
+3rter Oaks	398,-757
+3tham	398,-755
+2elsea Estates	397,-756
+3rokee Woods	397,-757
+4rington	398,-756
+5y Hill	397,-758
+6tree Landing	386,-756
+3stnut Grove	392,-756
+9Hill Estates	397,-757
+9Knoll	390,-754
+4wold	392,-756
+8 Farms	392,-756
+2imney Hill	390,-756
+2oate	397,-757
+3ptank Mills	391,-757
+2ristiana	397,-757
+: Acres	397,-756
+;Green	396,-757
+;Landing	396,-757
+;Village	397,-757
+7na Manor	397,-758
+2urch Creek	391,-755
+7Hill	398,-757
+; Village	389,-755
+1ircle Haven Mobile Home Park	389,-756
+1lair Manor	398,-755
+3ridge Court	396,-756
+4ksons Crossroads	387,-756
+6ville	386,-752
+3y Acres	396,-757
+4mont	398,-755
+8 Addition	398,-755
+9Heights	398,-755
+9Manor	398,-754
+9Terrace	398,-755
+9Village	398,-755
+4ton	393,-756
+2earfield	397,-756
+5view Manor	397,-756
+3land Heights	397,-756
+3rmont	398,-755
+2ifton Park Manor	398,-755
+2ub House Landing	386,-751
+5Lane	398,-755
+1oach Hill	397,-757
+2cked Hat	388,-756
+2ffee Run	398,-757
+2kesbury Village	398,-757
+2llege Park	397,-758
+4ins Beach	394,-755
+8Creek Estates	386,-751
+8Mill Park	387,-755
+8Park	397,-756
+< Mobile Home Park	386,-751
+9ond Acres	387,-755
+8and Russell Development	388,-753
+3mar Manor	393,-756
+3onial Acres	386,-756
+9East Mobile Home Park	387,-751
+9Heights	398,-756
+9Village Apartments	397,-756
+9Woods	398,-755
+5y Hills	397,-756
+7West	390,-754
+3umbia	385,-757
+2mmerce Square	393,-756
+2ncord	398,-755
+7 Heights	386,-755
+9ills	398,-756
+8Manor	398,-755
+8Towers	397,-757
+3ley Chapel Village Mobile Home Park	387,-752
+2ol Spring	387,-752
+; Farms	387,-752
+A Mobile Home Park	387,-752
+<Manor	387,-753
+3per Farm	397,-756
+6s Corner	391,-755
+2rbit	396,-757
+3ner Ketch	398,-757
+4ish Hills	398,-757
+2ttage Mill	396,-758
+2untry Club Estates	389,-754
+8Estates	385,-751
+8Gates	398,-755
+8Living Mobile Home Park	386,-753
+8Village	387,-752
+7side Farms	396,-757
+5y Seat Gardens Mobile Home Park	387,-754
+2ventry	397,-756
+4rdale Crossroads	387,-755
+5ed Bridge Farms	397,-758
+4y Creek	388,-752
+2wgills Corner	392,-755
+2zy Cove Mobile Home Park	386,-751
+1ragmere	398,-755
+8 Woods	398,-755
+3igs Mill	386,-756
+3nston Heights	397,-756
+2estfield	398,-755
+2icket Hill	398,-757
+3pple Creek	388,-752
+3stine Manor	397,-758
+2oss Keys	386,-754
+5gates	391,-755
+2ystal Run Farm	395,-757
+1uelen Acres	385,-752
+1ypress Gardens	391,-755
+0D and K Mobile Home Park	390,-755
+1agsboro	386,-752
+2nfield Acres	387,-752
+3iels Tract	394,-755
+2rley Woods	398,-755
+3tmouth Woods	398,-755
+? II	398,-755
+2vis Corner	392,-757
+1eacons Walk	397,-757
+3kyneville	394,-755
+2ep Branch Farm	394,-757
+3r Creek	388,-756
+5Run	396,-757
+4hurst	398,-755
+4wood	387,-753
+2l Haven Estates	391,-755
+4Shire	392,-756
+3aire	398,-755
+4ney Corner	393,-758
+4plane Manor	397,-757
+4ware City	396,-756
+9Heights	398,-756
+9Junction	397,-756
+3mar	385,-756
+3park Manor	397,-757
+3shire	392,-756
+3woods	398,-755
+4ynn	398,-755
+2nton Manor	386,-751
+8ills	386,-751
+7Woods Mobile Home Park	386,-751
+2rby Shores	391,-756
+5wood	391,-756
+2von	397,-758
+5shire	398,-755
+: Woods	387,-756
+2wey Beach	387,-751
+2xter Corners	393,-757
+1inahs Corner	392,-756
+1obbinsville	397,-756
+2dds Addition	387,-751
+2gwood Acres	385,-756
+= Mobile Home Park	386,-752
+8Meadows	389,-755
+8Park Mobile Home Park	386,-753
+2nas Landing	392,-754
+3ovan Development	389,-754
+2uglas Forge	386,-756
+2ver	392,-755
+5 Base Housing	391,-755
+6East Estates Mobile Home Park	392,-755
+6Heights	392,-755
+5brook Gardens	391,-755
+2wns Chapel	392,-757
+1ragon Run Terrace Mobile Home Park	396,-757
+3wbridge	388,-752
+2iftwood Village Mobile Home Park	386,-752
+2ummond North	397,-757
+9Ridge	397,-757
+1ublin Hill	388,-756
+2ck Creek Landing	393,-756
+2nbarton Oaks Apartments	387,-754
+3can Glen	397,-756
+7Village	397,-756
+7Woods	397,-756
+3leith	397,-756
+4inden Acres	397,-756
+2pont	392,-756
+6 Manor	392,-756
+6s Landing	398,-755
+2ross Heights	397,-756
+2tch Acres	388,-752
+6Neck Crossroads	393,-755
+;Farms	395,-756
+0Eagle Heights	391,-755
+5s Nest	391,-755
+; Landing	394,-756
+2st Lake Gardens	392,-755
+5Mill Run	388,-752
+7nquadale	397,-756
+5Side	397,-755
+9 Village	388,-753
+4burn Acres	397,-757
+9Farms	397,-757
+9Heights	397,-757
+4man Heights	389,-754
+1berton	392,-756
+2right	398,-755
+1den Park Gardens	397,-755
+5Roc	392,-756
+4ridge	398,-756
+2ge Hill	392,-755
+4brooke	397,-757
+4hill Acres	392,-755
+4moor	398,-755
+8 Gardens	398,-755
+9Terrace	398,-755
+4water	388,-752
+5ood Hills	398,-755
+9Manor	386,-752
+2ward Cordrey Subdivision	386,-753
+6sville	390,-757
+1llendale	388,-754
+3iots Addition	397,-756
+2mhurst	397,-756
+3wood	397,-757
+2smere	397,-756
+1nchanted Acres Mobile Home Park	386,-752
+2glish Village	397,-757
+1vans Park Mobile Home Park	385,-753
+2eretts Corner	392,-758
+4green Acres	395,-756
+:Farms	394,-757
+0Fairfax	398,-755
+7 Farms	398,-756
+5ield	397,-758
+9 Crest	397,-758
+:Farms	391,-755
+4mount	387,-752
+4thorne	398,-756
+4view	392,-755
+4way Falls	397,-757
+8Villas	386,-751
+5inds	396,-756
+9 Mobile Home Park	396,-756
+2rm View Park	389,-754
+4ington	389,-756
+3nhurst	397,-756
+2ulkland	398,-756
+9 Heights	397,-756
+:Woods	398,-756
+1ederalsburg	388,-754
+2lton	390,-756
+6 Heights	390,-756
+7Manor	390,-756
+7Station	390,-756
+2nnimore Landing	394,-756
+3wick Estates	385,-752
+8Island	385,-750
+8Landing	384,-751
+8West	385,-751
+2rn Hook	397,-756
+4wood	386,-756
+3ry Landing	386,-752
+1ieldsboro	394,-757
+5wood Addition	387,-751
+2sh Hook Mobile Home Court	386,-753
+4er Landing	387,-752
+7Mill Park	387,-756
+6mans Park Mobile Home Park	386,-751
+2ve Points	388,-752
+1lea Hill	387,-754
+3ming Corners	389,-756
+7s Landing	394,-756
+2orence	391,-755
+1oord Landing	388,-753
+2rds Corner	392,-757
+3est	394,-757
+6 Brook Glen	397,-756
+7Gate	392,-757
+7Hills Park	398,-755
+7Landing	391,-755
+7Park	397,-756
+; Mobile Home Park	386,-753
+3rest Grove Village Mobile Home Park	392,-757
+3wood	398,-755
+2ulk Woods	398,-755
+3r Seasons	396,-758
+< Park	396,-758
+2x Chase Park	397,-757
+4Hall	392,-756
+5ollow	387,-752
+4Meadow	398,-757
+4Run Mobile Home Park	385,-751
+4Woods	397,-757
+3field	397,-758
+5re	397,-757
+7 Meadow	385,-751
+3hall Courtside	392,-756
+1rankford	385,-752
+3sers Corner	396,-758
+2ederica	390,-755
+8k Acres	386,-755
+9s Addition	397,-756
+4rick Lodge Mobile Home Park	394,-756
+3eman Corner	389,-755
+3nchs Mobile Homes	390,-754
+2iedel Property	387,-756
+0Galewood	398,-755
+2ms Crest	396,-756
+2nder Hill	394,-757
+2rdenside	393,-756
+3field Park	397,-756
+3rison Lake Green	392,-756
+3ton Development	391,-756
+3wood Estates	396,-757
+2teway Farms	398,-757
+1enerals Green	391,-755
+>e	391,-754
+2orge Meyers Development	391,-755
+6town	387,-754
+5ian Terrace	398,-755
+1lasgow	396,-758
+7 Court	396,-757
+8Pines	396,-757
+2en Berne Estates	397,-756
+4dale	396,-757
+4side Farms	398,-755
+4ville	397,-756
+1oose Point	395,-758
+2rdon Heights	398,-755
+4y Estates	397,-756
+2slee Mill	387,-752
+1ran-ville	386,-753
+4ada Mobile Home Park	390,-755
+4dview Meadows	391,-755
+4ogue	398,-756
+3vel Hill	387,-753
+3ylyn Crest	398,-755
+2eat Good Place	398,-758
+6Oak Farms	395,-756
+3en Acres	398,-755
+; Mobile Home Park	391,-755
+6Briar	392,-757
+; Court	386,-751
+6Hill	388,-752
+6Meadow	398,-755
+6Spring	393,-756
+< Farm	393,-756
+6Valley	397,-757
+5bank	397,-756
+6ridge	397,-757
+5lea Acres	387,-754
+8f Manor	397,-757
+5mount	398,-755
+5s Corner	390,-757
+7Landing	387,-752
+7of Dover	392,-756
+6hire	398,-755
+5top	388,-754
+6ree	398,-755
+5view	391,-755
+7lle	389,-757
+: Development	398,-756
+;Manor	398,-756
+;Place	398,-756
+5wood	388,-756
+9 Gardens	388,-756
+3ndon Farms	397,-757
+3ylag	395,-757
+2istmill Woods	398,-755
+2ubbs Corner	398,-755
+7Landing	398,-755
+1ull Point	386,-752
+4s Nest	386,-751
+2m Crossroads	386,-755
+3boro	385,-754
+3wood	398,-755
+2yencourt	398,-756
+1winhurst	398,-755
+0H and H Corner	394,-757
+1all Estates	389,-755
+2milton Park	397,-756
+3mville	392,-756
+3pton	398,-755
+2nbys Corner	398,-755
+2rbeson	387,-753
+3dscrabble	386,-755
+3es Corner	397,-756
+3lemtown	387,-754
+3mon	386,-752
+6y	397,-757
+7 Hills	397,-757
+3rington	389,-756
+5son Knoll	390,-755
+3tly	392,-757
+2sting Estates Mobile Home Park	386,-756
+7s Park Mobile Home Park	386,-756
+2ven Lake Estates	389,-755
+4rford	398,-757
+2y Point Landing	394,-756
+3den Park	397,-756
+2zeldell	397,-756
+5wood	392,-755
+3lettville	391,-756
+3zard Landing	388,-752
+1earns Crossroads	385,-756
+7Mill	387,-756
+3ther Valley	398,-757
+8Woods	396,-757
+7brooke	398,-755
+7field	392,-756
+7ton	398,-757
+2dgerow Hollow Mobile Home Park	393,-756
+2lms Landing	386,-752
+2nderson Heights	397,-757
+3lopen Acres	387,-751
+9Keys	387,-751
+3ry Clay	398,-756
+2ritage	397,-757
+8 Farms	397,-757
+9Village	387,-756
+3onwood	388,-752
+3ring Creek Estates	387,-752
+8Landing	386,-751
+1ickman Village Estates Mobile Home Park	385,-755
+4ory Dale Acres	392,-756
+8Hill	398,-757
+8Ridge	392,-756
+8Woods	396,-757
+2dden Acres	386,-752
+7Pond	390,-756
+3eaway Acres	391,-755
+2gh Point	398,-755
+: Mobile Home Park	390,-755
+4land Acres	391,-755
+9Meadows	398,-757
+9Terrace	387,-754
+9West	398,-757
+:oods	398,-755
+2ll N Dale	386,-756
+4crest	398,-755
+9 Acres Mobile Home Park	386,-752
+4dale	392,-755
+4endale	398,-755
+4side Acres	390,-755
+9Heights	397,-757
+5tream	398,-757
+4top Acres	388,-754
+8Manor	398,-755
+2tchens Crossroads	386,-755
+1oagland Subdivision	386,-757
+3rs Addition	392,-756
+2ckessin	398,-757
+9 Hunt	398,-757
+:Park	398,-757
+2liday Acres	386,-753
+8Estates	385,-753
+8Hills	398,-755
+8Pines	386,-752
+= Mobile Home Park	386,-752
+3landsville	390,-757
+4etts Corners	393,-757
+4ingsworth Development	398,-756
+4oway Terrace	397,-756
+4y Forest	385,-751
+6Hill	388,-754
+:s	398,-755
+6Knoll	398,-757
+6Lake Mobile Home Park	388,-753
+7eaf Estates Mobile Home Park	386,-753
+6Oak	398,-755
+9 Mobile Home Park	385,-756
+:Terrace	398,-755
+6Pines Mobile Home Park	387,-752
+6Ridge	386,-751
+5brook Apartments	386,-756
+5mount	387,-752
+5ville	387,-752
+: Acres	387,-752
+5woods Park	385,-756
+2mestead Mobile Home Park	386,-754
+2pkins Corners	390,-757
+2rns Mobile Village Mobile Home Park	386,-756
+3seshoe Hill	398,-757
+2urglass	391,-757
+3ston	389,-755
+2ward Manor	386,-751
+1udson Crossroads	385,-752
+7Pond Acres	388,-754
+7Trails	390,-756
+2ghes Crossing	392,-756
+<roads	390,-757
+2mmingbird Hills	390,-754
+2nters Point	392,-756
+8Ridge	391,-755
+4ing Hills	397,-758
+4ley	391,-755
+7 Circle	391,-755
+2rley Heights	386,-756
+1yde Park	398,-756
+0I and I Mobile Home Park	390,-756
+1dela	397,-756
+1ndependence Village	392,-755
+3ian Beach	387,-751
+7Cove	385,-751
+7Field	398,-755
+7Harbor Villa	386,-751
+7Landing Mobile Home Park	386,-751
+?North Mobile Home Park	386,-751
+7Mission	387,-752
+7River Acres	386,-752
+6town Farms	386,-752
+1ron Gates	398,-757
+5Hill	396,-758
+9s Apartments	396,-757
+4s Lane Landing	386,-751
+1srael Haul	386,-752
+1vy Ridge	397,-756
+0Jacksons Ridge	389,-755
+3obs Crossroads	387,-757
+2mestowne	396,-756
+3isons Corner	395,-757
+2rrell Farms	398,-757
+1efferson Crossroads	388,-754
+:Farms	397,-756
+1imtown	387,-752
+1ohn Char Estates	389,-755
+5Marsh Landing	387,-752
+4son	385,-751
+7 Development	386,-756
+8Farm	393,-756
+2nes Crossroads	386,-754
+0Kawan Acres	387,-753
+1een-Wik	385,-751
+4ey	396,-757
+4wik Sound	385,-751
+8West	385,-751
+2nmore Park	387,-756
+3t Acres	391,-755
+4bourne II	393,-757
+4mere	398,-756
+4on	392,-757
+2rseys Evergreen Acres	386,-753
+4haw Acres	398,-755
+2ystone	397,-756
+1iamensi	397,-756
+8 Gardens	397,-756
+9Heights	397,-756
+2llens Addition	387,-751
+2mberly Chase	398,-755
+6ton	397,-757
+2ngs Cliff Mobile Home Park	391,-755
+7roft	396,-757
+9ssroads	388,-754
+6Grant	385,-750
+6Ridge	398,-755
+6Second Addition	387,-754
+3ston Acres	396,-757
+2rkwood	396,-757
+8 Gardens	398,-756
+2tts Hummock	391,-754
+1lair Estate	397,-756
+1notts Landing	389,-754
+3wles Crossroads	386,-754
+1ynLyn Apartments	398,-755
+0Laffertys Corner	392,-755
+2ke Forest Mobile Home Est	390,-756
+5Pines	386,-756
+5Shores	387,-756
+4croft II	396,-757
+4shore Village	392,-756
+5ide Estates Mobile Home Park	386,-756
+9Manor	386,-756
+4view Estates	386,-753
+4wind	390,-755
+8 III	390,-755
+5ood	386,-756
+8 Development	389,-754
+2matan I	398,-757
+9I	398,-758
+3beth Riding	398,-757
+2ncashire	398,-755
+6ter Court	398,-756
+:Village	397,-756
+3d of Pleasant Living	386,-751
+4enberg Junction	397,-756
+5rs Park	397,-756
+4lith	397,-755
+3tern Lane Mobile Villa	385,-752
+2rchmont	398,-757
+3ence Cordrey Subdivision	386,-753
+2timer Estates	397,-756
+2urel	386,-756
+6 Bend	391,-755
+7Creek	386,-756
+7Mobile Home Park	386,-756
+6-Delmar	385,-755
+5n Farms	396,-757
+2wndale	393,-756
+2yton Corners	389,-757
+2zy Lagoon Mobile Home Park	385,-752
+7ke	387,-753
+1ebanon	391,-755
+2edon Estates	397,-756
+2ipsic	392,-755
+3sure Point Mobile Home Park	386,-752
+2wes	388,-751
+5 Beach	388,-752
+2xington Mill	390,-755
+1iberty	397,-756
+2ftwood	398,-755
+2ghtfoots Furnace	386,-756
+2mestone Acres	397,-757
+:Gap	397,-757
+<rdene	397,-757
+:Hills	398,-757
+2ncoln	389,-754
+7 Park	392,-755
+8Village	389,-754
+3damere	398,-755
+4ell Square	397,-757
+8Village	397,-757
+5n Green Apartment	397,-757
+7Heath	397,-757
+8ill	397,-757
+7Square	397,-757
+3go Estate Mobile Home Park	386,-752
+6Landing	386,-751
+2ttle Acres	385,-756
+7Baltimore	398,-757
+7Creek	392,-754
+< Landing	392,-754
+7Heaven	390,-755
+7Jersey	396,-757
+1langollen Estates	396,-756
+1ochwood	387,-752
+3ustville	391,-755
+2g Cabin Mobile Home Park	387,-752
+4Run	398,-755
+2ndon Village	391,-755
+3e Star Mobile Home Park	391,-755
+3g Acres	387,-752
+5Neck	386,-752
+9 Village Mobile Home Park	386,-752
+5Point Landing	393,-756
+4view Farms	398,-755
+4wood	398,-755
+2rds Corner	390,-757
+3ewood Grove	395,-757
+2veville	398,-757
+2we	385,-755
+4r Moores Corner	392,-756
+4s Crossroads	385,-754
+1ucky Estates	389,-755
+2mbrook	397,-757
+3s Pond Estates II	396,-757
+1ynch Heights	390,-754
+3dalia	397,-756
+3ford	397,-756
+3n Lee Village Mobile Home Park	386,-751
+4field	398,-755
+0Madelyn Gardens	398,-755
+2gnolia	391,-755
+8 Mobile Home Park	391,-755
+9Shores	385,-751
+2han	391,-757
+2llard Point	388,-752
+:nd	392,-756
+7s Run	393,-756
+2nchester Square	392,-755
+3ette Heights	397,-757
+3ley	398,-757
+3or Park	397,-756
+: Apartments	397,-756
+2plechase	398,-755
+6rest	397,-756
+5hurst	392,-756
+5wood	387,-751
+2rabou Meadows	396,-758
+3ker Estates	392,-756
+5ys Mobile Home Park	391,-755
+3shallton	397,-756
+; Green	397,-756
+<Heights II	397,-756
+5town	387,-752
+3vels Crossroads	389,-755
+3ydale	397,-757
+5el	391,-757
+2sonicville	397,-756
+3sey Landing	386,-751
+3tens Corner	390,-756
+8Heights Mobile Home Park	387,-751
+2yfair	391,-755
+4ield	398,-755
+3view Manor	397,-756
+1cClellandville	397,-758
+2Daniel Heights	398,-756
+3onalds Crossroads	387,-754
+5ough	395,-756
+2Knatt Corners	389,-757
+2Nichol Place	388,-752
+1eadow Acres	387,-756
+7Glen	391,-755
+7Ridge	391,-756
+7Vista	394,-757
+6brook	398,-757
+; Acres	391,-755
+<Farms	395,-757
+A South	395,-757
+6ood	397,-757
+6s	386,-756
+2chanicsville	397,-758
+2eting House Hill	398,-757
+>Meadows	398,-757
+2lanie	397,-756
+3bourne Manor	391,-756
+3ody Meadows	396,-758
+> II	396,-758
+3vin Crossroads	389,-757
+6s	389,-755
+7 Crossroads	390,-755
+2ndenhall Village	398,-757
+2rmaid	397,-757
+7 Run	397,-757
+2ssick Development	387,-755
+2yle Estates	385,-751
+1iddleboro Crest	397,-756
+;East	397,-755
+;Manor	397,-756
+6ford	387,-756
+: Acres	387,-756
+6sex Beach	385,-750
+6town	394,-757
+:-Odessa	394,-757
+3night Thicket	386,-755
+3vale	397,-756
+6f	397,-756
+3way	387,-751
+6 Estates	387,-752
+7Park	387,-751
+; Subdivision	387,-751
+2fflin Meadows	391,-756
+2lford	389,-754
+7 Crossing	389,-754
+=roads	397,-757
+8Meadows	397,-757
+3l Creek	398,-757
+: Manor	388,-752
+5Pond Acres	388,-752
+5Run Acres	386,-751
+4creek	393,-756
+4er Creek Park Mobile Home Park	385,-751
+4pond Acres	388,-752
+4sboro	386,-753
+5ide	397,-756
+4town	397,-757
+4ville	386,-751
+3ton	388,-753
+2nners Corners	390,-756
+3quadale	397,-756
+: Trailer Village	397,-756
+2spillion Light	390,-753
+3sion	386,-754
+3ty Pines	391,-755
+2tchell Estates	398,-757
+1obile Gardens Mobile Home Park	386,-756
+2ckingbird Hill	398,-757
+@s	398,-757
+2nroe Park	398,-756
+3tchan	398,-756
+8in	398,-756
+5lare	397,-757
+4erey Farms	396,-756
+4gomery Woods	398,-757
+2ores Acres	396,-757
+7Corner	392,-756
+7Lake Development	391,-755
+2rris Estates	392,-755
+7Mill	386,-753
+2unt Cuba	398,-756
+6Joy	386,-753
+6Pleasant	395,-757
+> Mobile Home Park	395,-757
+1ulberry Landing	385,-751
+2nsee	398,-755
+2rray Estates	386,-751
+6s Corner	388,-752
+8Development	387,-754
+8Haven	386,-751
+4y Landing	386,-751
+0Naaman	398,-754
+6s Gardens	398,-755
+8Manor	398,-755
+2ndains Landing	393,-755
+3ticoke Acres	386,-756
+:Estates	386,-756
+:Farms	398,-756
+:Shores Mobile Home Park	386,-751
+2ssau	388,-752
+6 Park Mobile Home Park	388,-752
+1entego Manor	385,-754
+2w Castle	397,-756
+4Market	388,-754
+: Village Mobile Home Park	388,-754
+3ark	397,-758
+6 Oaks	397,-757
+3ell Creek	391,-756
+3kirk Estates	397,-757
+3port	397,-756
+7 Heights	397,-756
+3ton Woods	388,-756
+6s Acres	386,-751
+1onatum Mills	397,-758
+2rmandy Manor	398,-755
+6smeade	391,-755
+3th Hills	398,-755
+6Minister	398,-755
+6Seaford Heights	387,-756
+7hores	389,-754
+< Addition	387,-756
+7tar	398,-757
+: Addition	398,-757
+5crest	398,-755
+5hurst	398,-755
+5ridge	392,-756
+5shire	398,-755
+5wood	398,-755
+2ttingham Green	397,-758
+;Manor	397,-758
+0Oak Acres	385,-751
+4Drive	386,-753
+4Forest Estates	392,-757
+;Mobile Home Park	386,-752
+4Grove	392,-755
+4Hollow	397,-756
+4Lane Manor	398,-755
+4Meadows Mobile Home Park	386,-752
+4Orchard	386,-752
+; West Mobile Home Park	386,-752
+4Point Acres	391,-757
+4Shadows	392,-755
+3dale	397,-757
+3land	397,-758
+4ey	388,-755
+3mont	397,-756
+3noll	390,-756
+3tree Apartments	396,-758
+3wood Hills	398,-757
+1cean View	386,-751
+8llage	386,-751
+6Way Estates	385,-751
+1dessa	395,-757
+6 Heights	394,-757
+1gletown	397,-757
+1ld Furnace	387,-755
+4Landing	386,-753
+; Woods	387,-751
+4Mill Acres	386,-756
+9Manor	397,-757
+1mar	385,-752
+1rchard Acres	390,-755
+8Manor	386,-752
+1tters Run	390,-755
+1verbrook	388,-752
+9 Shores	388,-752
+4look Colony	398,-755
+4view Gardens	397,-756
+1wens	388,-755
+2ls Nest	398,-756
+1xyoke Mobile Home Park	391,-756
+1yster Rocks	388,-752
+0Packing House Corner	385,-757
+2den Corner	392,-756
+5s Corner Mobile Home Park	392,-756
+2lm Springs Manor	396,-758
+4er Park	391,-755
+2ris Villa	391,-755
+6Woods	390,-755
+3kridge at Bellevue	398,-755
+4side	396,-757
+4wood	398,-756
+2tterson Place Mobile Home Park	386,-753
+4y Cannon Estates	386,-756
+1earson Grove	392,-758
+7s Corner	392,-756
+2ikin Park	397,-757
+2mbrey	398,-755
+2narth	398,-755
+3cader	397,-757
+8 Farms	396,-758
+9Village	396,-758
+3drew Manor	397,-757
+3n Acres	397,-756
+: South	397,-756
+5Rose	398,-755
+4drew Manor	397,-757
+4ington	398,-755
+: Farm	398,-755
+4ock	397,-757
+4wood	391,-755
+4y Acres	398,-755
+5hill	398,-755
+9 Terrace	398,-755
+3rock	398,-755
+3tland	398,-756
+2pper	385,-755
+6 Ridge	397,-757
+< Mobile Home Park	385,-752
+6box	385,-754
+6s Landing	385,-751
+2rsimmon Park Place	392,-755
+3th	398,-755
+2tersburg	390,-756
+1harsalia	391,-756
+2easant Point II	393,-756
+2il Mar Estates	387,-751
+4adelphia	388,-754
+4lips Heights	398,-755
+:ill	386,-753
+1ickwick Acres	390,-755
+2edmont	398,-756
+3rmont Woods	396,-757
+4son Farms	398,-755
+2geon Run	396,-756
+2ke Creek	397,-757
+: Valley	397,-757
+2lottown	388,-752
+2ne Grove	385,-751
+5Lake Development	387,-753
+6odge Addition	386,-753
+5Manor Estates	385,-751
+5Ridge	389,-755
+5Swamp Corner	397,-757
+5Tree Corners	394,-757
+5Valley Farms	395,-756
+<Mobile Home Park	387,-751
+5Water Farm	387,-752
+;Landing	387,-752
+4crest	397,-757
+4point Mobile Home Park	386,-752
+4town	388,-752
+4wood Acres Mobile Home Park	392,-756
+4y Glade	387,-751
+7rove	386,-754
+; Manor	386,-754
+6Point	386,-751
+1lantation Crossing	393,-757
+;Park II Mobile Home Park	385,-751
+5ers Woods	392,-756
+2easant Hill	397,-757
+=s	397,-756
+9Woods	389,-755
+8on Acres	392,-755
+8ville	397,-756
+2um Run	397,-757
+2ymouth	390,-756
+1oint Breeze	394,-757
+2nd Acres	386,-751
+4side Acres	389,-754
+2rt Mahon	392,-754
+5Penn	395,-756
+4er	396,-757
+6 Square	396,-757
+4sville	386,-756
+2stles Corner	391,-754
+2t Nets West	386,-752
+3s Nets North Mobile Home Park	386,-752
+2welton	389,-756
+1residential Courts	392,-756
+2ices Corner	397,-756
+3mehook Beach	389,-752
+3nce George Acres	386,-752
+6ton Estates	398,-755
+:Wood II	396,-757
+2obst Mobile Home Park	391,-756
+1usey Crossroads	386,-754
+6Development	386,-756
+0Quail Ridge	398,-757
+5s Nest	391,-756
+3ker Hill	398,-757
+6s Heights	388,-752
+6town	388,-752
+3rryville	398,-755
+2eens Quest	385,-750
+2illens Point	386,-751
+3ntynnes	398,-756
+0Radnor Green	398,-755
+2intree Village	396,-757
+2lphs	385,-756
+2mble Woods	398,-755
+6ton Acres	397,-756
+2venwood	393,-756
+1ecords Estates	385,-756
+2d Hill Manor	388,-752
+4Lion	396,-757
+4Mill Farms	388,-752
+8s Farms	397,-757
+3den	387,-754
+6 Crossroads	387,-754
+3mont	397,-756
+2eves Crossing	390,-756
+2hak	392,-757
+3oboth Beach	387,-751
+9Manor	387,-751
+9Shores Mobile Home Park	386,-751
+2ybold	396,-756
+3nard Crossing	392,-757
+4olds Mill	388,-753
+1ichard Heights	387,-756
+7son Estates	391,-755
+;Park	397,-756
+3land Heights	387,-756
+2dgewood	398,-755
+9 Manor	393,-756
+2sing Sun	391,-755
+: Mobile Home Park	391,-755
+:-Lebanon	391,-755
+2ver Breeze	386,-752
+6Village II Mobile Home Park	386,-752
+>Mobile Home Park	386,-752
+5-view Acres	386,-756
+5dale	386,-752
+9 Estates Mobile Home Park	390,-756
+5edge Park	397,-756
+5s End	396,-757
+6ide	398,-755
+9 Addition	398,-755
+5view	390,-755
+9 Gardens	398,-755
+1obbins	388,-754
+3ertson Landing	388,-752
+3inson Landing	387,-751
+8ville	387,-752
+3scott Manor	397,-758
+2ck Manor	398,-756
+4land	398,-756
+8 Hills	391,-756
+9West	392,-756
+:oods	398,-756
+4wood Hills	398,-755
+9Woods	398,-755
+2dney Village	391,-755
+3ric Village	391,-755
+2esville	390,-755
+2gers Corners	397,-756
+7Development	387,-754
+7Haven	386,-751
+7Manor	397,-756
+2lling Hills	397,-756
+8Meadows	396,-757
+8Park	398,-755
+8Ridge	398,-757
+2se Hill Gardens	397,-756
+5Valley Estates	394,-757
+4gate	397,-756
+4lle Terrace	397,-756
+4ville Park	397,-757
+3s	387,-756
+2xana	385,-752
+3ford	386,-751
+2yal Grant	391,-755
+1unnymeade	398,-757
+2th Harbor	387,-756
+4by	397,-757
+4erford	397,-757
+1yans Run	392,-756
+0Sabarto East	392,-756
+2ienni Farms	396,-756
+3nt George	385,-756
+<s	396,-756
+= Heights	396,-756
+6Johnstown	388,-756
+2lem Village	397,-757
+6Woods	396,-757
+2nd Dunes Village	388,-752
+5Hill	387,-754
+4town	390,-757
+4y Beach	386,-753
+7rae	387,-752
+6Fork	386,-755
+6Landing	386,-752
+2ssafras Landing	385,-751
+2ulsbury Switch	387,-753
+2vannah Place	388,-752
+1carborough Park	397,-756
+2hoolview	392,-755
+3ultie Crossroads	390,-757
+2ottfield	397,-757
+5s Corner	388,-757
+6dale Park Mobile Home Park	385,-756
+2rap Tavern Crossroads	390,-755
+1ea Air Mobile Home Park	387,-751
+4Colony	385,-750
+: East	385,-750
+4Del Estates	386,-751
+5unes	385,-750
+4Farers Village	386,-752
+4Spray Village	387,-752
+3break	386,-751
+6eze	387,-751
+3ford	386,-756
+7 Heights	386,-756
+3side Villas	385,-750
+3towne	385,-750
+2dgley Farms	398,-756
+2eneytown	392,-757
+2lbyville	385,-752
+:-Frankford	385,-752
+2ton	398,-755
+5 Villa	398,-755
+2ven Hickories	392,-756
+1hady Acres Mobile Home Park	386,-756
+6Dell Mobile Home Park	385,-751
+6Grove	387,-751
+6Lane	391,-755
+6Park Mobile Home Park	385,-751
+6Rest Park	387,-753
+7idge	387,-751
+6Side	388,-752
+5brook Farms	392,-755
+3ffer Property	388,-752
+4t Ox Corner	385,-754
+3rpley	398,-756
+3wnee	389,-755
+7 Acres	389,-754
+5s Hideaway Mobile Home Park	386,-752
+4s Corner	392,-756
+2eep Pen Landing	386,-752
+3ffield Manor	397,-757
+3ll Landing	387,-751
+5burne	398,-755
+5ey Farms	396,-758
+3nandoah	395,-756
+3ridan Square	397,-756
+6en	393,-756
+4wood	392,-755
+8 Acres	385,-752
+9Forest	397,-757
+? Mobile Home Park	386,-752
+9Park	397,-757
+2ingle Landing	395,-756
+3pley Chase	398,-755
+8Heights	398,-755
+8Ridge	398,-755
+8Woods	398,-755
+2ockley Heights	387,-751
+9Manor	387,-751
+3rtly	386,-754
+5s Corner	392,-757
+7Landing	394,-755
+2uffelt Acres	386,-757
+1ilver Brook	397,-758
+7Lake Manor	387,-751
+<Shores	387,-751
+7Maple Mobile Home Park	391,-755
+7Springs	398,-756
+7View Farm	387,-751
+6brook	398,-756
+; Gardens	397,-756
+6side	398,-755
+: Heights	398,-755
+4iew	397,-756
+2monds Gardens	397,-755
+2x Forks	389,-755
+1kyline Crest	397,-757
+8Orchard	398,-757
+8Ridge	397,-757
+1laughter	392,-757
+9 Beach	389,-753
+2oan Landing	387,-751
+1mith Crossroads	391,-757
+6Hill	385,-755
+6Landing	388,-753
+6Mill Farms	397,-757
+5field Acres	385,-752
+2yrna	393,-756
+6 Landing	393,-756
+1nug Harbor	387,-756
+6ill	398,-757
+1outh Bethany	385,-750
+7owers	391,-754
+6Wilmington	397,-755
+5wood	398,-757
+9 Acres Mobile Home Park	390,-755
+1pring Brook Forest	385,-752
+7Hill	390,-754
+7Lake	387,-751
+7Valley	398,-756
+6field Crossroads	387,-753
+<Farms Addition	387,-754
+3uance City	393,-756
+1tage Mobile Home Village	385,-756
+6Road Development	397,-757
+3nley Manor	389,-755
+4ton	397,-756
+7 Estates	397,-756
+3r Hill	391,-755
+9 Village	391,-755
+5Landing	388,-752
+3ve Landing	394,-756
+3ytonville	388,-755
+2eamboat Landing	388,-752
+3ele Acres	386,-751
+3phen R Korup / Joseph B Riddle	392,-757
+2irrup Farms	398,-757
+2ockdale	398,-755
+5ley	386,-753
+5ton	397,-756
+3nehaven	398,-755
+5ridge	398,-757
+5s Throw	396,-757
+4y Crest	398,-756
+2ratford	397,-756
+4wberry Landing	385,-751
+3imels Mobile Home Park	392,-756
+2uyvesant Hills	398,-757
+1ugar Loaf Chase	395,-756
+2mmer Hill	396,-757
+6field Village	390,-756
+4it Bridge	395,-757
+7View	396,-758
+2nnybrae	398,-755
+5side Acres	393,-756
+:Village	393,-756
+2rrey Park	398,-755
+2san Beach Corner	385,-756
+3sex Estates	386,-756
+7Shores	386,-751
+7Woods	388,-754
+1wain Acres	387,-754
+3llow Hill	398,-756
+3nendael	388,-752
+4n Keys	385,-751
+4wyck	397,-756
+8 Estates	397,-756
+9Gardens	397,-756
+2eet Briar Mobile Home Park	388,-752
+1ycamore	386,-755
+8 Farms	394,-757
+9Gardens	397,-757
+0Talley Brook	398,-755
+7Farms	398,-755
+6s Corner	398,-755
+6ville	398,-756
+2vistock	398,-756
+2ylor Estates	391,-755
+6s Corner	394,-757
+8Gut Landing	393,-755
+6town	396,-757
+1eaberry Woods	385,-751
+2nby Chase	398,-757
+3t	394,-756
+2ssie-Maringola Estates	388,-754
+1hatchers Landing	386,-752
+2e Beeches	392,-755
+5lades	391,-755
+6uffs	397,-757
+4Cedars	397,-756
+4Elms	397,-757
+4Flying Dutchman Mobile Home Park	390,-756
+4Glade	387,-751
+4Hamlet	392,-756
+5eath	389,-755
+5ighlands	397,-757
+6lls of Skyline	397,-757
+4Island	395,-756
+4Landing	386,-752
+4Narrows	385,-751
+4Oaks	387,-756
+5rchard	391,-755
+4Pines of Pike Creek	398,-757
+5lantations	387,-752
+4Reservation	386,-751
+4Shoals	385,-750
+4Timbers	398,-755
+4Villa	397,-756
+9ge at Wild Quail	391,-756
+<of Drummond Hill	397,-757
+4Willows	387,-752
+5oods	397,-756
+9 on Herring Creek	387,-751
+2omas Landing	394,-756
+4pson	397,-758
+8ville	390,-754
+3rntown	395,-756
+2ree Seasons Mobile Home Park	387,-751
+1idbury Creek Park Mobile Home Park	391,-755
+8Manor	391,-755
+2mber Ridge	397,-756
+1odd Estates	397,-757
+2lham Estates	396,-757
+2p of the Wedge	397,-758
+2wer Shores	386,-751
+3ne Point	392,-755
+4send	394,-757
+8 Fields	391,-755
+1ree Top Valley	398,-757
+3pagnier	398,-757
+2i-State Mobile Home Park	387,-752
+3nity	386,-752
+2u Vale Acres	387,-751
+3itts Midway Development	387,-751
+8Park	387,-751
+1uckahoe Acres	386,-751
+2rnkey	391,-756
+2ssock Pond	385,-756
+2xedo Park	397,-756
+1win Eagle Farms	393,-757
+5Oaks	398,-755
+1ybouts Corner	396,-756
+3rook	398,-756
+0Underwood Corner	392,-757
+1pcounty Mobile Home Park	386,-756
+0Valley Run	398,-755
+7View	398,-757
+2ndyke	394,-757
+2rlano	397,-757
+2ughn Landing	388,-753
+1ernon	389,-756
+1ictor E Hurley Estates	386,-756
+6ia Woods	397,-756
+2llage at Chestnut Ridge	391,-755
+8of Cantebury	396,-756
+;Garrison Lake	393,-756
+;Rocky Run	398,-756
+;Westover	392,-756
+2ntage Village	398,-757
+2ola	390,-756
+5 Woods	390,-756
+1oshell Cove	392,-756
+8Mill	391,-755
+0Walker	393,-756
+6s Acres	388,-754
+3nut Hill	398,-757
+7Ridge	398,-756
+2ples	388,-753
+6 Pond Acres	388,-753
+2rd	385,-755
+3ren Landing	391,-754
+6s Mobile Home Park	392,-757
+4ington Manor	389,-756
+3wick	386,-752
+7 Park	386,-752
+2shington Heights	397,-756
+;Park	397,-756
+2terview Acres	386,-756
+2waset Park	398,-756
+2ys Corner	398,-755
+1eatherhill Farms	397,-757
+2bb Landing	390,-754
+5Manor	389,-754
+3er Tract	398,-755
+3ster Farm	398,-755
+2dge Hills	397,-758
+5wood	391,-755
+2ldin Farms	398,-755
+7Park	398,-755
+7Woods	398,-755
+3lington Hills	398,-757
+;Woods	396,-757
+3shire	398,-755
+2mbly	398,-755
+2scoats Corner	388,-752
+3t Bay Park Mobile Home Park	387,-751
+6each	386,-752
+5Dover Mobile Home Park	392,-756
+5Farm	398,-756
+5Haven	398,-756
+5Meadow	397,-757
+6inquadale	397,-756
+5Park	398,-756
+5Rehoboth	387,-751
+6iding	398,-756
+5Shore	393,-756
+4brite	398,-755
+4erlee	385,-756
+7oo	398,-755
+4field	397,-756
+4gate Farms	398,-757
+4minster	398,-756
+5ont	398,-756
+4over Hills	398,-756
+4view	397,-756
+4wood Manor	398,-755
+8s	385,-754
+2xford Chapelcroft	398,-755
+1haleys Corners	386,-754
+9rossroads	385,-754
+2eatleys Pond	393,-756
+2igville	392,-757
+3lton	397,-756
+3spering Pines Mobile Home Park	391,-755
+3te Briar	398,-757
+6Creek Manor	386,-751
+6Hall	390,-756
+7orse Farm	387,-752
+8use Beach Mobile Home Park	386,-751
+<Landing	391,-755
+6Oak Farms	392,-755
+:Mobile Home Park	389,-754
+6River Estates	386,-757
+6Village	398,-754
+5hall Crossroads	393,-755
+:Landing	392,-755
+5leysburg	390,-757
+5s Village	398,-755
+6ville	385,-754
+1ickham Woods	390,-755
+4wood	398,-755
+2ggins Mill	394,-757
+2lgus Subdivision	385,-751
+3liam Ritter Manor	386,-752
+7hurst	398,-756
+7sburg	396,-757
+< Court	398,-755
+8ville	389,-755
+4ow Grove	391,-756
+7Run	397,-756
+3mington	398,-756
+: Manor	397,-756
+@ Gardens	397,-756
+4ont	398,-755
+3son	397,-757
+3tbank Landing	388,-752
+2nd Song Farms	393,-757
+4ing Creek Village	386,-752
+4sor Hills	398,-755
+4ward	398,-756
+4y Bush	398,-755
+6Hills	397,-757
+6Mill Park	397,-757
+6Way	393,-756
+3mill	390,-755
+3terbury	398,-757
+6set Farms	398,-755
+6thur	398,-756
+2sseman Acres	389,-755
+1ood Branch	387,-754
+5Mill	397,-757
+5Ridge	398,-757
+5Wards Addition	397,-756
+4acres	398,-755
+4bine	398,-755
+5rook	398,-756
+5ury	390,-756
+4creek	397,-757
+7st	392,-755
+9 Estates	386,-754
+4dale	398,-756
+4ed Acres	386,-756
+5n Bridge	390,-755
+6hawk	388,-757
+4field	391,-755
+4land	398,-756
+8 Beach	393,-755
+9Court Mobile Home Park	393,-756
+9Heights	386,-756
+9Park	398,-756
+9Station	386,-756
+4s Edge	387,-752
+6Haven	389,-754
+6Manor	391,-755
+; East	391,-755
+5hade	396,-757
+5ide	391,-756
+8 East	391,-755
+9Hills	398,-755
+9Manor	396,-757
+5tock Court	392,-756
+6ream Gardens	398,-755
+2rthland	398,-754
+1range Hill Estates	396,-757
+5le Hill	396,-757
+2ights Crossroads	392,-757
+1ycliff	398,-755
+2nleigh	398,-756
+3n Wood	391,-756
+4ewood	398,-755
+2oming	391,-756
+7 Mills	391,-756
+0York Beach	385,-750
+5Towne	398,-757
+4lyn	398,-757
+7 Ridge	398,-757
+4shire	396,-757
+0Zoar	386,-753
+1urkow Development	392,-756

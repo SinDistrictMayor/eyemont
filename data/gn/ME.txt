@@ -1,2060 +1,2060 @@
-Abbot Village	45.19,-69.45
-Abbotts Mill	44.48,-70.63
-Acadia	46.99,-68.03
-Acton	43.53,-70.91
-Adaline	46.76,-68.12
-Adams	45.33,-68.90
-Adams Corner	43.41,-70.44
-Addison	44.62,-67.74
-Admiralty Village	43.09,-70.73
-Agamenticus Station	43.24,-70.78
-Agamenticus Village	43.22,-70.67
-Airport Village	43.47,-70.48
-Albion	44.53,-69.44
-Alewife	43.45,-70.61
-Alexander	45.09,-67.47
-Alfred	43.48,-70.72
-Alfred Mills	43.46,-70.70
-Allagash	47.08,-69.04
-Allens Mills	44.72,-70.08
-Alna	44.11,-69.60
-Alna Center	44.08,-69.62
-Alton	45.03,-68.73
-Amherst	44.83,-68.36
-Andover	44.64,-70.75
-Anson	44.80,-69.89
-Appleton	44.29,-69.25
-Archers Corners	44.83,-68.44
-Arey	44.72,-68.87
-Argyle	45.05,-68.67
-Arnold Corner	44.74,-69.06
-Arnolds Landing	44.96,-69.87
-Arrowsic	43.85,-69.78
-Arundel	43.38,-70.48
-Ash Point	44.06,-69.09
-Ashdale	43.77,-69.84
-Ashland	46.63,-68.41
-Ashville	44.49,-68.12
-Asticou	44.30,-68.28
-Athearns Corner	44.27,-69.17
-Athens	44.92,-69.67
-Atkinson Mills	45.16,-69.08
-Atlantic	44.17,-68.42
-Attean Landing	45.59,-70.28
-Auburn	44.10,-70.23
-Auburn Plains	44.18,-70.23
-Augusta	44.31,-69.78
-Aurora	44.85,-68.33
-Avon	44.81,-70.27
-Avon Corner	44.80,-70.27
-Ayers	44.98,-67.24
-Babb Corner	43.63,-70.45
-Back Narrows	43.89,-69.59
-Back Settlement	47.16,-68.87
-Bacons Corner	44.42,-69.76
-Bailey Corner	44.17,-69.74
-Bailey Island	43.73,-70.00
-Baker Corner	43.82,-70.39
-Bald Head	43.22,-70.58
-Bald Hill Crossing	43.34,-70.67
-Bald Mountain	44.95,-70.79
-Baldwin Corners	44.25,-68.36
-Bancroft	45.67,-68.03
-Bangor	44.80,-68.77
-Bangs Beach	44.47,-69.77
-Bar Harbor	44.39,-68.20
-Bar Mills	43.61,-70.55
-Baring	45.14,-67.32
-Barnard	45.37,-69.21
-Barnard Corner	45.31,-69.12
-Barnjum	44.94,-70.37
-Barretts	46.90,-68.02
-Barron Corner	44.82,-69.84
-Bartlett Mills	43.40,-70.53
-Basin Mills	44.87,-68.67
-Bass Harbor	44.24,-68.34
-Batchelders Crossing	44.19,-69.94
-Batesville	46.13,-68.35
-Bath	43.91,-69.82
-Bay Point	43.76,-69.77
-Bay View	43.49,-70.39
-Bayside	44.46,-68.42
-Bayville	43.86,-69.60
-Beacon Corner	43.43,-70.45
-Beals	44.52,-67.61
-Beans Corner	44.58,-70.18
-Bear Trap Landing	45.24,-67.79
-Beddington	44.85,-68.06
-Bedell Crossing	43.10,-70.68
-Beech Ridge	43.15,-70.72
-Belfast	44.43,-69.01
-Belgrade	44.45,-69.83
-Belgrade Lakes	44.53,-69.89
-Belmont Corner	44.40,-69.14
-Bemis	44.86,-70.73
-Benedicta	45.80,-68.41
-Benner Corner	44.16,-69.32
-Bennett	46.11,-68.11
-Benson	45.36,-69.30
-Benton	44.59,-69.55
-Benton Falls	44.58,-69.55
-Benton Station	44.59,-69.59
-Bernard	44.24,-68.36
-Berry Mills	44.63,-70.45
-Berrys Corner	45.10,-69.18
-Berwick	43.27,-70.86
-Bethel	44.40,-70.79
-Bickfords Corner	44.36,-69.15
-Biddeford	43.49,-70.45
-Biddeford Pool	43.44,-70.34
-Bigelow	45.08,-70.32
-Billings Hill	44.84,-69.20
-Bingham	45.06,-69.88
-Bingo	45.35,-67.68
-Birch Harbor	44.39,-68.04
-Birch Hill Mobile Home Park	44.85,-68.80
-Bishop	46.84,-67.93
-Black Corner	44.34,-68.67
-Blackinton Corners	44.12,-69.12
-Blackstone	46.96,-68.23
-Blackstrap	43.77,-70.33
-Blackwater	46.43,-68.31
-Blackwell Corner	44.84,-69.82
-Blaine	46.50,-67.87
-Blair	45.63,-70.18
-Blaisdell Corners	43.35,-70.93
-Blake Corner	44.01,-70.12
-Blanchard	45.27,-69.58
-Blanchard Corner	45.01,-67.27
-Blue Hill	44.41,-68.59
-Blue Hill Falls	44.38,-68.57
-Blue Point	43.55,-70.36
-Blueberry Ridge Trailer Park	43.35,-70.71
-Boat Landing Camp	47.24,-69.22
-Bodfish	45.37,-69.43
-Bog Corner	44.84,-69.32
-Bogues Corner	44.17,-69.38
-Bolsters Mills	44.12,-70.60
-Bonny Eagle	43.69,-70.61
-Boothbay	43.88,-69.63
-Boothbay Harbor	43.85,-69.63
-Boothbay Park	43.57,-70.45
-Bowdoin Center	44.04,-69.97
-Bowdoinham	44.01,-69.90
-Bowerbank	45.27,-69.21
-Boyd Corner	43.30,-70.71
-Boyd Lake	45.19,-68.89
-Bradbury	47.19,-68.84
-Bradburys	47.24,-68.58
-Bradford	45.07,-68.94
-Bradford Center	45.07,-68.90
-Bradley	44.92,-68.63
-Bradleys Corner	43.66,-70.30
-Braeburn	43.22,-70.58
-Brassua	45.63,-69.91
-Bremen	44.00,-69.43
-Brewer	44.80,-68.76
-Brewster Corner	44.80,-67.81
-Brickett Place	44.27,-71.00
-Bridgewater	46.43,-67.84
-Bridgewater Corner	46.45,-67.85
-Bridgton	44.05,-70.71
-Briggs Corner	43.10,-70.71
-Brighams Cove	43.84,-69.85
-Brighton	45.05,-69.69
-Brighton Corner	43.67,-70.30
-Brightwater	43.81,-69.86
-Brimstone Corner	44.21,-70.50
-Bristol	43.96,-69.51
-Brixham	43.19,-70.74
-Brixham Lower Corners	43.18,-70.74
-Broad Cove	44.04,-69.41
-Broadview Park	43.62,-70.28
-Brooklin	44.27,-68.57
-Brooks	44.55,-69.12
-Brooksville	44.35,-68.68
-Brookton	45.53,-67.77
-Brown Corner	46.90,-67.93
-Brownfield	43.94,-70.91
-Browns Corner	44.23,-69.90
-Brownville	45.31,-69.03
-Brownville Junction	45.35,-69.05
-Brunswick	43.91,-69.97
-Brunswick Station	43.89,-69.93
-Bryant Pond	44.38,-70.65
-Bryants Corner	44.44,-69.03
-Buckfield	44.29,-70.37
-Bucks Harbor	44.64,-67.39
-Bucks Mills	44.63,-68.73
-Bucksport	44.57,-68.80
-Bucksport Center	44.63,-68.83
-Buffalo	46.83,-68.49
-Buffum Hill	43.30,-70.59
-Bugbee	46.78,-68.16
-Bullen Mills	44.70,-70.07
-Bunganuc Landing	43.86,-70.02
-Burdin Corner	45.09,-69.53
-Burkettville	44.30,-69.32
-Burlington	45.21,-68.43
-Burnham	44.69,-69.43
-Burnt Landing	47.09,-68.37
-Burnt Mill	47.14,-68.70
-Burton Corner	44.83,-69.48
-Bustins Island	43.80,-70.07
-Butlers Corner	44.41,-69.10
-Butterfield Landing	45.71,-67.86
-Buxton	43.64,-70.52
-Buxton Center	43.65,-70.54
-Byron	44.72,-70.63
-Cain Crest Trailer Park	43.13,-70.70
-Calais	45.18,-67.28
-Caldwell Corner	44.17,-70.46
-California	47.07,-68.11
-Cambridge	45.02,-69.47
-Camden	44.21,-69.06
-Camp Ellis	43.46,-70.38
-Camp Wavus	44.19,-69.49
-Campbell	46.77,-67.96
-Canaan	44.76,-69.56
-Canton	44.44,-70.32
-Canton Point	44.47,-70.30
-Cape Cottage	43.63,-70.22
-Cape Elizabeth	43.56,-70.20
-Cape Neddick	43.19,-70.62
-Cape Porpoise	43.37,-70.44
-Cape Rosier	44.33,-68.80
-Caratunk	45.23,-69.99
-Cardville	45.06,-68.60
-Caribou	46.86,-68.01
-Carmel	44.80,-69.05
-Carr Corner	45.03,-69.24
-Carrabassett	45.08,-70.21
-Carriveau Mill	47.22,-68.37
-Carroll	45.41,-68.04
-Carrs Corner	44.44,-69.41
-Carson	46.84,-68.13
-Carthage	44.62,-70.47
-Carvers Corner	44.29,-69.03
-Cary	46.00,-67.86
-Carys Mills	46.10,-67.87
-Casco	44.01,-70.52
-Cash Corner	43.63,-70.29
-Cass Corner	44.90,-69.70
-Castine	44.39,-68.80
-Castle Harmony	44.94,-69.51
-Cathance	43.96,-69.93
-Cedar	45.06,-67.46
-Cedar Grove	44.12,-69.76
-Center	44.30,-68.40
-Center Belmont	44.38,-69.12
-Center Lebanon	43.41,-70.92
-Center Lovell	44.18,-70.89
-Center Minot	44.13,-70.32
-Center Montville	44.45,-69.25
-Center Vassalboro	44.41,-69.63
-Centerville	44.71,-67.68
-Central Landing	43.74,-70.11
-Chadbournes Mills	43.63,-70.72
-Chamberlain	43.89,-69.48
-Chambers Corner	44.08,-70.55
-Chandler Cove Landing	43.72,-70.13
-Chapman	46.65,-68.16
-Charles Chase Corner	43.29,-70.59
-Charleston	45.09,-69.04
-Charlotte	45.02,-67.25
-Chase Corner	44.75,-70.44
-Chase Mills	44.26,-70.29
-Chases Pond	43.19,-70.65
-Chebeague Island	43.74,-70.11
-Chelsea	44.25,-69.72
-Cherryfield	44.61,-67.93
-Chester	45.41,-68.50
-Chesterville	44.55,-70.09
-Chesuncook	46.06,-69.41
-Chicopee	43.70,-70.55
-China	44.48,-69.52
-Chisholm	44.48,-70.20
-Christmas Cove	43.85,-69.55
-Cider Hill	43.16,-70.69
-City Camp Landing	45.90,-68.08
-City Point	44.45,-69.04
-Clark Island	43.99,-69.18
-Clarks Corner	44.40,-69.33
-Clarks Mills	43.58,-70.60
-Clay Hill	43.22,-70.64
-Clayton Lake	46.61,-69.52
-Cleaves Landing	43.71,-70.14
-Cleveland	47.26,-68.26
-Cliff Island	43.70,-70.11
-Cliff Island Landing	43.70,-70.11
-Clifton	44.82,-68.51
-Clinton	44.64,-69.50
-Clock Farm Corner	43.41,-70.43
-Cobb Cove	44.07,-70.50
-Coburn	44.89,-69.23
-Coburn Gore	45.38,-70.80
-Codyville	45.44,-67.69
-Colby	46.90,-68.14
-Cold Brook	44.78,-68.87
-Cole Corner	45.17,-69.52
-Coles	44.45,-69.50
-Columbia	44.66,-67.77
-Columbia Falls	44.65,-67.73
-Concordville	43.17,-70.60
-Connors Corner	44.37,-69.28
-Convene	43.89,-70.73
-Cook Mills	43.99,-70.56
-Cooks Corner	43.91,-69.92
-Coolidge Corner	45.04,-69.25
-Cooper	44.96,-67.44
-Coopers Corner	43.36,-70.48
-Coopers Mills	44.26,-69.55
-Coos Canyon	44.72,-70.63
-Corea	44.40,-67.97
-Corinna	44.92,-69.26
-Corinna Center	44.95,-69.25
-Cornish	43.80,-70.80
-Cornville	44.84,-69.67
-Corson Corner	44.90,-69.60
-Corsons Corner	44.98,-69.68
-Costigan	45.01,-68.64
-Cote Corner	46.90,-67.87
-Cousins Island	43.76,-70.14
-Cozy Corners	43.34,-70.56
-Crams Corner	43.13,-70.81
-Cranberry Isles	44.25,-68.26
-Cranes Corners	44.55,-68.74
-Crawford	45.05,-67.55
-Crescent Beach	44.07,-69.07
-Crescent Lake	43.99,-70.48
-Criehaven	43.83,-68.89
-Crocker Turn	45.01,-68.47
-Crockertown	45.40,-68.30
-Crockett Corner	43.87,-70.21
-Crocketts Corner	43.63,-70.31
-Cropley Turn	45.69,-67.89
-Cross Rock	47.11,-68.97
-Crossman Corner	43.98,-70.06
-Crouseville	46.76,-68.10
-Crows Nest	44.31,-68.96
-Crystal	45.96,-68.36
-Cumberland Center	43.80,-70.26
-Cumberland Center Station	43.78,-70.25
-Cumberland Foreside	43.77,-70.20
-Cumberland Mills	43.68,-70.34
-Cummings	43.24,-70.82
-Cundys Harbor	43.80,-69.89
-Curtis Corner	44.27,-70.09
-Cushing	44.02,-69.24
-Cushing Briggs	43.83,-70.10
-Cushing Island	43.64,-70.21
-Cutler	44.66,-67.20
-Cutts Island	43.09,-70.67
-Cyrs	44.95,-69.47
-Daaquam	46.60,-70.01
-Daigle	47.19,-68.46
-Daigle Mill	47.24,-68.12
-Dallas	45.00,-70.56
-Damariscotta	44.03,-69.52
-Damariscotta Mills	44.06,-69.52
-Damariscotta-Newcastle	44.02,-69.53
-Damascus	44.81,-69.08
-Dane Corner	44.82,-69.97
-Danforth	45.66,-67.87
-Danville	44.02,-70.27
-Danville Corner	44.04,-70.26
-Dark Harbor	44.26,-68.91
-Davis Corner	44.15,-69.37
-Davis Town	45.09,-70.79
-Days Ferry	43.95,-69.81
-Days Mill	43.46,-70.61
-Dayton	43.55,-70.58
-Deadmans Corner	46.53,-68.08
-Deadwater	45.14,-69.80
-Deblois	44.74,-68.01
-Decker Corner	44.69,-69.59
-Dedham	44.69,-68.66
-Deep Cut	43.91,-70.01
-Deer Isle	44.22,-68.68
-Deering	43.68,-70.30
-Deering Junction	43.69,-70.29
-Delano Park	43.62,-70.21
-Denmark	43.97,-70.80
-Dennistown	45.68,-70.28
-Dennysville	44.90,-67.23
-Derby	45.24,-68.98
-Detroit	44.79,-69.30
-Dexter	45.02,-69.29
-Dickey	47.11,-69.09
-Dickvale	44.49,-70.48
-Dirigo Corner	44.41,-69.52
-Dixfield	44.53,-70.46
-Dixfield Center	44.54,-70.38
-Dixie Corner	44.95,-69.32
-Dixmont	44.68,-69.16
-Dixmont Center	44.69,-69.12
-Dixon Corner	44.71,-69.49
-Dodge Corner	44.54,-68.98
-Dog Corner	43.76,-70.47
-Dog Corners	44.79,-68.20
-Dog Island Corner	44.40,-69.03
-Dog Town	44.72,-67.38
-Dogtown	44.80,-69.36
-Dolby	45.63,-68.60
-Dolley Corner	43.83,-70.41
-Dorman	44.62,-67.85
-Double A Landing	44.90,-68.80
-Doughty Landing	43.70,-70.15
-Douglas Hill	43.88,-70.70
-Dover	43.92,-69.64
-Dover South Mills	45.11,-69.19
-Dover-Foxcroft	45.18,-69.23
-Dow Corner	43.72,-70.59
-Dow Pines	44.95,-68.28
-Drake Corner	44.29,-69.10
-Drakes Island	43.33,-70.55
-Dresden Mills	44.11,-69.72
-Drinkwater Corner	44.11,-70.09
-Dry Mills	43.92,-70.36
-Dryden	44.59,-70.21
-Ducktrap	44.30,-69.01
-Dudley	46.17,-68.16
-Dunegrass Golf Community	43.54,-70.40
-Dunham Corner	45.21,-69.30
-Dunkertown	44.05,-70.52
-Dunns	43.86,-70.21
-Dunns Corners	44.41,-69.92
-Durbin Corner	45.05,-69.19
-Durgintown	43.83,-70.82
-Dyer Brook	46.08,-68.18
-Dyer Corner	43.87,-69.95
-Dyer Cove	43.82,-69.92
-Dyerville	45.64,-70.31
-Eagle Lake	47.04,-68.59
-Earley Landing	45.30,-69.35
-Earnest Corner	45.03,-69.13
-East Andover	44.62,-70.71
-East Auburn	44.14,-70.23
-East Baldwin	43.80,-70.68
-East Bangor	44.85,-68.81
-East Benton	44.58,-69.47
-East Bethel	44.47,-70.71
-East Blue Hill	44.42,-68.52
-East Boothbay	43.87,-69.59
-East Brownfield	43.94,-70.89
-East Buckfield	44.29,-70.33
-East Bucksport	44.67,-68.70
-East Corinth	45.00,-69.02
-East Deering	43.68,-70.26
-East Denmark	43.99,-70.77
-East Dixfield	44.57,-70.30
-East Dixmont	44.67,-69.07
-East Dover	45.19,-69.17
-East Eddington	44.79,-68.58
-East Edgecomb	43.94,-69.60
-East Eliot	43.15,-70.76
-East End	43.67,-70.25
-East Exeter	44.96,-69.10
-East Franklin	44.57,-68.19
-East Friendship	44.01,-69.30
-East Fryeburg	44.04,-70.87
-East Gray	43.89,-70.29
-East Hampden	44.77,-68.80
-East Harpswell	43.83,-69.90
-East Hebron	44.22,-70.32
-East Hiram	43.88,-70.79
-East Hodgdon	46.09,-67.81
-East Holden	44.74,-68.63
-East Knox	44.51,-69.21
-East Lamoine	44.46,-68.32
-East Lebanon	43.41,-70.87
-East Limington	43.73,-70.66
-East Livermore	44.41,-70.14
-East Lowell	45.21,-68.45
-East Lyndon	46.83,-67.94
-East Machias	44.74,-67.39
-East Madison	44.85,-69.76
-East Madrid	44.91,-70.38
-East Mercer	44.68,-69.89
-East Millinocket	45.63,-68.57
-East Milton	44.45,-70.60
-East Monmouth	44.24,-69.98
-East New Portland	44.90,-70.02
-East Newport	44.82,-69.22
-East Northport	44.38,-68.98
-East Orland	44.57,-68.68
-East Orrington	44.74,-68.77
-East Otisfield	44.09,-70.53
-East Palermo	44.37,-69.39
-East Parsonsfield	43.73,-70.84
-East Peru	44.49,-70.38
-East Pittston	44.17,-69.67
-East Poland	44.07,-70.33
-East Raymond	43.93,-70.44
-East Sangerville	45.15,-69.29
-East Sebago	43.86,-70.64
-East Steuben	44.50,-67.93
-East Sullivan	44.50,-68.15
-East Sumner	44.36,-70.38
-East Surry	44.50,-68.44
-East Sweden	44.14,-70.78
-East Thorndike	44.59,-69.20
-East Troy	44.67,-69.21
-East Union	44.21,-69.22
-East Vassalboro	44.45,-69.61
-East Wales	44.16,-70.04
-East Warren	44.13,-69.20
-East Waterboro	43.57,-70.68
-East Waterford	44.21,-70.68
-East Wilton	44.62,-70.19
-East Winn	45.43,-68.31
-East Winslow	44.54,-69.54
-East Winthrop	44.32,-69.90
-Eastbrook	44.68,-68.26
-Easton	46.64,-67.91
-Easton Center	46.64,-67.87
-Easton Station	46.66,-67.91
-Eastport	44.90,-66.98
-Eaton	45.61,-67.81
-Eddington	44.83,-68.69
-Eden	44.43,-68.32
-Edes Corner	45.21,-69.39
-Edes Falls	44.00,-70.57
-Edgecomb	43.96,-69.63
-Edmunds	44.87,-67.16
-Eggemoggin	44.31,-68.73
-Egypt	44.56,-68.28
-Eight Corners	43.62,-70.34
-Eliot	43.15,-70.80
-Elizabeth Park	43.59,-70.24
-Ellingwood Corner	44.68,-68.92
-Elliot Landing	44.89,-68.77
-Ellis Corner	44.97,-69.25
-Ellsworth	44.54,-68.42
-Ellsworth Falls	44.56,-68.44
-Elmore	43.96,-69.20
-Elms	43.34,-70.56
-Elmwood	43.72,-70.57
-Elsemore Landing	45.18,-67.90
-Embden	44.92,-69.87
-Emerson Corner	44.80,-69.47
-Emery Mills	43.49,-70.84
-Emerys Bridge	43.25,-70.73
-Emerys Corner	43.73,-70.76
-Emory Corner	43.61,-70.54
-Empire	44.05,-70.32
-Enfield	45.25,-68.57
-Epping	44.68,-67.77
-Estabrook Settlement	45.92,-67.88
-Estcourt Station	47.46,-69.22
-Estes Hill	43.37,-70.80
-Etna	44.82,-69.11
-Etna Center	44.79,-69.11
-Eugley Corner	44.07,-69.40
-Eustis	45.22,-70.48
-Evans Corner	44.49,-69.10
-Evergreen Landing	43.67,-70.19
-Exeter Center	44.97,-69.14
-Exeter Corners	44.98,-69.15
-Exeter Mills	44.97,-69.08
-Fairbanks	44.70,-70.16
-Fairfield	44.59,-69.60
-Fairfield Center	44.61,-69.66
-Fairmount	46.70,-67.87
-Falmouth	43.73,-70.24
-Falmouth Foreside	43.73,-70.21
-Farmingdale	44.24,-69.77
-Farmington	44.67,-70.15
-Farmington Falls	44.62,-70.08
-Farwells Corner	44.58,-69.31
-Fayette	44.41,-70.03
-Fayette Corner	44.42,-70.07
-Felch Corner	43.68,-70.79
-Fernald Shore	43.43,-70.96
-Ferry Beach	43.47,-70.39
-Ferry Village	43.65,-70.24
-Feylers Corner	44.14,-69.37
-Fish Street	44.10,-70.96
-Five Corners	44.08,-70.42
-Five Islands	43.82,-69.71
-Five Mile Corners	44.56,-68.70
-Five Points	43.48,-70.47
-Flaggs Trailer Park	43.16,-70.62
-Flanders Corner	44.19,-69.40
-Flat Landing	44.36,-68.77
-Fletcher Field	45.04,-67.89
-Fletchers Landing	44.61,-68.39
-Foggs Corner	44.16,-70.18
-Forest	45.57,-67.73
-Forest City	45.66,-67.73
-Forest City Landing	45.66,-67.70
-Foristall Corners	43.21,-70.66
-Fort Baldwin	43.75,-69.79
-Fort Edgecomb	43.99,-69.66
-Fort Fairfield	46.77,-67.83
-Fort George	44.39,-68.81
-Fort Gorges	43.66,-70.22
-Fort Kent	47.26,-68.59
-Fort Kent Mills	47.24,-68.58
-Fort Kent Village	47.25,-68.61
-Fort Levett	43.64,-70.20
-Fort Lyon	43.69,-70.18
-Fort Popham	43.76,-69.78
-Fort Preble	43.65,-70.23
-Fort Scammel	43.65,-70.21
-Fortunes Rocks	43.42,-70.38
-Fosters Corner	43.80,-70.41
-Four Corners	46.88,-67.82
-Fournier	47.35,-68.26
-Fowler Landing	44.78,-68.94
-Frankfort	44.61,-68.88
-Franklin	44.59,-68.23
-Franklin Road	44.54,-68.32
-Freedom	44.53,-69.30
-Freeport	43.86,-70.10
-French Mill	44.95,-69.14
-French Settlement	44.97,-68.73
-Frenchboro	44.12,-68.36
-Frenchs Corner	44.24,-69.89
-Frenchville	46.68,-68.33
-Friendship	43.98,-69.33
-Frye	44.62,-70.58
-Frye Island	43.85,-70.52
-Fryeburg	44.02,-70.98
-Fryeburg Center	44.07,-70.94
-Gag Corner	43.74,-70.45
-Gantners Landing	45.77,-68.45
-Gardiner	44.23,-69.78
-Garland	45.04,-69.16
-Garrison Hills Estates	43.65,-70.30
-Georgetown	43.80,-69.75
-Gerrish Corner	44.64,-69.28
-Gerrishville	44.40,-68.10
-Gerry	45.02,-68.82
-Getchell Corner	44.46,-69.66
-Ghent	44.34,-69.20
-Gilbertville	44.46,-70.31
-Gilead	44.39,-70.97
-Gilford	45.36,-68.67
-Gilman Corner	45.10,-69.27
-Glantz Corner	43.84,-70.40
-Glen Cove	44.13,-69.09
-Glenburn Center	44.91,-68.85
-Glendon	44.10,-69.45
-Glenmere	43.95,-69.26
-Glenwood	45.77,-68.12
-Globe	44.23,-69.39
-Goffs Corner	45.21,-69.24
-Goodale Corner	44.70,-68.75
-Goodell Corner	45.28,-69.43
-Goodrich	46.85,-67.85
-Goodrich Corner	44.72,-70.06
-Goodwin	46.81,-67.89
-Goodwin Corner	44.62,-69.58
-Goodwin Siding	44.54,-68.07
-Goodwins Mills	43.51,-70.58
-Goose Falls	44.35,-68.81
-Goose Rocks	44.14,-68.83
-Goose Rocks Beach	43.40,-70.41
-Gordon Corner	45.03,-69.20
-Gorham	43.68,-70.44
-Gould Corner	44.07,-70.54
-Gould Landing	44.90,-68.79
-Gouldsboro	44.48,-68.04
-Grand Beach	43.54,-70.35
-Grand Isle	47.31,-68.15
-Grand Lake Stream	45.18,-67.77
-Grange Corner	44.34,-69.06
-Granite Hill	44.31,-69.83
-Grants Camps	45.10,-70.75
-Grants Turn	44.26,-69.13
-Grass Corner	46.91,-67.87
-Grassy Landing	46.57,-68.59
-Gray	43.89,-70.33
-Grays Corner	43.31,-70.65
-Great Diamond Island Landing	43.67,-70.20
-Great Pond	44.94,-68.28
-Great Works	44.92,-68.64
-Greeleys Landing	45.25,-69.24
-Greely Corner	44.38,-69.45
-Green Acre	43.11,-70.80
-Green Lake	44.67,-68.55
-Green Ridge	46.79,-67.95
-Greenbush	45.08,-68.65
-Greene Corner	44.18,-70.17
-Greene Village	44.19,-70.14
-Greenfield	45.05,-68.48
-Greenlaw Chopping Landing	45.17,-67.72
-Greenlaw Crossing	46.66,-68.63
-Greenlaws Corner	44.37,-69.03
-Greens Corner	44.66,-69.29
-Greenville	45.46,-69.59
-Greenville Junction	45.46,-69.62
-Greenwood	44.32,-70.65
-Greers Corner	44.37,-69.13
-Gregorys Corner	44.49,-69.31
-Grimes Mill	46.85,-67.94
-Grindstone	46.58,-68.09
-Griswold	46.41,-68.30
-Grove	45.00,-67.43
-Groveville	43.66,-70.52
-Growstown	43.90,-70.00
-Guerette	47.13,-68.32
-Guilford	45.17,-69.38
-Guilford Center	45.19,-69.35
-Guinea Corner	43.46,-70.43
-Gushees Corner	44.28,-69.24
-Hackett Mills	44.09,-70.34
-Haines Corner	44.42,-70.14
-Hale	44.59,-70.56
-Hales Corner	44.66,-69.26
-Hall Quarry	44.34,-68.32
-Halldale	44.51,-69.28
-Hallowell	44.29,-69.79
-Halls Corner	46.12,-68.40
-Halls Mills	44.77,-67.26
-Hamlin	47.07,-67.79
-Hampden	44.74,-68.84
-Hampden Center	44.75,-68.89
-Hampden Highlands	44.73,-68.84
-Hampden Station	44.75,-68.86
-Hancock	44.53,-68.25
-Hancock Point	44.47,-68.23
-Hanford	46.91,-68.26
-Hanover	44.50,-70.69
-Happy Corner	45.17,-69.57
-Harborside	44.35,-68.81
-Harding	43.91,-69.88
-Hardy	45.33,-68.82
-Hardy Hill	44.76,-68.82
-Harmon Beach	43.80,-70.55
-Harmons Corner	44.04,-70.22
-Harmony	44.97,-69.55
-Harpswell Center	43.80,-69.98
-Harrington	44.62,-67.81
-Harrington Corner	44.07,-69.49
-Harrison	44.11,-70.68
-Hartford	44.37,-70.35
-Hartland	44.88,-69.45
-Harvey	46.35,-67.91
-Harwards	44.03,-69.83
-Haseltine Corner	45.07,-69.24
-Haskell Corner	44.08,-70.29
-Hastings	44.35,-70.99
-Hasty Corner	44.82,-69.26
-Hatchs Corner	44.05,-69.76
-Haven	44.27,-68.59
-Hawkins	46.38,-68.28
-Hay Brook	45.77,-68.57
-Hayden Corner	44.52,-69.62
-Hayden Landing	45.31,-70.18
-Hayford Corner	44.41,-69.07
-Haynesville	45.83,-67.99
-Head Tide	44.11,-69.62
-Head of the Tide	44.45,-69.05
-Heads Corner	43.98,-70.78
-Heals Corner	44.32,-69.07
-Hebron	44.20,-70.41
-Hendricks Harbor	43.82,-69.68
-Hermon	44.81,-68.91
-Hermon Center	44.80,-68.89
-Hermon Pond	44.78,-68.96
-Heron Island	43.83,-69.57
-Herricks	44.32,-68.71
-Herricks Corner	44.36,-69.01
-Hersey	46.07,-68.43
-Hibberts Corner	44.30,-69.41
-Hicks Corner	45.05,-69.10
-Higgins Beach	43.56,-70.28
-Higgins Corner	44.04,-70.03
-Higginsville	44.94,-68.95
-High Landing	46.84,-68.70
-High Pasture	43.23,-70.59
-Highland Lake	43.74,-70.35
-Highland Park	44.04,-70.94
-Highlands	43.67,-70.29
-Highpine	43.36,-70.65
-Hildreths Mill	44.67,-70.37
-Hill	46.27,-67.84
-Hillman	46.20,-68.16
-Hills Beach	43.46,-70.38
-Hillside	43.95,-70.72
-Hinckley	44.69,-69.63
-Hiram	43.88,-70.80
-Hobbs Crossing	43.37,-70.63
-Hodgdon	46.05,-67.87
-Hodgdon Corners	46.04,-67.86
-Holden	44.75,-68.68
-Holeb	45.58,-70.46
-Holiday Beach	44.08,-69.06
-Hollis Center	43.61,-70.59
-Holmes Mill	44.44,-69.06
-Holway Corner	44.63,-69.68
-Hope	44.27,-69.16
-Houghton	44.77,-70.65
-Houghtonville	46.84,-67.87
-Houlton	46.13,-67.84
-Houston Corner	44.80,-69.34
-Howard Corner	45.17,-69.31
-Howe Brook	46.31,-68.19
-Howes Corner	44.33,-70.22
-Howland	45.24,-68.66
-Hoxies	44.65,-69.74
-Hoyttown	44.72,-67.44
-Hudson	45.00,-68.88
-Huff Corner	45.08,-69.61
-Hulls Cove	44.42,-68.25
-Huntington Mill	45.11,-68.93
-Hunts Corner	44.30,-70.75
-Hurd	46.84,-67.95
-Hurd Corner	45.13,-69.19
-Hurds Corner	44.35,-69.05
-Huson Landing	46.51,-68.19
-Hutchins Corner	45.03,-69.62
-Iceboro	44.11,-69.78
-Indian Landing	45.21,-67.87
-Indian Point	44.38,-68.36
-Indian River	44.57,-67.64
-Ingalls	43.99,-70.73
-Intervale	43.95,-70.26
-Ireland Corner	43.81,-70.38
-Irish Settlement	45.66,-67.91
-Island Falls	46.01,-68.27
-Island Park	44.32,-69.89
-Isle Au Haut	44.08,-68.63
-Islesboro	44.31,-68.90
-Islesford	44.26,-68.23
-Jackins Settlement	46.02,-67.82
-Jackman	45.62,-70.25
-Jackman Corner	45.09,-69.34
-Jackson	44.61,-69.12
-Jacksonville	44.76,-67.40
-Jay	44.50,-70.22
-Jefferson	44.21,-69.45
-Jemtland	47.01,-68.14
-Jenks Landing	43.72,-70.12
-Jewells Corner	46.34,-67.84
-Jewett	43.21,-70.79
-Johnson Corner	44.91,-69.32
-Jones Corner	44.26,-69.46
-Jones Mill	47.10,-68.85
-Jones Wharf	43.66,-70.20
-Jonesboro	44.66,-67.57
-Jonesport	44.53,-67.60
-Jordan Mills	45.55,-68.38
-Joyville	44.56,-68.47
-Jumbo Landing	45.21,-67.88
-Kalers Corner	44.10,-69.38
-Katen Corner	44.99,-69.28
-Keegan	47.19,-67.96
-Keenes Corner	44.22,-70.09
-Kelleyland	45.27,-67.48
-Kendalls Corner	44.45,-69.09
-Kenduskeag	44.92,-68.93
-Kennard Corner	43.13,-70.80
-Kennebago	45.11,-70.77
-Kennebago Settlement	45.10,-70.56
-Kennebec	44.67,-67.46
-Kennebunk	43.38,-70.54
-Kennebunk Beach	43.35,-70.50
-Kennebunk Landing	43.38,-70.51
-Kennebunkport	43.36,-70.48
-Kennedy Corner	44.19,-69.42
-Kennedy Terrace	47.19,-67.96
-Kents Hill	44.41,-70.00
-Keough	45.56,-70.56
-Ketchum	44.50,-70.92
-Keyes Corner	44.25,-69.64
-Kezar Falls	43.81,-70.89
-Kimballs Corner	43.94,-70.65
-Kimbles Corner	43.68,-70.57
-Kingfield	44.96,-70.15
-Kingman	45.55,-68.20
-Kings Grove	46.53,-67.86
-Kingsbury	45.12,-69.65
-Kinney Shores	43.49,-70.39
-Kittery	43.09,-70.74
-Kittery Foreside	43.09,-70.74
-Kittery Point	43.08,-70.71
-Knight Corner	45.04,-69.17
-Knights Corner	44.34,-69.18
-Knights Landing	45.36,-68.95
-Knightville	43.63,-70.26
-Knowles Corner	46.21,-68.33
-Knowlton Corner	44.05,-69.49
-Knowltons Corner	44.61,-70.13
-Knox Center	44.52,-69.24
-Knox Corner	44.53,-69.27
-Knox Hill Corner	44.99,-69.26
-Knox Ledge Corner	44.56,-69.22
-Kokadjo	45.67,-69.45
-La Croix Depot	46.08,-70.27
-Lac Frontiere	46.70,-69.99
-Lagrange	45.17,-68.84
-Lake Arrowhead	43.66,-70.73
-Lake Arrowhead Estates	43.65,-70.72
-Lake City	44.25,-69.10
-Lake Moxie	45.35,-69.88
-Lake View	45.32,-68.93
-Lakeside Landing	44.93,-68.81
-Lakewood	44.63,-68.43
-Lamb Place	45.25,-67.52
-Lambert Lake	45.55,-67.53
-Lambs Corner	44.50,-69.56
-Lamoine Beach	44.45,-68.29
-Lamoine Corner	44.48,-68.35
-Langtown Mill	45.07,-70.58
-Larone	44.68,-69.73
-Larrabee	44.67,-67.39
-Lavertue	47.25,-68.20
-Lawry	44.01,-69.34
-Leathers Corner	44.83,-68.93
-Lebanon	43.39,-70.85
-Lee	45.36,-68.29
-Leeds	44.30,-70.12
-Leeds Junction	44.21,-70.08
-Levant	44.87,-68.93
-Lewiston	44.10,-70.21
-Lewiston Junction	44.05,-70.30
-Lexington	45.00,-70.05
-Libby Corner	45.32,-68.49
-Libby Hill	44.18,-69.83
-Libbytown	43.66,-70.29
-Liberty	44.39,-69.30
-Liberty Corner	44.02,-70.86
-Ligonia	43.64,-70.29
-Lille	47.28,-68.11
-Lily Bay	45.60,-69.51
-Limerick	43.69,-70.79
-Limerick Mills	43.70,-70.79
-Limestone	46.91,-67.83
-Limington	43.73,-70.71
-Lincoln	45.36,-68.51
-Lincoln Center	45.39,-68.47
-Lincoln Mills	44.96,-69.28
-Lincolnville	44.28,-69.01
-Lincolnville Center	44.30,-69.11
-Linekin	43.84,-69.59
-Linneus	46.04,-67.96
-Linnhaven West	43.89,-69.98
-Lisbon	44.03,-70.10
-Lisbon Center	44.02,-70.09
-Lisbon Falls	44.00,-70.06
-Litchfield Corners	44.13,-69.97
-Litchfield Plains	44.15,-69.93
-Little Canada	46.30,-68.19
-Little Deer Isle	44.29,-68.70
-Little Diamond Island Landing	43.66,-70.21
-Little Falls	43.73,-70.43
-Little Falls-South Windham	43.73,-70.43
-Little Italy	45.65,-68.70
-Little Machias	44.65,-67.24
-Little River Corner	44.72,-67.77
-Littlefield Corner	44.07,-70.27
-Littlejohn Island	43.76,-70.13
-Littleton	46.23,-67.84
-Livermore	44.38,-70.25
-Livermore Center	44.41,-70.18
-Livermore Falls	44.48,-70.19
-Locke Mills	44.40,-70.70
-Locks Corner	44.45,-69.95
-Long Beach	43.84,-70.62
-Long Cove	43.99,-69.20
-Long Island	43.68,-70.17
-Long Pond	45.62,-70.09
-Loon Lake	45.01,-70.64
-Loring AFB	46.94,-67.89
-Loudville	43.93,-69.43
-Loveitts Field	43.64,-70.23
-Lovell	44.13,-70.89
-Lowell	45.19,-68.47
-Lowelltown	45.51,-70.64
-Lower Beddington	44.80,-68.05
-Lower Dennysville	44.93,-67.23
-Lower Landing	43.32,-70.57
-Lower Mill	44.85,-69.74
-Lower Shirley Corner	45.35,-69.59
-Lower Village	43.36,-70.48
-Lubec	44.86,-66.98
-Lucas Corner	44.28,-69.33
-Lucerne-in-Maine	44.70,-68.60
-Lucky Landing	44.91,-68.80
-Ludlow	46.14,-68.04
-Lunts Corner	43.69,-70.27
-Lyford Corner	44.92,-69.33
-Lynchville	44.24,-70.78
-MacMahan	43.84,-69.71
-MacQuillis Corner	44.61,-70.16
-Machias	44.72,-67.46
-Machiasport	44.70,-67.39
-Mackamp	45.61,-70.01
-Macs Corner	43.88,-70.68
-Macwahoc	45.63,-68.26
-Macy	44.93,-70.75
-Madawaska	47.36,-68.32
-Maddocks Corner	44.34,-69.29
-Madison	44.80,-69.88
-Madrid	44.86,-70.46
-Madrid Junction	44.87,-70.40
-Maine	46.82,-67.92
-Mainstream	44.97,-69.51
-Malbons Mills	44.80,-69.69
-Manchester	44.32,-69.86
-Manks Corner	44.17,-69.33
-Manset	44.27,-68.31
-Manson Corner	44.86,-69.47
-Maple Grove	46.73,-67.86
-Mapleton	46.68,-68.16
-Maplewood	43.67,-70.91
-Maranacook	44.35,-69.96
-Margison	46.92,-68.14
-Mariaville	44.72,-68.42
-Mariner	43.70,-70.15
-Marion	44.88,-67.32
-Marks Corner	44.50,-68.65
-Marlboro	44.48,-68.27
-Marrtown	43.79,-69.78
-Mars Hill	46.52,-67.87
-Mars Hill-Blaine	46.51,-67.87
-Marsh Corner	44.88,-69.32
-Marshfield	44.73,-67.48
-Marshville	44.62,-67.78
-Marston Corner	44.05,-70.28
-Martells Mobile Home Court	44.80,-68.83
-Martin	43.97,-69.36
-Martin Corner	44.81,-69.81
-Martins Corner	44.31,-69.25
-Martinsville	43.94,-69.23
-Masardis	46.50,-68.36
-Mast Landing	43.86,-70.08
-Matinicus	43.87,-68.89
-Mattawamkeag	45.51,-68.35
-Mattimo Place	44.82,-67.64
-Mayfield Corner	45.10,-69.69
-Maysville	46.78,-67.97
-Mayville	44.42,-70.80
-McCarty	46.07,-69.01
-McCoy Crossing	44.44,-69.64
-McFarlands Corner	44.42,-69.32
-McGraw	46.82,-67.98
-McGregor Mill	44.99,-69.05
-McKeen Crossing	46.60,-68.72
-McKinley Estates	43.68,-70.20
-McNally	46.92,-68.58
-McShea	46.76,-67.85
-Meadowbrook	43.83,-69.85
-Meadowview	44.47,-70.27
-Meadowville	45.52,-68.35
-Mechanic Falls	44.11,-70.39
-Meddybemps	45.04,-67.36
-Medford	45.29,-68.85
-Medford Center	45.25,-68.83
-Medomak	44.00,-69.41
-Medway	45.61,-68.53
-Mee Corners	43.64,-70.95
-Meeting House Hill	43.63,-70.25
-Melvin Heights	44.22,-69.10
-Mercer	44.68,-69.94
-Merepoint	43.82,-70.03
-Merrill Corner	43.93,-70.95
-Merrow Landing	44.07,-70.61
-Merrymeeting Trailer Park	43.91,-69.92
-Mexico	44.56,-70.55
-Michigan Settlement	47.23,-68.53
-Middle Dam	44.78,-70.92
-Middle Intervale	44.46,-70.79
-Milbridge	44.54,-67.88
-Miles Corner	44.86,-69.30
-Milford	44.95,-68.64
-Mill Brook	45.37,-69.02
-Miller Corner	44.88,-69.36
-Millers Crossing	43.41,-70.49
-Milliken Mills	43.54,-70.39
-Millinocket	45.66,-68.71
-Milltown	45.17,-67.29
-Millvale	44.63,-68.77
-Milo	45.25,-68.99
-Milton	44.45,-70.65
-Mingo Springs	44.96,-70.71
-Minot	44.09,-70.32
-Minturn	44.14,-68.44
-Mitchell Corner	44.83,-69.61
-Molunkus	45.62,-68.30
-Monarda	45.80,-68.32
-Monhegan	43.76,-69.32
-Monmouth	44.24,-70.04
-Monroe	44.62,-69.02
-Monroe Center	44.60,-69.04
-Monsapec	44.61,-67.60
-Monson	45.29,-69.50
-Monson Junction	45.22,-69.47
-Monticello	46.31,-67.84
-Montpelier	44.08,-69.17
-Montsweag	43.96,-69.72
-Moody	44.98,-69.30
-Moody Beach	43.28,-70.58
-Moody Corner	45.00,-69.73
-Moody Point	43.29,-70.57
-Mooresville	45.41,-69.10
-Moose River	45.65,-70.27
-Moosehead	45.58,-69.71
-Moosehorn	45.23,-69.49
-Moosehorn Crossing	46.33,-68.78
-Mooselookmeguntic	44.96,-70.79
-Morang Corner	44.26,-69.27
-Morey Brow	46.29,-67.96
-Morgan Beach	45.27,-68.56
-Morkill	45.43,-69.50
-Moro	46.15,-68.36
-Morrill	44.44,-69.15
-Morrills Corner	43.69,-70.29
-Morris Corner	46.88,-67.85
-Morrison Corner	44.66,-69.58
-Moscow	45.07,-69.89
-Mosher Corner	44.78,-69.42
-Mount Pisgah	43.85,-69.62
-Mount Vernon	44.50,-69.99
-Mountainview	44.97,-70.76
-Mountainview Park	43.63,-70.23
-Mountainville	44.21,-68.63
-Mouse Island	43.83,-69.64
-Moussam	44.08,-70.34
-Mud Landing	44.86,-67.45
-Munjoy Hill	43.67,-70.25
-Murphy Corner	44.04,-70.23
-Murphys Corner	43.93,-69.73
-Muscongus	43.97,-69.44
-Myra	44.98,-68.40
-Naples	43.97,-70.61
-Nash Corner	44.75,-69.45
-Naskeag	44.23,-68.53
-Nason Beach	44.15,-70.12
-Nasons Corner	43.68,-70.31
-Nealeys Corner	44.70,-68.94
-Neals Corner	44.49,-69.11
-Nequasset	43.94,-69.78
-New Auburn	44.08,-70.22
-New Boston	43.89,-70.98
-New City	45.99,-68.91
-New Gloucester	43.96,-70.28
-New Harbor	43.88,-69.49
-New Limerick	46.10,-67.96
-New Portland	44.88,-70.10
-New Sharon	44.64,-70.02
-New Sweden	46.94,-68.12
-New Sweden Station	46.95,-68.10
-New Vineyard	44.80,-70.12
-Newagen	43.79,-69.66
-Newburgh Center	44.72,-69.00
-Newburgh Village	44.70,-68.98
-Newcastle	44.04,-69.54
-Newfield	43.65,-70.85
-Newhall	43.75,-70.43
-Newport	44.84,-69.27
-Newry	44.49,-70.79
-Newtown	43.43,-70.41
-Nickerson Mills	44.54,-69.04
-Nixon	46.88,-68.52
-Nobleboro	44.08,-69.49
-Nobles Corner	44.26,-70.62
-Norcross	45.63,-68.80
-Norridgewock	44.71,-69.79
-North Alfred	43.52,-70.76
-North Amity	45.94,-67.83
-North Anson	44.86,-69.90
-North Appleton	44.30,-69.21
-North Auburn	44.18,-70.27
-North Augusta	44.37,-69.79
-North Baldwin	43.85,-70.69
-North Bancroft	45.75,-67.95
-North Bangor	44.84,-68.83
-North Bath	43.93,-69.82
-North Belgrade	44.52,-69.79
-North Belgrade Station	44.51,-69.78
-North Berwick	43.30,-70.73
-North Bethel	44.45,-70.83
-North Bradford	45.12,-68.96
-North Brewer	44.82,-68.70
-North Bridgton	44.10,-70.70
-North Brooklin	44.31,-68.57
-North Brooksville	44.40,-68.71
-North Buckfield	44.31,-70.40
-North Bucksport	44.66,-68.81
-North Castine	44.42,-68.77
-North Chesterville	44.59,-70.11
-North Cushing	44.04,-69.21
-North Cutler	44.67,-67.26
-North Deer Isle	44.27,-68.67
-North Deering	43.70,-70.29
-North Dexter	45.08,-69.33
-North Dixmont	44.73,-69.17
-North East Carry	45.87,-69.63
-North Edgecomb	43.99,-69.64
-North Ellsworth	44.62,-68.52
-North Fairfield	44.65,-69.68
-North Falmouth	43.78,-70.34
-North Fayette	44.45,-70.07
-North Fryeburg	44.12,-70.98
-North Gorham	43.80,-70.45
-North Gray	43.92,-70.32
-North Guilford	45.23,-69.42
-North Harpswell	43.82,-69.97
-North Haven	44.13,-68.87
-North Hermon	44.85,-68.88
-North Hollis	43.66,-70.68
-North Hope Corner	44.29,-69.19
-North Islesboro	44.34,-68.90
-North Jay	44.55,-70.24
-North Jefferson	44.21,-69.44
-North Lamoine	44.51,-68.35
-North Lebanon	43.44,-70.88
-North Leeds	44.34,-70.13
-North Limington	43.75,-70.68
-North Lincoln	45.43,-68.46
-North Livermore	44.44,-70.22
-North Lovell	44.24,-70.88
-North Lubec	44.87,-67.02
-North Lyndon	46.94,-68.02
-North Mariaville	44.78,-68.37
-North Meadows	43.91,-69.86
-North Monmouth	44.28,-70.03
-North Monroe	44.62,-69.10
-North New Portland	44.93,-70.02
-North Newburgh	44.76,-68.97
-North Newcastle	44.09,-69.57
-North Newport	44.89,-69.21
-North Newry	44.55,-70.83
-North Norway	44.26,-70.63
-North Orland	44.64,-68.64
-North Orrington	44.75,-68.81
-North Palermo	44.45,-69.39
-North Paris	44.34,-70.53
-North Parsonsfield	43.76,-70.92
-North Penobscot	44.52,-68.66
-North Perry	45.03,-67.11
-North Pittston	44.22,-69.69
-North Pownal	43.94,-70.19
-North Raymond	43.98,-70.40
-North Scarborough	43.64,-70.40
-North Searsmont	44.41,-69.22
-North Searsport	44.55,-68.96
-North Sebago	43.89,-70.63
-North Sedgwick	44.34,-68.59
-North Shapleigh	43.60,-70.89
-North Sidney	44.47,-69.69
-North Sullivan	44.54,-68.24
-North Trescott	44.86,-67.13
-North Turner	44.34,-70.26
-North Union	44.28,-69.31
-North Vassalboro	44.49,-69.62
-North Wade	46.83,-68.18
-North Waldoboro	44.18,-69.38
-North Waterboro	43.62,-70.74
-North Waterford	44.23,-70.77
-North Wayne	44.37,-70.03
-North Whitefield	44.22,-69.59
-North Windham	43.83,-70.44
-North Windsor	44.35,-69.58
-North Winterport	44.68,-68.85
-North Woodstock	44.41,-70.64
-Northeast Harbor	44.29,-68.29
-Northern Maine Junction	44.79,-68.86
-Northfield	44.83,-67.57
-Northport	44.34,-68.96
-Northwest Bethel	44.42,-70.84
-Norumbega	44.32,-68.72
-Norway	44.21,-70.54
-Norway Center	44.23,-70.61
-Norway Lake	44.21,-70.58
-Notre Dame	47.25,-68.07
-Nutter Corner	44.92,-69.36
-Nyes Corner	44.65,-69.62
-Oak Hill	44.05,-70.41
-Oak Park Manor	45.62,-68.56
-Oak Ridge	43.44,-70.43
-Oak Terrace	43.09,-70.76
-Oakdale	43.66,-70.28
-Oakes Corner	44.29,-69.27
-Oakfield	46.10,-68.15
-Oakland	44.54,-69.72
-Oakwood	44.65,-69.35
-Ocean Park	43.50,-70.39
-Ocean Point	43.82,-69.60
-Ocean View Village	43.18,-70.61
-Oceanville	44.19,-68.62
-Ogontz	45.82,-69.71
-Ogren	46.91,-68.06
-Ogunquit	43.25,-70.60
-Olamon	45.12,-68.61
-Old City	46.01,-68.87
-Old Orchard Beach	43.52,-70.38
-Old Town	44.93,-68.65
-Old Town Landing	44.94,-68.79
-Oldfields	43.22,-70.80
-Oliver Hill Corner	45.07,-69.17
-Onawa	45.37,-69.37
-Oquossoc	44.97,-70.77
-Orffs Corner	44.16,-69.41
-Orient	45.82,-67.84
-Orland	44.57,-68.74
-Orono	44.88,-68.67
-Orrington	44.73,-68.83
-Orrington Center	44.72,-68.79
-Orrs Island	43.76,-69.98
-Ossipee Mills	43.65,-70.76
-Otis	44.71,-68.45
-Otisfield Gore	44.15,-70.56
-Otter Creek	44.32,-68.21
-Ouellette	47.17,-68.39
-Overlake	44.74,-70.09
-Owls Head	44.08,-69.06
-Oxbow	46.42,-68.49
-Oxford	44.13,-70.49
-Oxford Station	44.14,-70.46
-Packard Landing	45.30,-69.33
-Packards	45.48,-68.94
-Paine Corner	44.16,-70.43
-Paines Corner	44.51,-69.57
-Palermo	44.41,-69.47
-Palmyra	44.85,-69.36
-Parent	47.23,-68.03
-Paris	44.26,-70.50
-Parker Head	43.78,-69.80
-Parkers	45.19,-68.90
-Parkhurst	46.75,-67.96
-Parkman	45.13,-69.43
-Parrot	45.26,-69.55
-Parson Landing	45.26,-69.19
-Parsonage Corner	43.31,-70.69
-Parsonsfield	43.73,-70.93
-Passadumkeag	45.19,-68.62
-Pattee Corner	44.59,-69.08
-Patten	46.00,-68.45
-Patten Junction	45.91,-68.41
-Pauls	46.85,-68.05
-Pauls Corner	44.38,-69.22
-Payneton	43.18,-70.73
-Payson Corner	44.25,-69.15
-Pea Cove	44.99,-68.69
-Pea Ridge	45.42,-68.52
-Peaks Island	43.66,-70.20
-Pease Corner	44.28,-69.29
-Pejepscot	43.96,-70.02
-Pelton Hill	44.32,-69.83
-Pemaquid	43.91,-69.52
-Pemaquid Beach	43.87,-69.52
-Pemaquid Harbor	43.89,-69.52
-Pemaquid Point	43.84,-69.51
-Pembroke	44.95,-67.16
-Penley Corner	44.05,-70.20
-Pennellville	43.86,-69.96
-Penobscot	44.46,-68.71
-Perham	46.84,-68.20
-Perham Junction	44.92,-70.41
-Perkins	45.61,-68.82
-Perkins Town	43.34,-70.70
-Perry	44.98,-67.08
-Perry Cove	43.84,-69.84
-Perrys Corner	43.70,-70.82
-Peru	44.51,-70.41
-Peter Dana Point	45.21,-67.63
-Phair	46.63,-67.95
-Phillips	44.82,-70.34
-Phillips Corner	44.81,-69.44
-Phippsburg	43.82,-69.81
-Pierre	47.23,-68.67
-Pigeon Hill	44.44,-67.89
-Pike Corner	43.98,-70.52
-Pine Cliff	43.83,-69.65
-Pine Corner	45.00,-67.29
-Pine Hill	43.23,-70.60
-Pine Knoll	46.18,-69.02
-Pine Park	43.51,-70.41
-Pine Point	43.54,-70.34
-Pine Point Beach	43.54,-70.33
-Pingree Center	45.11,-69.45
-Pishon Ferry	44.69,-69.63
-Pitmans Corner	44.31,-69.24
-Pittsfield	44.78,-69.38
-Pittston	44.22,-69.76
-Plaisted	47.10,-68.59
-Pleasant Hill	43.59,-70.30
-Pleasant Island	45.00,-70.84
-Pleasant Point	43.97,-69.28
-Pleasant Pond	45.26,-69.94
-Pleasant Vale Corner	44.93,-69.30
-Pleasantdale	43.63,-70.27
-Plourde Mill	47.17,-68.62
-Plummer Corner	44.78,-69.29
-Plummer Landing	44.06,-70.68
-Plummer Mill	43.98,-70.10
-Plymouth	44.77,-69.21
-Poland	44.06,-70.39
-Poland Spring	44.03,-70.36
-Polands Corner	44.47,-69.26
-Ponce Landing	43.69,-70.17
-Pond Cove	43.60,-70.23
-Pools Landing	43.94,-69.59
-Poors Mill	44.43,-69.10
-Popeville	43.78,-70.42
-Popham Beach	43.75,-69.78
-Poplar Ripps	45.70,-69.87
-Port Clyde	43.93,-69.25
-Portage	46.76,-68.48
-Porter	43.80,-70.93
-Porter Landing	43.84,-70.10
-Porterfield	43.88,-70.91
-Portland	43.66,-70.26
-Powers Corner	46.67,-67.85
-Pownal Center	43.89,-70.19
-Prairie	45.41,-69.06
-Pratt Corner	44.16,-70.44
-Preble Corner	45.05,-69.21
-Prentiss	45.49,-68.08
-Presque Isle	46.68,-68.02
-Presque Isle Junction	46.71,-68.03
-Pretty Marsh	44.34,-68.40
-Pride	46.35,-68.27
-Prides Corner	43.71,-70.33
-Princeton	45.22,-67.57
-Pripet	44.37,-68.87
-Proctors Corner	44.30,-69.29
-Promised Land	44.07,-70.44
-Prospect	44.55,-68.86
-Prospect Ferry	44.57,-68.81
-Prospect Harbor	44.41,-68.03
-Prouts Neck	43.53,-70.31
-Pulpit Harbor	44.16,-68.88
-Purgatory	44.22,-69.93
-Pushaw	44.96,-68.71
-Quimby	46.96,-68.61
-Quoddy	44.93,-67.03
-Rainbow Home Court Mobile Home Park	44.83,-68.82
-Rand Landing	46.58,-68.69
-Randolph	44.23,-69.77
-Rands	46.72,-68.03
-Rangeley	44.97,-70.64
-Rankins Mill	43.88,-70.77
-Ray Corner	44.51,-69.18
-Raymond	43.90,-70.47
-Rayville	44.10,-70.55
-Razorville	44.28,-69.40
-Reach	44.25,-68.62
-Readfield	44.39,-69.97
-Readfield Depot	44.38,-69.94
-Red Beach	45.12,-67.15
-Red Beach Landing	45.13,-67.70
-Red Rock Corner	44.41,-68.35
-Redding	44.41,-70.51
-Redington	44.98,-70.44
-Reed	45.72,-68.14
-Reeds	44.89,-70.41
-Remick Corners	43.10,-70.74
-Reynolds Corner	44.66,-69.36
-Rice Corner	44.92,-69.75
-Richmond	44.09,-69.80
-Richmond Corner	44.10,-69.89
-Richmond Mill	44.39,-70.07
-Richs Corner	44.46,-68.47
-Richtown	44.25,-68.38
-Richville	43.79,-70.57
-Ridge	44.84,-67.02
-Ridlonville	44.56,-70.54
-Riley	44.51,-70.25
-Ring Hill	44.14,-69.90
-Ripley	44.99,-69.37
-Rivers End	44.81,-67.65
-Riverside	44.40,-69.71
-Riverton	43.70,-70.32
-Robbinston	45.08,-67.11
-Roberts	46.79,-67.96
-Roberts Corner	43.62,-70.53
-Robinhood	43.85,-69.74
-Robinson	46.47,-67.84
-Robinson Corner	44.08,-70.12
-Robyville	44.94,-68.97
-Rockland	44.10,-69.11
-Rockport	44.18,-69.08
-Rockville	44.15,-69.12
-Rockwood	45.68,-69.74
-Rollins Mill	45.05,-69.03
-Rollins Mills	44.73,-69.15
-Rome	44.59,-69.87
-Rome Corner	44.57,-69.90
-Roque Bluffs	44.61,-67.48
-Rosemary	43.16,-70.79
-Rosemont	43.67,-70.30
-Ross Corner	43.59,-70.80
-Round Mountain	46.59,-68.79
-Round Pond	43.95,-69.46
-Rowe Corner	44.86,-69.29
-Roxbury	44.67,-70.59
-Royal Corner	44.02,-70.24
-Royal Junction	43.80,-70.22
-Ruin Corner	43.76,-70.69
-Rumford	44.55,-70.55
-Rumford Center	44.51,-70.62
-Rumford Corner	44.49,-70.67
-Rumford Junction	44.05,-70.25
-Rumford Point	44.50,-70.67
-Russell Corner	45.02,-69.25
-Russell Crossing	46.66,-68.73
-Sabattus	44.12,-70.11
-Sabino	43.85,-69.86
-Saco	43.50,-70.44
-Sagamore Village	43.68,-70.32
-Saint Agatha	47.24,-68.31
-Saint Albans	44.91,-69.41
-Saint Croix Junction	45.15,-67.29
-Saint David	47.34,-68.23
-Saint Francis	47.17,-68.89
-Saint George	44.02,-69.20
-Saint John	47.21,-68.81
-Salem	44.90,-70.28
-Salmon Falls	43.60,-70.55
-Salsbury Cove	44.43,-68.28
-Sanborn Corner	44.88,-69.33
-Sand Beach	44.60,-68.57
-Sanderson Corners	44.43,-70.05
-Sandhill Corner	44.31,-69.46
-Sandy Beach	44.92,-68.81
-Sandy Brook	43.55,-70.49
-Sandy Creek	44.02,-70.71
-Sandy Point	44.51,-68.81
-Sandy River	44.73,-69.89
-Sanford	43.44,-70.77
-Sangerville	45.16,-69.36
-Saponac	45.17,-68.32
-Sargentville	44.30,-68.67
-Sawpit Corner	44.31,-69.30
-Sawyer Corner	46.77,-67.94
-Saywards Corner	43.36,-70.67
-Scarborough	43.58,-70.32
-Schoodic	44.56,-68.14
-Scituate	43.17,-70.68
-Scopan	46.56,-68.38
-Scotland	43.16,-70.71
-Scribners Mill	44.09,-70.61
-Seabury	43.12,-70.65
-Seal Cove	44.29,-68.40
-Seal Harbor	44.30,-68.24
-Sealand	44.51,-67.55
-Searsmont	44.36,-69.20
-Searsport	44.46,-68.92
-Seavey Island	43.08,-70.73
-Seaveys Corner	44.52,-70.03
-Seawall	44.25,-68.30
-Seaward Mills	44.40,-69.64
-Sebago Center	43.89,-70.70
-Sebago Lake	43.76,-70.53
-Sebasco	43.78,-69.87
-Sebasco Estates	43.77,-69.86
-Sebec	45.27,-69.12
-Sebec Corners	45.23,-69.10
-Sebec Lake	45.30,-69.34
-Seboeis	45.36,-68.71
-Seboomook	45.88,-69.73
-Sedgwick	44.30,-68.62
-Selden	45.77,-67.91
-Sennetts Corner	44.49,-69.44
-Shady Nook	43.61,-70.93
-Shaker Village	43.99,-70.37
-Shapleigh	43.54,-70.85
-Sharp	46.29,-67.84
-Shaw Mills	43.74,-70.52
-Shawmut	44.63,-69.59
-Sheepscot	44.05,-69.61
-Shepherds Hill	43.10,-70.74
-Sheridan	46.66,-68.41
-Sherman	45.87,-68.42
-Sherman Mills	45.87,-68.38
-Sherman Station	45.90,-68.43
-Shermans Corner	44.39,-69.36
-Shermans Mill	44.28,-69.23
-Shiloh	43.98,-70.05
-Shin Pond	46.11,-68.56
-Shirley Mills	45.37,-69.62
-Shorey	46.23,-68.15
-Shy Corner	44.46,-70.18
-Siberia	45.88,-68.46
-Sibley Corner	44.51,-69.35
-Sidney	44.41,-69.73
-Silver Ridge	45.81,-68.32
-Silvers Mills	45.09,-69.24
-Silverwood Court	45.62,-68.55
-Simonton Corners	44.20,-69.10
-Simpsons Corner	44.42,-69.04
-Sinclair	47.17,-68.27
-Six Mile Falls	44.86,-68.83
-Skerry	46.70,-68.48
-Skillings Corner	44.20,-70.27
-Skinner	45.53,-70.60
-Skowhegan	44.77,-69.72
-Slab City	44.21,-70.87
-Small Point	43.74,-69.84
-Small Point Beach	43.72,-69.84
-Smarts Corner	44.68,-69.29
-Smith Crossing	44.54,-70.52
-Smith Landing	44.80,-67.60
-Smithfield	44.63,-69.83
-Smithton	44.48,-69.33
-Smithville	44.54,-67.96
-Smyrna Center	46.16,-68.10
-Smyrna Mills	46.13,-68.16
-Snow Corner	44.82,-68.89
-Snow Settlement	46.41,-67.81
-Sodom	44.19,-70.63
-Soldier Pond	47.16,-68.58
-Solon	44.95,-69.86
-Somers Corner	46.88,-67.92
-Somerset Junction	45.61,-69.80
-Somerville	44.31,-69.49
-Somesville	44.36,-68.33
-Songo Lock	43.93,-70.57
-Sorrento	44.47,-68.18
-Soule Mill	44.94,-70.23
-South Acton	43.51,-70.90
-South Addison	44.51,-67.72
-South Albion	44.50,-69.49
-South Amity	45.89,-67.85
-South Andover	44.59,-70.74
-South Arm	44.76,-70.85
-South Bancroft	45.72,-67.99
-South Berwick	43.23,-70.81
-South Blue Hill	44.35,-68.55
-South Brewer	44.77,-68.78
-South Bridgton	43.99,-70.71
-South Bristol	43.86,-69.56
-South Brooksville	44.34,-68.74
-South Buxton	43.62,-70.48
-South Casco	43.91,-70.52
-South China	44.40,-69.57
-South Corinth	44.97,-68.97
-South Cushing	43.99,-69.28
-South Deer Isle	44.19,-68.66
-South Dover	45.14,-69.14
-South Dresden	44.05,-69.77
-South Durham	43.94,-70.07
-South Effingham	43.70,-70.98
-South Eliot	43.11,-70.78
-South Exeter	44.94,-69.14
-South Freeport	43.82,-70.11
-South Gardiner	44.18,-69.76
-South Gorham	43.64,-70.42
-South Gouldsboro	44.43,-68.11
-South Gray	43.85,-70.32
-South Hancock	44.50,-68.26
-South Harpswell	43.74,-70.01
-South Hiram	43.81,-70.88
-South Hollis	43.57,-70.63
-South Hope	44.21,-69.19
-South Jefferson	44.16,-69.55
-South Lagrange	45.12,-68.82
-South Lebanon	43.34,-70.94
-South Leeds	44.25,-70.13
-South Levant	44.86,-69.01
-South Lewiston	44.07,-70.14
-South Liberty	44.32,-69.36
-South Limington	43.71,-70.70
-South Lincoln	45.33,-68.58
-South Livermore	44.37,-70.21
-South Lubec	44.82,-66.99
-South Monmouth	44.18,-69.99
-South Montville	44.37,-69.27
-South Naples	43.93,-70.61
-South Newburgh	44.69,-69.01
-South Newcastle	44.00,-69.61
-South Orland	44.51,-68.76
-South Orrington	44.69,-68.82
-South Paris	44.22,-70.51
-South Parsonsfield	43.70,-70.90
-South Penobscot	44.45,-68.70
-South Poland	44.02,-70.36
-South Portland	43.64,-70.24
-South Portland Gardens	43.64,-70.32
-South Princeton	45.15,-67.50
-South Rangeley	44.94,-70.75
-South Robbinston	45.06,-67.12
-South Rumford	44.53,-70.53
-South Sanford	43.41,-70.74
-South Sebec	45.21,-69.08
-South Side	43.13,-70.68
-South Solon	44.91,-69.78
-South Springfield	45.37,-68.10
-South Strong	44.77,-70.21
-South Surry	44.41,-68.46
-South Thomaston	44.05,-69.13
-South Trescott	44.77,-67.07
-South Turner	44.21,-70.24
-South Union	44.20,-69.26
-South Vassalboro	44.39,-69.62
-South Waldoboro	44.04,-69.33
-South Warren	44.08,-69.22
-South Waterford	44.17,-70.72
-South West Bend	43.98,-70.13
-South Windham	43.74,-70.42
-South Windsor	44.28,-69.60
-South Woodstock	44.35,-70.56
-South Woodville	45.48,-68.48
-Southport	43.84,-69.66
-Southwest Harbor	44.28,-68.33
-Spang Mills	43.48,-70.64
-Spaulding	46.88,-68.24
-Spears Corner	44.20,-69.88
-Split Hill	44.83,-67.04
-Spooners Mill	45.01,-69.27
-Sprague City	43.63,-70.84
-Sprague Corner	44.07,-69.44
-Sprague Mill	44.19,-70.12
-Spragues Mill	44.91,-69.25
-Spragueville	46.63,-68.01
-Spring Lake	45.23,-70.28
-Spring Lake Landing	45.25,-70.22
-Springfield	45.40,-68.14
-Springvale	43.47,-70.79
-Spruce Head	44.01,-69.13
-Spruce Shores	43.83,-69.60
-Spruceworld	43.84,-69.62
-Spurrs Corner	44.06,-70.56
-Stacyville	45.86,-68.51
-Standish	43.74,-70.55
-Stanwood Park	43.62,-70.27
-Starbird Corner	44.08,-69.98
-Starbirds	45.14,-69.23
-Starboard	44.61,-67.40
-Starks	44.73,-69.97
-State Road	46.73,-68.15
-Steadman Landing	45.26,-69.20
-Steep Falls	43.79,-70.65
-Steep Landing	44.79,-68.17
-Stephensons Landing	45.70,-68.98
-Stetson	44.89,-69.14
-Steuben	44.51,-67.97
-Stevens Corner	44.28,-69.05
-Stevens Mill	44.09,-70.26
-Stevensville	46.80,-67.86
-Stickney Corner	44.25,-69.38
-Stillwater	44.91,-68.69
-Stillwater Avenue	44.84,-68.74
-Stockholm	47.04,-68.14
-Stockton Springs	44.49,-68.86
-Stoneham	44.25,-70.81
-Stones Corner	44.50,-70.18
-Stonington	44.16,-68.67
-Storers Corner	45.13,-68.89
-Stover Corner	44.41,-68.75
-Stovers Corner	44.33,-69.26
-Stow	44.16,-70.99
-Stratton	45.14,-70.44
-Stricklands	44.37,-70.14
-Strong	44.81,-70.22
-Stronghold	44.92,-69.47
-Stroudwater	43.66,-70.31
-Stuarts Corner	44.14,-70.60
-Stubbs Corner	44.96,-69.18
-Sturtevant Hill	44.34,-69.99
-Suckerville	43.93,-70.39
-Sugar Hill	46.44,-67.80
-Sullivan	44.52,-68.20
-Summer Harbor	44.42,-68.11
-Summerhaven	44.39,-69.81
-Sumner	44.39,-70.44
-Sunset	44.21,-68.70
-Sunset Landing	43.73,-70.14
-Sunset Park	43.62,-70.31
-Sunshine	44.20,-68.58
-Surfside	43.53,-70.36
-Surry	44.50,-68.50
-Swans Island	44.15,-68.45
-Swanville	44.52,-69.00
-Sweden	46.94,-68.14
-Tacoma	44.19,-69.97
-Tainter Corner	44.59,-70.37
-Tallwood	44.34,-69.96
-Tarratine	45.62,-69.85
-Tatnic	43.28,-70.68
-Tattle Corner	43.47,-70.41
-Tea Kettle Corner	43.44,-70.44
-Temple	44.69,-70.23
-Temple Heights	44.35,-68.95
-Temple Intervale	44.71,-70.26
-Ten Degree	44.79,-70.71
-Tenants Harbor	43.97,-69.21
-The Crossing	46.14,-68.92
-The Forks	45.34,-69.97
-The Highlands	45.48,-69.58
-The Landing	45.07,-70.59
-The Pines	45.19,-67.99
-Thomaston	44.08,-69.18
-Thompson	44.86,-69.44
-Thompson Corner	44.86,-69.47
-Thorndike	44.58,-69.28
-Thornton Heights	43.62,-70.31
-Three Streams	45.51,-70.25
-Thurstons Corner	44.47,-69.34
-Tibbettstown	44.72,-67.76
-Tilton Corner	44.79,-69.49
-Timoney	46.12,-68.10
-Tobeys Corner	43.12,-70.79
-Todds Corner	44.99,-69.43
-Todds Corners	43.83,-70.14
-Togus	44.27,-69.70
-Tomah	45.55,-67.65
-Topsfield	45.42,-67.74
-Topsham	43.93,-69.98
-Tory Hill	43.61,-70.54
-Toulouse Corner	44.61,-69.70
-Town Hill	44.40,-68.33
-Town House Corners	43.38,-70.48
-Town Landing	43.54,-70.33
-Townhouse Corner	44.31,-69.09
-Trainor Corner	44.22,-69.66
-Trap Corner	44.33,-70.56
-Trefethen	43.67,-70.19
-Tremont	44.25,-68.35
-Trenton	44.44,-68.37
-Trevett	43.88,-69.67
-Troutdale	45.29,-69.84
-Troy	44.66,-69.24
-Troy Center	44.68,-69.26
-Tunk Lake	44.55,-68.11
-Turbats Creek	43.35,-70.45
-Turner	44.26,-70.26
-Turner Center	44.27,-70.22
-Turners Corner	44.03,-69.42
-Twelve Corners	44.46,-70.12
-Twin Brook	45.03,-69.11
-Twitchell Corner	44.69,-69.37
-Two Trails	43.73,-70.59
-Tyler Corner	44.59,-69.76
-Tylers Corner	43.64,-70.61
-Union	44.21,-69.27
-Union Falls	43.57,-70.56
-Unionville	44.58,-67.99
-Unity	44.61,-69.33
-Upper Abbot	45.21,-69.46
-Upper Dam	44.88,-70.86
-Upper Drew	45.63,-68.07
-Upper Frenchville	47.28,-68.42
-Upper Gloucester	43.99,-70.29
-Upper Landing	43.33,-70.57
-Upper Shirley Corner	45.38,-69.60
-Upton	44.69,-71.01
-VA Boston Healthcare System, Jamaica Plain Campus	47.27,-68.59
-VA Boston Healthcare System, West Roxbury Campus	46.13,-67.84
-VA Central Western Massachusetts Healthcare System	45.05,-69.88
-VA Connecticut Healthcare System, Newington Campus	46.88,-68.01
-VA Connecticut Healthcare System, West Haven Campus	44.81,-68.74
-Van Buren	47.16,-67.94
-Vanceboro	45.56,-67.43
-Varney Corner	44.10,-69.97
-Varney Crossing	43.29,-70.74
-Vassalboro	44.46,-69.68
-Veazie	44.84,-68.71
-Verona	44.57,-68.79
-Verona Park	44.55,-68.80
-Vickerys Corner	44.40,-69.11
-Vienna	44.53,-69.98
-Villa Vaughn	44.90,-68.76
-Vinalhaven	44.05,-68.83
-Violette Settlement	47.22,-68.65
-Virginia	44.53,-70.55
-Waite	45.33,-67.69
-Waites Landing	43.71,-70.22
-Waldo	44.51,-69.08
-Waldoboro	44.10,-69.38
-Wales Corner	44.18,-70.07
-Walker	46.61,-68.24
-Walker Corner	44.57,-69.22
-Walker Settlement	46.03,-68.21
-Wallagrass	47.13,-68.60
-Walnut Hill	43.82,-70.25
-Walpole	43.96,-69.56
-Waltham	44.71,-68.34
-Waltons Mill	44.85,-69.65
-Wards Cove	43.83,-70.61
-Warren	44.12,-69.24
-Washburn	46.79,-68.16
-Washburn Junction	46.69,-67.99
-Washington	44.27,-69.37
-Washington Junction	44.55,-68.38
-Waterboro	43.54,-70.72
-Waterboro Center	43.59,-70.71
-Waterford Flat	44.18,-70.72
-Waterville	44.55,-69.63
-Wattons Mill	44.17,-69.23
-Waukeag	44.52,-68.24
-Waverley	44.80,-69.38
-Wayne	44.35,-70.07
-Wayside Trailer Park	43.18,-70.62
-Webb Hill	45.53,-68.35
-Webster	44.89,-68.66
-Webster Corner	44.06,-70.09
-Weeks Corner	44.77,-69.47
-Weeks Mills	44.68,-70.05
-Weeksboro	46.26,-68.16
-Welchville	44.13,-70.46
-Weld	44.70,-70.42
-Weld Corner	44.72,-70.46
-Wellington	45.04,-69.60
-Wells	43.32,-70.58
-Wells Beach	43.30,-70.57
-Wells Beach Station	43.32,-70.59
-Wells Branch	43.37,-70.60
-Wesley	44.95,-67.66
-West Appleton	44.35,-69.26
-West Athens	44.95,-69.71
-West Auburn	44.16,-70.28
-West Baldwin	43.83,-70.78
-West Bangor	44.80,-68.83
-West Bethel	44.40,-70.86
-West Boothbay Harbor	43.85,-69.64
-West Bowdoin	44.05,-70.02
-West Bridgton	44.06,-70.83
-West Bristol	43.93,-69.56
-West Brooklin	44.29,-68.62
-West Brooksville	44.40,-68.76
-West Brownfield	43.92,-70.98
-West Buxton	43.67,-70.60
-West Castine	44.42,-68.81
-West Charleston	45.07,-69.07
-West Corinth	44.95,-69.02
-West Cumberland	43.82,-70.31
-West Deer Isle	44.17,-68.70
-West Denmark	43.99,-70.87
-West Dover	45.11,-69.24
-West Dresden	44.09,-69.77
-West Durham	43.95,-70.15
-West Ellsworth	44.56,-68.55
-West End	43.65,-70.27
-West Enfield	45.24,-68.65
-West Falmouth Corner	43.75,-70.30
-West Farmington	44.66,-70.16
-West Forks	45.40,-70.04
-West Franklin	44.58,-68.26
-West Fryeburg	44.06,-70.98
-West Georgetown	43.81,-69.77
-West Glenburn	44.88,-68.88
-West Gorham	43.69,-70.49
-West Gouldsboro	44.47,-68.09
-West Gray	43.86,-70.38
-West Hampden	44.75,-68.93
-West Harpswell	43.77,-70.01
-West Harrington	44.60,-67.84
-West Hollis	43.63,-70.66
-West Jonesport	44.53,-67.62
-West Kennebunk	43.41,-70.58
-West Lebanon	43.38,-70.95
-West Leeds	44.29,-70.17
-West Levant	44.90,-69.01
-West Lubec	44.81,-67.07
-West Mills	44.76,-70.02
-West Minot	44.17,-70.37
-West Montville	44.48,-69.30
-West Mount Vernon	44.45,-70.02
-West Newfield	43.64,-70.92
-West Old Town	44.98,-68.78
-West Palmyra	44.83,-69.41
-West Paris	44.32,-70.57
-West Pembroke	44.95,-67.18
-West Penobscot	44.47,-68.78
-West Peru	44.52,-70.47
-West Point	43.75,-69.86
-West Poland	44.04,-70.44
-West Pownal	43.90,-70.24
-West Princeton	45.19,-67.59
-West Rockport	44.18,-69.14
-West Scarborough	43.57,-70.39
-West Searsmont	44.40,-69.25
-West Sebago	43.95,-70.73
-West Seboeis	45.53,-68.88
-West Sidney	44.40,-69.80
-West Southport	43.82,-69.68
-West Stonington	44.17,-68.69
-West Sullivan	44.53,-68.23
-West Sumner	44.36,-70.46
-West Surry	44.52,-68.61
-West Tremont	44.26,-68.39
-West Trenton	44.44,-68.40
-West Waldoboro	44.08,-69.40
-West Washington	44.26,-69.44
-West Windsor	44.34,-69.61
-West Winterport	44.62,-68.95
-Westbrook	43.68,-70.37
-Western Landing	43.71,-70.12
-Westfield	46.57,-67.92
-Weston	45.73,-67.88
-Westport	43.90,-69.71
-Wheelock	47.22,-68.74
-Wheelock Mill	47.00,-68.90
-Whitcombs Corner	44.44,-69.10
-White Oak Corner	44.16,-69.29
-White Rock	43.75,-70.47
-White School Corner	44.81,-69.76
-Whitefield	44.17,-69.63
-Whites Corner	43.94,-70.30
-Whiting	44.79,-67.18
-Whitlocks Mill	45.16,-67.23
-Whitney Corner	44.16,-69.31
-Whitneyville	44.72,-67.52
-Wight Corners	44.09,-70.54
-Wildes Corner	43.36,-70.47
-Wildes District	43.36,-70.45
-Wildwood	44.91,-69.46
-Willard Square	43.64,-70.23
-Williamsburg	45.38,-69.12
-Willimantic	45.31,-69.41
-Willis Corners	44.10,-69.17
-Willis Mill	44.31,-70.68
-Wilson Corner	44.64,-68.56
-Wilsons Mills	44.94,-71.04
-Wilton	44.59,-70.23
-Wilton Intervale	44.63,-70.29
-Windemere	44.63,-69.32
-Windham Center	43.79,-70.41
-Windham Hill	43.80,-70.43
-Windsor	44.31,-69.58
-Windsorville	44.30,-69.55
-Wings Mills	44.43,-69.90
-Winkumpaugh Corners	44.63,-68.63
-Winn	45.49,-68.37
-Winnecook	44.65,-69.39
-Winnegance	43.87,-69.82
-Winslow	44.55,-69.62
-Winslow Hill	44.10,-69.46
-Winslows Mills	44.12,-69.41
-Winter Harbor	44.40,-68.08
-Winterport	44.64,-68.85
-Winterville	46.97,-68.57
-Winthrop	44.31,-69.98
-Winthrop Center	44.30,-69.92
-Wiscasset	44.00,-69.67
-Witham Corner	44.71,-69.95
-Wonderland	44.23,-68.32
-Woodbridge Corner	45.87,-68.33
-Woodfords	43.67,-70.28
-Woodfords Corner	43.67,-70.28
-Woodland	45.16,-67.40
-Woodland Center	46.89,-68.14
-Woodland Junction	45.17,-67.41
-Woodmans Mills	44.37,-69.25
-Woodstock	44.37,-70.61
-Woolwich	43.92,-69.80
-Worthley Pond	44.47,-70.39
-Wyman	44.51,-67.86
-Wytopitlock	45.64,-68.08
-Yagger	44.21,-70.63
-Yarmouth	43.80,-70.19
-Yarmouth Junction	43.81,-70.19
-Yellow Head	43.86,-69.49
-York Beach	43.17,-70.61
-York Center	43.22,-70.69
-York Cliffs	43.19,-70.60
-York Corner	43.15,-70.67
-York Harbor	43.14,-70.65
-York Heights	43.15,-70.64
-York Landing	43.73,-70.21
-York Village	43.14,-70.65
-Yorks Corner	44.50,-69.01
-Youngs Corner	44.13,-70.27
-Youngtown	44.27,-69.10
+0Abbot Village	452,-694
+5ts Mill	445,-706
+1cadia	470,-680
+2ton	435,-709
+1daline	468,-681
+3ms	453,-689
+5 Corner	434,-704
+2dison	446,-677
+2miralty Village	431,-707
+1gamenticus Station	432,-708
+<Village	432,-707
+1irport Village	435,-705
+1lbion	445,-694
+2ewife	434,-706
+3xander	451,-675
+2fred	435,-707
+6 Mills	435,-707
+2lagash	471,-690
+3ens Mills	447,-701
+2na	441,-696
+4 Center	441,-696
+2ton	450,-687
+1mherst	448,-684
+1ndover	446,-708
+2son	448,-699
+1ppleton	443,-692
+1rchers Corners	448,-684
+2ey	447,-689
+2gyle	450,-687
+2nold Corner	447,-691
+6s Landing	450,-699
+2rowsic	438,-698
+2undel	434,-705
+1sh Point	441,-691
+3dale	438,-698
+3land	466,-684
+3ville	445,-681
+2ticou	443,-683
+1thearns Corner	443,-692
+4ns	449,-697
+2kinson Mills	452,-691
+2lantic	442,-684
+2tean Landing	456,-703
+1uburn	441,-702
+6 Plains	442,-702
+2gusta	443,-698
+2rora	448,-683
+1von	448,-703
+4 Corner	448,-703
+1yers	450,-672
+0Babb Corner	436,-704
+2ck Narrows	439,-696
+5Settlement	472,-689
+3ons Corner	444,-698
+2iley Corner	442,-697
+7Island	437,-700
+2ker Corner	438,-704
+2ld Head	432,-706
+6ill Crossing	433,-707
+5Mountain	450,-708
+4win Corners	442,-684
+2ncroft	457,-680
+3gor	448,-688
+4s Beach	445,-698
+2r Harbor	444,-682
+4Mills	436,-706
+3ing	451,-673
+3nard	454,-692
+7 Corner	453,-691
+4jum	449,-704
+3retts	469,-680
+4on Corner	448,-698
+3tlett Mills	434,-705
+2sin Mills	449,-687
+3s Harbor	442,-683
+2tchelders Crossing	442,-699
+3esville	461,-684
+3h	439,-698
+2y Point	438,-698
+4View	435,-704
+3side	445,-684
+3ville	439,-696
+1eacon Corner	434,-704
+3ls	445,-676
+3ns Corner	446,-702
+3r Trap Landing	452,-678
+2ddington	448,-681
+3ell Crossing	431,-707
+2ech Ridge	432,-707
+2lfast	444,-690
+3grade	444,-698
+8 Lakes	445,-699
+3mont Corner	444,-691
+2mis	449,-707
+2nedicta	458,-684
+3ner Corner	442,-693
+5tt	461,-681
+3son	454,-693
+3ton	446,-696
+6 Falls	446,-696
+7Station	446,-696
+2rnard	442,-684
+3ry Mills	446,-704
+5s Corner	451,-692
+3wick	433,-709
+2thel	444,-708
+1ickfords Corner	444,-692
+2ddeford	435,-704
+9 Pool	434,-703
+2gelow	451,-703
+2llings Hill	448,-692
+2ngham	451,-699
+4o	454,-677
+2rch Harbor	444,-680
+7ill Mobile Home Park	448,-688
+2shop	468,-679
+1lack Corner	443,-687
+5inton Corners	441,-691
+5stone	470,-682
+7rap	438,-703
+5water	464,-683
+6ell Corner	448,-698
+3ine	465,-679
+4r	456,-702
+4sdell Corners	434,-709
+3ke Corner	440,-701
+3nchard	453,-696
+9 Corner	450,-673
+2ue Hill	444,-686
+9 Falls	444,-686
+5Point	436,-704
+4berry Ridge Trailer Park	434,-707
+1oat Landing Camp	472,-692
+2dfish	454,-694
+2g Corner	448,-693
+3ues Corner	442,-694
+2lsters Mills	441,-706
+2nny Eagle	437,-706
+2othbay	439,-696
+8 Harbor	438,-696
+9Park	436,-704
+2wdoin Center	440,-700
+7ham	440,-699
+3erbank	453,-692
+2yd Corner	433,-707
+5Lake	452,-689
+1radbury	472,-688
+8s	472,-686
+4ford	451,-689
+8 Center	451,-689
+4ley	449,-686
+7s Corner	437,-703
+3eburn	432,-706
+3ssua	456,-699
+2emen	440,-694
+3wer	448,-688
+4ster Corner	448,-678
+2ickett Place	443,-710
+3dgewater	464,-678
+; Corner	464,-678
+5ton	440,-707
+3ggs Corner	431,-707
+4hams Cove	438,-698
+5ton	450,-697
+8 Corner	437,-703
+6water	438,-699
+3mstone Corner	442,-705
+3stol	440,-695
+3xham	432,-707
+7 Lower Corners	432,-707
+2oad Cove	440,-694
+5view Park	436,-703
+3oklin	443,-686
+5s	446,-691
+6ville	444,-687
+5ton	455,-678
+3wn Corner	469,-679
+5field	439,-709
+5s Corner	442,-699
+5ville	453,-690
+: Junction	454,-690
+2unswick	439,-700
+9 Station	439,-699
+2yant Pond	444,-706
+6s Corner	444,-690
+1uckfield	443,-704
+4s Harbor	446,-674
+6Mills	446,-687
+5port	446,-688
+9 Center	446,-688
+2ffalo	468,-685
+4um Hill	433,-706
+2gbee	468,-682
+2llen Mills	447,-701
+2nganuc Landing	439,-700
+2rdin Corner	451,-695
+3kettville	443,-693
+3lington	452,-684
+3nham	447,-694
+4t Landing	471,-684
+6Mill	471,-687
+3ton Corner	448,-695
+2stins Island	438,-701
+2tlers Corner	444,-691
+3terfield Landing	457,-679
+2xton	436,-705
+6 Center	436,-705
+1yron	447,-706
+0Cain Crest Trailer Park	431,-707
+2lais	452,-673
+3dwell Corner	442,-705
+3ifornia	471,-681
+2mbridge	450,-695
+3den	442,-691
+3p Ellis	435,-704
+5Wavus	442,-695
+4bell	468,-680
+2naan	448,-696
+3ton	444,-703
+6 Point	445,-703
+2pe Cottage	436,-702
+5Elizabeth	436,-702
+5Neddick	432,-706
+5Porpoise	434,-704
+5Rosier	443,-688
+2ratunk	452,-700
+3dville	451,-686
+3ibou	469,-680
+3mel	448,-690
+3r Corner	450,-692
+4abassett	451,-702
+4iveau Mill	472,-684
+4oll	454,-680
+4s Corner	444,-694
+3son	468,-681
+3thage	446,-705
+3vers Corner	443,-690
+3y	460,-679
+4s Mills	461,-679
+2sco	440,-705
+3h Corner	436,-703
+3s Corner	449,-697
+3tine	444,-688
+4le Harmony	449,-695
+2thance	440,-699
+1edar	451,-675
+5 Grove	441,-698
+2nter	443,-684
+6 Belmont	444,-691
+7Lebanon	434,-709
+8ovell	442,-709
+7Minot	441,-703
+8ontville	444,-692
+7Vassalboro	444,-696
+6ville	447,-677
+4ral Landing	437,-701
+1hadbournes Mills	436,-707
+3mberlain	439,-695
+7s Corner	441,-706
+3ndler Cove Landing	437,-701
+3pman	466,-682
+3rles Chase Corner	433,-706
+7ton	451,-690
+5otte	450,-672
+3se Corner	448,-704
+6Mills	443,-703
+5s Pond	432,-706
+2ebeague Island	437,-701
+3lsea	442,-697
+3rryfield	446,-679
+3ster	454,-685
+7ville	446,-701
+4uncook	461,-694
+2icopee	437,-706
+3na	445,-695
+3sholm	445,-702
+2ristmas Cove	438,-696
+1ider Hill	432,-707
+2ty Camp Landing	459,-681
+5Point	444,-690
+1lark Island	440,-692
+5s Corner	444,-693
+7Mills	436,-706
+3y Hill	432,-706
+4ton Lake	466,-695
+2eaves Landing	437,-701
+3veland	473,-683
+2iff Island	437,-701
+< Landing	437,-701
+4ton	448,-685
+3nton	446,-695
+2ock Farm Corner	434,-704
+1obb Cove	441,-705
+3urn	449,-692
+6 Gore	454,-708
+2dyville	454,-677
+2lby	469,-681
+3d Brook	448,-689
+3e Corner	452,-695
+4s	444,-695
+3umbia	447,-678
+8 Falls	446,-677
+2ncordville	432,-706
+3nors Corner	444,-693
+3vene	439,-707
+2ok Mills	440,-706
+4s Corner	439,-699
+3lidge Corner	450,-692
+3per	450,-674
+6s Corner	434,-705
+8Mills	443,-696
+3s Canyon	447,-706
+2rea	444,-680
+3inna	449,-693
+7 Center	450,-692
+3nish	438,-708
+4ville	448,-697
+3son Corner	449,-696
+6s Corner	450,-697
+2stigan	450,-686
+2te Corner	469,-679
+2usins Island	438,-701
+2zy Corners	433,-706
+1rams Corner	431,-708
+3nberry Isles	442,-683
+4es Corners	446,-687
+3wford	450,-676
+2escent Beach	441,-691
+9Lake	440,-705
+2iehaven	438,-689
+2ocker Turn	450,-685
+7town	454,-683
+6tt Corner	439,-702
+8s Corner	436,-703
+3pley Turn	457,-679
+3ss Rock	471,-690
+5man Corner	440,-701
+3useville	468,-681
+3ws Nest	443,-690
+2ystal	460,-684
+1umberland Center	438,-703
+A Station	438,-702
+;Foreside	438,-702
+;Mills	437,-703
+3mings	432,-708
+2ndys Harbor	438,-699
+2rtis Corner	443,-701
+2shing	440,-692
+7 Briggs	438,-701
+8Island	436,-702
+2tler	447,-672
+3ts Island	431,-707
+1yrs	450,-695
+0Daaquam	466,-700
+2igle	472,-685
+6 Mill	472,-681
+2llas	450,-706
+2mariscotta	440,-695
+< Mills	441,-695
+<-Newcastle	440,-695
+4scus	448,-691
+2ne Corner	448,-700
+3forth	457,-679
+3ville	440,-703
+8 Corner	440,-703
+2rk Harbor	443,-689
+2vis Corner	442,-694
+6Town	451,-708
+2ys Ferry	440,-698
+5Mill	435,-706
+3ton	436,-706
+1eadmans Corner	465,-681
+4water	451,-698
+2blois	447,-680
+2cker Corner	447,-696
+2dham	447,-687
+2ep Cut	439,-700
+3r Isle	442,-687
+4ing	437,-703
+7 Junction	437,-703
+2lano Park	436,-702
+2nmark	440,-708
+3nistown	457,-703
+4ysville	449,-672
+2rby	452,-690
+2troit	448,-693
+2xter	450,-693
+1ickey	471,-691
+4vale	445,-705
+2rigo Corner	444,-695
+2xfield	445,-705
+8 Center	445,-704
+3ie Corner	450,-693
+3mont	447,-692
+7 Center	447,-691
+3on Corner	447,-695
+1odge Corner	445,-690
+2g Corner	438,-705
+:s	448,-682
+4Island Corner	444,-690
+4Town	447,-674
+3town	448,-694
+2lby	456,-686
+3ley Corner	438,-704
+2rman	446,-678
+2uble A Landing	449,-688
+3ghty Landing	437,-702
+4las Hill	439,-707
+2ver	439,-696
+5 South Mills	451,-692
+5-Foxcroft	452,-692
+2w Corner	437,-706
+4Pines	450,-683
+1rake Corner	443,-691
+5s Island	433,-706
+2esden Mills	441,-697
+2inkwater Corner	441,-701
+2y Mills	439,-704
+3den	446,-702
+1ucktrap	443,-690
+2dley	462,-682
+2negrass Golf Community	435,-704
+3ham Corner	452,-693
+3kertown	440,-705
+3ns	439,-702
+5 Corners	444,-699
+2rbin Corner	450,-692
+3gintown	438,-708
+1yer Brook	461,-682
+5Corner	439,-700
+7ve	438,-699
+4ville	456,-703
+0Eagle Lake	470,-686
+2rley Landing	453,-694
+3nest Corner	450,-691
+2st Andover	446,-707
+6uburn	441,-702
+5Baldwin	438,-707
+7ngor	448,-688
+6enton	446,-695
+7thel	445,-707
+6lue Hill	444,-685
+6oothbay	439,-696
+6rownfield	439,-709
+6uckfield	443,-703
+9sport	447,-687
+5Corinth	450,-690
+5Deering	437,-703
+7nmark	440,-708
+6ixfield	446,-703
+8mont	447,-691
+6over	452,-692
+5Eddington	448,-686
+7gecomb	439,-696
+6liot	432,-708
+6nd	437,-702
+6xeter	450,-691
+5Franklin	446,-682
+7iendship	440,-693
+7yeburg	440,-709
+5Gray	439,-703
+5Hampden	448,-688
+7rpswell	438,-699
+6ebron	442,-703
+6iram	439,-708
+6odgdon	461,-678
+7lden	447,-686
+5Knox	445,-692
+5Lamoine	445,-683
+6ebanon	434,-709
+6imington	437,-707
+7vermore	444,-701
+6owell	452,-684
+6yndon	468,-679
+5Machias	447,-674
+7dison	448,-698
+8rid	449,-704
+6ercer	447,-699
+6illinocket	456,-686
+8ton	444,-706
+6onmouth	442,-700
+5New Portland	449,-700
+8port	448,-692
+6orthport	444,-690
+5Orland	446,-687
+7rington	447,-688
+6tisfield	441,-705
+5Palermo	444,-694
+7rsonsfield	437,-708
+6eru	445,-704
+6ittston	442,-697
+6oland	441,-703
+5Raymond	439,-704
+5Sangerville	452,-693
+6ebago	439,-706
+6teuben	445,-679
+6ullivan	445,-682
+7mner	444,-704
+7rry	445,-684
+6weden	441,-708
+5Thorndike	446,-692
+6roy	447,-692
+5Union	442,-692
+5Vassalboro	444,-696
+5Wales	442,-700
+7rren	441,-692
+7terboro	436,-707
+:ford	442,-707
+6ilton	446,-702
+7nn	454,-683
+8slow	445,-695
+8throp	443,-699
+4brook	447,-683
+4on	466,-679
+6 Center	466,-679
+7Station	467,-679
+4port	449,-670
+2ton	456,-678
+1ddington	448,-687
+2en	444,-683
+3s Corner	452,-694
+5Falls	440,-706
+2gecomb	440,-696
+2munds	449,-672
+1ggemoggin	443,-687
+2ypt	446,-683
+1ight Corners	436,-703
+1liot	432,-708
+3zabeth Park	436,-702
+2lingwood Corner	447,-689
+4ot Landing	449,-688
+4s Corner	450,-692
+3sworth	445,-684
+9 Falls	446,-684
+2more	440,-692
+3s	433,-706
+3wood	437,-706
+2semore Landing	452,-679
+1mbden	449,-699
+2erson Corner	448,-695
+4y Mills	435,-708
+5s Bridge	432,-707
+7Corner	437,-708
+2ory Corner	436,-705
+2pire	440,-703
+1nfield	452,-686
+1pping	447,-678
+1stabrook Settlement	459,-679
+3court Station	475,-692
+3es Hill	434,-708
+1tna	448,-691
+4 Center	448,-691
+1ugley Corner	441,-694
+2stis	452,-705
+1vans Corner	445,-691
+2ergreen Landing	437,-702
+1xeter Center	450,-691
+8orners	450,-692
+7Mills	450,-691
+0Fairbanks	447,-702
+4field	446,-696
+9 Center	446,-697
+4mount	467,-679
+2lmouth	437,-702
+8 Foreside	437,-702
+2rmingdale	442,-698
+7ton	447,-702
+: Falls	446,-701
+3wells Corner	446,-693
+2yette	444,-700
+7 Corner	444,-701
+1elch Corner	437,-708
+2rnald Shore	434,-710
+3ry Beach	435,-704
+6Village	436,-702
+2ylers Corner	441,-694
+1ish Street	441,-710
+2ve Corners	441,-704
+5Islands	438,-697
+5Mile Corners	446,-687
+5Points	435,-705
+1laggs Trailer Park	432,-706
+3nders Corner	442,-694
+3t Landing	444,-688
+2etcher Field	450,-679
+8s Landing	446,-684
+1oggs Corner	442,-702
+2rest	456,-677
+6 City	457,-677
+; Landing	457,-677
+3istall Corners	432,-707
+3t Baldwin	438,-698
+5Edgecomb	440,-697
+5Fairfield	468,-678
+5George	444,-688
+6orges	437,-702
+5Kent	473,-686
+9 Mills	472,-686
+:Village	472,-686
+5Levett	436,-702
+6yon	437,-702
+5Popham	438,-698
+6reble	436,-702
+5Scammel	436,-702
+4unes Rocks	434,-704
+2sters Corner	438,-704
+2ur Corners	469,-678
+4nier	474,-683
+2wler Landing	448,-689
+1rankfort	446,-689
+5lin	446,-682
+8 Road	445,-683
+2eedom	445,-693
+4port	439,-701
+3nch Mill	450,-691
+7Settlement	450,-687
+6boro	441,-684
+6s Corner	442,-699
+6ville	467,-683
+2iendship	440,-693
+2ye	446,-706
+4 Island	438,-705
+4burg	440,-710
+8 Center	441,-709
+0Gag Corner	437,-704
+2ntners Landing	458,-684
+2rdiner	442,-698
+3land	450,-692
+3rison Hills Estates	436,-703
+1eorgetown	438,-698
+2rrish Corner	446,-693
+7ville	444,-681
+4y	450,-688
+2tchell Corner	445,-697
+1hent	443,-692
+1ilbertville	445,-703
+3ead	444,-710
+3ford	454,-687
+3man Corner	451,-693
+1lantz Corner	438,-704
+2en Cove	441,-691
+4burn Center	449,-688
+4don	441,-694
+4mere	440,-693
+4wood	458,-681
+2obe	442,-694
+1offs Corner	452,-692
+2odale Corner	447,-688
+4ell Corner	453,-694
+4rich	468,-678
+8 Corner	447,-701
+4win	468,-679
+7 Corner	446,-696
+8Siding	445,-681
+7s Mills	435,-706
+3se Falls	444,-688
+6Rocks	441,-688
+; Beach	434,-704
+2rdon Corner	450,-692
+3ham	437,-704
+2uld Corner	441,-705
+6Landing	449,-688
+5sboro	445,-680
+1rand Beach	435,-704
+6Isle	473,-682
+6Lake Stream	452,-678
+4ge Corner	443,-691
+4ite Hill	443,-698
+4ts Camps	451,-708
+7Turn	443,-691
+3ss Corner	469,-679
+5y Landing	466,-686
+3y	439,-703
+4s Corner	433,-706
+2eat Diamond Island Landing	437,-702
+6Pond	449,-683
+6Works	449,-686
+3eleys Landing	452,-692
+5y Corner	444,-694
+4n Acre	431,-708
+6Lake	447,-686
+6Ridge	468,-680
+5bush	451,-686
+5e Corner	442,-702
+7Village	442,-701
+5field	450,-685
+5law Chopping Landing	452,-677
+:rossing	467,-686
+8s Corner	444,-690
+5s Corner	447,-693
+5ville	455,-696
+: Junction	455,-696
+5wood	443,-706
+4rs Corner	444,-691
+3gorys Corner	445,-693
+2imes Mill	468,-679
+3ndstone	466,-681
+3swold	464,-683
+2ove	450,-674
+5ville	437,-705
+3wstown	439,-700
+1uerette	471,-683
+2ilford	452,-694
+8 Center	452,-694
+3nea Corner	435,-704
+2shees Corner	443,-692
+0Hackett Mills	441,-703
+2ines Corner	444,-701
+2le	446,-706
+4s Corner	447,-693
+3l Quarry	443,-683
+4dale	445,-693
+4owell	443,-698
+4s Corner	461,-684
+6Mills	448,-673
+2mlin	471,-678
+3pden	447,-688
+7 Center	448,-689
+8Highlands	447,-688
+8Station	448,-689
+2ncock	445,-682
+7 Point	445,-682
+3ford	469,-683
+3over	445,-707
+2ppy Corner	452,-696
+2rborside	444,-688
+3ding	439,-699
+4y	453,-688
+5 Hill	448,-688
+3mon Beach	438,-706
+6s Corner	440,-702
+6y	450,-696
+3pswell Center	438,-700
+3rington	446,-678
+: Corner	441,-695
+5son	441,-707
+3tford	444,-704
+4land	449,-694
+3vey	464,-679
+3wards	440,-698
+2seltine Corner	451,-692
+3kell Corner	441,-703
+3tings	444,-710
+4y Corner	448,-693
+2tchs Corner	440,-698
+2ven	443,-686
+2wkins	464,-683
+2y Brook	458,-686
+3den Corner	445,-696
+7Landing	453,-702
+3ford Corner	444,-691
+3nesville	458,-680
+1ead Tide	441,-696
+5of the Tide	444,-690
+4s Corner	440,-708
+3ls Corner	443,-691
+2bron	442,-704
+2ndricks Harbor	438,-697
+2rmon	448,-689
+6 Center	448,-689
+7Pond	448,-690
+3on Island	438,-696
+3ricks	443,-687
+8 Corner	444,-690
+3sey	461,-684
+1ibberts Corner	443,-694
+2cks Corner	450,-691
+2ggins Beach	436,-703
+8Corner	440,-700
+7ville	449,-690
+3h Landing	468,-687
+5Pasture	432,-706
+4land Lake	437,-704
+9Park	440,-709
+8s	437,-703
+4pine	434,-706
+2ldreths Mill	447,-704
+3l	463,-678
+4man	462,-682
+4s Beach	435,-704
+5ide	440,-707
+2nckley	447,-696
+2ram	439,-708
+1obbs Crossing	434,-706
+2dgdon	460,-679
+7 Corners	460,-679
+2lden	448,-687
+3eb	456,-705
+3iday Beach	441,-691
+3lis Center	436,-706
+3mes Mill	444,-691
+3way Corner	446,-697
+2pe	443,-692
+2ughton	448,-706
+8ville	468,-679
+3lton	461,-678
+3ston Corner	448,-693
+2ward Corner	452,-693
+3e Brook	463,-682
+4s Corner	443,-702
+3land	452,-687
+2xies	446,-697
+2yttown	447,-674
+1udson	450,-689
+2ff Corner	451,-696
+2lls Cove	444,-682
+2ntington Mill	451,-689
+4s Corner	443,-708
+2rd	468,-680
+4 Corner	451,-692
+4s Corner	444,-690
+2son Landing	465,-682
+2tchins Corner	450,-696
+0Iceboro	441,-698
+1ndian Landing	452,-679
+7Point	444,-684
+7River	446,-676
+2galls	440,-707
+2tervale	440,-703
+1reland Corner	438,-704
+2ish Settlement	457,-679
+1sland Falls	460,-683
+7Park	443,-699
+3e Au Haut	441,-686
+4sboro	443,-689
+5ford	443,-682
+0Jackins Settlement	460,-678
+4man	456,-702
+7 Corner	451,-693
+4son	446,-691
+7ville	448,-674
+2y	445,-702
+1efferson	442,-694
+2mtland	470,-681
+2nks Landing	437,-701
+2wells Corner	463,-678
+4tt	432,-708
+1ohnson Corner	449,-693
+2nes Corner	443,-695
+6Mill	471,-688
+6Wharf	437,-702
+5boro	447,-676
+5port	445,-676
+2rdan Mills	456,-684
+2yville	446,-685
+1umbo Landing	452,-679
+0Kalers Corner	441,-694
+2ten Corner	450,-693
+1eegan	472,-680
+3nes Corner	442,-701
+2lleyland	453,-675
+2ndalls Corner	444,-691
+4uskeag	449,-689
+3nard Corner	431,-708
+4ebago	451,-708
+9 Settlement	451,-706
+6ec	447,-675
+6unk	434,-705
+9 Beach	434,-705
+:Landing	434,-705
+9port	434,-705
+5dy Corner	442,-694
+8Terrace	472,-680
+3ts Hill	444,-700
+2ough	456,-706
+2tchum	445,-709
+2yes Corner	442,-696
+2zar Falls	438,-709
+1imballs Corner	439,-706
+4les Corner	437,-706
+2ngfield	450,-702
+4man	456,-682
+4s Grove	465,-679
+5bury	451,-696
+3ney Shores	435,-704
+2ttery	431,-707
+7 Foreside	431,-707
+8Point	431,-707
+1night Corner	450,-692
+6s Corner	443,-692
+8Landing	454,-690
+6ville	436,-703
+2owles Corner	462,-683
+5ton Corner	440,-695
+8s Corner	446,-701
+3x Center	445,-692
+6orner	445,-693
+5Hill Corner	450,-693
+5Ledge Corner	446,-692
+1okadjo	457,-694
+0La Croix Depot	461,-703
+2c Frontiere	467,-700
+2grange	452,-688
+2ke Arrowhead	437,-707
+> Estates	436,-707
+5City	442,-691
+5Moxie	454,-699
+5View	453,-689
+4side Landing	449,-688
+4wood	446,-684
+2mb Place	452,-675
+4ert Lake	456,-675
+4s Corner	445,-696
+3oine Beach	444,-683
+8Corner	445,-684
+2ngtown Mill	451,-706
+2rone	447,-697
+3rabee	447,-674
+2vertue	472,-682
+2wry	440,-693
+1eathers Corner	448,-689
+2banon	434,-708
+2e	454,-683
+3ds	443,-701
+5 Junction	442,-701
+2vant	449,-689
+2wiston	441,-702
+8 Junction	440,-703
+2xington	450,-700
+1ibby Corner	453,-685
+6Hill	442,-698
+5town	437,-703
+3erty	444,-693
+7 Corner	440,-709
+2gonia	436,-703
+2lle	473,-681
+3y Bay	456,-695
+2merick	437,-708
+8 Mills	437,-708
+4stone	469,-678
+3ington	437,-707
+2ncoln	454,-685
+7 Center	454,-685
+8Mills	450,-693
+7ville	443,-690
+< Center	443,-691
+3ekin	438,-696
+3neus	460,-680
+4haven West	439,-700
+2sbon	440,-701
+6 Center	440,-701
+7Falls	440,-701
+2tchfield Corners	441,-700
+;Plains	442,-699
+3tle Canada	463,-682
+7Deer Isle	443,-687
+8iamond Island Landing	437,-702
+7Falls	437,-704
+<-South Windham	437,-704
+7Italy	456,-687
+7Machias	446,-672
+7River Corner	447,-678
+6field Corner	441,-703
+6john Island	438,-701
+6ton	462,-678
+2vermore	444,-702
+9 Center	444,-702
+:Falls	445,-702
+1ocke Mills	444,-707
+4s Corner	444,-700
+2ng Beach	438,-706
+5Cove	440,-692
+5Island	437,-702
+5Pond	456,-701
+2on Lake	450,-706
+2ring AFB	469,-679
+2udville	439,-694
+2veitts Field	436,-702
+4ll	441,-709
+2well	452,-685
+6town	455,-706
+4r Beddington	448,-680
+6Dennysville	449,-672
+6Landing	433,-706
+6Mill	448,-697
+6Shirley Corner	454,-696
+6Village	434,-705
+1ubec	449,-670
+2cas Corner	443,-693
+3erne-in-Maine	447,-686
+3ky Landing	449,-688
+2dlow	461,-680
+2nts Corner	437,-703
+1yford Corner	449,-693
+2nchville	442,-708
+0MacMahan	438,-697
+3Quillis Corner	446,-702
+3hias	447,-675
+7port	447,-674
+3kamp	456,-700
+3s Corner	439,-707
+3wahoc	456,-683
+3y	449,-708
+2dawaska	474,-683
+3docks Corner	443,-693
+3ison	448,-699
+3rid	449,-705
+6 Junction	449,-704
+2ine	468,-679
+4stream	450,-695
+2lbons Mills	448,-697
+2nchester	443,-699
+3ks Corner	442,-693
+3set	443,-683
+4on Corner	449,-695
+2ple Grove	467,-679
+5ton	467,-682
+5wood	437,-709
+2ranacook	444,-700
+3gison	469,-681
+3iaville	447,-684
+4ner	437,-702
+4on	449,-673
+3ks Corner	445,-686
+3lboro	445,-683
+3rtown	438,-698
+3s Hill	465,-679
+9-Blaine	465,-679
+4h Corner	449,-693
+5field	447,-675
+5ville	446,-678
+4ton Corner	440,-703
+3tells Mobile Home Court	448,-688
+4in	440,-694
+6 Corner	448,-698
+6s Corner	443,-692
+7ville	439,-692
+2sardis	465,-684
+3t Landing	439,-701
+2tinicus	439,-689
+3tawamkeag	455,-684
+4imo Place	448,-676
+2yfield Corner	451,-697
+3sville	468,-680
+3ville	444,-708
+1cCarty	461,-690
+3oy Crossing	444,-696
+2Farlands Corner	444,-693
+2Graw	468,-680
+4egor Mill	450,-690
+2Keen Crossing	466,-687
+3inley Estates	437,-702
+2Nally	469,-686
+2Shea	468,-678
+1eadowbrook	438,-698
+6view	445,-703
+8lle	455,-684
+2chanic Falls	441,-704
+2ddybemps	450,-674
+3ford	453,-688
+7 Center	452,-688
+3omak	440,-694
+3way	456,-685
+2e Corners	436,-710
+3ting House Hill	436,-702
+2lvin Heights	442,-691
+2rcer	447,-699
+3epoint	438,-700
+3rill Corner	439,-710
+4ow Landing	441,-706
+4ymeeting Trailer Park	439,-699
+2xico	446,-706
+1ichigan Settlement	472,-685
+2ddle Dam	448,-709
+7Intervale	445,-708
+2lbridge	445,-679
+3es Corner	449,-693
+3ford	450,-686
+3l Brook	454,-690
+4er Corner	449,-694
+6s Crossing	434,-705
+4iken Mills	435,-704
+5nocket	457,-687
+4town	452,-673
+4vale	446,-688
+3o	452,-690
+3ton	444,-706
+2ngo Springs	450,-707
+3ot	441,-703
+3turn	441,-684
+2tchell Corner	448,-696
+1olunkus	456,-683
+2narda	458,-683
+3hegan	438,-693
+3mouth	442,-700
+3roe	446,-690
+6 Center	446,-690
+3sapec	446,-676
+4on	453,-695
+6 Junction	452,-695
+3ticello	463,-678
+4pelier	441,-692
+4sweag	440,-697
+2ody	450,-693
+5 Beach	433,-706
+6Corner	450,-697
+6Point	433,-706
+3resville	454,-691
+3se River	456,-703
+5head	456,-697
+6orn	452,-695
+9 Crossing	463,-688
+5lookmeguntic	450,-708
+2rang Corner	443,-693
+3ey Brow	463,-680
+3gan Beach	453,-686
+3kill	454,-695
+3o	462,-684
+3rill	444,-692
+7s Corner	437,-703
+5s Corner	469,-678
+6on Corner	447,-696
+2scow	451,-699
+3her Corner	448,-694
+2unt Pisgah	438,-696
+6Vernon	445,-700
+5ainview	450,-708
+< Park	436,-702
+:lle	442,-686
+3se Island	438,-696
+4sam	441,-703
+1ud Landing	449,-674
+2njoy Hill	437,-702
+2rphy Corner	440,-702
+6s Corner	439,-697
+2scongus	440,-694
+1yra	450,-684
+0Naples	440,-706
+2sh Corner	448,-694
+3keag	442,-685
+3on Beach	442,-701
+5s Corner	437,-703
+1ealeys Corner	447,-689
+4s Corner	445,-691
+2quasset	439,-698
+2w Auburn	441,-702
+4Boston	439,-710
+4City	460,-689
+4Gloucester	440,-703
+4Harbor	439,-695
+4Limerick	461,-680
+4Portland	449,-701
+4Sharon	446,-700
+5weden	469,-681
+: Station	470,-681
+4Vineyard	448,-701
+3agen	438,-697
+3burgh Center	447,-690
+9Village	447,-690
+3castle	440,-695
+3field	436,-708
+3hall	438,-704
+3port	448,-693
+3ry	445,-708
+3town	434,-704
+1ickerson Mills	445,-690
+2xon	469,-685
+1obleboro	441,-695
+5s Corner	443,-706
+2rcross	456,-688
+3ridgewock	447,-698
+3th Alfred	435,-708
+7mity	459,-678
+7nson	449,-699
+7ppleton	443,-692
+7uburn	442,-703
+8gusta	444,-698
+6Baldwin	438,-707
+8ncroft	458,-680
+9gor	448,-688
+8th	439,-698
+7elgrade	445,-698
+> Station	445,-698
+8rwick	433,-707
+8thel	444,-708
+7radford	451,-690
+8ewer	448,-687
+8idgton	441,-707
+8ooklin	443,-686
+;sville	444,-687
+7uckfield	443,-704
+:sport	447,-688
+6Castine	444,-688
+7hesterville	446,-701
+7ushing	440,-692
+8tler	447,-673
+6Deer Isle	443,-687
+:ing	437,-703
+8xter	451,-693
+7ixmont	447,-692
+6East Carry	459,-696
+7dgecomb	440,-696
+7llsworth	446,-685
+6Fairfield	446,-697
+8lmouth	438,-703
+8yette	444,-701
+7ryeburg	441,-710
+6Gorham	438,-704
+7ray	439,-703
+7uilford	452,-694
+6Harpswell	438,-700
+8ven	441,-689
+7ermon	448,-689
+7ollis	437,-707
+8pe Corner	443,-692
+6Islesboro	443,-689
+6Jay	446,-702
+7efferson	442,-694
+6Lamoine	445,-684
+7ebanon	434,-709
+8eds	443,-701
+7imington	438,-707
+8ncoln	454,-685
+8vermore	444,-702
+7ovell	442,-709
+7ubec	449,-670
+7yndon	469,-680
+6Mariaville	448,-684
+7eadows	439,-699
+7onmouth	443,-700
+9roe	446,-691
+6New Portland	449,-700
+9burgh	448,-690
+9castle	441,-696
+9port	449,-692
+9ry	446,-708
+7orway	443,-706
+6Orland	446,-686
+8rington	448,-688
+6Palermo	444,-694
+8ris	443,-705
+9sonsfield	438,-709
+7enobscot	445,-687
+8rry	450,-671
+7ittston	442,-697
+7ownal	439,-702
+6Raymond	440,-704
+6Scarborough	436,-704
+7earsmont	444,-692
+;port	446,-690
+8bago	439,-706
+8dgwick	443,-686
+7hapleigh	436,-709
+7idney	445,-697
+7ullivan	445,-682
+6Trescott	449,-671
+7urner	443,-703
+6Union	443,-693
+6Vassalboro	445,-696
+6Wade	468,-682
+8ldoboro	442,-694
+8terboro	436,-707
+;ford	442,-708
+8yne	444,-700
+7hitefield	442,-696
+7indham	438,-704
+:sor	444,-696
+9terport	447,-688
+7oodstock	444,-706
+5east Harbor	443,-683
+6rn Maine Junction	448,-689
+5field	448,-676
+5port	443,-690
+5west Bethel	444,-708
+3umbega	443,-687
+3way	442,-705
+6 Center	442,-706
+7Lake	442,-706
+2tre Dame	472,-681
+1utter Corner	449,-694
+1yes Corner	446,-696
+0Oak Hill	440,-704
+4Park Manor	456,-686
+4Ridge	434,-704
+4Terrace	431,-708
+3dale	437,-703
+3es Corner	443,-693
+3field	461,-682
+3land	445,-697
+3wood	446,-694
+1cean Park	435,-704
+7oint	438,-696
+6View Village	432,-706
+5ville	442,-686
+1gontz	458,-697
+2ren	469,-681
+2unquit	432,-706
+1lamon	451,-686
+2d City	460,-689
+4Orchard Beach	435,-704
+4Town	449,-686
+8 Landing	449,-688
+3fields	432,-708
+2iver Hill Corner	451,-692
+1nawa	454,-694
+1quossoc	450,-708
+1rffs Corner	442,-694
+2ient	458,-678
+2land	446,-687
+2ono	449,-687
+2rington	447,-688
+9 Center	447,-688
+3s Island	438,-700
+1ssipee Mills	436,-708
+1tis	447,-684
+4field Gore	442,-706
+2ter Creek	443,-682
+1uellette	472,-684
+1verlake	447,-701
+1wls Head	441,-691
+1xbow	464,-685
+2ford	441,-705
+6 Station	441,-705
+0Packard Landing	453,-693
+7s	455,-689
+2ine Corner	442,-704
+5s Corner	445,-696
+2lermo	444,-695
+3myra	448,-694
+2rent	472,-680
+3is	443,-705
+3ker Head	438,-698
+6s	452,-689
+4hurst	468,-680
+4man	451,-694
+3rot	453,-696
+3son Landing	453,-692
+6age Corner	433,-707
+6sfield	437,-709
+2ssadumkeag	452,-686
+2ttee Corner	446,-691
+5n	460,-684
+6 Junction	459,-684
+2uls	468,-680
+5 Corner	444,-692
+2yneton	432,-707
+3son Corner	442,-692
+1ea Cove	450,-687
+4Ridge	454,-685
+3ks Island	437,-702
+3se Corner	443,-693
+2jepscot	440,-700
+2lton Hill	443,-698
+2maquid	439,-695
+8 Beach	439,-695
+9Harbor	439,-695
+9Point	438,-695
+3broke	450,-672
+2nley Corner	440,-702
+3nellville	439,-700
+3obscot	445,-687
+2rham	468,-682
+6 Junction	449,-704
+3kins	456,-688
+7 Town	433,-707
+3ry	450,-671
+5 Cove	438,-698
+5s Corner	437,-708
+3u	445,-704
+2ter Dana Point	452,-676
+1hair	466,-680
+2illips	448,-703
+8 Corner	448,-694
+3ppsburg	438,-698
+1ierre	472,-687
+2geon Hill	444,-679
+2ke Corner	440,-705
+2ne Cliff	438,-696
+6orner	450,-673
+5Hill	432,-706
+5Knoll	462,-690
+5Park	435,-704
+6oint	435,-703
+: Beach	435,-703
+3gree Center	451,-694
+2shon Ferry	447,-696
+2tmans Corner	443,-692
+3tsfield	448,-694
+5ton	442,-698
+1laisted	471,-686
+2easant Hill	436,-703
+9Island	450,-708
+9Point	440,-693
+;nd	453,-699
+9Vale Corner	449,-693
+8dale	436,-703
+2ourde Mill	472,-686
+2ummer Corner	448,-693
+8Landing	441,-707
+8Mill	440,-701
+2ymouth	448,-692
+1oland	441,-704
+6 Spring	440,-704
+6s Corner	445,-693
+2nce Landing	437,-702
+3d Cove	436,-702
+2ols Landing	439,-696
+3rs Mill	444,-691
+2peville	438,-704
+3ham Beach	438,-698
+3lar Ripps	457,-699
+2rt Clyde	439,-692
+4age	468,-685
+4er	438,-709
+6 Landing	438,-701
+6field	439,-709
+4land	437,-703
+2wers Corner	467,-678
+3nal Center	439,-702
+1rairie	454,-691
+3tt Corner	442,-704
+2eble Corner	450,-692
+3ntiss	455,-681
+3sque Isle	467,-680
+< Junction	467,-680
+3tty Marsh	443,-684
+2ide	464,-683
+5s Corner	437,-703
+3nceton	452,-676
+3pet	444,-689
+2octors Corner	443,-693
+3mised Land	441,-704
+3spect	446,-689
+8 Ferry	446,-688
+9Harbor	444,-680
+3uts Neck	435,-703
+1ulpit Harbor	442,-689
+2rgatory	442,-699
+2shaw	450,-687
+0Quimby	470,-686
+2oddy	449,-670
+0Rainbow Home Court Mobile Home Park	448,-688
+2nd Landing	466,-687
+4olph	442,-698
+4s	467,-680
+3geley	450,-706
+3kins Mill	439,-708
+2y Corner	445,-692
+3mond	439,-705
+3ville	441,-706
+2zorville	443,-694
+1each	442,-686
+3dfield	444,-700
+9 Depot	444,-699
+2d Beach	451,-672
+9 Landing	451,-677
+4Rock Corner	444,-684
+3ding	444,-705
+3ington	450,-704
+2ed	457,-681
+4s	449,-704
+2mick Corners	431,-707
+2ynolds Corner	447,-694
+1ice Corner	449,-698
+3hmond	441,-698
+8 Corner	441,-699
+9Mill	444,-701
+4s Corner	445,-685
+4town	442,-684
+4ville	438,-706
+2dge	448,-670
+3lonville	446,-705
+2ley	445,-702
+2ng Hill	441,-699
+2pley	450,-694
+2vers End	448,-676
+6ide	444,-697
+5ton	437,-703
+1obbinston	451,-671
+3erts	468,-680
+7 Corner	436,-705
+3inhood	438,-697
+5son	465,-678
+8 Corner	441,-701
+3yville	449,-690
+2ckland	441,-691
+4port	442,-691
+4ville	442,-691
+4wood	457,-697
+2llins Mill	450,-690
+<s	447,-692
+2me	446,-699
+4 Corner	446,-699
+2que Bluffs	446,-675
+2semary	432,-708
+5ont	437,-703
+3s Corner	436,-708
+2und Mountain	466,-688
+6Pond	440,-695
+2we Corner	449,-693
+2xbury	447,-706
+2yal Corner	440,-702
+6Junction	438,-702
+1uin Corner	438,-707
+2mford	446,-706
+7 Center	445,-706
+9orner	445,-707
+8Junction	440,-702
+8Point	445,-707
+2ssell Corner	450,-692
+9rossing	467,-687
+0Sabattus	441,-701
+3ino	438,-699
+2co	435,-704
+2gamore Village	437,-703
+2int Agatha	472,-683
+7lbans	449,-694
+6Croix Junction	452,-673
+6David	473,-682
+6Francis	472,-689
+6George	440,-692
+6John	472,-688
+2lem	449,-703
+3mon Falls	436,-706
+3sbury Cove	444,-683
+2nborn Corner	449,-693
+3d Beach	446,-686
+4erson Corners	444,-700
+4hill Corner	443,-695
+4y Beach	449,-688
+7rook	436,-705
+6Creek	440,-707
+6Point	445,-688
+6River	447,-699
+3ford	434,-708
+3gerville	452,-694
+2ponac	452,-683
+2rgentville	443,-687
+2wpit Corner	443,-693
+3yer Corner	468,-679
+2ywards Corner	434,-707
+1carborough	436,-703
+2hoodic	446,-681
+2ituate	432,-707
+2opan	466,-684
+3tland	432,-707
+2ribners Mill	441,-706
+1eabury	431,-706
+3l Cove	443,-684
+5Harbor	443,-682
+4and	445,-676
+3rsmont	444,-692
+5port	445,-689
+3vey Island	431,-707
+6s Corner	445,-700
+3wall	442,-683
+5rd Mills	444,-696
+2bago Center	439,-707
+7Lake	438,-705
+4sco	438,-699
+7 Estates	438,-699
+3ec	453,-691
+5 Corners	452,-691
+6Lake	453,-693
+3oeis	454,-687
+4omook	459,-697
+2dgwick	443,-686
+2lden	458,-679
+2nnetts Corner	445,-694
+1hady Nook	436,-709
+3ker Village	440,-704
+3pleigh	435,-708
+3rp	463,-678
+3w Mills	437,-705
+4mut	446,-696
+2eepscot	440,-696
+3pherds Hill	431,-707
+3ridan	467,-684
+4man	459,-684
+7 Mills	459,-684
+8Station	459,-684
+7s Corner	444,-694
+9Mill	443,-692
+2iloh	440,-700
+3n Pond	461,-686
+3rley Mills	454,-696
+2orey	462,-682
+2y Corner	445,-702
+1iberia	459,-685
+3ley Corner	445,-694
+2dney	444,-697
+2lver Ridge	458,-683
+6s Mills	451,-692
+6wood Court	456,-686
+2monton Corners	442,-691
+3psons Corner	444,-690
+2nclair	472,-683
+2x Mile Falls	449,-688
+1kerry	467,-685
+2illings Corner	442,-703
+3nner	455,-706
+2owhegan	448,-697
+1lab City	442,-709
+1mall Point	437,-698
+; Beach	437,-698
+3rts Corner	447,-693
+2ith Crossing	445,-705
+6Landing	448,-676
+5field	446,-698
+5ton	445,-693
+5ville	445,-680
+2yrna Center	462,-681
+7Mills	461,-682
+1now Corner	448,-689
+5Settlement	464,-678
+1odom	442,-706
+2ldier Pond	472,-686
+3on	450,-699
+2mers Corner	469,-679
+6et Junction	456,-698
+5ville	443,-695
+4sville	444,-683
+2ngo Lock	439,-706
+2rrento	445,-682
+2ule Mill	449,-702
+3th Acton	435,-709
+7ddison	445,-677
+7lbion	445,-695
+7mity	459,-678
+7ndover	446,-707
+7rm	448,-708
+6Bancroft	457,-680
+7erwick	432,-708
+7lue Hill	444,-686
+7rewer	448,-688
+8idgton	440,-707
+9stol	439,-696
+8ooksville	443,-687
+7uxton	436,-705
+6Casco	439,-705
+7hina	444,-696
+7orinth	450,-690
+7ushing	440,-693
+6Deer Isle	442,-687
+7over	451,-691
+7resden	440,-698
+7urham	439,-701
+6Effingham	437,-710
+7liot	431,-708
+7xeter	449,-691
+6Freeport	438,-701
+6Gardiner	442,-698
+7orham	436,-704
+8uldsboro	444,-681
+7ray	438,-703
+6Hancock	445,-683
+8rpswell	437,-700
+7iram	438,-709
+7ollis	436,-706
+8pe	442,-692
+6Jefferson	442,-696
+6Lagrange	451,-688
+7ebanon	433,-709
+8eds	442,-701
+8vant	449,-690
+8wiston	441,-701
+7iberty	443,-694
+8mington	437,-707
+8ncoln	453,-686
+8vermore	444,-702
+7ubec	448,-670
+6Monmouth	442,-700
+9tville	444,-693
+6Naples	439,-706
+7ewburgh	447,-690
+9castle	440,-696
+6Orland	445,-688
+8rington	447,-688
+6Paris	442,-705
+9sonsfield	437,-709
+7enobscot	444,-687
+7oland	440,-704
+8rtland	436,-702
+> Gardens	436,-703
+7rinceton	452,-675
+6Rangeley	449,-708
+7obbinston	451,-671
+7umford	445,-705
+6Sanford	434,-707
+7ebec	452,-691
+7ide	431,-707
+7olon	449,-698
+7pringfield	454,-681
+7trong	448,-702
+7urry	444,-685
+6Thomaston	440,-691
+7rescott	448,-671
+7urner	442,-702
+6Union	442,-693
+6Vassalboro	444,-696
+6Waldoboro	440,-693
+8rren	441,-692
+8terford	442,-707
+7est Bend	440,-701
+7indham	437,-704
+:sor	443,-696
+7oodstock	444,-706
+:ville	455,-685
+5port	438,-697
+5west Harbor	443,-683
+1pang Mills	435,-706
+3ulding	469,-682
+2ears Corner	442,-699
+2lit Hill	448,-670
+2ooners Mill	450,-693
+2rague City	436,-708
+9orner	441,-694
+8Mill	442,-701
+7s Mill	449,-692
+7ville	466,-680
+3ing Lake	452,-703
+; Landing	452,-702
+6field	454,-681
+6vale	435,-708
+3uce Head	440,-691
+7Shores	438,-696
+6world	438,-696
+2urrs Corner	441,-706
+1tacyville	459,-685
+3ndish	437,-706
+4wood Park	436,-703
+3rbird Corner	441,-700
+8s	451,-692
+5oard	446,-674
+4ks	447,-700
+3te Road	467,-682
+2eadman Landing	453,-692
+3ep Falls	438,-706
+6Landing	448,-682
+3phensons Landing	457,-690
+3tson	449,-691
+3uben	445,-680
+3vens Corner	443,-690
+8Mill	441,-703
+7ville	468,-679
+2ickney Corner	442,-694
+3llwater	449,-687
+: Avenue	448,-687
+2ockholm	470,-681
+5ton Springs	445,-689
+3neham	442,-708
+5s Corner	445,-702
+4ington	442,-687
+3rers Corner	451,-689
+3ver Corner	444,-688
+6s Corner	443,-693
+3w	442,-710
+2ratton	451,-704
+3icklands	444,-701
+3ong	448,-702
+6hold	449,-695
+4udwater	437,-703
+2uarts Corner	441,-706
+3bbs Corner	450,-692
+3rtevant Hill	443,-700
+1uckerville	439,-704
+2gar Hill	464,-678
+2llivan	445,-682
+2mmer Harbor	444,-681
+6haven	444,-698
+3ner	444,-704
+2nset	442,-687
+6 Landing	437,-701
+7Park	436,-703
+4hine	442,-686
+2rfside	435,-704
+3ry	445,-685
+1wans Island	442,-684
+4ville	445,-690
+2eden	469,-681
+0Tacoma	442,-700
+2inter Corner	446,-704
+2llwood	443,-700
+2rratine	456,-698
+2tnic	433,-707
+3tle Corner	435,-704
+1ea Kettle Corner	434,-704
+2mple	447,-702
+6 Heights	444,-690
+7Intervale	447,-703
+2n Degree	448,-707
+3ants Harbor	440,-692
+1he Crossing	461,-689
+4Forks	453,-700
+4Highlands	455,-696
+4Landing	451,-706
+4Pines	452,-680
+2omaston	441,-692
+4pson	449,-694
+8 Corner	449,-695
+3rndike	446,-693
+5ton Heights	436,-703
+2ree Streams	455,-702
+2urstons Corner	445,-693
+1ibbettstown	447,-678
+2lton Corner	448,-695
+2money	461,-681
+1obeys Corner	431,-708
+2dds Corner	450,-694
+<s	438,-701
+2gus	443,-697
+2mah	456,-676
+2psfield	454,-677
+4ham	439,-700
+2ry Hill	436,-705
+2ulouse Corner	446,-697
+2wn Hill	444,-683
+6ouse Corners	434,-705
+5Landing	435,-703
+4house Corner	443,-691
+1rainor Corner	442,-697
+3p Corner	443,-706
+2efethen	437,-702
+3mont	442,-684
+3nton	444,-684
+3vett	439,-697
+2outdale	453,-698
+3y	447,-692
+4 Center	447,-693
+1unk Lake	446,-681
+2rbats Creek	434,-704
+3ner	443,-703
+6 Center	443,-702
+6s Corner	440,-694
+1welve Corners	445,-701
+2in Brook	450,-691
+3tchell Corner	447,-694
+2o Trails	437,-706
+1yler Corner	446,-698
+5s Corner	436,-706
+0Union	442,-693
+5 Falls	436,-706
+5ville	446,-680
+3ty	446,-693
+1pper Abbot	452,-695
+6Dam	449,-709
+7rew	456,-681
+6Frenchville	473,-684
+6Gloucester	440,-703
+6Landing	433,-706
+6Shirley Corner	454,-696
+2ton	447,-710
+0VA Boston Healthcare System, Jamaica Plain Campus	473,-686
+MWest Roxbury Campus	461,-678
+3Central Western Massachusetts Healthcare System	450,-699
+4onnecticut Healthcare System, Newington Campus	469,-680
+RWest Haven Campus	448,-687
+1an Buren	472,-679
+3ceboro	456,-674
+2rney Corner	441,-700
+8rossing	433,-707
+2ssalboro	445,-697
+1eazie	448,-687
+2rona	446,-688
+6 Park	446,-688
+1ickerys Corner	444,-691
+2enna	445,-700
+2lla Vaughn	449,-688
+2nalhaven	440,-688
+2olette Settlement	472,-686
+2rginia	445,-706
+0Waite	453,-677
+5s Landing	437,-702
+2ldo	445,-691
+5boro	441,-694
+3es Corner	442,-701
+3ker	466,-682
+6 Corner	446,-692
+7Settlement	460,-682
+3lagrass	471,-686
+3nut Hill	438,-702
+3pole	440,-696
+3tham	447,-683
+4ons Mill	448,-696
+2rds Cove	438,-706
+3ren	441,-692
+2shburn	468,-682
+8 Junction	467,-680
+4ington	443,-694
+: Junction	446,-684
+2terboro	435,-707
+9 Center	436,-707
+5ford Flat	442,-707
+5ville	446,-696
+3tons Mill	442,-692
+2ukeag	445,-682
+2verley	448,-694
+2yne	444,-701
+3side Trailer Park	432,-706
+1ebb Hill	455,-684
+3ster	449,-687
+7 Corner	441,-701
+2eks Corner	448,-695
+6Mills	447,-700
+5boro	463,-682
+2lchville	441,-705
+3d	447,-704
+4 Corner	447,-705
+3lington	450,-696
+4s	433,-706
+5 Beach	433,-706
+; Station	433,-706
+7ranch	434,-706
+2sley	450,-677
+3t Appleton	444,-693
+6thens	450,-697
+6uburn	442,-703
+5Baldwin	438,-708
+7ngor	448,-688
+6ethel	444,-709
+6oothbay Harbor	438,-696
+7wdoin	440,-700
+6ridgton	441,-708
+8stol	439,-696
+7ooklin	443,-686
+:sville	444,-688
+8wnfield	439,-710
+6uxton	437,-706
+5Castine	444,-688
+6harleston	451,-691
+6orinth	450,-690
+6umberland	438,-703
+5Deer Isle	442,-687
+7nmark	440,-709
+6over	451,-692
+6resden	441,-698
+6urham	440,-702
+5Ellsworth	446,-686
+6nd	436,-703
+7field	452,-686
+5Falmouth Corner	438,-703
+7rmington	447,-702
+6orks	454,-700
+6ranklin	446,-683
+7yeburg	441,-710
+5Georgetown	438,-698
+6lenburn	449,-689
+6orham	437,-705
+7uldsboro	445,-681
+6ray	439,-704
+5Hampden	448,-689
+7rpswell	438,-700
+8rington	446,-678
+6ollis	436,-707
+5Jonesport	445,-676
+5Kennebunk	434,-706
+5Lebanon	434,-710
+7eds	443,-702
+7vant	449,-690
+6ubec	448,-671
+5Mills	448,-700
+7not	442,-704
+6ontville	445,-693
+7unt Vernon	444,-700
+5Newfield	436,-709
+5Old Town	450,-688
+5Palmyra	448,-694
+7ris	443,-706
+6embroke	450,-672
+7nobscot	445,-688
+7ru	445,-705
+6oint	438,-699
+7land	440,-704
+7wnal	439,-702
+6rinceton	452,-676
+5Rockport	442,-691
+5Scarborough	436,-704
+6earsmont	444,-692
+7bago	440,-707
+8oeis	455,-689
+6idney	444,-698
+6outhport	438,-697
+6tonington	442,-687
+6ullivan	445,-682
+7mner	444,-705
+7rry	445,-686
+5Tremont	443,-684
+8nton	444,-684
+5Waldoboro	441,-694
+7shington	443,-694
+6indsor	443,-696
+8terport	446,-690
+4brook	437,-704
+4ern Landing	437,-701
+4field	466,-679
+4on	457,-679
+4port	439,-697
+1heelock	472,-687
+8 Mill	470,-689
+2itcombs Corner	444,-691
+4e Oak Corner	442,-693
+6Rock	438,-705
+6School Corner	448,-698
+5field	442,-696
+5s Corner	439,-703
+4ing	448,-672
+4locks Mill	452,-672
+4ney Corner	442,-693
+7ville	447,-675
+1ight Corners	441,-705
+2ldes Corner	434,-705
+7District	434,-704
+4wood	449,-695
+3lard Square	436,-702
+4iamsburg	454,-691
+5mantic	453,-694
+5s Corners	441,-692
+7Mill	443,-707
+3son Corner	446,-686
+6s Mills	449,-710
+3ton	446,-702
+6 Intervale	446,-703
+2ndemere	446,-693
+4ham Center	438,-704
+8Hill	438,-704
+4sor	443,-696
+7ville	443,-696
+3gs Mills	444,-699
+3kumpaugh Corners	446,-686
+3n	455,-684
+4ecook	446,-694
+5gance	439,-698
+3slow	446,-696
+7 Hill	441,-695
+7s Mills	441,-694
+3ter Harbor	444,-681
+6port	446,-688
+6ville	470,-686
+4hrop	443,-700
+8 Center	443,-699
+2scasset	440,-697
+2tham Corner	447,-700
+1onderland	442,-683
+2odbridge Corner	459,-683
+4fords	437,-703
+9 Corner	437,-703
+4land	452,-674
+8 Center	469,-681
+9Junction	452,-674
+4mans Mills	444,-692
+4stock	444,-706
+3lwich	439,-698
+2rthley Pond	445,-704
+1yman	445,-679
+2topitlock	456,-681
+0Yagger	442,-706
+2rmouth	438,-702
+8 Junction	438,-702
+1ellow Head	439,-695
+1ork Beach	432,-706
+5Center	432,-707
+6liffs	432,-706
+6orner	432,-707
+5Harbor	431,-706
+6eights	432,-706
+5Landing	437,-702
+5Village	431,-706
+4s Corner	445,-690
+2ungs Corner	441,-703
+5town	443,-691

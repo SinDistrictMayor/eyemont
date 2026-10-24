@@ -198,7 +198,7 @@ const commonName=n=>{const w=nrm(n).split(' ');return w.length>=2&&CNF.has(w[0].
 /* figure check for a span of t: curated → yes; listed + uncommon → yes; listed + common → only with a role cue before/after */
 const pfAt=(t,s0,e0)=>{let w=t.slice(s0,e0),pre=t.slice(Math.max(0,s0-40),s0);const m=w.match(ROLEP);if(m){pre+=' '+m[0];w=w.slice(m[0].length)}
  if(!isPF(w))return false;const k=nrm(w);if(CUR.has(k)||!commonName(k))return true;return ROLEB.test(pre)||ROLEA.test(t.slice(e0,e0+40))};
-let ALLOW=null,ALLOWS=new Set();const ALLOW_OK=fetch('data/allow.txt').then(r=>r.text()).then(t=>{const a=t.split('\n').map(s=>s.trim()).filter(Boolean);a.forEach(x=>ALLOWS.add(x));ALLOW=new RegExp('(?<![\\w])(?:'+a.sort((x,y)=>y.length-x.length).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?![\\w])','gi')}).catch(()=>{});
+let ALLOW=null,ALLOWS=new Set();const ALLOW_OK=Promise.all(['allow','allow_storms','allow_teams','allow_orgs'].map(f=>fetch(`data/${f}.txt`).then(r=>r.ok?r.text():'').catch(()=>''))).then(a=>a.join('\n')).then(t=>{const a=t.split('\n').map(s=>s.trim()).filter(Boolean);a.forEach(x=>ALLOWS.add(x));ALLOW=new RegExp('(?<![\\w])(?:'+a.sort((x,y)=>y.length-x.length).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?![\\w])','gi')}).catch(()=>{});
 const allowSpans=t=>{const r=[];if(ALLOW){ALLOW.lastIndex=0;for(const m of t.matchAll(ALLOW))r.push([m.index,m.index+m[0].length])}return r};
 const ACR=new Set('USGS FEMA NWS NOAA NASA FAA FBI CIA DHS ICE ATF DEA EPA CDC WHO UN NATO EU UK US USA UAE NYPD LAPD NYFD FDNY CHP DOT TFR NWPS SWPC IODA GDACS EONET FIRMS BBC CNN NBC ABC CBS NPR PBS AP AFP RT TV PM AM ET PT CT MT UTC GMT EST PST CST MST EDT PDT CDT MDT KM MPH GOP DNC RNC NFL NBA MLB NHL MLS NCAA UFC LIVE BREAKING UPDATE NEWS WATCH VIDEO ALERT WARNING NEW UPDATED EXCLUSIVE OPINION ANALYSIS'.split(' '));
 const COMMONFN=new Set('will may june april august mark grant frank bill rose joy hope faith art ray sue pat guy max chase dawn iris rich bob sky summer autumn crystal amber ruby pearl violet jade lily heather holly ivy daisy olive penny sunny cliff dale glen wade lance drew rob gene don jack sterling carol buck hunter major sergeant judge justice king prince earl duke page bishop pope'.split(' '));
@@ -206,7 +206,7 @@ const LOCP=/(?:^|[\s(])(?:of|near|in|at|from|outside|across|toward|towards|off|i
 const HON=/\b(?:Mr|Mrs|Ms|Mx|Dr|Sen|Rep|Gov|Lt|Sgt|Capt|Det|Officer|Judge|Pres|Prof)\.?\s+$/;
 const STATEN=/^(?:Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|Ohio|Oklahoma|Oregon|Pennsylvania|Tennessee|Texas|Utah|Vermont|Virginia|Washington|Wisconsin|Wyoming|Ontario|Quebec|Alberta|Manitoba|Saskatchewan)$/;
 const STAB=/^,?\s+(?:[A-Z]{2}\b|(?:Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New \w+|North \w+|South \w+|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\b)/;
-const TOKR=/(?<![\p{L}\p{M}\d'’-])\p{Lu}[\p{Ll}\p{M}]*(?:['’-]\p{Lu}?[\p{Ll}\p{M}]+)*(?![\p{L}\p{M}\d'’-])/gu;
+const TOKR=/(?<![\p{L}\p{M}\d'’-])(?:(?:Mc|Mac|Di|De|La|Le)(?=\p{Lu}\p{Ll}))?\p{Lu}[\p{Ll}\p{M}]*(?:['’-]\p{Lu}?[\p{Ll}\p{M}]+)*(?![\p{L}\p{M}\d'’-])/gu;
 const maskNames=t=>{if(!t)return t;
  /* shadow copy: ALL-CAPS words (not known acronyms) become Title-case for detection; indices stay identical */
  const caps=(t.match(/(?<![\p{L}\d])\p{Lu}{2,}(?![\p{L}\d])/gu)||[]).filter(w=>!ACR.has(w)).length>=2;
@@ -214,13 +214,14 @@ const maskNames=t=>{if(!t)return t;
  const AS=allowSpans(t),inA=(s,e)=>AS.some(([x,y])=>s>=x&&e<=y),GEOS=/^(Islands?|Region|Coast|Sea|Gulf|Peninsula|Province|Border|Area|Basin|Strait|Archipelago|Highlands|Lowlands|Delta|Plateau|Ridge|Trench)$/,
   nextA=(A,B)=>AS.some(([x,y])=>(x===A.index&&y===A.index+A[0].length&&GEOS.test(B[0]))||(x===B.index&&y===B.index+B[0].length&&GEOS.test(A[0])));
  const tk=[...sh.matchAll(TOKR)].filter(m=>m[0].length>=2||/^\p{Lu}$/u.test(m[0])&&sh[m.index+1]==='.'),cut=[];
- const HV=/^(?:Held|Found|Arrested|Charged|Killed|Dies|Died|Dead|Missing|Injured|Hurt|Shot|Says|Said|Signs|Signed|Sentenced|Named|Wins|Won|Jailed|Freed|Released|Rescued|Identified|Accused|Convicted|Indicted|Sues|Sued|Fired|Resigns|Speaks|Visits|Warns|Denies|Admits|Pleads|Faces|Gets|Takes|Makes|Calls|Hits|Leads|Joins|Booked|Detained|Wanted|Escapes|Escaped|Located|Safe|Recovered|Hospitalized|Stabbed|Crash|Crashes|Order|Orders|Plan|Vote|Votes|Ban|Bans|Tariff|Tariffs|Aid|Relief|Emergency|Declares|Approves|Vetoes|Blocks|Orders|Meets|Talks|Rally|Speech|Statement|Response|Probe|Trial|Verdict)$/;
+ const USPRE=/(?:^|[\s(])(?:U\.S\.|US|UN|U\.N\.|EU|E\.U\.|UK|U\.K\.)\s+$/,USN=/^(?:Army|Navy|Marines|Marine|Air|Space|Embassy|Embassies|Envoy|Envoys|Officials|Official|Troops|Forces|Military|Pressures|Pressure|Strikes|Strike|Sanctions|Talks|Gas|Oil|Aid|Senate|House|Attorney|Ambassador|Open|Marshals|Census|Mint|Steel|Treasury|Navy|Agents|Agency|Trade|Tariffs|Envoy|Diplomats|Diplomat|Intelligence|Commander|Command|Response|Report|Panel|Court|Judge|Prosecutors|Investigators|Inspectors|Peacekeepers|Mission|Chief|Rules|Ban|Deal|Plan|Leaders|Ministers|Summit|Weighs|Warns|Says|Seeks|Moves|Backs|Urges|Calls|Approves|Delays|Halts|Ends|Extends)$/;
+const HV=/^(?:Held|Found|Arrested|Charged|Killed|Dies|Died|Dead|Missing|Injured|Hurt|Shot|Says|Said|Signs|Signed|Sentenced|Named|Wins|Won|Jailed|Freed|Released|Rescued|Identified|Accused|Convicted|Indicted|Sues|Sued|Fired|Resigns|Speaks|Visits|Warns|Denies|Admits|Pleads|Faces|Gets|Takes|Makes|Calls|Hits|Leads|Joins|Booked|Detained|Wanted|Escapes|Escaped|Located|Safe|Recovered|Hospitalized|Stabbed|Crash|Crashes|Order|Orders|Plan|Vote|Votes|Ban|Bans|Tariff|Tariffs|Aid|Relief|Emergency|Declares|Approves|Vetoes|Blocks|Orders|Meets|Talks|Rally|Speech|Statement|Response|Probe|Trial|Verdict)$/;
  const ok=w=>HV.test(w)||LOWW.has(w)||ORGW.test(w)||EVN.test(w),adj=(A,B)=>/^\s+(?:\p{Lu}\.\s+)?$/u.test(sh.slice(A.index+A[0].length,B.index));
  for(let n=0;n+1<tk.length;n++){const A=tk[n],B=tk[n+1];if(A[0].length<2||!adj(A,B))continue;
   const a=A[0],b=B[0],w=sh.slice(A.index,B.index+b.length),C=tk[n+2],nx=C&&/^\s+$/.test(sh.slice(B.index+b.length,C.index))?C[0]:'';
   if(LOCP.test(sh.slice(Math.max(0,A.index-12),A.index))&&!Crowd.nameCI(a+' '+b))continue; /* place phrase after of/near/in… */
   if(STAB.test(sh.slice(B.index+b.length,B.index+b.length+20))&&!Crowd.nameCI(a+' '+b))continue; /* 'Warner Springs, CA' */
-  if(HV.test(a)||HV.test(b)||inA(A.index,B.index+b.length)||nextA(A,B)||EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w)||STP.some(s=>s.n===w))continue;
+  if((USPRE.test(sh.slice(Math.max(0,A.index-6),A.index))&&(USN.test(a)||HV.test(a)||ORGW.test(a)))||HV.test(a)||HV.test(b)||inA(A.index,B.index+b.length)||nextA(A,B)||EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w)||STP.some(s=>s.n===w))continue;
   if(Crowd.nameCI(a+' '+b)||(!LOWW.has(a)&&!LOWW.has(b))){let end=B.index+b.length,k=n+1;
    while(k+1<tk.length&&adj(tk[k],tk[k+1])&&tk[k+1][0].length>=2&&!(tk[k+1][0].length<=3?ORGW.test(tk[k+1][0])||EVN.test(tk[k+1][0]):ok(tk[k+1][0]))&&!inA(tk[k+1].index,tk[k+1].index+tk[k+1][0].length)){k++;end=tk[k].index+tk[k][0].length}
    cut.push([A.index,end]);n=k}}
@@ -231,6 +232,11 @@ const maskNames=t=>{if(!t)return t;
   if(!Crowd.nameCI(f+' '+l))continue;const s0=m.index,e0=s0+m[0].length;if(cut.some(([x,y])=>s0<y&&e0>x))continue;cut.push([s0,e0])}
  /* 'Last, First' */
  for(const m of sh.matchAll(/(?<![\p{L}\p{M}'’-])(\p{Lu}[\p{Ll}\p{M}'’-]+),\s+(\p{Lu}[\p{Ll}\p{M}]+)(?![\p{L}\p{M}'’-])/gu)){const s0=m.index,e0=s0+m[0].length;if(cut.some(([x,y])=>s0<y&&e0>x)||inA(s0,e0)||(typeof BBOX!=='undefined'&&BBOX[m[2]])||STATEN.test(m[2])||!Crowd.nameCI(m[2]+' '+m[1])||ORGW.test(m[1])||STP.some(x=>x.n===m[2]))continue;cut.push([s0,e0])}
+ /* multi-word allowlisted phrases (orgs, teams, storms) are never part of a mask; a leftover single word is dropped */
+ {const MA=AS.filter(([x,y])=>/\s/.test(t.slice(x,y)));for(let k=cut.length-1;k>=0;k--){let [s0,e0]=cut[k];const ov=MA.filter(([x,y])=>x<e0&&y>s0);if(!ov.length)continue;
+  const parts=[];let c=s0;ov.sort((p,q)=>p[0]-q[0]).forEach(([x,y])=>{if(x>c)parts.push([c,x]);c=Math.max(c,y)});if(c<e0)parts.push([c,e0]);
+  const keep=parts.map(([x,y])=>{const seg=t.slice(x,y),l=seg.length-seg.trimStart().length,r=seg.length-seg.trimEnd().length;return [x+l,y-r]}).map(([x,y])=>{while(y>x&&/[,;:\s]/.test(t[y-1]))y--;return [x,y]}).filter(([x,y])=>(t.slice(x,y).match(/\p{Lu}[\p{Ll}\p{M}'’-]+/gu)||[]).length>=2);
+  cut.splice(k,1,...keep)}}
  for(let k=cut.length-1;k>=0;k--){const [s0,e0]=cut[k];if(pfAt(t,s0,e0)){cut.splice(k,1);continue}
   /* figure at the start of a longer span ('DONALD TRUMP SIGNS ORDER'): keep the figure, re-check the rest */
   const ws=[...t.slice(s0,e0).matchAll(/\S+/g)];for(let j=Math.min(4,ws.length-1);j>=2;j--){const pe=s0+ws[j-1].index+ws[j-1][0].length;if(pfAt(t,s0,pe)){const rest=ws.slice(j);if(rest.length>=2)cut[k]=[s0+rest[0].index,e0];else cut.splice(k,1);break}}}
@@ -482,7 +488,7 @@ let GAZ=null;const gazLoad=()=>GAZ||(GAZ=fetch('data/gaz.txt').then(r=>r.text())
 const title=s=>s.replace(/\b\w/g,c=>c.toUpperCase());
 /* resolve a place: state, allowlisted place, gazetteer place (unique bare name or 'Name ST' / 'Name, State'), Canadian 'City BC' */
 /* GeoNames populated places per state (CC BY 4.0), only for 'Name ST' lookups */
-const GN={};const gnLoad=st=>GN[st]||(GN[st]=fetch(`data/gn/${st}.txt`).then(r=>r.ok?r.text():'').then(t=>{const m=new Map();t.split('\n').forEach(l=>{const [n,ll]=l.split('\t');if(!ll)return;const [a,b]=ll.split(',').map(Number);m.set(n.toLowerCase(),[n,a,b])});return m}).catch(()=>new Map()));
+const GN={};const gnLoad=st=>GN[st]||(GN[st]=fetch(`data/gn/${st}.txt`).then(r=>r.ok?r.text():'').then(t=>{const m=new Map();let pv='';t.split('\n').forEach(l=>{const [z,ll]=l.split('\t');if(!ll)return;const n=pv.slice(0,z.charCodeAt(0)-48)+z.slice(1);pv=n;const [a,b]=ll.split(',').map(x=>Number(x)/10);m.set(n.toLowerCase(),[n,a,b])});return m}).catch(()=>new Map()));
 async function findPlace(q){q=q.trim().replace(/\s+/g,' ');if(!q)return null;const lc=q.toLowerCase();
  const st=Object.keys(BBOX).find(s=>s.toLowerCase()===lc)||USAB[q.toUpperCase()];if(st&&BBOX[st]){const b=BBOX[st];return {st,name:st,lat:(b[0]+b[2])/2,lon:(b[1]+b[3])/2}}
  const m=q.match(/^(.+?),?\s+([A-Za-z]{2})$/)||q.match(/^(.+?),\s*([A-Za-z .]{4,})$/)||q.match(/^(.+?)\s+([A-Za-z]{4,}|New \w+|North \w+|South \w+|West Virginia|Rhode Island|British Columbia|Nova Scotia|Prince Edward Island)$/);
@@ -532,7 +538,7 @@ function wRender(){wUnread=0;wBadge();$('#wl').innerHTML=WL.length?WL.map((w,i)=
  $('#wm').innerHTML=WM.length?WM.map(m=>m.pf?`<li><a class="wmh" href="${esc(/^https?:/.test(m.u)?m.u:'#')}" target="_blank" rel="noopener"><small>${esc(m.w)} · ${tzt(m.t)}</small>${esc(m.h)} ↗</a></li>`:`<li><button class="wmh" data-id="${m.id}"><small>${esc(m.w)} · ${tzt(m.t)}</small>${esc(m.h)}</button></li>`).join(''):'<li class="empty">No matches yet.</li>';
  const n=$('#wnot'),ok=!!window.Notification;const on=ok&&Notification.permission==='granted'&&localStorage.getItem('eyemont.notify')==='1';n.setAttribute('aria-pressed',on);n.textContent=on?'🔔 NOTIFICATIONS ON':'🔔 ENABLE NOTIFICATIONS';n.disabled=!ok;
  $('#wns').textContent=!ok?'Browser notifications not supported here; toasts + badge still work.':Notification.permission==='denied'?'Blocked in browser settings.':'Only while Eyemont is open.'}
-$('#wv').addEventListener('input',async e=>{if($('#wk').value!=='place')return;const q=e.target.value.trim().toLowerCase();if(q.length<3)return;const g=await gazLoad(),o=[];
+$('#wv').addEventListener('input',async e=>{if($('#wk').value!=='place')return;const q=e.target.value.trim().toLowerCase();if(q.length<3)return;{const mm=e.target.value.trim().match(/[\s,]([A-Za-z]{2})$/);if(mm&&STATEN&&/^[A-Z]{2}$/.test(mm[1].toUpperCase()))gnLoad(mm[1].toUpperCase())}const g=await gazLoad(),o=[];
  for(const [k,[n,ss]] of g){if(k.startsWith(q)){ss.slice(0,3).forEach(x=>o.push(n+' '+x[0]));if(o.length>=20)break}}
  $('#wdl').innerHTML=[...new Set([...PLACES.map(p=>p[0]).filter(x=>x.toLowerCase().startsWith(q)),...o])].slice(0,20).map(x=>`<option value="${esc(x)}">`).join('')});
 const wHint=()=>{const k=$('#wk').value,v=$('#wv');v.placeholder=k==='kw'?'keyword, e.g. wildfire':k==='state'?'state, e.g. Texas':k==='place'?'place, e.g. Houston':'tap PICK, then the map';$('#wr').hidden=k==='kw'||k==='state';

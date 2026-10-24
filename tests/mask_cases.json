@@ -163,6 +163,22 @@
   [
    "MARY DEAL HELD IN FRAUD CASE",
    "[name] HELD IN FRAUD CASE"
+  ],
+  [
+   "Britt McHenry resigns after altercation",
+   "[name] resigns after altercation"
+  ],
+  [
+   "Lawrence McCutcheon dies at 76",
+   "[name] dies at 76"
+  ],
+  [
+   "Officers say Sean MacDonald fled",
+   "Officers say [name] fled"
+  ],
+  [
+   "Georgia Smith rescued again",
+   "[name] rescued again"
   ]
  ],
  "watch_refuse": [
@@ -246,7 +262,35 @@
   "ELON MUSK says Starlink restored",
   "Kim Jong Un oversees missile launch",
   "Gavin Newsom declares emergency",
-  "Volodymyr Zelensky addresses parliament"
+  "Volodymyr Zelensky addresses parliament",
+  "Typhoon Champi batters Taiwan",
+  "TYPHOON CHAMPI BATTERS TAIWAN",
+  "Hurricane Melissa",
+  "Tropical Storm Arthur forms",
+  "Barcelona vs Real Madrid: Top 5 El Clasico matches between La Liga giants",
+  "Atlanta Hawks to take on Houston Rockets in home opener",
+  "Golden State Valkyries Take on Atlanta Dream in Game 4",
+  "Rainbow Warriors are all business",
+  "Rainbow Wahine finish strong",
+  "Dallas Cowboys cheerleader alum reacts",
+  "5-time Pro Bowl running back for Los Angeles Rams",
+  "New Orleans Saints House in Paris postponed",
+  "Is your Medicare Advantage plan ending next year?",
+  "Ask Mayo Clinic: What parents should know",
+  "Met Police received letter",
+  "Fifth Third Bank hits 2028 goal",
+  "State Farm Arena adds 2 new restaurants",
+  "Winning Mega Millions numbers",
+  "Cozy pajamas from Gap, Victoria Secret and Amazon",
+  "Fanatics Sportsbook promo code",
+  "Students gather to remember Pan Am Flight 103",
+  "France's Yellow Vests call for new protests",
+  "Britt resigns from State Department job",
+  "U.S. Pressures Mexico to Deliver",
+  "U.S. Army Corps of Engineers opens spillway",
+  "UN Security Council meets",
+  "EU Commission weighs tariffs",
+  "U.S. Embassy Issues Alert"
  ],
  "watch_kind": {
   "Jordan": "kw",

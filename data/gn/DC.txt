@@ -1,169 +1,169 @@
-Adams Morgan	38.92,-77.04
-American University Park	38.95,-77.09
-Anacostia	38.87,-76.98
-Barnaby Terrace	38.83,-76.99
-Barnaby Woods	38.97,-77.06
-Barracks Row	38.88,-77.00
-Barry Farms	38.86,-77.00
-Bellevue	38.83,-77.01
-Benning	38.90,-76.95
-Benning Heights	38.88,-76.94
-Benning Road	38.89,-76.94
-Bloomingdale	38.92,-77.01
-Brentwood Village	38.92,-76.98
-Brightwood	38.96,-77.03
-Brightwood Park	38.96,-77.02
-Brookland	38.93,-76.98
-Buena Vista	38.85,-76.97
-Burleith	38.92,-77.07
-Buzzard Point	38.87,-77.01
-Capitol Gateway	38.89,-76.92
-Capitol Hill	38.89,-77.00
-Capitol Riverfront	38.88,-77.00
-Capitol View	38.89,-76.93
-Cathedral Heights	38.93,-77.08
-Central 14th Street / Spring Road	38.94,-77.03
-Central 14th Street / WMATA Northern Bus Barn	38.94,-77.03
-Central Northeast	38.90,-76.94
-Chevy Chase	38.98,-77.08
-Chevy Chase Heights	38.96,-77.08
-Chillum Station	38.96,-77.00
-Chinatown	38.90,-77.02
-Cleveland Park	38.94,-77.07
-Cloisters	38.91,-77.07
-Colonial Village	38.99,-77.04
-Colony Hill	38.91,-77.09
-Colorado Triangle	38.96,-77.03
-Columbia Heights	38.93,-77.03
-Congress Heights	38.84,-77.00
-Congress Park	38.84,-76.99
-Cookes Park	38.91,-77.06
-Crestwood	38.94,-77.04
-Deanwood	38.90,-76.93
-Douglass Dwellings	38.85,-76.98
-Downtown DC	38.89,-77.02
-Dupont Circle	38.91,-77.04
-Dupont Park	38.87,-76.96
-East Central	38.90,-77.01
-East End	38.90,-77.01
-East Washington Heights	38.89,-76.94
-Eastland Gardens	38.91,-76.94
-Eckington	38.91,-77.01
-Edgewood	38.92,-77.00
-Edgewood Terrace	38.92,-76.99
-Embassy Park	38.94,-77.08
-Fairfax Village	38.86,-76.95
-Fairlawn	38.87,-76.98
-Farragut Square	38.90,-77.04
-Foggy Bottom	38.90,-77.05
-Forest Hills	38.95,-77.06
-Fort Davis	38.87,-76.95
-Fort Dupont	38.89,-76.95
-Fort Lincoln	38.92,-76.96
-Foxhall	38.92,-77.09
-Foxhall Crescent	38.92,-77.09
-Foxhall Terrace	38.91,-77.07
-Foxhall Village	38.91,-77.08
-Franklin McPherson Square	38.90,-77.03
-Friendship Heights	38.96,-77.08
-Garfield Heights	38.86,-76.97
-Gateway	38.92,-76.96
-Georgetown	38.90,-77.06
-Georgia Avenue / Walter Reed	38.98,-77.03
-Giesboro	38.84,-77.02
-Glover Park	38.92,-77.08
-Golden Triangle	38.91,-77.04
-Good Hope	38.86,-76.96
-Greenway	38.89,-76.95
-H Street NE	38.90,-77.00
-Hampshire Knolls	38.96,-77.00
-Hawthorne	38.98,-77.05
-Hillcrest	38.86,-76.96
-Indian Rock Terrace	38.91,-77.09
-Isherwood	38.89,-76.98
-Ivy City	38.91,-76.98
-Judiciary Square	38.90,-77.02
-Kalorama Heights	38.92,-77.05
-Kalorama Triangle	38.92,-77.04
-Kenilworth	38.91,-76.94
-Kennedy Street	38.96,-77.02
-Kent	38.93,-77.10
-Kingman Park	38.90,-76.98
-Knox Hill Dwellings	38.85,-76.97
-Lamond Riggs	38.97,-77.01
-Langdon	38.92,-76.97
-Lanier Heights	38.93,-77.04
-LeDroit Park	38.92,-77.02
-Lincoln Heights	38.89,-76.93
-Lincoln Park	38.89,-76.98
-Little Indian Rock Terrace	38.91,-77.08
-Logan Circle	38.91,-77.03
-Manor Park	38.96,-77.02
-Marshall Heights	38.89,-76.93
-Massachusetts Avenue Heights	38.92,-77.07
-Mayfair-Parkside	38.90,-76.95
-McLean Gardens	38.94,-77.08
-Metropolis View	38.93,-77.00
-Michigan Park	38.94,-76.99
-Mount Pleasant	38.93,-77.04
-Mount Vernon Square	38.90,-77.02
-Mount Vernon Triangle	38.90,-77.02
-Naylor Gardens	38.86,-76.97
-NoMa	38.90,-77.01
-North Cleveland Park	38.95,-77.07
-North Gate	38.99,-77.04
-North Michigan Park	38.94,-76.98
-Northeast Boundary	38.89,-76.92
-Northwest One	38.90,-77.01
-Northwest Rectangle	38.89,-77.04
-Park Place	38.93,-77.01
-Park View	38.93,-77.02
-Penn Branch	38.87,-76.95
-Pennsylvania Avenue SE	38.87,-76.96
-Petworth	38.95,-77.02
-Pinehurst Circle	38.97,-77.08
-Pleasant Plains	38.93,-77.02
-Potomac Heights	38.93,-77.11
-Randle Highlands	38.87,-76.97
-Reno	38.95,-77.08
-Riggs Park	38.95,-76.99
-River Terrace	38.89,-76.96
-Rock Creek Gardens	38.99,-77.05
-Rosedale	38.90,-76.98
-Shaw	38.91,-77.02
-Shepherd Park	38.98,-77.03
-Sheridan-Kalorama	38.91,-77.05
-Shipley Terrace	38.85,-76.97
-Southeast	38.88,-76.99
-Southwest	38.88,-77.02
-Southwest Waterfront	38.88,-77.02
-Spring Valley	38.94,-77.10
-Stanton Park	38.89,-77.00
-Sutton Place	38.93,-77.08
-Tenleytown	38.95,-77.08
-Terra Cotta	38.95,-77.00
-The Cloisters	38.93,-77.01
-The Palisades	38.93,-77.10
-The Parks At Walter Reed	38.97,-77.03
-The Wharf	38.88,-77.02
-Thomas Circle	38.91,-77.03
-Trinidad	38.91,-76.98
-Truxton Circle	38.91,-77.01
-Twining	38.88,-76.97
-Union Market	38.91,-77.00
-University Heights	38.94,-76.99
-Van Ness	38.94,-77.06
-Varnum	38.94,-77.01
-Washington	38.90,-77.04
-Washington City	38.90,-77.02
-Washington Highlands	38.83,-76.99
-Wesley Heights	38.93,-77.09
-West End	38.91,-77.05
-West Over View	38.87,-76.96
-Westchester	38.93,-77.08
-Westminster	38.91,-77.02
-Westmoreland Terrace	38.95,-77.10
-Westover Place	38.94,-77.09
-Woodland	38.86,-76.97
-Woodley Park	38.93,-77.06
-Woodridge	38.93,-76.97
+0Adams Morgan	389,-770
+1merican University Park	390,-771
+1nacostia	389,-770
+0Barnaby Terrace	388,-770
+8Woods	390,-771
+3racks Row	389,-770
+4y Farms	389,-770
+1ellevue	388,-770
+2nning	389,-770
+7 Heights	389,-769
+8Road	389,-769
+1loomingdale	389,-770
+1rentwood Village	389,-770
+2ightwood	390,-770
+: Park	390,-770
+2ookland	389,-770
+1uena Vista	388,-770
+2rleith	389,-771
+2zzard Point	389,-770
+0Capitol Gateway	389,-769
+8Hill	389,-770
+8Riverfront	389,-770
+8View	389,-769
+2thedral Heights	389,-771
+1entral 14th Street / Spring Road	389,-770
+FWMATA Northern Bus Barn	389,-770
+8Northeast	389,-769
+1hevy Chase	390,-771
+; Heights	390,-771
+2illum Station	390,-770
+3natown	389,-770
+1leveland Park	389,-771
+2oisters	389,-771
+1olonial Village	390,-770
+5y Hill	389,-771
+4rado Triangle	390,-770
+3umbia Heights	389,-770
+2ngress Heights	388,-770
+9Park	388,-770
+2okes Park	389,-771
+1restwood	389,-770
+0Deanwood	389,-769
+1ouglass Dwellings	388,-770
+2wntown DC	389,-770
+1upont Circle	389,-770
+7Park	389,-770
+0East Central	389,-770
+5End	389,-770
+5Washington Heights	389,-769
+4land Gardens	389,-769
+1ckington	389,-770
+1dgewood	389,-770
+8 Terrace	389,-770
+1mbassy Park	389,-771
+0Fairfax Village	389,-770
+4lawn	389,-770
+2rragut Square	389,-770
+1oggy Bottom	389,-770
+2rest Hills	390,-771
+3t Davis	389,-770
+6upont	389,-770
+5Lincoln	389,-770
+2xhall	389,-771
+7 Crescent	389,-771
+8Terrace	389,-771
+8Village	389,-771
+1ranklin McPherson Square	389,-770
+2iendship Heights	390,-771
+0Garfield Heights	389,-770
+2teway	389,-770
+1eorgetown	389,-771
+5ia Avenue / Walter Reed	390,-770
+1iesboro	388,-770
+1lover Park	389,-771
+1olden Triangle	389,-770
+2od Hope	389,-770
+1reenway	389,-770
+0H Street NE	389,-770
+1ampshire Knolls	390,-770
+2wthorne	390,-770
+1illcrest	389,-770
+0Indian Rock Terrace	389,-771
+1sherwood	389,-770
+1vy City	389,-770
+0Judiciary Square	389,-770
+0Kalorama Heights	389,-770
+9Triangle	389,-770
+1enilworth	389,-769
+3nedy Street	390,-770
+3t	389,-771
+1ingman Park	389,-770
+1nox Hill Dwellings	388,-770
+0Lamond Riggs	390,-770
+2ngdon	389,-770
+3ier Heights	389,-770
+1eDroit Park	389,-770
+1incoln Heights	389,-769
+8Park	389,-770
+2ttle Indian Rock Terrace	389,-771
+1ogan Circle	389,-770
+0Manor Park	390,-770
+2rshall Heights	389,-769
+2ssachusetts Avenue Heights	389,-771
+2yfair-Parkside	389,-770
+1cLean Gardens	389,-771
+1etropolis View	389,-770
+1ichigan Park	389,-770
+1ount Pleasant	389,-770
+6Vernon Square	389,-770
+=Triangle	389,-770
+0Naylor Gardens	389,-770
+1oMa	389,-770
+2rth Cleveland Park	390,-771
+6Gate	390,-770
+6Michigan Park	389,-770
+5east Boundary	389,-769
+5west One	389,-770
+:Rectangle	389,-770
+0Park Place	389,-770
+5View	389,-770
+1enn Branch	389,-770
+4sylvania Avenue SE	389,-770
+2tworth	390,-770
+1inehurst Circle	390,-771
+1leasant Plains	389,-770
+1otomac Heights	389,-771
+0Randle Highlands	389,-770
+1eno	390,-771
+1iggs Park	390,-770
+2ver Terrace	389,-770
+1ock Creek Gardens	390,-770
+2sedale	389,-770
+0Shaw	389,-770
+2epherd Park	390,-770
+3ridan-Kalorama	389,-770
+2ipley Terrace	388,-770
+1outheast	389,-770
+5west	389,-770
+9 Waterfront	389,-770
+1pring Valley	389,-771
+1tanton Park	389,-770
+1utton Place	389,-771
+0Tenleytown	390,-771
+2rra Cotta	390,-770
+1he Cloisters	389,-770
+4Palisades	389,-771
+6rks At Walter Reed	390,-770
+4Wharf	389,-770
+2omas Circle	389,-770
+1rinidad	389,-770
+2uxton Circle	389,-770
+1wining	389,-770
+0Union Market	389,-770
+3versity Heights	389,-770
+0Van Ness	389,-771
+2rnum	389,-770
+0Washington	389,-770
+: City	389,-770
+;Highlands	388,-770
+1esley Heights	389,-771
+3t End	389,-770
+5Over View	389,-770
+4chester	389,-771
+4minster	389,-770
+5oreland Terrace	390,-771
+4over Place	389,-771
+1oodland	389,-770
+5ey Park	389,-771
+4ridge	389,-770
