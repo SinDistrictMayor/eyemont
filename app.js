@@ -214,13 +214,13 @@ const maskNames=t=>{if(!t)return t;
  const AS=allowSpans(t),inA=(s,e)=>AS.some(([x,y])=>s>=x&&e<=y),GEOS=/^(Islands?|Region|Coast|Sea|Gulf|Peninsula|Province|Border|Area|Basin|Strait|Archipelago|Highlands|Lowlands|Delta|Plateau|Ridge|Trench)$/,
   nextA=(A,B)=>AS.some(([x,y])=>(x===A.index&&y===A.index+A[0].length&&GEOS.test(B[0]))||(x===B.index&&y===B.index+B[0].length&&GEOS.test(A[0])));
  const tk=[...sh.matchAll(TOKR)].filter(m=>m[0].length>=2||/^\p{Lu}$/u.test(m[0])&&sh[m.index+1]==='.'),cut=[];
- const HV=/^(?:Held|Found|Arrested|Charged|Killed|Dies|Died|Dead|Missing|Injured|Hurt|Shot|Says|Said|Signs|Signed|Sentenced|Named|Wins|Won|Jailed|Freed|Released|Rescued|Identified|Accused|Convicted|Indicted|Sues|Sued|Fired|Resigns|Speaks|Visits|Warns|Denies|Admits|Pleads|Faces|Gets|Takes|Makes|Calls|Hits|Leads|Joins|Booked|Detained|Wanted|Escapes|Escaped|Located|Safe|Recovered|Hospitalized|Stabbed|Crash|Crashes)$/;
+ const HV=/^(?:Held|Found|Arrested|Charged|Killed|Dies|Died|Dead|Missing|Injured|Hurt|Shot|Says|Said|Signs|Signed|Sentenced|Named|Wins|Won|Jailed|Freed|Released|Rescued|Identified|Accused|Convicted|Indicted|Sues|Sued|Fired|Resigns|Speaks|Visits|Warns|Denies|Admits|Pleads|Faces|Gets|Takes|Makes|Calls|Hits|Leads|Joins|Booked|Detained|Wanted|Escapes|Escaped|Located|Safe|Recovered|Hospitalized|Stabbed|Crash|Crashes|Order|Orders|Plan|Vote|Votes|Ban|Bans|Tariff|Tariffs|Aid|Relief|Emergency|Declares|Approves|Vetoes|Blocks|Orders|Meets|Talks|Rally|Speech|Statement|Response|Probe|Trial|Verdict)$/;
  const ok=w=>HV.test(w)||LOWW.has(w)||ORGW.test(w)||EVN.test(w),adj=(A,B)=>/^\s+(?:\p{Lu}\.\s+)?$/u.test(sh.slice(A.index+A[0].length,B.index));
  for(let n=0;n+1<tk.length;n++){const A=tk[n],B=tk[n+1];if(A[0].length<2||!adj(A,B))continue;
   const a=A[0],b=B[0],w=sh.slice(A.index,B.index+b.length),C=tk[n+2],nx=C&&/^\s+$/.test(sh.slice(B.index+b.length,C.index))?C[0]:'';
   if(LOCP.test(sh.slice(Math.max(0,A.index-12),A.index))&&!Crowd.nameCI(a+' '+b))continue; /* place phrase after of/near/in… */
   if(STAB.test(sh.slice(B.index+b.length,B.index+b.length+20))&&!Crowd.nameCI(a+' '+b))continue; /* 'Warner Springs, CA' */
-  if(inA(A.index,B.index+b.length)||nextA(A,B)||EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w)||STP.some(s=>s.n===w))continue;
+  if(HV.test(a)||HV.test(b)||inA(A.index,B.index+b.length)||nextA(A,B)||EVN.test(nx)||EVN.test(b)||ORGW.test(a)||ORGW.test(b)||PLACES.some(p=>p[0]===w)||STP.some(s=>s.n===w))continue;
   if(Crowd.nameCI(a+' '+b)||(!LOWW.has(a)&&!LOWW.has(b))){let end=B.index+b.length,k=n+1;
    while(k+1<tk.length&&adj(tk[k],tk[k+1])&&tk[k+1][0].length>=2&&!(tk[k+1][0].length<=3?ORGW.test(tk[k+1][0])||EVN.test(tk[k+1][0]):ok(tk[k+1][0]))&&!inA(tk[k+1].index,tk[k+1].index+tk[k+1][0].length)){k++;end=tk[k].index+tk[k][0].length}
    cut.push([A.index,end]);n=k}}
