@@ -2,6 +2,7 @@
 'Abd al-Ahad Khan
 'Masenate Mohato Seeiso
 A. Donald McEachin
+AOC
 Aaron Schock
 Abang Johari
 Abba Kabir Yusuf
@@ -10,8 +11,8 @@ Abbad II al-Mu'tadid
 Abbas El Fassi
 Abby Finkenauer
 Abd al-Aziz Boutafliqa
-Abd al-Aziz ibn Habtour
 Abd al-Aziz Jarad
+Abd al-Aziz ibn Habtour
 Abd al-Hamid Dbeibeh
 Abd al-Ilah
 Abd al-Malek Selal
@@ -51,21 +52,21 @@ Abdul Latif Rashid
 Abdul Majid Hassan of Brunei
 Abdul Qadir Dagarwal
 Abdul Taib Mahmud
+AbdulRahman AbdulRazaq
 Abdulla Aripov
 Abdulla Yameen
 Abdullah Abdullah
-Abdullah al-Thani
-Abdullah bin Nasser bin Khalifa Al Thani
 Abdullah Ensour
 Abdullah Gül
-Abdullah ibn al-Mu'tazz
 Abdullah II of Jordan
+Abdullah Zeydan
+Abdullah al-Thani
+Abdullah bin Nasser bin Khalifa Al Thani
+Abdullah ibn al-Mu'tazz
 Abdullah of Pahang
 Abdullah of Saudi Arabia
-Abdullah Zeydan
 Abdullahi Sule
 Abdullahi Umar Ganduje
-AbdulRahman AbdulRazaq
 Abdulsamad Shariff Nassir
 Abdurrahim El-Keib
 Abdusakur Tan
@@ -81,15 +82,15 @@ Abish Khatun
 Abiy Ahmed
 Abol-Qasem Qa'em-Maqam
 Abraham Hamadeh
-Abu al-Ghazi Bahadur
-Abu al-Hasan al-Hashimi al-Qurashi
-Abu al-Hussein al-Husseini al-Qurashi
-Abu al-Qasim Muhammad ibn Abbad
 Abu Bakr al-Baghdadi
 Abu Hafs al-Hashimi al-Qurashi
 Abu Ibrahim al-Hashimi al-Qurashi
 Abu Taschfin I.
 Abu Yusuf Yaqub ibn Abd Al-Haqq
+Abu al-Ghazi Bahadur
+Abu al-Hasan al-Hashimi al-Qurashi
+Abu al-Hussein al-Husseini al-Qurashi
+Abu al-Qasim Muhammad ibn Abbad
 Abu'l Qasim
 Abu-'l-Qāsim H̱ān Nāṣir-al-Mulk
 Abubakar Atiku Bagudu
@@ -166,18 +167,16 @@ Ahhotep II
 Ahmad Al Abdullah Al Sabah
 Ahmad Alaq
 Ahmad Awad Bin Mubarak
-Ahmad bin Said Al Busaidi
 Ahmad Maher Pasha
 Ahmad Mukhtar Baban
 Ahmad Shah III of Pahang
 Ahmad Uyahya
+Ahmad bin Said Al Busaidi
 Ahmadu Bello
 Ahmadu Tall
 Ahmed Abdallah Mohamed Sambi
 Ahmed Aboutaleb
 Ahmed Akhchichine
-Ahmed al-Rahawi
-Ahmed al-Sharaa
 Ahmed Awad Ibn Auf
 Ahmed Elmi Osman
 Ahmed Hachani
@@ -191,6 +190,8 @@ Ahmed Obaid Bin Dagher
 Ahmed Osman
 Ahmed Shafik
 Ahmed Usman Ododo
+Ahmed al-Rahawi
+Ahmed al-Sharaa
 Ahmet Davutoğlu
 Ahmet Türk
 Ahmose I
@@ -214,7 +215,6 @@ Al Green
 Al Haris
 Al-Mu'tamid ibn Abbad
 Al-Mutawakkil III
-al-Zubayr Rahma Mansur
 Alaeddin Pasha
 Alain Berset
 Alain Calmat
@@ -247,12 +247,12 @@ Albert I of Saxony
 Albert I, Duke of Saxony
 Albert II of Belgium
 Albert II, Prince of Monaco
-Albert of Louvain
-Albert of Mainz
 Albert Ouédraogo
 Albert Pahimi Padacké
 Albert Thomas
 Albert VI, Duke of Bavaria
+Albert of Louvain
+Albert of Mainz
 Alberto Cirio
 Alberto Enríquez Gallo
 Alberto Fernández
@@ -320,7 +320,6 @@ Alexander Lukashenka
 Alexander Malis
 Alexander Miasnikian
 Alexander Moor
-Alexander of Battenberg
 Alexander Ramsey
 Alexander Rosenberg
 Alexander Rudnay
@@ -332,9 +331,10 @@ Alexander Subotsin
 Alexander Tkachyov
 Alexander Tormasov
 Alexander Turchyn
-Alexander Van der Bellen
 Alexander VII
+Alexander Van der Bellen
 Alexander Vladimirovich Martynov
+Alexander of Battenberg
 Alexander von Bournonville
 Alexandr Bogomaz
 Alexandre Bompard
@@ -374,12 +374,12 @@ Alfred Lawson, Jr.
 Alfred Moquin-Tandon
 Alfred Stern
 Alfredo Cornejo
-Alfredo d'Escragnolle Taunay
-Alfredo del Mazo Maza
 Alfredo Lim
 Alfredo Rodrigues Gaspar
 Alfredo Zayas y Alfonso
 Alfredo Zegarra
+Alfredo d'Escragnolle Taunay
+Alfredo del Mazo Maza
 Alfrēds Rubiks
 Algirdas Butkevičius
 Alhaji Ahmad Aliyu
@@ -499,10 +499,10 @@ Andrew Gillum
 Andrew Grove
 Andrew Holness
 Andrew Mountbatten-Windsor
-Andrew of Austria
 Andrew Solomon
 Andrew Wilson
 Andrew Witty
+Andrew of Austria
 Andrey Alexeyeenko
 Andrey Chibis
 Andrey Gyurov
@@ -555,18 +555,18 @@ Anna Dalassene
 Anna Eshoo
 Anna Isabella Gonzaga
 Anna Maria Muccioli
-Anna of Mecklenburg-Schwerin
-Anna of Sweden
 Anna Palaiologina Kantakouzene
 Anna Paulina Luna
+Anna of Mecklenburg-Schwerin
+Anna of Sweden
 Anna-Kaisa Ikonen
 Annastacia Palaszczuk
-Anne d'Alençon
 Anne Eleonore of Hesse-Darmstadt
 Anne Hidalgo
+Anne Osborn Krueger
+Anne d'Alençon
 Anne of Bohemia, Duchess of Silesia
 Anne of France
-Anne Osborn Krueger
 Anne, Princess Royal
 Annegret Kramp-Karrenbauer
 Anneli Hulthén
@@ -623,7 +623,6 @@ Anwar Ibrahim
 Anwar Sadat
 Anwar ul Haq Kakar
 Aníbal Cavaco Silva
-AOC
 Apisai Ielemia
 Apollinaire Joachim Kyélem de Tambèla
 Apolo Nsibambi
@@ -655,6 +654,7 @@ Areus II
 Argaeus I of Macedon
 Argaeus II of Macedon
 Ariamnes of Cappadocia
+Ariana Grande
 Ariane Gorin
 Ariarathes I of Cappadocia
 Ariel Henry
@@ -709,8 +709,8 @@ Arthur Lewis
 Arthur Parfenčikov
 Arthur Sadoun
 Arthur Swatek
-Arthur van Dijk
 Arthur Werner
+Arthur van Dijk
 Artur Mas
 Artur Rasizade
 Artur Silva
@@ -786,6 +786,7 @@ Babulal Gaur
 Baburam Bhattarai
 Baby Rani Maurya
 Baciro Djá
+Bad Bunny
 Badra Gunba
 Baghdadi Mahmudi
 Bagrat III of Georgia
@@ -804,8 +805,8 @@ Bala Mohammed
 Baldwin II of Jerusalem
 Baldwin III of Jerusalem
 Baldwin Lonsdale
-Baldwin of Luxembourg
 Baldwin Spencer
+Baldwin of Luxembourg
 Balendra Shah
 Balimwezo Ronald Nsubuga
 Balingiin Tserendorj
@@ -818,8 +819,8 @@ Barbara Boxer
 Barbara Comstock
 Barbara Lee
 Barbara Mikulski
-Barbara of Cilli
 Barbara Sophie of Brandenburg
+Barbara of Cilli
 Barbu Știrbey
 Barham Salih
 Barlen Vyapoory
@@ -843,11 +844,11 @@ Batu Khasikov
 Bayan Qulï
 Beata Szydło
 Beatrice I, Countess of Burgundy
+Beatrice Simon
 Beatrice of Castile
 Beatrice of France
 Beatrice of Lorraine
 Beatrice of Portugal
-Beatrice Simon
 Beatrix of the Netherlands
 Beatriz Paredes Rangel
 Becca Balint
@@ -893,8 +894,8 @@ Bernard Goumou
 Bernard Gustav of Baden-Durlach
 Bernard Gustin
 Bernard Makuza
-Bernard of Italy
 Bernard Pivot
+Bernard of Italy
 Bernardino Realino
 Bernardo Arévalo de León
 Bernardo Clesio
@@ -915,7 +916,10 @@ Betty McCollum
 Bev Craig
 Bev Perdue
 Bey Machmudin
+Beyonce
+Beyoncé
 Bezmiara Kadin
+Bezos
 Bhagat Singh Koshiyari
 Bhagwant Mann
 Bhagwantrao Mandloi
@@ -933,9 +937,11 @@ Bidzina Ivanishvili
 Bilal Ag Acherif
 Bill Anderson
 Bill Cassidy
+Bill Clinton
 Bill English
 Bill Flores
 Bill Foster
+Bill Gates
 Bill Hagerty
 Bill Haslam
 Bill Huizenga
@@ -949,6 +955,7 @@ Bill Shuster
 Bill Stromberg
 Bill White
 Bill Young
+Billie Eilish
 Billy Long
 Binali Yıldırım
 Bingu wa Mutharika
@@ -1080,6 +1087,7 @@ Bruce Broussard
 Bruce Golding
 Bruce Poliquin
 Bruce Rauner
+Bruce Springsteen
 Bruce Weitz
 Bruce Westerman
 Brunhilda of Austrasia
@@ -1090,8 +1098,8 @@ Bruno Nuytten
 Bruno Reis
 Bruno Retailleau
 Bruno Saul
-Bruno the Great
 Bruno Tshibala
+Bruno the Great
 Brunon Bartkiewicz
 Bryan Steil
 Bu Xiaolin
@@ -1112,6 +1120,7 @@ C. A. Rosetti
 C. C. Wei
 C. P. Radhakrishnan
 C. V. Vigneswaran
+CY Leung
 Cai Qi
 Cai Zongze
 Cajetan von Felder
@@ -1181,18 +1190,18 @@ Caterina Visconti
 Catherine Bréchignac
 Catherine Connolly
 Catherine Cortez Masto
-Catherine de Bourbon
-Catherine de' Medici
 Catherine I of Russia
 Catherine Mazzacco
+Catherine Samba-Panza
+Catherine Tizard
+Catherine Trautmann
+Catherine de Bourbon
+Catherine de' Medici
 Catherine of Austria, Queen of Portugal
 Catherine of Brandenburg
 Catherine of Cleves
 Catherine of Lancaster
 Catherine of Saxe-Lauenburg
-Catherine Samba-Panza
-Catherine Tizard
-Catherine Trautmann
 Cathy Berx
 Cathy McMorris Rodgers
 Cedric Richmond
@@ -1238,18 +1247,18 @@ Charles Joseph of Lorraine
 Charles Louis, Prince of Anhalt-Bernburg-Schaumburg-Hoym
 Charles Michel
 Charles Moorman
-Charles of Austria, Bishop of Wroclaw
-Charles of Lorraine
-Charles of Provence
 Charles Poor Kindleberger
 Charles Rivière-Hérard
 Charles Savarin
-Charles the Bold
-Charles the Child
-Charles the Younger
 Charles VI, Holy Roman Emperor
 Charles VII, Holy Roman Emperor
 Charles Woodburn
+Charles of Austria, Bishop of Wroclaw
+Charles of Lorraine
+Charles of Provence
+Charles the Bold
+Charles the Child
+Charles the Younger
 Charles, Duke of Durazzo
 Charles-Ange Ginésy
 Charlie Crist
@@ -1363,8 +1372,8 @@ Christopher J. Nassetta
 Christopher Jacobs
 Christopher Loeak
 Christopher Luxon
-Christopher of Oldenburg
 Christopher Swift
+Christopher of Oldenburg
 Chuck Edwards
 Chuck Fleischmann
 Chuck Grassley
@@ -1390,10 +1399,10 @@ Claude Goasguen
 Claude Hagège
 Claude Joseph
 Claudette Werleigh
-Claudia de' Medici
 Claudia López Hernández
 Claudia Rivera Vivanco GM
 Claudia Tenney
+Claudia de' Medici
 Claudine, Lady of Monaco
 Claudio Orrego
 Claudio Scajola
@@ -1415,10 +1424,10 @@ Cleomenes III
 Cleopas Dlamini
 Cleopatra III of Egypt
 Cleopatra IV of Egypt
-Cleopatra of Macedon
 Cleopatra Selene of Egypt and Syria
 Cleopatra Thea
 Cleopatra V of Egypt
+Cleopatra of Macedon
 Cliff Bentz
 Clothar I
 Clover Moore
@@ -1436,8 +1445,8 @@ Conon de Béthune
 Conor Lamb
 Conrad I of Hochstaden
 Conrad II
-Conrad of Wittelsbach
 Conrad Sangma
+Conrad of Wittelsbach
 Constance of Antioch
 Constance of Arles
 Constance of Portugal
@@ -1483,18 +1492,18 @@ Creoda of Wessex
 Cresent Hardy
 Crin Antonescu
 Cristiano Amon
+Cristiano Ronaldo
 Cristina Cifuentes
 Cristina Fernández de Kirchner
 Cristoforo Madruzzo
-Cristóbal de Mendoza
 Cristóbal Vaca de Castro
+Cristóbal de Mendoza
 Cruz Pérez Cuéllar
 Cunigunde of Luxembourg
 Curt Clawson
-Curt von Gottberg
 Curt Wach
+Curt von Gottberg
 Cuthred of Kent
-CY Leung
 Cynthia Lummis
 Cyril Ramaphosa
 Cédric Kahn
@@ -1561,13 +1570,13 @@ Daniel McKee
 Daniel Noboa
 Daniel O'Day
 Daniel Obajtek
-Daniel of Galicia
 Daniel Ona Ondo
 Daniel Ortega
 Daniel Passerini
 Daniel Risch
 Daniel Scioli
 Daniel Webster
+Daniel of Galicia
 Daniella Levine Cava
 Danielle Smith
 Danilo Medina
@@ -1671,9 +1680,9 @@ Demetrius I of Bactria
 Demetrius II Nicator
 Demetrius II of India
 Demetrius III Eucaerus
+Demetrius Zvonimir of Croatia
 Demetrius of Montferrat
 Demetrius of Pharos
-Demetrius Zvonimir of Croatia
 Demyan Korotchenko
 Deng Xiaoping
 Denis Bećirović
@@ -1805,6 +1814,7 @@ Douye Diri
 Dov Kotler
 Dragan Čović
 Dragan Đilas
+Drake
 Drew Ferguson
 Driss Jettou
 Dritan Abazović
@@ -1824,6 +1834,7 @@ Dušan Kunovský
 Dušan Čkrebić
 Duško Marković
 Dwarka Prasad Mishra
+Dwayne Johnson
 Dwight E. Evans
 Dzeliwe of Eswatini
 Dário Saadi
@@ -1906,8 +1917,8 @@ Eleanor of Toledo
 Eleanor of Viseu
 Elena Glinskaya
 Elena Lasconi
-Eleni of Ethiopia
 Eleni Theocharous
+Eleni of Ethiopia
 Eleonor Magdalene of Neuburg
 Eleonore of Austria
 Eli Crane
@@ -1931,20 +1942,21 @@ Elizabeth Esty
 Elizabeth Gaines
 Elizabeth II
 Elizabeth K.T. Sackey
+Elizabeth Peratrovich
+Elizabeth Richeza of Poland
+Elizabeth Warren
 Elizabeth of Bosnia
 Elizabeth of Denmark, Duchess of Brunswick-Wolfenbüttel
 Elizabeth of Luxembourg
 Elizabeth of Poland, Queen of Hungary
 Elizabeth of Serbia
-Elizabeth Peratrovich
-Elizabeth Richeza of Poland
-Elizabeth Warren
 Elke Kahr
 Ellen Johnson Sirleaf
 Elliott Hill
 Elmano de Freitas
 Elmedin Konaković
 Elon Musk
+Elton John
 Eluned Morgan
 Elvira Mendes
 Elvira of Castile, Queen of León
@@ -1959,8 +1971,8 @@ Emile Roemer
 Emilia Sykes
 Emiliano García-Page
 Emilie of Oldenburg-Delmenhorst
-Emily de Jongh-Elhage
 Emily Randall
+Emily de Jongh-Elhage
 Emine Hatun
 Emma Little-Pengelly
 Emma of Hawaii
@@ -2024,9 +2036,11 @@ Eowa of Mercia
 Epeli Nailatikau
 Erbol Qaraşökeev
 Erdmuthe Dorothea of Saxe-Zeitz
+Erdogan
 Eri Cahyadi
 Eriba-Adad I
 Eriba-Adad II
+Eric Adams
 Eric Anundsson
 Eric Ateh
 Eric Burlison
@@ -2036,10 +2050,10 @@ Eric Garcetti
 Eric Haakonsson
 Eric Holcomb
 Eric Johnson
-Eric of Pomerania
 Eric Schmitt
 Eric Sorensen
 Eric Swalwell
+Eric of Pomerania
 Erich Koch-Weser
 Erico Aristotle Aumentado
 Erik Paulsen
@@ -2058,8 +2072,8 @@ Ernest Augustus, King of Hanover
 Ernest Bai Koroma
 Ernest I, Duke of Saxe-Coburg and Gotha
 Ernest II, Count of Lippe-Biesterfeld
-Ernest of Bavaria
 Ernest Renan
+Ernest of Bavaria
 Ernest von Koerber
 Ernst Adalbert von Harrach
 Ernst August, Duke of Brunswick
@@ -2146,7 +2160,6 @@ Felix Genn
 Felix von Hartmann
 Femke Halsema
 Feng Fei
-Ferdinand de Lesseps
 Ferdinand I of Naples
 Ferdinand I of the Two Sicilies
 Ferdinand I, Holy Roman Emperor
@@ -2157,6 +2170,7 @@ Ferdinand III, Holy Roman Emperor
 Ferdinand IV, King of the Romans
 Ferdinand Karl, Archduke of Austria-Este
 Ferdinand Maria, Elector of Bavaria
+Ferdinand de Lesseps
 Ferdinand of Bavaria
 Ferenc Forgách
 Ferenc Ilyés
@@ -2177,8 +2191,8 @@ Fidel Castro
 Fidias Panayiotou
 Filemon Vela
 Filip Vujanović
-Filipe de Brito e Nicote
 Filipe Nyusi
+Filipe de Brito e Nicote
 Filippo Tamagnini
 Firhad Hakim
 Firmin Ngrébada
@@ -2207,27 +2221,27 @@ Francis I of the Two Sicilies
 Francis II of the Two Sicilies
 Francis II, Holy Roman Emperor
 Francis IV of Modena
-Francis of Waldeck
 Francis Rooney
 Francis V, Duke of Modena
 Francis William Reitz
 Francis X. Suarez
+Francis of Waldeck
 Francisco Antonino Vidal
 Francisco Caamaño
 Francisco Camps
 Francisco Carvalho
 Francisco D'Souza
-Francisco de Bobadilla
-Francisco de Miranda
-Francisco de Montejo y León
-Francisco de Toledo, Count of Oropesa
-Francisco del Rosario Sánchez
 Francisco Diez Canseco
 Francisco Jiménez de Cisneros
 Francisco Pascual Obama Asue
 Francisco Pizarro
 Francisco Sagasti
 Francisco Vega de Lamadrid
+Francisco de Bobadilla
+Francisco de Miranda
+Francisco de Montejo y León
+Francisco de Toledo, Count of Oropesa
+Francisco del Rosario Sánchez
 Francisco Álvarez-Cascos
 Francisque Ravony
 Franck Leroy
@@ -2258,8 +2272,8 @@ Franz Anton von Kolowrat-Liebsteinsky
 Franz Lackner
 Franz Leopold von Nádasdy
 Franz Peplinski
-Franz von Papen
 Franz Wilhelm von Wartenberg
+Franz von Papen
 Franziska Giffey
 François Alfonsi
 François Baroin
@@ -2293,19 +2307,19 @@ Frederick I, Elector of Brandenburg
 Frederick I, Grand Duke of Baden
 Frederick II of Prussia
 Frederick II, Duke of Saxe-Gotha-Altenburg
-Frederick II, Elector of Brandenburg
 Frederick II, Elector Palatine
+Frederick II, Elector of Brandenburg
 Frederick II, Grand Duke of Baden
 Frederick II, Holy Roman Emperor
 Frederick III of the Palatinate
 Frederick III the Simple
 Frederick III, Duke of Saxe-Gotha-Altenburg
 Frederick IV, Duke of Austria
-Frederick of Hesse-Darmstadt
 Frederick Pitcher
-Frederick the Fair
 Frederick William III of Prussia
 Frederick William, Elector of Hesse
+Frederick of Hesse-Darmstadt
+Frederick the Fair
 Frederik X of Denmark
 Frederik, Hereditary Prince of Denmark
 Fredrik Meyn
@@ -2352,10 +2366,10 @@ Gabit Syzdykbekov
 Gabriel Attal
 Gabriel Boric
 Gabriel Costa
-Gabriel de Broglie
 Gabriel Mureșan
 Gabriel Ramanantsoa
 Gabriel Terra
+Gabriel de Broglie
 Gabriela Firea
 Gabriele Ferretti
 Gabrio Casati
@@ -2419,19 +2433,20 @@ George Law Curry
 George Maxwell Richards
 George Miller
 George Morgenstern
-George of Austria
-George of Poděbrady
 George Pardee
 George S. Latimer
 George Santos
 George T. Whitesides
 George Tupou V of Tonga
+George W. Bush
 George Weah
 George Whitefield Davis
 George Wilbur Peck
 George William Vella
 George William, Elector of Brandenburg
 George XII of Georgia
+George of Austria
+George of Poděbrady
 Georges Loinger
 Georges Méric
 Georges Spénale
@@ -2464,9 +2479,9 @@ Gheorghe Alexianu
 Gheorghe Brega
 Gia Long
 Giacomo Antonelli
-Giacomo dalla Torre del Tempio di Sanguinetto
 Giacomo Doria
 Giacomo Simoncini
+Giacomo dalla Torre del Tempio di Sanguinetto
 Gian Nicola Berti
 Gian-Franco Kasper
 Giancarlo Galan
@@ -2578,8 +2593,8 @@ Gregorio Luperón
 Gregorio Santos Guerrero
 Gregory J. Goff
 Gregory Meeks
-Gregory the Patrician
 Gregory Wasson
+Gregory the Patrician
 Gretchen Whitmer
 Grigory Broydo
 Grzegorz Antoni Ogiński
@@ -2609,13 +2624,13 @@ Gustavo Petro
 Gustavo Sáenz
 Gustavo Valdés
 Gustavs Zemgals
-Guy de Montfort, Count of Nola
 Guy Lapointe
-Guy of Thouars
 Guy Parmelin
 Guy Reschenthaler
 Guy Scott
 Guy Verhofstadt
+Guy de Montfort, Count of Nola
+Guy of Thouars
 Guðni Jóhannesson
 Gwen Graham
 Gwen Moore
@@ -2664,10 +2679,10 @@ Halfdan Hvitbeinn
 Halfdan Ragnarsson
 Halimah Yacob
 Halla Tómasdóttir
+Hamad II of Bahrain
 Hamad bin Jassim bin Jaber Al Thani
 Hamad bin Khalifa Al Thani
 Hamad bin Said Al Busaidi
-Hamad II of Bahrain
 Hamadi Jebali
 Hamdullah Nomani
 Hamed Bakayoko
@@ -2725,9 +2740,9 @@ Hazem Al Beblawi
 He Xiaopeng
 Heather Bresch
 Hector Grisi
+Hedwig Sophie of Brandenburg
 Hedwig of Holstein
 Hedwig of Sagan
-Hedwig Sophie of Brandenburg
 Heidi Heitkamp
 Heidi Petzerling-Galle
 Heidrun Piwernetz
@@ -2744,9 +2759,9 @@ Helder Barbalho
 Helen Fernández
 Helen Giza
 Helen Lofthouse
+Helen Zille
 Helen of Zadar
 Helen of Znojmo
-Helen Zille
 Helena of Bulgaria
 Helena of Moscow
 Helena, Queen of Hungary
@@ -2774,14 +2789,14 @@ Henry II of England
 Henry II, Lord of Mecklenburg
 Henry Julius, Duke of Brunswick-Lüneburg
 Henry McMaster
-Henry of Bohemia
-Henry of Flanders
 Henry Puna
 Henry Raspe, Landgrave of Thuringia
 Henry Skillman Breckinridge
 Henry Taub
 Henry V, Duke of Legnica
 Henry Waxman
+Henry of Bohemia
+Henry of Flanders
 Herbert Puchert
 Herbert Rutschke
 Herbert Tzschoppe
@@ -2800,9 +2815,9 @@ Hermann IV of Hesse
 Hermann Müller
 Hermilando Mandanas
 Herod of Chalcis
-Hervé de Charette
 Hervé Jamar
 Hervé Morin
+Hervé de Charette
 Hery Rajaonarimampianina
 Hesham Qandil
 Hethum I
@@ -2819,6 +2834,7 @@ Hikmat Sulayman
 Hilaire Belloc
 Hilda Heine
 Hildegard of Vinzgouw
+Hillary Clinton
 Hillary Scholten
 Himanta Biswa Sarma
 Hirofumi Yoshimura
@@ -2886,11 +2902,11 @@ Hun Sen
 Huo Guang
 Husayn al-Khalidi
 Husein Gradaščević
-Hussein al-Oweini
 Hussein Arnous
 Hussein Bani Hani
 Hussein Kamel of Egypt
 Hussein Mwinyi
+Hussein al-Oweini
 Hwang Kyo-ahn
 Hyacinth Alia
 Håkan Ericsson
@@ -2910,7 +2926,6 @@ I Wayan Koster
 Ian Narev
 Ibrahim Boubacar Keïta
 Ibrahim Hashem Pasha
-Ibrahim ibn al-Mahdi
 Ibrahim Iskandar of Johor
 Ibrahim Ismail Chundrigar
 Ibrahim Mahlab
@@ -2919,6 +2934,7 @@ Ibrahim Pasha of Egypt
 Ibrahim Saber
 Ibrahim Shekarau
 Ibrahim Traoré
+Ibrahim ibn al-Mahdi
 Ibrahima Kassory Fofana
 Iccho Itoh
 Ichirō Hirosawa
@@ -3000,11 +3016,11 @@ Isaac the Armenian
 Isabeau of Bavaria
 Isabel Díaz Ayuso
 Isabel Maria of Portugal
-Isabella d'Este
 Isabella I, Queen of Armenia
 Isabella II of Jerusalem
 Isabella Jagiellon
 Isabella Lövin
+Isabella d'Este
 Isabella of Castile, Queen of Aragon
 Isabella of France
 Isabella of France, Queen of Navarre
@@ -3018,11 +3034,11 @@ Ishme-Dagan II
 Iskandar I of Johor
 Isko Moreno
 Islam Karimov
-Ismail al-Azhari
 Ismail Omar Guelleh
 Ismail Ould Bedde Ould Cheikh Sidiya
 Ismail Petra of Kelantan
 Ismail Sabri Yaakob
+Ismail al-Azhari
 Ismihan Kaya Sultan
 Isran Noor
 István Horthy
@@ -3064,11 +3080,9 @@ Iziaslav II of Kiev
 Iziaslav III of Kiev
 Iziaslav IV Vladimirovich
 Iñigo Urkullu Renteria
-İbrahim Baylan
-İbrahim II of Karaman
-İrsen Küçük
-İsa Çelebi
 J. Walter Kennedy
+JB Pritzker
+JD Vance
 Jaber Al-Mubarak Al-Hamad Al-Sabah
 Jacek Brzozowski
 Jacek Olczak
@@ -3143,9 +3157,9 @@ James Marape
 James Michael Curley
 James Michel
 James Murdoch
-James of Baux
 James Quincey
 James Walkinshaw
+James of Baux
 Jamie Dimon
 Jamie Iannone
 Jamie Raskin
@@ -3207,8 +3221,6 @@ Jay Obernolte
 Jay Rockefeller
 Jay S. Fishman
 Jayaram Jayalalithaa
-JB Pritzker
-JD Vance
 Jean Anthelme Brillat-Savarin
 Jean Baptiste Armand Louis Léonée Elie de Beaumont
 Jean Baptiste Julien d'Omalius d'Halloy
@@ -3464,10 +3476,10 @@ John Hoeven
 John Horgan
 John I Lemigius
 John I of Castile and Leon
-John II of Portugal
 John II Platinus
-John III of Portugal
+John II of Portugal
 John III Rizocopus
+John III of Portugal
 John III, Duke of Cleves
 John IV of Portugal
 John J. Beckley
@@ -3494,10 +3506,6 @@ John Moolenaar
 John Morgridge
 John N. Kennedy
 John Neal
-John of Arkel
-John of Bohemia
-John of Brienne
-John of Castile, Lord of Valencia de Campos
 John Owen Dominis
 John Philip of Lamberg
 John R. Commons
@@ -3513,8 +3521,6 @@ John Stankey
 John Strangfeld
 John Swinney
 John T. Dunlap
-John the Fearless
-John the Orphanotrophos
 John Theodore of Bavaria
 John Thune
 John Tory
@@ -3525,6 +3531,12 @@ John W. Snow
 John Walsh
 John Whitmire
 John Yarmuth
+John of Arkel
+John of Bohemia
+John of Brienne
+John of Castile, Lord of Valencia de Campos
+John the Fearless
+John the Orphanotrophos
 John, Margrave of Brandenburg-Küstrin
 Johnny Briceño
 Johnny Isakson
@@ -3642,9 +3654,9 @@ Jozef Lenárt
 Jozef Tkáč
 Jozias van Aartsen
 João Azevêdo
-João de Nóvoa
 João Doria
 João Lourenço
+João de Nóvoa
 Juan Campisteguy
 Juan Carlos I of Spain
 Juan Carlos Varela
@@ -3669,8 +3681,8 @@ Juan Santamaría Cases
 Juan Vargas
 Juana Enríquez de Mendoza y Fernández de Córdoba
 Juba II
-Judith of Bavaria
 Judith Suminwa
+Judith of Bavaria
 Judy Chu
 Juha Sipilä
 Julia Brownley
@@ -3693,6 +3705,7 @@ Jurelang Zedkaia
 Juscelino Kubitschek
 Jussi Halla-aho
 Justin Amash
+Justin Bieber
 Justin Hotard
 Justin Lekhanya
 Justin Nsengiyumva
@@ -3724,9 +3737,9 @@ K. Palaniswami
 Kaan Terzioğlu
 Kabiné Komara
 Kadashman-Enlil II
-Kadashman-harbe I
 Kadashman-Harbe II
 Kadashman-Harbe II or Kara-hardash
+Kadashman-harbe I
 Kadir Topbaş
 Kai Mykkänen
 Kai Wegner
@@ -3755,6 +3768,7 @@ Kamla Persad-Bissessar
 Kamran Tessori
 Kamures Kadın
 Kanishka II
+Kanye West
 Kardam of Bulgaria
 Karel Komárek
 Karel Kramář
@@ -3914,6 +3928,7 @@ Kim Jae-ryong
 Kim Jong Un
 Kim Jong-il
 Kim Jong-un
+Kim Kardashian
 Kim Kielsen
 Kim Kyoung-soo
 Kim Min-seok
@@ -3922,6 +3937,8 @@ Kim Reynolds
 Kim Schrier
 Kim Tok-hun
 Kim Yong-il
+King Charles
+King Charles III
 King Ji of Zhou
 King Seondeok of Silla
 King Wu of Zhou
@@ -4004,6 +4021,7 @@ Köprülü Fazıl Mustafa Paşa
 Kōichi Shiota
 Kōji Hoshino
 Kōji Satō
+LaMonica McIver
 Lachlan Murdoch
 Ladislaus Hunyadi
 Ladislaus of Naples
@@ -4011,6 +4029,7 @@ Ladislaus the Posthumous
 Ladislav Adamec
 Ladislav Hučko
 Ladislav Urbánek
+Lady Gaga
 Lai Ching-te
 Laimdota Straujuma
 Lajos Kossuth
@@ -4018,7 +4037,6 @@ Lalao Ravalomanana
 Lamar Alexander
 Lamar S. Smith
 Lamberto, Lord of Monaco
-LaMonica McIver
 Lamoral, Count of Egmont
 Lan Fo'an
 Lan Tianli
@@ -4029,8 +4047,8 @@ Lani Cayetano
 Laodice I
 Laodice II
 Laodice III
-Laodice of Pontus
 Laodice VII Thea
+Laodice of Pontus
 Laphonza Butler
 Larry Bucshon
 Larry Fink
@@ -4059,6 +4077,7 @@ Lawrence Klein
 Lawrence Wong
 Lazar Hrebeljanović
 Lazarus Chakwera
+LeBron James
 Leabua Jonathan
 Leandro Zdero
 Lech Kaczyński
@@ -4086,6 +4105,7 @@ Leo XIV
 Leoluca Orlando
 Leona Marlin-Romeo
 Leonard Lance
+Leonardo DiCaprio
 Leonardo III Tocco
 Leonel Fernández
 Leonel Mário d'Alva
@@ -4136,6 +4156,7 @@ Linda Sánchez
 Lindsey Graham
 Lionel Aingimea
 Lionel Carmant
+Lionel Messi
 Lionel Zinsou
 Lisa Blunt Rochester
 Lisa McClain
@@ -4174,8 +4195,8 @@ Lori Trahan
 Lotay Tshering
 Lothair Francis of Schönborn
 Lothair II of Italy
-Lothar de Maizière
 Lothar Späth
+Lothar de Maizière
 Lou Barletta
 Lou Correa
 Louie Gohmert
@@ -4184,7 +4205,6 @@ Louis Aliot
 Louis Anton of Pfalz-Neuburg
 Louis Botha
 Louis Cousin
-Louis de Bourbon, Bishop of Liège
 Louis Frederick, Duke of Württemberg-Montbéliard
 Louis I, Duke of Orléans
 Louis I, Prince of Monaco
@@ -4196,18 +4216,19 @@ Louis II, Elector of Brandenburg
 Louis II, Grand Duke of Hesse
 Louis III, Elector Palatine
 Louis IV, Elector Palatine
-Louis of Parma, king of Etruria
 Louis Philip, Count Palatine of Simmern-Kaiserslautern
 Louis Schweitzer
 Louis Sylvain Goma
 Louis V
 Louis VI of the Palatinate
+Louis de Bourbon, Bishop of Liège
+Louis of Parma, king of Etruria
 Louis, Duke of Durazzo
 Louis-François, Baron Lejeune
 Louis-Nicolas Davout
 Louise Hippolyte I, Princess of Monaco
-Louise of Savoy
 Louise Slaughter
+Louise of Savoy
 Louise Élisabeth d'Orléans
 Loukas Papademos
 Loïg Chesnais-Girard
@@ -4220,10 +4241,10 @@ Luc Montagnier
 Luc Tardif
 Luc-Adolphe Tiao
 Luca Beccari
-Luca de Meo
 Luca Niculescu
 Luca Santolini
 Luca Zaia
+Luca de Meo
 Lucas Cranach the Younger
 Lucas Mangope
 Lucas Sanches Promessia
@@ -4243,21 +4264,21 @@ Ludovico Trevisan
 Ludwig Siebert
 Luigi Brugnaro
 Luigi Capuana
-Luigi de Magistris
 Luigi Jacobini
 Luigi Lambruschini
+Luigi de Magistris
 Luis Abinader
 Luis Antonio Belluga y Moncada
 Luis Arce
-Luis de Velasco
 Luis Durnwalder
 Luis Gallego
 Luis Guillermo Solís
 Luis Gutiérrez
 Luis Lacalle Pou
 Luis Reyes Reyes
-Luisa de Guzmán
+Luis de Velasco
 Luisa Fernanda Rudi Ubeda
+Luisa de Guzmán
 Luitpold, Prince Regent of Bavaria
 Luiz Inácio Lula da Silva
 Luiza Helena de Bairros
@@ -4294,12 +4315,14 @@ Ma Huateng
 Ma Mingzhe
 Ma Ying-jeou
 Ma'ruf Amin
+MaNtofombi Dlamini
 Maahdia Benghalia
 Maatia Toafa
 Mac Con
 Mac Thornberry
 Macky Sall
 Macon Foscue Brock, Jr.
+Macron
 Madeleine Dean
 Madhav Kumar Nepal
 Madhavrao Scindia
@@ -4307,9 +4330,9 @@ Madison Cawthorn
 Maeen Abdulmalik Saeed
 Mafalda of Portugal
 Magdalena Andersson
-Magdalena of Valois
 Magdalena Sibylla of Hesse-Darmstadt
 Magdalena Wilhelmine of Württemberg
+Magdalena of Valois
 Maggie Hassan
 Magid Magid
 Magnus I of Sweden
@@ -4333,11 +4356,11 @@ Mahlon Dickerson
 Mahmoud Abbas
 Mahmoud Ahmadinejad
 Mahmoud Jibril
-Mahmud al-Muntasir
 Mahmud Barzanji
 Mahmud Khan
 Mahmud Shah
 Mahmud Sulayman al-Maghribi
+Mahmud al-Muntasir
 Mahmut Demirtaş
 Mahé Drysdale
 Mai Mala Buni
@@ -4381,12 +4404,10 @@ Manohar Parrikar
 Manoj Sinha
 Manolo Jiménez Salinas
 Mansur Yavaş
-MaNtofombi Dlamini
 Manuel Barillas
 Manuel Bartlett Díaz
 Manuel Candamo
 Manuel Ciavatta
-Manuel de Jesús Troncoso de la Concha
 Manuel González Flores
 Manuel I of Portugal
 Manuel Jimenes
@@ -4402,6 +4423,7 @@ Manuel Saturnino da Costa
 Manuel Serifo Nhamadjo
 Manuel Valls
 Manuel Vicente Maza
+Manuel de Jesús Troncoso de la Concha
 Manuela Roka
 Manuela Schwesig
 Manzoor Pashteen
@@ -4442,6 +4464,8 @@ Margaret Beaufort
 Margaret Elisabeth of Leiningen-Westerburg
 Margaret Goodlander
 Margaret I of Denmark
+Margaret Paleologa
+Margaret Tudor
 Margaret of Austria, Queen of Bohemia
 Margaret of Austria, Queen of Spain
 Margaret of Bavaria
@@ -4451,8 +4475,6 @@ Margaret of Béarn
 Margaret of Durazzo
 Margaret of Navarre
 Margaret of Valois
-Margaret Paleologa
-Margaret Tudor
 Margarita González Saravia
 Margarita Prohens Rigo
 Margherita Aldobrandini
@@ -4479,10 +4501,10 @@ Maria Liberia Peters
 Maria Luisa Berti
 Maria Luisa I, Duchess of Lucca
 Maria Luisa of Savoy
-Maria of Aragon
 Maria Skuratova-Belskaya
 Maria Sofia of Neuburg
 Maria Theresa of Austria
+Maria of Aragon
 Mariamne I
 Marian Gołębiewski
 Marian Lupu
@@ -4515,8 +4537,8 @@ Marie-Louise Coleiro Preca
 Mariella Mularoni
 Marilyn Strickland
 Marin Raykov
-Marina del Pilar
 Marina Mniszech
+Marina del Pilar
 Marino Grimani
 Marino Riccardi
 Mario Bergara
@@ -4595,18 +4617,18 @@ Mary II of England
 Mary Landrieu
 Mary McAleese
 Mary Miller
-Mary of Lorraine
 Mary Peltola
 Mary Tudor
+Mary of Lorraine
 Maryam Nawaz
 María Antonia of Spain
 María Chivite
-María de Molinillo
 María Elvira Salazar
 María Eugenia Campos Galván
 María Eugenia Vidal
 María Guardiola
 María Teresa Jiménez
+María de Molinillo
 Masamichi Kogai
 Masao Uchibori
 Masaru Hashimoto
@@ -4760,7 +4782,6 @@ Michel Aoun
 Michel Barnier
 Michel Combes
 Michel Dagbert
-Michel de Montaigne
 Michel Delebarre
 Michel Djotodia
 Michel Doukeris
@@ -4774,6 +4795,7 @@ Michel Suleiman
 Michel Temer
 Michel Vounatsos
 Michel Wolter
+Michel de Montaigne
 Michele Bachmann
 Michele De Pascale
 Michele Emiliano
@@ -4785,6 +4807,7 @@ Michelle Fischbach
 Michelle Johnston Holthaus
 Michelle Lujan Grisham
 Michelle O'Neill
+Michelle Obama
 Michelle Park Steel
 Michelle Wu
 Micheál Martin
@@ -4931,7 +4954,6 @@ Mohamed Abdelaziz
 Mohamed Abdullahi Mohamed
 Mohamed Agha
 Mohamed Ahmed Amiir
-Mohamed al-Menfi
 Mohamed Bazoum
 Mohamed Béavogui
 Mohamed Ennaceur
@@ -4950,6 +4972,7 @@ Mohamed Said Fofana
 Mohamed Tahir Ayala
 Mohamed Waheed Hassan
 Mohamed Wali Akeik
+Mohamed al-Menfi
 Mohammad Ghazi al-Jalali
 Mohammad Hasan Akhund
 Mohammad Idris Abdul Shomad
@@ -4964,12 +4987,12 @@ Mohammad Shtayyeh
 Mohammad Vali Khan Tonekaboni
 Mohammad-Bagher Ghalibaf
 Mohammed Basindawa
-Mohammed bin Abdulrahman Al Thani
-Mohammed bin Rashid Al Maktoum
-Mohammed bin Salman Al Saud
 Mohammed Bin Zayed Al Nahyan
 Mohammed Umar Bago
 Mohammed VI of Morocco
+Mohammed bin Abdulrahman Al Thani
+Mohammed bin Rashid Al Maktoum
+Mohammed bin Salman Al Saud
 Mohan Charan Majhi
 Mohan Yadav
 Mojmir I
@@ -5009,13 +5032,10 @@ Mstislav III of Kyiv
 Mstislav Qulayıf
 Mswati III
 Mufti Mohammad Sayeed
-Muhammad al-Bashir
 Muhammad Ali Ala al-Saltana
 Muhammad Ali Khan
-Muhammad az-Zaruq Rajab
 Muhammad Fadhel al-Jamali
 Muhammad Hassan of Brunei
-Muhammad ibn Abdallah ibn Tahir
 Muhammad II of Great Seljuq
 Muhammad Inuwa Yahaya
 Muhammad Naji al-Otari
@@ -5023,13 +5043,16 @@ Muhammad Sakizli
 Muhammad Shah of Brunei
 Muhammad Shia' al-Sudani
 Muhammad V of Kelantan
+Muhammad al-Bashir
+Muhammad az-Zaruq Rajab
+Muhammad ibn Abdallah ibn Tahir
 Muhammadu Bello
 Muhammadu Buhari
 Muhammetkaliy Abulgaziyev
 Muhittin Böcek
 Muhriz of Negeri Sembilan
-Muhyiddin of Brunei
 Muhyiddin Yassin
+Muhyiddin of Brunei
 Muirchertach Ua Briain
 Mukesh Ambani
 Mukhriz Mahathir
@@ -5280,13 +5303,13 @@ Noman Çelebicihan
 Nomvula Mokonyane
 Nong Duc Manh
 Nongthombam Biren Singh
-Norbert of Xanten
 Norbert Ratsirahonana
+Norbert of Xanten
 Norihiko Fukuda
 Norma Torres
 Norodom Monineath
-Norodom of Cambodia
 Norodom Sihamoni
+Norodom of Cambodia
 Norovyn Altankhuyag
 Noureddine Bedoui
 Nouri al-Maliki
@@ -5309,6 +5332,7 @@ Nyo Saw
 Nyuserre Ini
 Nükhetsezâ Hanım
 O. Panneerselvam
+Obama
 Odd Reitan
 Odo, Viscount of Porhoet
 Offa of Essex
@@ -5363,19 +5387,20 @@ Olzhas Bektenov
 Om Prakash Kohli
 Omar Abdirashid Ali Sharmarke
 Omar Abdullah
-Omar al-Bashir
 Omar Bongo
 Omar Candia Aguilar
 Omar Fayad
 Omar Ibrahim Ghalawanji
 Omar Ishrak
 Omar Razzaz
+Omar al-Bashir
 Omer Beriziky
 Omurbek Babanov
 Omurtag of Bulgaria
 Ondřej Zdráhala
 Ong Khan
 Oommen Chandy
+Oprah Winfrey
 Oqil Oqilov
 Ordoño IV of León
 Orestes of Macedon
@@ -5417,9 +5442,9 @@ Otto Leopold
 Otto Pérez Molina
 Otto Rasch
 Otto V, Margrave of Brandenburg-Salzwedel
+Otto Witte
 Otto von Bismarck
 Otto von Guericke
-Otto Witte
 Otto-Heinrich Drechsler
 Ottokar II of Bohemia
 Ottone Visconti
@@ -5430,6 +5455,7 @@ Oumarou Dogari Moumouni
 Ousmane Sonko
 P. Sathasivam
 P. V. Narasimha Rao
+PB Balaji
 Pablo Isla
 Pablo Javkin
 Pacorus II
@@ -5506,6 +5532,7 @@ Paul Kaba Thieba
 Paul Kagame
 Paul Magnette
 Paul Mashatile
+Paul McCartney
 Paul Mitchell
 Paul Otellini
 Paul Ryan
@@ -5532,12 +5559,10 @@ Pawan Kumar Chamling
 Paweł Adamowicz
 Paweł Hreniak
 Payo Enríquez de Rivera
-PB Balaji
 Peder Christian Holst
 Pedro Antonio Pimentel
 Pedro Azagra Blázquez
 Pedro Castillo
-Pedro de Ampudia
 Pedro Diez Canseco
 Pedro I of Brazil
 Pedro III of Portugal
@@ -5547,6 +5572,7 @@ Pedro Pires
 Pedro Santana
 Pedro Sánchez
 Pedro Varela
+Pedro de Ampudia
 Pedro Álvarez de Toledo, Marquis of Villafranca
 Pedro Álvarez-Salamanca Ramírez
 Pedubast I
@@ -5574,6 +5600,7 @@ Petar Stambolić
 Pete Aguilar
 Pete Buttigieg
 Pete Gallego
+Pete Hegseth
 Pete Olson
 Pete Ricketts
 Pete Sessions
@@ -5639,26 +5666,26 @@ Phelekezela Mphoko
 Phil Gingrey
 Phil Goff
 Phil Roe
-Philibert of Chalon
 Philibert Tsiranana
+Philibert of Chalon
 Philip "Brave" Davis
 Philip I
+Philip I Philadelphus
 Philip I of Hesse
 Philip I of Macedon
-Philip I Philadelphus
 Philip I, Duke of Pomerania
 Philip I, Prince of Taranto
-Philip II of Spain
 Philip II Philoromaeus
+Philip II of Spain
 Philip II, Prince of Taranto
 Philip III of Spain
 Philip III the Good
 Philip IV of Spain
 Philip J. Pierre
 Philip May
+Philip William, Elector Palatine
 Philip of Sicily
 Philip of Swabia
-Philip William, Elector Palatine
 Philip, Elector Palatine
 Philipp Krementz
 Philipp Ludwig von Sinzendorf
@@ -5742,6 +5769,7 @@ Prince Aribert of Anhalt
 Prince El Hassan bin Talal of Jordan
 Prince Felix of Schwarzenberg
 Prince Frederick Charles of Hesse
+Prince Harry
 Prince Joseph of Monaco
 Prince Joseph of Saxe-Hildburghausen
 Prince Lerotholi Seeiso
@@ -5749,6 +5777,7 @@ Prince Muhammad Abdel Moneim
 Prince Paul of Yugoslavia
 Prince Pedro, Duke of Calabria
 Prince Shōtoku
+Prince William
 Princess Antoinette, Baroness of Massy
 Princess Caroline Amalie of Hesse-Homburg
 Princess Charlotte Amalie of Hesse-Philippsthal
@@ -5775,8 +5804,6 @@ Ptolemy II Philadelphus
 Ptolemy III Euergetes
 Ptolemy IV Philopator
 Ptolemy IX Lathyros
-Ptolemy of Cyprus
-Ptolemy of Mauretania
 Ptolemy Reid
 Ptolemy V Epiphanes
 Ptolemy VI
@@ -5787,6 +5814,8 @@ Ptolemy XI Alexander II
 Ptolemy XII Auletes
 Ptolemy XIII Theos Philopator
 Ptolemy XIV of Egypt
+Ptolemy of Cyprus
+Ptolemy of Mauretania
 Pu Zoramthanga
 Punit Renjen
 Pushkar Singh Dhami
@@ -5882,9 +5911,9 @@ Ramon Laguarta
 Ramush Haradinaj
 Ramzan Kadyrov
 Ramón Castro Jijón
-Ramón de Cardona
 Ramón Grau
 Ramón Luis Valcárcel Siso
+Ramón de Cardona
 Rand Paul
 Randy Feenstra
 Randy Fine
@@ -5910,14 +5939,15 @@ Ray Connor
 Ray Nagin
 Raymond Barre
 Raymond Berenger
-Raymond du Puy de Provence
 Raymond Ndong Sima
 Raymond Watson
+Raymond du Puy de Provence
 Raúl Castro
 Raúl Cubas Grau
 Raúl Grijalva
 Raúl Labrador
 Rebecca Ynares
+Recep Tayyip Erdogan
 Recep Tayyip Erdoğan
 Refilwe Mtsweni
 Reftârıdil Kadınefendi
@@ -5944,9 +5974,9 @@ René Jeannel
 René Laloux
 René Mayer
 René Monory
-René of Anjou
 René Préval
 René Saffirio
+René of Anjou
 Resan Hanım
 Reuven Rivlin
 Rev Njini
@@ -5978,16 +6008,16 @@ Richard Lee Metcalfe
 Richard M. Daley
 Richard MacDonnell
 Richard Neal
-Richard of Cornwall
-Richard of Salerno
 Richard Reid Rogers
 Richard S. Fuld
 Richard Seddon
 Richard Shelby
 Richard T. Ely
-Richard the Pilgrim
 Richard White
 Richard Whittington
+Richard of Cornwall
+Richard of Salerno
+Richard the Pilgrim
 Richilde of Hainaut
 Richilde of Provence
 Rick Crawford
@@ -6000,6 +6030,7 @@ Rick W. Allen
 Rico Waas
 Rida al-Rikabi
 Ridwan Kamil
+Rihanna
 Riikka Purra
 Riley Moore
 Rilwan Akiolu
@@ -6046,9 +6077,9 @@ Robert Lehr
 Robert Mugabe
 Robert Ménard
 Robert Noyce
-Robert of Courtenay
 Robert Pittenger
 Robert Swaak
+Robert of Courtenay
 Robert, King of Naples
 Roberto Cingolani
 Roberto Fico
@@ -6098,9 +6129,9 @@ Romeu Zema
 Romuald Wadagni
 Ron Barber
 Ron Clarke
+Ron DeSantis
 Ron Delia
 Ron Dellums
-Ron DeSantis
 Ron Estes
 Ron Huldai
 Ron Johnson
@@ -6213,8 +6244,8 @@ Saleh Kebzabo
 Salem Saleh bin Braik
 Sali Berisha
 Saliha Naciye Kadın
-Salim bin Thuwaini Al Busaidi
 Salim I of Kuwait
+Salim bin Thuwaini Al Busaidi
 Salladin Jalal al-Din Sultan ibn Tokhtamysh
 Sallehuddin of Kedah
 Sallustia Orbiana
@@ -6315,8 +6346,8 @@ Seankhenre Mentuhotepi
 Sebastian Duterte
 Sebastian Kurz
 Sebastian of Portugal
-Sebastián de Belalcázar
 Sebastián Piñera
+Sebastián de Belalcázar
 Seheqenre Sankhptahi
 Sehetepibenre Pedubast
 Sehetepkare Intef
@@ -6332,6 +6363,7 @@ Sekhemrê Khoutaoui
 Sekhonyana Nehemia Maseribane
 Sekhukhune I
 Sekula Drljević
+Selena Gomez
 Seleucus V
 Seleucus VI Epiphanes
 Seleucus VII Kybiosaktes
@@ -6342,6 +6374,7 @@ Senusret II
 Senusret IV
 Seqenenre Tao
 Serdar Berdimuhamedow
+Serena Williams
 Seretse Khama Ian Khama
 Serge Blanco
 Serge Klarsfeld
@@ -6400,6 +6433,7 @@ Shah Farman
 Shah Waliullah Adeeb
 Shahid Khaqan Abbasi
 Shahu I
+Shakira
 Shalmaneser I
 Shalmaneser II
 Shameel Joosub
@@ -6548,9 +6582,9 @@ Sophia of Bavaria
 Sophia of Holstein-Gottorp
 Sophia of Lithuania
 Sophie Augusta of Holstein-Gottorp
+Sophie Wilmès
 Sophie of Brandenburg
 Sophie of Thuringia, Duchess of Brabant
-Sophie Wilmès
 Soraya Martinez Ferrada
 Sorin Cîmpeanu
 Sorin Grindeanu
@@ -6648,9 +6682,9 @@ Suhas Subramanyam
 Sukhvinder Singh Sukhu
 Sulpicia Dryantilla
 Sultan Ahmad of Brunei
+Sultan Mahmud
 Sultan bin Ahmad Al Busaidi
 Sultan bin Mohamed Al-Qasimi
-Sultan Mahmud
 Sumanguru Kanté
 Summer Lee
 Sun He
@@ -6712,6 +6746,7 @@ Sükhbaataryn Batbold
 Sēmisi Sika
 Sōichirō Miyashita
 Sōichirō Takashima
+TJ Cox
 Taavi Aas
 Taavi Rõivas
 Tabaré Vázquez
@@ -6781,8 +6816,8 @@ Tenzin Gyatso
 Teodoro Obiang
 Teres I
 Teresa Leger Fernandez
-Teresa of León, Queen of Pamplona
 Teresa Ribera
+Teresa of León, Queen of Pamplona
 Terje Rootwelt
 Terrance Drew
 Terri Sewell
@@ -6819,7 +6854,6 @@ Thom Tillis
 Thomas Bauer
 Thomas Bloodworth
 Thomas Boni Yayi
-Thomas de Maizière
 Thomas Garrett, Jr.
 Thomas J. Falk
 Thomas Kemmerich
@@ -6831,6 +6865,7 @@ Thomas Remengesau Jr.
 Thomas Schäfer
 Thomas Stelzer
 Thomas Suozzi
+Thomas de Maizière
 Thongloun Sisoulith
 Thongsing Thammavong
 Thor Skov Jørgensen
@@ -6853,6 +6888,7 @@ Tillman Thomas
 Tim Bishop
 Tim Burchett
 Tim Clark
+Tim Cook
 Tim Huelskamp
 Tim Johnson
 Tim Kaine
@@ -6877,7 +6913,6 @@ Tiridates II of Armenia
 Tiridates III of Armenia
 Tirimüjgan Kadın
 Titu Cusi Yupanqui
-TJ Cox
 Tobias Hans
 Tobias Meyer
 Todd Gloria
@@ -6889,12 +6924,14 @@ Toktu of Bulgaria
 Tokugawa Masako
 Tokyo Sexwale
 Tom Barrett
+Tom Brady
 Tom Carper
 Tom Coburn
 Tom Cole
 Tom Cotton
 Tom Emmer
 Tom Graves
+Tom Hanks
 Tom Harkin
 Tom Latham
 Tom MacArthur
@@ -6944,6 +6981,7 @@ Traian Băsescu
 Traian Sorin Halalai
 Tran Van Huong
 Travis Childers
+Travis Kelce
 Trent Franks
 Trent Kelly
 Trey Gowdy
@@ -7187,8 +7225,8 @@ Vít Rakušan
 Võ Thị Ánh Xuân
 Võ Văn Thưởng
 Wab Kinew
-Wael al-Halqi
 Wael Sawan
+Wael al-Halqi
 Wahibre Ibiau
 Wahidin Halim
 Wahkare Khety I
@@ -7209,6 +7247,7 @@ Wang Weizhong
 Wang Wentao
 Wang Yubo
 Wang Zhengpu
+Warren Buffett
 Warren Davidson
 Wavel Ramkalawan
 Wayne Brown
@@ -7369,8 +7408,8 @@ Yoshihiko Noda
 Yoshihiro Murai
 Yoshiya Kakimoto
 Young Kim
-Yousef al-Khalidi
 Yousef Shawarbeh
+Yousef al-Khalidi
 Youssef Chahed
 Youssef Yousfi
 Youssouf Saleh Abbas
@@ -7414,8 +7453,8 @@ Zamani Saul
 Zandile Gumede
 Zarifa Ghafari
 Zayn al-Abidin the Great
-Zbigniew of Poland
 Zbigniew Wróbel
+Zbigniew of Poland
 Zbyněk Průša
 Zdeněk Chrdle
 Zdeněk Fierlinger
@@ -7456,7 +7495,9 @@ Zoran Milanović
 Zoran Tegeltija
 Zoran Zaev
 Zsolt Borkai
+Zuckerberg
 Zuzana Čaputová
+al-Zubayr Rahma Mansur
 Ágnes Forsthoffer
 Álex Cruz
 Álmos, Duke of Nitra
@@ -7498,6 +7539,10 @@ Zuzana Čaputová
 Ünal Üstel
 Đuro Macut
 Đặng Thị Ngọc Thịnh
+İbrahim Baylan
+İbrahim II of Karaman
+İrsen Küçük
+İsa Çelebi
 Ľudovít Ódor
 Şayan Kadın
 Şayeste Hanım

@@ -1,0 +1,961 @@
+Aberdeen	45.46,-98.49
+Academy	43.46,-99.08
+Agar	44.84,-100.07
+Agency Village	45.58,-97.08
+Ahnberg	44.30,-97.06
+Ajax	43.90,-103.18
+Akaska	45.33,-100.12
+Albee	45.05,-96.55
+Alcester	43.02,-96.63
+Alexandria	43.65,-97.78
+Allen	43.28,-101.92
+Allison Crossing	45.20,-101.92
+Alpena	44.18,-98.37
+Alsen	42.96,-96.81
+Alsville	44.59,-97.13
+Altamont	44.84,-96.69
+Alto	44.33,-100.13
+Ames	44.27,-99.08
+Amherst	45.74,-97.92
+Anderson Subdivision	43.52,-96.63
+Andover	45.41,-97.90
+Andys Acres	43.63,-96.69
+Antelope	43.30,-100.63
+Antelope Development Area	43.30,-100.63
+Appleby	44.82,-97.05
+Ardmore	43.02,-103.66
+Argonne	44.07,-97.64
+Argyle	43.53,-103.65
+Arlington	44.36,-97.13
+Arlington Beach	44.53,-97.10
+Armour	43.32,-98.35
+Arpan	44.79,-103.65
+Arrowhead Estates	44.04,-103.28
+Artas	45.89,-99.81
+Artesian	44.01,-97.92
+Ashland Heights	44.13,-103.13
+Ashton	44.99,-98.50
+Astoria	44.56,-96.55
+Athboy	45.57,-101.92
+Athol	45.01,-98.60
+Aurora	44.28,-96.69
+Aurora Center	43.53,-98.59
+Avon	43.01,-98.06
+Bad Wound	43.30,-101.76
+Badger	44.49,-97.20
+Badnation	43.65,-100.37
+Baltic	43.76,-96.74
+Bancroft	44.49,-97.75
+Barnard	45.73,-98.50
+Batesland	43.13,-102.10
+Bath	45.47,-98.32
+Bath Corner	45.46,-98.33
+Bear Butte	44.47,-103.31
+Bear Creek	45.06,-101.45
+Beardsley	43.30,-97.98
+Beaver Crossing	44.38,-104.00
+Beebe	45.45,-99.20
+Belle Fourche	44.67,-103.85
+Belvidere	43.83,-101.27
+Bemis	44.83,-96.85
+Benchmark	44.23,-103.58
+Benclare	43.51,-96.48
+Bend	44.23,-103.01
+Beresford	43.08,-96.77
+Berne	43.82,-103.64
+Betts	43.71,-98.15
+Bieglers First Addition	45.55,-98.61
+Big Bend	44.07,-103.41
+Big Springs	42.94,-96.61
+Big Stone City	45.29,-96.46
+Bijou Hills	43.52,-99.15
+Billsburg	44.40,-101.68
+Bison	45.52,-102.46
+Bixby	45.15,-102.56
+Black Eyes	43.26,-101.70
+Black Horse	45.72,-101.38
+Blackhawk	44.15,-103.31
+Blackpipe	43.34,-101.27
+Blacktail	44.37,-103.76
+Bloomfield	44.63,-98.10
+Bloomingdale	42.92,-96.96
+Blucksberg Mountain	44.36,-103.45
+Blue Bell	43.72,-103.48
+Blumengard Colony	45.24,-99.17
+Blunt	44.51,-99.99
+Boekhoff Subdivision	43.54,-96.84
+Bon Homme Colony	42.86,-97.71
+Boneita Springs	44.44,-102.56
+Bonesteel	43.08,-98.94
+Bonilla	44.58,-98.50
+Booge	43.65,-96.46
+Bovee	43.32,-98.77
+Bowdle	45.45,-99.65
+Box Elder	44.11,-103.07
+Bradley	45.09,-97.64
+Brandon	43.59,-96.57
+Brandt	44.66,-96.62
+Brant Lake	43.93,-96.94
+Brentford	45.16,-98.32
+Brentwood Colony	45.15,-99.30
+Bridger	44.55,-101.91
+Bridgewater	43.55,-97.51
+Bristol	45.34,-97.75
+Britton	45.79,-97.75
+Broadland	44.49,-98.35
+Broadmoor Subdivision	44.04,-103.27
+Brookings	44.31,-96.80
+Bruce	44.44,-96.89
+Bryant	44.59,-97.47
+Buffalo	45.58,-103.55
+Buffalo Chip	44.41,-103.41
+Buffalo Gap	43.49,-103.31
+Bullhead	45.77,-101.08
+Burbank	42.75,-96.83
+Burdette	44.70,-98.80
+Burdock	43.45,-103.99
+Burke	43.18,-99.29
+Burkmere	45.05,-99.31
+Bushnell	44.33,-96.64
+Butler	45.26,-97.71
+Cactus Flat	43.84,-101.89
+Cactus Heights	43.56,-96.67
+Cameron Colony	43.19,-97.26
+Camp Crook	45.55,-103.97
+Camrose Colony	44.93,-98.22
+Canistota	43.60,-97.29
+Canning	44.40,-100.03
+Canova	43.88,-97.50
+Canton	43.30,-96.59
+Capa	44.11,-100.98
+Caputa	43.99,-102.98
+Carlock	43.08,-99.43
+Carpenter	44.64,-97.92
+Carter	43.39,-100.20
+Carthage	44.17,-97.72
+Cascade Springs	43.33,-103.55
+Castle Rock	44.96,-103.42
+Castlewood	44.72,-97.03
+Cavour	44.37,-98.04
+Cedar Butte	43.58,-101.02
+Cedar Canyon	45.02,-102.69
+Cedar Grove Colony	43.53,-98.81
+Centerville	43.12,-96.96
+Central City	44.37,-103.77
+Chamberlain	43.81,-99.33
+Chance	45.41,-102.28
+Chancellor	43.37,-96.99
+Chase	44.94,-101.63
+Chautauqua	43.98,-97.06
+Chelsea	45.17,-98.74
+Cherry Creek	44.61,-101.50
+Chester	43.89,-96.93
+Cheyenne Crossing	44.30,-103.87
+Chinatown	44.38,-103.72
+Claire City	45.86,-97.10
+Claremont	45.67,-98.02
+Claremont Colony	44.71,-96.95
+Clark	44.88,-97.73
+Clark Colony	44.79,-97.98
+Clarkson Addition	44.01,-103.33
+Clay Point	42.91,-96.90
+Clayton	43.44,-97.66
+Clear Lake	44.75,-96.68
+Clearfield	43.17,-100.03
+Clearfield Colony	43.14,-98.14
+Clough	44.58,-102.80
+Cloverleaf Colony	44.18,-97.54
+Coal Springs	45.44,-102.11
+Colfax Corner	43.01,-97.02
+Collins Colony	44.55,-97.70
+Colman	43.98,-96.81
+Colome	43.26,-99.72
+Colonial Pine Hills	44.01,-103.32
+Colton	43.79,-96.93
+Columbia	45.61,-98.31
+Conata	43.73,-102.19
+Conde	45.16,-98.10
+Corn Creek	43.56,-101.20
+Corona	45.33,-96.76
+Corsica	43.43,-98.41
+Corson	43.62,-96.57
+Cottonwood	43.97,-101.91
+Council House	44.08,-99.59
+Country Acres	43.50,-96.89
+Country Estates Subdivision	43.52,-96.93
+Country Gables Subdivision	43.58,-96.61
+Country Village Mobile Park	45.51,-98.53
+Crandall	45.16,-97.96
+Crandon	44.77,-98.46
+Craven	45.44,-98.93
+Craven Corner	45.45,-98.93
+Creighton	44.25,-102.21
+Cresbard	45.17,-98.95
+Creston	43.91,-102.70
+Crocker	45.11,-97.78
+Crook City	44.44,-103.63
+Crooks	43.66,-96.81
+Crow Creek	43.96,-99.22
+Crow Lake	43.96,-98.74
+Custer	43.77,-103.60
+Cuthbert	43.97,-98.22
+Dahlberg	45.86,-97.19
+Dakota Dunes	42.49,-96.49
+Dalesburg	42.98,-96.90
+Dallas	43.24,-99.52
+Dalzell	44.34,-102.40
+Danforth	44.25,-98.88
+Dante	43.04,-98.18
+Date	45.37,-102.68
+Davis	43.26,-97.00
+De Grey	44.29,-99.92
+De Smet	44.39,-97.55
+Deadwood	44.38,-103.73
+Deerfield	44.02,-103.83
+Deerfield Colony	45.59,-98.90
+Deevaan Villa Development	45.50,-98.46
+Dell Rapids	43.83,-96.71
+Delmont	43.27,-98.16
+Dempster	44.63,-96.95
+Denby	43.06,-102.34
+Dennis	43.26,-103.87
+Derian Subdivision	45.44,-98.52
+Devoe	45.09,-98.88
+Dewey	43.53,-104.04
+Dezera	43.17,-98.50
+Diamond	45.74,-96.69
+Dimock	43.47,-97.99
+Dixon	43.38,-99.47
+Doland	44.90,-98.10
+Dolton	43.49,-97.39
+Draper	43.93,-100.54
+Dudley	43.31,-103.82
+Dumont	44.24,-103.80
+Dupree	45.05,-101.60
+Duxbury	45.24,-98.50
+Eagle	43.57,-99.09
+Eagle Butte	45.00,-101.23
+Eakin	44.62,-100.03
+East Sioux Falls	43.53,-96.61
+Eden	45.62,-97.42
+Edgemont	43.30,-103.83
+Egan	44.00,-96.65
+El Rancho Acres	43.50,-96.87
+Elbon	44.28,-101.69
+Elevenmile Corner	44.20,-101.67
+Elk Point	42.68,-96.68
+Elkton	44.24,-96.48
+Ellis	43.56,-96.83
+Ellis Corner	43.60,-96.83
+Ellsworth Air Force Base	44.14,-103.08
+Elm Springs	44.31,-102.53
+Elmore	44.32,-103.89
+Elrod	44.89,-97.57
+Emery	43.60,-97.62
+Emmet	42.98,-96.75
+Empire	44.62,-103.32
+Englewood	44.30,-103.78
+Enning	44.58,-102.56
+Epiphany	43.85,-97.66
+Erickson Subdivision	43.61,-96.71
+Erskine	43.43,-103.56
+Erwin	44.49,-97.45
+Esmond	44.26,-97.77
+Estelline	44.57,-96.90
+Ethan	43.55,-97.99
+Eureka	45.77,-99.62
+Evergreen	43.31,-102.36
+Evergreen Colony	45.12,-99.04
+Fairburn	43.69,-103.21
+Fairfax	43.03,-98.89
+Fairpoint	44.75,-102.80
+Fairview	43.22,-96.49
+Fairview Heights	42.87,-97.53
+Faith	45.02,-102.04
+Farmer	43.72,-97.69
+Farmingdale	43.96,-102.88
+Farwell	43.85,-97.91
+Faulkton	45.03,-99.12
+Fedora	44.01,-97.79
+Ferney	45.33,-98.10
+Firesteel	45.42,-101.29
+Fisher Estates	45.52,-98.51
+Five Points	43.97,-103.55
+Flandreau	44.05,-96.60
+Florence	45.05,-97.33
+Foley	44.84,-97.15
+Folsom	43.83,-102.87
+Fordham Colony	44.77,-97.91
+Forest City	45.00,-100.30
+Forestburg	44.02,-98.11
+Fort Pierre	44.35,-100.37
+Fort Randall	43.02,-98.62
+Fort Thompson	44.07,-99.44
+Fourmile	43.73,-103.68
+Fox Ridge	44.99,-102.53
+Frankfort	44.88,-98.31
+Franklin	43.89,-97.07
+Frederick	45.83,-98.51
+Freeman	43.35,-97.44
+Froelich Addition	43.58,-96.72
+Fruitdale	44.67,-103.70
+Fulton	43.72,-97.82
+Galena	44.33,-103.64
+Gallup	45.07,-98.50
+Gannvalley	44.03,-98.99
+Garden City	44.96,-97.58
+Garretson	43.72,-96.50
+Gary	44.79,-96.46
+Gayville	42.89,-97.17
+Geddes	43.25,-98.70
+Gederos Estates	45.51,-98.51
+Gettysburg	45.01,-99.96
+Glad Valley	45.40,-101.78
+Glencross	45.45,-100.92
+Glendale Colony	44.80,-98.29
+Glenham	45.53,-100.27
+Gold Mountain Subdivision	43.96,-103.60
+Golden View Colony	43.69,-97.44
+Goodwill	45.57,-97.07
+Goodwin	44.88,-96.85
+Gorman	44.93,-100.07
+Gossage Memorial	44.07,-103.25
+Graceville Colony	43.93,-97.29
+Grandview	43.64,-99.30
+Grass Ranch Colony	43.65,-98.88
+Grassland Colony	45.67,-98.79
+Gray Goose	44.46,-100.34
+Green Grass	45.17,-101.25
+Green Trees Subdivision	44.95,-97.16
+Green Valley	44.04,-103.11
+Greenfield	42.88,-96.85
+Greenway	45.91,-99.71
+Greenwood	42.92,-98.39
+Greenwood Colony	43.21,-98.15
+Gregory	43.23,-99.43
+Grenville	45.47,-97.39
+Gretna	45.45,-99.51
+Grindstone	44.14,-101.97
+Grosse	43.93,-99.29
+Groton	45.45,-98.10
+Grover	44.81,-97.27
+Gustave	45.28,-103.98
+Hamill	43.59,-99.68
+Hammer	45.86,-97.02
+Hanna	44.26,-103.85
+Harding	45.40,-103.83
+Harlin Addition	45.48,-98.52
+Harney	43.89,-103.39
+Harrington	43.17,-101.25
+Harrisburg	43.43,-96.70
+Harrison	43.43,-98.53
+Harrold	44.52,-99.74
+Hartford	43.62,-96.94
+Hartford Beach	45.41,-96.68
+Hartley	44.40,-101.81
+Haydraw	44.44,-102.72
+Hayes	44.37,-101.02
+Hayti	44.66,-97.21
+Hayward Addition	43.54,-96.79
+Hazel	44.76,-97.38
+Hecla	45.88,-98.15
+Henry	44.88,-97.47
+Heppner	43.25,-103.55
+Hereford	44.39,-102.90
+Hermosa	43.84,-103.19
+Herreid	45.83,-100.07
+Herrick	43.12,-99.19
+Hetland	44.38,-97.24
+Hiawatha Beach	45.47,-96.74
+Hidden Timber	43.23,-100.42
+Highmore	44.52,-99.44
+Hill City	43.93,-103.58
+Hill Ridge Development	43.56,-96.64
+Hill Side	42.94,-96.79
+Hilland	44.28,-101.86
+Hillcrest Colony	44.95,-97.67
+Hillhead	45.83,-97.39
+Hillside	43.47,-98.21
+Hillside Colony	44.74,-98.05
+Hillsview	45.66,-99.56
+Hisega	44.05,-103.40
+Hisle	43.41,-101.75
+Hitchcock	44.63,-98.41
+Hoffmans Trailer Court	42.61,-96.64
+Holabird	44.52,-99.60
+Holmquist	45.34,-97.65
+Hooker	43.20,-97.02
+Hoover	45.11,-103.27
+Hosmer	45.58,-99.47
+Hot Springs	43.43,-103.47
+Houghton	45.76,-98.21
+Hoven	45.24,-99.78
+Howard	44.01,-97.53
+Howes	44.62,-102.05
+Hub City	42.95,-96.90
+Hudson	43.13,-96.45
+Huffton	45.62,-98.09
+Humboldt	43.65,-97.07
+Huntimer	43.83,-96.93
+Hurley	43.28,-97.09
+Huron	44.36,-98.21
+Huron Colony	44.56,-98.21
+Hutterville Colony	45.27,-98.21
+Ideal	43.54,-99.92
+Igloo	43.20,-103.86
+Imlay	43.72,-102.40
+Imogene	45.14,-102.71
+Indian Hill Division	43.57,-96.62
+Ingberg Tracts	43.56,-96.65
+Interior	43.73,-101.98
+Iona	43.54,-99.42
+Ipswich	45.44,-99.03
+Irene	43.08,-97.16
+Iron Lightning	45.18,-101.85
+Iroquois	44.37,-97.85
+Isabel	45.39,-101.43
+Iversons Subdivision	43.53,-96.64
+J and E Trailer Court	44.10,-103.53
+James	45.47,-98.21
+James Valley Junction	44.38,-98.30
+Jamesville	43.10,-97.48
+Java	45.50,-99.89
+Jefferson	42.60,-96.56
+Jobee Acres	45.45,-98.39
+Johnson Siding	44.08,-103.44
+Johnsons Addition	43.66,-96.81
+Johnsonville	44.54,-96.79
+Jolly Dump	44.59,-103.87
+Jordan Junction	43.38,-100.03
+Joubert	43.43,-98.67
+Junction City	42.79,-96.79
+Junction Ranger Station	43.85,-103.69
+Junius	44.01,-97.24
+Kadoka	43.83,-101.51
+Kadoka Junction	43.84,-101.52
+Kampeska	44.88,-97.27
+Kargas Subdivision	43.69,-98.03
+Karinen	45.90,-103.67
+Kaylor	43.19,-97.84
+Keldron	45.93,-101.81
+Kenel	45.86,-100.46
+Kennebec	43.90,-99.86
+Kennedyville	43.92,-103.52
+Keyapaha	43.11,-100.14
+Keystone	43.90,-103.42
+Kidder	45.88,-97.71
+Kimball	43.75,-98.96
+Kingsburg	42.91,-97.93
+Kirk	44.34,-103.79
+Kirley	44.52,-101.31
+Klein Subdivision	43.52,-96.83
+Kones Corner	44.73,-97.11
+Kranzburg	44.89,-96.92
+Kyle	43.42,-102.18
+La Plant	45.14,-100.65
+LaBolt	45.05,-96.68
+LaDelle	44.68,-98.12
+Lacy	44.50,-100.70
+Ladner	45.83,-103.73
+Lake Andes	43.16,-98.54
+Lake City	45.73,-97.41
+Lake Norden	44.58,-97.21
+Lake Preston	44.36,-97.38
+Lake View Colony	43.22,-98.46
+Lakeport	42.91,-97.58
+Lakeview	43.10,-100.75
+Lakota Homes	44.11,-103.22
+Lane	44.07,-98.43
+Langford	45.60,-97.83
+Lantry	45.01,-101.43
+Lead	44.35,-103.77
+Lebanon	45.07,-99.77
+Lees Corner	44.08,-99.33
+Lemmon	45.94,-102.16
+Lennox	43.35,-96.89
+Leola	45.72,-98.94
+Lesterville	43.04,-97.60
+Letcher	43.90,-98.14
+Lily	45.18,-97.68
+Linden Beach	45.40,-96.65
+Little Eagle	45.68,-100.80
+Littleburg	43.05,-100.45
+Lodgepole	45.80,-102.66
+Lodi	42.98,-96.98
+Lone Tree	43.98,-96.73
+Long Hollow Housing	45.69,-97.15
+Long Lake	45.86,-99.21
+Long Lake Colony	45.61,-98.82
+Long Valley	43.46,-101.49
+Loomis	43.79,-98.10
+Lower Brule	44.08,-99.58
+Lowry	45.32,-99.98
+Loyalton	45.29,-99.28
+Lucas	43.29,-99.22
+Lucerne	44.24,-101.53
+Ludlow	45.83,-103.38
+Lyman	43.88,-99.74
+Lyons	43.72,-96.87
+Lyonville	43.88,-98.97
+Macs Corner	44.25,-99.44
+Madison	44.01,-97.11
+Madra	45.93,-99.72
+Madsen Beach	45.46,-96.74
+Mahto	45.76,-100.68
+Maitland	44.40,-103.80
+Manchester	44.37,-97.72
+Manderson	43.24,-102.47
+Manderson-White Horse Creek	43.24,-102.49
+Mansfield	45.24,-98.56
+Maple Leaf	45.92,-100.89
+Marcus	44.66,-102.27
+Marietta	43.39,-103.92
+Marion	43.42,-97.26
+Marksville	45.07,-100.38
+Marlow	45.92,-97.39
+Martin	43.17,-101.73
+Martindale Addition	43.59,-96.77
+Marty	42.99,-98.43
+Marvin	45.26,-96.91
+Maurice	44.40,-103.90
+Maurine	45.02,-102.59
+Mawl Springs	44.09,-102.80
+Maxwell Colony	43.18,-97.63
+Mayfield	43.08,-97.32
+Mayfield Colony	44.70,-97.58
+McCook Lake	42.54,-96.51
+McCroskey Addition	43.65,-96.69
+McGee	44.04,-103.38
+McIntosh	45.92,-101.35
+McKays Trailer Court	42.61,-96.64
+McLaughlin	45.81,-100.81
+Meadow	45.53,-102.22
+Meadow View Addition	43.62,-96.71
+Meckling	42.84,-97.07
+Medary	44.21,-96.79
+Melcore Acres Subdivision	44.08,-103.44
+Melham	44.56,-97.69
+Mellette	45.15,-98.50
+Melrose Addition	45.45,-98.46
+Menno	43.24,-97.58
+Merritt	44.14,-103.57
+Metzgerville	43.54,-98.26
+Midland	44.07,-101.16
+Midway	43.70,-96.71
+Milbank	45.22,-96.64
+Milbank Subdivision	45.22,-96.61
+Milesville	44.46,-101.68
+Millard	45.15,-99.19
+Millboro	43.07,-99.97
+Millbrook Colony	43.67,-97.87
+Miller	44.52,-98.99
+Miller Dale Colony	44.40,-99.11
+Milltown	43.42,-97.80
+Mina	45.43,-98.76
+Minnekahta	43.43,-103.69
+Miranda	44.97,-98.96
+Miscol	45.68,-101.16
+Mission	43.31,-100.66
+Mission Hill	42.92,-97.28
+Mission Ridge	44.69,-100.80
+Mitchell	43.71,-98.03
+Mobridge	45.54,-100.43
+Moe	43.16,-96.61
+Moenville	44.48,-101.26
+Monroe	43.49,-97.22
+Montrose	43.70,-97.18
+Moon	43.95,-104.01
+Moreau	45.36,-100.40
+Morefield	43.69,-96.77
+Moritz	44.83,-96.56
+Morningside	44.37,-98.19
+Morristown	45.94,-101.72
+Mosher	43.47,-100.30
+Mound City	45.73,-100.07
+Mount Vernon	43.71,-98.26
+Mud Butte	45.00,-102.88
+Murdo	43.89,-100.71
+Murphy	44.04,-103.13
+Myersville	44.10,-103.74
+Mystic	44.08,-103.64
+Nahant	44.18,-103.76
+Nahon	45.39,-98.41
+Naomi	43.33,-96.92
+Napa Junction	42.94,-97.45
+Naples	44.77,-97.51
+Nemo	44.19,-103.50
+New Effington	45.86,-96.92
+New Elm Springs Colony	43.49,-97.83
+New Holland	43.43,-98.61
+New Underwood	44.09,-102.84
+Newark	45.93,-97.79
+Newdale Colony	44.29,-96.52
+Newell	44.71,-103.42
+Newport Colony	45.68,-97.93
+Nihart	43.66,-103.59
+Nisland	44.67,-103.55
+Nora	42.94,-96.71
+Norbeck	45.18,-99.21
+Norfeld Colony	44.42,-96.56
+Norris	43.47,-101.20
+North Eagle Butte	45.00,-101.23
+North Grove Addition	44.43,-96.79
+North Shore	44.95,-97.21
+North Sioux City	42.53,-96.48
+North Spearfish	44.51,-103.89
+Northshore Development	42.87,-97.53
+Northville	45.16,-98.58
+Norton Acres	43.58,-96.70
+Norway Center	43.13,-96.63
+Novak	44.22,-103.55
+Nowlin	44.05,-101.30
+Nunda	44.16,-97.02
+Oacoma	43.80,-99.40
+Oahe	44.46,-100.53
+Oak Hills Addition	42.87,-97.53
+Oak Lane Colony	43.51,-97.74
+Oak Park Estates	43.73,-96.49
+Oelrichs	43.18,-103.23
+Oglala	43.19,-102.74
+Okaton	43.89,-100.89
+Okobojo	44.65,-100.40
+Okreek	43.36,-100.39
+Ola	43.60,-99.21
+Old Elm Spring Colony	43.50,-97.80
+Oldham	44.23,-97.31
+Olivet	43.24,-97.68
+Olsonville	43.13,-100.61
+Onaka	45.19,-99.47
+Onida	44.71,-100.06
+Opal	44.89,-102.45
+Oral	43.40,-103.27
+Ordway	45.58,-98.41
+Oreville	43.87,-103.62
+Orient	44.90,-99.09
+Orland	43.89,-97.19
+Orland Colony	43.82,-97.20
+Ortley	45.33,-97.20
+Orton	44.71,-100.84
+Osceola	44.47,-97.84
+Ottumwa	44.23,-101.35
+Owanka	44.02,-102.59
+Parade	45.02,-101.10
+Parker	43.40,-97.14
+Parkston	43.40,-97.98
+Parmelee	43.32,-101.03
+Patricia	43.29,-101.51
+Pearl Creek Colony	44.33,-97.91
+Pearsons Corner	43.17,-97.32
+Pedro	44.42,-102.12
+Peever	45.54,-96.95
+Peever Flats	45.52,-96.94
+Peninsula Park	43.95,-97.01
+Perkins	42.87,-98.01
+Philip	44.04,-101.67
+Philip Junction	43.97,-101.66
+Pickstown	43.07,-98.53
+Piedmont	44.23,-103.39
+Pierpont	45.50,-97.83
+Pierre	44.37,-100.35
+Pine Lakes Addition	43.55,-96.64
+Pine Ridge	43.03,-102.56
+Plainview	44.60,-102.16
+Plainview Colony	45.58,-99.01
+Plana	45.52,-98.31
+Plankinton	43.72,-98.49
+Plano	43.81,-97.92
+Platte	43.39,-98.84
+Platte Colony	43.47,-99.13
+Pleasant Valley Colony	44.06,-96.47
+Pleasant Vally Development	45.52,-98.58
+Plenty Bears	43.27,-101.84
+Pluma	44.36,-103.74
+Poinsett Colony	44.64,-96.90
+Pollock	45.90,-100.29
+Polo	44.78,-99.11
+Porcupine	43.24,-102.33
+Potato Creek	43.53,-101.99
+Powell	45.29,-99.03
+Prairie City	45.53,-102.80
+Prairie Villa Mobile Court	44.33,-98.25
+Prairie Village	44.01,-97.17
+Prairie Wood Village Addition	45.51,-98.43
+Presho	43.91,-100.06
+Preston	44.36,-103.89
+Pringle	43.61,-103.59
+Promise	45.33,-100.60
+Provo	43.19,-103.82
+Pukwana	43.78,-99.18
+Pumpkin Center	43.54,-97.09
+Putney	45.56,-98.18
+Quinn	43.99,-102.13
+Ralph	45.78,-103.07
+Ramona	44.12,-97.22
+Randolph	45.24,-98.21
+Rapid City	44.08,-103.23
+Rapid Valley	44.06,-103.15
+Rauville	44.98,-97.11
+Ravinia	43.14,-98.43
+Raymond	44.91,-97.94
+Red Elm	45.06,-101.78
+Red Scaffold	44.77,-101.84
+Red Shirt	43.67,-102.90
+Red Willow Colony	44.53,-96.73
+Redfern	44.00,-103.64
+Redfield	44.88,-98.52
+Redig	45.27,-103.55
+Redowl	44.70,-102.55
+Ree Heights	44.52,-99.20
+Reliance	43.88,-99.60
+Renner	43.65,-96.73
+Renner Corner	43.65,-96.71
+Reno	43.91,-103.62
+Reppert Addition	43.57,-96.79
+Reva	45.55,-103.08
+Revillo	45.02,-96.57
+Richfield Heights	45.51,-98.54
+Richland	42.76,-96.65
+Richmond	45.52,-98.62
+Richmond Heights	45.51,-98.57
+Richmond Lake Heights Development	45.54,-98.58
+Ridgeland Heights	44.08,-103.36
+Ridgeview	45.08,-100.80
+River Bluff Addition	43.73,-98.07
+Riverside	43.72,-97.95
+Riverside Colony	44.49,-98.14
+Rochford	44.12,-103.72
+Rockerville	43.96,-103.36
+Rockham	44.90,-98.82
+Rockport Colony	43.58,-97.84
+Rocky Ford	43.29,-103.60
+Rockyford	43.50,-102.50
+Roland Colony	44.34,-96.59
+Roscoe	45.45,-99.34
+Rosebud	43.23,-100.85
+Rosholt	45.87,-96.73
+Roslyn	45.50,-97.49
+Roswell	44.01,-97.70
+Roubaix	44.28,-103.67
+Rousseau	44.32,-100.07
+Rowena	43.52,-96.56
+Rudebusch Corner	45.43,-97.15
+Rudolph	45.35,-98.54
+Rumford	43.13,-103.70
+Rumpus Ridge	43.58,-97.19
+Running Water	42.77,-97.98
+Ruskin Park	44.01,-98.10
+Rustic Acres Colony	43.87,-97.09
+Rutland	44.09,-96.97
+Saint Charles	43.09,-99.10
+Saint Francis	43.14,-100.91
+Saint Lawrence	44.52,-98.94
+Saint Onge	44.55,-103.72
+Salem	43.72,-97.39
+Sanator	43.70,-103.61
+Sand Hill Subdivision	43.70,-98.05
+Sansarc	44.51,-101.03
+Savoy	44.35,-103.93
+Scenic	43.78,-102.55
+Schaeferville	44.12,-103.30
+Schmidt Landing	45.38,-96.56
+Scotland	43.15,-97.72
+Selby	45.51,-100.03
+Seneca	45.06,-99.51
+Sevenmile Corner	43.84,-101.66
+Shadehill	45.77,-102.18
+Shady Beach	45.40,-96.63
+Shamrock Colony	44.62,-97.96
+Shannon Colony	43.98,-97.42
+Sharps Corner	43.39,-102.40
+Sheffield	44.41,-98.07
+Shelby	43.95,-99.19
+Sheldon Trailor Town	44.27,-96.82
+Sherman	43.76,-96.48
+Shindler	43.47,-96.65
+Silver City	44.08,-103.56
+Silver Lake Colony	44.87,-97.61
+Silver Valley Addition	43.53,-96.81
+Sinai	44.24,-97.04
+Sioux Falls	43.54,-96.73
+Sioux Falls Junction	43.98,-96.69
+Sioux Village	44.11,-103.22
+Sisseton	45.66,-97.05
+Sitka	45.52,-100.19
+Skyline Heights	43.61,-96.76
+Slim Butte	43.08,-102.82
+Smiths Park	43.93,-97.00
+Smithwick	43.30,-103.22
+Snake Creek	45.58,-100.59
+Soldier Creek	43.32,-100.89
+Sorum	45.45,-102.93
+Sorum Addition	43.65,-96.71
+Sorum Heights	43.65,-96.71
+South Canyon Country Estates	44.10,-103.36
+South Dakota Park	45.42,-96.70
+South Shore	45.11,-96.93
+Spain	45.70,-97.79
+Spearfish	44.49,-103.86
+Spencer	43.73,-97.59
+Spink	42.85,-96.75
+Spink Colony	44.75,-98.29
+Split Rock Heights	43.53,-96.65
+Spokane	43.84,-103.38
+Spottswood	44.65,-98.51
+Spring Creek	43.12,-101.02
+Spring Creek Colony	45.91,-98.88
+Spring Grove	45.46,-97.05
+Spring Lake Colony	44.24,-97.18
+Spring Valley	43.20,-97.27
+Spring Valley Colony	44.04,-98.89
+Springfield	42.85,-97.90
+Stamford	43.89,-101.09
+Stanley Corner	43.54,-97.39
+State Game Lodge	43.77,-103.38
+Stephan	44.25,-99.45
+Stickney	43.59,-98.44
+Stockholm	45.10,-96.80
+Stone Bridge	44.60,-97.06
+Stoneville	44.73,-102.65
+Storla	43.86,-98.35
+Strandburg	45.04,-96.76
+Stratford	45.32,-98.30
+Stratosphere Bowl	43.98,-103.35
+Strool	45.50,-102.80
+Sturgis	44.41,-103.51
+Sulphur	44.88,-102.91
+Summerset	44.19,-103.34
+Summerville	45.77,-102.18
+Summit	45.30,-97.04
+Sundahl Trailer Court	44.34,-96.78
+Sunnyview	44.34,-96.79
+Swanson’s Tracts	43.62,-96.75
+Swett	43.17,-101.95
+Sylvan Lake Resort	43.85,-103.56
+Tabor	42.95,-97.66
+Tacoma Park	45.54,-98.25
+Tea	43.45,-96.84
+Terraville	44.36,-103.76
+Terry	44.33,-103.82
+Teton	44.29,-100.51
+Thatcher	45.02,-100.93
+Thomas	44.76,-97.21
+Thunder Butte	45.21,-101.67
+Thunder Hawk	45.94,-101.97
+Thunderbird Colony	45.19,-99.27
+Thunderbird Homes Addition	44.12,-103.47
+Tigerville	43.98,-103.64
+Tilford	44.30,-103.43
+Timber Lake	45.43,-101.07
+Tinton	44.38,-104.05
+Tolstoy	45.21,-99.61
+Tomahawk	44.21,-103.53
+Toronto	44.57,-96.64
+Torvik Subdivision	45.66,-97.08
+Trail City	45.47,-100.73
+Trent	43.91,-96.65
+Tripp	43.23,-97.97
+Trojan	44.34,-103.84
+Troy	45.04,-96.87
+Tschetter Colony	43.37,-97.69
+Tulare	44.74,-98.51
+Tunerville	44.89,-96.68
+Turkey Ridge	43.24,-97.28
+Turton	45.05,-98.10
+Tuthill	43.16,-101.49
+Twilight Hills Addition	44.08,-103.15
+Twin Brooks	45.21,-96.78
+Two Strike	43.21,-100.88
+Tyndall	42.99,-97.86
+Union Center	44.56,-102.67
+Unityville	43.80,-97.45
+Upland Colony	43.88,-97.98
+Usta	45.22,-102.16
+Utica	42.98,-97.50
+Vale	44.62,-103.40
+Valley Springs	43.58,-96.47
+Valley View Estates	45.65,-97.12
+Valleyview	42.97,-97.28
+Van Metre	44.16,-100.79
+Vayland	44.49,-98.80
+Veblen	45.86,-97.29
+Vedin Corner	43.08,-97.40
+Verdon	45.24,-98.10
+Vermillion	42.78,-96.93
+Vestal Springs	43.83,-103.69
+Vetal	43.21,-101.38
+Viborg	43.17,-97.08
+Victor	45.87,-96.83
+Victoria	44.39,-103.91
+Vienna	44.70,-97.50
+Viewfield	44.21,-102.83
+Vilas	44.01,-97.60
+Virgil	44.29,-98.42
+Virginia	45.24,-100.57
+Vivian	43.93,-100.29
+Volga	44.32,-96.93
+Volin	42.96,-97.18
+Volunteer	44.51,-103.13
+Wagner	43.08,-98.29
+Wakonda	43.01,-97.11
+Wakpala	45.66,-100.54
+Wakpamani	43.12,-102.15
+Walker	45.91,-101.09
+Wall	43.99,-102.24
+Wallace	45.09,-97.48
+Wanblee	43.57,-101.66
+Warbonnet	44.00,-103.13
+Ward	44.15,-96.46
+Warner	45.33,-98.50
+Wasta	44.07,-102.45
+Watauga	45.92,-101.54
+Watertown	44.90,-97.12
+Waubay	45.33,-97.31
+Waverly	45.00,-96.97
+Webster	45.33,-97.52
+Webster Grove Addition	43.55,-96.81
+Wecota	45.17,-99.12
+Wendte	44.24,-100.67
+Wentworth	44.00,-96.96
+Wessington	44.45,-98.70
+Wessington Springs	44.08,-98.57
+West Acres Development	43.55,-96.87
+West Britton	45.79,-97.84
+West Fork	44.45,-101.55
+Westover	43.75,-100.67
+Westport	45.65,-98.50
+Westreville	42.92,-97.02
+Westwood Colony	45.89,-97.78
+Weta	43.77,-101.72
+Wetonka	45.63,-98.77
+Wewela	43.01,-99.78
+White	44.43,-96.65
+White Butte	45.94,-102.36
+White Horse	43.31,-100.60
+White Lake	43.73,-98.71
+White Owl	44.59,-102.43
+White River	43.57,-100.75
+White Rock	45.92,-96.57
+White Rock Colony	45.91,-96.62
+Whitehorse	45.27,-100.89
+Whitewood	44.46,-103.64
+Wicksville	44.10,-102.59
+Wildwood Addition	44.04,-103.27
+Williams Subdivision	44.96,-97.17
+Willow Lake	44.63,-97.64
+Wilmot	45.41,-96.86
+Winfred	44.00,-97.36
+Winner	43.38,-99.86
+Winship	45.92,-98.52
+Witten	43.44,-100.08
+Wolf Creek	43.35,-97.62
+Wolsey	44.41,-98.47
+Wood	43.50,-100.48
+Woodville	44.29,-103.76
+Woonsocket	44.05,-98.28
+Worthing	43.33,-96.76
+Wounded Knee	43.14,-102.37
+Yale	44.43,-97.99
+Yankton	42.87,-97.40
+Yellowhorse Ford	45.28,-100.80
+Zell	44.90,-98.73
+Zeona	45.19,-102.91

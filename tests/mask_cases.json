@@ -99,6 +99,62 @@
   [
    "KOHEN WILEY FOUND",
    "[name] FOUND"
+  ],
+  [
+   "Mike Johnson arrested after hit-and-run",
+   "[name] arrested after hit-and-run"
+  ],
+  [
+   "Police: John Lee charged in stabbing",
+   "Police: [name] charged in stabbing"
+  ],
+  [
+   "David Wilson, 34, held on robbery charges",
+   "[name], 34, held on robbery charges"
+  ],
+  [
+   "MIKE JOHNSON ARRESTED IN TAMPA",
+   "[name] ARRESTED IN TAMPA"
+  ],
+  [
+   "José Martínez herido en choque",
+   "[name] herido en choque"
+  ],
+  [
+   "JOSÉ MARTÍNEZ HELD",
+   "[name] HELD"
+  ],
+  [
+   "Zoë Ångström missing near lake",
+   "[name] missing near lake"
+  ],
+  [
+   "Officer Bush shot during traffic stop",
+   "[name] shot during traffic stop"
+  ],
+  [
+   "Sgt. Ramirez and Deputy Collins responded",
+   "[name] and [name] responded"
+  ],
+  [
+   "Trooper Daniels said the road reopened",
+   "[name] said the road reopened"
+  ],
+  [
+   "Det. Nguyen asks for tips",
+   "[name] asks for tips"
+  ],
+  [
+   "Lt. Harper confirmed two injuries",
+   "[name] confirmed two injuries"
+  ],
+  [
+   "Video posted by @janedoe99 shows flames",
+   "Video posted by [name] shows flames"
+  ],
+  [
+   "Reported by @witness@mastodon.social near the bridge",
+   "Reported by [name] near the bridge"
   ]
  ],
  "watch_refuse": [
@@ -110,11 +166,15 @@
   "John Smith",
   "Kohen Wiley",
   "Jordan Smith",
-  "jordan",
   "Smith",
   "John",
   "Mary Ann Kowalczyk",
-  "smith, john"
+  "smith, john",
+  "Mike Johnson",
+  "John Lee",
+  "David Wilson",
+  "José Martínez",
+  "Officer Bush"
  ],
  "watch_accept": [
   "Costa Rica",
@@ -130,18 +190,13 @@
   "Springfield IL",
   "flood",
   "shooting",
-  "evacuation"
+  "evacuation",
+  "Jordan",
+  "Victoria",
+  "Victoria Australia",
+  "Warner Springs CA"
  ],
- "pf_unmasked": [
-  "Donald Trump visits Florida after storm",
-  "ELON MUSK says Starlink restored",
-  "President Joe Biden tours flood damage",
-  "Kim Jong Un oversees missile launch",
-  "Gavin Newsom declares emergency",
-  "Alexandria Ocasio-Cortez urges aid",
-  "Volodymyr Zelensky addresses parliament",
-  "Taylor Swift donates to relief"
- ],
+ "pf_unmasked": [],
  "watch_pf": [
   "Trump",
   "trump",
@@ -154,6 +209,69 @@
   "AOC",
   "Gavin Newsom",
   "Elon Musk",
-  "Kim Jong Un"
+  "Kim Jong Un",
+  "Tim Cook",
+  "Obama",
+  "Barack Obama",
+  "Speaker Mike Johnson",
+  "Taylor Swift"
+ ],
+ "keep": [
+  "House Speaker Mike Johnson says vote delayed",
+  "Speaker Mike Johnson tours flood zone",
+  "Mike Johnson, the House speaker, said Friday",
+  "DONALD TRUMP SIGNS ORDER",
+  "TRUMP SIGNS ORDER ON DISASTER AID",
+  "Apple CEO Tim Cook visits Texas plant",
+  "Tim Cook announces relief donation",
+  "Barack Obama urges calm",
+  "Obama visits Chicago",
+  "Taylor Swift donates to relief",
+  "Beyoncé concert postponed by storm",
+  "Flooding in Kokomo, Indiana closes roads",
+  "Tornado warning for Springfield, Illinois",
+  "M2.1 9 km N of Warner Springs, CA",
+  "Contact us at tips@example.com",
+  "Gov. Newsom declares emergency",
+  "President Joe Biden tours flood damage",
+  "Donald Trump visits Florida after storm",
+  "ELON MUSK says Starlink restored",
+  "Kim Jong Un oversees missile launch",
+  "Gavin Newsom declares emergency",
+  "Volodymyr Zelensky addresses parliament"
+ ],
+ "watch_kind": {
+  "Jordan": "kw",
+  "Victoria": "kw",
+  "Victoria BC": "place",
+  "Kokomo": "place"
+ },
+ "hits": [
+  [
+   {
+    "kind": "pf",
+    "v": "Mike Johnson",
+    "role": 1
+   },
+   "House Speaker Mike Johnson says vote delayed",
+   true
+  ],
+  [
+   {
+    "kind": "pf",
+    "v": "Mike Johnson",
+    "role": 1
+   },
+   "Mike Johnson arrested after hit-and-run",
+   false
+  ],
+  [
+   {
+    "kind": "pf",
+    "v": "Trump"
+   },
+   "TRUMP SIGNS ORDER",
+   true
+  ]
  ]
 }

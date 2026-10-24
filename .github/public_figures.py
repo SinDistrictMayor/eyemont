@@ -40,7 +40,7 @@ for k,s in QS.items():
     l=b['l']['value'].strip()
     if 4<=len(l)<=60 and ' ' in l and not re.search(r'\d|^Q\d',l): names.add(l)
   time.sleep(2)
-names|=set(CURATED)
+names|=set(CURATED)|{l.strip() for l in open(os.path.join(os.path.dirname(__file__),'..','data','figures_curated.txt')) if l.strip() and l[0]!='#'}
 if len(names)<1500: sys.exit('too few names, keeping previous file')
 out=os.path.join(os.path.dirname(__file__),'..','data','public_figures.txt')
 if failed and os.path.exists(out): names|={l.strip() for l in open(out) if l.strip() and l[0]!='#'}  # a timed-out category keeps its previous names
