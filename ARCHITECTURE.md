@@ -179,3 +179,8 @@ Layers are gone from the UI. The same `LAYERS[]` plugins (unchanged contracts, p
 - stateOf: point-in-polygon, then a Canada/Mexico mask (Natural Earth 1:50m, clipped), then nearest-state fallback (~35 km). Covers PR, USVI, Guam, CNMI, and American Samoa.
 - Feeds that fail show an error plus a retry countdown and a RETRY NOW button. news.json loads after first paint. Future-dated news is dropped in the snapshot.
 - Name masking: every piece of publisher text shown in the app (sheet coverage, timeline, source labels, popups, cam captions) goes through `maskNames()`, which applies the safeHead pair detection and swaps name-like pairs for "[name]". Places, orgs, and named events ("Aspen Acres Fire") are kept. Link hrefs are unchanged.
+
+## Console + narrative gap (Oct 2026)
+- Header: rain band (48px canvas, paused when hidden / reduced motion), HUD (feeds, signals/min, incidents, UTC+local clock), ticker (tap pauses; static under reduced motion).
+- NOW segments: ALL / COVERAGE GAP (independent-only) / OFFICIAL ONLY, using `segOf(e)` on `e.cls`.
+- Each card has a coverage-split bar (official/major/independent). The detail sheet has a HEADLINE DIFF per class (masked). The wording only describes which sources reported something; it makes no claims about whether it is true.
